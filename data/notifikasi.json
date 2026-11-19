@@ -1,3 +1,12 @@
 [
-  { "id": "nt1", "nis": "2026001", "nama": "Ahmad Fauzi", "no_hp": "6285111111111", "jenis": "Tagihan", "pesan": "Yth. Orang Tua Ahmad Fauzi, tagihan SPP November 2026 sebesar Rp150.000 belum dibayar. Pembayaran via VA/QRIS di Portal Ortu. Terima kasih. — SMPN 1 Nusantara", "status": "Terkirim", "waktu": "2026-11-17T08:00:00.000Z" }
+  {
+    "id": "nt1",
+    "nis": "2026001",
+    "nama": "Ahmad Fauzi",
+    "no_hp": "6285111111111",
+    "jenis": "Tagihan",
+    "pesan": "Yth. Orang Tua Ahmad Fauzi, tagihan SPP November 2026 sebesar Rp150.000 belum dibayar. Pembayaran via VA/QRIS di Portal Ortu. Terima kasih. — SMPN 1 Nusantara",
+    "status": "Terkirim",
+    "waktu": "2026-11-17T08:00:00.000Z"
+  }
 ]
