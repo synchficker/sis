@@ -1,3 +1,18 @@
 [
-  { "id": "au0", "waktu": "2026-11-19T00:00:00.000Z", "aktor": "sistem", "modul": "Sistem", "aksi": "INIT", "detail": "Data awal (seed) sistem informasi sekolah dibuat." }
+  {
+    "id": "mwnr30novg7lo",
+    "waktu": "2026-11-19T16:14:17.364Z",
+    "aktor": "synchficker",
+    "modul": "Komunikasi",
+    "aksi": "KIRIM NOTIFIKASI",
+    "detail": "Ahmad Fauzi Tagihan"
+  },
+  {
+    "id": "au0",
+    "waktu": "2026-11-19T00:00:00.000Z",
+    "aktor": "sistem",
+    "modul": "Sistem",
+    "aksi": "INIT",
+    "detail": "Data awal (seed) sistem informasi sekolah dibuat."
+  }
 ]
