@@ -1,0 +1,6 @@
+[
+  { "id": "ab1", "tanggal": "2026-11-19", "nis": "2026001", "nama": "Ahmad Fauzi", "kelas": "7A", "status": "Hadir", "metode": "QR", "jam": "06:55" },
+  { "id": "ab2", "tanggal": "2026-11-19", "nis": "2026002", "nama": "Bunga Lestari", "kelas": "7A", "status": "Sakit", "metode": "Manual", "jam": "07:10" },
+  { "id": "ab3", "tanggal": "2026-11-18", "nis": "2026001", "nama": "Ahmad Fauzi", "kelas": "7A", "status": "Hadir", "metode": "QR", "jam": "06:58" },
+  { "id": "ab4", "tanggal": "2026-11-18", "nis": "2025001", "nama": "Citra Ayu Ningsih", "kelas": "8A", "status": "Izin", "metode": "Manual", "jam": "07:05" }
+]

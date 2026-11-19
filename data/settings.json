@@ -1,0 +1,21 @@
+{
+  "nama_sekolah": "SMP Negeri 1 Nusantara",
+  "jenjang": "SMP",
+  "npsn": "20123456",
+  "alamat": "Jl. Pendidikan No. 1, Kec. Cerdas, Kota Nusantara, Jawa Barat",
+  "telepon": "022-123456",
+  "email": "info@smpn1nusantara.sch.id",
+  "kepala_sekolah": "Drs. H. Surya Pranata, M.Pd",
+  "nip_kepsek": "196805121994031007",
+  "tahun_ajaran": "2026/2027",
+  "semester": "Ganjil",
+  "kurikulum": "Merdeka",
+  "kkm": 75,
+  "spp_nominal": 150000,
+  "denda_per_hari": 500,
+  "wa_admin": "6281234567890",
+  "bank": { "nama": "Bank BJB", "va_prefix": "88088", "atas_nama": "SMPN 1 Nusantara" },
+  "qris": { "merchant": "SMPN 1 NUSANTARA", "nmid": "ID1026DEMO001" },
+  "mapel": ["Matematika", "IPA", "IPS", "Bahasa Indonesia", "Bahasa Inggris", "Pendidikan Pancasila", "Informatika", "PJOK", "Seni Budaya", "PAI"],
+  "pengumuman": "Sumatif Tengah Semester Ganjil dimulai 24 November 2026. Peserta CBT wajib membawa kartu QR absensi dan token ujian dari wali kelas."
+}

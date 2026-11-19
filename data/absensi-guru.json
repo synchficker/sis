@@ -1,0 +1,4 @@
+[
+  { "id": "ag1", "tanggal": "2026-11-19", "guru_id": "gr1", "jam_masuk": "06:50", "jam_pulang": "14:00", "status": "Hadir", "catatan": "" },
+  { "id": "ag2", "tanggal": "2026-11-19", "guru_id": "gr2", "jam_masuk": "07:05", "jam_pulang": "14:00", "status": "Hadir", "catatan": "" }
+]

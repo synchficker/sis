@@ -1,0 +1,4 @@
+[
+  { "id": "gj1", "guru_id": "gr1", "nama": "Budi Santoso, S.Pd", "bulan": 10, "tahun": 2026, "pokok": 3500000, "tunjangan": 500000, "potongan": 0, "total": 4000000, "status": "Dibayar", "tanggal_bayar": "2026-10-28" },
+  { "id": "gj2", "guru_id": "gr3", "nama": "Andi Wijaya, S.Kom", "bulan": 11, "tahun": 2026, "pokok": 2500000, "tunjangan": 0, "potongan": 0, "total": 2500000, "status": "Belum", "tanggal_bayar": "" }
+]

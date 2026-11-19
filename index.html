@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem Informasi Sekolah — Halaman Publik</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] } } } };</script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="font-sans bg-slate-50 text-slate-800">
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
+      <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center"><i data-lucide="school" class="w-5 h-5"></i></div>
+      <div class="flex-1 min-w-0">
+        <div id="hNama" class="font-extrabold truncate">Sistem Informasi Sekolah</div>
+        <div id="hNpsn" class="text-xs text-slate-500">NPSN —</div>
+      </div>
+      <nav class="hidden md:flex items-center gap-1 text-sm font-semibold">
+        <a href="ppdb.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">PPDB</a>
+        <a href="belajar.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">Belajar</a>
+        <a href="cbt.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">CBT</a>
+        <a href="portal.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">Portal Ortu</a>
+        <a href="login.html" class="ml-1 px-4 py-2 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 inline-flex items-center gap-1.5"><i data-lucide="key-round" class="w-4 h-4"></i>Login Admin</a>
+      </nav>
+      <a href="login.html" class="md:hidden px-3 py-2 rounded-lg bg-emerald-600 text-white text-sm font-bold">Login</a>
+    </div>
+  </header>
+  <section class="bg-gradient-to-br from-emerald-600 to-teal-700 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-14">
+      <span id="heroJenjang" class="text-xs font-bold bg-white/15 px-3 py-1 rounded-full">SD • SMP • SMA/SMK</span>
+      <h1 id="heroNama" class="mt-3 text-3xl md:text-5xl font-extrabold leading-tight">Selamat Datang di Sekolah Kami</h1>
+      <p id="heroAlamat" class="mt-3 text-emerald-100 max-w-2xl text-sm md:text-base"></p>
+      <div class="mt-6 flex flex-wrap gap-3 text-sm font-bold">
+        <a href="ppdb.html" class="px-5 py-3 rounded-xl bg-white text-emerald-700 hover:bg-emerald-50 inline-flex items-center gap-2"><i data-lucide="user-plus" class="w-4 h-4"></i>Daftar PPDB Online</a>
+        <a href="portal.html" class="px-5 py-3 rounded-xl bg-emerald-500/40 border border-white/30 hover:bg-emerald-500/60 inline-flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i>Portal Orang Tua</a>
+      </div>
+    </div>
+  </section>
+  <div id="pengumuman" class="hidden max-w-6xl mx-auto px-4 mt-6">
+    <div class="bg-amber-50 border border-amber-200 text-amber-800 rounded-xl px-4 py-3 text-sm flex gap-2"><i data-lucide="bell" class="w-4 h-4 mt-0.5 shrink-0"></i><span id="pengumumanTxt"></span></div>
+  </div>
+  <main class="max-w-6xl mx-auto px-4 py-8 space-y-8">
+    <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200">
+      <div class="p-5 border-b border-slate-100 flex flex-wrap items-center gap-3">
+        <div class="flex-1 min-w-[220px]">
+          <h2 class="font-extrabold text-lg flex items-center gap-2"><i data-lucide="users" class="w-5 h-5 text-emerald-600"></i>Data Induk Siswa (Publik)</h2>
+          <p class="text-xs text-slate-500 mt-0.5">Terbuka tanpa login • sumber: <code>data/siswa.json</code> • hanya kolom non-sensitif.</p>
+        </div>
+        <div class="relative">
+          <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-400"></i>
+          <input id="q" placeholder="Cari nama / NIS…" class="pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-lg w-48">
+        </div>
+        <select id="fKelas" class="py-2 px-3 text-sm border border-slate-300 rounded-lg"><option value="">Semua Kelas</option></select>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left">
+          <thead class="bg-slate-50"><tr>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">NIS</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">NISN</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">Nama Lengkap</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">L/P</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">Kelas</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">Status</th>
+          </tr></thead>
+          <tbody id="tb"><tr><td colspan="6" class="px-4 py-10 text-center text-sm text-slate-400">Memuat data…</td></tr></tbody>
+        </table>
+      </div>
+      <div id="jumlah" class="px-5 py-3 text-xs text-slate-500 border-t border-slate-100"></div>
+    </section>
+  </main>
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-xs text-slate-500 flex flex-wrap gap-2 justify-between">
+      <span>© 2026 <span id="fNama">Sekolah</span> — Sistem Informasi Sekolah statis (GitHub Pages).</span>
+      <span class="flex gap-3"><a class="hover:text-emerald-700" href="belajar.html">E-Learning</a><a class="hover:text-emerald-700" href="cbt.html">Ujian CBT</a><a class="hover:text-emerald-700" href="portal.html">Portal Ortu</a></span>
+    </div>
+  </footer>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+  <script>
+    let SISWA = [];
+    const badge = v => '<span class="px-2 py-0.5 rounded-full text-xs font-medium ' + (v === "Aktif" ? "bg-emerald-100 text-emerald-700" : "bg-slate-100 text-slate-600") + '">' + esc(v || "-") + "</span>";
+    function redraw() {
+      const s = document.getElementById("q").value.toLowerCase(), k = document.getElementById("fKelas").value;
+      const rows = SISWA.filter(x => (!k || x.kelas === k) && JSON.stringify(x).toLowerCase().includes(s));
+      document.getElementById("tb").innerHTML = rows.map(x =>
+        '<tr class="border-b border-slate-100 hover:bg-slate-50"><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nis) + '</td><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nisn) + '</td><td class="px-4 py-2.5 text-sm font-semibold">' + esc(x.nama) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.jk) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.kelas) + "</td><td class='px-4 py-2.5'>" + badge(x.status) + "</td></tr>"
+      ).join("") || '<tr><td colspan="6" class="px-4 py-10 text-center text-sm text-slate-400">Tidak ada data.</td></tr>';
+      document.getElementById("jumlah").textContent = rows.length + " siswa ditampilkan • diperbarui otomatis dari repositori GitHub.";
+    }
+    (async () => {
+      try {
+        const st = await fetchJSON("settings.json");
+        ["hNama", "heroNama", "fNama"].forEach(id => document.getElementById(id).textContent = st.nama_sekolah);
+        document.getElementById("hNpsn").textContent = "NPSN " + st.npsn + " • " + st.jenjang;
+        document.getElementById("heroJenjang").textContent = st.jenjang + " • Tahun Ajaran " + st.tahun_ajaran;
+        document.getElementById("heroAlamat").textContent = st.alamat;
+        document.title = st.nama_sekolah + " — Sistem Informasi Sekolah";
+        if (st.pengumuman) { document.getElementById("pengumuman").classList.remove("hidden"); document.getElementById("pengumumanTxt").textContent = st.pengumuman; }
+      } catch (e) {}
+      try {
+        SISWA = await fetchJSON("siswa.json");
+        const kelas = [...new Set(SISWA.map(s => s.kelas))].sort();
+        document.getElementById("fKelas").innerHTML += kelas.map(k => '<option>' + esc(k) + "</option>").join("");
+        redraw();
+        const [guru, buku] = await Promise.all([fetchJSON("guru.json").catch(() => []), fetchJSON("buku.json").catch(() => [])]);
+        const cards = [
+          ["users", "Siswa Terdaftar", SISWA.length, "emerald"], ["briefcase", "Guru & Tendik", guru.length, "sky"],
+          ["school", "Rombel / Kelas", kelas.length, "violet"], ["library", "Koleksi Buku", buku.reduce((a, b) => a + (b.stok || 0), 0), "amber"]
+        ];
+        document.getElementById("stats").innerHTML = cards.map(c =>
+          '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5"><div class="w-9 h-9 rounded-lg bg-' + c[3] + '-100 text-' + c[3] + '-700 flex items-center justify-center mb-3"><i data-lucide="' + c[0] + '" class="w-5 h-5"></i></div><div class="text-2xl font-extrabold">' + c[2] + '</div><div class="text-xs text-slate-500 font-medium">' + c[1] + "</div></div>"
+        ).join("");
+      } catch (e) { document.getElementById("tb").innerHTML = '<tr><td colspan="6" class="px-4 py-10 text-center text-sm text-rose-500">' + esc(e.message) + "</td></tr>"; }
+      refreshIcons();
+    })();
+    document.getElementById("q").oninput = redraw;
+    document.getElementById("fKelas").onchange = redraw;
+  </script>
+</body>
+</html>

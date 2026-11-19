@@ -1,0 +1,5 @@
+[
+  { "id": "kl1", "nama": "7A", "tingkat": "7", "jurusan": "-", "wali_kelas": "gr1", "kapasitas": 32, "tahun_ajaran": "2026/2027" },
+  { "id": "kl2", "nama": "8A", "tingkat": "8", "jurusan": "-", "wali_kelas": "gr2", "kapasitas": 32, "tahun_ajaran": "2026/2027" },
+  { "id": "kl3", "nama": "9A", "tingkat": "9", "jurusan": "-", "wali_kelas": "gr3", "kapasitas": 32, "tahun_ajaran": "2026/2027" }
+]

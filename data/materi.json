@@ -1,0 +1,5 @@
+[
+  { "id": "mr1", "judul": "Aljabar Dasar: Persamaan Linear Satu Variabel", "mapel": "Matematika", "kelas": "7A", "tipe": "Materi", "url": "https://drive.google.com/file/d/CONTOH/view", "tanggal": "2026-11-10", "deskripsi": "Modul PDF konsep persamaan linear, contoh soal, dan latihan mandiri." },
+  { "id": "mr2", "judul": "Video: Memahami Pecahan dengan Mudah", "mapel": "Matematika", "kelas": "7A", "tipe": "Video", "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ", "tanggal": "2026-11-12", "deskripsi": "Video pembelajaran visual tentang pecahan senilai dan operasi pecahan." },
+  { "id": "mr3", "judul": "Artikel: Klasifikasi Makhluk Hidup", "mapel": "IPA", "kelas": "8A", "tipe": "Artikel", "url": "https://id.wikipedia.org/wiki/Klasifikasi_makhluk_hidup", "tanggal": "2026-11-14", "deskripsi": "Bacaan pengayaan sistem klasifikasi 5 kingdom." }
+]

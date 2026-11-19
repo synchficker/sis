@@ -1,0 +1,8 @@
+[
+  { "id": "nl1", "nis": "2026001", "mapel": "Matematika", "jenis": "Formatif", "tp": "TP 1.1 Persamaan Linear", "nilai": 85, "semester": "Ganjil", "tahun_ajaran": "2026/2027" },
+  { "id": "nl2", "nis": "2026001", "mapel": "Matematika", "jenis": "Sumatif", "tp": "Sumatif Bab 1", "nilai": 80, "semester": "Ganjil", "tahun_ajaran": "2026/2027" },
+  { "id": "nl3", "nis": "2026001", "mapel": "IPA", "jenis": "Formatif", "tp": "TP 2.1 Klasifikasi Makhluk Hidup", "nilai": 78, "semester": "Ganjil", "tahun_ajaran": "2026/2027" },
+  { "id": "nl4", "nis": "2026001", "mapel": "Bahasa Indonesia", "jenis": "Sumatif", "tp": "Teks Deskripsi", "nilai": 88, "semester": "Ganjil", "tahun_ajaran": "2026/2027" },
+  { "id": "nl5", "nis": "2026002", "mapel": "Matematika", "jenis": "Formatif", "tp": "TP 1.1 Persamaan Linear", "nilai": 90, "semester": "Ganjil", "tahun_ajaran": "2026/2027" },
+  { "id": "nl6", "nis": "2025001", "mapel": "Matematika", "jenis": "Sumatif", "tp": "Sumatif Bab 1", "nilai": 72, "semester": "Ganjil", "tahun_ajaran": "2026/2027" }
+]

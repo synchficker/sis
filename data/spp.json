@@ -1,0 +1,7 @@
+[
+  { "id": "sp1", "nis": "2026001", "nama": "Ahmad Fauzi", "kelas": "7A", "bulan": 10, "tahun": 2026, "nominal": 150000, "status": "Lunas", "metode": "QRIS", "tanggal_bayar": "2026-10-05", "va": "8808820260011026" },
+  { "id": "sp2", "nis": "2026001", "nama": "Ahmad Fauzi", "kelas": "7A", "bulan": 11, "tahun": 2026, "nominal": 150000, "status": "Belum", "metode": "", "tanggal_bayar": "", "va": "8808820260011126" },
+  { "id": "sp3", "nis": "2026002", "nama": "Bunga Lestari", "kelas": "7A", "bulan": 11, "tahun": 2026, "nominal": 150000, "status": "Belum", "metode": "", "tanggal_bayar": "", "va": "8808820260021126" },
+  { "id": "sp4", "nis": "2025001", "nama": "Citra Ayu Ningsih", "kelas": "8A", "bulan": 10, "tahun": 2026, "nominal": 150000, "status": "Belum", "metode": "", "tanggal_bayar": "", "va": "8808820250011026" },
+  { "id": "sp5", "nis": "2025001", "nama": "Citra Ayu Ningsih", "kelas": "8A", "bulan": 11, "tahun": 2026, "nominal": 150000, "status": "Belum", "metode": "", "tanggal_bayar": "", "va": "8808820250011126" }
+]

@@ -1,0 +1,5 @@
+[
+  { "id": "bs1", "tanggal": "2026-07-08", "jenis": "Penerimaan", "kategori": "BOS Reguler", "uraian": "Pencairan BOS Reguler Tahap II", "jumlah": 45000000, "triwulan": "III", "tahun": 2026 },
+  { "id": "bs2", "tanggal": "2026-08-12", "jenis": "Pengeluaran", "kategori": "Perpustakaan", "uraian": "Pengadaan buku teks Kurikulum Merdeka", "jumlah": 5000000, "triwulan": "III", "tahun": 2026 },
+  { "id": "bs3", "tanggal": "2026-09-25", "jenis": "Pengeluaran", "kategori": "Honor Guru Non-ASN", "uraian": "Honor guru honorer bulan September (2 orang)", "jumlah": 3000000, "triwulan": "III", "tahun": 2026 }
+]

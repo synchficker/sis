@@ -1,0 +1,6 @@
+[
+  { "id": "gr1", "nip": "198503102010011003", "nama": "Budi Santoso, S.Pd", "jk": "L", "jabatan": "Wali Kelas", "mapel": "Matematika", "status": "PNS", "pendidikan": "S1 Pendidikan Matematika", "no_hp": "628111111111", "email": "budi@smpn1nusantara.sch.id", "gaji_pokok": 3500000, "tanggal_masuk": "2010-01-04" },
+  { "id": "gr2", "nip": "198707222011012005", "nama": "Siti Aminah, S.Pd", "jk": "P", "jabatan": "Wali Kelas", "mapel": "Bahasa Indonesia", "status": "PNS", "pendidikan": "S1 Pendidikan Bahasa", "no_hp": "628222222222", "email": "siti@smpn1nusantara.sch.id", "gaji_pokok": 3800000, "tanggal_masuk": "2011-01-03" },
+  { "id": "gr3", "nip": "-", "nama": "Andi Wijaya, S.Kom", "jk": "L", "jabatan": "Wali Kelas", "mapel": "Informatika", "status": "Honorer", "pendidikan": "S1 Ilmu Komputer", "no_hp": "628333333333", "email": "andi@smpn1nusantara.sch.id", "gaji_pokok": 2500000, "tanggal_masuk": "2019-07-01" },
+  { "id": "tu1", "nip": "-", "nama": "Rina Dewi", "jk": "P", "jabatan": "TU", "mapel": "-", "status": "Honorer", "pendidikan": "D3 Administrasi", "no_hp": "628444444444", "email": "rina@smpn1nusantara.sch.id", "gaji_pokok": 2000000, "tanggal_masuk": "2020-01-06" }
+]
