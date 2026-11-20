@@ -1,3 +1,4002 @@
 [
-  { "id": "mt1", "tanggal": "2026-07-15", "nis": "2026002", "jenis": "Masuk", "tujuan_asal": "SD Negeri Melati Cimahi", "keterangan": "Pindah domisili orang tua, dokumen lengkap." }
+  {
+    "id": "M0001",
+    "tanggal": "2027-03-26",
+    "nis": "20260001",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 12 Sumedang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0002",
+    "tanggal": "2027-06-23",
+    "nis": "20260002",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 37 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0003",
+    "tanggal": "2026-10-09",
+    "nis": "20260003",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 31 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0004",
+    "tanggal": "2027-05-02",
+    "nis": "20260004",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 16 Depok",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0005",
+    "tanggal": "2027-06-25",
+    "nis": "20260005",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 16 Banjar",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0006",
+    "tanggal": "2026-08-05",
+    "nis": "20260006",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 8 Majalengka",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0007",
+    "tanggal": "2027-06-15",
+    "nis": "20260007",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 16 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0008",
+    "tanggal": "2027-04-08",
+    "nis": "20260008",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 2 Banjar",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0009",
+    "tanggal": "2027-06-18",
+    "nis": "20260009",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 1 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0010",
+    "tanggal": "2026-07-23",
+    "nis": "20260010",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 4 Cirebon",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0011",
+    "tanggal": "2026-11-02",
+    "nis": "20260011",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 24 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0012",
+    "tanggal": "2026-09-18",
+    "nis": "20260012",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 26 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0013",
+    "tanggal": "2027-03-04",
+    "nis": "20260013",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 5 Bekasi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0014",
+    "tanggal": "2027-01-16",
+    "nis": "20260014",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 16 Sumedang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0015",
+    "tanggal": "2027-03-03",
+    "nis": "20260015",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 2 Garut",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0016",
+    "tanggal": "2026-11-05",
+    "nis": "20260016",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 9 Cimahi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0017",
+    "tanggal": "2027-06-12",
+    "nis": "20260017",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 38 Purwakarta",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0018",
+    "tanggal": "2026-12-10",
+    "nis": "20260018",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 31 Bekasi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0019",
+    "tanggal": "2026-12-23",
+    "nis": "20260019",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 11 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0020",
+    "tanggal": "2027-04-18",
+    "nis": "20260020",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 22 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0021",
+    "tanggal": "2027-03-16",
+    "nis": "20260021",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 13 Majalengka",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0022",
+    "tanggal": "2026-08-14",
+    "nis": "20260022",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 17 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0023",
+    "tanggal": "2026-07-30",
+    "nis": "20260023",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 9 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0024",
+    "tanggal": "2027-05-30",
+    "nis": "20260024",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 21 Bandung",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0025",
+    "tanggal": "2026-07-30",
+    "nis": "20260025",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 40 Subang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0026",
+    "tanggal": "2027-01-09",
+    "nis": "20260026",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 19 Subang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0027",
+    "tanggal": "2026-12-19",
+    "nis": "20260027",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 30 Indramayu",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0028",
+    "tanggal": "2027-06-11",
+    "nis": "20260028",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 37 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0029",
+    "tanggal": "2026-08-17",
+    "nis": "20260029",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 35 Majalengka",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0030",
+    "tanggal": "2027-04-29",
+    "nis": "20260030",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 3 Bogor",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0031",
+    "tanggal": "2027-05-08",
+    "nis": "20260031",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 40 Cimahi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0032",
+    "tanggal": "2026-12-17",
+    "nis": "20260032",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 13 Depok",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0033",
+    "tanggal": "2027-02-23",
+    "nis": "20260033",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 20 Garut",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0034",
+    "tanggal": "2026-08-04",
+    "nis": "20260034",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 17 Indramayu",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0035",
+    "tanggal": "2026-10-19",
+    "nis": "20260035",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 14 Indramayu",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0036",
+    "tanggal": "2027-04-21",
+    "nis": "20260036",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 14 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0037",
+    "tanggal": "2027-04-06",
+    "nis": "20260037",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 2 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0038",
+    "tanggal": "2027-04-19",
+    "nis": "20260038",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 11 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0039",
+    "tanggal": "2026-10-12",
+    "nis": "20260039",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 21 Bogor",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0040",
+    "tanggal": "2027-06-23",
+    "nis": "20260040",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 40 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0041",
+    "tanggal": "2026-08-08",
+    "nis": "20260041",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 37 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0042",
+    "tanggal": "2027-06-24",
+    "nis": "20260042",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 2 Majalengka",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0043",
+    "tanggal": "2026-08-06",
+    "nis": "20260043",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 15 Sukabumi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0044",
+    "tanggal": "2027-06-25",
+    "nis": "20260044",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 19 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0045",
+    "tanggal": "2026-09-05",
+    "nis": "20260045",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 11 Kuningan",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0046",
+    "tanggal": "2026-11-17",
+    "nis": "20260046",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 31 Cirebon",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0047",
+    "tanggal": "2027-05-27",
+    "nis": "20260047",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 17 Indramayu",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0048",
+    "tanggal": "2027-03-19",
+    "nis": "20260048",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 28 Cimahi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0049",
+    "tanggal": "2026-10-12",
+    "nis": "20260049",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 26 Bogor",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0050",
+    "tanggal": "2027-04-30",
+    "nis": "20260050",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 19 Cirebon",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0051",
+    "tanggal": "2026-09-05",
+    "nis": "20260051",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 9 Depok",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0052",
+    "tanggal": "2026-09-25",
+    "nis": "20260052",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 19 Cimahi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0053",
+    "tanggal": "2026-07-15",
+    "nis": "20260053",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 37 Indramayu",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0054",
+    "tanggal": "2026-12-24",
+    "nis": "20260054",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 29 Tasikmalaya",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0055",
+    "tanggal": "2026-11-15",
+    "nis": "20260055",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 34 Depok",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0056",
+    "tanggal": "2026-08-02",
+    "nis": "20260056",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 34 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0057",
+    "tanggal": "2027-06-22",
+    "nis": "20260057",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 28 Karawang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0058",
+    "tanggal": "2027-05-04",
+    "nis": "20260058",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 13 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0059",
+    "tanggal": "2027-06-01",
+    "nis": "20260059",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 36 Pangandaran",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0060",
+    "tanggal": "2027-06-14",
+    "nis": "20260060",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 17 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0061",
+    "tanggal": "2027-01-22",
+    "nis": "20260061",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 22 Indramayu",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0062",
+    "tanggal": "2027-04-22",
+    "nis": "20260062",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 35 Sumedang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0063",
+    "tanggal": "2027-03-30",
+    "nis": "20260063",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 11 Cimahi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0064",
+    "tanggal": "2026-12-09",
+    "nis": "20260064",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 13 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0065",
+    "tanggal": "2027-01-21",
+    "nis": "20260065",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 37 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0066",
+    "tanggal": "2026-07-27",
+    "nis": "20260066",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 19 Depok",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0067",
+    "tanggal": "2026-10-06",
+    "nis": "20260067",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 28 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0068",
+    "tanggal": "2026-08-01",
+    "nis": "20260068",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 10 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0069",
+    "tanggal": "2027-06-18",
+    "nis": "20260069",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 31 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0070",
+    "tanggal": "2027-02-24",
+    "nis": "20260070",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 29 Pangandaran",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0071",
+    "tanggal": "2026-09-10",
+    "nis": "20260071",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 32 Majalengka",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0072",
+    "tanggal": "2026-12-12",
+    "nis": "20260072",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 21 Pangandaran",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0073",
+    "tanggal": "2027-02-11",
+    "nis": "20260073",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 14 Sukabumi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0074",
+    "tanggal": "2027-05-02",
+    "nis": "20260074",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 4 Purwakarta",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0075",
+    "tanggal": "2026-08-01",
+    "nis": "20260075",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 28 Sumedang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0076",
+    "tanggal": "2026-12-21",
+    "nis": "20260076",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 33 Indramayu",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0077",
+    "tanggal": "2027-02-11",
+    "nis": "20260077",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 18 Sumedang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0078",
+    "tanggal": "2027-04-28",
+    "nis": "20260078",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 18 Cirebon",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0079",
+    "tanggal": "2027-02-26",
+    "nis": "20260079",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 2 Banjar",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0080",
+    "tanggal": "2026-10-14",
+    "nis": "20260080",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 28 Bekasi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0081",
+    "tanggal": "2027-03-18",
+    "nis": "20260081",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 24 Garut",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0082",
+    "tanggal": "2027-04-24",
+    "nis": "20260082",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 13 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0083",
+    "tanggal": "2026-10-04",
+    "nis": "20260083",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 16 Subang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0084",
+    "tanggal": "2026-08-28",
+    "nis": "20260084",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 28 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0085",
+    "tanggal": "2027-02-22",
+    "nis": "20260085",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 38 Purwakarta",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0086",
+    "tanggal": "2026-11-03",
+    "nis": "20260086",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 34 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0087",
+    "tanggal": "2027-05-17",
+    "nis": "20260087",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 17 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0088",
+    "tanggal": "2027-04-12",
+    "nis": "20260088",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 17 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0089",
+    "tanggal": "2026-08-10",
+    "nis": "20260089",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 28 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0090",
+    "tanggal": "2026-07-24",
+    "nis": "20260090",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 17 Bekasi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0091",
+    "tanggal": "2026-09-08",
+    "nis": "20260091",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 18 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0092",
+    "tanggal": "2027-02-16",
+    "nis": "20260092",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 7 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0093",
+    "tanggal": "2027-02-05",
+    "nis": "20260093",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 22 Pangandaran",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0094",
+    "tanggal": "2027-05-12",
+    "nis": "20260094",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 39 Sumedang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0095",
+    "tanggal": "2027-03-26",
+    "nis": "20260095",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 10 Depok",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0096",
+    "tanggal": "2027-04-18",
+    "nis": "20260096",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 37 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0097",
+    "tanggal": "2027-01-09",
+    "nis": "20260097",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 22 Bekasi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0098",
+    "tanggal": "2026-12-01",
+    "nis": "20260098",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 17 Bandung",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0099",
+    "tanggal": "2026-09-07",
+    "nis": "20260099",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 5 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0100",
+    "tanggal": "2026-10-02",
+    "nis": "20260100",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 29 Bandung",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0101",
+    "tanggal": "2027-05-24",
+    "nis": "20260101",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 5 Depok",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0102",
+    "tanggal": "2026-12-23",
+    "nis": "20260102",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 8 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0103",
+    "tanggal": "2026-10-10",
+    "nis": "20260103",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 3 Indramayu",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0104",
+    "tanggal": "2026-12-09",
+    "nis": "20260104",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 16 Tasikmalaya",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0105",
+    "tanggal": "2026-10-19",
+    "nis": "20260105",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 24 Sumedang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0106",
+    "tanggal": "2027-01-10",
+    "nis": "20260106",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 3 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0107",
+    "tanggal": "2027-03-02",
+    "nis": "20260107",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 39 Cirebon",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0108",
+    "tanggal": "2026-09-05",
+    "nis": "20260108",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 4 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0109",
+    "tanggal": "2027-05-14",
+    "nis": "20260109",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 32 Tasikmalaya",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0110",
+    "tanggal": "2026-12-16",
+    "nis": "20260110",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 27 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0111",
+    "tanggal": "2026-12-15",
+    "nis": "20260111",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 20 Indramayu",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0112",
+    "tanggal": "2027-02-08",
+    "nis": "20260112",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 38 Purwakarta",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0113",
+    "tanggal": "2026-07-23",
+    "nis": "20260113",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 27 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0114",
+    "tanggal": "2026-09-09",
+    "nis": "20260114",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 37 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0115",
+    "tanggal": "2026-07-23",
+    "nis": "20260115",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 20 Banjar",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0116",
+    "tanggal": "2027-03-14",
+    "nis": "20260116",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 21 Sukabumi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0117",
+    "tanggal": "2026-08-03",
+    "nis": "20260117",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 19 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0118",
+    "tanggal": "2026-12-31",
+    "nis": "20260118",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 27 Sumedang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0119",
+    "tanggal": "2026-08-27",
+    "nis": "20260119",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 7 Kuningan",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0120",
+    "tanggal": "2027-06-25",
+    "nis": "20260120",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 23 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0121",
+    "tanggal": "2027-01-27",
+    "nis": "20260121",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 33 Sukabumi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0122",
+    "tanggal": "2027-02-07",
+    "nis": "20260122",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 12 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0123",
+    "tanggal": "2027-04-30",
+    "nis": "20260123",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 26 Garut",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0124",
+    "tanggal": "2026-10-22",
+    "nis": "20260124",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 38 Sumedang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0125",
+    "tanggal": "2027-02-05",
+    "nis": "20260125",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 34 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0126",
+    "tanggal": "2026-11-12",
+    "nis": "20260126",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 21 Garut",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0127",
+    "tanggal": "2026-08-16",
+    "nis": "20260127",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 26 Bogor",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0128",
+    "tanggal": "2026-11-24",
+    "nis": "20260128",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 38 Banjar",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0129",
+    "tanggal": "2027-03-31",
+    "nis": "20260129",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 6 Majalengka",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0130",
+    "tanggal": "2027-05-14",
+    "nis": "20260130",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 21 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0131",
+    "tanggal": "2026-11-02",
+    "nis": "20260131",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 28 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0132",
+    "tanggal": "2026-11-11",
+    "nis": "20260132",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 28 Garut",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0133",
+    "tanggal": "2026-10-28",
+    "nis": "20260133",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 28 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0134",
+    "tanggal": "2026-12-02",
+    "nis": "20260134",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 25 Purwakarta",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0135",
+    "tanggal": "2026-10-02",
+    "nis": "20260135",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 40 Bandung",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0136",
+    "tanggal": "2026-07-24",
+    "nis": "20260136",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 36 Depok",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0137",
+    "tanggal": "2027-02-07",
+    "nis": "20260137",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 19 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0138",
+    "tanggal": "2026-07-21",
+    "nis": "20260138",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 29 Subang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0139",
+    "tanggal": "2027-01-04",
+    "nis": "20260139",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 33 Bandung",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0140",
+    "tanggal": "2026-10-17",
+    "nis": "20260140",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 9 Bekasi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0141",
+    "tanggal": "2026-12-21",
+    "nis": "20260141",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 16 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0142",
+    "tanggal": "2027-06-10",
+    "nis": "20260142",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 11 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0143",
+    "tanggal": "2026-08-20",
+    "nis": "20260143",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 18 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0144",
+    "tanggal": "2026-08-22",
+    "nis": "20260144",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 35 Purwakarta",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0145",
+    "tanggal": "2027-04-19",
+    "nis": "20260145",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 11 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0146",
+    "tanggal": "2027-05-14",
+    "nis": "20260146",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 31 Banjar",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0147",
+    "tanggal": "2026-09-30",
+    "nis": "20260147",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 18 Bogor",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0148",
+    "tanggal": "2027-03-31",
+    "nis": "20260148",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 24 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0149",
+    "tanggal": "2027-02-12",
+    "nis": "20260149",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 31 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0150",
+    "tanggal": "2026-07-20",
+    "nis": "20260150",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 21 Indramayu",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0151",
+    "tanggal": "2026-07-27",
+    "nis": "20260151",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 14 Purwakarta",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0152",
+    "tanggal": "2027-01-11",
+    "nis": "20260152",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 40 Sumedang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0153",
+    "tanggal": "2026-11-30",
+    "nis": "20260153",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 7 Bogor",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0154",
+    "tanggal": "2027-01-08",
+    "nis": "20260154",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 28 Tasikmalaya",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0155",
+    "tanggal": "2026-11-08",
+    "nis": "20260155",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 26 Indramayu",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0156",
+    "tanggal": "2027-03-19",
+    "nis": "20260156",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 29 Bekasi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0157",
+    "tanggal": "2026-08-03",
+    "nis": "20260157",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 30 Purwakarta",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0158",
+    "tanggal": "2026-10-26",
+    "nis": "20260158",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 22 Tasikmalaya",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0159",
+    "tanggal": "2027-04-01",
+    "nis": "20260159",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 32 Purwakarta",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0160",
+    "tanggal": "2026-11-26",
+    "nis": "20260160",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 3 Tasikmalaya",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0161",
+    "tanggal": "2026-09-14",
+    "nis": "20260161",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 39 Pangandaran",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0162",
+    "tanggal": "2027-05-14",
+    "nis": "20260162",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 37 Tasikmalaya",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0163",
+    "tanggal": "2027-01-08",
+    "nis": "20260163",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 18 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0164",
+    "tanggal": "2027-02-23",
+    "nis": "20260164",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 33 Purwakarta",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0165",
+    "tanggal": "2027-03-11",
+    "nis": "20260165",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 17 Purwakarta",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0166",
+    "tanggal": "2026-09-28",
+    "nis": "20260166",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 32 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0167",
+    "tanggal": "2027-06-22",
+    "nis": "20260167",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 32 Tasikmalaya",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0168",
+    "tanggal": "2027-03-29",
+    "nis": "20260168",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 27 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0169",
+    "tanggal": "2026-10-23",
+    "nis": "20260169",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 23 Banjar",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0170",
+    "tanggal": "2027-04-26",
+    "nis": "20260170",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 23 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0171",
+    "tanggal": "2027-03-11",
+    "nis": "20260171",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 4 Purwakarta",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0172",
+    "tanggal": "2026-12-01",
+    "nis": "20260172",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 17 Depok",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0173",
+    "tanggal": "2027-06-11",
+    "nis": "20260173",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 36 Kuningan",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0174",
+    "tanggal": "2027-05-11",
+    "nis": "20260174",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 30 Pangandaran",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0175",
+    "tanggal": "2026-11-22",
+    "nis": "20260175",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 26 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0176",
+    "tanggal": "2027-03-22",
+    "nis": "20260176",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 3 Bandung",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0177",
+    "tanggal": "2027-04-23",
+    "nis": "20260177",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 23 Purwakarta",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0178",
+    "tanggal": "2026-11-17",
+    "nis": "20260178",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 24 Banjar",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0179",
+    "tanggal": "2026-11-28",
+    "nis": "20260179",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 11 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0180",
+    "tanggal": "2026-11-01",
+    "nis": "20260180",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 12 Subang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0181",
+    "tanggal": "2027-06-26",
+    "nis": "20260181",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 2 Kuningan",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0182",
+    "tanggal": "2027-05-05",
+    "nis": "20260182",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 1 Pangandaran",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0183",
+    "tanggal": "2026-07-16",
+    "nis": "20260183",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 22 Bekasi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0184",
+    "tanggal": "2026-09-02",
+    "nis": "20260184",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 8 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0185",
+    "tanggal": "2026-11-25",
+    "nis": "20260185",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 30 Pangandaran",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0186",
+    "tanggal": "2027-01-14",
+    "nis": "20260186",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 23 Cirebon",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0187",
+    "tanggal": "2027-05-24",
+    "nis": "20260187",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 12 Banjar",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0188",
+    "tanggal": "2027-05-09",
+    "nis": "20260188",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 34 Majalengka",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0189",
+    "tanggal": "2027-02-04",
+    "nis": "20260189",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 9 Bogor",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0190",
+    "tanggal": "2027-03-26",
+    "nis": "20260190",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 24 Karawang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0191",
+    "tanggal": "2026-10-31",
+    "nis": "20260191",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 36 Kuningan",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0192",
+    "tanggal": "2026-10-08",
+    "nis": "20260192",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 3 Bandung",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0193",
+    "tanggal": "2027-06-14",
+    "nis": "20260193",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 22 Garut",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0194",
+    "tanggal": "2026-09-05",
+    "nis": "20260194",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 30 Bekasi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0195",
+    "tanggal": "2027-03-19",
+    "nis": "20260195",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 31 Bandung",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0196",
+    "tanggal": "2027-01-01",
+    "nis": "20260196",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 10 Indramayu",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0197",
+    "tanggal": "2026-10-30",
+    "nis": "20260197",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 6 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0198",
+    "tanggal": "2026-09-05",
+    "nis": "20260198",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 36 Bekasi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0199",
+    "tanggal": "2027-01-15",
+    "nis": "20260199",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 20 Garut",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0200",
+    "tanggal": "2027-02-10",
+    "nis": "20260200",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 9 Banjar",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0201",
+    "tanggal": "2026-07-25",
+    "nis": "20260201",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 11 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0202",
+    "tanggal": "2026-09-08",
+    "nis": "20260202",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 25 Cimahi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0203",
+    "tanggal": "2026-09-24",
+    "nis": "20260203",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 32 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0204",
+    "tanggal": "2027-04-13",
+    "nis": "20260204",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 33 Pangandaran",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0205",
+    "tanggal": "2027-06-16",
+    "nis": "20260205",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 30 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0206",
+    "tanggal": "2027-06-25",
+    "nis": "20260206",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 33 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0207",
+    "tanggal": "2027-02-26",
+    "nis": "20260207",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 20 Purwakarta",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0208",
+    "tanggal": "2027-01-20",
+    "nis": "20260208",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 25 Indramayu",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0209",
+    "tanggal": "2027-01-13",
+    "nis": "20260209",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 28 Cimahi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0210",
+    "tanggal": "2026-11-13",
+    "nis": "20260210",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 21 Indramayu",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0211",
+    "tanggal": "2027-04-06",
+    "nis": "20260211",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 3 Subang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0212",
+    "tanggal": "2027-05-15",
+    "nis": "20260212",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 20 Bekasi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0213",
+    "tanggal": "2027-02-06",
+    "nis": "20260213",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 24 Majalengka",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0214",
+    "tanggal": "2026-10-11",
+    "nis": "20260214",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 9 Majalengka",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0215",
+    "tanggal": "2027-06-16",
+    "nis": "20260215",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 17 Purwakarta",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0216",
+    "tanggal": "2026-11-22",
+    "nis": "20260216",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 1 Bogor",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0217",
+    "tanggal": "2026-10-16",
+    "nis": "20260217",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 22 Tasikmalaya",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0218",
+    "tanggal": "2027-05-17",
+    "nis": "20260218",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 3 Sukabumi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0219",
+    "tanggal": "2026-07-27",
+    "nis": "20260219",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 20 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0220",
+    "tanggal": "2026-11-09",
+    "nis": "20260220",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 23 Garut",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0221",
+    "tanggal": "2026-09-02",
+    "nis": "20260221",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 40 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0222",
+    "tanggal": "2027-01-26",
+    "nis": "20260222",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 2 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0223",
+    "tanggal": "2027-05-31",
+    "nis": "20260223",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 3 Subang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0224",
+    "tanggal": "2027-01-04",
+    "nis": "20260224",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 4 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0225",
+    "tanggal": "2026-10-03",
+    "nis": "20260225",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 33 Cimahi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0226",
+    "tanggal": "2027-01-04",
+    "nis": "20260226",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 4 Banjar",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0227",
+    "tanggal": "2026-07-31",
+    "nis": "20260227",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 23 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0228",
+    "tanggal": "2026-11-11",
+    "nis": "20260228",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 38 Bandung",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0229",
+    "tanggal": "2026-09-04",
+    "nis": "20260229",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 38 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0230",
+    "tanggal": "2027-04-30",
+    "nis": "20260230",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 4 Sumedang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0231",
+    "tanggal": "2026-09-21",
+    "nis": "20260231",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 1 Pangandaran",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0232",
+    "tanggal": "2027-02-02",
+    "nis": "20260232",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 1 Indramayu",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0233",
+    "tanggal": "2027-02-09",
+    "nis": "20260233",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 13 Sumedang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0234",
+    "tanggal": "2027-01-01",
+    "nis": "20260234",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 27 Bekasi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0235",
+    "tanggal": "2027-05-07",
+    "nis": "20260235",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 28 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0236",
+    "tanggal": "2027-01-14",
+    "nis": "20260236",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 29 Indramayu",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0237",
+    "tanggal": "2026-09-28",
+    "nis": "20260237",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 20 Bogor",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0238",
+    "tanggal": "2026-08-04",
+    "nis": "20260238",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 15 Banjar",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0239",
+    "tanggal": "2027-06-18",
+    "nis": "20260239",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 22 Bekasi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0240",
+    "tanggal": "2026-10-18",
+    "nis": "20260240",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 13 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0241",
+    "tanggal": "2026-12-15",
+    "nis": "20260241",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 5 Garut",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0242",
+    "tanggal": "2027-05-09",
+    "nis": "20260242",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 5 Depok",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0243",
+    "tanggal": "2026-07-31",
+    "nis": "20260243",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 28 Banjar",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0244",
+    "tanggal": "2026-09-16",
+    "nis": "20260244",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 8 Cirebon",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0245",
+    "tanggal": "2026-12-01",
+    "nis": "20260245",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 16 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0246",
+    "tanggal": "2027-04-15",
+    "nis": "20260246",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 26 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0247",
+    "tanggal": "2026-09-13",
+    "nis": "20260247",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 9 Cimahi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0248",
+    "tanggal": "2026-10-06",
+    "nis": "20260248",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 19 Sukabumi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0249",
+    "tanggal": "2026-12-29",
+    "nis": "20260249",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 28 Cimahi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0250",
+    "tanggal": "2027-02-11",
+    "nis": "20260250",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 39 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0251",
+    "tanggal": "2026-10-14",
+    "nis": "20260251",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 11 Subang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0252",
+    "tanggal": "2027-06-18",
+    "nis": "20260252",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 8 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0253",
+    "tanggal": "2026-08-14",
+    "nis": "20260253",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 31 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0254",
+    "tanggal": "2026-12-03",
+    "nis": "20260254",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 6 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0255",
+    "tanggal": "2027-03-14",
+    "nis": "20260255",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 21 Cimahi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0256",
+    "tanggal": "2026-10-20",
+    "nis": "20260256",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 15 Sumedang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0257",
+    "tanggal": "2027-02-25",
+    "nis": "20260257",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 5 Bogor",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0258",
+    "tanggal": "2026-08-04",
+    "nis": "20260258",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 14 Karawang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0259",
+    "tanggal": "2027-02-03",
+    "nis": "20260259",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 34 Purwakarta",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0260",
+    "tanggal": "2026-09-24",
+    "nis": "20260260",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 3 Purwakarta",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0261",
+    "tanggal": "2026-11-06",
+    "nis": "20260261",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 30 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0262",
+    "tanggal": "2027-04-29",
+    "nis": "20260262",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 38 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0263",
+    "tanggal": "2027-05-20",
+    "nis": "20260263",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 12 Garut",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0264",
+    "tanggal": "2026-10-03",
+    "nis": "20260264",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 3 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0265",
+    "tanggal": "2026-11-09",
+    "nis": "20260265",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 1 Bekasi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0266",
+    "tanggal": "2026-11-11",
+    "nis": "20260266",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 36 Bandung",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0267",
+    "tanggal": "2026-11-23",
+    "nis": "20260267",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 29 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0268",
+    "tanggal": "2026-09-26",
+    "nis": "20260268",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 10 Pangandaran",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0269",
+    "tanggal": "2027-04-01",
+    "nis": "20260269",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 7 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0270",
+    "tanggal": "2027-06-03",
+    "nis": "20260270",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 29 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0271",
+    "tanggal": "2026-12-31",
+    "nis": "20260271",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 14 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0272",
+    "tanggal": "2026-08-01",
+    "nis": "20260272",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 34 Cimahi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0273",
+    "tanggal": "2026-10-11",
+    "nis": "20260273",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 37 Bogor",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0274",
+    "tanggal": "2026-10-15",
+    "nis": "20260274",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 24 Indramayu",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0275",
+    "tanggal": "2027-03-23",
+    "nis": "20260275",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 33 Banjar",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0276",
+    "tanggal": "2026-11-05",
+    "nis": "20260276",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 1 Cirebon",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0277",
+    "tanggal": "2027-01-12",
+    "nis": "20260277",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 9 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0278",
+    "tanggal": "2026-12-20",
+    "nis": "20260278",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 33 Cimahi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0279",
+    "tanggal": "2026-12-21",
+    "nis": "20260279",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 23 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0280",
+    "tanggal": "2027-01-05",
+    "nis": "20260280",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 12 Bekasi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0281",
+    "tanggal": "2027-03-08",
+    "nis": "20260281",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 40 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0282",
+    "tanggal": "2027-06-19",
+    "nis": "20260282",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 20 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0283",
+    "tanggal": "2027-06-21",
+    "nis": "20260283",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 33 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0284",
+    "tanggal": "2026-08-05",
+    "nis": "20260284",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 28 Cimahi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0285",
+    "tanggal": "2027-04-07",
+    "nis": "20260285",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 18 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0286",
+    "tanggal": "2027-02-15",
+    "nis": "20260286",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 23 Bogor",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0287",
+    "tanggal": "2027-05-08",
+    "nis": "20260287",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 10 Kuningan",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0288",
+    "tanggal": "2027-04-10",
+    "nis": "20260288",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 35 Banjar",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0289",
+    "tanggal": "2026-10-21",
+    "nis": "20260289",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 19 Bekasi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0290",
+    "tanggal": "2026-11-28",
+    "nis": "20260290",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 19 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0291",
+    "tanggal": "2026-11-24",
+    "nis": "20260291",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 5 Bekasi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0292",
+    "tanggal": "2026-12-04",
+    "nis": "20260292",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 28 Bekasi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0293",
+    "tanggal": "2026-10-19",
+    "nis": "20260293",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 27 Majalengka",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0294",
+    "tanggal": "2026-10-14",
+    "nis": "20260294",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 24 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0295",
+    "tanggal": "2027-01-02",
+    "nis": "20260295",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 16 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0296",
+    "tanggal": "2026-12-21",
+    "nis": "20260296",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 16 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0297",
+    "tanggal": "2027-02-01",
+    "nis": "20260297",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 9 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0298",
+    "tanggal": "2027-01-29",
+    "nis": "20260298",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 36 Cimahi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0299",
+    "tanggal": "2027-03-27",
+    "nis": "20260299",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 4 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0300",
+    "tanggal": "2027-04-29",
+    "nis": "20260300",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 20 Banjar",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0301",
+    "tanggal": "2026-10-18",
+    "nis": "20260301",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 13 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0302",
+    "tanggal": "2027-05-31",
+    "nis": "20260302",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 37 Bekasi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0303",
+    "tanggal": "2026-08-22",
+    "nis": "20260303",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 21 Purwakarta",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0304",
+    "tanggal": "2027-01-04",
+    "nis": "20260304",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 40 Indramayu",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0305",
+    "tanggal": "2027-04-04",
+    "nis": "20260305",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 36 Banjar",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0306",
+    "tanggal": "2026-12-24",
+    "nis": "20260306",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 4 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0307",
+    "tanggal": "2026-08-23",
+    "nis": "20260307",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 25 Depok",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0308",
+    "tanggal": "2026-09-09",
+    "nis": "20260308",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 6 Indramayu",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0309",
+    "tanggal": "2026-10-25",
+    "nis": "20260309",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 14 Subang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0310",
+    "tanggal": "2027-01-24",
+    "nis": "20260310",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 31 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0311",
+    "tanggal": "2027-04-21",
+    "nis": "20260311",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 32 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0312",
+    "tanggal": "2026-10-29",
+    "nis": "20260312",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 35 Cimahi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0313",
+    "tanggal": "2026-11-10",
+    "nis": "20260313",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 39 Pangandaran",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0314",
+    "tanggal": "2027-01-14",
+    "nis": "20260314",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 9 Depok",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0315",
+    "tanggal": "2026-11-28",
+    "nis": "20260315",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 39 Sumedang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0316",
+    "tanggal": "2027-05-09",
+    "nis": "20260316",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 20 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0317",
+    "tanggal": "2027-05-11",
+    "nis": "20260317",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 31 Indramayu",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0318",
+    "tanggal": "2026-07-23",
+    "nis": "20260318",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 13 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0319",
+    "tanggal": "2027-03-26",
+    "nis": "20260319",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 33 Banjar",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0320",
+    "tanggal": "2027-04-15",
+    "nis": "20260320",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 30 Garut",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0321",
+    "tanggal": "2026-08-25",
+    "nis": "20260321",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 34 Garut",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0322",
+    "tanggal": "2026-10-03",
+    "nis": "20260322",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 39 Tasikmalaya",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0323",
+    "tanggal": "2026-10-15",
+    "nis": "20260323",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 21 Pangandaran",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0324",
+    "tanggal": "2026-12-28",
+    "nis": "20260324",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 28 Bandung",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0325",
+    "tanggal": "2027-04-05",
+    "nis": "20260325",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 26 Subang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0326",
+    "tanggal": "2026-10-07",
+    "nis": "20260326",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 39 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0327",
+    "tanggal": "2026-11-08",
+    "nis": "20260327",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 7 Subang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0328",
+    "tanggal": "2027-02-21",
+    "nis": "20260328",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 33 Karawang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0329",
+    "tanggal": "2027-05-23",
+    "nis": "20260329",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 26 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0330",
+    "tanggal": "2026-12-08",
+    "nis": "20260330",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 29 Purwakarta",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0331",
+    "tanggal": "2027-04-18",
+    "nis": "20260331",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 35 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0332",
+    "tanggal": "2027-05-04",
+    "nis": "20260332",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 21 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0333",
+    "tanggal": "2026-08-08",
+    "nis": "20260333",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 21 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0334",
+    "tanggal": "2027-03-16",
+    "nis": "20260334",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 3 Cimahi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0335",
+    "tanggal": "2026-12-23",
+    "nis": "20260335",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 23 Sumedang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0336",
+    "tanggal": "2026-07-29",
+    "nis": "20260336",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 1 Sumedang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0337",
+    "tanggal": "2026-10-25",
+    "nis": "20260337",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 9 Garut",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0338",
+    "tanggal": "2026-11-10",
+    "nis": "20260338",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 24 Majalengka",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0339",
+    "tanggal": "2027-05-27",
+    "nis": "20260339",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 2 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0340",
+    "tanggal": "2026-10-16",
+    "nis": "20260340",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 27 Depok",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0341",
+    "tanggal": "2027-05-29",
+    "nis": "20260341",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 13 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0342",
+    "tanggal": "2027-01-22",
+    "nis": "20260342",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 15 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0343",
+    "tanggal": "2026-11-02",
+    "nis": "20260343",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 19 Bekasi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0344",
+    "tanggal": "2026-12-13",
+    "nis": "20260344",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 1 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0345",
+    "tanggal": "2027-02-07",
+    "nis": "20260345",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 19 Garut",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0346",
+    "tanggal": "2026-10-25",
+    "nis": "20260346",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 23 Purwakarta",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0347",
+    "tanggal": "2027-06-16",
+    "nis": "20260347",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 33 Banjar",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0348",
+    "tanggal": "2027-04-24",
+    "nis": "20260348",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 29 Subang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0349",
+    "tanggal": "2027-03-05",
+    "nis": "20260349",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 8 Sumedang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0350",
+    "tanggal": "2027-05-27",
+    "nis": "20260350",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 26 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0351",
+    "tanggal": "2027-03-30",
+    "nis": "20260351",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 24 Subang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0352",
+    "tanggal": "2027-05-06",
+    "nis": "20260352",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 13 Depok",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0353",
+    "tanggal": "2027-04-26",
+    "nis": "20260353",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 16 Cirebon",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0354",
+    "tanggal": "2026-07-19",
+    "nis": "20260354",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 19 Cirebon",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0355",
+    "tanggal": "2027-01-29",
+    "nis": "20260355",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 11 Garut",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0356",
+    "tanggal": "2027-03-10",
+    "nis": "20260356",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 6 Majalengka",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0357",
+    "tanggal": "2026-08-07",
+    "nis": "20260357",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 16 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0358",
+    "tanggal": "2027-05-08",
+    "nis": "20260358",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 28 Banjar",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0359",
+    "tanggal": "2027-01-17",
+    "nis": "20260359",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 4 Bandung",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0360",
+    "tanggal": "2027-04-23",
+    "nis": "20260360",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 36 Sumedang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0361",
+    "tanggal": "2026-07-26",
+    "nis": "20260361",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 36 Cimahi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0362",
+    "tanggal": "2026-07-26",
+    "nis": "20260362",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 36 Cimahi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0363",
+    "tanggal": "2026-11-14",
+    "nis": "20260363",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 22 Garut",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0364",
+    "tanggal": "2027-05-18",
+    "nis": "20260364",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 32 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0365",
+    "tanggal": "2027-05-25",
+    "nis": "20260365",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 18 Cimahi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0366",
+    "tanggal": "2027-05-10",
+    "nis": "20260366",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 18 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0367",
+    "tanggal": "2026-12-31",
+    "nis": "20260367",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 11 Majalengka",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0368",
+    "tanggal": "2027-06-10",
+    "nis": "20260368",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 35 Karawang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0369",
+    "tanggal": "2026-07-16",
+    "nis": "20260369",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 12 Cimahi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0370",
+    "tanggal": "2026-08-30",
+    "nis": "20260370",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 18 Pangandaran",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0371",
+    "tanggal": "2027-04-19",
+    "nis": "20260371",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 26 Sukabumi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0372",
+    "tanggal": "2027-04-08",
+    "nis": "20260372",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 3 Cirebon",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0373",
+    "tanggal": "2027-04-05",
+    "nis": "20260373",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 13 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0374",
+    "tanggal": "2026-12-05",
+    "nis": "20260374",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 13 Depok",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0375",
+    "tanggal": "2026-11-01",
+    "nis": "20260375",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 11 Pangandaran",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0376",
+    "tanggal": "2027-03-15",
+    "nis": "20260376",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 2 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0377",
+    "tanggal": "2026-09-08",
+    "nis": "20260377",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 31 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0378",
+    "tanggal": "2027-06-11",
+    "nis": "20260378",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 25 Cimahi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0379",
+    "tanggal": "2026-12-21",
+    "nis": "20260379",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 25 Garut",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0380",
+    "tanggal": "2026-12-26",
+    "nis": "20260380",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 5 Majalengka",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0381",
+    "tanggal": "2026-11-20",
+    "nis": "20260381",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 9 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0382",
+    "tanggal": "2026-12-24",
+    "nis": "20260382",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 19 Bekasi",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0383",
+    "tanggal": "2026-12-18",
+    "nis": "20260383",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 10 Indramayu",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0384",
+    "tanggal": "2027-06-13",
+    "nis": "20260384",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 33 Cimahi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0385",
+    "tanggal": "2027-01-18",
+    "nis": "20260385",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 39 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0386",
+    "tanggal": "2026-08-20",
+    "nis": "20260386",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 39 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0387",
+    "tanggal": "2026-10-08",
+    "nis": "20260387",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 37 Pangandaran",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0388",
+    "tanggal": "2027-05-27",
+    "nis": "20260388",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 7 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0389",
+    "tanggal": "2027-04-15",
+    "nis": "20260389",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 7 Depok",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0390",
+    "tanggal": "2026-10-09",
+    "nis": "20260390",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 27 Depok",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0391",
+    "tanggal": "2026-09-05",
+    "nis": "20260391",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 29 Banjar",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0392",
+    "tanggal": "2027-01-03",
+    "nis": "20260392",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 27 Indramayu",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0393",
+    "tanggal": "2027-02-27",
+    "nis": "20260393",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 7 Pangandaran",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0394",
+    "tanggal": "2027-02-23",
+    "nis": "20260394",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 18 Sukabumi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0395",
+    "tanggal": "2026-12-08",
+    "nis": "20260395",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 36 Banjar",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0396",
+    "tanggal": "2027-02-07",
+    "nis": "20260396",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 36 Sukabumi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0397",
+    "tanggal": "2026-11-20",
+    "nis": "20260397",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 7 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0398",
+    "tanggal": "2026-07-18",
+    "nis": "20260398",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 8 Tasikmalaya",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0399",
+    "tanggal": "2027-01-24",
+    "nis": "20260399",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 21 Kuningan",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0400",
+    "tanggal": "2027-03-10",
+    "nis": "20260400",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 27 Depok",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0401",
+    "tanggal": "2026-10-11",
+    "nis": "20260401",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 34 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0402",
+    "tanggal": "2026-10-25",
+    "nis": "20260402",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 11 Subang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0403",
+    "tanggal": "2027-03-15",
+    "nis": "20260403",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 20 Cirebon",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0404",
+    "tanggal": "2027-06-23",
+    "nis": "20260404",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 16 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0405",
+    "tanggal": "2027-04-14",
+    "nis": "20260405",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 17 Tasikmalaya",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0406",
+    "tanggal": "2026-07-26",
+    "nis": "20260406",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 37 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0407",
+    "tanggal": "2027-03-23",
+    "nis": "20260407",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 33 Indramayu",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0408",
+    "tanggal": "2026-09-15",
+    "nis": "20260408",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 14 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0409",
+    "tanggal": "2027-04-13",
+    "nis": "20260409",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 33 Garut",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0410",
+    "tanggal": "2027-04-25",
+    "nis": "20260410",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 37 Indramayu",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0411",
+    "tanggal": "2027-02-28",
+    "nis": "20260411",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 10 Banjar",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0412",
+    "tanggal": "2027-04-23",
+    "nis": "20260412",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 2 Garut",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0413",
+    "tanggal": "2027-02-07",
+    "nis": "20260413",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 22 Bandung",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0414",
+    "tanggal": "2026-10-06",
+    "nis": "20260414",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 20 Banjar",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0415",
+    "tanggal": "2026-12-15",
+    "nis": "20260415",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 22 Sumedang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0416",
+    "tanggal": "2027-06-03",
+    "nis": "20260416",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 8 Majalengka",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0417",
+    "tanggal": "2027-04-17",
+    "nis": "20260417",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 5 Kuningan",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0418",
+    "tanggal": "2027-05-31",
+    "nis": "20260418",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 11 Indramayu",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0419",
+    "tanggal": "2026-12-03",
+    "nis": "20260419",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 21 Bogor",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0420",
+    "tanggal": "2027-04-11",
+    "nis": "20260420",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 40 Pangandaran",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0421",
+    "tanggal": "2027-01-28",
+    "nis": "20260421",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 16 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0422",
+    "tanggal": "2027-04-17",
+    "nis": "20260422",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 4 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0423",
+    "tanggal": "2026-10-21",
+    "nis": "20260423",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 17 Indramayu",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0424",
+    "tanggal": "2027-06-02",
+    "nis": "20260424",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 15 Cirebon",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0425",
+    "tanggal": "2026-12-18",
+    "nis": "20260425",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 9 Cirebon",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0426",
+    "tanggal": "2026-09-14",
+    "nis": "20260426",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 2 Bekasi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0427",
+    "tanggal": "2026-11-06",
+    "nis": "20260427",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 7 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0428",
+    "tanggal": "2026-10-21",
+    "nis": "20260428",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 37 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0429",
+    "tanggal": "2026-07-24",
+    "nis": "20260429",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 32 Cirebon",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0430",
+    "tanggal": "2026-07-30",
+    "nis": "20260430",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 6 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0431",
+    "tanggal": "2027-03-04",
+    "nis": "20260431",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 16 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0432",
+    "tanggal": "2026-10-27",
+    "nis": "20260432",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SD Negeri 38 Subang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0433",
+    "tanggal": "2026-09-21",
+    "nis": "20260433",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 17 Bogor",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0434",
+    "tanggal": "2027-01-25",
+    "nis": "20260434",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 30 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0435",
+    "tanggal": "2027-03-14",
+    "nis": "20260435",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 10 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0436",
+    "tanggal": "2026-10-27",
+    "nis": "20260436",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 23 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0437",
+    "tanggal": "2026-11-19",
+    "nis": "20260437",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 30 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0438",
+    "tanggal": "2027-06-16",
+    "nis": "20260438",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 27 Subang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0439",
+    "tanggal": "2026-10-23",
+    "nis": "20260439",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 35 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0440",
+    "tanggal": "2027-06-15",
+    "nis": "20260440",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 30 Purwakarta",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0441",
+    "tanggal": "2026-09-13",
+    "nis": "20260441",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 21 Bandung",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0442",
+    "tanggal": "2026-07-15",
+    "nis": "20260442",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 34 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0443",
+    "tanggal": "2026-09-29",
+    "nis": "20260443",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 37 Banjar",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0444",
+    "tanggal": "2026-12-11",
+    "nis": "20260444",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 34 Sumedang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0445",
+    "tanggal": "2026-07-30",
+    "nis": "20260445",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 34 Cimahi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0446",
+    "tanggal": "2026-11-27",
+    "nis": "20260446",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 6 Majalengka",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0447",
+    "tanggal": "2026-08-08",
+    "nis": "20260447",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 29 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0448",
+    "tanggal": "2027-04-17",
+    "nis": "20260448",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 12 Bandung",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0449",
+    "tanggal": "2027-05-10",
+    "nis": "20260449",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 22 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0450",
+    "tanggal": "2027-05-08",
+    "nis": "20260450",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 18 Bogor",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0451",
+    "tanggal": "2026-12-21",
+    "nis": "20260451",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 38 Majalengka",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0452",
+    "tanggal": "2027-04-11",
+    "nis": "20260452",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 33 Karawang",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0453",
+    "tanggal": "2027-06-02",
+    "nis": "20260453",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 30 Bogor",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0454",
+    "tanggal": "2026-12-04",
+    "nis": "20260454",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 34 Purwakarta",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0455",
+    "tanggal": "2026-09-22",
+    "nis": "20260455",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 8 Majalengka",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0456",
+    "tanggal": "2026-12-13",
+    "nis": "20260456",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 19 Sukabumi",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0457",
+    "tanggal": "2026-09-19",
+    "nis": "20260457",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 17 Subang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0458",
+    "tanggal": "2027-04-15",
+    "nis": "20260458",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 39 Pangandaran",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0459",
+    "tanggal": "2027-03-04",
+    "nis": "20260459",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 12 Majalengka",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0460",
+    "tanggal": "2026-07-19",
+    "nis": "20260460",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 9 Banjar",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0461",
+    "tanggal": "2026-08-24",
+    "nis": "20260461",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 10 Garut",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0462",
+    "tanggal": "2027-03-25",
+    "nis": "20260462",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 39 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0463",
+    "tanggal": "2027-01-28",
+    "nis": "20260463",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 17 Bogor",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0464",
+    "tanggal": "2026-07-20",
+    "nis": "20260464",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 6 Cimahi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0465",
+    "tanggal": "2027-04-21",
+    "nis": "20260465",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 15 Depok",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0466",
+    "tanggal": "2027-04-07",
+    "nis": "20260466",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 17 Banjar",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0467",
+    "tanggal": "2027-04-23",
+    "nis": "20260467",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 31 Garut",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0468",
+    "tanggal": "2026-11-15",
+    "nis": "20260468",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 22 Sukabumi",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0469",
+    "tanggal": "2026-10-17",
+    "nis": "20260469",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 21 Purwakarta",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0470",
+    "tanggal": "2026-09-17",
+    "nis": "20260470",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 10 Karawang",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0471",
+    "tanggal": "2026-09-14",
+    "nis": "20260471",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 12 Depok",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0472",
+    "tanggal": "2026-07-14",
+    "nis": "20260472",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 39 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0473",
+    "tanggal": "2027-02-05",
+    "nis": "20260473",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMP Negeri 30 Cirebon",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0474",
+    "tanggal": "2026-12-24",
+    "nis": "20260474",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 3 Garut",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0475",
+    "tanggal": "2027-02-27",
+    "nis": "20260475",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 19 Tasikmalaya",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0476",
+    "tanggal": "2026-12-03",
+    "nis": "20260476",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 32 Garut",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0477",
+    "tanggal": "2027-04-04",
+    "nis": "20260477",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMP Negeri 20 Bogor",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0478",
+    "tanggal": "2026-10-18",
+    "nis": "20260478",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 2 Bandung",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0479",
+    "tanggal": "2027-02-13",
+    "nis": "20260479",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 9 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0480",
+    "tanggal": "2027-05-31",
+    "nis": "20260480",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 24 Indramayu",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0481",
+    "tanggal": "2027-02-14",
+    "nis": "20260481",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 18 Karawang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0482",
+    "tanggal": "2027-06-13",
+    "nis": "20260482",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 22 Purwakarta",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0483",
+    "tanggal": "2026-09-20",
+    "nis": "20260483",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 11 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0484",
+    "tanggal": "2026-10-13",
+    "nis": "20260484",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SD Negeri 7 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0485",
+    "tanggal": "2027-03-22",
+    "nis": "20260485",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 11 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0486",
+    "tanggal": "2026-08-25",
+    "nis": "20260486",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMA Negeri 30 Kuningan",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0487",
+    "tanggal": "2027-04-11",
+    "nis": "20260487",
+    "jenis": "Masuk",
+    "tujuan_asal": "SD Negeri 29 Sumedang",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0488",
+    "tanggal": "2026-10-05",
+    "nis": "20260488",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMA Negeri 14 Pangandaran",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0489",
+    "tanggal": "2026-07-23",
+    "nis": "20260489",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 4 Indramayu",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0490",
+    "tanggal": "2027-03-03",
+    "nis": "20260490",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMK Negeri 39 Sukabumi",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0491",
+    "tanggal": "2027-04-16",
+    "nis": "20260491",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 19 Sumedang",
+    "keterangan": "Pindah domisili orang tua."
+  },
+  {
+    "id": "M0492",
+    "tanggal": "2027-01-29",
+    "nis": "20260492",
+    "jenis": "Keluar",
+    "tujuan_asal": "SMK Negeri 40 Subang",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0493",
+    "tanggal": "2026-09-09",
+    "nis": "20260493",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 38 Tasikmalaya",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0494",
+    "tanggal": "2026-11-12",
+    "nis": "20260494",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMK Negeri 6 Garut",
+    "keterangan": "Melanjutkan pendidikan di luar daerah."
+  },
+  {
+    "id": "M0495",
+    "tanggal": "2027-06-22",
+    "nis": "20260495",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMA Negeri 28 Bekasi",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0496",
+    "tanggal": "2026-12-31",
+    "nis": "20260496",
+    "jenis": "Pindah Sekolah",
+    "tujuan_asal": "SMP Negeri 24 Purwakarta",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0497",
+    "tanggal": "2027-04-29",
+    "nis": "20260497",
+    "jenis": "Pindah Kelas",
+    "tujuan_asal": "SMA Negeri 37 Majalengka",
+    "keterangan": "Mengikuti orang tua bertugas."
+  },
+  {
+    "id": "M0498",
+    "tanggal": "2026-09-20",
+    "nis": "20260498",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMK Negeri 23 Purwakarta",
+    "keterangan": "Penyesuaian minat dan bakat."
+  },
+  {
+    "id": "M0499",
+    "tanggal": "2027-04-27",
+    "nis": "20260499",
+    "jenis": "Keluar",
+    "tujuan_asal": "SD Negeri 30 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  },
+  {
+    "id": "M0500",
+    "tanggal": "2027-03-23",
+    "nis": "20260500",
+    "jenis": "Masuk",
+    "tujuan_asal": "SMP Negeri 11 Cirebon",
+    "keterangan": "Dokumen mutasi lengkap dan terverifikasi."
+  }
 ]

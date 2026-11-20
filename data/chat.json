@@ -1,4 +1,3502 @@
 [
-  { "id": "ch1", "nis": "2026001", "dari": "sekolah", "pesan": "Assalamualaikum Bapak/Ibu, mengingatkan SPP bulan November belum dibayar. Mohon cek Portal Ortu bagian Tagihan SPP. Terima kasih.", "waktu": "2026-11-17T08:30:00.000Z" },
-  { "id": "ch2", "nis": "2026001", "dari": "ortu", "pesan": "Waalaikumsalam, baik Pak. InsyaAllah kami bayar minggu ini via QRIS.", "waktu": "2026-11-17T09:10:00.000Z" }
+  {
+    "id": "C0001",
+    "nis": "20260001",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-18T04:45:30.553Z"
+  },
+  {
+    "id": "C0002",
+    "nis": "20260002",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-22T18:54:47.553Z"
+  },
+  {
+    "id": "C0003",
+    "nis": "20260003",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-20T17:23:15.553Z"
+  },
+  {
+    "id": "C0004",
+    "nis": "20260004",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-06T00:05:29.553Z"
+  },
+  {
+    "id": "C0005",
+    "nis": "20260005",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-13T05:43:24.553Z"
+  },
+  {
+    "id": "C0006",
+    "nis": "20260006",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-23T07:08:05.553Z"
+  },
+  {
+    "id": "C0007",
+    "nis": "20260007",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-03T14:44:25.553Z"
+  },
+  {
+    "id": "C0008",
+    "nis": "20260008",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-08T00:16:13.553Z"
+  },
+  {
+    "id": "C0009",
+    "nis": "20260009",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-29T12:58:42.553Z"
+  },
+  {
+    "id": "C0010",
+    "nis": "20260010",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-05T05:33:48.553Z"
+  },
+  {
+    "id": "C0011",
+    "nis": "20260011",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-12T20:32:18.553Z"
+  },
+  {
+    "id": "C0012",
+    "nis": "20260012",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-02T09:06:26.553Z"
+  },
+  {
+    "id": "C0013",
+    "nis": "20260013",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-08T06:39:06.553Z"
+  },
+  {
+    "id": "C0014",
+    "nis": "20260014",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-08T22:22:32.553Z"
+  },
+  {
+    "id": "C0015",
+    "nis": "20260015",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-13T19:33:42.553Z"
+  },
+  {
+    "id": "C0016",
+    "nis": "20260016",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-18T07:35:39.553Z"
+  },
+  {
+    "id": "C0017",
+    "nis": "20260017",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-13T16:55:47.553Z"
+  },
+  {
+    "id": "C0018",
+    "nis": "20260018",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-02T16:11:11.553Z"
+  },
+  {
+    "id": "C0019",
+    "nis": "20260019",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-07T07:47:38.553Z"
+  },
+  {
+    "id": "C0020",
+    "nis": "20260020",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-13T18:04:28.553Z"
+  },
+  {
+    "id": "C0021",
+    "nis": "20260021",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-31T02:03:00.553Z"
+  },
+  {
+    "id": "C0022",
+    "nis": "20260022",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-14T00:52:19.553Z"
+  },
+  {
+    "id": "C0023",
+    "nis": "20260023",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-14T19:21:16.553Z"
+  },
+  {
+    "id": "C0024",
+    "nis": "20260024",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-04T20:51:07.553Z"
+  },
+  {
+    "id": "C0025",
+    "nis": "20260025",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-24T14:36:21.553Z"
+  },
+  {
+    "id": "C0026",
+    "nis": "20260026",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-19T22:29:31.553Z"
+  },
+  {
+    "id": "C0027",
+    "nis": "20260027",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-07T15:37:01.553Z"
+  },
+  {
+    "id": "C0028",
+    "nis": "20260028",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-19T12:14:42.553Z"
+  },
+  {
+    "id": "C0029",
+    "nis": "20260029",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-05T15:47:40.553Z"
+  },
+  {
+    "id": "C0030",
+    "nis": "20260030",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-21T20:19:55.553Z"
+  },
+  {
+    "id": "C0031",
+    "nis": "20260031",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-31T04:24:28.553Z"
+  },
+  {
+    "id": "C0032",
+    "nis": "20260032",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-28T14:28:00.553Z"
+  },
+  {
+    "id": "C0033",
+    "nis": "20260033",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-21T02:00:48.553Z"
+  },
+  {
+    "id": "C0034",
+    "nis": "20260034",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-20T16:41:34.553Z"
+  },
+  {
+    "id": "C0035",
+    "nis": "20260035",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-09T06:47:04.553Z"
+  },
+  {
+    "id": "C0036",
+    "nis": "20260036",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-09T23:09:38.553Z"
+  },
+  {
+    "id": "C0037",
+    "nis": "20260037",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-08T19:33:38.553Z"
+  },
+  {
+    "id": "C0038",
+    "nis": "20260038",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-19T05:45:34.553Z"
+  },
+  {
+    "id": "C0039",
+    "nis": "20260039",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-05T03:04:17.553Z"
+  },
+  {
+    "id": "C0040",
+    "nis": "20260040",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-22T19:17:44.553Z"
+  },
+  {
+    "id": "C0041",
+    "nis": "20260041",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-26T18:10:04.553Z"
+  },
+  {
+    "id": "C0042",
+    "nis": "20260042",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-15T00:26:34.553Z"
+  },
+  {
+    "id": "C0043",
+    "nis": "20260043",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-02T01:35:44.553Z"
+  },
+  {
+    "id": "C0044",
+    "nis": "20260044",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-11T10:44:55.553Z"
+  },
+  {
+    "id": "C0045",
+    "nis": "20260045",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-28T09:05:53.553Z"
+  },
+  {
+    "id": "C0046",
+    "nis": "20260046",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-25T15:35:20.553Z"
+  },
+  {
+    "id": "C0047",
+    "nis": "20260047",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-06T09:12:47.553Z"
+  },
+  {
+    "id": "C0048",
+    "nis": "20260048",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-16T23:39:15.553Z"
+  },
+  {
+    "id": "C0049",
+    "nis": "20260049",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-11T02:42:29.553Z"
+  },
+  {
+    "id": "C0050",
+    "nis": "20260050",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-22T21:20:45.553Z"
+  },
+  {
+    "id": "C0051",
+    "nis": "20260051",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-13T20:16:07.553Z"
+  },
+  {
+    "id": "C0052",
+    "nis": "20260052",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-04T06:33:42.553Z"
+  },
+  {
+    "id": "C0053",
+    "nis": "20260053",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-04T20:33:52.553Z"
+  },
+  {
+    "id": "C0054",
+    "nis": "20260054",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-14T19:29:54.553Z"
+  },
+  {
+    "id": "C0055",
+    "nis": "20260055",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-19T10:24:56.553Z"
+  },
+  {
+    "id": "C0056",
+    "nis": "20260056",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-08T16:34:07.553Z"
+  },
+  {
+    "id": "C0057",
+    "nis": "20260057",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-24T00:22:40.553Z"
+  },
+  {
+    "id": "C0058",
+    "nis": "20260058",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-14T20:42:52.553Z"
+  },
+  {
+    "id": "C0059",
+    "nis": "20260059",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-12T09:49:32.553Z"
+  },
+  {
+    "id": "C0060",
+    "nis": "20260060",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-14T20:27:18.553Z"
+  },
+  {
+    "id": "C0061",
+    "nis": "20260061",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-24T10:49:26.553Z"
+  },
+  {
+    "id": "C0062",
+    "nis": "20260062",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-28T21:40:31.553Z"
+  },
+  {
+    "id": "C0063",
+    "nis": "20260063",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-18T06:15:56.553Z"
+  },
+  {
+    "id": "C0064",
+    "nis": "20260064",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-08T07:30:26.553Z"
+  },
+  {
+    "id": "C0065",
+    "nis": "20260065",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-19T01:00:58.553Z"
+  },
+  {
+    "id": "C0066",
+    "nis": "20260066",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-06T11:22:07.553Z"
+  },
+  {
+    "id": "C0067",
+    "nis": "20260067",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-29T06:00:07.553Z"
+  },
+  {
+    "id": "C0068",
+    "nis": "20260068",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-29T14:31:05.553Z"
+  },
+  {
+    "id": "C0069",
+    "nis": "20260069",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-05T18:08:17.553Z"
+  },
+  {
+    "id": "C0070",
+    "nis": "20260070",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-28T22:36:44.553Z"
+  },
+  {
+    "id": "C0071",
+    "nis": "20260071",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-20T06:04:09.553Z"
+  },
+  {
+    "id": "C0072",
+    "nis": "20260072",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-13T21:03:32.553Z"
+  },
+  {
+    "id": "C0073",
+    "nis": "20260073",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-17T18:13:46.553Z"
+  },
+  {
+    "id": "C0074",
+    "nis": "20260074",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-09T00:20:28.553Z"
+  },
+  {
+    "id": "C0075",
+    "nis": "20260075",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-15T04:02:21.553Z"
+  },
+  {
+    "id": "C0076",
+    "nis": "20260076",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-27T00:52:25.553Z"
+  },
+  {
+    "id": "C0077",
+    "nis": "20260077",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-30T12:32:07.553Z"
+  },
+  {
+    "id": "C0078",
+    "nis": "20260078",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-18T22:23:35.553Z"
+  },
+  {
+    "id": "C0079",
+    "nis": "20260079",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-08T22:50:45.553Z"
+  },
+  {
+    "id": "C0080",
+    "nis": "20260080",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-31T02:12:02.553Z"
+  },
+  {
+    "id": "C0081",
+    "nis": "20260081",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-26T16:50:36.553Z"
+  },
+  {
+    "id": "C0082",
+    "nis": "20260082",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-05T15:45:59.553Z"
+  },
+  {
+    "id": "C0083",
+    "nis": "20260083",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-24T15:39:42.553Z"
+  },
+  {
+    "id": "C0084",
+    "nis": "20260084",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-18T21:02:23.553Z"
+  },
+  {
+    "id": "C0085",
+    "nis": "20260085",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-05T10:50:32.553Z"
+  },
+  {
+    "id": "C0086",
+    "nis": "20260086",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-06T17:03:45.553Z"
+  },
+  {
+    "id": "C0087",
+    "nis": "20260087",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-27T09:55:13.553Z"
+  },
+  {
+    "id": "C0088",
+    "nis": "20260088",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-15T20:02:37.553Z"
+  },
+  {
+    "id": "C0089",
+    "nis": "20260089",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-12T06:21:53.553Z"
+  },
+  {
+    "id": "C0090",
+    "nis": "20260090",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-06T04:37:15.553Z"
+  },
+  {
+    "id": "C0091",
+    "nis": "20260091",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-15T23:26:17.553Z"
+  },
+  {
+    "id": "C0092",
+    "nis": "20260092",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-16T03:11:51.553Z"
+  },
+  {
+    "id": "C0093",
+    "nis": "20260093",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-19T15:17:40.553Z"
+  },
+  {
+    "id": "C0094",
+    "nis": "20260094",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-08T10:19:39.553Z"
+  },
+  {
+    "id": "C0095",
+    "nis": "20260095",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-11T03:51:27.553Z"
+  },
+  {
+    "id": "C0096",
+    "nis": "20260096",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-08T03:27:28.553Z"
+  },
+  {
+    "id": "C0097",
+    "nis": "20260097",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-15T17:15:14.553Z"
+  },
+  {
+    "id": "C0098",
+    "nis": "20260098",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-09T07:25:04.553Z"
+  },
+  {
+    "id": "C0099",
+    "nis": "20260099",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-08T17:41:13.553Z"
+  },
+  {
+    "id": "C0100",
+    "nis": "20260100",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-16T14:59:50.553Z"
+  },
+  {
+    "id": "C0101",
+    "nis": "20260101",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-12T03:32:08.553Z"
+  },
+  {
+    "id": "C0102",
+    "nis": "20260102",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-01T22:15:06.553Z"
+  },
+  {
+    "id": "C0103",
+    "nis": "20260103",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-24T21:13:42.553Z"
+  },
+  {
+    "id": "C0104",
+    "nis": "20260104",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-13T14:54:31.553Z"
+  },
+  {
+    "id": "C0105",
+    "nis": "20260105",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-11T01:52:52.553Z"
+  },
+  {
+    "id": "C0106",
+    "nis": "20260106",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-15T11:51:10.553Z"
+  },
+  {
+    "id": "C0107",
+    "nis": "20260107",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-03T04:43:41.553Z"
+  },
+  {
+    "id": "C0108",
+    "nis": "20260108",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-16T08:08:36.553Z"
+  },
+  {
+    "id": "C0109",
+    "nis": "20260109",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-30T08:15:09.553Z"
+  },
+  {
+    "id": "C0110",
+    "nis": "20260110",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-21T00:13:13.553Z"
+  },
+  {
+    "id": "C0111",
+    "nis": "20260111",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-15T17:04:28.553Z"
+  },
+  {
+    "id": "C0112",
+    "nis": "20260112",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-29T13:24:29.553Z"
+  },
+  {
+    "id": "C0113",
+    "nis": "20260113",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-18T03:34:29.553Z"
+  },
+  {
+    "id": "C0114",
+    "nis": "20260114",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-08T18:16:57.553Z"
+  },
+  {
+    "id": "C0115",
+    "nis": "20260115",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-07T21:53:48.553Z"
+  },
+  {
+    "id": "C0116",
+    "nis": "20260116",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-07T16:46:51.553Z"
+  },
+  {
+    "id": "C0117",
+    "nis": "20260117",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-16T11:11:28.553Z"
+  },
+  {
+    "id": "C0118",
+    "nis": "20260118",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-10T23:05:47.553Z"
+  },
+  {
+    "id": "C0119",
+    "nis": "20260119",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-10T18:06:04.553Z"
+  },
+  {
+    "id": "C0120",
+    "nis": "20260120",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-13T04:02:59.553Z"
+  },
+  {
+    "id": "C0121",
+    "nis": "20260121",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-12T21:03:31.553Z"
+  },
+  {
+    "id": "C0122",
+    "nis": "20260122",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-06T23:06:44.553Z"
+  },
+  {
+    "id": "C0123",
+    "nis": "20260123",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-08T12:30:33.553Z"
+  },
+  {
+    "id": "C0124",
+    "nis": "20260124",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-07T08:02:19.553Z"
+  },
+  {
+    "id": "C0125",
+    "nis": "20260125",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-10T08:09:17.553Z"
+  },
+  {
+    "id": "C0126",
+    "nis": "20260126",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-21T09:41:17.553Z"
+  },
+  {
+    "id": "C0127",
+    "nis": "20260127",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-16T21:27:19.553Z"
+  },
+  {
+    "id": "C0128",
+    "nis": "20260128",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-13T14:47:14.553Z"
+  },
+  {
+    "id": "C0129",
+    "nis": "20260129",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-10T07:12:28.553Z"
+  },
+  {
+    "id": "C0130",
+    "nis": "20260130",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-11T14:10:18.553Z"
+  },
+  {
+    "id": "C0131",
+    "nis": "20260131",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-11T03:03:15.553Z"
+  },
+  {
+    "id": "C0132",
+    "nis": "20260132",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-11T23:13:27.553Z"
+  },
+  {
+    "id": "C0133",
+    "nis": "20260133",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-15T12:15:58.553Z"
+  },
+  {
+    "id": "C0134",
+    "nis": "20260134",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-26T04:37:25.553Z"
+  },
+  {
+    "id": "C0135",
+    "nis": "20260135",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-07T00:20:30.553Z"
+  },
+  {
+    "id": "C0136",
+    "nis": "20260136",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-13T23:53:41.553Z"
+  },
+  {
+    "id": "C0137",
+    "nis": "20260137",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-12T13:52:53.553Z"
+  },
+  {
+    "id": "C0138",
+    "nis": "20260138",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-20T04:21:40.553Z"
+  },
+  {
+    "id": "C0139",
+    "nis": "20260139",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-25T21:36:57.553Z"
+  },
+  {
+    "id": "C0140",
+    "nis": "20260140",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-06T21:49:35.553Z"
+  },
+  {
+    "id": "C0141",
+    "nis": "20260141",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-29T21:57:22.553Z"
+  },
+  {
+    "id": "C0142",
+    "nis": "20260142",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-28T21:34:35.553Z"
+  },
+  {
+    "id": "C0143",
+    "nis": "20260143",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-31T07:52:41.553Z"
+  },
+  {
+    "id": "C0144",
+    "nis": "20260144",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-19T00:43:42.553Z"
+  },
+  {
+    "id": "C0145",
+    "nis": "20260145",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-23T14:35:50.553Z"
+  },
+  {
+    "id": "C0146",
+    "nis": "20260146",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-25T13:28:10.553Z"
+  },
+  {
+    "id": "C0147",
+    "nis": "20260147",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-25T12:17:13.553Z"
+  },
+  {
+    "id": "C0148",
+    "nis": "20260148",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-28T08:19:27.553Z"
+  },
+  {
+    "id": "C0149",
+    "nis": "20260149",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-07T00:58:39.553Z"
+  },
+  {
+    "id": "C0150",
+    "nis": "20260150",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-08T23:48:18.553Z"
+  },
+  {
+    "id": "C0151",
+    "nis": "20260151",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-25T13:50:29.553Z"
+  },
+  {
+    "id": "C0152",
+    "nis": "20260152",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-09T13:55:03.553Z"
+  },
+  {
+    "id": "C0153",
+    "nis": "20260153",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-14T17:21:58.553Z"
+  },
+  {
+    "id": "C0154",
+    "nis": "20260154",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-05T23:13:46.553Z"
+  },
+  {
+    "id": "C0155",
+    "nis": "20260155",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-22T19:52:09.553Z"
+  },
+  {
+    "id": "C0156",
+    "nis": "20260156",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-18T15:41:40.553Z"
+  },
+  {
+    "id": "C0157",
+    "nis": "20260157",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-11T05:19:56.553Z"
+  },
+  {
+    "id": "C0158",
+    "nis": "20260158",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-11T05:52:34.553Z"
+  },
+  {
+    "id": "C0159",
+    "nis": "20260159",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-03T05:41:59.553Z"
+  },
+  {
+    "id": "C0160",
+    "nis": "20260160",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-14T20:55:22.553Z"
+  },
+  {
+    "id": "C0161",
+    "nis": "20260161",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-13T23:07:31.553Z"
+  },
+  {
+    "id": "C0162",
+    "nis": "20260162",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-26T16:16:13.553Z"
+  },
+  {
+    "id": "C0163",
+    "nis": "20260163",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-02T01:32:57.553Z"
+  },
+  {
+    "id": "C0164",
+    "nis": "20260164",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-06T05:53:03.553Z"
+  },
+  {
+    "id": "C0165",
+    "nis": "20260165",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-17T02:32:31.553Z"
+  },
+  {
+    "id": "C0166",
+    "nis": "20260166",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-22T08:08:10.553Z"
+  },
+  {
+    "id": "C0167",
+    "nis": "20260167",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-30T18:14:56.553Z"
+  },
+  {
+    "id": "C0168",
+    "nis": "20260168",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-13T05:36:00.553Z"
+  },
+  {
+    "id": "C0169",
+    "nis": "20260169",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-20T14:09:35.553Z"
+  },
+  {
+    "id": "C0170",
+    "nis": "20260170",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-08T06:37:15.553Z"
+  },
+  {
+    "id": "C0171",
+    "nis": "20260171",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-11T02:15:45.553Z"
+  },
+  {
+    "id": "C0172",
+    "nis": "20260172",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-03T15:06:59.553Z"
+  },
+  {
+    "id": "C0173",
+    "nis": "20260173",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-16T11:37:03.553Z"
+  },
+  {
+    "id": "C0174",
+    "nis": "20260174",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-15T21:08:28.553Z"
+  },
+  {
+    "id": "C0175",
+    "nis": "20260175",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-12T20:55:59.553Z"
+  },
+  {
+    "id": "C0176",
+    "nis": "20260176",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-21T09:55:31.553Z"
+  },
+  {
+    "id": "C0177",
+    "nis": "20260177",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-17T20:48:00.553Z"
+  },
+  {
+    "id": "C0178",
+    "nis": "20260178",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-23T07:53:16.553Z"
+  },
+  {
+    "id": "C0179",
+    "nis": "20260179",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-05T21:17:00.553Z"
+  },
+  {
+    "id": "C0180",
+    "nis": "20260180",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-06T20:23:11.553Z"
+  },
+  {
+    "id": "C0181",
+    "nis": "20260181",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-09T22:37:10.553Z"
+  },
+  {
+    "id": "C0182",
+    "nis": "20260182",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-29T01:31:29.553Z"
+  },
+  {
+    "id": "C0183",
+    "nis": "20260183",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-30T06:14:49.553Z"
+  },
+  {
+    "id": "C0184",
+    "nis": "20260184",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-25T19:22:14.553Z"
+  },
+  {
+    "id": "C0185",
+    "nis": "20260185",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-10T08:44:26.553Z"
+  },
+  {
+    "id": "C0186",
+    "nis": "20260186",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-14T06:37:25.553Z"
+  },
+  {
+    "id": "C0187",
+    "nis": "20260187",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-05T01:06:10.553Z"
+  },
+  {
+    "id": "C0188",
+    "nis": "20260188",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-19T02:47:08.553Z"
+  },
+  {
+    "id": "C0189",
+    "nis": "20260189",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-11T02:14:18.553Z"
+  },
+  {
+    "id": "C0190",
+    "nis": "20260190",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-22T15:28:32.553Z"
+  },
+  {
+    "id": "C0191",
+    "nis": "20260191",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-22T10:05:46.553Z"
+  },
+  {
+    "id": "C0192",
+    "nis": "20260192",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-14T09:24:12.553Z"
+  },
+  {
+    "id": "C0193",
+    "nis": "20260193",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-25T06:51:31.553Z"
+  },
+  {
+    "id": "C0194",
+    "nis": "20260194",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-13T13:31:26.553Z"
+  },
+  {
+    "id": "C0195",
+    "nis": "20260195",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-01T17:33:48.553Z"
+  },
+  {
+    "id": "C0196",
+    "nis": "20260196",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-12T09:22:51.553Z"
+  },
+  {
+    "id": "C0197",
+    "nis": "20260197",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-28T15:17:58.553Z"
+  },
+  {
+    "id": "C0198",
+    "nis": "20260198",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-18T10:11:46.553Z"
+  },
+  {
+    "id": "C0199",
+    "nis": "20260199",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-11T01:43:44.553Z"
+  },
+  {
+    "id": "C0200",
+    "nis": "20260200",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-30T21:39:23.553Z"
+  },
+  {
+    "id": "C0201",
+    "nis": "20260201",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-11T10:27:13.553Z"
+  },
+  {
+    "id": "C0202",
+    "nis": "20260202",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-16T05:53:34.553Z"
+  },
+  {
+    "id": "C0203",
+    "nis": "20260203",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-08T22:18:55.553Z"
+  },
+  {
+    "id": "C0204",
+    "nis": "20260204",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-26T17:49:32.553Z"
+  },
+  {
+    "id": "C0205",
+    "nis": "20260205",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-19T05:22:23.553Z"
+  },
+  {
+    "id": "C0206",
+    "nis": "20260206",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-06T04:32:27.553Z"
+  },
+  {
+    "id": "C0207",
+    "nis": "20260207",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-23T18:44:22.553Z"
+  },
+  {
+    "id": "C0208",
+    "nis": "20260208",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-19T22:48:38.553Z"
+  },
+  {
+    "id": "C0209",
+    "nis": "20260209",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-14T14:46:56.553Z"
+  },
+  {
+    "id": "C0210",
+    "nis": "20260210",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-06T01:44:29.553Z"
+  },
+  {
+    "id": "C0211",
+    "nis": "20260211",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-31T18:55:28.553Z"
+  },
+  {
+    "id": "C0212",
+    "nis": "20260212",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-06T13:21:34.553Z"
+  },
+  {
+    "id": "C0213",
+    "nis": "20260213",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-08T15:59:32.553Z"
+  },
+  {
+    "id": "C0214",
+    "nis": "20260214",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-01T05:22:39.553Z"
+  },
+  {
+    "id": "C0215",
+    "nis": "20260215",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-18T13:24:16.553Z"
+  },
+  {
+    "id": "C0216",
+    "nis": "20260216",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-15T05:32:42.553Z"
+  },
+  {
+    "id": "C0217",
+    "nis": "20260217",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-09T21:34:16.553Z"
+  },
+  {
+    "id": "C0218",
+    "nis": "20260218",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-15T11:05:56.553Z"
+  },
+  {
+    "id": "C0219",
+    "nis": "20260219",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-02T23:14:51.553Z"
+  },
+  {
+    "id": "C0220",
+    "nis": "20260220",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-08T11:32:13.553Z"
+  },
+  {
+    "id": "C0221",
+    "nis": "20260221",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-08T09:08:21.553Z"
+  },
+  {
+    "id": "C0222",
+    "nis": "20260222",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-07T07:01:09.553Z"
+  },
+  {
+    "id": "C0223",
+    "nis": "20260223",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-25T04:40:58.553Z"
+  },
+  {
+    "id": "C0224",
+    "nis": "20260224",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-17T19:22:02.553Z"
+  },
+  {
+    "id": "C0225",
+    "nis": "20260225",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-01T16:18:02.553Z"
+  },
+  {
+    "id": "C0226",
+    "nis": "20260226",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-15T18:52:58.553Z"
+  },
+  {
+    "id": "C0227",
+    "nis": "20260227",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-02T06:44:50.553Z"
+  },
+  {
+    "id": "C0228",
+    "nis": "20260228",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-28T03:07:54.553Z"
+  },
+  {
+    "id": "C0229",
+    "nis": "20260229",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-13T13:17:01.553Z"
+  },
+  {
+    "id": "C0230",
+    "nis": "20260230",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-18T23:09:32.553Z"
+  },
+  {
+    "id": "C0231",
+    "nis": "20260231",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-07T01:43:04.553Z"
+  },
+  {
+    "id": "C0232",
+    "nis": "20260232",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-07T15:05:49.553Z"
+  },
+  {
+    "id": "C0233",
+    "nis": "20260233",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-06T09:20:10.553Z"
+  },
+  {
+    "id": "C0234",
+    "nis": "20260234",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-15T17:45:06.553Z"
+  },
+  {
+    "id": "C0235",
+    "nis": "20260235",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-12T10:39:17.553Z"
+  },
+  {
+    "id": "C0236",
+    "nis": "20260236",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-16T19:15:11.553Z"
+  },
+  {
+    "id": "C0237",
+    "nis": "20260237",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-17T13:57:54.553Z"
+  },
+  {
+    "id": "C0238",
+    "nis": "20260238",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-04T21:46:52.553Z"
+  },
+  {
+    "id": "C0239",
+    "nis": "20260239",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-28T16:19:19.553Z"
+  },
+  {
+    "id": "C0240",
+    "nis": "20260240",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-11T12:59:25.553Z"
+  },
+  {
+    "id": "C0241",
+    "nis": "20260241",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-29T17:24:36.553Z"
+  },
+  {
+    "id": "C0242",
+    "nis": "20260242",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-11T04:15:38.553Z"
+  },
+  {
+    "id": "C0243",
+    "nis": "20260243",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-30T13:24:48.553Z"
+  },
+  {
+    "id": "C0244",
+    "nis": "20260244",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-19T05:40:14.553Z"
+  },
+  {
+    "id": "C0245",
+    "nis": "20260245",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-30T17:51:32.553Z"
+  },
+  {
+    "id": "C0246",
+    "nis": "20260246",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-24T03:00:06.553Z"
+  },
+  {
+    "id": "C0247",
+    "nis": "20260247",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-10T14:07:58.553Z"
+  },
+  {
+    "id": "C0248",
+    "nis": "20260248",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-15T11:23:05.553Z"
+  },
+  {
+    "id": "C0249",
+    "nis": "20260249",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-18T19:45:42.553Z"
+  },
+  {
+    "id": "C0250",
+    "nis": "20260250",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-21T09:53:45.553Z"
+  },
+  {
+    "id": "C0251",
+    "nis": "20260251",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-23T11:21:48.553Z"
+  },
+  {
+    "id": "C0252",
+    "nis": "20260252",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-25T21:04:44.553Z"
+  },
+  {
+    "id": "C0253",
+    "nis": "20260253",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-06T10:50:10.553Z"
+  },
+  {
+    "id": "C0254",
+    "nis": "20260254",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-25T03:03:58.553Z"
+  },
+  {
+    "id": "C0255",
+    "nis": "20260255",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-12T20:01:52.553Z"
+  },
+  {
+    "id": "C0256",
+    "nis": "20260256",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-31T02:58:50.553Z"
+  },
+  {
+    "id": "C0257",
+    "nis": "20260257",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-14T14:24:50.553Z"
+  },
+  {
+    "id": "C0258",
+    "nis": "20260258",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-17T03:20:24.553Z"
+  },
+  {
+    "id": "C0259",
+    "nis": "20260259",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-18T11:09:45.553Z"
+  },
+  {
+    "id": "C0260",
+    "nis": "20260260",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-29T16:22:46.553Z"
+  },
+  {
+    "id": "C0261",
+    "nis": "20260261",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-09T10:07:39.553Z"
+  },
+  {
+    "id": "C0262",
+    "nis": "20260262",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-15T05:20:37.553Z"
+  },
+  {
+    "id": "C0263",
+    "nis": "20260263",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-17T13:08:29.553Z"
+  },
+  {
+    "id": "C0264",
+    "nis": "20260264",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-15T23:47:30.553Z"
+  },
+  {
+    "id": "C0265",
+    "nis": "20260265",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-20T10:08:33.553Z"
+  },
+  {
+    "id": "C0266",
+    "nis": "20260266",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-18T21:43:41.553Z"
+  },
+  {
+    "id": "C0267",
+    "nis": "20260267",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-11T04:02:55.553Z"
+  },
+  {
+    "id": "C0268",
+    "nis": "20260268",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-19T14:35:06.553Z"
+  },
+  {
+    "id": "C0269",
+    "nis": "20260269",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-19T01:01:24.553Z"
+  },
+  {
+    "id": "C0270",
+    "nis": "20260270",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-19T20:39:43.553Z"
+  },
+  {
+    "id": "C0271",
+    "nis": "20260271",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-20T00:18:11.553Z"
+  },
+  {
+    "id": "C0272",
+    "nis": "20260272",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-10T03:54:06.553Z"
+  },
+  {
+    "id": "C0273",
+    "nis": "20260273",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-21T17:22:32.553Z"
+  },
+  {
+    "id": "C0274",
+    "nis": "20260274",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-02T14:36:16.553Z"
+  },
+  {
+    "id": "C0275",
+    "nis": "20260275",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-03T14:18:42.553Z"
+  },
+  {
+    "id": "C0276",
+    "nis": "20260276",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-08T17:17:26.553Z"
+  },
+  {
+    "id": "C0277",
+    "nis": "20260277",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-14T07:56:53.553Z"
+  },
+  {
+    "id": "C0278",
+    "nis": "20260278",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-18T22:26:30.553Z"
+  },
+  {
+    "id": "C0279",
+    "nis": "20260279",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-15T18:19:26.553Z"
+  },
+  {
+    "id": "C0280",
+    "nis": "20260280",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-08T11:38:29.553Z"
+  },
+  {
+    "id": "C0281",
+    "nis": "20260281",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-13T16:38:54.553Z"
+  },
+  {
+    "id": "C0282",
+    "nis": "20260282",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-28T01:18:32.553Z"
+  },
+  {
+    "id": "C0283",
+    "nis": "20260283",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-24T17:25:05.553Z"
+  },
+  {
+    "id": "C0284",
+    "nis": "20260284",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-04T17:32:23.553Z"
+  },
+  {
+    "id": "C0285",
+    "nis": "20260285",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-16T14:34:33.553Z"
+  },
+  {
+    "id": "C0286",
+    "nis": "20260286",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-25T05:50:22.553Z"
+  },
+  {
+    "id": "C0287",
+    "nis": "20260287",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-09T16:58:56.553Z"
+  },
+  {
+    "id": "C0288",
+    "nis": "20260288",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-26T04:26:16.553Z"
+  },
+  {
+    "id": "C0289",
+    "nis": "20260289",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-28T13:05:12.553Z"
+  },
+  {
+    "id": "C0290",
+    "nis": "20260290",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-09T05:44:34.553Z"
+  },
+  {
+    "id": "C0291",
+    "nis": "20260291",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-07T02:10:30.553Z"
+  },
+  {
+    "id": "C0292",
+    "nis": "20260292",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-07T23:14:50.553Z"
+  },
+  {
+    "id": "C0293",
+    "nis": "20260293",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-16T15:56:22.553Z"
+  },
+  {
+    "id": "C0294",
+    "nis": "20260294",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-16T02:04:06.553Z"
+  },
+  {
+    "id": "C0295",
+    "nis": "20260295",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-13T03:14:44.553Z"
+  },
+  {
+    "id": "C0296",
+    "nis": "20260296",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-09T14:06:29.553Z"
+  },
+  {
+    "id": "C0297",
+    "nis": "20260297",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-16T13:02:15.553Z"
+  },
+  {
+    "id": "C0298",
+    "nis": "20260298",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-20T01:26:07.553Z"
+  },
+  {
+    "id": "C0299",
+    "nis": "20260299",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-23T09:59:59.553Z"
+  },
+  {
+    "id": "C0300",
+    "nis": "20260300",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-09T05:41:22.553Z"
+  },
+  {
+    "id": "C0301",
+    "nis": "20260301",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-06T23:34:56.553Z"
+  },
+  {
+    "id": "C0302",
+    "nis": "20260302",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-27T08:39:40.553Z"
+  },
+  {
+    "id": "C0303",
+    "nis": "20260303",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-09T03:38:28.553Z"
+  },
+  {
+    "id": "C0304",
+    "nis": "20260304",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-12T00:25:30.553Z"
+  },
+  {
+    "id": "C0305",
+    "nis": "20260305",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-29T21:51:57.553Z"
+  },
+  {
+    "id": "C0306",
+    "nis": "20260306",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-10T03:35:36.553Z"
+  },
+  {
+    "id": "C0307",
+    "nis": "20260307",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-21T09:52:49.553Z"
+  },
+  {
+    "id": "C0308",
+    "nis": "20260308",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-10T04:26:30.553Z"
+  },
+  {
+    "id": "C0309",
+    "nis": "20260309",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-07T13:14:12.553Z"
+  },
+  {
+    "id": "C0310",
+    "nis": "20260310",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-16T00:07:45.553Z"
+  },
+  {
+    "id": "C0311",
+    "nis": "20260311",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-04T15:19:01.553Z"
+  },
+  {
+    "id": "C0312",
+    "nis": "20260312",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-10T18:41:21.553Z"
+  },
+  {
+    "id": "C0313",
+    "nis": "20260313",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-11T22:29:45.553Z"
+  },
+  {
+    "id": "C0314",
+    "nis": "20260314",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-20T00:33:29.553Z"
+  },
+  {
+    "id": "C0315",
+    "nis": "20260315",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-22T06:05:28.553Z"
+  },
+  {
+    "id": "C0316",
+    "nis": "20260316",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-31T16:21:41.553Z"
+  },
+  {
+    "id": "C0317",
+    "nis": "20260317",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-29T14:07:36.553Z"
+  },
+  {
+    "id": "C0318",
+    "nis": "20260318",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-25T20:52:48.553Z"
+  },
+  {
+    "id": "C0319",
+    "nis": "20260319",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-07T21:47:35.553Z"
+  },
+  {
+    "id": "C0320",
+    "nis": "20260320",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-04T07:37:27.553Z"
+  },
+  {
+    "id": "C0321",
+    "nis": "20260321",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-29T11:42:05.553Z"
+  },
+  {
+    "id": "C0322",
+    "nis": "20260322",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-09T11:24:20.553Z"
+  },
+  {
+    "id": "C0323",
+    "nis": "20260323",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-07T18:09:01.553Z"
+  },
+  {
+    "id": "C0324",
+    "nis": "20260324",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-20T11:33:38.553Z"
+  },
+  {
+    "id": "C0325",
+    "nis": "20260325",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-12T09:02:23.553Z"
+  },
+  {
+    "id": "C0326",
+    "nis": "20260326",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-19T10:08:57.553Z"
+  },
+  {
+    "id": "C0327",
+    "nis": "20260327",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-08T07:55:00.553Z"
+  },
+  {
+    "id": "C0328",
+    "nis": "20260328",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-21T11:52:29.553Z"
+  },
+  {
+    "id": "C0329",
+    "nis": "20260329",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-26T16:06:35.553Z"
+  },
+  {
+    "id": "C0330",
+    "nis": "20260330",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-13T20:33:47.553Z"
+  },
+  {
+    "id": "C0331",
+    "nis": "20260331",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-09T09:28:20.553Z"
+  },
+  {
+    "id": "C0332",
+    "nis": "20260332",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-15T12:34:56.553Z"
+  },
+  {
+    "id": "C0333",
+    "nis": "20260333",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-25T11:36:06.553Z"
+  },
+  {
+    "id": "C0334",
+    "nis": "20260334",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-14T17:34:13.553Z"
+  },
+  {
+    "id": "C0335",
+    "nis": "20260335",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-15T06:29:41.553Z"
+  },
+  {
+    "id": "C0336",
+    "nis": "20260336",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-07T02:47:57.553Z"
+  },
+  {
+    "id": "C0337",
+    "nis": "20260337",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-20T19:51:36.553Z"
+  },
+  {
+    "id": "C0338",
+    "nis": "20260338",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-15T08:57:36.553Z"
+  },
+  {
+    "id": "C0339",
+    "nis": "20260339",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-29T07:50:28.553Z"
+  },
+  {
+    "id": "C0340",
+    "nis": "20260340",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-06T10:12:20.553Z"
+  },
+  {
+    "id": "C0341",
+    "nis": "20260341",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-19T03:30:56.553Z"
+  },
+  {
+    "id": "C0342",
+    "nis": "20260342",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-12T20:33:14.553Z"
+  },
+  {
+    "id": "C0343",
+    "nis": "20260343",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-28T11:39:02.553Z"
+  },
+  {
+    "id": "C0344",
+    "nis": "20260344",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-09T08:02:27.553Z"
+  },
+  {
+    "id": "C0345",
+    "nis": "20260345",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-17T19:26:06.553Z"
+  },
+  {
+    "id": "C0346",
+    "nis": "20260346",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-03T20:57:18.553Z"
+  },
+  {
+    "id": "C0347",
+    "nis": "20260347",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-03T05:26:09.553Z"
+  },
+  {
+    "id": "C0348",
+    "nis": "20260348",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-07T00:42:03.553Z"
+  },
+  {
+    "id": "C0349",
+    "nis": "20260349",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-17T14:17:10.553Z"
+  },
+  {
+    "id": "C0350",
+    "nis": "20260350",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-25T21:31:37.553Z"
+  },
+  {
+    "id": "C0351",
+    "nis": "20260351",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-22T13:33:59.553Z"
+  },
+  {
+    "id": "C0352",
+    "nis": "20260352",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-18T16:13:02.553Z"
+  },
+  {
+    "id": "C0353",
+    "nis": "20260353",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-12T21:59:04.553Z"
+  },
+  {
+    "id": "C0354",
+    "nis": "20260354",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-18T03:00:41.553Z"
+  },
+  {
+    "id": "C0355",
+    "nis": "20260355",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-25T14:17:03.553Z"
+  },
+  {
+    "id": "C0356",
+    "nis": "20260356",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-20T06:44:11.553Z"
+  },
+  {
+    "id": "C0357",
+    "nis": "20260357",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-10-14T13:14:01.553Z"
+  },
+  {
+    "id": "C0358",
+    "nis": "20260358",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-15T02:04:46.553Z"
+  },
+  {
+    "id": "C0359",
+    "nis": "20260359",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-31T03:40:50.553Z"
+  },
+  {
+    "id": "C0360",
+    "nis": "20260360",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-18T11:40:19.553Z"
+  },
+  {
+    "id": "C0361",
+    "nis": "20260361",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-28T02:09:38.553Z"
+  },
+  {
+    "id": "C0362",
+    "nis": "20260362",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-02T04:56:02.553Z"
+  },
+  {
+    "id": "C0363",
+    "nis": "20260363",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-02T17:04:38.553Z"
+  },
+  {
+    "id": "C0364",
+    "nis": "20260364",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-16T01:49:38.553Z"
+  },
+  {
+    "id": "C0365",
+    "nis": "20260365",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-11T07:20:32.553Z"
+  },
+  {
+    "id": "C0366",
+    "nis": "20260366",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-17T08:24:29.553Z"
+  },
+  {
+    "id": "C0367",
+    "nis": "20260367",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-16T00:28:22.553Z"
+  },
+  {
+    "id": "C0368",
+    "nis": "20260368",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-09T05:22:56.553Z"
+  },
+  {
+    "id": "C0369",
+    "nis": "20260369",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-15T07:04:36.553Z"
+  },
+  {
+    "id": "C0370",
+    "nis": "20260370",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-17T13:51:02.553Z"
+  },
+  {
+    "id": "C0371",
+    "nis": "20260371",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-01T19:06:55.553Z"
+  },
+  {
+    "id": "C0372",
+    "nis": "20260372",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-06T02:30:58.553Z"
+  },
+  {
+    "id": "C0373",
+    "nis": "20260373",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-06T00:06:32.553Z"
+  },
+  {
+    "id": "C0374",
+    "nis": "20260374",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-16T11:23:41.553Z"
+  },
+  {
+    "id": "C0375",
+    "nis": "20260375",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-02T04:13:09.553Z"
+  },
+  {
+    "id": "C0376",
+    "nis": "20260376",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-27T17:37:14.553Z"
+  },
+  {
+    "id": "C0377",
+    "nis": "20260377",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-19T09:16:35.553Z"
+  },
+  {
+    "id": "C0378",
+    "nis": "20260378",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-10T14:14:12.553Z"
+  },
+  {
+    "id": "C0379",
+    "nis": "20260379",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-23T11:33:40.553Z"
+  },
+  {
+    "id": "C0380",
+    "nis": "20260380",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-16T20:00:26.553Z"
+  },
+  {
+    "id": "C0381",
+    "nis": "20260381",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-09T16:46:18.553Z"
+  },
+  {
+    "id": "C0382",
+    "nis": "20260382",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-13T18:21:57.553Z"
+  },
+  {
+    "id": "C0383",
+    "nis": "20260383",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-19T11:15:39.553Z"
+  },
+  {
+    "id": "C0384",
+    "nis": "20260384",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-14T20:54:58.553Z"
+  },
+  {
+    "id": "C0385",
+    "nis": "20260385",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-23T20:43:15.553Z"
+  },
+  {
+    "id": "C0386",
+    "nis": "20260386",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-26T12:55:55.553Z"
+  },
+  {
+    "id": "C0387",
+    "nis": "20260387",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-12T10:50:21.553Z"
+  },
+  {
+    "id": "C0388",
+    "nis": "20260388",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-12T20:10:33.553Z"
+  },
+  {
+    "id": "C0389",
+    "nis": "20260389",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-21T02:34:27.553Z"
+  },
+  {
+    "id": "C0390",
+    "nis": "20260390",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-12T17:35:19.553Z"
+  },
+  {
+    "id": "C0391",
+    "nis": "20260391",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-28T12:34:03.553Z"
+  },
+  {
+    "id": "C0392",
+    "nis": "20260392",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-05T23:19:37.553Z"
+  },
+  {
+    "id": "C0393",
+    "nis": "20260393",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-05T20:20:24.553Z"
+  },
+  {
+    "id": "C0394",
+    "nis": "20260394",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-25T03:31:50.553Z"
+  },
+  {
+    "id": "C0395",
+    "nis": "20260395",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-06T15:12:37.553Z"
+  },
+  {
+    "id": "C0396",
+    "nis": "20260396",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-08T22:03:19.553Z"
+  },
+  {
+    "id": "C0397",
+    "nis": "20260397",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-31T07:01:08.553Z"
+  },
+  {
+    "id": "C0398",
+    "nis": "20260398",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-19T22:33:11.553Z"
+  },
+  {
+    "id": "C0399",
+    "nis": "20260399",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-02T16:12:25.553Z"
+  },
+  {
+    "id": "C0400",
+    "nis": "20260400",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-19T23:55:13.553Z"
+  },
+  {
+    "id": "C0401",
+    "nis": "20260401",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-30T10:33:50.553Z"
+  },
+  {
+    "id": "C0402",
+    "nis": "20260402",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-07T17:18:48.553Z"
+  },
+  {
+    "id": "C0403",
+    "nis": "20260403",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-23T20:03:00.553Z"
+  },
+  {
+    "id": "C0404",
+    "nis": "20260404",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-05T02:03:56.553Z"
+  },
+  {
+    "id": "C0405",
+    "nis": "20260405",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-20T00:00:39.553Z"
+  },
+  {
+    "id": "C0406",
+    "nis": "20260406",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-20T11:55:23.553Z"
+  },
+  {
+    "id": "C0407",
+    "nis": "20260407",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-22T16:37:04.553Z"
+  },
+  {
+    "id": "C0408",
+    "nis": "20260408",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-10T03:08:16.553Z"
+  },
+  {
+    "id": "C0409",
+    "nis": "20260409",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-13T18:07:58.553Z"
+  },
+  {
+    "id": "C0410",
+    "nis": "20260410",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-11T14:43:17.553Z"
+  },
+  {
+    "id": "C0411",
+    "nis": "20260411",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-11T06:57:09.553Z"
+  },
+  {
+    "id": "C0412",
+    "nis": "20260412",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-27T02:20:52.553Z"
+  },
+  {
+    "id": "C0413",
+    "nis": "20260413",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-26T07:42:27.553Z"
+  },
+  {
+    "id": "C0414",
+    "nis": "20260414",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-12T05:04:54.553Z"
+  },
+  {
+    "id": "C0415",
+    "nis": "20260415",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-15T14:39:19.553Z"
+  },
+  {
+    "id": "C0416",
+    "nis": "20260416",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-23T18:11:26.553Z"
+  },
+  {
+    "id": "C0417",
+    "nis": "20260417",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-18T22:40:51.553Z"
+  },
+  {
+    "id": "C0418",
+    "nis": "20260418",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-30T11:56:14.553Z"
+  },
+  {
+    "id": "C0419",
+    "nis": "20260419",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-25T02:31:24.553Z"
+  },
+  {
+    "id": "C0420",
+    "nis": "20260420",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-10T02:30:03.553Z"
+  },
+  {
+    "id": "C0421",
+    "nis": "20260421",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-19T22:45:55.553Z"
+  },
+  {
+    "id": "C0422",
+    "nis": "20260422",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-30T13:05:29.553Z"
+  },
+  {
+    "id": "C0423",
+    "nis": "20260423",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-20T00:54:05.553Z"
+  },
+  {
+    "id": "C0424",
+    "nis": "20260424",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-19T18:07:32.553Z"
+  },
+  {
+    "id": "C0425",
+    "nis": "20260425",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-19T17:06:21.553Z"
+  },
+  {
+    "id": "C0426",
+    "nis": "20260426",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-20T09:43:21.553Z"
+  },
+  {
+    "id": "C0427",
+    "nis": "20260427",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-06T08:39:11.553Z"
+  },
+  {
+    "id": "C0428",
+    "nis": "20260428",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-16T05:31:31.553Z"
+  },
+  {
+    "id": "C0429",
+    "nis": "20260429",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-15T09:29:45.553Z"
+  },
+  {
+    "id": "C0430",
+    "nis": "20260430",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-18T19:24:21.553Z"
+  },
+  {
+    "id": "C0431",
+    "nis": "20260431",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-10T22:38:32.553Z"
+  },
+  {
+    "id": "C0432",
+    "nis": "20260432",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-17T07:42:20.553Z"
+  },
+  {
+    "id": "C0433",
+    "nis": "20260433",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-14T22:34:51.553Z"
+  },
+  {
+    "id": "C0434",
+    "nis": "20260434",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-31T19:55:28.553Z"
+  },
+  {
+    "id": "C0435",
+    "nis": "20260435",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-07T15:45:04.553Z"
+  },
+  {
+    "id": "C0436",
+    "nis": "20260436",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-03T17:07:05.553Z"
+  },
+  {
+    "id": "C0437",
+    "nis": "20260437",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-27T03:40:13.553Z"
+  },
+  {
+    "id": "C0438",
+    "nis": "20260438",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-07T15:14:48.553Z"
+  },
+  {
+    "id": "C0439",
+    "nis": "20260439",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-19T17:30:40.553Z"
+  },
+  {
+    "id": "C0440",
+    "nis": "20260440",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-17T13:50:14.553Z"
+  },
+  {
+    "id": "C0441",
+    "nis": "20260441",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-10-10T13:24:59.553Z"
+  },
+  {
+    "id": "C0442",
+    "nis": "20260442",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-30T19:00:04.553Z"
+  },
+  {
+    "id": "C0443",
+    "nis": "20260443",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-09T14:35:22.553Z"
+  },
+  {
+    "id": "C0444",
+    "nis": "20260444",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-19T21:55:31.553Z"
+  },
+  {
+    "id": "C0445",
+    "nis": "20260445",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-05T02:51:45.553Z"
+  },
+  {
+    "id": "C0446",
+    "nis": "20260446",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-03T13:59:24.553Z"
+  },
+  {
+    "id": "C0447",
+    "nis": "20260447",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-02T20:42:00.553Z"
+  },
+  {
+    "id": "C0448",
+    "nis": "20260448",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-27T20:38:22.553Z"
+  },
+  {
+    "id": "C0449",
+    "nis": "20260449",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-07T22:47:07.553Z"
+  },
+  {
+    "id": "C0450",
+    "nis": "20260450",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-06T18:37:30.553Z"
+  },
+  {
+    "id": "C0451",
+    "nis": "20260451",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-17T23:50:41.553Z"
+  },
+  {
+    "id": "C0452",
+    "nis": "20260452",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-19T02:04:38.553Z"
+  },
+  {
+    "id": "C0453",
+    "nis": "20260453",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-05T23:22:13.553Z"
+  },
+  {
+    "id": "C0454",
+    "nis": "20260454",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-14T21:13:04.553Z"
+  },
+  {
+    "id": "C0455",
+    "nis": "20260455",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-11-07T10:28:57.553Z"
+  },
+  {
+    "id": "C0456",
+    "nis": "20260456",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-31T20:45:04.553Z"
+  },
+  {
+    "id": "C0457",
+    "nis": "20260457",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-15T04:46:20.553Z"
+  },
+  {
+    "id": "C0458",
+    "nis": "20260458",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-20T04:35:34.553Z"
+  },
+  {
+    "id": "C0459",
+    "nis": "20260459",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-23T09:06:40.553Z"
+  },
+  {
+    "id": "C0460",
+    "nis": "20260460",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-10T09:02:30.553Z"
+  },
+  {
+    "id": "C0461",
+    "nis": "20260461",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-14T12:04:02.553Z"
+  },
+  {
+    "id": "C0462",
+    "nis": "20260462",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-22T06:56:02.553Z"
+  },
+  {
+    "id": "C0463",
+    "nis": "20260463",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-10-18T02:32:03.553Z"
+  },
+  {
+    "id": "C0464",
+    "nis": "20260464",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-07T03:36:55.553Z"
+  },
+  {
+    "id": "C0465",
+    "nis": "20260465",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-19T18:03:28.553Z"
+  },
+  {
+    "id": "C0466",
+    "nis": "20260466",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-11-08T16:05:47.553Z"
+  },
+  {
+    "id": "C0467",
+    "nis": "20260467",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-30T06:24:26.553Z"
+  },
+  {
+    "id": "C0468",
+    "nis": "20260468",
+    "dari": "ortu",
+    "pesan": "Baik Pak/Bu, pembayaran kami lakukan pekan ini via QRIS.",
+    "waktu": "2026-11-20T10:38:39.553Z"
+  },
+  {
+    "id": "C0469",
+    "nis": "20260469",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-19T05:28:29.553Z"
+  },
+  {
+    "id": "C0470",
+    "nis": "20260470",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-27T19:46:26.553Z"
+  },
+  {
+    "id": "C0471",
+    "nis": "20260471",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-29T02:56:20.553Z"
+  },
+  {
+    "id": "C0472",
+    "nis": "20260472",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-22T07:29:28.553Z"
+  },
+  {
+    "id": "C0473",
+    "nis": "20260473",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-08T08:11:18.553Z"
+  },
+  {
+    "id": "C0474",
+    "nis": "20260474",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-07T18:47:10.553Z"
+  },
+  {
+    "id": "C0475",
+    "nis": "20260475",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-06T00:34:49.553Z"
+  },
+  {
+    "id": "C0476",
+    "nis": "20260476",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-06T19:00:43.553Z"
+  },
+  {
+    "id": "C0477",
+    "nis": "20260477",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-11-19T23:04:03.553Z"
+  },
+  {
+    "id": "C0478",
+    "nis": "20260478",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-29T19:57:24.553Z"
+  },
+  {
+    "id": "C0479",
+    "nis": "20260479",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-11-20T04:19:46.553Z"
+  },
+  {
+    "id": "C0480",
+    "nis": "20260480",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-12T07:09:00.553Z"
+  },
+  {
+    "id": "C0481",
+    "nis": "20260481",
+    "dari": "ortu",
+    "pesan": "Mohon izin ananda sakit, surat dokter menyusul.",
+    "waktu": "2026-10-14T18:18:07.553Z"
+  },
+  {
+    "id": "C0482",
+    "nis": "20260482",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-12T06:52:10.553Z"
+  },
+  {
+    "id": "C0483",
+    "nis": "20260483",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-10T07:20:02.553Z"
+  },
+  {
+    "id": "C0484",
+    "nis": "20260484",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-11-02T09:18:01.553Z"
+  },
+  {
+    "id": "C0485",
+    "nis": "20260485",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-12T12:06:41.553Z"
+  },
+  {
+    "id": "C0486",
+    "nis": "20260486",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-15T11:29:37.553Z"
+  },
+  {
+    "id": "C0487",
+    "nis": "20260487",
+    "dari": "sekolah",
+    "pesan": "Absensi ananda tercatat alfa, mohon konfirmasi ke wali kelas.",
+    "waktu": "2026-11-06T05:54:04.553Z"
+  },
+  {
+    "id": "C0488",
+    "nis": "20260488",
+    "dari": "ortu",
+    "pesan": "Terima kasih informasinya, akan segera kami tindak lanjuti.",
+    "waktu": "2026-11-03T11:02:04.553Z"
+  },
+  {
+    "id": "C0489",
+    "nis": "20260489",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-14T00:54:36.553Z"
+  },
+  {
+    "id": "C0490",
+    "nis": "20260490",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-15T02:06:37.553Z"
+  },
+  {
+    "id": "C0491",
+    "nis": "20260491",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-10-18T02:49:26.553Z"
+  },
+  {
+    "id": "C0492",
+    "nis": "20260492",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-11-16T21:39:20.553Z"
+  },
+  {
+    "id": "C0493",
+    "nis": "20260493",
+    "dari": "sekolah",
+    "pesan": "Menginformasikan tagihan SPP bulan berjalan belum dibayar. Mohon cek Portal Orang Tua.",
+    "waktu": "2026-10-27T03:43:22.553Z"
+  },
+  {
+    "id": "C0494",
+    "nis": "20260494",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-12T13:55:05.553Z"
+  },
+  {
+    "id": "C0495",
+    "nis": "20260495",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-08T06:02:00.553Z"
+  },
+  {
+    "id": "C0496",
+    "nis": "20260496",
+    "dari": "sekolah",
+    "pesan": "Kegiatan besok memerlukan perlengkapan tambahan, detail di grup kelas.",
+    "waktu": "2026-10-16T08:34:31.553Z"
+  },
+  {
+    "id": "C0497",
+    "nis": "20260497",
+    "dari": "ortu",
+    "pesan": "Terima kasih atas pendampingannya di kelas.",
+    "waktu": "2026-10-11T04:30:31.553Z"
+  },
+  {
+    "id": "C0498",
+    "nis": "20260498",
+    "dari": "sekolah",
+    "pesan": "Ananda menunjukkan kemajuan pada asesmen formatif pekan ini.",
+    "waktu": "2026-10-21T20:37:13.553Z"
+  },
+  {
+    "id": "C0499",
+    "nis": "20260499",
+    "dari": "ortu",
+    "pesan": "Kami siap hadir pada rapat orang tua.",
+    "waktu": "2026-11-05T03:24:39.553Z"
+  },
+  {
+    "id": "C0500",
+    "nis": "20260500",
+    "dari": "sekolah",
+    "pesan": "Mohon hadir pada rapat orang tua sesuai kalender akademik.",
+    "waktu": "2026-10-25T22:48:38.553Z"
+  }
 ]

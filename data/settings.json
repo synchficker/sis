@@ -1,27 +1,27 @@
 {
-  "nama_sekolah": "SIN School",
-  "jenjang": "SD/SMP/SMU/SMK",
-  "npsn": "20123456",
-  "alamat": "Jl. Herman Tajir No. 100, Curug, Bojongsari Sawangan Kota Depok",
-  "telepon": "022-123456",
-  "email": "info@smpn1nusantara.sch.id",
-  "kepala_sekolah": "Drs. H. Surya Pranata, M.Pd",
-  "nip_kepsek": "196805121994031007",
+  "nama_sekolah": "SIN School Nusantara",
+  "jenjang": "SD",
+  "npsn": "20667096",
+  "alamat": "Jl. Cendana No. 25, Kec. Cerdas, Kota Sumedang, Jawa Barat",
+  "telepon": "022-966629",
+  "email": "info@sinschool.sch.id",
+  "kepala_sekolah": "Drs. H. Wira Hartono, M.Pd",
+  "nip_kepsek": "196807231994031007",
   "tahun_ajaran": "2026/2027",
   "semester": "Ganjil",
   "kurikulum": "Merdeka",
   "kkm": 75,
   "spp_nominal": 150000,
   "denda_per_hari": 500,
-  "wa_admin": "628989921788",
+  "wa_admin": "6281234567890",
   "bank": {
-    "nama": "Bank Sinarmas",
+    "nama": "Bank BJB",
     "va_prefix": "88088",
-    "atas_nama": "Sin School"
+    "atas_nama": "SIN School Nusantara"
   },
   "qris": {
-    "merchant": "Sin School",
-    "nmid": "ID1026DEMO001"
+    "merchant": "SIN SCHOOL NUSANTARA",
+    "nmid": "ID102667953"
   },
   "mapel": [
     "Matematika",
@@ -33,9 +33,11 @@
     "Informatika",
     "PJOK",
     "Seni Budaya",
-    "PAI"
+    "PAI",
+    "Prakarya",
+    "Ekonomi"
   ],
-  "pengumuman": "Sumatif Tengah Semester Ganjil dimulai 24 November 2026. Peserta CBT wajib membawa kartu QR absensi dan token ujian dari wali kelas.",
+  "pengumuman": "Asesmen sumatif semester Ganjil TA 2026/2027 berlangsung sesuai kalender akademik. Peserta CBT wajib membawa kartu QR absensi dan token ujian dari wali kelas.",
   "kebijakan": {
     "diskon_saudara_persen": 10,
     "cicilan_pangkal_opsi": [
