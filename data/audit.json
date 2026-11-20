@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2gbpsx6mcj",
+    "waktu": "2026-11-20T14:20:20.176Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "PUBLIKASI SLIDE",
+    "detail": "5 slide diperbarui"
+  },
+  {
     "id": "mwp2fmz651t39",
     "waktu": "2026-11-20T14:19:48.114Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "SCAN QR",
     "detail": "Buku Pulang"
-  },
-  {
-    "id": "AU0497",
-    "waktu": "2026-11-19T05:08:01.553Z",
-    "aktor": "kurikulum",
-    "modul": "Perpustakaan",
-    "aksi": "PUBLIKASI",
-    "detail": "Kelas 6AR"
   }
 ]
