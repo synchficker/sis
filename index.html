@@ -1,123 +1,477 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sistem Informasi Sekolah — Halaman Publik</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
+  <!-- Stack tetap: Tailwind CDN + Lucide CDN + VanillaJS, tanpa framework -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] } } } };</script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: {
+      fontFamily: { sans: ["Inter","ui-sans-serif","system-ui"], display: ["Poppins","Inter","sans-serif"] },
+      colors: { brand: { 50:"#f0fdf4",100:"#dcfce7",500:"#22c55e",600:"#16a34a",700:"#15803d",800:"#166534",900:"#14532d" } }
+    } } };
+  </script>
   <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .blob{position:absolute;border-radius:9999px;filter:blur(60px);opacity:.35;pointer-events:none}
+    .card-img{background:linear-gradient(135deg,#16a34a,#0d9488)}
+    html{scroll-padding-top:90px}
+  </style>
 </head>
-<body class="font-sans bg-slate-50 text-slate-800">
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center"><i data-lucide="school" class="w-5 h-5"></i></div>
-      <div class="flex-1 min-w-0">
-        <div id="hNama" class="font-extrabold truncate">Sistem Informasi Sekolah</div>
-        <div id="hNpsn" class="text-xs text-slate-500">NPSN —</div>
-      </div>
-      <nav class="hidden md:flex items-center gap-1 text-sm font-semibold">
-        <a href="ppdb.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">PPDB</a>
-        <a href="belajar.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">Belajar</a>
-        <a href="cbt.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">CBT</a>
-        <a href="portal.html" class="px-3 py-2 rounded-lg hover:bg-emerald-50 hover:text-emerald-700">Portal Ortu</a>
-        <a href="login.html" class="ml-1 px-4 py-2 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 inline-flex items-center gap-1.5"><i data-lucide="key-round" class="w-4 h-4"></i>Login Admin</a>
+<body class="font-sans bg-white text-slate-800 antialiased">
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 h-[72px] flex items-center gap-3">
+      <a href="#beranda" class="flex items-center gap-2.5 min-w-0">
+        <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center shrink-0"><i data-lucide="school" class="w-5 h-5"></i></div>
+        <div class="min-w-0 leading-tight">
+          <div id="navNama" class="font-display font-bold text-brand-800 truncate">Nama Sekolah</div>
+          <div id="navNpsn" class="text-[11px] text-slate-400">NPSN —</div>
+        </div>
+      </a>
+      <nav class="hidden lg:flex items-center gap-1 ml-6 text-sm font-semibold text-slate-600">
+        <a href="#profil" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Profil</a>
+        <a href="#program" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Program</a>
+        <a href="#akademik" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Akademik</a>
+        <a href="#fasilitas" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Fasilitas</a>
+        <a href="#berita" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Berita</a>
+        <a href="#kontak" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kontak</a>
       </nav>
-      <a href="login.html" class="md:hidden px-3 py-2 rounded-lg bg-emerald-600 text-white text-sm font-bold">Login</a>
+      <div class="flex-1"></div>
+      <div class="hidden md:flex items-center gap-2">
+        <a href="portal.html" class="text-sm font-bold px-3 py-2 rounded-lg text-brand-700 hover:bg-brand-50">Portal Ortu</a>
+        <a href="ppdb.html" class="text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300 shadow-sm">Daftar Sekarang</a>
+        <a href="login.html" class="text-sm font-bold px-3 py-2 rounded-lg border border-slate-200 hover:bg-slate-50 inline-flex items-center gap-1.5"><i data-lucide="key-round" class="w-4 h-4"></i>Login</a>
+      </div>
+      <button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100" aria-label="Menu"><i data-lucide="menu" class="w-6 h-6"></i></button>
+    </div>
+    <!-- Menu mobile -->
+    <div id="mMenu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1 text-sm font-semibold">
+      <a href="#profil" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Profil</a>
+      <a href="#program" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Program</a>
+      <a href="#akademik" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Akademik</a>
+      <a href="#fasilitas" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Fasilitas</a>
+      <a href="#berita" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Berita</a>
+      <a href="#kontak" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kontak</a>
+      <a href="belajar.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">E-Learning</a>
+      <a href="cbt.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Ujian CBT</a>
+      <div class="flex gap-2 pt-2">
+        <a href="ppdb.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Daftar</a>
+        <a href="portal.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-brand-600 text-white font-bold">Portal Ortu</a>
+        <a href="login.html" class="flex-1 text-center px-3 py-2.5 rounded-xl border border-slate-200 font-bold">Login</a>
+      </div>
     </div>
   </header>
-  <section class="bg-gradient-to-br from-emerald-600 to-teal-700 text-white">
-    <div class="max-w-6xl mx-auto px-4 py-14">
-      <span id="heroJenjang" class="text-xs font-bold bg-white/15 px-3 py-1 rounded-full">SD • SMP • SMA/SMK</span>
-      <h1 id="heroNama" class="mt-3 text-3xl md:text-5xl font-extrabold leading-tight">Selamat Datang di Sekolah Kami</h1>
-      <p id="heroAlamat" class="mt-3 text-emerald-100 max-w-2xl text-sm md:text-base"></p>
-      <div class="mt-6 flex flex-wrap gap-3 text-sm font-bold">
-        <a href="ppdb.html" class="px-5 py-3 rounded-xl bg-white text-emerald-700 hover:bg-emerald-50 inline-flex items-center gap-2"><i data-lucide="user-plus" class="w-4 h-4"></i>Daftar PPDB Online</a>
-        <a href="portal.html" class="px-5 py-3 rounded-xl bg-emerald-500/40 border border-white/30 hover:bg-emerald-500/60 inline-flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i>Portal Orang Tua</a>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="beranda" class="relative overflow-hidden bg-gradient-to-br from-brand-700 via-brand-600 to-teal-600 text-white pt-[72px]">
+    <div class="blob w-72 h-72 bg-amber-300 -top-10 -left-10"></div>
+    <div class="blob w-80 h-80 bg-teal-300 bottom-0 right-0"></div>
+    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-24 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <a href="ppdb.html" class="inline-flex items-center gap-2 text-xs font-bold bg-white/15 border border-white/25 px-3 py-1.5 rounded-full hover:bg-white/25">
+          <i data-lucide="megaphone" class="w-3.5 h-3.5"></i> Penerimaan Peserta Didik Baru Telah Dibuka
+        </a>
+        <h1 class="font-display font-extrabold text-4xl md:text-5xl leading-tight mt-4">
+          <span id="heroNama">Nama Sekolah</span> <span class="text-amber-300">is a Happy School</span>
+        </h1>
+        <p id="heroTagline" class="mt-4 text-brand-50/95 text-lg max-w-xl">Sekolah yang membimbing siswa belajar aktif, berkarakter, dan berprestasi.</p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="ppdb.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-400 text-amber-950 font-bold hover:bg-amber-300 shadow-lg"><i data-lucide="user-plus" class="w-5 h-5"></i>Register Now</a>
+          <button id="tourBtn" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white/15 border border-white/30 font-bold hover:bg-white/25"><i data-lucide="play-circle" class="w-5 h-5"></i>Virtual Tour</button>
+        </div>
+        <div class="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-brand-50/90">
+          <span class="inline-flex items-center gap-2"><i data-lucide="badge-check" class="w-4 h-4 text-amber-300"></i><span id="heroJenjang">Jenjang</span></span>
+          <span class="inline-flex items-center gap-2"><i data-lucide="calendar-days" class="w-4 h-4 text-amber-300"></i>TA <span id="heroTA">—</span></span>
+          <span class="inline-flex items-center gap-2"><i data-lucide="book-open-check" class="w-4 h-4 text-amber-300"></i>Kurikulum <span id="heroKur">—</span></span>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="card-img rounded-3xl overflow-hidden shadow-2xl ring-4 ring-white/20 aspect-[4/3]">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=60" alt="Kegiatan belajar siswa" class="w-full h-full object-cover" onerror="this.style.display='none'">
+        </div>
+        <div class="absolute -bottom-5 -left-5 bg-white text-slate-800 rounded-2xl shadow-xl px-5 py-4 flex items-center gap-3">
+          <div class="w-11 h-11 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center"><i data-lucide="users" class="w-5 h-5"></i></div>
+          <div><div id="heroSiswa" class="text-2xl font-extrabold leading-none">0</div><div class="text-xs text-slate-500 font-semibold">Siswa Aktif</div></div>
+        </div>
+        <div class="absolute -top-4 -right-4 bg-amber-400 text-amber-950 rounded-2xl shadow-xl px-4 py-3 font-display font-bold text-sm">🎓 Active Learning</div>
+      </div>
+    </div>
+    <svg class="block w-full text-white" viewBox="0 0 1440 60" fill="currentColor" preserveAspectRatio="none"><path d="M0,32 C240,64 480,0 720,16 C960,32 1200,64 1440,32 L1440,60 L0,60 Z"></path></svg>
+  </section>
+
+  <!-- ===================== STATISTIK ===================== -->
+  <section class="max-w-7xl mx-auto px-4 -mt-2">
+    <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+  </section>
+
+  <!-- ===================== BERITA / WHAT'S GOING ON ===================== -->
+  <section id="berita" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div>
+        <h2 class="font-display font-extrabold text-3xl text-brand-800">What's going on?</h2>
+        <p class="text-slate-500 mt-1 max-w-2xl">Kabar terbaru seputar kegiatan belajar, pengumuman, dan agenda sekolah. Tetap terinformasi dan terinspirasi!</p>
+      </div>
+      <a href="belajar.html" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-bold text-brand-700 hover:text-brand-800">More Articles <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+    </div>
+    <div id="newsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- ===================== PROFIL / ABOUT US ===================== -->
+  <section id="profil" class="bg-brand-50/60 border-y border-brand-100">
+    <div class="max-w-7xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="relative">
+        <div class="card-img rounded-3xl overflow-hidden shadow-xl aspect-[4/3]">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=60" alt="Lingkungan sekolah" class="w-full h-full object-cover" onerror="this.style.display='none'">
+        </div>
+        <div class="absolute -bottom-6 right-6 bg-white rounded-2xl shadow-xl p-5 max-w-[240px]">
+          <div class="text-xs font-bold text-slate-400 uppercase">Kepala Sekolah</div>
+          <div id="kepsekNama" class="font-display font-bold text-brand-800 mt-1">—</div>
+          <div id="kepsekNip" class="text-xs text-slate-500">NIP. —</div>
+        </div>
+      </div>
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-600">About Us</span>
+        <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Tentang <span id="aboutNama">Sekolah Kami</span></h2>
+        <p id="aboutText" class="text-slate-600 mt-4 leading-relaxed"></p>
+        <div class="mt-6 grid grid-cols-2 gap-4 text-sm">
+          <div class="flex gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span id="aboutAlamat" class="text-slate-600"></span></div>
+          <div class="flex gap-2"><i data-lucide="phone" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span id="aboutTelp" class="text-slate-600"></span></div>
+        </div>
+        <div class="mt-7 flex flex-wrap items-center gap-3">
+          <button id="brochureBtn" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-600 text-white font-bold hover:bg-brand-700 shadow"><i data-lucide="download" class="w-4 h-4"></i>Download E-Brochure</button>
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-semibold text-slate-500 mr-1">Stay Connected:</span>
+            <a id="socWa" target="_blank" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="WhatsApp"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
+            <a id="socMail" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Email"><i data-lucide="mail" class="w-4 h-4"></i></a>
+            <a href="#" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Instagram (demo)"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+            <a href="#" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="YouTube (demo)"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <div id="pengumuman" class="hidden max-w-6xl mx-auto px-4 mt-6">
-    <div class="bg-amber-50 border border-amber-200 text-amber-800 rounded-xl px-4 py-3 text-sm flex gap-2"><i data-lucide="bell" class="w-4 h-4 mt-0.5 shrink-0"></i><span id="pengumumanTxt"></span></div>
-  </div>
-  <main class="max-w-6xl mx-auto px-4 py-8 space-y-8">
-    <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
-    <section class="bg-white rounded-2xl shadow-sm border border-slate-200">
-      <div class="p-5 border-b border-slate-100 flex flex-wrap items-center gap-3">
+
+  <!-- ===================== PROGRAM / WHAT WE HAVE ===================== -->
+  <section id="program" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="text-center mb-10">
+      <span class="text-xs font-bold uppercase tracking-wider text-brand-600">What We Have</span>
+      <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Program Sekolah</h2>
+      <p class="text-slate-500 mt-2 max-w-2xl mx-auto">Jenjang pendidikan yang kami layani dalam satu ekosistem digital terpadu.</p>
+    </div>
+    <div id="programGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </section>
+
+  <!-- ===================== KALENDER AKADEMIK ===================== -->
+  <section id="akademik" class="bg-slate-50 border-y border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="flex items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Kalender Akademik</span>
+          <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Agenda Terdekat</h2>
+        </div>
+        <a href="belajar.html" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-bold text-brand-700">Lihat E-Learning <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+      </div>
+      <div id="agendaList" class="grid md:grid-cols-2 gap-4"></div>
+    </div>
+  </section>
+
+  <!-- ===================== DATA SISWA (FITUR PUBLIK TETAP DIPERTAHANKAN) ===================== -->
+  <section id="siswa" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
+      <div class="p-6 border-b border-slate-100 flex flex-wrap items-center gap-3">
         <div class="flex-1 min-w-[220px]">
-          <h2 class="font-extrabold text-lg flex items-center gap-2"><i data-lucide="users" class="w-5 h-5 text-emerald-600"></i>Data Induk Siswa (Publik)</h2>
-          <p class="text-xs text-slate-500 mt-0.5">Terbuka tanpa login • sumber: <code>data/siswa.json</code> • hanya kolom non-sensitif.</p>
+          <h2 class="font-display font-extrabold text-xl text-slate-800 flex items-center gap-2"><i data-lucide="users" class="w-5 h-5 text-brand-600"></i>Data Induk Siswa (Publik)</h2>
+          <p class="text-xs text-slate-500 mt-0.5">Terbuka tanpa login • sumber <code>data/siswa.json</code> • hanya kolom non-sensitif.</p>
         </div>
         <div class="relative">
           <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-400"></i>
-          <input id="q" placeholder="Cari nama / NIS…" class="pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-lg w-48">
+          <input id="q" placeholder="Cari nama / NIS…" class="pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-lg w-48 focus:ring-2 focus:ring-brand-500 outline-none">
         </div>
         <select id="fKelas" class="py-2 px-3 text-sm border border-slate-300 rounded-lg"><option value="">Semua Kelas</option></select>
       </div>
       <div class="overflow-x-auto">
         <table class="w-full text-left">
-          <thead class="bg-slate-50"><tr>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">NIS</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">NISN</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">Nama Lengkap</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">L/P</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">Kelas</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">Status</th>
+          <thead class="bg-brand-50"><tr>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">NIS</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">NISN</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">Nama Lengkap</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">L/P</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">Kelas</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">Status</th>
           </tr></thead>
           <tbody id="tb"><tr><td colspan="6" class="px-4 py-10 text-center text-sm text-slate-400">Memuat data…</td></tr></tbody>
         </table>
       </div>
-      <div id="jumlah" class="px-5 py-3 text-xs text-slate-500 border-t border-slate-100"></div>
-    </section>
-  </main>
-  <footer class="border-t border-slate-200 bg-white">
-    <div class="max-w-6xl mx-auto px-4 py-6 text-xs text-slate-500 flex flex-wrap gap-2 justify-between">
-      <span>© 2026 <span id="fNama">Sekolah</span> — Sistem Informasi Sekolah statis (GitHub Pages).</span>
-      <span class="flex gap-3"><a class="hover:text-emerald-700" href="belajar.html">E-Learning</a><a class="hover:text-emerald-700" href="cbt.html">Ujian CBT</a><a class="hover:text-emerald-700" href="portal.html">Portal Ortu</a></span>
+      <div id="jumlah" class="px-6 py-3 text-xs text-slate-500 border-t border-slate-100"></div>
+    </div>
+  </section>
+
+  <!-- ===================== FASILITAS ===================== -->
+  <section id="fasilitas" class="bg-brand-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="flex items-end justify-between gap-4 mb-10">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-300">Facilities</span>
+          <h2 class="font-display font-extrabold text-3xl mt-2">Fasilitas Sekolah</h2>
+        </div>
+        <button id="tourBtn2" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-400 text-amber-950 font-bold hover:bg-amber-300"><i data-lucide="play-circle" class="w-4 h-4"></i>Virtual Tour</button>
+      </div>
+      <div id="facilityGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+    </div>
+  </section>
+
+  <!-- ===================== KONTAK / FIND US HERE ===================== -->
+  <section id="kontak" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="text-center mb-10">
+      <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Find Us Here</span>
+      <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Kunjungi Sekolah Kami</h2>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-8 items-stretch">
+      <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm min-h-[320px]">
+        <iframe id="mapFrame" class="w-full h-full min-h-[320px]" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="about:blank" title="Peta lokasi sekolah"></iframe>
+      </div>
+      <div class="space-y-4">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+          <b id="kontakNama" class="font-display text-lg text-brand-800">Nama Sekolah</b>
+          <p id="kontakAlamat" class="text-slate-600 text-sm mt-2 flex gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span></span></p>
+          <p class="text-slate-600 text-sm mt-2 flex gap-2"><i data-lucide="phone" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span id="kontakTelp"></span></p>
+          <p class="text-slate-600 text-sm mt-2 flex gap-2"><i data-lucide="mail" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span id="kontakEmail"></span></p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <a id="kontakMap" target="_blank" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700"><i data-lucide="map" class="w-4 h-4"></i>Google Maps</a>
+            <a id="kontakWa" target="_blank" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50"><i data-lucide="message-circle" class="w-4 h-4"></i>WhatsApp</a>
+            <a href="ppdb.html" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300"><i data-lucide="user-plus" class="w-4 h-4"></i>Daftar</a>
+          </div>
+        </div>
+        <div class="bg-brand-50 border border-brand-100 rounded-2xl p-6 text-sm text-slate-600">
+          <b class="text-brand-800">Jam Layanan Administrasi</b>
+          <p class="mt-1">Senin–Jumat, 07.00–15.00 WIB. Untuk informasi PPDB, SPP, dan akademik, hubungi kami melalui WhatsApp atau Portal Orang Tua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-slate-900 text-slate-300">
+    <div class="max-w-7xl mx-auto px-4 py-14 grid md:grid-cols-2 lg:grid-cols-5 gap-10">
+      <div class="lg:col-span-2">
+        <div class="flex items-center gap-2.5">
+          <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center"><i data-lucide="school" class="w-5 h-5"></i></div>
+          <b id="footNama" class="font-display text-white text-lg">Nama Sekolah</b>
+        </div>
+        <p id="footAlamat" class="text-sm mt-4 text-slate-400 max-w-sm"></p>
+        <p id="footTelp" class="text-sm mt-2 text-slate-400"></p>
+        <div class="flex gap-2 mt-4">
+          <a id="footWa" target="_blank" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
+          <a id="footMail" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="mail" class="w-4 h-4"></i></a>
+          <a href="#" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+          <a href="#" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+      <div><b class="text-white text-sm uppercase tracking-wider">About Us</b>
+        <ul class="mt-4 space-y-2 text-sm">
+          <li><a href="#profil" class="hover:text-brand-400">Profil Sekolah</a></li>
+          <li><a href="#program" class="hover:text-brand-400">Program</a></li>
+          <li><a href="#fasilitas" class="hover:text-brand-400">Fasilitas</a></li>
+          <li><a href="#kontak" class="hover:text-brand-400">Kontak</a></li>
+        </ul>
+      </div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Layanan</b>
+        <ul class="mt-4 space-y-2 text-sm">
+          <li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li>
+          <li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li>
+          <li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li>
+          <li><a href="cbt.html" class="hover:text-brand-400">Ujian CBT</a></li>
+        </ul>
+      </div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Administrator</b>
+        <ul class="mt-4 space-y-2 text-sm">
+          <li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li>
+          <li><a href="#siswa" class="hover:text-brand-400">Data Siswa</a></li>
+          <li><a href="#akademik" class="hover:text-brand-400">Kalender Akademik</a></li>
+          <li><a href="#berita" class="hover:text-brand-400">Berita</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500 flex flex-wrap gap-2 justify-between">
+        <span>© 2026 <span id="footCopy">Nama Sekolah</span>. Sistem Informasi Sekolah statis (GitHub Pages).</span>
+        <span>Terinspirasi tata letak Al-Fath School Indonesia • data dari <code>data/*.json</code></span>
+      </div>
     </div>
   </footer>
+
+  <!-- Tombol WA mengambang -->
+  <a id="fabWa" target="_blank" class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-full bg-brand-600 text-white shadow-xl flex items-center justify-center hover:bg-brand-700" title="Chat WhatsApp"><i data-lucide="message-circle" class="w-6 h-6"></i></a>
+
+  <!-- Modal Virtual Tour -->
+  <div id="tourModal" class="hidden fixed inset-0 z-[60] bg-slate-900/70 flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl w-full max-w-3xl overflow-hidden">
+      <div class="flex items-center justify-between px-4 py-3 border-b"><b class="text-sm">Virtual Tour (demo)</b><button id="tourClose" class="p-1.5 rounded-lg hover:bg-slate-100"><i data-lucide="x" class="w-5 h-5"></i></button></div>
+      <div class="aspect-video bg-black"><iframe id="tourFrame" class="w-full h-full" allowfullscreen src="about:blank"></iframe></div>
+      <p class="text-xs text-slate-500 px-4 py-3">Ganti URL video pada tombol Virtual Tour dengan video tur sekolah Anda.</p>
+    </div>
+  </div>
+
+  <!-- Struktur lama dipertahankan: config.js + app.js + data/*.json -->
   <script src="config.js"></script>
   <script src="app.js"></script>
   <script>
-    let SISWA = [];
-    const badge = v => '<span class="px-2 py-0.5 rounded-full text-xs font-medium ' + (v === "Aktif" ? "bg-emerald-100 text-emerald-700" : "bg-slate-100 text-slate-600") + '">' + esc(v || "-") + "</span>";
+    // ===== Data publik (tanpa token) =====
+    let SISWA = [], ST = {};
+    const $ = id => document.getElementById(id);
+    const badge = v => '<span class="px-2 py-0.5 rounded-full text-xs font-medium ' + (v === "Aktif" ? "bg-brand-100 text-brand-700" : "bg-slate-100 text-slate-600") + '">' + esc(v || "-") + "</span>";
+    const img = (url, alt) => '<div class="card-img w-full h-full"><img src="' + url + '" alt="' + esc(alt) + '" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>';
+
+    // ----- Tabel siswa (fitur publik lama, tetap sama) -----
     function redraw() {
-      const s = document.getElementById("q").value.toLowerCase(), k = document.getElementById("fKelas").value;
+      const s = $("q").value.toLowerCase(), k = $("fKelas").value;
       const rows = SISWA.filter(x => (!k || x.kelas === k) && JSON.stringify(x).toLowerCase().includes(s));
-      document.getElementById("tb").innerHTML = rows.map(x =>
-        '<tr class="border-b border-slate-100 hover:bg-slate-50"><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nis) + '</td><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nisn) + '</td><td class="px-4 py-2.5 text-sm font-semibold">' + esc(x.nama) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.jk) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.kelas) + "</td><td class='px-4 py-2.5'>" + badge(x.status) + "</td></tr>"
+      $("tb").innerHTML = rows.map(x =>
+        '<tr class="border-b border-slate-100 hover:bg-brand-50/40"><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nis) + '</td><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nisn) + '</td><td class="px-4 py-2.5 text-sm font-semibold">' + esc(x.nama) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.jk) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.kelas) + "</td><td class='px-4 py-2.5'>" + badge(x.status) + "</td></tr>"
       ).join("") || '<tr><td colspan="6" class="px-4 py-10 text-center text-sm text-slate-400">Tidak ada data.</td></tr>';
-      document.getElementById("jumlah").textContent = rows.length + " siswa ditampilkan • diperbarui otomatis dari repositori GitHub.";
+      $("jumlah").textContent = rows.length + " siswa ditampilkan • diperbarui otomatis dari repositori GitHub.";
     }
+    $("q").oninput = redraw; $("fKelas").onchange = redraw;
+
+    // ----- Animasi angka statistik -----
+    function countUp(el, target) {
+      const dur = 900, t0 = performance.now();
+      const step = t => { const p = Math.min(1, (t - t0) / dur); el.textContent = Math.round(target * p).toLocaleString("id-ID"); if (p < 1) requestAnimationFrame(step); };
+      requestAnimationFrame(step);
+    }
+
+    // ----- Muat semua data -----
     (async () => {
       try {
-        const st = await fetchJSON("settings.json");
-        ["hNama", "heroNama", "fNama"].forEach(id => document.getElementById(id).textContent = st.nama_sekolah);
-        document.getElementById("hNpsn").textContent = "NPSN " + st.npsn + " • " + st.jenjang;
-        document.getElementById("heroJenjang").textContent = st.jenjang + " • Tahun Ajaran " + st.tahun_ajaran;
-        document.getElementById("heroAlamat").textContent = st.alamat;
-        document.title = st.nama_sekolah + " — Sistem Informasi Sekolah";
-        if (st.pengumuman) { document.getElementById("pengumuman").classList.remove("hidden"); document.getElementById("pengumumanTxt").textContent = st.pengumuman; }
+        ST = await fetchJSON("settings.json");
+        const nama = ST.nama_sekolah || "Nama Sekolah";
+        ["navNama","heroNama","aboutNama","kontakNama","footNama","footCopy"].forEach(id => $(id).textContent = nama);
+        document.title = nama + " — Sistem Informasi Sekolah";
+        $("navNpsn").textContent = "NPSN " + (ST.npsn || "—");
+        $("heroJenjang").textContent = ST.jenjang || "—";
+        $("heroTA").textContent = ST.tahun_ajaran || "—";
+        $("heroKur").textContent = ST.kurikulum || "—";
+        $("heroTagline").textContent = "Sekolah " + (ST.jenjang || "") + " yang membimbing siswa belajar aktif, berkarakter, dan berprestasi dalam satu ekosistem digital terpadu.";
+        $("aboutText").textContent = nama + " berkomitmen menumbuhkan kreativitas dan keterampilan siswa melalui berbagai kegiatan dan event kreatif sebagai proses belajar. Didukung " + (ST.jenjang || "jenjang") + " dengan Kurikulum " + (ST.kurikulum || "-") + ", kami menghadirkan pembelajaran yang menyenangkan dan bermakna.";
+        $("aboutAlamat").textContent = ST.alamat || "—";
+        $("aboutTelp").textContent = ST.telepon || "—";
+        $("kepsekNama").textContent = ST.kepala_sekolah || "—";
+        $("kepsekNip").textContent = "NIP. " + (ST.nip_kepsek || "—");
+        $("kontakAlamat").querySelector("span").textContent = ST.alamat || "—";
+        $("kontakTelp").textContent = ST.telepon || "—";
+        $("kontakEmail").textContent = ST.email || "—";
+        $("footAlamat").textContent = ST.alamat || "—";
+        $("footTelp").textContent = ST.telepon || "—";
+        const wa = "https://wa.me/" + (ST.wa_admin || "").replace(/^0/, "62");
+        ["socWa","kontakWa","footWa","fabWa"].forEach(id => $(id).href = wa);
+        $("socMail").href = "mailto:" + (ST.email || ""); $("footMail").href = "mailto:" + (ST.email || "");
+        const mapQ = encodeURIComponent(ST.alamat || "Indonesia");
+        $("mapFrame").src = "https://maps.google.com/maps?q=" + mapQ + "&t=&z=15&ie=UTF8&iwloc=&output=embed";
+        $("kontakMap").href = "https://www.google.com/maps/search/?api=1&query=" + mapQ;
       } catch (e) {}
+
       try {
-        SISWA = await fetchJSON("siswa.json");
-        const kelas = [...new Set(SISWA.map(s => s.kelas))].sort();
-        document.getElementById("fKelas").innerHTML += kelas.map(k => '<option>' + esc(k) + "</option>").join("");
+        const [siswa, guru, kelas, buku] = await Promise.all([
+          fetchJSON("siswa.json"), fetchJSON("guru.json").catch(() => []),
+          fetchJSON("kelas.json").catch(() => []), fetchJSON("buku.json").catch(() => [])
+        ]);
+        SISWA = siswa;
+        const aktif = siswa.filter(s => s.status === "Aktif").length;
+        $("heroSiswa").textContent = aktif;
+        const kl = [...new Set(siswa.map(s => s.kelas))].sort();
+        $("fKelas").innerHTML += kl.map(k => "<option>" + esc(k) + "</option>").join("");
         redraw();
-        const [guru, buku] = await Promise.all([fetchJSON("guru.json").catch(() => []), fetchJSON("buku.json").catch(() => [])]);
         const cards = [
-          ["users", "Siswa Terdaftar", SISWA.length, "emerald"], ["briefcase", "Guru & Tendik", guru.length, "sky"],
-          ["school", "Rombel / Kelas", kelas.length, "violet"], ["library", "Koleksi Buku", buku.reduce((a, b) => a + (b.stok || 0), 0), "amber"]
+          ["users","Siswa Aktif",aktif,"brand"], ["briefcase","Guru & Tendik",guru.length,"sky"],
+          ["school","Rombel / Kelas",kelas.length,"violet"], ["library","Koleksi Buku",buku.reduce((a,b)=>a+(b.stok||0),0),"amber"]
         ];
-        document.getElementById("stats").innerHTML = cards.map(c =>
-          '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5"><div class="w-9 h-9 rounded-lg bg-' + c[3] + '-100 text-' + c[3] + '-700 flex items-center justify-center mb-3"><i data-lucide="' + c[0] + '" class="w-5 h-5"></i></div><div class="text-2xl font-extrabold">' + c[2] + '</div><div class="text-xs text-slate-500 font-medium">' + c[1] + "</div></div>"
+        $("stats").innerHTML = cards.map((c,i) =>
+          '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-center"><div class="w-11 h-11 mx-auto rounded-xl bg-' + c[3] + '-100 text-' + c[3] + '-700 flex items-center justify-center mb-3"><i data-lucide="' + c[0] + '" class="w-5 h-5"></i></div><div class="text-3xl font-extrabold font-display" data-count="' + c[2] + '" id="stat' + i + '">0</div><div class="text-xs text-slate-500 font-semibold mt-1">' + c[1] + "</div></div>"
         ).join("");
-      } catch (e) { document.getElementById("tb").innerHTML = '<tr><td colspan="6" class="px-4 py-10 text-center text-sm text-rose-500">' + esc(e.message) + "</td></tr>"; }
+        cards.forEach((c,i) => countUp($("stat"+i), c[2]));
+
+        // Fasilitas (dari data inventaris/buku/kelas)
+        const inv = await fetchJSON("inventaris.json").catch(() => []);
+        const laptop = inv.filter(x => /laptop|komputer|chromebook/i.test(x.nama)).reduce((a,b)=>a+(b.jumlah||0),0);
+        const fas = [
+          ["Perpustakaan","library", buku.reduce((a,b)=>a+(b.stok||0),0) + " koleksi buku","https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=60"],
+          ["Lab Komputer","monitor", laptop + " unit perangkat","https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=60"],
+          ["Ruang Kelas","school", kelas.length + " rombongan belajar","https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=60"],
+          ["Sarana Olahraga","trophy","Aktivitas & ekstrakurikuler","https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=600&q=60"]
+        ];
+        $("facilityGrid").innerHTML = fas.map(f =>
+          '<div class="rounded-2xl overflow-hidden bg-white/10 border border-white/15"><div class="h-36">' + img(f[3], f[0]) + '</div><div class="p-4"><div class="flex items-center gap-2 font-display font-bold"><i data-lucide="' + f[1] + '" class="w-4 h-4 text-amber-300"></i>' + f[0] + '</div><div class="text-sm text-brand-100/80 mt-1">' + esc(f[2]) + "</div></div></div>"
+        ).join("");
+      } catch (e) { $("tb").innerHTML = '<tr><td colspan="6" class="px-4 py-10 text-center text-sm text-rose-500">' + esc(e.message) + "</td></tr>"; }
+
+      // Program jenjang
+      const prog = [
+        ["SD","Sekolah Dasar","Fondasi literasi, numerasi, dan karakter.","bg-brand-100 text-brand-700","baby"],
+        ["SMP","Sekolah Menengah Pertama","Penguatan akademik & minat bakat.","bg-sky-100 text-sky-700","book-open"],
+        ["SMA","Sekolah Menengah Atas","Persiapan perguruan tinggi & karier.","bg-violet-100 text-violet-700","graduation-cap"],
+        ["SMK","Sekolah Menengah Kejuruan","Kompetensi keahlian siap kerja.","bg-amber-100 text-amber-700","wrench"]
+      ];
+      $("programGrid").innerHTML = prog.map(p => {
+        const active = (ST.jenjang || "").toUpperCase() === p[0];
+        return '<div class="relative bg-white rounded-2xl border ' + (active ? "border-brand-500 ring-2 ring-brand-200" : "border-slate-200") + ' shadow-sm p-6 hover:shadow-md transition">' +
+          (active ? '<span class="absolute top-3 right-3 text-[10px] font-bold px-2 py-0.5 rounded-full bg-brand-600 text-white">Jenjang Kami</span>' : "") +
+          '<div class="w-12 h-12 rounded-xl ' + p[3] + ' flex items-center justify-center mb-4"><i data-lucide="' + p[4] + '" class="w-6 h-6"></i></div>' +
+          '<b class="font-display text-lg">' + p[0] + '</b><div class="text-xs text-slate-400 font-semibold">' + p[1] + '</div>' +
+          '<p class="text-sm text-slate-500 mt-2">' + p[2] + '</p>' +
+          '<a href="belajar.html" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 mt-4">Detail <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div>';
+      }).join("");
+
+      // Berita / kabar (dari materi + PPDB + pengumuman)
+      try {
+        const [materi, ppdb, ujian] = await Promise.all([
+          fetchJSON("materi.json").catch(() => []), fetchJSON("ppdb.json").catch(() => []), fetchJSON("ujian.json").catch(() => [])
+        ]);
+        const news = [];
+        if (ST.pengumuman) news.push({ t: "Pengumuman Sekolah", d: ST.pengumuman, href: "#berita", img: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=60", tag: "Info" });
+        if (ppdb.length) news.push({ t: "Open Admission PPDB Telah Dibuka", d: "Penerimaan Peserta Didik Baru resmi dibuka. Segera daftarkan putra-putri Anda melalui formulir PPDB Online.", href: "ppdb.html", img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=60", tag: "PPDB" });
+        materi.slice(0, 3).forEach(m => news.push({ t: m.judul, d: m.deskripsi || "Materi pembelajaran terbaru untuk siswa.", href: "belajar.html", img: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=60", tag: m.tipe || "Materi" }));
+        $("newsGrid").innerHTML = news.slice(0, 6).map(n =>
+          '<article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md transition flex flex-col"><div class="h-44">' + img(n.img, n.t) + '</div><div class="p-5 flex flex-col flex-1"><span class="self-start text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-brand-100 text-brand-700">' + esc(n.tag) + '</span><h3 class="font-display font-bold mt-2 leading-snug">' + esc(n.t) + '</h3><p class="text-sm text-slate-500 mt-2 line-clamp-3 flex-1">' + esc(n.d) + '</p><a href="' + n.href + '" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 mt-4">Read More <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div></article>'
+        ).join("") || '<p class="text-slate-400 col-span-full">Belum ada kabar.</p>';
+
+        // Agenda akademik (ujian + tugas)
+        const tugas = await fetchJSON("tugas.json").catch(() => []);
+        const agenda = [
+          ...ujian.map(u => ({ tgl: u.tanggal, judul: u.judul, ket: "Ujian CBT • " + u.mapel + " • " + u.kelas, href: "cbt.html", icon: "timer" })),
+          ...tugas.map(t => ({ tgl: t.deadline, judul: t.judul, ket: "Tugas • " + t.mapel + " • " + t.kelas, href: "belajar.html", icon: "clipboard-check" }))
+        ].filter(a => a.tgl).sort((a, b) => a.tgl.localeCompare(b.tgl)).slice(0, 6);
+        $("agendaList").innerHTML = agenda.map(a =>
+          '<a href="' + a.href + '" class="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-sm p-4 hover:border-brand-300"><div class="w-14 text-center shrink-0"><div class="text-2xl font-extrabold font-display text-brand-700 leading-none">' + new Date(a.tgl).getDate() + '</div><div class="text-[11px] uppercase text-slate-400 font-bold">' + new Date(a.tgl).toLocaleDateString("id-ID",{month:"short"}) + '</div></div><div class="flex-1 min-w-0"><b class="text-sm block truncate">' + esc(a.judul) + '</b><span class="text-xs text-slate-500">' + esc(a.ket) + '</span></div><i data-lucide="' + a.icon + '" class="w-5 h-5 text-brand-600 shrink-0"></i></a>'
+        ).join("") || '<p class="text-slate-400">Belum ada agenda terdekat.</p>';
+      } catch (e) {}
+
       refreshIcons();
     })();
-    document.getElementById("q").oninput = redraw;
-    document.getElementById("fKelas").onchange = redraw;
+
+    // ----- E-Brochure (cetak profil sekolah) -----
+    $("brochureBtn").onclick = async () => {
+      const [siswa, guru, kelas] = await Promise.all([fetchJSON("siswa.json").catch(()=>[]), fetchJSON("guru.json").catch(()=>[]), fetchJSON("kelas.json").catch(()=>[])]);
+      printHTML("E-Brochure " + (ST.nama_sekolah||""),
+        "<div class='center'><h1>" + esc(ST.nama_sekolah||"") + "</h1><div class='muted'>NPSN " + esc(ST.npsn||"") + " • " + esc(ST.jenjang||"") + " • Kurikulum " + esc(ST.kurikulum||"") + "</div></div><hr>" +
+        "<h3>Profil Singkat</h3><p>" + esc(ST.nama_sekolah||"") + " menyelenggarakan pendidikan " + esc(ST.jenjang||"") + " dengan Kurikulum " + esc(ST.kurikulum||"") + " tahun ajaran " + esc(ST.tahun_ajaran||"") + ". Kepala Sekolah: " + esc(ST.kepala_sekolah||"") + ".</p>" +
+        "<h3>Data Ringkas</h3><table><tr><th>Siswa Aktif</th><td>" + siswa.filter(s=>s.status==="Aktif").length + "</td><th>Guru & Tendik</th><td>" + guru.length + "</td><th>Rombel</th><td>" + kelas.length + "</td></tr></table>" +
+        "<h3>Kontak</h3><p>" + esc(ST.alamat||"") + "<br>Telp. " + esc(ST.telepon||"") + " • Email " + esc(ST.email||"") + "</p>" +
+        "<p class='muted'>Unduh/simpan sebagai PDF melalui dialog cetak.</p>");
+    };
+
+    // ----- Virtual Tour -----
+    const TOUR_VIDEO = "https://www.youtube.com/embed/aqz-KE-bpKQ"; // ganti dengan video tur sekolah Anda
+    const openTour = () => { $("tourFrame").src = TOUR_VIDEO; $("tourModal").classList.remove("hidden"); };
+    $("tourBtn").onclick = openTour; $("tourBtn2").onclick = openTour;
+    $("tourClose").onclick = () => { $("tourFrame").src = "about:blank"; $("tourModal").classList.add("hidden"); };
+
+    // ----- Menu mobile -----
+    $("mBtn").onclick = () => $("mMenu").classList.toggle("hidden");
+    document.querySelectorAll("#mMenu a").forEach(a => a.onclick = () => $("mMenu").classList.add("hidden"));
   </script>
 </body>
 </html>
