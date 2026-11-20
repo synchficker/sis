@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2ji1selv8v",
+    "waktu": "2026-11-20T14:22:48.352Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE KONFIGURASI SLIDER",
+    "detail": "Efek slide • durasi 7000ms"
+  },
+  {
     "id": "mwp2gbpsx6mcj",
     "waktu": "2026-11-20T14:20:20.176Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "LMS/CBT",
     "aksi": "TAMBAH",
     "detail": "Siswa Tiara Maulana G. (20260495)"
-  },
-  {
-    "id": "AU0496",
-    "waktu": "2026-11-19T19:29:59.553Z",
-    "aktor": "operator",
-    "modul": "Komunikasi",
-    "aksi": "SCAN QR",
-    "detail": "Buku Pulang"
   }
 ]
