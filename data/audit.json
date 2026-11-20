@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2u10kw6twz",
+    "waktu": "2026-11-20T14:30:59.492Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Belajar Aktif & Berkarya Berpikir Kritis"
+  },
+  {
     "id": "mwp2tpcp9nwd7",
     "waktu": "2026-11-20T14:30:44.377Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "URUTKAN",
     "detail": "Buku Geografi Regional"
-  },
-  {
-    "id": "AU0490",
-    "waktu": "2026-11-17T22:13:08.553Z",
-    "aktor": "operator",
-    "modul": "Keuangan",
-    "aksi": "SCAN QR",
-    "detail": "Pegawai Rani Yudhoyono, S.Pd (G0490)"
   }
 ]
