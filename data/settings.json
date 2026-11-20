@@ -1,8 +1,8 @@
 {
-  "nama_sekolah": "SMP Negeri 1 Nusantara",
-  "jenjang": "SMP",
+  "nama_sekolah": "Sincan International School (SIS)",
+  "jenjang": "",
   "npsn": "20123456",
-  "alamat": "Jl. Pendidikan No. 1, Kec. Cerdas, Kota Nusantara, Jawa Barat",
+  "alamat": "Jl. Herman Tajir No. 100, Curug, Bojongsari Sawangan Kota Depok",
   "telepon": "022-123456",
   "email": "info@smpn1nusantara.sch.id",
   "kepala_sekolah": "Drs. H. Surya Pranata, M.Pd",
@@ -14,13 +14,36 @@
   "spp_nominal": 150000,
   "denda_per_hari": 500,
   "wa_admin": "6281234567890",
-  "bank": { "nama": "Bank BJB", "va_prefix": "88088", "atas_nama": "SMPN 1 Nusantara" },
-  "qris": { "merchant": "SMPN 1 NUSANTARA", "nmid": "ID1026DEMO001" },
-  "mapel": ["Matematika", "IPA", "IPS", "Bahasa Indonesia", "Bahasa Inggris", "Pendidikan Pancasila", "Informatika", "PJOK", "Seni Budaya", "PAI"],
+  "bank": {
+    "nama": "Bank BJB",
+    "va_prefix": "88088",
+    "atas_nama": "SMPN 1 Nusantara"
+  },
+  "qris": {
+    "merchant": "SMPN 1 NUSANTARA",
+    "nmid": "ID1026DEMO001"
+  },
+  "mapel": [
+    "Matematika",
+    "IPA",
+    "IPS",
+    "Bahasa Indonesia",
+    "Bahasa Inggris",
+    "Pendidikan Pancasila",
+    "Informatika",
+    "PJOK",
+    "Seni Budaya",
+    "PAI"
+  ],
   "pengumuman": "Sumatif Tengah Semester Ganjil dimulai 24 November 2026. Peserta CBT wajib membawa kartu QR absensi dan token ujian dari wali kelas.",
   "kebijakan": {
     "diskon_saudara_persen": 10,
-    "cicilan_pangkal_opsi": [1, 3, 6, 12],
+    "cicilan_pangkal_opsi": [
+      1,
+      3,
+      6,
+      12
+    ],
     "denda_terlambat_persen": 2,
     "jatuh_tempo_tanggal": 10,
     "beasiswa_maks_persen": 50
@@ -32,9 +55,53 @@
     "akhir_genap": "2027-06-26"
   },
   "biaya": {
-    "SD": { "uang_pangkal": 3500000, "spp": 150000, "uang_media": 25000, "uang_kegiatan": 20000, "seragam": 600000, "buku": 450000, "kegiatan_tahunan": 500000, "daftar_ulang": 250000, "praktikum": 0, "pkl": 0 },
-    "SMP": { "uang_pangkal": 4500000, "spp": 150000, "uang_media": 35000, "uang_kegiatan": 25000, "seragam": 750000, "buku": 600000, "kegiatan_tahunan": 650000, "daftar_ulang": 300000, "praktikum": 200000, "pkl": 0 },
-    "SMA": { "uang_pangkal": 5500000, "spp": 200000, "uang_media": 45000, "uang_kegiatan": 30000, "seragam": 900000, "buku": 800000, "kegiatan_tahunan": 850000, "daftar_ulang": 350000, "praktikum": 400000, "pkl": 0 },
-    "SMK": { "uang_pangkal": 6500000, "spp": 250000, "uang_media": 50000, "uang_kegiatan": 35000, "seragam": 1000000, "buku": 850000, "kegiatan_tahunan": 900000, "daftar_ulang": 400000, "praktikum": 750000, "pkl": 1200000 }
+    "SD": {
+      "uang_pangkal": 3500000,
+      "spp": 150000,
+      "uang_media": 25000,
+      "uang_kegiatan": 20000,
+      "seragam": 600000,
+      "buku": 450000,
+      "kegiatan_tahunan": 500000,
+      "daftar_ulang": 250000,
+      "praktikum": 0,
+      "pkl": 0
+    },
+    "SMP": {
+      "uang_pangkal": 4500000,
+      "spp": 150000,
+      "uang_media": 35000,
+      "uang_kegiatan": 25000,
+      "seragam": 750000,
+      "buku": 600000,
+      "kegiatan_tahunan": 650000,
+      "daftar_ulang": 300000,
+      "praktikum": 200000,
+      "pkl": 0
+    },
+    "SMA": {
+      "uang_pangkal": 5500000,
+      "spp": 200000,
+      "uang_media": 45000,
+      "uang_kegiatan": 30000,
+      "seragam": 900000,
+      "buku": 800000,
+      "kegiatan_tahunan": 850000,
+      "daftar_ulang": 350000,
+      "praktikum": 400000,
+      "pkl": 0
+    },
+    "SMK": {
+      "uang_pangkal": 6500000,
+      "spp": 250000,
+      "uang_media": 50000,
+      "uang_kegiatan": 35000,
+      "seragam": 1000000,
+      "buku": 850000,
+      "kegiatan_tahunan": 900000,
+      "daftar_ulang": 400000,
+      "praktikum": 750000,
+      "pkl": 1200000
+    }
   }
 }
