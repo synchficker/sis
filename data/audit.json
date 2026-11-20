@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwpd2hy0fj0nj",
+    "waktu": "2026-11-20T19:17:30.840Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE FORM LOGIN",
+    "detail": "zamrud · split · sesi 120m"
+  },
+  {
     "id": "mwpc73xwrdbt4",
     "waktu": "2026-11-20T18:53:06.356Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "LMS/CBT",
     "aksi": "TAMBAH",
     "detail": "Siswa Tiara Maulana G. (20260495)"
-  },
-  {
-    "id": "AU0496",
-    "waktu": "2026-11-19T19:29:59.553Z",
-    "aktor": "operator",
-    "modul": "Komunikasi",
-    "aksi": "SCAN QR",
-    "detail": "Buku Pulang"
   }
 ]
