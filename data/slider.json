@@ -4,8 +4,8 @@
     "durasi": 7000,
     "efek": "slide",
     "tinggi": "full",
-    "dots": true,
-    "panah": false,
+    "dots": false,
+    "panah": true,
     "pause_on_hover": true,
     "kenburns": true
   },
@@ -27,12 +27,12 @@
       "cta2_label": "Lihat Biaya",
       "cta2_href": "#tour",
       "meta": [
-        "SD/SMP/SMU/SMK",
+        "SD",
         "Kurikulum Merdeka",
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Tampil"
+      "status": "Draft"
     },
     {
       "id": "SL0002",
@@ -51,7 +51,7 @@
       "cta2_label": "Program Jenjang",
       "cta2_href": "tuition.html",
       "meta": [
-        "SD/SMP/SMU/SMK",
+        "SD",
         "Kurikulum Merdeka",
         "TA 2026/2027"
       ],
@@ -75,7 +75,7 @@
       "cta2_label": "Virtual Tour",
       "cta2_href": "tuition.html",
       "meta": [
-        "SD/SMP/SMU/SMK",
+        "SD",
         "Kurikulum Merdeka",
         "TA 2026/2027"
       ],
@@ -147,7 +147,7 @@
       "cta2_label": "Virtual Tour",
       "cta2_href": "kalender.html",
       "meta": [
-        "SD/SMP/SMU/SMK",
+        "SD",
         "Kurikulum Merdeka",
         "TA 2026/2027"
       ],
@@ -171,7 +171,7 @@
       "cta2_label": "Lihat Biaya",
       "cta2_href": "#program",
       "meta": [
-        "SD/SMP/SMU/SMK",
+        "SD",
         "Kurikulum Merdeka",
         "TA 2026/2027"
       ],
@@ -200,7 +200,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0009",
@@ -248,7 +248,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0011",
@@ -272,7 +272,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0012",
@@ -296,7 +296,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0013",
@@ -320,7 +320,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0014",
@@ -344,7 +344,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0015",
@@ -368,7 +368,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0016",
@@ -392,7 +392,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0017",
@@ -416,7 +416,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0018",
@@ -440,7 +440,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0019",
@@ -464,7 +464,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0020",
@@ -488,7 +488,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0021",
@@ -512,7 +512,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0022",
@@ -536,7 +536,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0023",
@@ -560,7 +560,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0024",
@@ -584,7 +584,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0025",
@@ -608,7 +608,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0026",
@@ -656,7 +656,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0028",
@@ -680,7 +680,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0029",
@@ -704,7 +704,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0030",
@@ -752,7 +752,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0032",
@@ -776,7 +776,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0033",
@@ -800,7 +800,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0034",
@@ -824,7 +824,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0035",
@@ -848,7 +848,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0036",
@@ -872,7 +872,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0037",
@@ -896,7 +896,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0038",
@@ -920,7 +920,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0039",
@@ -944,7 +944,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0040",
@@ -968,7 +968,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0041",
@@ -992,7 +992,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0042",
@@ -1016,7 +1016,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0043",
@@ -1040,7 +1040,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0044",
@@ -1064,7 +1064,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0045",
@@ -1088,7 +1088,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0046",
@@ -1112,7 +1112,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0047",
@@ -1136,7 +1136,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0048",
@@ -1160,7 +1160,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0049",
@@ -1184,7 +1184,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0050",
@@ -1208,7 +1208,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0051",
@@ -1256,7 +1256,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0053",
@@ -1280,7 +1280,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0054",
@@ -1304,7 +1304,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0055",
@@ -1328,7 +1328,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0056",
@@ -1352,7 +1352,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0057",
@@ -1424,7 +1424,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0060",
@@ -1448,7 +1448,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0061",
@@ -1472,7 +1472,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0062",
@@ -1496,7 +1496,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0063",
@@ -1520,7 +1520,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0064",
@@ -1544,7 +1544,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0065",
@@ -1568,7 +1568,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0066",
@@ -1616,7 +1616,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0068",
@@ -1640,7 +1640,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0069",
@@ -1712,7 +1712,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0072",
@@ -1736,7 +1736,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0073",
@@ -1784,7 +1784,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0075",
@@ -1808,7 +1808,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0076",
@@ -1832,7 +1832,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0077",
@@ -1856,7 +1856,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0078",
@@ -1880,7 +1880,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0079",
@@ -1904,7 +1904,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0080",
@@ -1928,7 +1928,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0081",
@@ -1952,7 +1952,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0082",
@@ -1976,7 +1976,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0083",
@@ -2000,7 +2000,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0084",
@@ -2024,7 +2024,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0085",
@@ -2048,7 +2048,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0086",
@@ -2072,7 +2072,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0087",
@@ -2096,7 +2096,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0088",
@@ -2120,7 +2120,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0089",
@@ -2144,7 +2144,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0090",
@@ -2168,7 +2168,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0091",
@@ -2192,7 +2192,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0092",
@@ -2216,7 +2216,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0093",
@@ -2240,7 +2240,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0094",
@@ -2264,7 +2264,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0095",
@@ -2288,7 +2288,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0096",
@@ -2312,7 +2312,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0097",
@@ -2336,7 +2336,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0098",
@@ -2360,7 +2360,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0099",
@@ -2384,7 +2384,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0100",
@@ -2408,7 +2408,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0101",
@@ -2432,7 +2432,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0102",
@@ -2456,7 +2456,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0103",
@@ -2480,7 +2480,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0104",
@@ -2504,7 +2504,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0105",
@@ -2528,7 +2528,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0106",
@@ -2552,7 +2552,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0107",
@@ -2576,7 +2576,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0108",
@@ -2600,7 +2600,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0109",
@@ -2624,7 +2624,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0110",
@@ -2696,7 +2696,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0113",
@@ -2720,7 +2720,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0114",
@@ -2744,7 +2744,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0115",
@@ -2768,7 +2768,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0116",
@@ -2792,7 +2792,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0117",
@@ -2816,7 +2816,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0118",
@@ -2840,7 +2840,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0119",
@@ -2864,7 +2864,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0120",
@@ -2912,7 +2912,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0122",
@@ -2936,7 +2936,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0123",
@@ -2960,7 +2960,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0124",
@@ -2984,7 +2984,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0125",
@@ -3008,7 +3008,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0126",
@@ -3032,7 +3032,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0127",
@@ -3080,7 +3080,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0129",
@@ -3104,7 +3104,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0130",
@@ -3128,7 +3128,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0131",
@@ -3152,7 +3152,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0132",
@@ -3200,7 +3200,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0134",
@@ -3248,7 +3248,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0136",
@@ -3320,7 +3320,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0139",
@@ -3344,7 +3344,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0140",
@@ -3368,7 +3368,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0141",
@@ -3392,7 +3392,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0142",
@@ -3416,7 +3416,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0143",
@@ -3440,7 +3440,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0144",
@@ -3464,7 +3464,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0145",
@@ -3488,7 +3488,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0146",
@@ -3536,7 +3536,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0148",
@@ -3560,7 +3560,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0149",
@@ -3584,7 +3584,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0150",
@@ -3632,7 +3632,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0152",
@@ -3656,7 +3656,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0153",
@@ -3680,7 +3680,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0154",
@@ -3704,7 +3704,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0155",
@@ -3728,7 +3728,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0156",
@@ -3752,7 +3752,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0157",
@@ -3776,7 +3776,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0158",
@@ -3800,7 +3800,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0159",
@@ -3824,7 +3824,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0160",
@@ -3848,7 +3848,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0161",
@@ -3872,7 +3872,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0162",
@@ -3896,7 +3896,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0163",
@@ -3920,7 +3920,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0164",
@@ -3944,7 +3944,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0165",
@@ -3968,7 +3968,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0166",
@@ -3992,7 +3992,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0167",
@@ -4016,7 +4016,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0168",
@@ -4040,7 +4040,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0169",
@@ -4064,7 +4064,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0170",
@@ -4088,7 +4088,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0171",
@@ -4112,7 +4112,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0172",
@@ -4136,7 +4136,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0173",
@@ -4160,7 +4160,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0174",
@@ -4184,7 +4184,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0175",
@@ -4208,7 +4208,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0176",
@@ -4232,7 +4232,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0177",
@@ -4256,7 +4256,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0178",
@@ -4280,7 +4280,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0179",
@@ -4304,7 +4304,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0180",
@@ -4328,7 +4328,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0181",
@@ -4352,7 +4352,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0182",
@@ -4376,7 +4376,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0183",
@@ -4400,7 +4400,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0184",
@@ -4472,7 +4472,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0187",
@@ -4496,7 +4496,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0188",
@@ -4544,7 +4544,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0190",
@@ -4568,7 +4568,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0191",
@@ -4640,7 +4640,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0194",
@@ -4664,7 +4664,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0195",
@@ -4688,7 +4688,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0196",
@@ -4712,7 +4712,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0197",
@@ -4736,7 +4736,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0198",
@@ -4760,7 +4760,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0199",
@@ -4784,7 +4784,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0200",
@@ -4808,7 +4808,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0201",
@@ -4832,7 +4832,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0202",
@@ -4856,7 +4856,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0203",
@@ -4880,7 +4880,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0204",
@@ -4904,7 +4904,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0205",
@@ -4928,7 +4928,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0206",
@@ -4952,7 +4952,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0207",
@@ -4976,7 +4976,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0208",
@@ -5000,7 +5000,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0209",
@@ -5024,7 +5024,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0210",
@@ -5048,7 +5048,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0211",
@@ -5072,7 +5072,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0212",
@@ -5096,7 +5096,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0213",
@@ -5120,7 +5120,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0214",
@@ -5144,7 +5144,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0215",
@@ -5168,7 +5168,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0216",
@@ -5192,7 +5192,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0217",
@@ -5216,7 +5216,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0218",
@@ -5240,7 +5240,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0219",
@@ -5264,7 +5264,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0220",
@@ -5288,7 +5288,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0221",
@@ -5312,7 +5312,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0222",
@@ -5336,7 +5336,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0223",
@@ -5360,7 +5360,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0224",
@@ -5384,7 +5384,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0225",
@@ -5408,7 +5408,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0226",
@@ -5432,7 +5432,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0227",
@@ -5456,7 +5456,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0228",
@@ -5480,7 +5480,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0229",
@@ -5504,7 +5504,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0230",
@@ -5528,7 +5528,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0231",
@@ -5552,7 +5552,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0232",
@@ -5576,7 +5576,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0233",
@@ -5600,7 +5600,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0234",
@@ -5624,7 +5624,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0235",
@@ -5672,7 +5672,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0237",
@@ -5696,7 +5696,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0238",
@@ -5720,7 +5720,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0239",
@@ -5744,7 +5744,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0240",
@@ -5768,7 +5768,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0241",
@@ -5792,7 +5792,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0242",
@@ -5816,7 +5816,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0243",
@@ -5840,7 +5840,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0244",
@@ -5864,7 +5864,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0245",
@@ -5888,7 +5888,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0246",
@@ -5912,7 +5912,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0247",
@@ -5936,7 +5936,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0248",
@@ -5960,7 +5960,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0249",
@@ -5984,7 +5984,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0250",
@@ -6008,7 +6008,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0251",
@@ -6032,7 +6032,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0252",
@@ -6056,7 +6056,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0253",
@@ -6080,7 +6080,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0254",
@@ -6104,7 +6104,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0255",
@@ -6128,7 +6128,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0256",
@@ -6152,7 +6152,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0257",
@@ -6176,7 +6176,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0258",
@@ -6200,7 +6200,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0259",
@@ -6224,7 +6224,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0260",
@@ -6248,7 +6248,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0261",
@@ -6272,7 +6272,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0262",
@@ -6296,7 +6296,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0263",
@@ -6320,7 +6320,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0264",
@@ -6344,7 +6344,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0265",
@@ -6368,7 +6368,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0266",
@@ -6392,7 +6392,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0267",
@@ -6464,7 +6464,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0270",
@@ -6488,7 +6488,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0271",
@@ -6512,7 +6512,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0272",
@@ -6536,7 +6536,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0273",
@@ -6560,7 +6560,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0274",
@@ -6584,7 +6584,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0275",
@@ -6608,7 +6608,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0276",
@@ -6632,7 +6632,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0277",
@@ -6656,7 +6656,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0278",
@@ -6680,7 +6680,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0279",
@@ -6704,7 +6704,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0280",
@@ -6728,7 +6728,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0281",
@@ -6800,7 +6800,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0284",
@@ -6824,7 +6824,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0285",
@@ -6872,7 +6872,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0287",
@@ -6896,7 +6896,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0288",
@@ -6920,7 +6920,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0289",
@@ -6944,7 +6944,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0290",
@@ -6968,7 +6968,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0291",
@@ -6992,7 +6992,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0292",
@@ -7016,7 +7016,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0293",
@@ -7040,7 +7040,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0294",
@@ -7064,7 +7064,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0295",
@@ -7088,7 +7088,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0296",
@@ -7112,7 +7112,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0297",
@@ -7136,7 +7136,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0298",
@@ -7160,7 +7160,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0299",
@@ -7208,7 +7208,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0301",
@@ -7256,7 +7256,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0303",
@@ -7280,7 +7280,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0304",
@@ -7304,7 +7304,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0305",
@@ -7328,7 +7328,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0306",
@@ -7352,7 +7352,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0307",
@@ -7424,7 +7424,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0310",
@@ -7448,7 +7448,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0311",
@@ -7472,7 +7472,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0312",
@@ -7496,7 +7496,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0313",
@@ -7520,7 +7520,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0314",
@@ -7544,7 +7544,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0315",
@@ -7568,7 +7568,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0316",
@@ -7592,7 +7592,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0317",
@@ -7616,7 +7616,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0318",
@@ -7640,7 +7640,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0319",
@@ -7664,7 +7664,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0320",
@@ -7688,7 +7688,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0321",
@@ -7760,7 +7760,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0324",
@@ -7784,7 +7784,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0325",
@@ -7808,7 +7808,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0326",
@@ -7832,7 +7832,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0327",
@@ -7880,7 +7880,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0329",
@@ -7904,7 +7904,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0330",
@@ -7928,7 +7928,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0331",
@@ -7952,7 +7952,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0332",
@@ -7976,7 +7976,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0333",
@@ -8000,7 +8000,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0334",
@@ -8024,7 +8024,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0335",
@@ -8048,7 +8048,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0336",
@@ -8072,7 +8072,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0337",
@@ -8096,7 +8096,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0338",
@@ -8120,7 +8120,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0339",
@@ -8144,7 +8144,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0340",
@@ -8168,7 +8168,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0341",
@@ -8216,7 +8216,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0343",
@@ -8240,7 +8240,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0344",
@@ -8264,7 +8264,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0345",
@@ -8288,7 +8288,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0346",
@@ -8312,7 +8312,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0347",
@@ -8336,7 +8336,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0348",
@@ -8360,7 +8360,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0349",
@@ -8408,7 +8408,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0351",
@@ -8432,7 +8432,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0352",
@@ -8456,7 +8456,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0353",
@@ -8480,7 +8480,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0354",
@@ -8528,7 +8528,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0356",
@@ -8552,7 +8552,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0357",
@@ -8600,7 +8600,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0359",
@@ -8624,7 +8624,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0360",
@@ -8648,7 +8648,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0361",
@@ -8672,7 +8672,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0362",
@@ -8696,7 +8696,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0363",
@@ -8720,7 +8720,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0364",
@@ -8744,7 +8744,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0365",
@@ -8768,7 +8768,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0366",
@@ -8816,7 +8816,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0368",
@@ -8840,7 +8840,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0369",
@@ -8864,7 +8864,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0370",
@@ -8888,7 +8888,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0371",
@@ -8912,7 +8912,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0372",
@@ -8936,7 +8936,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0373",
@@ -8960,7 +8960,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0374",
@@ -9008,7 +9008,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0376",
@@ -9032,7 +9032,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0377",
@@ -9056,7 +9056,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0378",
@@ -9080,7 +9080,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0379",
@@ -9104,7 +9104,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0380",
@@ -9128,7 +9128,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0381",
@@ -9152,7 +9152,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0382",
@@ -9176,7 +9176,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0383",
@@ -9200,7 +9200,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0384",
@@ -9272,7 +9272,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0387",
@@ -9296,7 +9296,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0388",
@@ -9320,7 +9320,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0389",
@@ -9344,7 +9344,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0390",
@@ -9368,7 +9368,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0391",
@@ -9392,7 +9392,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0392",
@@ -9416,7 +9416,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0393",
@@ -9440,7 +9440,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0394",
@@ -9488,7 +9488,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0396",
@@ -9512,7 +9512,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0397",
@@ -9536,7 +9536,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0398",
@@ -9560,7 +9560,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0399",
@@ -9584,7 +9584,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0400",
@@ -9608,7 +9608,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0401",
@@ -9632,7 +9632,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0402",
@@ -9656,7 +9656,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0403",
@@ -9680,7 +9680,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0404",
@@ -9704,7 +9704,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0405",
@@ -9728,7 +9728,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0406",
@@ -9752,7 +9752,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0407",
@@ -9776,7 +9776,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0408",
@@ -9800,7 +9800,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0409",
@@ -9824,7 +9824,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0410",
@@ -9848,7 +9848,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0411",
@@ -9872,7 +9872,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0412",
@@ -9896,7 +9896,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0413",
@@ -9944,7 +9944,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0415",
@@ -9968,7 +9968,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0416",
@@ -9992,7 +9992,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0417",
@@ -10016,7 +10016,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0418",
@@ -10040,7 +10040,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0419",
@@ -10064,7 +10064,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0420",
@@ -10088,7 +10088,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0421",
@@ -10112,7 +10112,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0422",
@@ -10136,7 +10136,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0423",
@@ -10160,7 +10160,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0424",
@@ -10208,7 +10208,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0426",
@@ -10232,7 +10232,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0427",
@@ -10280,7 +10280,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0429",
@@ -10304,7 +10304,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0430",
@@ -10328,7 +10328,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0431",
@@ -10352,7 +10352,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0432",
@@ -10376,7 +10376,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0433",
@@ -10400,7 +10400,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0434",
@@ -10424,7 +10424,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0435",
@@ -10448,7 +10448,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0436",
@@ -10472,7 +10472,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0437",
@@ -10496,7 +10496,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0438",
@@ -10520,7 +10520,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0439",
@@ -10544,7 +10544,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0440",
@@ -10592,7 +10592,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0442",
@@ -10616,7 +10616,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0443",
@@ -10640,7 +10640,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0444",
@@ -10664,7 +10664,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0445",
@@ -10688,7 +10688,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0446",
@@ -10712,7 +10712,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0447",
@@ -10736,7 +10736,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0448",
@@ -10760,7 +10760,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0449",
@@ -10784,7 +10784,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0450",
@@ -10808,7 +10808,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0451",
@@ -10832,7 +10832,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0452",
@@ -10856,7 +10856,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0453",
@@ -10880,7 +10880,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0454",
@@ -10952,7 +10952,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0457",
@@ -10976,7 +10976,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0458",
@@ -11000,7 +11000,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0459",
@@ -11024,7 +11024,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0460",
@@ -11072,7 +11072,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0462",
@@ -11096,7 +11096,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0463",
@@ -11120,7 +11120,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0464",
@@ -11144,7 +11144,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0465",
@@ -11168,7 +11168,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0466",
@@ -11192,7 +11192,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0467",
@@ -11216,7 +11216,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0468",
@@ -11240,7 +11240,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0469",
@@ -11264,7 +11264,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0470",
@@ -11288,7 +11288,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0471",
@@ -11360,7 +11360,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0474",
@@ -11384,7 +11384,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0475",
@@ -11408,7 +11408,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0476",
@@ -11432,7 +11432,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0477",
@@ -11480,7 +11480,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0479",
@@ -11504,7 +11504,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0480",
@@ -11528,7 +11528,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0481",
@@ -11552,7 +11552,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0482",
@@ -11576,7 +11576,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0483",
@@ -11600,7 +11600,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0484",
@@ -11624,7 +11624,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0485",
@@ -11648,7 +11648,7 @@
         "TA 2026/2027"
       ],
       "durasi": 6000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0486",
@@ -11672,7 +11672,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0487",
@@ -11696,7 +11696,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0488",
@@ -11720,7 +11720,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0489",
@@ -11744,7 +11744,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0490",
@@ -11768,7 +11768,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0491",
@@ -11792,7 +11792,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0492",
@@ -11816,7 +11816,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0493",
@@ -11840,7 +11840,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0494",
@@ -11864,7 +11864,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0495",
@@ -11888,7 +11888,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0496",
@@ -11912,7 +11912,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0497",
@@ -11936,7 +11936,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0498",
@@ -11960,7 +11960,7 @@
         "TA 2026/2027"
       ],
       "durasi": 8000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0499",
@@ -11984,7 +11984,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     },
     {
       "id": "SL0500",
@@ -12008,7 +12008,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Draft"
+      "status": "Tampil"
     }
   ]
 }

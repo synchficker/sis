@@ -1,101 +1,5 @@
 [
   {
-    "id": "mwp2uozesyjuu",
-    "waktu": "2026-11-20T14:31:30.554Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "EDIT SLIDE",
-    "detail": "Fasilitas Lengkap Belajar Nyaman"
-  },
-  {
-    "id": "mwp2uedt83vj2",
-    "waktu": "2026-11-20T14:31:16.817Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "EDIT SLIDE",
-    "detail": "Kurikulum Merdeka Projek Nyata"
-  },
-  {
-    "id": "mwp2u10kw6twz",
-    "waktu": "2026-11-20T14:30:59.492Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "EDIT SLIDE",
-    "detail": "Belajar Aktif & Berkarya Berpikir Kritis"
-  },
-  {
-    "id": "mwp2tpcp9nwd7",
-    "waktu": "2026-11-20T14:30:44.377Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "EDIT SLIDE",
-    "detail": "Penerimaan Peserta Didik Baru Telah Dibuka"
-  },
-  {
-    "id": "mwp2tbzilxi1l",
-    "waktu": "2026-11-20T14:30:27.054Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "EDIT SLIDE",
-    "detail": "Selamat Datang di Sekolah Kami Bahagia Belajar"
-  },
-  {
-    "id": "mwp2saohpdthh",
-    "waktu": "2026-11-20T14:29:38.705Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "PUBLIKASI SLIDE",
-    "detail": "5 slide diperbarui"
-  },
-  {
-    "id": "mwp2r7wfzddbh",
-    "waktu": "2026-11-20T14:28:48.447Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "DRAFT SLIDE",
-    "detail": "500 slide diperbarui"
-  },
-  {
-    "id": "mwp2quyotc45u",
-    "waktu": "2026-11-20T14:28:31.684Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "PUBLIKASI SLIDE",
-    "detail": "500 slide diperbarui"
-  },
-  {
-    "id": "mwp2ji1selv8v",
-    "waktu": "2026-11-20T14:22:48.352Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "UPDATE KONFIGURASI SLIDER",
-    "detail": "Efek slide • durasi 7000ms"
-  },
-  {
-    "id": "mwp2gbpsx6mcj",
-    "waktu": "2026-11-20T14:20:20.176Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "PUBLIKASI SLIDE",
-    "detail": "5 slide diperbarui"
-  },
-  {
-    "id": "mwp2fmz651t39",
-    "waktu": "2026-11-20T14:19:48.114Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "DRAFT SLIDE",
-    "detail": "500 slide diperbarui"
-  },
-  {
-    "id": "mwp2f8ct8ivuw",
-    "waktu": "2026-11-20T14:19:29.166Z",
-    "aktor": "synchficker",
-    "modul": "Konten Website",
-    "aksi": "PUBLIKASI SLIDE",
-    "detail": "500 slide diperbarui"
-  },
-  {
     "id": "AU-SEED",
     "waktu": "2026-11-20T13:58:44.265Z",
     "aktor": "seeder",
@@ -3998,5 +3902,101 @@
     "modul": "Keuangan",
     "aksi": "IMPOR",
     "detail": "Kelas 12 IPA AS"
+  },
+  {
+    "id": "AU0488",
+    "waktu": "2026-11-19T13:02:01.553Z",
+    "aktor": "admin",
+    "modul": "Perpustakaan",
+    "aksi": "URUTKAN",
+    "detail": "Tagihan SPP Februari"
+  },
+  {
+    "id": "AU0489",
+    "waktu": "2026-11-19T20:18:09.553Z",
+    "aktor": "bendahara",
+    "modul": "Komunikasi",
+    "aksi": "URUTKAN",
+    "detail": "Buku Geografi Regional"
+  },
+  {
+    "id": "AU0490",
+    "waktu": "2026-11-17T22:13:08.553Z",
+    "aktor": "operator",
+    "modul": "Keuangan",
+    "aksi": "SCAN QR",
+    "detail": "Pegawai Rani Yudhoyono, S.Pd (G0490)"
+  },
+  {
+    "id": "AU0491",
+    "waktu": "2026-11-19T00:05:09.553Z",
+    "aktor": "kurikulum",
+    "modul": "Akademik",
+    "aksi": "BAYAR SPP",
+    "detail": "Pegawai Salsabila Wicaksono, S.Pd (G0491)"
+  },
+  {
+    "id": "AU0492",
+    "waktu": "2026-11-16T17:10:49.553Z",
+    "aktor": "admin",
+    "modul": "Kepegawaian",
+    "aksi": "PUBLIKASI",
+    "detail": "Siswa Budi Salim (20260492)"
+  },
+  {
+    "id": "AU0493",
+    "waktu": "2026-11-18T11:05:05.553Z",
+    "aktor": "bendahara",
+    "modul": "Konten Website",
+    "aksi": "PUBLIKASI",
+    "detail": "Tagihan SPP Februari"
+  },
+  {
+    "id": "AU0494",
+    "waktu": "2026-11-15T23:49:17.553Z",
+    "aktor": "admin",
+    "modul": "Sistem",
+    "aksi": "HAPUS",
+    "detail": "Pegawai Naufal Kusuma (G0494)"
+  },
+  {
+    "id": "AU0495",
+    "waktu": "2026-11-18T17:44:21.553Z",
+    "aktor": "kurikulum",
+    "modul": "LMS/CBT",
+    "aksi": "TAMBAH",
+    "detail": "Siswa Tiara Maulana G. (20260495)"
+  },
+  {
+    "id": "AU0496",
+    "waktu": "2026-11-19T19:29:59.553Z",
+    "aktor": "operator",
+    "modul": "Komunikasi",
+    "aksi": "SCAN QR",
+    "detail": "Buku Pulang"
+  },
+  {
+    "id": "AU0497",
+    "waktu": "2026-11-19T05:08:01.553Z",
+    "aktor": "kurikulum",
+    "modul": "Perpustakaan",
+    "aksi": "PUBLIKASI",
+    "detail": "Kelas 6AR"
+  },
+  {
+    "id": "AU0498",
+    "waktu": "2026-11-19T14:19:02.553Z",
+    "aktor": "operator",
+    "modul": "Konten Website",
+    "aksi": "URUTKAN",
+    "detail": "Pegawai Vino Purnama (G0498)"
+  },
+  {
+    "id": "AU0499",
+    "waktu": "2026-11-15T09:58:41.553Z",
+    "aktor": "seeder",
+    "modul": "Sistem",
+    "aksi": "SCAN QR",
+    "detail": "Pegawai Eko Hidayat, S.Kom (G0499)"
   }
 ]
