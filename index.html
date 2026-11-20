@@ -21,15 +21,35 @@
     ::-webkit-scrollbar-thumb:hover{background:#15803d}
     .blob{position:absolute;border-radius:9999px;filter:blur(60px);opacity:.35;pointer-events:none}
     .card-img{background:linear-gradient(135deg,#16a34a,#0d9488)}
+
+    /* ===== FULL SLIDER ===== */
+    #slider{touch-action:pan-y}
+    .sld{position:absolute;inset:0;will-change:transform,opacity;transition:transform .95s cubic-bezier(.76,0,.24,1),opacity .8s ease}
+    .sld-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.04)}
+    .sld.on .sld-img{animation:kb var(--kb,9s) ease-out forwards}
+    @keyframes kb{from{transform:scale(1.04) translate3d(0,0,0)}to{transform:scale(1.16) translate3d(-1.5%,-1%,0)}}
+    .grain{position:absolute;inset:0;pointer-events:none;opacity:.08;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+    .sld-anim{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.3,1),transform .7s cubic-bezier(.2,.7,.3,1)}
+    .sld.on .sld-anim{opacity:1;transform:none}
+    .dot{position:relative;height:10px;width:10px;border-radius:99px;background:rgba(255,255,255,.34);border:1px solid rgba(255,255,255,.5);overflow:hidden;transition:width .45s cubic-bezier(.2,.7,.3,1),background .3s,transform .25s}
+    .dot:hover{transform:scale(1.18);background:rgba(255,255,255,.6)}
+    .dot.on{width:52px;background:rgba(255,255,255,.28)}
+    .dot .fill{position:absolute;inset:0;width:0%;border-radius:99px;background:linear-gradient(90deg,#fbbf24,#fff)}
+    .sl-arrow{transition:transform .25s,background .25s,opacity .25s}
+    .sl-arrow:hover{transform:scale(1.09)}
     .bento{opacity:0;transform:translateY(20px) scale(.985);transition:opacity .65s cubic-bezier(.2,.7,.3,1),transform .65s cubic-bezier(.2,.7,.3,1),box-shadow .35s}
     .bento.in{opacity:1;transform:none}
-    .bento img{transition:transform .9s cubic-bezier(.2,.7,.3,1),filter .5s}
+    .bento img{transition:transform .9s cubic-bezier(.2,.7,.3,1)}
     .bento:hover img{transform:scale(1.09)}
     .bento:hover{box-shadow:0 24px 50px -18px rgba(22,101,52,.55)}
     .bento .excerpt{max-height:0;opacity:0;transition:max-height .45s ease,opacity .35s ease}
     .bento:hover .excerpt,.bento:focus-visible .excerpt{max-height:6rem;opacity:1}
-    .kg-chip{transition:all .22s}
-    @media (prefers-reduced-motion:reduce){.bento{opacity:1;transform:none;transition:none}.bento img{transition:none}}
+    @media (prefers-reduced-motion:reduce){
+      .sld{transition:opacity .2s linear!important}
+      .sld.on .sld-img{animation:none}
+      .sld-anim{opacity:1;transform:none;transition:none}
+      .bento{opacity:1;transform:none;transition:none}
+    }
   </style>
 </head>
 <body class="font-sans bg-white text-slate-800 antialiased">
@@ -77,45 +97,40 @@
     </div>
   </header>
 
-  <!-- ===================== HERO ===================== -->
-  <section id="beranda" class="relative overflow-hidden bg-gradient-to-br from-brand-700 via-brand-600 to-teal-600 text-white pt-[72px]">
-    <div class="blob w-72 h-72 bg-amber-300 -top-10 -left-10"></div>
-    <div class="blob w-80 h-80 bg-teal-300 bottom-0 right-0"></div>
-    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-24 grid lg:grid-cols-2 gap-10 items-center">
-      <div>
-        <a href="ppdb.html" class="inline-flex items-center gap-2 text-xs font-bold bg-white/15 border border-white/25 px-3 py-1.5 rounded-full hover:bg-white/25">
-          <i data-lucide="megaphone" class="w-3.5 h-3.5"></i> Penerimaan Peserta Didik Baru Telah Dibuka
-        </a>
-        <h1 class="font-display font-extrabold text-4xl md:text-5xl leading-tight mt-4">
-          <span id="heroNama">Nama Sekolah</span> <span class="text-amber-300">is a Happy School</span>
-        </h1>
-        <p id="heroTagline" class="mt-4 text-brand-50/95 text-lg max-w-xl">Sekolah yang membimbing siswa belajar aktif, berkarakter, dan berprestasi.</p>
-        <div class="mt-7 flex flex-wrap gap-3">
-          <a href="ppdb.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-400 text-amber-950 font-bold hover:bg-amber-300 shadow-lg"><i data-lucide="user-plus" class="w-5 h-5"></i>Register Now</a>
-          <button id="tourBtn" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white/15 border border-white/30 font-bold hover:bg-white/25"><i data-lucide="play-circle" class="w-5 h-5"></i>Virtual Tour</button>
-        </div>
-        <div class="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-brand-50/90">
-          <span class="inline-flex items-center gap-2"><i data-lucide="badge-check" class="w-4 h-4 text-amber-300"></i><span id="heroJenjang">Jenjang</span></span>
-          <span class="inline-flex items-center gap-2"><i data-lucide="calendar-days" class="w-4 h-4 text-amber-300"></i>TA <span id="heroTA">—</span></span>
-          <span class="inline-flex items-center gap-2"><i data-lucide="book-open-check" class="w-4 h-4 text-amber-300"></i>Kurikulum <span id="heroKur">—</span></span>
+  <!-- ===================== HERO FULL SLIDER ===================== -->
+  <section id="beranda" class="pt-[72px]">
+    <div id="slider" role="region" aria-roledescription="carousel" aria-label="Sorotan sekolah" tabindex="0"
+         class="relative w-full overflow-hidden bg-slate-950 outline-none focus-visible:ring-4 focus-visible:ring-brand-400"
+         style="height:calc(100vh - 72px);min-height:540px;max-height:920px">
+      <div id="slTrack" class="absolute inset-0"></div>
+      <div class="grain z-[6]"></div>
+
+      <!-- progress atas -->
+      <div class="absolute top-0 inset-x-0 h-[3px] bg-white/15 z-30">
+        <div id="slProg" class="h-full w-0 bg-gradient-to-r from-amber-400 via-white to-brand-400"></div>
+      </div>
+
+      <!-- panah -->
+      <button id="slPrev" aria-label="Slide sebelumnya" class="sl-arrow hidden md:flex absolute left-4 lg:left-7 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full bg-white/12 border border-white/30 backdrop-blur text-white items-center justify-center hover:bg-white/25"><i data-lucide="chevron-left" class="w-6 h-6"></i></button>
+      <button id="slNext" aria-label="Slide berikutnya" class="sl-arrow hidden md:flex absolute right-4 lg:right-7 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full bg-white/12 border border-white/30 backdrop-blur text-white items-center justify-center hover:bg-white/25"><i data-lucide="chevron-right" class="w-6 h-6"></i></button>
+
+      <!-- bar bawah: counter • DOT TENGAH • kontrol -->
+      <div class="absolute bottom-0 inset-x-0 z-30 px-4 md:px-8 pb-6 md:pb-8">
+        <div class="relative max-w-7xl mx-auto flex items-end justify-between gap-4">
+          <div id="slCounter" class="hidden sm:block text-white/85 font-mono text-xs tracking-widest"></div>
+          <div id="slDots" role="tablist" aria-label="Navigasi slide" class="absolute left-1/2 -translate-x-1/2 bottom-1 flex items-center gap-2"></div>
+          <div class="flex items-center gap-2 ml-auto">
+            <button id="slPlay" aria-label="Jeda putar otomatis" class="w-10 h-10 rounded-full bg-white/12 border border-white/30 backdrop-blur text-white flex items-center justify-center hover:bg-white/25"><i data-lucide="pause" class="w-4 h-4"></i></button>
+            <a href="#profil" aria-label="Gulir ke konten" class="hidden sm:flex w-10 h-10 rounded-full bg-white/12 border border-white/30 backdrop-blur text-white items-center justify-center hover:bg-white/25"><i data-lucide="arrow-down" class="w-4 h-4"></i></a>
+          </div>
         </div>
       </div>
-      <div class="relative">
-        <div class="card-img rounded-3xl overflow-hidden shadow-2xl ring-4 ring-white/20 aspect-[4/3]">
-          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=60" alt="Kegiatan belajar siswa" class="w-full h-full object-cover" onerror="this.style.display='none'">
-        </div>
-        <div class="absolute -bottom-5 -left-5 bg-white text-slate-800 rounded-2xl shadow-xl px-5 py-4 flex items-center gap-3">
-          <div class="w-11 h-11 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center"><i data-lucide="users" class="w-5 h-5"></i></div>
-          <div><div id="heroSiswa" class="text-2xl font-extrabold leading-none">0</div><div class="text-xs text-slate-500 font-semibold">Siswa Aktif</div></div>
-        </div>
-        <div class="absolute -top-4 -right-4 bg-amber-400 text-amber-950 rounded-2xl shadow-xl px-4 py-3 font-display font-bold text-sm">🎓 Active Learning</div>
-      </div>
+      <p id="slLive" class="sr-only" aria-live="polite"></p>
     </div>
-    <svg class="block w-full text-white" viewBox="0 0 1440 60" fill="currentColor" preserveAspectRatio="none"><path d="M0,32 C240,64 480,0 720,16 C960,32 1200,64 1440,32 L1440,60 L0,60 Z"></path></svg>
   </section>
 
   <!-- ===================== STATISTIK ===================== -->
-  <section class="max-w-7xl mx-auto px-4 -mt-2">
+  <section class="max-w-7xl mx-auto px-4 -mt-8 relative z-20">
     <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
   </section>
 
@@ -176,34 +191,30 @@
     <div id="programGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
   </section>
 
-  <!-- ===================== AKTIVITAS / KEGIATAN SEKOLAH (BENTO 9 CARD) ===================== -->
+  <!-- ===================== KEGIATAN (BENTO) ===================== -->
   <section id="kegiatan" class="relative bg-gradient-to-b from-brand-50/70 via-white to-brand-50/40 border-y border-brand-100">
     <div class="max-w-7xl mx-auto px-4 py-16">
       <div class="flex flex-wrap items-end justify-between gap-4 mb-6">
         <div>
           <span class="text-xs font-bold uppercase tracking-wider text-brand-600">School Activities</span>
           <h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-800 mt-2">Aktivitas &amp; Kegiatan Sekolah</h2>
-          <p class="text-slate-500 mt-2 max-w-2xl">Dokumentasi kegiatan siswa sepanjang tahun ajaran — akademik, seni, olahraga, keagamaan, hingga kewirausahaan. Klik kartu untuk melihat detail kegiatan.</p>
+          <p class="text-slate-500 mt-2 max-w-2xl">Dokumentasi kegiatan siswa sepanjang tahun ajaran. Klik kartu untuk melihat detail kegiatan.</p>
         </div>
         <div class="flex items-center gap-2 text-sm">
           <span id="kgCount" class="px-3 py-1.5 rounded-full bg-brand-600 text-white font-bold">0 kegiatan</span>
-          <a href="login.html" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-brand-200 text-brand-700 font-bold hover:bg-brand-100" title="Kelola di Panel Admin"><i data-lucide="settings" class="w-3.5 h-3.5"></i>Kelola</a>
+          <a href="login.html" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-brand-200 text-brand-700 font-bold hover:bg-brand-100"><i data-lucide="settings" class="w-3.5 h-3.5"></i>Kelola</a>
         </div>
       </div>
-
       <div id="kgFilters" class="flex flex-wrap gap-2 mb-6"></div>
-
       <div id="kgGrid" class="grid grid-cols-2 lg:grid-cols-4 auto-rows-[150px] lg:auto-rows-[190px] gap-3 md:gap-4 grid-flow-dense">
         <div class="col-span-2 lg:col-span-4 row-span-2 flex items-center justify-center text-slate-400 gap-3">
           <div class="w-5 h-5 border-2 border-brand-500 border-t-transparent rounded-full animate-spin"></div>Memuat kegiatan…
         </div>
       </div>
-
-      <p class="text-xs text-slate-400 mt-5 flex items-center gap-1.5"><i data-lucide="info" class="w-3.5 h-3.5"></i>Konten ini dikelola melalui Panel Admin → Konten Website → Kegiatan Sekolah, tersimpan pada <code>data/kegiatan.json</code>.</p>
     </div>
   </section>
 
-  <!-- ===================== KALENDER AKADEMIK ===================== -->
+  <!-- ===================== AKADEMIK ===================== -->
   <section id="akademik" class="bg-slate-50 border-y border-slate-100">
     <div class="max-w-7xl mx-auto px-4 py-16">
       <div class="flex items-end justify-between gap-4 mb-8">
@@ -221,10 +232,7 @@
   <section id="fasilitas" class="bg-brand-800 text-white">
     <div class="max-w-7xl mx-auto px-4 py-16">
       <div class="flex items-end justify-between gap-4 mb-10">
-        <div>
-          <span class="text-xs font-bold uppercase tracking-wider text-amber-300">Facilities</span>
-          <h2 class="font-display font-extrabold text-3xl mt-2">Fasilitas Sekolah</h2>
-        </div>
+        <div><span class="text-xs font-bold uppercase tracking-wider text-amber-300">Facilities</span><h2 class="font-display font-extrabold text-3xl mt-2">Fasilitas Sekolah</h2></div>
         <button id="tourBtn2" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-400 text-amber-950 font-bold hover:bg-amber-300"><i data-lucide="play-circle" class="w-4 h-4"></i>Virtual Tour</button>
       </div>
       <div id="facilityGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
@@ -279,41 +287,25 @@
         </div>
       </div>
       <div><b class="text-white text-sm uppercase tracking-wider">About Us</b>
-        <ul class="mt-4 space-y-2 text-sm">
-          <li><a href="#profil" class="hover:text-brand-400">Profil Sekolah</a></li>
-          <li><a href="#program" class="hover:text-brand-400">Program</a></li>
-          <li><a href="#fasilitas" class="hover:text-brand-400">Fasilitas</a></li>
-          <li><a href="#kontak" class="hover:text-brand-400">Kontak</a></li>
-        </ul>
+        <ul class="mt-4 space-y-2 text-sm"><li><a href="#profil" class="hover:text-brand-400">Profil Sekolah</a></li><li><a href="#program" class="hover:text-brand-400">Program</a></li><li><a href="#fasilitas" class="hover:text-brand-400">Fasilitas</a></li><li><a href="#kontak" class="hover:text-brand-400">Kontak</a></li></ul>
       </div>
       <div><b class="text-white text-sm uppercase tracking-wider">Layanan</b>
-        <ul class="mt-4 space-y-2 text-sm">
-          <li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li>
-          <li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li>
-          <li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li>
-          <li><a href="cbt.html" class="hover:text-brand-400">Ujian CBT</a></li>
-        </ul>
+        <ul class="mt-4 space-y-2 text-sm"><li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li><li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li><li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li><li><a href="cbt.html" class="hover:text-brand-400">Ujian CBT</a></li></ul>
       </div>
       <div><b class="text-white text-sm uppercase tracking-wider">Administrator</b>
-        <ul class="mt-4 space-y-2 text-sm">
-          <li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li>
-          <li><a href="#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li>
-          <li><a href="#akademik" class="hover:text-brand-400">Kalender Akademik</a></li>
-          <li><a href="#berita" class="hover:text-brand-400">Berita</a></li>
-        </ul>
+        <ul class="mt-4 space-y-2 text-sm"><li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li><li><a href="#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li><li><a href="#akademik" class="hover:text-brand-400">Kalender Akademik</a></li><li><a href="#berita" class="hover:text-brand-400">Berita</a></li></ul>
       </div>
     </div>
     <div class="border-t border-slate-800">
       <div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500 flex flex-wrap gap-2 justify-between">
         <span>© 2026 <span id="footCopy">Nama Sekolah</span>. Sistem Informasi Sekolah statis (GitHub Pages).</span>
-        <span>Konten dikelola dari Panel Admin • data dari <code>data/*.json</code></span>
+        <span>Slider &amp; konten dikelola dari Panel Admin • <code>data/*.json</code></span>
       </div>
     </div>
   </footer>
 
   <a id="fabWa" target="_blank" class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-full bg-brand-600 text-white shadow-xl flex items-center justify-center hover:bg-brand-700" title="Chat WhatsApp"><i data-lucide="message-circle" class="w-6 h-6"></i></a>
 
-  <!-- Modal Virtual Tour -->
   <div id="tourModal" class="hidden fixed inset-0 z-[60] bg-slate-900/70 flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl w-full max-w-3xl overflow-hidden">
       <div class="flex items-center justify-between px-4 py-3 border-b"><b class="text-sm">Virtual Tour (demo)</b><button id="tourClose" class="p-1.5 rounded-lg hover:bg-slate-100"><i data-lucide="x" class="w-5 h-5"></i></button></div>
@@ -322,14 +314,13 @@
     </div>
   </div>
 
-  <!-- Modal Detail Kegiatan -->
   <div id="kgModal" class="hidden fixed inset-0 z-[70] bg-slate-950/80 backdrop-blur-sm p-4 overflow-y-auto">
     <div class="min-h-full flex items-center justify-center py-6">
       <div class="bg-white rounded-3xl w-full max-w-4xl overflow-hidden shadow-2xl">
         <div class="relative h-64 md:h-80 card-img">
           <img id="kgMImg" class="w-full h-full object-cover" alt="">
           <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent"></div>
-          <button id="kgMClose" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 text-slate-700 flex items-center justify-center hover:bg-white" aria-label="Tutup"><i data-lucide="x" class="w-5 h-5"></i></button>
+          <button id="kgMClose" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 text-slate-700 flex items-center justify-center hover:bg-white"><i data-lucide="x" class="w-5 h-5"></i></button>
           <div class="absolute top-4 left-4 flex gap-2">
             <span id="kgMKat" class="px-3 py-1 rounded-full bg-amber-400 text-amber-950 text-xs font-bold"></span>
             <span id="kgMStar" class="hidden px-3 py-1 rounded-full bg-white/90 text-brand-700 text-xs font-bold">★ Unggulan</span>
@@ -364,62 +355,205 @@
     const img = (url, alt) => '<div class="card-img w-full h-full"><img src="' + esc(url || "") + '" alt="' + esc(alt) + '" loading="lazy" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>';
     const KG_SPAN = ["col-span-2 row-span-2","col-span-1 row-span-1","col-span-1 row-span-1","col-span-2 row-span-1","col-span-1 row-span-1","col-span-1 row-span-1","col-span-2 row-span-1","col-span-2 row-span-1","col-span-2 row-span-1"];
 
+    /* ================= FULL SLIDER ================= */
+    const ACC = {
+      emerald: { hex: "#10b981", glow: "16,185,129", pill: "bg-emerald-400/90 text-emerald-950", btn: "bg-emerald-400 hover:bg-emerald-300 text-emerald-950" },
+      amber:   { hex: "#f59e0b", glow: "245,158,11", pill: "bg-amber-400/90 text-amber-950",   btn: "bg-amber-400 hover:bg-amber-300 text-amber-950" },
+      sky:     { hex: "#0ea5e9", glow: "14,165,233", pill: "bg-sky-400/90 text-sky-950",       btn: "bg-sky-400 hover:bg-sky-300 text-sky-950" },
+      violet:  { hex: "#8b5cf6", glow: "139,92,246", pill: "bg-violet-400/90 text-violet-950", btn: "bg-violet-400 hover:bg-violet-300 text-violet-950" },
+      rose:    { hex: "#f43f5e", glow: "244,63,94",  pill: "bg-rose-400/90 text-rose-950",     btn: "bg-rose-400 hover:bg-rose-300 text-rose-950" },
+      teal:    { hex: "#14b8a6", glow: "20,184,166", pill: "bg-teal-400/90 text-teal-950",     btn: "bg-teal-400 hover:bg-teal-300 text-teal-950" }
+    };
+    const accOf = a => ACC[a] || ACC.emerald;
+    const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const SL = { cfg: { autoplay: true, durasi: 7000, efek: "slide", tinggi: "full", dots: true, panah: true, pause_on_hover: true, kenburns: true },
+                 list: [], i: 0, playing: true, hover: false, elapsed: 0, last: 0, raf: 0, drag: null };
+
+    function slHeight() {
+      const t = SL.cfg.tinggi;
+      const el = $("slider");
+      if (t === "compact") el.style.cssText = "height:520px;min-height:420px";
+      else if (t === "medium") el.style.cssText = "height:70vh;min-height:480px;max-height:760px";
+      else el.style.cssText = "height:calc(100vh - 72px);min-height:540px;max-height:920px";
+    }
+
+    function slBuild() {
+      slHeight();
+      const track = $("slTrack");
+      track.innerHTML = SL.list.map((s, i) => {
+        const a = accOf(s.accent), ov = Math.max(20, Math.min(92, +s.overlay || 70)) / 100;
+        const center = s.align === "center";
+        const scrim = center
+          ? "linear-gradient(to top, rgba(2,6,23," + ov + ") 0%, rgba(2,6,23," + (ov * .82).toFixed(2) + ") 48%, rgba(2,6,23," + (ov * .5).toFixed(2) + ") 100%)"
+          : "linear-gradient(100deg, rgba(2,6,23," + ov + ") 0%, rgba(2,6,23," + (ov * .78).toFixed(2) + ") 46%, rgba(2,6,23," + (ov * .22).toFixed(2) + ") 100%)";
+        const meta = Array.isArray(s.meta) ? s.meta : String(s.meta || "").split(",").map(x => x.trim()).filter(Boolean);
+        const cta = (label, href, primary) => {
+          if (!label || !href) return "";
+          const cls = primary ? a.btn + " shadow-lg" : "bg-white/12 border border-white/35 text-white hover:bg-white/25 backdrop-blur";
+          return '<a href="' + esc(href) + '" data-cta="' + esc(href) + '" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold transition ' + cls + '">' + esc(label) + '<i data-lucide="' + (primary ? "arrow-right" : "chevron-right") + '" class="w-4 h-4"></i></a>';
+        };
+        return '<article class="sld" data-i="' + i + '" aria-hidden="true" style="--kb:' + ((+s.durasi || SL.cfg.durasi) + 1200) + 'ms">' +
+          '<div class="absolute inset-0" style="background:linear-gradient(135deg,' + a.hex + ',#0f172a)"></div>' +
+          '<img class="sld-img" src="' + esc(s.gambar) + '" alt="' + esc(s.judul) + '" ' + (i === 0 ? 'fetchpriority="high"' : 'loading="lazy"') + ' onerror="this.style.display=\'none\'">' +
+          '<div class="absolute inset-0" style="background:' + scrim + '"></div>' +
+          '<div class="absolute inset-0 opacity-60" style="background:radial-gradient(60% 55% at 18% 28%, rgba(' + a.glow + ',.42), transparent 62%), radial-gradient(45% 45% at 84% 76%, rgba(' + a.glow + ',.28), transparent 66%)"></div>' +
+          '<div class="relative h-full max-w-7xl mx-auto px-5 md:px-8 flex ' + (center ? "items-center justify-center text-center" : "items-center") + '">' +
+            '<div class="' + (center ? "max-w-3xl" : "max-w-2xl") + ' pb-24 md:pb-28">' +
+              (s.eyebrow ? '<span class="sld-anim inline-flex items-center gap-2 text-[11px] md:text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full ' + a.pill + '" style="transition-delay:.05s"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i>' + esc(s.eyebrow) + "</span>" : "") +
+              '<h1 class="sld-anim font-display font-extrabold text-white text-3xl sm:text-4xl md:text-6xl leading-[1.08] mt-4" style="transition-delay:.14s">' + esc(s.judul) + (s.highlight ? ' <span style="color:' + a.hex + '">' + esc(s.highlight) + "</span>" : "") + "</h1>" +
+              (s.subjudul ? '<p class="sld-anim text-white/90 font-semibold text-sm md:text-lg mt-3" style="transition-delay:.22s">' + esc(s.subjudul) + "</p>" : "") +
+              (s.deskripsi ? '<p class="sld-anim text-white/75 text-sm md:text-base mt-3 leading-relaxed ' + (center ? "mx-auto" : "") + ' max-w-xl" style="transition-delay:.3s">' + esc(s.deskripsi) + "</p>" : "") +
+              '<div class="sld-anim mt-7 flex flex-wrap gap-3 ' + (center ? "justify-center" : "") + '" style="transition-delay:.38s">' + cta(s.cta1_label, s.cta1_href, true) + cta(s.cta2_label, s.cta2_href, false) + "</div>" +
+              (meta.length ? '<div class="sld-anim mt-7 flex flex-wrap gap-2 ' + (center ? "justify-center" : "") + '" style="transition-delay:.46s">' + meta.map(m => '<span class="text-[11px] md:text-xs font-semibold text-white/85 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur">' + esc(m) + "</span>").join("") + "</div>" : "") +
+            "</div>" +
+          "</div></article>";
+      }).join("");
+
+      $("slDots").innerHTML = SL.cfg.dots ? SL.list.map((s, i) =>
+        '<button class="dot" role="tab" data-dot="' + i + '" aria-label="Slide ' + (i + 1) + ": " + esc(s.judul) + '" aria-selected="false"><span class="fill"></span></button>').join("") : "";
+      $("slDots").querySelectorAll("[data-dot]").forEach(b => b.onclick = () => slGo(+b.dataset.dot, true));
+      $("slPrev").style.display = SL.cfg.panah ? "" : "none";
+      $("slNext").style.display = SL.cfg.panah ? "" : "none";
+      $("slPlay").style.display = SL.list.length > 1 ? "" : "none";
+      track.querySelectorAll("[data-cta]").forEach(a => a.addEventListener("click", ev => {
+        const h = a.dataset.cta;
+        if (h === "#tour") { ev.preventDefault(); openTour(); }
+      }));
+      slApply(); refreshIcons();
+    }
+
+    function slApply() {
+      const eff = SL.cfg.efek;
+      $("slTrack").querySelectorAll(".sld").forEach((el, i) => {
+        const on = i === SL.i;
+        el.classList.toggle("on", on);
+        el.setAttribute("aria-hidden", on ? "false" : "true");
+        el.style.pointerEvents = on ? "auto" : "none";
+        if (eff === "slide") { el.style.opacity = "1"; el.style.transform = "translate3d(" + ((i - SL.i) * 100) + "%,0,0)"; }
+        else if (eff === "zoom") { el.style.opacity = on ? "1" : "0"; el.style.transform = on ? "scale(1)" : "scale(1.08)"; }
+        else { el.style.opacity = on ? "1" : "0"; el.style.transform = "none"; }
+        el.style.zIndex = on ? "2" : "1";
+        const im = el.querySelector(".sld-img");
+        if (im) { im.style.animation = "none"; void im.offsetWidth; im.style.animation = (on && SL.cfg.kenburns && !reduceMotion) ? "" : "none"; }
+      });
+      $("slDots").querySelectorAll(".dot").forEach((d, i) => {
+        d.classList.toggle("on", i === SL.i);
+        d.setAttribute("aria-selected", i === SL.i ? "true" : "false");
+        d.querySelector(".fill").style.width = i === SL.i ? "0%" : "0%";
+      });
+      const pad = n => String(n).padStart(2, "0");
+      $("slCounter").textContent = pad(SL.i + 1) + " / " + pad(SL.list.length);
+      $("slLive").textContent = "Slide " + (SL.i + 1) + " dari " + SL.list.length + ": " + (SL.list[SL.i] ? SL.list[SL.i].judul : "");
+    }
+
+    function slGo(i, user) {
+      if (!SL.list.length) return;
+      SL.i = (i + SL.list.length) % SL.list.length;
+      SL.elapsed = 0; SL.last = 0;
+      slApply();
+      if (user && SL.playing) slStart();
+    }
+    const slNext = u => slGo(SL.i + 1, u);
+    const slPrev = u => slGo(SL.i - 1, u);
+
+    function slDur() { return Math.max(2500, +((SL.list[SL.i] || {}).durasi) || +SL.cfg.durasi || 7000); }
+    function slStop() { if (SL.raf) cancelAnimationFrame(SL.raf); SL.raf = 0; SL.last = 0; }
+    function slStart() {
+      slStop();
+      if (!SL.playing || SL.list.length < 2 || reduceMotion) { slPaint(0); return; }
+      const step = ts => {
+        if (!SL.last) SL.last = ts;
+        const dt = ts - SL.last; SL.last = ts;
+        const paused = document.hidden || (SL.cfg.pause_on_hover && SL.hover) || $("slider").contains(document.activeElement) && document.activeElement !== $("slider");
+        if (!paused) SL.elapsed += dt;
+        const p = Math.min(1, SL.elapsed / slDur());
+        slPaint(p);
+        if (p >= 1) { SL.elapsed = 0; SL.last = 0; slNext(false); }
+        SL.raf = requestAnimationFrame(step);
+      };
+      SL.raf = requestAnimationFrame(step);
+    }
+    function slPaint(p) {
+      $("slProg").style.width = (p * 100) + "%";
+      const d = $("slDots").querySelector(".dot.on .fill");
+      if (d) d.style.width = (p * 100) + "%";
+    }
+    function slToggle() {
+      SL.playing = !SL.playing;
+      $("slPlay").innerHTML = '<i data-lucide="' + (SL.playing ? "pause" : "play") + '" class="w-4 h-4"></i>';
+      $("slPlay").setAttribute("aria-label", SL.playing ? "Jeda putar otomatis" : "Putar otomatis");
+      refreshIcons();
+      if (SL.playing) slStart(); else { slStop(); slPaint(0); }
+    }
+
+    function slInit(data) {
+      const raw = Array.isArray(data) ? { slides: data } : (data || {});
+      SL.cfg = { ...SL.cfg, ...(raw.config || {}) };
+      SL.list = (raw.slides || []).filter(s => s.status !== "Draft").sort((a, b) => (a.urutan || 99) - (b.urutan || 99));
+      if (!SL.list.length) {
+        $("slider").innerHTML = '<div class="h-full flex flex-col items-center justify-center text-center text-white bg-gradient-to-br from-brand-700 to-teal-600 px-6"><i data-lucide="image-off" class="w-10 h-10 opacity-70"></i><b class="font-display text-2xl mt-4">Belum ada slide aktif</b><p class="text-white/80 text-sm mt-2">Tambahkan slide melalui Panel Admin → Konten Website → Hero Slider.</p><a href="login.html" class="mt-5 px-5 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Buka Panel Admin</a></div>';
+        refreshIcons(); return;
+      }
+      if (reduceMotion) { SL.cfg.autoplay = false; SL.cfg.kenburns = false; }
+      SL.playing = !!SL.cfg.autoplay;
+      slBuild();
+      $("slPlay").innerHTML = '<i data-lucide="' + (SL.playing ? "pause" : "play") + '" class="w-4 h-4"></i>';
+      $("slPrev").onclick = () => slPrev(true);
+      $("slNext").onclick = () => slNext(true);
+      $("slPlay").onclick = slToggle;
+      const box = $("slider");
+      box.addEventListener("mouseenter", () => SL.hover = true);
+      box.addEventListener("mouseleave", () => SL.hover = false);
+      box.addEventListener("pointerdown", e => { if (e.target.closest("a,button")) return; SL.drag = { x: e.clientX, t: Date.now() }; });
+      box.addEventListener("pointerup", e => {
+        if (!SL.drag) return;
+        const dx = e.clientX - SL.drag.x, dt = Date.now() - SL.drag.t; SL.drag = null;
+        if (Math.abs(dx) > 45 && dt < 900) dx < 0 ? slNext(true) : slPrev(true);
+      });
+      box.addEventListener("pointercancel", () => SL.drag = null);
+      document.addEventListener("visibilitychange", () => { SL.last = 0; });
+      refreshIcons(); slStart();
+    }
+
+    /* ================= KEGIATAN BENTO ================= */
     const kgPublished = () => KEGIATAN.filter(k => k.status !== "Draft").slice().sort((a, b) => (a.urutan || 99) - (b.urutan || 99));
     const kgList = () => kgPublished().filter(k => kgFilter === "Semua" || k.kategori === kgFilter);
-
     function kgObserve() {
       if (kgIO) kgIO.disconnect();
       const cards = document.querySelectorAll("#kgGrid .bento");
       if (!("IntersectionObserver" in window)) { cards.forEach(c => c.classList.add("in")); return; }
-      kgIO = new IntersectionObserver((entries) => {
-        entries.forEach(en => { if (en.isIntersecting) { const d = Number(en.target.dataset.d || 0); setTimeout(() => en.target.classList.add("in"), d * 70); kgIO.unobserve(en.target); } });
-      }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+      kgIO = new IntersectionObserver(en => en.forEach(x => { if (x.isIntersecting) { setTimeout(() => x.target.classList.add("in"), Number(x.target.dataset.d || 0) * 70); kgIO.unobserve(x.target); } }), { threshold: .12, rootMargin: "0px 0px -40px 0px" });
       cards.forEach(c => kgIO.observe(c));
     }
-
     function kgRenderFilters() {
       const cats = ["Semua", ...new Set(kgPublished().map(k => k.kategori).filter(Boolean))];
       $("kgFilters").innerHTML = cats.map(c => {
-        const on = c === kgFilter;
-        const n = c === "Semua" ? kgPublished().length : kgPublished().filter(k => k.kategori === c).length;
-        return '<button data-cat="' + esc(c) + '" class="kg-chip px-4 py-2 rounded-full text-sm font-bold border ' + (on ? "bg-brand-600 text-white border-brand-600 shadow" : "bg-white text-slate-600 border-slate-200 hover:border-brand-300 hover:text-brand-700") + '">' + esc(c) + ' <span class="' + (on ? "text-brand-100" : "text-slate-400") + '">' + n + '</span></button>';
+        const on = c === kgFilter, n = c === "Semua" ? kgPublished().length : kgPublished().filter(k => k.kategori === c).length;
+        return '<button data-cat="' + esc(c) + '" class="px-4 py-2 rounded-full text-sm font-bold border transition ' + (on ? "bg-brand-600 text-white border-brand-600 shadow" : "bg-white text-slate-600 border-slate-200 hover:border-brand-300 hover:text-brand-700") + '">' + esc(c) + ' <span class="' + (on ? "text-brand-100" : "text-slate-400") + '">' + n + "</span></button>";
       }).join("");
       $("kgFilters").querySelectorAll("[data-cat]").forEach(b => b.onclick = () => { kgFilter = b.dataset.cat; kgRenderFilters(); kgRender(); });
     }
-
     function kgRender() {
       const list = kgList();
       $("kgCount").textContent = list.length + " kegiatan";
-      if (!list.length) {
-        $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-white rounded-3xl border border-dashed border-brand-200 flex flex-col items-center justify-center text-center p-8"><i data-lucide="image-off" class="w-8 h-8 text-brand-300"></i><b class="mt-3 text-slate-600">Belum ada kegiatan pada kategori ini</b><p class="text-sm text-slate-400 mt-1">Pilih kategori lain atau tambahkan kegiatan dari Panel Admin.</p></div>';
-        refreshIcons(); return;
-      }
+      if (!list.length) { $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-white rounded-3xl border border-dashed border-brand-200 flex flex-col items-center justify-center text-center p-8"><i data-lucide="image-off" class="w-8 h-8 text-brand-300"></i><b class="mt-3 text-slate-600">Belum ada kegiatan</b></div>'; refreshIcons(); return; }
       $("kgGrid").innerHTML = list.map((k, i) => {
-        const big = i === 0;
-        const span = KG_SPAN[i] || "col-span-1 row-span-1";
+        const big = i === 0, span = KG_SPAN[i] || "col-span-1 row-span-1";
         return '<button type="button" data-kg="' + i + '" data-d="' + i + '" class="bento group relative overflow-hidden rounded-3xl text-left ring-1 ring-brand-900/10 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-400 ' + span + '">' +
-          img(k.foto, k.judul) +
-          '<div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/35 to-slate-950/5"></div>' +
-          '<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">' +
-            '<span class="px-2.5 py-1 rounded-full bg-white/90 text-brand-800 text-[10px] font-bold uppercase tracking-wide">' + esc(k.kategori || "Kegiatan") + '</span>' +
-            (k.unggulan ? '<span class="px-2.5 py-1 rounded-full bg-amber-400 text-amber-950 text-[10px] font-bold">★ Unggulan</span>' : "") +
-          '</div>' +
+          img(k.foto, k.judul) + '<div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/35 to-slate-950/5"></div>' +
+          '<div class="absolute top-3 left-3 flex flex-wrap gap-1.5"><span class="px-2.5 py-1 rounded-full bg-white/90 text-brand-800 text-[10px] font-bold uppercase tracking-wide">' + esc(k.kategori || "Kegiatan") + "</span>" + (k.unggulan ? '<span class="px-2.5 py-1 rounded-full bg-amber-400 text-amber-950 text-[10px] font-bold">★ Unggulan</span>' : "") + "</div>" +
           '<span class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/15 border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i></span>' +
-          '<div class="absolute inset-x-0 bottom-0 p-3.5 ' + (big ? "md:p-6" : "") + ' text-white">' +
-            '<div class="text-[11px] font-semibold text-amber-300 flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3"></i>' + esc(fmtTgl(k.tanggal)) + '</div>' +
-            '<h3 class="font-display font-bold leading-snug mt-1 ' + (big ? "text-lg md:text-2xl" : "text-sm md:text-base line-clamp-2") + '">' + esc(k.judul) + '</h3>' +
-            '<p class="excerpt text-[11px] md:text-xs text-white/80 mt-1.5 overflow-hidden ' + (big ? "line-clamp-3" : "line-clamp-2") + '">' + esc(k.ringkasan || "") + '</p>' +
-            (big ? '<span class="inline-flex items-center gap-1 text-xs font-bold text-amber-300 mt-2">Lihat detail <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span>' : "") +
-          '</div></button>';
+          '<div class="absolute inset-x-0 bottom-0 p-3.5 ' + (big ? "md:p-6" : "") + ' text-white"><div class="text-[11px] font-semibold text-amber-300 flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3"></i>' + esc(fmtTgl(k.tanggal)) + "</div>" +
+          '<h3 class="font-display font-bold leading-snug mt-1 ' + (big ? "text-lg md:text-2xl" : "text-sm md:text-base line-clamp-2") + '">' + esc(k.judul) + "</h3>" +
+          '<p class="excerpt text-[11px] md:text-xs text-white/80 mt-1.5 overflow-hidden ' + (big ? "line-clamp-3" : "line-clamp-2") + '">' + esc(k.ringkasan || "") + "</p>" +
+          (big ? '<span class="inline-flex items-center gap-1 text-xs font-bold text-amber-300 mt-2">Lihat detail <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span>' : "") + "</div></button>";
       }).join("");
       $("kgGrid").querySelectorAll("[data-kg]").forEach(b => b.onclick = () => kgOpen(Number(b.dataset.kg)));
       refreshIcons(); kgObserve();
     }
-
     function kgOpen(i) {
       const list = kgList(); if (!list.length) return;
-      kgIdx = (i + list.length) % list.length;
-      const k = list[kgIdx];
+      kgIdx = (i + list.length) % list.length; const k = list[kgIdx];
       $("kgMImg").src = k.foto || ""; $("kgMImg").alt = k.judul || "";
       $("kgMKat").textContent = k.kategori || "Kegiatan";
       $("kgMStar").classList.toggle("hidden", !k.unggulan);
@@ -430,40 +564,40 @@
       $("kgMPenyelenggara").textContent = k.penyelenggara || "-";
       $("kgMDesk").textContent = k.deskripsi || k.ringkasan || "";
       $("kgMPos").textContent = (kgIdx + 1) + " / " + list.length;
-      $("kgModal").classList.remove("hidden");
-      document.body.style.overflow = "hidden";
-      refreshIcons();
+      $("kgModal").classList.remove("hidden"); document.body.style.overflow = "hidden"; refreshIcons();
     }
-    function kgClose() { $("kgModal").classList.add("hidden"); document.body.style.overflow = ""; }
+    const kgClose = () => { $("kgModal").classList.add("hidden"); document.body.style.overflow = ""; };
     $("kgMClose").onclick = kgClose;
     $("kgMPrev").onclick = () => kgOpen(kgIdx - 1);
     $("kgMNext").onclick = () => kgOpen(kgIdx + 1);
     $("kgModal").onclick = e => { if (e.target === $("kgModal")) kgClose(); };
     document.addEventListener("keydown", e => {
-      if ($("kgModal").classList.contains("hidden")) return;
-      if (e.key === "Escape") kgClose();
-      if (e.key === "ArrowLeft") kgOpen(kgIdx - 1);
-      if (e.key === "ArrowRight") kgOpen(kgIdx + 1);
+      const kgOpenNow = !$("kgModal").classList.contains("hidden"), tourOpen = !$("tourModal").classList.contains("hidden");
+      if (kgOpenNow) { if (e.key === "Escape") kgClose(); if (e.key === "ArrowLeft") kgOpen(kgIdx - 1); if (e.key === "ArrowRight") kgOpen(kgIdx + 1); return; }
+      if (tourOpen) { if (e.key === "Escape") $("tourClose").click(); return; }
+      if (!SL.list.length) return;
+      const r = $("slider").getBoundingClientRect();
+      if (r.bottom < 80 || r.top > window.innerHeight - 80) return;
+      if (e.key === "ArrowLeft") { slPrev(true); e.preventDefault(); }
+      if (e.key === "ArrowRight") { slNext(true); e.preventDefault(); }
+      if (e.key === " " && document.activeElement === $("slider")) { slToggle(); e.preventDefault(); }
     });
 
     function countUp(el, target) {
-      const dur = 900, t0 = performance.now();
-      const step = t => { const p = Math.min(1, (t - t0) / dur); el.textContent = Math.round(target * p).toLocaleString("id-ID"); if (p < 1) requestAnimationFrame(step); };
+      const t0 = performance.now();
+      const step = t => { const p = Math.min(1, (t - t0) / 900); el.textContent = Math.round(target * p).toLocaleString("id-ID"); if (p < 1) requestAnimationFrame(step); };
       requestAnimationFrame(step);
     }
 
+    /* ================= BOOT ================= */
     (async () => {
       try {
         ST = await fetchJSON("settings.json");
         const nama = ST.nama_sekolah || "Nama Sekolah";
-        ["navNama","heroNama","aboutNama","kontakNama","footNama","footCopy"].forEach(id => $(id).textContent = nama);
+        ["navNama","aboutNama","kontakNama","footNama","footCopy"].forEach(id => $(id).textContent = nama);
         document.title = nama + " — Sistem Informasi Sekolah";
         $("navNpsn").textContent = "NPSN " + (ST.npsn || "—");
-        $("heroJenjang").textContent = ST.jenjang || "—";
-        $("heroTA").textContent = ST.tahun_ajaran || "—";
-        $("heroKur").textContent = ST.kurikulum || "—";
-        $("heroTagline").textContent = "Sekolah " + (ST.jenjang || "") + " yang membimbing siswa belajar aktif, berkarakter, dan berprestasi dalam satu ekosistem digital terpadu.";
-        $("aboutText").textContent = nama + " berkomitmen menumbuhkan kreativitas dan keterampilan siswa melalui berbagai kegiatan dan event kreatif sebagai proses belajar. Didukung " + (ST.jenjang || "jenjang") + " dengan Kurikulum " + (ST.kurikulum || "-") + ", kami menghadirkan pembelajaran yang menyenangkan dan bermakna.";
+        $("aboutText").textContent = nama + " berkomitmen menumbuhkan kreativitas dan keterampilan siswa melalui berbagai kegiatan dan event kreatif sebagai proses belajar. Didukung jenjang " + (ST.jenjang || "-") + " dengan Kurikulum " + (ST.kurikulum || "-") + ", kami menghadirkan pembelajaran yang menyenangkan dan bermakna.";
         $("aboutAlamat").textContent = ST.alamat || "—";
         $("aboutTelp").textContent = ST.telepon || "—";
         $("kepsekNama").textContent = ST.kepala_sekolah || "—";
@@ -476,27 +610,27 @@
         const wa = "https://wa.me/" + (ST.wa_admin || "").replace(/^0/, "62");
         ["socWa","kontakWa","footWa","fabWa"].forEach(id => $(id).href = wa);
         $("socMail").href = "mailto:" + (ST.email || ""); $("footMail").href = "mailto:" + (ST.email || "");
-        const mapQ = encodeURIComponent(ST.alamat || "Indonesia");
-        $("mapFrame").src = "https://maps.google.com/maps?q=" + mapQ + "&t=&z=15&ie=UTF8&iwloc=&output=embed";
-        $("kontakMap").href = "https://www.google.com/maps/search/?api=1&query=" + mapQ;
+        const mq = encodeURIComponent(ST.alamat || "Indonesia");
+        $("mapFrame").src = "https://maps.google.com/maps?q=" + mq + "&t=&z=15&ie=UTF8&iwloc=&output=embed";
+        $("kontakMap").href = "https://www.google.com/maps/search/?api=1&query=" + mq;
       } catch (e) {}
+
+      try { slInit(await fetchJSON("slider.json")); }
+      catch (e) { $("slider").innerHTML = '<div class="h-full flex items-center justify-center bg-gradient-to-br from-brand-700 to-teal-600 text-white text-center px-6"><div><b class="font-display text-2xl">Slider belum tersedia</b><p class="text-white/80 text-sm mt-2">' + esc(e.message) + "</p></div></div>"; }
 
       try {
         const [siswa, guru, kelas, buku] = await Promise.all([
           fetchJSON("siswa.json").catch(() => []), fetchJSON("guru.json").catch(() => []),
           fetchJSON("kelas.json").catch(() => []), fetchJSON("buku.json").catch(() => [])
         ]);
-        const aktif = siswa.filter(s => s.status === "Aktif").length;
-        $("heroSiswa").textContent = aktif;
         const cards = [
-          ["users","Siswa Aktif",aktif,"brand"], ["briefcase","Guru & Tendik",guru.length,"sky"],
-          ["school","Rombel / Kelas",kelas.length,"violet"], ["library","Koleksi Buku",buku.reduce((a,b)=>a+(b.stok||0),0),"amber"]
+          ["users","Siswa Aktif",siswa.filter(s => s.status === "Aktif").length,"brand"],
+          ["briefcase","Guru & Tendik",guru.length,"sky"],
+          ["school","Rombel / Kelas",kelas.length,"violet"],
+          ["library","Koleksi Buku",buku.reduce((a,b)=>a+(b.stok||0),0),"amber"]
         ];
-        $("stats").innerHTML = cards.map((c,i) =>
-          '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-center"><div class="w-11 h-11 mx-auto rounded-xl bg-' + c[3] + '-100 text-' + c[3] + '-700 flex items-center justify-center mb-3"><i data-lucide="' + c[0] + '" class="w-5 h-5"></i></div><div class="text-3xl font-extrabold font-display" id="stat' + i + '">0</div><div class="text-xs text-slate-500 font-semibold mt-1">' + c[1] + "</div></div>"
-        ).join("");
+        $("stats").innerHTML = cards.map((c,i) => '<div class="bg-white rounded-2xl border border-slate-200 shadow-lg p-5 text-center"><div class="w-11 h-11 mx-auto rounded-xl bg-' + c[3] + '-100 text-' + c[3] + '-700 flex items-center justify-center mb-3"><i data-lucide="' + c[0] + '" class="w-5 h-5"></i></div><div class="text-3xl font-extrabold font-display" id="stat' + i + '">0</div><div class="text-xs text-slate-500 font-semibold mt-1">' + c[1] + "</div></div>").join("");
         cards.forEach((c,i) => countUp($("stat"+i), c[2]));
-
         const inv = await fetchJSON("inventaris.json").catch(() => []);
         const laptop = inv.filter(x => /laptop|komputer|chromebook/i.test(x.nama)).reduce((a,b)=>a+(b.jumlah||0),0);
         const fas = [
@@ -505,9 +639,7 @@
           ["Ruang Kelas","school", kelas.length + " rombongan belajar","https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=60"],
           ["Sarana Olahraga","trophy","Aktivitas & ekstrakurikuler","https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=600&q=60"]
         ];
-        $("facilityGrid").innerHTML = fas.map(f =>
-          '<div class="rounded-2xl overflow-hidden bg-white/10 border border-white/15"><div class="h-36">' + img(f[3], f[0]) + '</div><div class="p-4"><div class="flex items-center gap-2 font-display font-bold"><i data-lucide="' + f[1] + '" class="w-4 h-4 text-amber-300"></i>' + f[0] + '</div><div class="text-sm text-brand-100/80 mt-1">' + esc(f[2]) + "</div></div></div>"
-        ).join("");
+        $("facilityGrid").innerHTML = fas.map(f => '<div class="rounded-2xl overflow-hidden bg-white/10 border border-white/15"><div class="h-36">' + img(f[3], f[0]) + '</div><div class="p-4"><div class="flex items-center gap-2 font-display font-bold"><i data-lucide="' + f[1] + '" class="w-4 h-4 text-amber-300"></i>' + f[0] + '</div><div class="text-sm text-brand-100/80 mt-1">' + esc(f[2]) + "</div></div></div>").join("");
       } catch (e) {}
 
       const prog = [
@@ -521,8 +653,7 @@
         return '<div class="relative bg-white rounded-2xl border ' + (active ? "border-brand-500 ring-2 ring-brand-200" : "border-slate-200") + ' shadow-sm p-6 hover:shadow-md transition">' +
           (active ? '<span class="absolute top-3 right-3 text-[10px] font-bold px-2 py-0.5 rounded-full bg-brand-600 text-white">Jenjang Kami</span>' : "") +
           '<div class="w-12 h-12 rounded-xl ' + p[3] + ' flex items-center justify-center mb-4"><i data-lucide="' + p[4] + '" class="w-6 h-6"></i></div>' +
-          '<b class="font-display text-lg">' + p[0] + '</b><div class="text-xs text-slate-400 font-semibold">' + p[1] + '</div>' +
-          '<p class="text-sm text-slate-500 mt-2">' + p[2] + '</p>' +
+          '<b class="font-display text-lg">' + p[0] + '</b><div class="text-xs text-slate-400 font-semibold">' + p[1] + '</div><p class="text-sm text-slate-500 mt-2">' + p[2] + "</p>" +
           '<a href="' + p[5] + '" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 mt-4">Detail <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div>';
       }).join("");
 
@@ -530,9 +661,7 @@
         KEGIATAN = await fetchJSON("kegiatan.json");
         if (!Array.isArray(KEGIATAN)) KEGIATAN = [];
         kgRenderFilters(); kgRender();
-      } catch (e) {
-        $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-rose-50 border border-rose-200 rounded-3xl flex flex-col items-center justify-center text-center p-8 text-rose-600"><i data-lucide="triangle-alert" class="w-8 h-8"></i><b class="mt-3">Gagal memuat kegiatan</b><p class="text-sm mt-1">' + esc(e.message) + '</p></div>';
-      }
+      } catch (e) { $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-rose-50 border border-rose-200 rounded-3xl flex items-center justify-center text-rose-600 text-sm p-8">' + esc(e.message) + "</div>"; }
 
       try {
         const [materi, ppdb, ujian, tugas] = await Promise.all([
@@ -543,20 +672,14 @@
         if (ST.pengumuman) news.push({ t: "Pengumuman Sekolah", d: ST.pengumuman, href: "#berita", img: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=60", tag: "Info" });
         if (ppdb.length) news.push({ t: "Open Admission PPDB Telah Dibuka", d: "Penerimaan Peserta Didik Baru resmi dibuka. Segera daftarkan putra-putri Anda melalui formulir PPDB Online.", href: "ppdb.html", img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=60", tag: "PPDB" });
         materi.slice(0, 3).forEach(m => news.push({ t: m.judul, d: m.deskripsi || "Materi pembelajaran terbaru untuk siswa.", href: "belajar.html", img: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=60", tag: m.tipe || "Materi" }));
-        $("newsGrid").innerHTML = news.slice(0, 6).map(n =>
-          '<article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md transition flex flex-col"><div class="h-44">' + img(n.img, n.t) + '</div><div class="p-5 flex flex-col flex-1"><span class="self-start text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-brand-100 text-brand-700">' + esc(n.tag) + '</span><h3 class="font-display font-bold mt-2 leading-snug">' + esc(n.t) + '</h3><p class="text-sm text-slate-500 mt-2 line-clamp-3 flex-1">' + esc(n.d) + '</p><a href="' + n.href + '" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 mt-4">Read More <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div></article>'
-        ).join("") || '<p class="text-slate-400 col-span-full">Belum ada kabar.</p>';
-
+        $("newsGrid").innerHTML = news.slice(0, 6).map(n => '<article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md transition flex flex-col"><div class="h-44">' + img(n.img, n.t) + '</div><div class="p-5 flex flex-col flex-1"><span class="self-start text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-brand-100 text-brand-700">' + esc(n.tag) + '</span><h3 class="font-display font-bold mt-2 leading-snug">' + esc(n.t) + '</h3><p class="text-sm text-slate-500 mt-2 line-clamp-3 flex-1">' + esc(n.d) + '</p><a href="' + n.href + '" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 mt-4">Read More <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div></article>').join("") || '<p class="text-slate-400 col-span-full">Belum ada kabar.</p>';
         const agenda = [
           ...ujian.map(u => ({ tgl: u.tanggal, judul: u.judul, ket: "Ujian CBT • " + u.mapel + " • " + u.kelas, href: "cbt.html", icon: "timer" })),
           ...tugas.map(t => ({ tgl: t.deadline, judul: t.judul, ket: "Tugas • " + t.mapel + " • " + t.kelas, href: "belajar.html", icon: "clipboard-check" })),
           ...KEGIATAN.filter(k => k.status !== "Draft" && k.tanggal >= today()).map(k => ({ tgl: k.tanggal, judul: k.judul, ket: "Kegiatan • " + k.kategori, href: "#kegiatan", icon: "sparkles" }))
         ].filter(a => a.tgl).sort((a, b) => a.tgl.localeCompare(b.tgl)).slice(0, 6);
-        $("agendaList").innerHTML = agenda.map(a =>
-          '<a href="' + a.href + '" class="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-sm p-4 hover:border-brand-300"><div class="w-14 text-center shrink-0"><div class="text-2xl font-extrabold font-display text-brand-700 leading-none">' + new Date(a.tgl).getDate() + '</div><div class="text-[11px] uppercase text-slate-400 font-bold">' + new Date(a.tgl).toLocaleDateString("id-ID",{month:"short"}) + '</div></div><div class="flex-1 min-w-0"><b class="text-sm block truncate">' + esc(a.judul) + '</b><span class="text-xs text-slate-500">' + esc(a.ket) + '</span></div><i data-lucide="' + a.icon + '" class="w-5 h-5 text-brand-600 shrink-0"></i></a>'
-        ).join("") || '<p class="text-slate-400">Belum ada agenda terdekat.</p>';
+        $("agendaList").innerHTML = agenda.map(a => '<a href="' + a.href + '" class="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-sm p-4 hover:border-brand-300"><div class="w-14 text-center shrink-0"><div class="text-2xl font-extrabold font-display text-brand-700 leading-none">' + new Date(a.tgl).getDate() + '</div><div class="text-[11px] uppercase text-slate-400 font-bold">' + new Date(a.tgl).toLocaleDateString("id-ID",{month:"short"}) + '</div></div><div class="flex-1 min-w-0"><b class="text-sm block truncate">' + esc(a.judul) + '</b><span class="text-xs text-slate-500">' + esc(a.ket) + '</span></div><i data-lucide="' + a.icon + '" class="w-5 h-5 text-brand-600 shrink-0"></i></a>').join("") || '<p class="text-slate-400">Belum ada agenda terdekat.</p>';
       } catch (e) {}
-
       refreshIcons();
     })();
 
@@ -568,11 +691,11 @@
         "<h3>Data Ringkas</h3><table><tr><th>Siswa Aktif</th><td>" + siswa.filter(s=>s.status==="Aktif").length + "</td><th>Guru & Tendik</th><td>" + guru.length + "</td><th>Rombel</th><td>" + kelas.length + "</td></tr></table>" +
         "<h3>Kontak</h3><p>" + esc(ST.alamat||"") + "<br>Telp. " + esc(ST.telepon||"") + " • Email " + esc(ST.email||"") + "</p>");
     };
-
     const TOUR_VIDEO = "https://www.youtube.com/embed/aqz-KE-bpKQ";
-    const openTour = () => { $("tourFrame").src = TOUR_VIDEO; $("tourModal").classList.remove("hidden"); };
-    $("tourBtn").onclick = openTour; $("tourBtn2").onclick = openTour;
+    function openTour() { $("tourFrame").src = TOUR_VIDEO; $("tourModal").classList.remove("hidden"); }
+    $("tourBtn2").onclick = openTour;
     $("tourClose").onclick = () => { $("tourFrame").src = "about:blank"; $("tourModal").classList.add("hidden"); };
+    $("tourModal").onclick = e => { if (e.target === $("tourModal")) $("tourClose").click(); };
     $("mBtn").onclick = () => $("mMenu").classList.toggle("hidden");
     document.querySelectorAll("#mMenu a").forEach(a => a.onclick = () => $("mMenu").classList.add("hidden"));
   </script>
