@@ -5,6 +5,13 @@
 // TOKEN TIDAK BOLEH DI-HARDCODE
 // ============================================================
 
+/* Helper DOM global aman: dipasang sebagai properti window (bukan
+   deklarasi let/const) sehingga halaman yang punya `const $` sendiri
+   tetap boleh menimpanya tanpa SyntaxError. Semua modul admin yang
+   memakai $(id) dijamin berfungsi. */
+if (typeof window.$ !== "function") window.$ = function (id) { return document.getElementById(id); };
+if (typeof window.$$ !== "function") window.$$ = function (sel, root) { return Array.from((root || document).querySelectorAll(sel)); };
+
 function repoCfg() {
   const c = window.APP_CONFIG || {};
   let owner = (c.GITHUB_USERNAME || "").trim();
@@ -183,7 +190,7 @@ document.addEventListener("DOMContentLoaded", refreshIcons);
     put(desk, 'a[href="#program"]', "tuition.html", "Tuition Fee", dCls);
     put(desk, 'a[href="#akademik"]', "kalender.html", "Kalender", dCls);
     const mob = document.getElementById("mMenu");
-    put(mob, 'a[href="#program"]', "tuition.html", "Tuition Fee", mCls);
+    put(mob, 'a[href="#program"]", '.replace('", ', ''), "tuition.html", "Tuition Fee", mCls);
     put(mob, 'a[href="#akademik"]', "kalender.html", "Kalender Akademik", mCls);
     document.querySelectorAll("footer ul").forEach(ul => {
       if (!ul.querySelector('a[href="ppdb.html"]')) return;
@@ -197,7 +204,7 @@ document.addEventListener("DOMContentLoaded", refreshIcons);
     });
     const ak = document.getElementById("akademik");
     if (ak && !ak.querySelector('a[href="kalender.html"]')) {
-      const head = ak.querySelector("a[href='belajar.html']");
+      const head = ak.querySelector('a[href="belajar.html"]');
       if (head) {
         const a = mk("kalender.html", "Kalender Penuh", "inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2 rounded-xl bg-brand-600 text-white hover:bg-brand-700 ml-2");
         head.insertAdjacentElement("afterend", a);
