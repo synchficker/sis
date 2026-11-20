@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwpda4sd29301",
+    "waktu": "2026-11-20T19:23:27.037Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE FORM LOGIN",
+    "detail": "zamrud · split · sesi 120m"
+  },
+  {
     "id": "mwpd7w579y1qk",
     "waktu": "2026-11-20T19:21:42.523Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Konten Website",
     "aksi": "PUBLIKASI",
     "detail": "Tagihan SPP Februari"
-  },
-  {
-    "id": "AU0494",
-    "waktu": "2026-11-15T23:49:17.553Z",
-    "aktor": "admin",
-    "modul": "Sistem",
-    "aksi": "HAPUS",
-    "detail": "Pegawai Naufal Kusuma (G0494)"
   }
 ]
