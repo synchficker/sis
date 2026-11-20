@@ -3,14 +3,14 @@
 // Mengendalikan galeri Bento bertahap pada index.html:
 // jumlah kartu awal, tambahan per klik "Lihat", batas maksimum,
 // tata letak, gaya, filter, urutan, serta tombol Lihat/Jeda/Ringkas.
-// Panel kontrol permanen + pratinjau langsung yang benar-benar
-// berpaginasi seperti halaman publik.
+// Mandiri: memiliki helper DOM sendiri, tidak bergantung global $.
 // ============================================================
 (() => {
 "use strict";
 
-/* helper DOM lokal — tidak bergantung pada global mana pun */
-const $ = id => document.getElementById(id);
+const el = id => document.getElementById(id);
+const INP = (typeof inp !== "undefined") ? inp : 'class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:ring-2 focus:ring-emerald-500 outline-none"';
+const head = m => (typeof pageHead !== "undefined") ? pageHead(m) : '<div class="mb-5"><h1 class="text-xl md:text-2xl font-extrabold text-slate-800">' + esc(m.title) + '</h1><p class="text-sm text-slate-500 mt-1">' + esc(m.desc || "") + "</p></div>";
 
 const GL_DEF = {
   aktif: true,
@@ -24,39 +24,34 @@ const GL_DEF = {
   autoMuat: false, animasi: true,
   tampilInfo: true, tampilTanggal: true, tampilKategori: true, tampilRingkasan: true, lightbox: true
 };
-
 const GL_PKEY = "gl_presets";
 const GL_HOVER = [["zoom", "Zoom foto"], ["bright", "Terang & saturasi"], ["lift", "Angkat kartu"], ["none", "Tanpa efek"]];
 const GL_URUT = [["urutan", "Urutan manual (urutan)"], ["terbaru", "Tanggal terbaru"], ["terlama", "Tanggal terlama"], ["judul", "Judul A–Z"]];
 const BP = 'class="inline-flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold px-4 py-2 rounded-lg"';
 const BS = 'class="inline-flex items-center justify-center gap-1.5 border border-slate-300 hover:bg-slate-50 text-sm font-bold px-4 py-2 rounded-lg"';
-
-let GL = { ...GL_DEF }, GL_DATA = [], glShown = 0, glCat = "Semua", glAuto = false;
-let glUndoT = null, glResizeBound = false, glAnimRaf = 0;
-
-const glPresets = () => { try { return JSON.parse(localStorage.getItem(GL_PKEY)) || []; } catch (e) { return []; } };
-const glSetPresets = v => localStorage.setItem(GL_PKEY, JSON.stringify(v));
-
+const GL_QUICK = [
+  ["9 kartu · bento 4 kolom", { awal: 9, batch: 9, kolom: 4, mode: "bento", tinggiBaris: 190, gap: 16 }],
+  ["12 kartu · bento 4 kolom", { awal: 12, batch: 12, kolom: 4, mode: "bento", tinggiBaris: 190, gap: 16 }],
+  ["16 kartu · grid 4 kolom", { awal: 16, batch: 16, kolom: 4, mode: "grid", tinggiBaris: 180, gap: 14 }],
+  ["Ringkas 6 · majalah", { awal: 6, batch: 6, kolom: 3, mode: "bento", tinggiBaris: 220, gap: 18 }],
+  ["Padat 24 · mozaik", { awal: 24, batch: 24, kolom: 6, mode: "bento", tinggiBaris: 140, gap: 8 }]
+];
 const GL_CTRL = [
   { k: "aktif", t: "tog", l: "Tampilkan seksi galeri di beranda", icon: "eye", grp: "Umum" },
-
   { k: "awal", t: "range", l: "Kartu saat pertama dibuka", min: 3, max: 24, step: 1, icon: "layout-grid", grp: "Paginasi", fmt: v => v + " kartu" },
   { k: "batch", t: "range", l: "Tambahan per klik Lihat", min: 3, max: 24, step: 1, icon: "plus", grp: "Paginasi", fmt: v => "+" + v + " kartu" },
   { k: "maks", t: "range", l: "Batas maksimum ditampilkan", min: 0, max: 1000, step: 10, icon: "gauge", grp: "Paginasi", fmt: v => v === 0 ? "tanpa batas" : v + " kartu" },
   { k: "tombolLabel", t: "txt", l: "Label tombol muat", icon: "type", grp: "Paginasi" },
   { k: "tombolSisa", t: "tog", l: "Sertakan jumlah sisa di tombol", icon: "hash", grp: "Paginasi" },
   { k: "autoMuat", t: "tog", l: "Muat otomatis saat digulir", icon: "play", grp: "Paginasi" },
-
   { k: "mode", t: "sel", l: "Gaya tata letak", opts: [["bento", "Bento (kartu bervariasi)"], ["grid", "Grid seragam"]], icon: "layout-template", grp: "Tata Letak" },
   { k: "kolom", t: "range", l: "Kolom (layar besar)", min: 2, max: 6, step: 1, icon: "grid-2x2", grp: "Tata Letak", fmt: v => v + " kolom" },
   { k: "tinggiBaris", t: "range", l: "Tinggi baris", min: 120, max: 280, step: 5, icon: "move-vertical", grp: "Tata Letak", fmt: v => v + " px" },
   { k: "gap", t: "range", l: "Jarak antar kartu", min: 4, max: 32, step: 2, icon: "move-horizontal", grp: "Tata Letak", fmt: v => v + " px" },
   { k: "radius", t: "range", l: "Lengkung sudut", min: 0, max: 40, step: 2, icon: "square", grp: "Tata Letak", fmt: v => v + " px" },
-
   { k: "overlay", t: "range", l: "Kegelapan overlay", min: 30, max: 95, step: 1, icon: "contrast", grp: "Gaya", fmt: v => v + "%" },
   { k: "efekHover", t: "sel", l: "Efek saat kursor di atas", opts: GL_HOVER, icon: "mouse-pointer-2", grp: "Gaya" },
   { k: "animasi", t: "tog", l: "Animasi muncul bertahap", icon: "sparkles", grp: "Gaya" },
-
   { k: "urut", t: "sel", l: "Urutan tampilan", opts: GL_URUT, icon: "arrow-down-up", grp: "Konten" },
   { k: "hanyaUnggulan", t: "tog", l: "Hanya kegiatan unggulan", icon: "star", grp: "Konten" },
   { k: "filter", t: "tog", l: "Tampilkan filter kategori", icon: "filter", grp: "Konten" },
@@ -68,17 +63,14 @@ const GL_CTRL = [
   { k: "lightbox", t: "tog", l: "Kartu dapat diklik (detail)", icon: "maximize-2", grp: "Konten" }
 ];
 
-const GL_QUICK = [
-  ["9 kartu · bento 4 kolom", { awal: 9, batch: 9, kolom: 4, mode: "bento", tinggiBaris: 190, gap: 16 }],
-  ["12 kartu · bento 4 kolom", { awal: 12, batch: 12, kolom: 4, mode: "bento", tinggiBaris: 190, gap: 16 }],
-  ["16 kartu · grid 4 kolom", { awal: 16, batch: 16, kolom: 4, mode: "grid", tinggiBaris: 180, gap: 14 }],
-  ["Ringkas 6 · majalah", { awal: 6, batch: 6, kolom: 3, mode: "bento", tinggiBaris: 220, gap: 18 }],
-  ["Padat 24 · mozaik", { awal: 24, batch: 24, kolom: 6, mode: "bento", tinggiBaris: 140, gap: 8 }]
-];
+let GL = { ...GL_DEF }, GL_DATA = [], glShown = 0, glCat = "Semua", glAuto = false;
+let glUndoT = null, glResizeBound = false, glAnimRaf = 0;
 
-/* ---------- gaya pratinjau (disuntik sekali) ---------- */
+const glPresets = () => { try { return JSON.parse(localStorage.getItem(GL_PKEY)) || []; } catch (e) { return []; } };
+const glSetPresets = v => localStorage.setItem(GL_PKEY, JSON.stringify(v));
+
 function glStyle() {
-  if ($("glStyleTag")) return;
+  if (el("glStyleTag")) return;
   const s = document.createElement("style");
   s.id = "glStyleTag";
   s.textContent =
@@ -94,7 +86,6 @@ function glStyle() {
   document.head.appendChild(s);
 }
 
-/* ---------- data ---------- */
 function glSpan(i) {
   if (GL.mode !== "bento") return "";
   const c = GL.kolom, j = i % 9;
@@ -118,8 +109,7 @@ const glCap = () => { const n = glFiltered().length; return GL.maks > 0 ? Math.m
 function glCard(k, i) {
   const big = i % 9 === 0, ov = Math.max(20, Math.min(95, GL.overlay)) / 100;
   const tag = GL.lightbox ? "button" : "div";
-  const anim = GL.animasi ? " an" : "";
-  return "<" + tag + (GL.lightbox ? ' type="button"' : "") + ' data-hv="' + esc(GL.efekHover) + '" data-an="' + (i % 9) + '" class="glc group ring-1 ring-slate-900/10' + anim + " " + glSpan(i) + '" style="border-radius:' + GL.radius + 'px">' +
+  return "<" + tag + (GL.lightbox ? ' type="button"' : "") + ' data-hv="' + esc(GL.efekHover) + '" data-an="' + (i % 9) + '" class="glc group ring-1 ring-slate-900/10' + (GL.animasi ? " an" : "") + " " + glSpan(i) + '" style="border-radius:' + GL.radius + 'px">' +
     '<div class="w-full h-full" style="background:linear-gradient(135deg,#16a34a,#0d9488)"><img src="' + esc(k.foto || "") + '" loading="lazy" class="w-full h-full object-cover" onerror="this.style.display=\'none\'" alt=""></div>' +
     '<div class="absolute inset-0" style="background:linear-gradient(to top, rgba(2,6,23,' + ov + '), rgba(2,6,23,' + (ov * .42).toFixed(2) + ') 55%, rgba(2,6,23,' + (ov * .08).toFixed(2) + '))"></div>' +
     (GL.tampilKategori ? '<div class="absolute top-2 left-2 flex flex-wrap gap-1"><span class="px-2 py-0.5 rounded-full bg-white/90 text-emerald-800 text-[9px] font-bold uppercase">' + esc(k.kategori || "Kegiatan") + "</span>" + (k.unggulan ? '<span class="px-2 py-0.5 rounded-full bg-amber-400 text-amber-950 text-[9px] font-bold">★</span>' : "") + "</div>" : "") +
@@ -132,28 +122,24 @@ function glCard(k, i) {
     "</" + tag + ">";
 }
 
-/* ---------- pratinjau berpaginasi ---------- */
 function glPreviewCols() {
-  const grid = $("glGrid"); if (!grid) return;
+  const grid = el("glGrid"); if (!grid) return;
   const wide = grid.clientWidth >= 620;
   grid.style.gridTemplateColumns = "repeat(" + (wide ? GL.kolom : 2) + ",minmax(0,1fr))";
   grid.style.gridAutoRows = (wide ? GL.tinggiBaris : Math.round(GL.tinggiBaris * .62)) + "px";
 }
 function glAnimate() {
-  const grid = $("glGrid"); if (!grid) return;
+  const grid = el("glGrid"); if (!grid) return;
   const pending = grid.querySelectorAll(".glc.an:not(.in)");
   if (!GL.animasi) { pending.forEach(c => c.classList.remove("an")); return; }
   if (glAnimRaf) cancelAnimationFrame(glAnimRaf);
   glAnimRaf = requestAnimationFrame(() => {
-    pending.forEach(c => {
-      c.style.transitionDelay = (Number(c.dataset.an || 0) * 45) + "ms";
-      c.classList.add("in");
-    });
+    pending.forEach(c => { c.style.transitionDelay = (Number(c.dataset.an || 0) * 45) + "ms"; c.classList.add("in"); });
     glAnimRaf = 0;
   });
 }
 function glPaintPreview(reset) {
-  const grid = $("glGrid"); if (!grid) return;
+  const grid = el("glGrid"); if (!grid) return;
   grid.style.gap = GL.gap + "px";
   grid.style.gridAutoFlow = "dense";
   const list = glFiltered(), cap = glCap();
@@ -168,24 +154,24 @@ function glPaintPreview(reset) {
     }
   }
   const left = Math.max(0, cap - glShown), pct = cap ? Math.round(glShown / cap * 100) : 100;
-  const set = (id, txt) => { const e = $(id); if (e) e.textContent = txt; };
+  const set = (id, txt) => { const e = el(id); if (e) e.textContent = txt; };
   set("glProgTxt", glShown + " / " + cap + " kartu");
   set("glPct", pct + "%");
-  const bar = $("glBar"); if (bar) bar.style.width = pct + "%";
-  const more = $("glMore");
+  const bar = el("glBar"); if (bar) bar.style.width = pct + "%";
+  const more = el("glMore");
   if (more) {
     if (left > 0) { more.classList.remove("hidden"); const sp = more.querySelector("span"); if (sp) sp.textContent = (GL.tombolLabel || "Lihat") + (GL.tombolSisa ? " " + Math.min(GL.batch, left) + " lagi" : ""); }
     else more.classList.add("hidden");
   }
-  const col = $("glCollapse"); if (col) col.classList.toggle("hidden", glShown <= Math.min(GL.awal, cap));
-  const done = $("glDone"); if (done) done.classList.toggle("hidden", left !== 0 || !cap);
-  const ab = $("glAutoBtn"); if (ab) ab.classList.toggle("hidden", left === 0);
+  const col = el("glCollapse"); if (col) col.classList.toggle("hidden", glShown <= Math.min(GL.awal, cap));
+  const done = el("glDone"); if (done) done.classList.toggle("hidden", left !== 0 || !cap);
+  const ab = el("glAutoBtn"); if (ab) ab.classList.toggle("hidden", left === 0);
   set("glMeta", list.length + " cocok · " + (cap ? Math.ceil(cap / Math.max(1, GL.batch)) : 0) + " batch · " + glShown + " kartu di DOM");
-  const badge = $("glPvCount"); if (badge) badge.textContent = list.length + " kegiatan";
+  set("glPvCount", list.length + " kegiatan");
   glPreviewCols(); glAnimate(); refreshIcons();
 }
 function glCats() {
-  const host = $("glCats"); if (!host) return;
+  const host = el("glCats"); if (!host) return;
   if (!GL.filter) { host.innerHTML = ""; host.classList.add("hidden"); return; }
   host.classList.remove("hidden");
   const all = glSorted();
@@ -200,11 +186,10 @@ function glCats() {
   host.querySelectorAll("[data-gc]").forEach(b => b.onclick = () => { glCat = b.dataset.gc; glCats(); glPaintPreview(true); });
 }
 function glAutoCheck() {
-  const sc = $("glScroll"); if (!sc || !glAuto) return;
+  const sc = el("glScroll"); if (!sc || !glAuto) return;
   if (sc.scrollTop + sc.clientHeight >= sc.scrollHeight - 120) glPaintPreview(false);
 }
 
-/* ---------- render modul ---------- */
 async function renderGaleri() {
   glStyle();
   try { GL = { ...GL_DEF, ...(await fetchJSON("galeri.json")) }; } catch (e) { GL = { ...GL_DEF }; }
@@ -229,23 +214,22 @@ function glRender() {
       items.map(c => {
         const v = GL[c.k];
         if (c.t === "tog") return '<label class="flex items-center justify-between gap-3 px-3 py-2.5 rounded-xl border border-slate-200 bg-white cursor-pointer hover:border-emerald-400 mb-2"><span class="flex items-center gap-2 text-[11px] font-bold text-slate-600"><i data-lucide="' + c.icon + '" class="w-3.5 h-3.5 text-slate-400"></i>' + c.l + '</span><input id="gl_' + c.k + '" type="checkbox" ' + (v ? "checked" : "") + ' class="w-5 h-5 accent-emerald-600 shrink-0"></label>';
-        const head = '<div class="flex items-center justify-between gap-2 mb-1"><span class="flex items-center gap-1.5 text-[11px] font-bold text-slate-600"><i data-lucide="' + c.icon + '" class="w-3.5 h-3.5 text-slate-400"></i>' + c.l + "</span>" + (c.t === "range" ? '<span id="glv_' + c.k + '" class="text-[11px] font-mono font-bold text-emerald-700">' + (c.fmt ? c.fmt(v) : v) + "</span>" : "") + "</div>";
-        if (c.t === "range") return '<div class="mb-3">' + head + '<input id="gl_' + c.k + '" type="range" min="' + c.min + '" max="' + c.max + '" step="' + (c.step || 1) + '" value="' + v + '" class="w-full accent-emerald-600"></div>';
-        if (c.t === "sel") return '<div class="mb-3">' + head + '<select id="gl_' + c.k + '" ' + inp + ">" + c.opts.map(o => '<option value="' + o[0] + '" ' + (String(v) === String(o[0]) ? "selected" : "") + ">" + o[1] + "</option>").join("") + "</select></div>";
-        return '<div class="mb-3">' + head + '<input id="gl_' + c.k + '" value="' + esc(v) + '" ' + inp + "></div>";
+        const hd = '<div class="flex items-center justify-between gap-2 mb-1"><span class="flex items-center gap-1.5 text-[11px] font-bold text-slate-600"><i data-lucide="' + c.icon + '" class="w-3.5 h-3.5 text-slate-400"></i>' + c.l + "</span>" + (c.t === "range" ? '<span id="glv_' + c.k + '" class="text-[11px] font-mono font-bold text-emerald-700">' + (c.fmt ? c.fmt(v) : v) + "</span>" : "") + "</div>";
+        if (c.t === "range") return '<div class="mb-3">' + hd + '<input id="gl_' + c.k + '" type="range" min="' + c.min + '" max="' + c.max + '" step="' + (c.step || 1) + '" value="' + v + '" class="w-full accent-emerald-600"></div>';
+        if (c.t === "sel") return '<div class="mb-3">' + hd + '<select id="gl_' + c.k + '" ' + INP + ">" + c.opts.map(o => '<option value="' + o[0] + '" ' + (String(v) === String(o[0]) ? "selected" : "") + ">" + o[1] + "</option>").join("") + "</select></div>";
+        return '<div class="mb-3">' + hd + '<input id="gl_' + c.k + '" value="' + esc(v) + '" ' + INP + "></div>";
       }).join("") + "</div>";
   }).join("");
 
-  app.innerHTML = pageHead({ title: "Pengaturan Galeri", desc: "Kendalikan galeri Bento pada beranda: jumlah kartu awal, tambahan tiap klik “Lihat”, batas maksimum, tata letak, dan gaya. Tersimpan di data/galeri.json beserta audit log." }) +
+  app.innerHTML = head({ title: "Pengaturan Galeri", desc: "Kendalikan galeri Bento pada beranda: jumlah kartu awal, tambahan tiap klik “Lihat”, batas maksimum, tata letak, dan gaya. Tersimpan di data/galeri.json beserta audit log." }) +
     '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">' + st("Total Kegiatan", total, "slate", "images") + st("Tampil", tampil, "emerald", "eye") + st("Unggulan", ung, "amber", "star") + st("Kategori", cats.length, "violet", "tags") + "</div>" +
     (!GL.aktif ? '<div class="mb-4 text-xs bg-amber-50 border border-amber-200 text-amber-800 rounded-xl px-4 py-3 flex gap-2"><i data-lucide="eye-off" class="w-4 h-4 shrink-0 mt-0.5"></i><span>Seksi galeri sedang <b>disembunyikan</b> dari beranda. Aktifkan pada grup Umum agar tampil kembali.</span></div>' : "") +
     '<div class="grid lg:grid-cols-[340px_minmax(0,1fr)] gap-4 items-start">' +
-
       '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden lg:sticky lg:top-[76px]">' +
         '<div class="px-4 py-3 border-b border-slate-100 flex items-center gap-2"><i data-lucide="sliders-horizontal" class="w-4 h-4 text-emerald-600"></i><b class="text-sm flex-1">Panel Kontrol Galeri</b><span class="text-[10px] font-bold text-emerald-600">LIVE</span></div>' +
         '<div class="p-4 max-h-[calc(100vh-250px)] overflow-y-auto">' +
-          '<label class="block mb-3"><span class="text-[11px] font-bold text-slate-600">Judul seksi</span><input id="gl_judul" value="' + esc(GL.judul) + '" ' + inp + "></label>" +
-          '<label class="block mb-3"><span class="text-[11px] font-bold text-slate-600">Subjudul</span><textarea id="gl_subjudul" rows="3" ' + inp + ">" + esc(GL.subjudul) + "</textarea></label>" +
+          '<label class="block mb-3"><span class="text-[11px] font-bold text-slate-600">Judul seksi</span><input id="gl_judul" value="' + esc(GL.judul) + '" ' + INP + "></label>" +
+          '<label class="block mb-3"><span class="text-[11px] font-bold text-slate-600">Subjudul</span><textarea id="gl_subjudul" rows="3" ' + INP + ">" + esc(GL.subjudul) + "</textarea></label>" +
           ctrlHTML +
         "</div>" +
         '<div class="p-3 border-t border-slate-100 grid grid-cols-2 gap-2">' +
@@ -256,92 +240,70 @@ function glRender() {
           '<a href="#/kegiatan" ' + BS + '><i data-lucide="pencil" class="w-4 h-4"></i>Isi Kegiatan</a>' +
         "</div>" +
       "</div>" +
-
       '<div class="space-y-4 min-w-0">' +
         '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">' +
-          '<div class="px-4 py-3 border-b border-slate-100 flex flex-wrap items-center gap-2">' +
-            '<i data-lucide="monitor-play" class="w-4 h-4 text-emerald-600"></i><b class="text-sm">Pratinjau Beranda</b>' +
-            '<span id="glMeta" class="text-[11px] text-slate-500 font-mono"></span>' +
-            '<div class="flex-1"></div>' +
-            '<a href="index.html#kegiatan" target="_blank" class="text-[11px] font-bold text-emerald-700 inline-flex items-center gap-1">Buka beranda<i data-lucide="external-link" class="w-3.5 h-3.5"></i></a>' +
-          "</div>" +
+          '<div class="px-4 py-3 border-b border-slate-100 flex flex-wrap items-center gap-2"><i data-lucide="monitor-play" class="w-4 h-4 text-emerald-600"></i><b class="text-sm">Pratinjau Beranda</b><span id="glMeta" class="text-[11px] text-slate-500 font-mono"></span><div class="flex-1"></div><a href="index.html#kegiatan" target="_blank" class="text-[11px] font-bold text-emerald-700 inline-flex items-center gap-1">Buka beranda<i data-lucide="external-link" class="w-3.5 h-3.5"></i></a></div>' +
           '<div class="p-4 bg-gradient-to-b from-emerald-50/70 via-white to-emerald-50/40">' +
-            '<div class="flex flex-wrap items-end justify-between gap-3 mb-3">' +
-              '<div class="min-w-0"><div class="text-[10px] font-bold uppercase tracking-wider text-emerald-600">School Activities</div><b id="glPvJudul" class="font-extrabold text-lg text-slate-800 block">' + esc(GL.judul) + "</b></div>" +
-              '<span id="glPvCount" class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-[11px] font-bold"></span>' +
-            "</div>" +
+            '<div class="flex flex-wrap items-end justify-between gap-3 mb-3"><div class="min-w-0"><div class="text-[10px] font-bold uppercase tracking-wider text-emerald-600">School Activities</div><b id="glPvJudul" class="font-extrabold text-lg text-slate-800 block">' + esc(GL.judul) + '</b></div><span id="glPvCount" class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-[11px] font-bold"></span></div>' +
             '<div id="glCats" class="flex flex-wrap gap-1.5 mb-3"></div>' +
             '<div id="glScroll" class="max-h-[560px] overflow-y-auto pr-1"><div id="glGrid" class="grid"></div></div>' +
-            '<div class="mt-4 bg-white/85 rounded-2xl border border-emerald-200 p-3">' +
-              '<div class="flex flex-wrap items-center gap-3">' +
-                '<div class="min-w-[150px] flex-1"><div class="flex justify-between text-[11px] font-bold text-slate-500"><span id="glProgTxt">0 / 0</span><span id="glPct" class="text-emerald-700 font-mono">0%</span></div><div class="mt-1.5 h-2 rounded-full bg-emerald-100 overflow-hidden"><div id="glBar" class="h-full w-0 rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 transition-[width] duration-500"></div></div></div>' +
-                '<button type="button" id="glMore" ' + BP + '><i data-lucide="layout-grid" class="w-4 h-4"></i><span>Lihat</span></button>' +
-                '<button type="button" id="glAutoBtn" ' + BS + '><i data-lucide="' + (glAuto ? "pause" : "play") + '" class="w-4 h-4"></i><span>' + (glAuto ? "Jeda" : "Muat otomatis") + "</span></button>" +
-                '<button type="button" id="glCollapse" ' + BS + ' class="hidden"><i data-lucide="chevrons-up" class="w-4 h-4"></i>Ringkas</button>' +
-              "</div>" +
-              '<p id="glDone" class="hidden mt-2 text-[11px] font-bold text-emerald-700">Seluruh kegiatan pada kategori ini telah ditampilkan.</p>' +
-            "</div>" +
+            '<div class="mt-4 bg-white/85 rounded-2xl border border-emerald-200 p-3"><div class="flex flex-wrap items-center gap-3">' +
+              '<div class="min-w-[150px] flex-1"><div class="flex justify-between text-[11px] font-bold text-slate-500"><span id="glProgTxt">0 / 0</span><span id="glPct" class="text-emerald-700 font-mono">0%</span></div><div class="mt-1.5 h-2 rounded-full bg-emerald-100 overflow-hidden"><div id="glBar" class="h-full w-0 rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 transition-[width] duration-500"></div></div></div>' +
+              '<button type="button" id="glMore" ' + BP + '><i data-lucide="layout-grid" class="w-4 h-4"></i><span>Lihat</span></button>' +
+              '<button type="button" id="glAutoBtn" ' + BS + '><i data-lucide="' + (glAuto ? "pause" : "play") + '" class="w-4 h-4"></i><span>' + (glAuto ? "Jeda" : "Muat otomatis") + "</span></button>" +
+              '<button type="button" id="glCollapse" ' + BS + '><i data-lucide="chevrons-up" class="w-4 h-4"></i>Ringkas</button>' +
+            '</div><p id="glDone" class="hidden mt-2 text-[11px] font-bold text-emerald-700">Seluruh kegiatan pada kategori ini telah ditampilkan.</p></div>' +
           "</div>" +
         "</div>" +
-
         '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">' +
           '<div class="px-4 py-3 border-b border-slate-100 flex items-center gap-2"><i data-lucide="bookmark" class="w-4 h-4 text-amber-500"></i><b class="text-sm flex-1">Preset Galeri</b><button type="button" id="glPresetSave" class="text-[11px] font-bold px-2 py-1 rounded-lg border border-slate-200 hover:border-amber-400">+ Simpan preset</button></div>' +
           '<div id="glPresets" class="p-3 flex flex-wrap gap-2"></div>' +
-          '<div class="px-4 pb-4 flex flex-wrap gap-2">' +
-            GL_QUICK.map((p, i) => '<button type="button" data-gp="' + i + '" class="px-3 py-1.5 rounded-full border border-slate-200 text-[11px] font-bold text-slate-600 hover:border-emerald-400 hover:text-emerald-700">' + p[0] + "</button>").join("") +
-          "</div>" +
+          '<div class="px-4 pb-4 flex flex-wrap gap-2">' + GL_QUICK.map((p, i) => '<button type="button" data-gp="' + i + '" class="px-3 py-1.5 rounded-full border border-slate-200 text-[11px] font-bold text-slate-600 hover:border-emerald-400 hover:text-emerald-700">' + p[0] + "</button>").join("") + "</div>" +
         "</div>" +
       "</div>" +
     "</div>";
   refreshIcons();
-  glWire();
-  glCats();
-  glPaintPreview(true);
-  glRenderPresets();
+  glWire(); glCats(); glPaintPreview(true); glRenderPresets();
 }
 
-/* ---------- interaksi ---------- */
 function glWire() {
   const live = () => {
     GL_CTRL.forEach(c => {
-      const el = $("gl_" + c.k); if (!el) return;
-      GL[c.k] = c.t === "tog" ? el.checked : c.t === "range" ? +el.value : el.value;
-      const lb = $("glv_" + c.k); if (lb) lb.textContent = c.fmt ? c.fmt(GL[c.k]) : GL[c.k];
+      const e = el("gl_" + c.k); if (!e) return;
+      GL[c.k] = c.t === "tog" ? e.checked : c.t === "range" ? +e.value : e.value;
+      const lb = el("glv_" + c.k); if (lb) lb.textContent = c.fmt ? c.fmt(GL[c.k]) : GL[c.k];
     });
-    const j = $("gl_judul"), s = $("gl_subjudul");
+    const j = el("gl_judul"), s = el("gl_subjudul");
     if (j) GL.judul = j.value;
     if (s) GL.subjudul = s.value;
-    const pj = $("glPvJudul"); if (pj) pj.textContent = GL.judul || GL_DEF.judul;
+    const pj = el("glPvJudul"); if (pj) pj.textContent = GL.judul || GL_DEF.judul;
     glCats(); glPaintPreview(true);
   };
-  GL_CTRL.forEach(c => { const el = $("gl_" + c.k); if (el) { el.oninput = live; el.onchange = live; } });
-  const j = $("gl_judul"), s = $("gl_subjudul");
+  GL_CTRL.forEach(c => { const e = el("gl_" + c.k); if (e) { e.oninput = live; e.onchange = live; } });
+  const j = el("gl_judul"), s = el("gl_subjudul");
   if (j) j.oninput = live;
   if (s) s.oninput = live;
 
-  const more = $("glMore"); if (more) more.onclick = () => glPaintPreview(false);
-  const col = $("glCollapse");
-  if (col) col.onclick = () => { glPaintPreview(true); const sc = $("glScroll"); if (sc) sc.scrollTo({ top: 0, behavior: "smooth" }); };
-  const ab = $("glAutoBtn");
+  const more = el("glMore"); if (more) more.onclick = () => glPaintPreview(false);
+  const col = el("glCollapse"); if (col) col.onclick = () => { glPaintPreview(true); const sc = el("glScroll"); if (sc) sc.scrollTo({ top: 0, behavior: "smooth" }); };
+  const ab = el("glAutoBtn");
   if (ab) ab.onclick = () => {
     glAuto = !glAuto;
     ab.innerHTML = '<i data-lucide="' + (glAuto ? "pause" : "play") + '" class="w-4 h-4"></i><span>' + (glAuto ? "Jeda" : "Muat otomatis") + "</span>";
-    refreshIcons();
-    if (glAuto) glAutoCheck();
+    refreshIcons(); if (glAuto) glAutoCheck();
   };
-  const sc = $("glScroll"); if (sc) sc.onscroll = () => { if (glAuto) glAutoCheck(); };
+  const sc = el("glScroll"); if (sc) sc.onscroll = () => { if (glAuto) glAutoCheck(); };
   if (!glResizeBound) { window.addEventListener("resize", glPreviewCols); glResizeBound = true; }
 
-  const save = $("glSave");
+  const save = el("glSave");
   if (save) save.onclick = async () => {
     const snap = { ...GL };
     const ok = await saveData("galeri.json", GL, "Konten Website", "UPDATE PENGATURAN GALERI", GL.awal + " awal · +" + GL.batch + "/klik · " + GL.mode + " " + GL.kolom + " kolom");
     if (ok) toast("Pengaturan galeri tersimpan & langsung dipakai beranda.", "success");
     else { GL = snap; glRender(); }
   };
-  const rs = $("glReset");
-  if (rs) rs.onclick = () => { const prev = { ...GL }; GL = { ...GL_DEF }; glRender(); glUndo("Pengaturan dikembalikan ke default", () => { GL = prev; glRender(); }); };
-  const rd = $("glRandom");
+  const rs = el("glReset"); if (rs) rs.onclick = () => { const prev = { ...GL }; GL = { ...GL_DEF }; glRender(); glUndo("Pengaturan dikembalikan ke default", () => { GL = prev; glRender(); }); };
+  const rd = el("glRandom");
   if (rd) rd.onclick = () => {
     const prev = { ...GL };
     GL.mode = Math.random() < .7 ? "bento" : "grid";
@@ -354,8 +316,8 @@ function glWire() {
     GL.efekHover = GL_HOVER[Math.floor(Math.random() * GL_HOVER.length)][0];
     glRender(); glUndo("Tampilan galeri diacak", () => { GL = prev; glRender(); });
   };
-  const ex = $("glExport"); if (ex) ex.onclick = () => download("galeri.json", JSON.stringify(GL, null, 2));
-  const ps = $("glPresetSave");
+  const ex = el("glExport"); if (ex) ex.onclick = () => download("galeri.json", JSON.stringify(GL, null, 2));
+  const ps = el("glPresetSave");
   if (ps) ps.onclick = () => {
     const n = prompt("Nama preset galeri:", "Galeri " + GL.awal + " · " + GL.mode + " " + GL.kolom + " kolom");
     if (!n) return;
@@ -365,13 +327,12 @@ function glWire() {
   app.querySelectorAll("[data-gp]").forEach(b => b.onclick = () => {
     const prev = { ...GL };
     GL = { ...GL, ...GL_QUICK[+b.dataset.gp][1] };
-    glRender();
-    glUndo("Preset cepat diterapkan", () => { GL = prev; glRender(); });
+    glRender(); glUndo("Preset cepat diterapkan", () => { GL = prev; glRender(); });
   });
 }
 
 function glRenderPresets() {
-  const host = $("glPresets"); if (!host) return;
+  const host = el("glPresets"); if (!host) return;
   const p = glPresets();
   host.innerHTML = p.length ? p.map((x, i) =>
     '<span class="inline-flex items-center gap-1 pl-3 pr-1 py-1.5 rounded-full bg-slate-100 border border-slate-200"><button type="button" data-glp="' + i + '" class="text-[11px] font-bold text-slate-600 hover:text-emerald-700">' + esc(x.name) + '</button><button type="button" data-gld="' + i + '" class="w-5 h-5 rounded-full hover:bg-rose-100 text-rose-500 flex items-center justify-center">×</button></span>').join("")
@@ -389,22 +350,23 @@ function glRenderPresets() {
 }
 
 function glUndo(label, restore) {
-  let bar = $("glUndoBar");
+  let bar = el("glUndoBar");
   if (!bar) { bar = document.createElement("div"); bar.id = "glUndoBar"; document.body.appendChild(bar); }
   bar.className = "fixed bottom-5 left-1/2 -translate-x-1/2 z-[95] bg-slate-900 text-white rounded-2xl shadow-2xl px-5 py-3 flex items-center gap-4 text-sm";
   bar.innerHTML = '<i data-lucide="undo-2" class="w-4 h-4 text-amber-400"></i><span>' + esc(label) + '</span><button type="button" id="glUndoBtn" class="px-3 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 font-bold text-slate-900">Urungkan</button>';
   refreshIcons();
-  const btn = $("glUndoBtn");
-  if (btn) btn.onclick = () => { restore(); const b = $("glUndoBar"); if (b) b.remove(); toast("Perubahan diurungkan.", "success"); };
+  const btn = el("glUndoBtn");
+  if (btn) btn.onclick = () => { restore(); const b = el("glUndoBar"); if (b) b.remove(); toast("Perubahan diurungkan.", "success"); };
   clearTimeout(glUndoT);
-  glUndoT = setTimeout(() => { const b = $("glUndoBar"); if (b) b.remove(); }, 9000);
+  glUndoT = setTimeout(() => { const b = el("glUndoBar"); if (b) b.remove(); }, 9000);
 }
 
-/* ---------- registrasi modul & navigasi ---------- */
-MOD.galeri = { title: "Pengaturan Galeri", desc: "Galeri Bento bertahap beranda", render: renderGaleri };
+if (typeof MOD !== "undefined") {
+  MOD.galeri = { title: "Pengaturan Galeri", desc: "Galeri Bento bertahap beranda", render: renderGaleri };
+}
 
 (function glNav() {
-  const nav = $("nav");
+  const nav = el("nav");
   if (!nav || nav.querySelector('[data-nav="galeri"]')) return;
   const anchor = nav.querySelector('[data-nav="kegiatan"]') || nav.querySelector('[data-nav="slider"]') || nav.querySelector('[data-nav="biaya"]');
   const html = '<a href="#/galeri" data-nav="galeri" class="navlink flex items-center gap-2.5 px-3 py-2 rounded-lg hover:bg-slate-800"><i data-lucide="layout-grid" class="w-4 h-4"></i>Pengaturan Galeri</a>';
@@ -425,5 +387,5 @@ window.addEventListener("hashchange", () => {
   }
 });
 
-if (location.hash.replace("#/", "") === "galeri") route();
+if (location.hash.replace("#/", "") === "galeri" && typeof route === "function") route();
 })();
