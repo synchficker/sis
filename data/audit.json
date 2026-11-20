@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp3de155ks2s",
+    "waktu": "2026-11-20T14:46:02.825Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "DRAFT SLIDE",
+    "detail": "500 slide diperbarui"
+  },
+  {
     "id": "AU-SEED",
     "waktu": "2026-11-20T13:58:44.265Z",
     "aktor": "seeder",
@@ -3990,13 +3998,5 @@
     "modul": "Konten Website",
     "aksi": "URUTKAN",
     "detail": "Pegawai Vino Purnama (G0498)"
-  },
-  {
-    "id": "AU0499",
-    "waktu": "2026-11-15T09:58:41.553Z",
-    "aktor": "seeder",
-    "modul": "Sistem",
-    "aksi": "SCAN QR",
-    "detail": "Pegawai Eko Hidayat, S.Kom (G0499)"
   }
 ]
