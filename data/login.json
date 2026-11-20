@@ -71,7 +71,7 @@
   "avatar": true,
   "statistik": false,
   "segel": false,
-  "panel_aktif": false,
+  "panel_aktif": true,
   "panel_posisi": "kiri",
   "tata_letak": "split",
   "lebar_kartu": 460,
