@@ -10,6 +10,15 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  <style>
+    html{scrollbar-color:#16a34a #f1f5f9;scrollbar-width:thin}
+    ::-webkit-scrollbar{width:11px;height:11px}
+    ::-webkit-scrollbar-track{background:#f1f5f9}
+    ::-webkit-scrollbar-thumb{background:linear-gradient(#16a34a,#0f766e);border-radius:99px;border:2px solid #f1f5f9}
+    ::-webkit-scrollbar-thumb:hover{background:#15803d}
+    #sidebar::-webkit-scrollbar-track,#sidebar ::-webkit-scrollbar-track{background:#0f172a}
+    #sidebar ::-webkit-scrollbar-thumb{border-color:#0f172a}
+  </style>
 </head>
 <body class="font-sans bg-slate-100 text-slate-800">
   <div class="flex min-h-screen">
@@ -105,7 +114,6 @@
     </div>
   </div>
 
-  <!-- WAJIB: 5 file JS admin dimuat berurutan. Jangan hapus salah satu. -->
   <script src="config.js"></script>
   <script src="app.js"></script>
   <script src="admin.js"></script>
@@ -113,5 +121,6 @@
   <script src="admin-mods2.js"></script>
   <script src="admin-mods3.js"></script>
   <script src="admin-mods4.js"></script>
+  <script src="admin-kegiatan.js"></script>
 </body>
 </html>

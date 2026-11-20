@@ -4,20 +4,32 @@
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sistem Informasi Sekolah — Halaman Publik</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
-  <!-- Stack tetap: Tailwind CDN + Lucide CDN + VanillaJS, tanpa framework -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script>
     tailwind.config = { theme: { extend: {
       fontFamily: { sans: ["Inter","ui-sans-serif","system-ui"], display: ["Poppins","Inter","sans-serif"] },
-      colors: { brand: { 50:"#f0fdf4",100:"#dcfce7",500:"#22c55e",600:"#16a34a",700:"#15803d",800:"#166534",900:"#14532d" } }
+      colors: { brand: { 50:"#f0fdf4",100:"#dcfce7",200:"#bbf7d0",400:"#4ade80",500:"#22c55e",600:"#16a34a",700:"#15803d",800:"#166534",900:"#14532d" } }
     } } };
   </script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
+    html{scroll-padding-top:90px;scrollbar-color:#16a34a #f0fdf4;scrollbar-width:thin}
+    ::-webkit-scrollbar{width:11px;height:11px}
+    ::-webkit-scrollbar-track{background:#f0fdf4}
+    ::-webkit-scrollbar-thumb{background:linear-gradient(#16a34a,#0d9488);border-radius:99px;border:2px solid #f0fdf4}
+    ::-webkit-scrollbar-thumb:hover{background:#15803d}
     .blob{position:absolute;border-radius:9999px;filter:blur(60px);opacity:.35;pointer-events:none}
     .card-img{background:linear-gradient(135deg,#16a34a,#0d9488)}
-    html{scroll-padding-top:90px}
+    .bento{opacity:0;transform:translateY(20px) scale(.985);transition:opacity .65s cubic-bezier(.2,.7,.3,1),transform .65s cubic-bezier(.2,.7,.3,1),box-shadow .35s}
+    .bento.in{opacity:1;transform:none}
+    .bento img{transition:transform .9s cubic-bezier(.2,.7,.3,1),filter .5s}
+    .bento:hover img{transform:scale(1.09)}
+    .bento:hover{box-shadow:0 24px 50px -18px rgba(22,101,52,.55)}
+    .bento .excerpt{max-height:0;opacity:0;transition:max-height .45s ease,opacity .35s ease}
+    .bento:hover .excerpt,.bento:focus-visible .excerpt{max-height:6rem;opacity:1}
+    .kg-chip{transition:all .22s}
+    @media (prefers-reduced-motion:reduce){.bento{opacity:1;transform:none;transition:none}.bento img{transition:none}}
   </style>
 </head>
 <body class="font-sans bg-white text-slate-800 antialiased">
@@ -35,9 +47,9 @@
       <nav class="hidden lg:flex items-center gap-1 ml-6 text-sm font-semibold text-slate-600">
         <a href="#profil" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Profil</a>
         <a href="#program" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Program</a>
+        <a href="#kegiatan" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kegiatan</a>
         <a href="#akademik" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Akademik</a>
         <a href="#fasilitas" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Fasilitas</a>
-        <a href="#berita" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Berita</a>
         <a href="#kontak" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kontak</a>
       </nav>
       <div class="flex-1"></div>
@@ -48,13 +60,12 @@
       </div>
       <button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100" aria-label="Menu"><i data-lucide="menu" class="w-6 h-6"></i></button>
     </div>
-    <!-- Menu mobile -->
     <div id="mMenu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1 text-sm font-semibold">
       <a href="#profil" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Profil</a>
       <a href="#program" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Program</a>
+      <a href="#kegiatan" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kegiatan</a>
       <a href="#akademik" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Akademik</a>
       <a href="#fasilitas" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Fasilitas</a>
-      <a href="#berita" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Berita</a>
       <a href="#kontak" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kontak</a>
       <a href="belajar.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">E-Learning</a>
       <a href="cbt.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Ujian CBT</a>
@@ -108,7 +119,7 @@
     <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
   </section>
 
-  <!-- ===================== BERITA / WHAT'S GOING ON ===================== -->
+  <!-- ===================== BERITA ===================== -->
   <section id="berita" class="max-w-7xl mx-auto px-4 py-16">
     <div class="flex items-end justify-between gap-4 mb-8">
       <div>
@@ -120,7 +131,7 @@
     <div id="newsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
   </section>
 
-  <!-- ===================== PROFIL / ABOUT US ===================== -->
+  <!-- ===================== PROFIL ===================== -->
   <section id="profil" class="bg-brand-50/60 border-y border-brand-100">
     <div class="max-w-7xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12 items-center">
       <div class="relative">
@@ -155,7 +166,7 @@
     </div>
   </section>
 
-  <!-- ===================== PROGRAM / WHAT WE HAVE ===================== -->
+  <!-- ===================== PROGRAM ===================== -->
   <section id="program" class="max-w-7xl mx-auto px-4 py-16">
     <div class="text-center mb-10">
       <span class="text-xs font-bold uppercase tracking-wider text-brand-600">What We Have</span>
@@ -163,6 +174,33 @@
       <p class="text-slate-500 mt-2 max-w-2xl mx-auto">Jenjang pendidikan yang kami layani dalam satu ekosistem digital terpadu.</p>
     </div>
     <div id="programGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </section>
+
+  <!-- ===================== AKTIVITAS / KEGIATAN SEKOLAH (BENTO 9 CARD) ===================== -->
+  <section id="kegiatan" class="relative bg-gradient-to-b from-brand-50/70 via-white to-brand-50/40 border-y border-brand-100">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="flex flex-wrap items-end justify-between gap-4 mb-6">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-brand-600">School Activities</span>
+          <h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-800 mt-2">Aktivitas &amp; Kegiatan Sekolah</h2>
+          <p class="text-slate-500 mt-2 max-w-2xl">Dokumentasi kegiatan siswa sepanjang tahun ajaran — akademik, seni, olahraga, keagamaan, hingga kewirausahaan. Klik kartu untuk melihat detail kegiatan.</p>
+        </div>
+        <div class="flex items-center gap-2 text-sm">
+          <span id="kgCount" class="px-3 py-1.5 rounded-full bg-brand-600 text-white font-bold">0 kegiatan</span>
+          <a href="login.html" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-brand-200 text-brand-700 font-bold hover:bg-brand-100" title="Kelola di Panel Admin"><i data-lucide="settings" class="w-3.5 h-3.5"></i>Kelola</a>
+        </div>
+      </div>
+
+      <div id="kgFilters" class="flex flex-wrap gap-2 mb-6"></div>
+
+      <div id="kgGrid" class="grid grid-cols-2 lg:grid-cols-4 auto-rows-[150px] lg:auto-rows-[190px] gap-3 md:gap-4 grid-flow-dense">
+        <div class="col-span-2 lg:col-span-4 row-span-2 flex items-center justify-center text-slate-400 gap-3">
+          <div class="w-5 h-5 border-2 border-brand-500 border-t-transparent rounded-full animate-spin"></div>Memuat kegiatan…
+        </div>
+      </div>
+
+      <p class="text-xs text-slate-400 mt-5 flex items-center gap-1.5"><i data-lucide="info" class="w-3.5 h-3.5"></i>Konten ini dikelola melalui Panel Admin → Konten Website → Kegiatan Sekolah, tersimpan pada <code>data/kegiatan.json</code>.</p>
+    </div>
   </section>
 
   <!-- ===================== KALENDER AKADEMIK ===================== -->
@@ -176,37 +214,6 @@
         <a href="belajar.html" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-bold text-brand-700">Lihat E-Learning <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
       </div>
       <div id="agendaList" class="grid md:grid-cols-2 gap-4"></div>
-    </div>
-  </section>
-
-  <!-- ===================== DATA SISWA (FITUR PUBLIK TETAP DIPERTAHANKAN) ===================== -->
-  <section id="siswa" class="max-w-7xl mx-auto px-4 py-16">
-    <div class="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
-      <div class="p-6 border-b border-slate-100 flex flex-wrap items-center gap-3">
-        <div class="flex-1 min-w-[220px]">
-          <h2 class="font-display font-extrabold text-xl text-slate-800 flex items-center gap-2"><i data-lucide="users" class="w-5 h-5 text-brand-600"></i>Data Induk Siswa (Publik)</h2>
-          <p class="text-xs text-slate-500 mt-0.5">Terbuka tanpa login • sumber <code>data/siswa.json</code> • hanya kolom non-sensitif.</p>
-        </div>
-        <div class="relative">
-          <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-400"></i>
-          <input id="q" placeholder="Cari nama / NIS…" class="pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-lg w-48 focus:ring-2 focus:ring-brand-500 outline-none">
-        </div>
-        <select id="fKelas" class="py-2 px-3 text-sm border border-slate-300 rounded-lg"><option value="">Semua Kelas</option></select>
-      </div>
-      <div class="overflow-x-auto">
-        <table class="w-full text-left">
-          <thead class="bg-brand-50"><tr>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">NIS</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">NISN</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">Nama Lengkap</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">L/P</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">Kelas</th>
-            <th class="px-4 py-3 text-xs font-bold uppercase text-brand-800">Status</th>
-          </tr></thead>
-          <tbody id="tb"><tr><td colspan="6" class="px-4 py-10 text-center text-sm text-slate-400">Memuat data…</td></tr></tbody>
-        </table>
-      </div>
-      <div id="jumlah" class="px-6 py-3 text-xs text-slate-500 border-t border-slate-100"></div>
     </div>
   </section>
 
@@ -224,7 +231,7 @@
     </div>
   </section>
 
-  <!-- ===================== KONTAK / FIND US HERE ===================== -->
+  <!-- ===================== KONTAK ===================== -->
   <section id="kontak" class="max-w-7xl mx-auto px-4 py-16">
     <div class="text-center mb-10">
       <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Find Us Here</span>
@@ -290,7 +297,7 @@
       <div><b class="text-white text-sm uppercase tracking-wider">Administrator</b>
         <ul class="mt-4 space-y-2 text-sm">
           <li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li>
-          <li><a href="#siswa" class="hover:text-brand-400">Data Siswa</a></li>
+          <li><a href="#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li>
           <li><a href="#akademik" class="hover:text-brand-400">Kalender Akademik</a></li>
           <li><a href="#berita" class="hover:text-brand-400">Berita</a></li>
         </ul>
@@ -299,12 +306,11 @@
     <div class="border-t border-slate-800">
       <div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500 flex flex-wrap gap-2 justify-between">
         <span>© 2026 <span id="footCopy">Nama Sekolah</span>. Sistem Informasi Sekolah statis (GitHub Pages).</span>
-        <span>Terinspirasi tata letak Al-Fath School Indonesia • data dari <code>data/*.json</code></span>
+        <span>Konten dikelola dari Panel Admin • data dari <code>data/*.json</code></span>
       </div>
     </div>
   </footer>
 
-  <!-- Tombol WA mengambang -->
   <a id="fabWa" target="_blank" class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-full bg-brand-600 text-white shadow-xl flex items-center justify-center hover:bg-brand-700" title="Chat WhatsApp"><i data-lucide="message-circle" class="w-6 h-6"></i></a>
 
   <!-- Modal Virtual Tour -->
@@ -316,35 +322,136 @@
     </div>
   </div>
 
-  <!-- Struktur lama dipertahankan: config.js + app.js + data/*.json -->
+  <!-- Modal Detail Kegiatan -->
+  <div id="kgModal" class="hidden fixed inset-0 z-[70] bg-slate-950/80 backdrop-blur-sm p-4 overflow-y-auto">
+    <div class="min-h-full flex items-center justify-center py-6">
+      <div class="bg-white rounded-3xl w-full max-w-4xl overflow-hidden shadow-2xl">
+        <div class="relative h-64 md:h-80 card-img">
+          <img id="kgMImg" class="w-full h-full object-cover" alt="">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent"></div>
+          <button id="kgMClose" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 text-slate-700 flex items-center justify-center hover:bg-white" aria-label="Tutup"><i data-lucide="x" class="w-5 h-5"></i></button>
+          <div class="absolute top-4 left-4 flex gap-2">
+            <span id="kgMKat" class="px-3 py-1 rounded-full bg-amber-400 text-amber-950 text-xs font-bold"></span>
+            <span id="kgMStar" class="hidden px-3 py-1 rounded-full bg-white/90 text-brand-700 text-xs font-bold">★ Unggulan</span>
+          </div>
+          <div class="absolute bottom-0 inset-x-0 p-6 text-white">
+            <div id="kgMTgl" class="text-xs font-semibold text-amber-300"></div>
+            <h3 id="kgMJudul" class="font-display font-extrabold text-2xl md:text-3xl mt-1 leading-tight"></h3>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="grid sm:grid-cols-3 gap-3 mb-5">
+            <div class="bg-brand-50 border border-brand-100 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Lokasi</div><div id="kgMLokasi" class="text-sm font-semibold text-slate-700 mt-0.5"></div></div>
+            <div class="bg-brand-50 border border-brand-100 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Peserta</div><div id="kgMPeserta" class="text-sm font-semibold text-slate-700 mt-0.5"></div></div>
+            <div class="bg-brand-50 border border-brand-100 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Penyelenggara</div><div id="kgMPenyelenggara" class="text-sm font-semibold text-slate-700 mt-0.5"></div></div>
+          </div>
+          <p id="kgMDesk" class="text-slate-600 leading-relaxed whitespace-pre-line"></p>
+          <div class="mt-6 flex items-center justify-between gap-3 border-t border-slate-100 pt-4">
+            <button id="kgMPrev" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50"><i data-lucide="arrow-left" class="w-4 h-4"></i>Sebelumnya</button>
+            <span id="kgMPos" class="text-xs text-slate-400 font-semibold"></span>
+            <button id="kgMNext" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700">Berikutnya<i data-lucide="arrow-right" class="w-4 h-4"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="config.js"></script>
   <script src="app.js"></script>
   <script>
-    // ===== Data publik (tanpa token) =====
-    let SISWA = [], ST = {};
+    let ST = {}, KEGIATAN = [], kgFilter = "Semua", kgIdx = -1, kgIO = null;
     const $ = id => document.getElementById(id);
-    const badge = v => '<span class="px-2 py-0.5 rounded-full text-xs font-medium ' + (v === "Aktif" ? "bg-brand-100 text-brand-700" : "bg-slate-100 text-slate-600") + '">' + esc(v || "-") + "</span>";
-    const img = (url, alt) => '<div class="card-img w-full h-full"><img src="' + url + '" alt="' + esc(alt) + '" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>';
+    const img = (url, alt) => '<div class="card-img w-full h-full"><img src="' + esc(url || "") + '" alt="' + esc(alt) + '" loading="lazy" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>';
+    const KG_SPAN = ["col-span-2 row-span-2","col-span-1 row-span-1","col-span-1 row-span-1","col-span-2 row-span-1","col-span-1 row-span-1","col-span-1 row-span-1","col-span-2 row-span-1","col-span-2 row-span-1","col-span-2 row-span-1"];
 
-    // ----- Tabel siswa (fitur publik lama, tetap sama) -----
-    function redraw() {
-      const s = $("q").value.toLowerCase(), k = $("fKelas").value;
-      const rows = SISWA.filter(x => (!k || x.kelas === k) && JSON.stringify(x).toLowerCase().includes(s));
-      $("tb").innerHTML = rows.map(x =>
-        '<tr class="border-b border-slate-100 hover:bg-brand-50/40"><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nis) + '</td><td class="px-4 py-2.5 text-sm font-mono">' + esc(x.nisn) + '</td><td class="px-4 py-2.5 text-sm font-semibold">' + esc(x.nama) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.jk) + '</td><td class="px-4 py-2.5 text-sm">' + esc(x.kelas) + "</td><td class='px-4 py-2.5'>" + badge(x.status) + "</td></tr>"
-      ).join("") || '<tr><td colspan="6" class="px-4 py-10 text-center text-sm text-slate-400">Tidak ada data.</td></tr>';
-      $("jumlah").textContent = rows.length + " siswa ditampilkan • diperbarui otomatis dari repositori GitHub.";
+    const kgPublished = () => KEGIATAN.filter(k => k.status !== "Draft").slice().sort((a, b) => (a.urutan || 99) - (b.urutan || 99));
+    const kgList = () => kgPublished().filter(k => kgFilter === "Semua" || k.kategori === kgFilter);
+
+    function kgObserve() {
+      if (kgIO) kgIO.disconnect();
+      const cards = document.querySelectorAll("#kgGrid .bento");
+      if (!("IntersectionObserver" in window)) { cards.forEach(c => c.classList.add("in")); return; }
+      kgIO = new IntersectionObserver((entries) => {
+        entries.forEach(en => { if (en.isIntersecting) { const d = Number(en.target.dataset.d || 0); setTimeout(() => en.target.classList.add("in"), d * 70); kgIO.unobserve(en.target); } });
+      }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+      cards.forEach(c => kgIO.observe(c));
     }
-    $("q").oninput = redraw; $("fKelas").onchange = redraw;
 
-    // ----- Animasi angka statistik -----
+    function kgRenderFilters() {
+      const cats = ["Semua", ...new Set(kgPublished().map(k => k.kategori).filter(Boolean))];
+      $("kgFilters").innerHTML = cats.map(c => {
+        const on = c === kgFilter;
+        const n = c === "Semua" ? kgPublished().length : kgPublished().filter(k => k.kategori === c).length;
+        return '<button data-cat="' + esc(c) + '" class="kg-chip px-4 py-2 rounded-full text-sm font-bold border ' + (on ? "bg-brand-600 text-white border-brand-600 shadow" : "bg-white text-slate-600 border-slate-200 hover:border-brand-300 hover:text-brand-700") + '">' + esc(c) + ' <span class="' + (on ? "text-brand-100" : "text-slate-400") + '">' + n + '</span></button>';
+      }).join("");
+      $("kgFilters").querySelectorAll("[data-cat]").forEach(b => b.onclick = () => { kgFilter = b.dataset.cat; kgRenderFilters(); kgRender(); });
+    }
+
+    function kgRender() {
+      const list = kgList();
+      $("kgCount").textContent = list.length + " kegiatan";
+      if (!list.length) {
+        $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-white rounded-3xl border border-dashed border-brand-200 flex flex-col items-center justify-center text-center p-8"><i data-lucide="image-off" class="w-8 h-8 text-brand-300"></i><b class="mt-3 text-slate-600">Belum ada kegiatan pada kategori ini</b><p class="text-sm text-slate-400 mt-1">Pilih kategori lain atau tambahkan kegiatan dari Panel Admin.</p></div>';
+        refreshIcons(); return;
+      }
+      $("kgGrid").innerHTML = list.map((k, i) => {
+        const big = i === 0;
+        const span = KG_SPAN[i] || "col-span-1 row-span-1";
+        return '<button type="button" data-kg="' + i + '" data-d="' + i + '" class="bento group relative overflow-hidden rounded-3xl text-left ring-1 ring-brand-900/10 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-400 ' + span + '">' +
+          img(k.foto, k.judul) +
+          '<div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/35 to-slate-950/5"></div>' +
+          '<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">' +
+            '<span class="px-2.5 py-1 rounded-full bg-white/90 text-brand-800 text-[10px] font-bold uppercase tracking-wide">' + esc(k.kategori || "Kegiatan") + '</span>' +
+            (k.unggulan ? '<span class="px-2.5 py-1 rounded-full bg-amber-400 text-amber-950 text-[10px] font-bold">★ Unggulan</span>' : "") +
+          '</div>' +
+          '<span class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/15 border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i></span>' +
+          '<div class="absolute inset-x-0 bottom-0 p-3.5 ' + (big ? "md:p-6" : "") + ' text-white">' +
+            '<div class="text-[11px] font-semibold text-amber-300 flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3"></i>' + esc(fmtTgl(k.tanggal)) + '</div>' +
+            '<h3 class="font-display font-bold leading-snug mt-1 ' + (big ? "text-lg md:text-2xl" : "text-sm md:text-base line-clamp-2") + '">' + esc(k.judul) + '</h3>' +
+            '<p class="excerpt text-[11px] md:text-xs text-white/80 mt-1.5 overflow-hidden ' + (big ? "line-clamp-3" : "line-clamp-2") + '">' + esc(k.ringkasan || "") + '</p>' +
+            (big ? '<span class="inline-flex items-center gap-1 text-xs font-bold text-amber-300 mt-2">Lihat detail <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span>' : "") +
+          '</div></button>';
+      }).join("");
+      $("kgGrid").querySelectorAll("[data-kg]").forEach(b => b.onclick = () => kgOpen(Number(b.dataset.kg)));
+      refreshIcons(); kgObserve();
+    }
+
+    function kgOpen(i) {
+      const list = kgList(); if (!list.length) return;
+      kgIdx = (i + list.length) % list.length;
+      const k = list[kgIdx];
+      $("kgMImg").src = k.foto || ""; $("kgMImg").alt = k.judul || "";
+      $("kgMKat").textContent = k.kategori || "Kegiatan";
+      $("kgMStar").classList.toggle("hidden", !k.unggulan);
+      $("kgMTgl").textContent = fmtTgl(k.tanggal);
+      $("kgMJudul").textContent = k.judul || "";
+      $("kgMLokasi").textContent = k.lokasi || "-";
+      $("kgMPeserta").textContent = k.peserta || "-";
+      $("kgMPenyelenggara").textContent = k.penyelenggara || "-";
+      $("kgMDesk").textContent = k.deskripsi || k.ringkasan || "";
+      $("kgMPos").textContent = (kgIdx + 1) + " / " + list.length;
+      $("kgModal").classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+      refreshIcons();
+    }
+    function kgClose() { $("kgModal").classList.add("hidden"); document.body.style.overflow = ""; }
+    $("kgMClose").onclick = kgClose;
+    $("kgMPrev").onclick = () => kgOpen(kgIdx - 1);
+    $("kgMNext").onclick = () => kgOpen(kgIdx + 1);
+    $("kgModal").onclick = e => { if (e.target === $("kgModal")) kgClose(); };
+    document.addEventListener("keydown", e => {
+      if ($("kgModal").classList.contains("hidden")) return;
+      if (e.key === "Escape") kgClose();
+      if (e.key === "ArrowLeft") kgOpen(kgIdx - 1);
+      if (e.key === "ArrowRight") kgOpen(kgIdx + 1);
+    });
+
     function countUp(el, target) {
       const dur = 900, t0 = performance.now();
       const step = t => { const p = Math.min(1, (t - t0) / dur); el.textContent = Math.round(target * p).toLocaleString("id-ID"); if (p < 1) requestAnimationFrame(step); };
       requestAnimationFrame(step);
     }
 
-    // ----- Muat semua data -----
     (async () => {
       try {
         ST = await fetchJSON("settings.json");
@@ -376,25 +483,20 @@
 
       try {
         const [siswa, guru, kelas, buku] = await Promise.all([
-          fetchJSON("siswa.json"), fetchJSON("guru.json").catch(() => []),
+          fetchJSON("siswa.json").catch(() => []), fetchJSON("guru.json").catch(() => []),
           fetchJSON("kelas.json").catch(() => []), fetchJSON("buku.json").catch(() => [])
         ]);
-        SISWA = siswa;
         const aktif = siswa.filter(s => s.status === "Aktif").length;
         $("heroSiswa").textContent = aktif;
-        const kl = [...new Set(siswa.map(s => s.kelas))].sort();
-        $("fKelas").innerHTML += kl.map(k => "<option>" + esc(k) + "</option>").join("");
-        redraw();
         const cards = [
           ["users","Siswa Aktif",aktif,"brand"], ["briefcase","Guru & Tendik",guru.length,"sky"],
           ["school","Rombel / Kelas",kelas.length,"violet"], ["library","Koleksi Buku",buku.reduce((a,b)=>a+(b.stok||0),0),"amber"]
         ];
         $("stats").innerHTML = cards.map((c,i) =>
-          '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-center"><div class="w-11 h-11 mx-auto rounded-xl bg-' + c[3] + '-100 text-' + c[3] + '-700 flex items-center justify-center mb-3"><i data-lucide="' + c[0] + '" class="w-5 h-5"></i></div><div class="text-3xl font-extrabold font-display" data-count="' + c[2] + '" id="stat' + i + '">0</div><div class="text-xs text-slate-500 font-semibold mt-1">' + c[1] + "</div></div>"
+          '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-center"><div class="w-11 h-11 mx-auto rounded-xl bg-' + c[3] + '-100 text-' + c[3] + '-700 flex items-center justify-center mb-3"><i data-lucide="' + c[0] + '" class="w-5 h-5"></i></div><div class="text-3xl font-extrabold font-display" id="stat' + i + '">0</div><div class="text-xs text-slate-500 font-semibold mt-1">' + c[1] + "</div></div>"
         ).join("");
         cards.forEach((c,i) => countUp($("stat"+i), c[2]));
 
-        // Fasilitas (dari data inventaris/buku/kelas)
         const inv = await fetchJSON("inventaris.json").catch(() => []);
         const laptop = inv.filter(x => /laptop|komputer|chromebook/i.test(x.nama)).reduce((a,b)=>a+(b.jumlah||0),0);
         const fas = [
@@ -406,9 +508,8 @@
         $("facilityGrid").innerHTML = fas.map(f =>
           '<div class="rounded-2xl overflow-hidden bg-white/10 border border-white/15"><div class="h-36">' + img(f[3], f[0]) + '</div><div class="p-4"><div class="flex items-center gap-2 font-display font-bold"><i data-lucide="' + f[1] + '" class="w-4 h-4 text-amber-300"></i>' + f[0] + '</div><div class="text-sm text-brand-100/80 mt-1">' + esc(f[2]) + "</div></div></div>"
         ).join("");
-      } catch (e) { $("tb").innerHTML = '<tr><td colspan="6" class="px-4 py-10 text-center text-sm text-rose-500">' + esc(e.message) + "</td></tr>"; }
+      } catch (e) {}
 
-            // Program jenjang (keterangan program + link ke halaman detail)
       const prog = [
         ["SD","Sekolah Dasar","Fondasi literasi, numerasi, dan karakter melalui pembelajaran tematik yang menyenangkan.","bg-brand-100 text-brand-700","baby","sd.html"],
         ["SMP","Sekolah Menengah Pertama","Penguatan akademik, minat bakat, dan berpikir kritis berbasis projek.","bg-sky-100 text-sky-700","book-open","smp.html"],
@@ -425,10 +526,18 @@
           '<a href="' + p[5] + '" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 mt-4">Detail <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div>';
       }).join("");
 
-      // Berita / kabar (dari materi + PPDB + pengumuman)
       try {
-        const [materi, ppdb, ujian] = await Promise.all([
-          fetchJSON("materi.json").catch(() => []), fetchJSON("ppdb.json").catch(() => []), fetchJSON("ujian.json").catch(() => [])
+        KEGIATAN = await fetchJSON("kegiatan.json");
+        if (!Array.isArray(KEGIATAN)) KEGIATAN = [];
+        kgRenderFilters(); kgRender();
+      } catch (e) {
+        $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-rose-50 border border-rose-200 rounded-3xl flex flex-col items-center justify-center text-center p-8 text-rose-600"><i data-lucide="triangle-alert" class="w-8 h-8"></i><b class="mt-3">Gagal memuat kegiatan</b><p class="text-sm mt-1">' + esc(e.message) + '</p></div>';
+      }
+
+      try {
+        const [materi, ppdb, ujian, tugas] = await Promise.all([
+          fetchJSON("materi.json").catch(() => []), fetchJSON("ppdb.json").catch(() => []),
+          fetchJSON("ujian.json").catch(() => []), fetchJSON("tugas.json").catch(() => [])
         ]);
         const news = [];
         if (ST.pengumuman) news.push({ t: "Pengumuman Sekolah", d: ST.pengumuman, href: "#berita", img: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=60", tag: "Info" });
@@ -438,11 +547,10 @@
           '<article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md transition flex flex-col"><div class="h-44">' + img(n.img, n.t) + '</div><div class="p-5 flex flex-col flex-1"><span class="self-start text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-brand-100 text-brand-700">' + esc(n.tag) + '</span><h3 class="font-display font-bold mt-2 leading-snug">' + esc(n.t) + '</h3><p class="text-sm text-slate-500 mt-2 line-clamp-3 flex-1">' + esc(n.d) + '</p><a href="' + n.href + '" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 mt-4">Read More <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div></article>'
         ).join("") || '<p class="text-slate-400 col-span-full">Belum ada kabar.</p>';
 
-        // Agenda akademik (ujian + tugas)
-        const tugas = await fetchJSON("tugas.json").catch(() => []);
         const agenda = [
           ...ujian.map(u => ({ tgl: u.tanggal, judul: u.judul, ket: "Ujian CBT • " + u.mapel + " • " + u.kelas, href: "cbt.html", icon: "timer" })),
-          ...tugas.map(t => ({ tgl: t.deadline, judul: t.judul, ket: "Tugas • " + t.mapel + " • " + t.kelas, href: "belajar.html", icon: "clipboard-check" }))
+          ...tugas.map(t => ({ tgl: t.deadline, judul: t.judul, ket: "Tugas • " + t.mapel + " • " + t.kelas, href: "belajar.html", icon: "clipboard-check" })),
+          ...KEGIATAN.filter(k => k.status !== "Draft" && k.tanggal >= today()).map(k => ({ tgl: k.tanggal, judul: k.judul, ket: "Kegiatan • " + k.kategori, href: "#kegiatan", icon: "sparkles" }))
         ].filter(a => a.tgl).sort((a, b) => a.tgl.localeCompare(b.tgl)).slice(0, 6);
         $("agendaList").innerHTML = agenda.map(a =>
           '<a href="' + a.href + '" class="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-sm p-4 hover:border-brand-300"><div class="w-14 text-center shrink-0"><div class="text-2xl font-extrabold font-display text-brand-700 leading-none">' + new Date(a.tgl).getDate() + '</div><div class="text-[11px] uppercase text-slate-400 font-bold">' + new Date(a.tgl).toLocaleDateString("id-ID",{month:"short"}) + '</div></div><div class="flex-1 min-w-0"><b class="text-sm block truncate">' + esc(a.judul) + '</b><span class="text-xs text-slate-500">' + esc(a.ket) + '</span></div><i data-lucide="' + a.icon + '" class="w-5 h-5 text-brand-600 shrink-0"></i></a>'
@@ -452,24 +560,19 @@
       refreshIcons();
     })();
 
-    // ----- E-Brochure (cetak profil sekolah) -----
     $("brochureBtn").onclick = async () => {
       const [siswa, guru, kelas] = await Promise.all([fetchJSON("siswa.json").catch(()=>[]), fetchJSON("guru.json").catch(()=>[]), fetchJSON("kelas.json").catch(()=>[])]);
       printHTML("E-Brochure " + (ST.nama_sekolah||""),
         "<div class='center'><h1>" + esc(ST.nama_sekolah||"") + "</h1><div class='muted'>NPSN " + esc(ST.npsn||"") + " • " + esc(ST.jenjang||"") + " • Kurikulum " + esc(ST.kurikulum||"") + "</div></div><hr>" +
         "<h3>Profil Singkat</h3><p>" + esc(ST.nama_sekolah||"") + " menyelenggarakan pendidikan " + esc(ST.jenjang||"") + " dengan Kurikulum " + esc(ST.kurikulum||"") + " tahun ajaran " + esc(ST.tahun_ajaran||"") + ". Kepala Sekolah: " + esc(ST.kepala_sekolah||"") + ".</p>" +
         "<h3>Data Ringkas</h3><table><tr><th>Siswa Aktif</th><td>" + siswa.filter(s=>s.status==="Aktif").length + "</td><th>Guru & Tendik</th><td>" + guru.length + "</td><th>Rombel</th><td>" + kelas.length + "</td></tr></table>" +
-        "<h3>Kontak</h3><p>" + esc(ST.alamat||"") + "<br>Telp. " + esc(ST.telepon||"") + " • Email " + esc(ST.email||"") + "</p>" +
-        "<p class='muted'>Unduh/simpan sebagai PDF melalui dialog cetak.</p>");
+        "<h3>Kontak</h3><p>" + esc(ST.alamat||"") + "<br>Telp. " + esc(ST.telepon||"") + " • Email " + esc(ST.email||"") + "</p>");
     };
 
-    // ----- Virtual Tour -----
-    const TOUR_VIDEO = "https://www.youtube.com/embed/aqz-KE-bpKQ"; // ganti dengan video tur sekolah Anda
+    const TOUR_VIDEO = "https://www.youtube.com/embed/aqz-KE-bpKQ";
     const openTour = () => { $("tourFrame").src = TOUR_VIDEO; $("tourModal").classList.remove("hidden"); };
     $("tourBtn").onclick = openTour; $("tourBtn2").onclick = openTour;
     $("tourClose").onclick = () => { $("tourFrame").src = "about:blank"; $("tourModal").classList.add("hidden"); };
-
-    // ----- Menu mobile -----
     $("mBtn").onclick = () => $("mMenu").classList.toggle("hidden");
     document.querySelectorAll("#mMenu a").forEach(a => a.onclick = () => $("mMenu").classList.add("hidden"));
   </script>
