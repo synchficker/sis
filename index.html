@@ -19,7 +19,6 @@
     ::-webkit-scrollbar-track{background:#f0fdf4}
     ::-webkit-scrollbar-thumb{background:linear-gradient(#16a34a,#0d9488);border-radius:99px;border:2px solid #f0fdf4}
     ::-webkit-scrollbar-thumb:hover{background:#15803d}
-    .blob{position:absolute;border-radius:9999px;filter:blur(60px);opacity:.35;pointer-events:none}
     .card-img{background:linear-gradient(135deg,#16a34a,#0d9488)}
 
     /* ===== FULL SLIDER ===== */
@@ -37,6 +36,8 @@
     .dot .fill{position:absolute;inset:0;width:0%;border-radius:99px;background:linear-gradient(90deg,#fbbf24,#fff)}
     .sl-arrow{transition:transform .25s,background .25s,opacity .25s}
     .sl-arrow:hover{transform:scale(1.09)}
+
+    /* ===== BENTO KEGIATAN ===== */
     .bento{opacity:0;transform:translateY(20px) scale(.985);transition:opacity .65s cubic-bezier(.2,.7,.3,1),transform .65s cubic-bezier(.2,.7,.3,1),box-shadow .35s}
     .bento.in{opacity:1;transform:none}
     .bento img{transition:transform .9s cubic-bezier(.2,.7,.3,1)}
@@ -44,6 +45,13 @@
     .bento:hover{box-shadow:0 24px 50px -18px rgba(22,101,52,.55)}
     .bento .excerpt{max-height:0;opacity:0;transition:max-height .45s ease,opacity .35s ease}
     .bento:hover .excerpt,.bento:focus-visible .excerpt{max-height:6rem;opacity:1}
+
+    /* ===== GERBANG ADMIN TERSEMBUNYI ===== */
+    #adminGate{opacity:.2}
+    #adminGate:hover,#adminGate:focus-visible{opacity:1}
+    #adminGate .gate-tip{opacity:0;transform:translate(-50%,4px)}
+    #adminGate:hover .gate-tip,#adminGate:focus-visible .gate-tip{opacity:1;transform:translate(-50%,0)}
+
     @media (prefers-reduced-motion:reduce){
       .sld{transition:opacity .2s linear!important}
       .sld.on .sld-img{animation:none}
@@ -75,8 +83,7 @@
       <div class="flex-1"></div>
       <div class="hidden md:flex items-center gap-2">
         <a href="portal.html" class="text-sm font-bold px-3 py-2 rounded-lg text-brand-700 hover:bg-brand-50">Portal Ortu</a>
-        <a href="ppdb.html" class="text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300 shadow-sm">Daftar Sekarang</a>
-        <a href="login.html" class="text-sm font-bold px-3 py-2 rounded-lg border border-slate-200 hover:bg-slate-50 inline-flex items-center gap-1.5"><i data-lucide="key-round" class="w-4 h-4"></i>Login</a>
+        <a href="ppdb.html" class="text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300 shadow-sm inline-flex items-center gap-1.5"><i data-lucide="user-plus" class="w-4 h-4"></i>Daftar Sekarang</a>
       </div>
       <button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100" aria-label="Menu"><i data-lucide="menu" class="w-6 h-6"></i></button>
     </div>
@@ -92,7 +99,6 @@
       <div class="flex gap-2 pt-2">
         <a href="ppdb.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Daftar</a>
         <a href="portal.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-brand-600 text-white font-bold">Portal Ortu</a>
-        <a href="login.html" class="flex-1 text-center px-3 py-2.5 rounded-xl border border-slate-200 font-bold">Login</a>
       </div>
     </div>
   </header>
@@ -105,17 +111,14 @@
       <div id="slTrack" class="absolute inset-0"></div>
       <div class="grain z-[6]"></div>
 
-      <!-- progress atas -->
       <div class="absolute top-0 inset-x-0 h-[3px] bg-white/15 z-30">
         <div id="slProg" class="h-full w-0 bg-gradient-to-r from-amber-400 via-white to-brand-400"></div>
       </div>
 
-      <!-- panah -->
       <button id="slPrev" aria-label="Slide sebelumnya" class="sl-arrow hidden md:flex absolute left-4 lg:left-7 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full bg-white/12 border border-white/30 backdrop-blur text-white items-center justify-center hover:bg-white/25"><i data-lucide="chevron-left" class="w-6 h-6"></i></button>
       <button id="slNext" aria-label="Slide berikutnya" class="sl-arrow hidden md:flex absolute right-4 lg:right-7 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full bg-white/12 border border-white/30 backdrop-blur text-white items-center justify-center hover:bg-white/25"><i data-lucide="chevron-right" class="w-6 h-6"></i></button>
 
-      <!-- bar bawah: counter • DOT TENGAH • kontrol -->
-      <div class="absolute bottom-0 inset-x-0 z-30 px-4 md:px-8 pb-6 md:pb-8">
+      <div class="absolute bottom-0 inset-x-0 z-30 px-4 md:px-8 pb-12 md:pb-14">
         <div class="relative max-w-7xl mx-auto flex items-end justify-between gap-4">
           <div id="slCounter" class="hidden sm:block text-white/85 font-mono text-xs tracking-widest"></div>
           <div id="slDots" role="tablist" aria-label="Navigasi slide" class="absolute left-1/2 -translate-x-1/2 bottom-1 flex items-center gap-2"></div>
@@ -173,8 +176,8 @@
             <span class="text-sm font-semibold text-slate-500 mr-1">Stay Connected:</span>
             <a id="socWa" target="_blank" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="WhatsApp"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
             <a id="socMail" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Email"><i data-lucide="mail" class="w-4 h-4"></i></a>
-            <a href="#" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Instagram (demo)"><i data-lucide="instagram" class="w-4 h-4"></i></a>
-            <a href="#" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="YouTube (demo)"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+            <a href="#kontak" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Instagram"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+            <a href="#kontak" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="YouTube"><i data-lucide="youtube" class="w-4 h-4"></i></a>
           </div>
         </div>
       </div>
@@ -198,12 +201,9 @@
         <div>
           <span class="text-xs font-bold uppercase tracking-wider text-brand-600">School Activities</span>
           <h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-800 mt-2">Aktivitas &amp; Kegiatan Sekolah</h2>
-          <p class="text-slate-500 mt-2 max-w-2xl">Dokumentasi kegiatan siswa sepanjang tahun ajaran. Klik kartu untuk melihat detail kegiatan.</p>
+          <p class="text-slate-500 mt-2 max-w-2xl">Dokumentasi kegiatan siswa sepanjang tahun ajaran — akademik, seni, olahraga, keagamaan, hingga kewirausahaan. Klik kartu untuk melihat detail kegiatan.</p>
         </div>
-        <div class="flex items-center gap-2 text-sm">
-          <span id="kgCount" class="px-3 py-1.5 rounded-full bg-brand-600 text-white font-bold">0 kegiatan</span>
-          <a href="login.html" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-brand-200 text-brand-700 font-bold hover:bg-brand-100"><i data-lucide="settings" class="w-3.5 h-3.5"></i>Kelola</a>
-        </div>
+        <span id="kgCount" class="px-3 py-1.5 rounded-full bg-brand-600 text-white font-bold text-sm">0 kegiatan</span>
       </div>
       <div id="kgFilters" class="flex flex-wrap gap-2 mb-6"></div>
       <div id="kgGrid" class="grid grid-cols-2 lg:grid-cols-4 auto-rows-[150px] lg:auto-rows-[190px] gap-3 md:gap-4 grid-flow-dense">
@@ -280,32 +280,57 @@
         <p id="footAlamat" class="text-sm mt-4 text-slate-400 max-w-sm"></p>
         <p id="footTelp" class="text-sm mt-2 text-slate-400"></p>
         <div class="flex gap-2 mt-4">
-          <a id="footWa" target="_blank" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
-          <a id="footMail" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="mail" class="w-4 h-4"></i></a>
-          <a href="#" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="instagram" class="w-4 h-4"></i></a>
-          <a href="#" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+          <a id="footWa" target="_blank" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="WhatsApp"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
+          <a id="footMail" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Email"><i data-lucide="mail" class="w-4 h-4"></i></a>
+          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Instagram"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="YouTube"><i data-lucide="youtube" class="w-4 h-4"></i></a>
         </div>
       </div>
       <div><b class="text-white text-sm uppercase tracking-wider">About Us</b>
-        <ul class="mt-4 space-y-2 text-sm"><li><a href="#profil" class="hover:text-brand-400">Profil Sekolah</a></li><li><a href="#program" class="hover:text-brand-400">Program</a></li><li><a href="#fasilitas" class="hover:text-brand-400">Fasilitas</a></li><li><a href="#kontak" class="hover:text-brand-400">Kontak</a></li></ul>
+        <ul class="mt-4 space-y-2 text-sm">
+          <li><a href="#profil" class="hover:text-brand-400">Profil Sekolah</a></li>
+          <li><a href="#program" class="hover:text-brand-400">Program</a></li>
+          <li><a href="#fasilitas" class="hover:text-brand-400">Fasilitas</a></li>
+          <li><a href="#kontak" class="hover:text-brand-400">Kontak</a></li>
+        </ul>
       </div>
       <div><b class="text-white text-sm uppercase tracking-wider">Layanan</b>
-        <ul class="mt-4 space-y-2 text-sm"><li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li><li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li><li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li><li><a href="cbt.html" class="hover:text-brand-400">Ujian CBT</a></li></ul>
+        <ul class="mt-4 space-y-2 text-sm">
+          <li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li>
+          <li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li>
+          <li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li>
+          <li><a href="cbt.html" class="hover:text-brand-400">Ujian CBT</a></li>
+        </ul>
       </div>
-      <div><b class="text-white text-sm uppercase tracking-wider">Administrator</b>
-        <ul class="mt-4 space-y-2 text-sm"><li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li><li><a href="#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li><li><a href="#akademik" class="hover:text-brand-400">Kalender Akademik</a></li><li><a href="#berita" class="hover:text-brand-400">Berita</a></li></ul>
+      <div><b class="text-white text-sm uppercase tracking-wider">Jelajahi</b>
+        <ul class="mt-4 space-y-2 text-sm">
+          <li><a href="#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li>
+          <li><a href="kalender.html" class="hover:text-brand-400">Kalender Akademik</a></li>
+          <li><a href="tuition.html" class="hover:text-brand-400">Biaya Pendidikan</a></li>
+          <li><a href="#berita" class="hover:text-brand-400">Berita</a></li>
+        </ul>
       </div>
     </div>
+
+    <!-- Baris bawah: kiri © • tengah gembok admin • kanan catatan -->
     <div class="border-t border-slate-800">
-      <div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500 flex flex-wrap gap-2 justify-between">
-        <span>© 2026 <span id="footCopy">Nama Sekolah</span>. Sistem Informasi Sekolah statis (GitHub Pages).</span>
-        <span>Slider &amp; konten dikelola dari Panel Admin • <code>data/*.json</code></span>
+      <div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500 flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
+        <span class="sm:flex-1 text-center sm:text-left">© 2026 <span id="footCopy">Nama Sekolah</span>. Sistem Informasi Sekolah statis (GitHub Pages).</span>
+
+        <a href="login.html" id="adminGate" rel="nofollow" aria-label="Login Administrator" title="Login Administrator"
+           class="relative shrink-0 inline-flex items-center justify-center w-8 h-8 rounded-full text-slate-300 hover:text-amber-300 transition-all duration-300 outline-none focus-visible:ring-2 focus-visible:ring-amber-300/60">
+          <i data-lucide="lock" class="w-3.5 h-3.5"></i>
+          <span class="gate-tip pointer-events-none absolute bottom-full left-1/2 mb-2 whitespace-nowrap rounded-md bg-slate-800 border border-slate-700 px-2 py-1 text-[10px] font-semibold text-slate-300 transition-all duration-200">Area Administrator</span>
+        </a>
+
+        <span class="sm:flex-1 text-center sm:text-right">Slider &amp; konten dikelola dari Panel Admin • <code>data/*.json</code></span>
       </div>
     </div>
   </footer>
 
   <a id="fabWa" target="_blank" class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-full bg-brand-600 text-white shadow-xl flex items-center justify-center hover:bg-brand-700" title="Chat WhatsApp"><i data-lucide="message-circle" class="w-6 h-6"></i></a>
 
+  <!-- Modal Virtual Tour -->
   <div id="tourModal" class="hidden fixed inset-0 z-[60] bg-slate-900/70 flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl w-full max-w-3xl overflow-hidden">
       <div class="flex items-center justify-between px-4 py-3 border-b"><b class="text-sm">Virtual Tour (demo)</b><button id="tourClose" class="p-1.5 rounded-lg hover:bg-slate-100"><i data-lucide="x" class="w-5 h-5"></i></button></div>
@@ -314,13 +339,14 @@
     </div>
   </div>
 
+  <!-- Modal Detail Kegiatan -->
   <div id="kgModal" class="hidden fixed inset-0 z-[70] bg-slate-950/80 backdrop-blur-sm p-4 overflow-y-auto">
     <div class="min-h-full flex items-center justify-center py-6">
       <div class="bg-white rounded-3xl w-full max-w-4xl overflow-hidden shadow-2xl">
         <div class="relative h-64 md:h-80 card-img">
           <img id="kgMImg" class="w-full h-full object-cover" alt="">
           <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent"></div>
-          <button id="kgMClose" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 text-slate-700 flex items-center justify-center hover:bg-white"><i data-lucide="x" class="w-5 h-5"></i></button>
+          <button id="kgMClose" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 text-slate-700 flex items-center justify-center hover:bg-white" aria-label="Tutup"><i data-lucide="x" class="w-5 h-5"></i></button>
           <div class="absolute top-4 left-4 flex gap-2">
             <span id="kgMKat" class="px-3 py-1 rounded-full bg-amber-400 text-amber-950 text-xs font-bold"></span>
             <span id="kgMStar" class="hidden px-3 py-1 rounded-full bg-white/90 text-brand-700 text-xs font-bold">★ Unggulan</span>
@@ -370,8 +396,7 @@
                  list: [], i: 0, playing: true, hover: false, elapsed: 0, last: 0, raf: 0, drag: null };
 
     function slHeight() {
-      const t = SL.cfg.tinggi;
-      const el = $("slider");
+      const t = SL.cfg.tinggi, el = $("slider");
       if (t === "compact") el.style.cssText = "height:520px;min-height:420px";
       else if (t === "medium") el.style.cssText = "height:70vh;min-height:480px;max-height:760px";
       else el.style.cssText = "height:calc(100vh - 72px);min-height:540px;max-height:920px";
@@ -398,7 +423,7 @@
           '<div class="absolute inset-0" style="background:' + scrim + '"></div>' +
           '<div class="absolute inset-0 opacity-60" style="background:radial-gradient(60% 55% at 18% 28%, rgba(' + a.glow + ',.42), transparent 62%), radial-gradient(45% 45% at 84% 76%, rgba(' + a.glow + ',.28), transparent 66%)"></div>' +
           '<div class="relative h-full max-w-7xl mx-auto px-5 md:px-8 flex ' + (center ? "items-center justify-center text-center" : "items-center") + '">' +
-            '<div class="' + (center ? "max-w-3xl" : "max-w-2xl") + ' pb-24 md:pb-28">' +
+            '<div class="' + (center ? "max-w-3xl" : "max-w-2xl") + ' pb-28 md:pb-32">' +
               (s.eyebrow ? '<span class="sld-anim inline-flex items-center gap-2 text-[11px] md:text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full ' + a.pill + '" style="transition-delay:.05s"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i>' + esc(s.eyebrow) + "</span>" : "") +
               '<h1 class="sld-anim font-display font-extrabold text-white text-3xl sm:text-4xl md:text-6xl leading-[1.08] mt-4" style="transition-delay:.14s">' + esc(s.judul) + (s.highlight ? ' <span style="color:' + a.hex + '">' + esc(s.highlight) + "</span>" : "") + "</h1>" +
               (s.subjudul ? '<p class="sld-anim text-white/90 font-semibold text-sm md:text-lg mt-3" style="transition-delay:.22s">' + esc(s.subjudul) + "</p>" : "") +
@@ -416,8 +441,7 @@
       $("slNext").style.display = SL.cfg.panah ? "" : "none";
       $("slPlay").style.display = SL.list.length > 1 ? "" : "none";
       track.querySelectorAll("[data-cta]").forEach(a => a.addEventListener("click", ev => {
-        const h = a.dataset.cta;
-        if (h === "#tour") { ev.preventDefault(); openTour(); }
+        if (a.dataset.cta === "#tour") { ev.preventDefault(); openTour(); }
       }));
       slApply(); refreshIcons();
     }
@@ -439,7 +463,7 @@
       $("slDots").querySelectorAll(".dot").forEach((d, i) => {
         d.classList.toggle("on", i === SL.i);
         d.setAttribute("aria-selected", i === SL.i ? "true" : "false");
-        d.querySelector(".fill").style.width = i === SL.i ? "0%" : "0%";
+        d.querySelector(".fill").style.width = "0%";
       });
       const pad = n => String(n).padStart(2, "0");
       $("slCounter").textContent = pad(SL.i + 1) + " / " + pad(SL.list.length);
@@ -455,7 +479,6 @@
     }
     const slNext = u => slGo(SL.i + 1, u);
     const slPrev = u => slGo(SL.i - 1, u);
-
     function slDur() { return Math.max(2500, +((SL.list[SL.i] || {}).durasi) || +SL.cfg.durasi || 7000); }
     function slStop() { if (SL.raf) cancelAnimationFrame(SL.raf); SL.raf = 0; SL.last = 0; }
     function slStart() {
@@ -464,7 +487,9 @@
       const step = ts => {
         if (!SL.last) SL.last = ts;
         const dt = ts - SL.last; SL.last = ts;
-        const paused = document.hidden || (SL.cfg.pause_on_hover && SL.hover) || $("slider").contains(document.activeElement) && document.activeElement !== $("slider");
+        const ae = document.activeElement;
+        const focusInside = ae && ae !== $("slider") && $("slider").contains(ae);
+        const paused = document.hidden || (SL.cfg.pause_on_hover && SL.hover) || focusInside;
         if (!paused) SL.elapsed += dt;
         const p = Math.min(1, SL.elapsed / slDur());
         slPaint(p);
@@ -491,7 +516,7 @@
       SL.cfg = { ...SL.cfg, ...(raw.config || {}) };
       SL.list = (raw.slides || []).filter(s => s.status !== "Draft").sort((a, b) => (a.urutan || 99) - (b.urutan || 99));
       if (!SL.list.length) {
-        $("slider").innerHTML = '<div class="h-full flex flex-col items-center justify-center text-center text-white bg-gradient-to-br from-brand-700 to-teal-600 px-6"><i data-lucide="image-off" class="w-10 h-10 opacity-70"></i><b class="font-display text-2xl mt-4">Belum ada slide aktif</b><p class="text-white/80 text-sm mt-2">Tambahkan slide melalui Panel Admin → Konten Website → Hero Slider.</p><a href="login.html" class="mt-5 px-5 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Buka Panel Admin</a></div>';
+        $("slider").innerHTML = '<div class="h-full flex flex-col items-center justify-center text-center text-white bg-gradient-to-br from-brand-700 to-teal-600 px-6"><i data-lucide="image-off" class="w-10 h-10 opacity-70"></i><b class="font-display text-2xl mt-4">Belum ada slide aktif</b><p class="text-white/80 text-sm mt-2 max-w-md">Konten sorotan sekolah sedang disiapkan. Silakan hubungi administrasi sekolah untuk informasi terbaru.</p><a href="ppdb.html" class="mt-5 px-5 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Informasi PPDB</a></div>';
         refreshIcons(); return;
       }
       if (reduceMotion) { SL.cfg.autoplay = false; SL.cfg.kenburns = false; }
@@ -536,7 +561,7 @@
     function kgRender() {
       const list = kgList();
       $("kgCount").textContent = list.length + " kegiatan";
-      if (!list.length) { $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-white rounded-3xl border border-dashed border-brand-200 flex flex-col items-center justify-center text-center p-8"><i data-lucide="image-off" class="w-8 h-8 text-brand-300"></i><b class="mt-3 text-slate-600">Belum ada kegiatan</b></div>'; refreshIcons(); return; }
+      if (!list.length) { $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-white rounded-3xl border border-dashed border-brand-200 flex flex-col items-center justify-center text-center p-8"><i data-lucide="image-off" class="w-8 h-8 text-brand-300"></i><b class="mt-3 text-slate-600">Belum ada kegiatan pada kategori ini</b><p class="text-sm text-slate-400 mt-1">Pilih kategori lain untuk melihat dokumentasi kegiatan.</p></div>'; refreshIcons(); return; }
       $("kgGrid").innerHTML = list.map((k, i) => {
         const big = i === 0, span = KG_SPAN[i] || "col-span-1 row-span-1";
         return '<button type="button" data-kg="' + i + '" data-d="' + i + '" class="bento group relative overflow-hidden rounded-3xl text-left ring-1 ring-brand-900/10 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-400 ' + span + '">' +
@@ -616,7 +641,7 @@
       } catch (e) {}
 
       try { slInit(await fetchJSON("slider.json")); }
-      catch (e) { $("slider").innerHTML = '<div class="h-full flex items-center justify-center bg-gradient-to-br from-brand-700 to-teal-600 text-white text-center px-6"><div><b class="font-display text-2xl">Slider belum tersedia</b><p class="text-white/80 text-sm mt-2">' + esc(e.message) + "</p></div></div>"; }
+      catch (e) { $("slider").innerHTML = '<div class="h-full flex items-center justify-center bg-gradient-to-br from-brand-700 to-teal-600 text-white text-center px-6"><div><b class="font-display text-2xl">Sorotan sekolah segera hadir</b><p class="text-white/80 text-sm mt-2">Konten sedang disiapkan oleh tim sekolah.</p></div></div>'; }
 
       try {
         const [siswa, guru, kelas, buku] = await Promise.all([
@@ -661,7 +686,7 @@
         KEGIATAN = await fetchJSON("kegiatan.json");
         if (!Array.isArray(KEGIATAN)) KEGIATAN = [];
         kgRenderFilters(); kgRender();
-      } catch (e) { $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-rose-50 border border-rose-200 rounded-3xl flex items-center justify-center text-rose-600 text-sm p-8">' + esc(e.message) + "</div>"; }
+      } catch (e) { $("kgGrid").innerHTML = '<div class="col-span-2 lg:col-span-4 row-span-2 bg-white border border-dashed border-brand-200 rounded-3xl flex items-center justify-center text-slate-500 text-sm p-8">Dokumentasi kegiatan sedang disiapkan.</div>'; }
 
       try {
         const [materi, ppdb, ujian, tugas] = await Promise.all([
