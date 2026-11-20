@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwpd7w579y1qk",
+    "waktu": "2026-11-20T19:21:42.523Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE FORM LOGIN",
+    "detail": "zamrud · split · sesi 120m"
+  },
+  {
     "id": "mwpd2hy0fj0nj",
     "waktu": "2026-11-20T19:17:30.840Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Sistem",
     "aksi": "HAPUS",
     "detail": "Pegawai Naufal Kusuma (G0494)"
-  },
-  {
-    "id": "AU0495",
-    "waktu": "2026-11-18T17:44:21.553Z",
-    "aktor": "kurikulum",
-    "modul": "LMS/CBT",
-    "aksi": "TAMBAH",
-    "detail": "Siswa Tiara Maulana G. (20260495)"
   }
 ]
