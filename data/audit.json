@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwpc73xwrdbt4",
+    "waktu": "2026-11-20T18:53:06.356Z",
+    "aktor": "synchficker",
+    "modul": "Sistem",
+    "aksi": "UPDATE PENGATURAN",
+    "detail": "SIN School"
+  },
+  {
     "id": "mwp3e3nl93bmr",
     "waktu": "2026-11-20T14:46:36.033Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "SCAN QR",
     "detail": "Buku Pulang"
-  },
-  {
-    "id": "AU0497",
-    "waktu": "2026-11-19T05:08:01.553Z",
-    "aktor": "kurikulum",
-    "modul": "Perpustakaan",
-    "aksi": "PUBLIKASI",
-    "detail": "Kelas 6AR"
   }
 ]
