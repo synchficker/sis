@@ -4,7 +4,7 @@
     "durasi": 7000,
     "efek": "slide",
     "tinggi": "full",
-    "dots": false,
+    "dots": true,
     "panah": false,
     "pause_on_hover": true,
     "kenburns": true
