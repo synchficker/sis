@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2tpcp9nwd7",
+    "waktu": "2026-11-20T14:30:44.377Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Penerimaan Peserta Didik Baru Telah Dibuka"
+  },
+  {
     "id": "mwp2tbzilxi1l",
     "waktu": "2026-11-20T14:30:27.054Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Keuangan",
     "aksi": "SCAN QR",
     "detail": "Pegawai Rani Yudhoyono, S.Pd (G0490)"
-  },
-  {
-    "id": "AU0491",
-    "waktu": "2026-11-19T00:05:09.553Z",
-    "aktor": "kurikulum",
-    "modul": "Akademik",
-    "aksi": "BAYAR SPP",
-    "detail": "Pegawai Salsabila Wicaksono, S.Pd (G0491)"
   }
 ]
