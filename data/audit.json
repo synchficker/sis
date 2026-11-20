@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2saohpdthh",
+    "waktu": "2026-11-20T14:29:38.705Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "PUBLIKASI SLIDE",
+    "detail": "5 slide diperbarui"
+  },
+  {
     "id": "mwp2r7wfzddbh",
     "waktu": "2026-11-20T14:28:48.447Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Kepegawaian",
     "aksi": "PUBLIKASI",
     "detail": "Siswa Budi Salim (20260492)"
-  },
-  {
-    "id": "AU0493",
-    "waktu": "2026-11-18T11:05:05.553Z",
-    "aktor": "bendahara",
-    "modul": "Konten Website",
-    "aksi": "PUBLIKASI",
-    "detail": "Tagihan SPP Februari"
   }
 ]
