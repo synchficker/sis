@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2r7wfzddbh",
+    "waktu": "2026-11-20T14:28:48.447Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "DRAFT SLIDE",
+    "detail": "500 slide diperbarui"
+  },
+  {
     "id": "mwp2quyotc45u",
     "waktu": "2026-11-20T14:28:31.684Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Konten Website",
     "aksi": "PUBLIKASI",
     "detail": "Tagihan SPP Februari"
-  },
-  {
-    "id": "AU0494",
-    "waktu": "2026-11-15T23:49:17.553Z",
-    "aktor": "admin",
-    "modul": "Sistem",
-    "aksi": "HAPUS",
-    "detail": "Pegawai Naufal Kusuma (G0494)"
   }
 ]
