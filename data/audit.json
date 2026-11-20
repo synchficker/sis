@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2tbzilxi1l",
+    "waktu": "2026-11-20T14:30:27.054Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Selamat Datang di Sekolah Kami Bahagia Belajar"
+  },
+  {
     "id": "mwp2saohpdthh",
     "waktu": "2026-11-20T14:29:38.705Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Akademik",
     "aksi": "BAYAR SPP",
     "detail": "Pegawai Salsabila Wicaksono, S.Pd (G0491)"
-  },
-  {
-    "id": "AU0492",
-    "waktu": "2026-11-16T17:10:49.553Z",
-    "aktor": "admin",
-    "modul": "Kepegawaian",
-    "aksi": "PUBLIKASI",
-    "detail": "Siswa Budi Salim (20260492)"
   }
 ]
