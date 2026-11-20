@@ -1,6 +1,6 @@
 {
-  "nama_sekolah": "Sincan International School (SIS)",
-  "jenjang": "",
+  "nama_sekolah": "Sin School",
+  "jenjang": "SD/SMP/SMU/SMK",
   "npsn": "20123456",
   "alamat": "Jl. Herman Tajir No. 100, Curug, Bojongsari Sawangan Kota Depok",
   "telepon": "022-123456",
@@ -13,14 +13,14 @@
   "kkm": 75,
   "spp_nominal": 150000,
   "denda_per_hari": 500,
-  "wa_admin": "6281234567890",
+  "wa_admin": "628989921788",
   "bank": {
-    "nama": "Bank BJB",
+    "nama": "Bank Sinarmas",
     "va_prefix": "88088",
-    "atas_nama": "SMPN 1 Nusantara"
+    "atas_nama": "Sin School"
   },
   "qris": {
-    "merchant": "SMPN 1 NUSANTARA",
+    "merchant": "Sin School",
     "nmid": "ID1026DEMO001"
   },
   "mapel": [
