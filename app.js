@@ -4,6 +4,7 @@
 // Tulis: GitHub Contents API (GET SHA -> PUT base64)
 // TOKEN TIDAK BOLEH DI-HARDCODE
 // ============================================================
+
 function repoCfg() {
   const c = window.APP_CONFIG || {};
   let owner = (c.GITHUB_USERNAME || "").trim();
@@ -21,6 +22,7 @@ function repoCfg() {
   }
   return { owner, repo, branch };
 }
+
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 const trunc = (v, n = 60) => { const s = String(v ?? ""); return s.length > n ? s.slice(0, n) + "…" : s; };
@@ -31,11 +33,13 @@ const today = () => { const d = new Date(); return d.getFullYear() + "-" + Strin
 const nowTime = () => { const d = new Date(); return String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0"); };
 const BULAN = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 const refreshIcons = () => { if (window.lucide) lucide.createIcons(); };
+
 function b64enc(str) {
   const bytes = new TextEncoder().encode(str);
   let bin = ""; for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
   return btoa(bin);
 }
+
 function download(name, text, mime = "application/json") {
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([text], { type: mime + ";charset=utf-8" }));
@@ -59,6 +63,7 @@ function ytEmbed(u) {
   } catch (e) {}
   return u;
 }
+
 let _loadCount = 0;
 function showLoading(txt = "Memproses…") {
   _loadCount++;
@@ -84,6 +89,7 @@ function toast(msg, type = "info") {
   w.appendChild(el); refreshIcons();
   setTimeout(() => el.remove(), 4500);
 }
+
 async function fetchJSON(file, force = false) {
   const key = "sicache:" + file;
   if (!force) {
@@ -105,6 +111,7 @@ async function fetchJSON(file, force = false) {
   return data;
 }
 function clearDataCache() { Object.keys(sessionStorage).filter(k => k.startsWith("sicache:")).forEach(k => sessionStorage.removeItem(k)); }
+
 async function pushJSON(file, data, _retry = false) {
   // TOKEN TIDAK BOLEH DI-HARDCODE
   const token = sessionStorage.getItem("gh_token");
@@ -129,6 +136,7 @@ async function pushJSON(file, data, _retry = false) {
   if ((p.status === 409 || p.status === 422) && !_retry) return pushJSON(file, data, true);
   throw new Error("PUT gagal (" + p.status + "): " + trunc(await p.text(), 160));
 }
+
 async function saveData(file, data, modul, aksi, detail) {
   showLoading("Menyimpan ke GitHub…");
   try {
@@ -143,6 +151,7 @@ async function saveData(file, data, modul, aksi, detail) {
   } catch (e) { toast(e.message, "error"); return false; }
   finally { hideLoading(); }
 }
+
 function requireAuth() {
   // TOKEN TIDAK BOLEH DI-HARDCODE
   if (!sessionStorage.getItem("gh_token")) location.replace("login.html");
@@ -152,3 +161,50 @@ function logout() {
   location.replace("login.html");
 }
 document.addEventListener("DOMContentLoaded", refreshIcons);
+
+// ============================================================
+// Navigasi situs publik — menyisipkan tautan Tuition Fee dan
+// Kalender Akademik pada navbar, menu mobile, footer, dan
+// seksi Akademik di beranda tanpa mengubah index.html.
+// ============================================================
+(function siteNav() {
+  const run = () => {
+    if (!document.getElementById("navNama") || !document.getElementById("mMenu")) return;
+    const desk = document.querySelector("header nav");
+    const mk = (href, label, cls) => { const a = document.createElement("a"); a.href = href; a.textContent = label; a.className = cls; return a; };
+    const put = (host, afterSel, href, label, cls) => {
+      if (!host || host.querySelector('a[href="' + href + '"]')) return;
+      const anchor = afterSel ? host.querySelector(afterSel) : null;
+      const el = mk(href, label, cls);
+      if (anchor) anchor.insertAdjacentElement("afterend", el); else host.appendChild(el);
+    };
+    const dCls = "px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700";
+    const mCls = "block px-3 py-2 rounded-lg hover:bg-brand-50";
+    put(desk, 'a[href="#program"]', "tuition.html", "Tuition Fee", dCls);
+    put(desk, 'a[href="#akademik"]', "kalender.html", "Kalender", dCls);
+    const mob = document.getElementById("mMenu");
+    put(mob, 'a[href="#program"]', "tuition.html", "Tuition Fee", mCls);
+    put(mob, 'a[href="#akademik"]', "kalender.html", "Kalender Akademik", mCls);
+    document.querySelectorAll("footer ul").forEach(ul => {
+      if (!ul.querySelector('a[href="ppdb.html"]')) return;
+      if (ul.querySelector('a[href="tuition.html"]')) return;
+      const li = document.createElement("li");
+      li.innerHTML = '<a href="tuition.html" class="hover:text-brand-400">Tuition Fee</a>';
+      ul.insertBefore(li, ul.firstChild);
+      const li2 = document.createElement("li");
+      li2.innerHTML = '<a href="kalender.html" class="hover:text-brand-400">Kalender Akademik</a>';
+      li.insertAdjacentElement("afterend", li2);
+    });
+    const ak = document.getElementById("akademik");
+    if (ak && !ak.querySelector('a[href="kalender.html"]')) {
+      const head = ak.querySelector("a[href='belajar.html']");
+      if (head) {
+        const a = mk("kalender.html", "Kalender Penuh", "inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2 rounded-xl bg-brand-600 text-white hover:bg-brand-700 ml-2");
+        head.insertAdjacentElement("afterend", a);
+        head.parentElement.classList.add("flex", "flex-wrap", "items-center");
+      }
+    }
+    refreshIcons();
+  };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+})();
