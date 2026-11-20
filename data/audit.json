@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwp2fmz651t39",
+    "waktu": "2026-11-20T14:19:48.114Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "DRAFT SLIDE",
+    "detail": "500 slide diperbarui"
+  },
+  {
     "id": "mwp2f8ct8ivuw",
     "waktu": "2026-11-20T14:19:29.166Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Perpustakaan",
     "aksi": "PUBLIKASI",
     "detail": "Kelas 6AR"
-  },
-  {
-    "id": "AU0498",
-    "waktu": "2026-11-19T14:19:02.553Z",
-    "aktor": "operator",
-    "modul": "Konten Website",
-    "aksi": "URUTKAN",
-    "detail": "Pegawai Vino Purnama (G0498)"
   }
 ]
