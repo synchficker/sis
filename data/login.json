@@ -7,70 +7,45 @@
   "headline": "Masuk ke pusat kendali",
   "headline_highlight": "sekolah digital",
   "tagline": "Satu token untuk mengelola akademik, keuangan, kepegawaian, dan konten website. Setiap perubahan tercatat sebagai commit di repositori Anda.",
-  "features": [
-    "Tanpa server",
-    "Audit otomatis",
-    "GitHub Pages",
-    "Token sesi saja"
-  ],
+  "features": ["Tanpa server", "Audit otomatis", "GitHub Pages", "Token sesi saja"],
   "footer_teks": "© 2026 SIN School — Sistem Informasi Sekolah statis.",
   "judul_form": "Login Administrator",
-  "subjudul_form": "",
-  "label_token": "Password Anda",
-  "placeholder_token": "Masukkan Password",
+  "subjudul_form": "Gunakan GitHub Personal Access Token (PAT), bukan username/password biasa.",
+  "label_token": "Personal Access Token",
+  "placeholder_token": "github_pat_… atau ghp_…",
   "tombol_label": "Masuk Sekarang",
   "tombol_ikon": "arrow-right",
   "mode_input": "password",
-  "mata": false,
-  "info_repo": false,
-  "catatan_aktif": false,
+  "mata": true,
+  "info_repo": true,
+  "catatan_aktif": true,
   "catatan": [
-    {
-      "ikon": "shield-check",
-      "teks": "Token hanya disimpan di sessionStorage dan hilang saat tab ditutup."
-    },
-    {
-      "ikon": "git-commit-horizontal",
-      "teks": "Setiap simpan/hapus menjadi commit \"Update {file}\" beserta audit log."
-    },
-    {
-      "ikon": "key-round",
-      "teks": "Fine-grained PAT: Contents → Read and write, hanya untuk repo ini."
-    }
+    { "ikon": "shield-check", "teks": "Token hanya disimpan di sessionStorage dan hilang saat tab ditutup." },
+    { "ikon": "git-commit-horizontal", "teks": "Setiap simpan/hapus menjadi commit \"Update {file}\" beserta audit log." },
+    { "ikon": "key-round", "teks": "Fine-grained PAT: Contents → Read and write, hanya untuk repo ini." }
   ],
-  "bantuan_aktif": false,
+  "bantuan_aktif": true,
   "bantuan": [
-    {
-      "q": "Di mana membuat PAT?",
-      "a": "GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token."
-    },
-    {
-      "q": "Izin apa yang diperlukan?",
-      "a": "Repository access: pilih repo ini. Permissions → Repository permissions → Contents: Read and write."
-    },
-    {
-      "q": "Apakah token disimpan di repo?",
-      "a": "Tidak. Token tidak pernah ditulis ke file mana pun; hanya berada di sessionStorage peramban."
-    },
-    {
-      "q": "Token ditolak, kenapa?",
-      "a": "Periksa masa berlaku token, izin Contents, dan bahwa nama repo pada config.js sudah benar."
-    }
+    { "q": "Di mana membuat PAT?", "a": "GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token." },
+    { "q": "Izin apa yang diperlukan?", "a": "Repository access: pilih repo ini. Permissions → Repository permissions → Contents: Read and write." },
+    { "q": "Apakah token disimpan di repo?", "a": "Tidak. Token tidak pernah ditulis ke file mana pun; hanya berada di sessionStorage peramban." },
+    { "q": "Token ditolak, kenapa?", "a": "Periksa masa berlaku token, izin Contents, dan bahwa nama repo pada config.js sudah benar." },
+    { "q": "Kenapa alamatnya tanpa .html?", "a": "Situs memakai URL bersih berbasis folder, misalnya /admin/ dan /login/, agar tautan rapi dan mudah dibagikan." }
   ],
   "back_label": "Kembali ke halaman publik",
-  "back_href": "index.html",
-  "redirect": "admin.html",
+  "back_href": "./",
+  "redirect": "admin/",
   "min_panjang": 20,
-  "prefiks_wajib": false,
-  "izinkan_classic": false,
-  "validasi_izin_tulis": false,
+  "prefiks_wajib": true,
+  "izinkan_classic": true,
+  "validasi_izin_tulis": true,
   "batas_percobaan": 5,
   "kunci_detik": 60,
   "sesi_menit": 120,
   "sesi_geser": true,
   "avatar": true,
-  "statistik": false,
-  "segel": false,
+  "statistik": true,
+  "segel": true,
   "panel_aktif": true,
   "panel_posisi": "kiri",
   "tata_letak": "split",
