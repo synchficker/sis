@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "T0001",
+    "judul": "Tugas Seni Budaya #1 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "11 Akuntansi AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0002",
+    "judul": "Tugas Bahasa Inggris #2 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 IPA AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0003",
+    "judul": "Tugas PJOK #3 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "12 IPS AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-03",
+    "lampiran": "https://drive.google.com/file/d/TGS0003/view"
+  },
+  {
+    "id": "T0004",
+    "judul": "Tugas Bahasa Indonesia #4 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPS AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0005",
+    "judul": "Tugas Informatika #5 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "7AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0006",
+    "judul": "Tugas PJOK #6 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "3AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": "https://drive.google.com/file/d/TGS0006/view"
+  },
+  {
+    "id": "T0007",
+    "judul": "Tugas PAI #7 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "9AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": "https://drive.google.com/file/d/TGS0007/view"
+  },
+  {
+    "id": "T0008",
+    "judul": "Tugas Bahasa Inggris #8 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 DKV AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": ""
+  },
+  {
+    "id": "T0009",
+    "judul": "Tugas PJOK #9 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "4AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0010",
+    "judul": "Tugas Informatika #10 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "10 IPS AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0011",
+    "judul": "Tugas Informatika #11 — Latihan Halaman",
+    "mapel": "Informatika",
+    "kelas": "12 Akuntansi AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0011/view"
+  },
+  {
+    "id": "T0012",
+    "judul": "Tugas Pendidikan Pancasila #12 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "7AU",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": "https://drive.google.com/file/d/TGS0012/view"
+  },
+  {
+    "id": "T0013",
+    "judul": "Tugas Pendidikan Pancasila #13 — Poster Digital",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "3AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0014",
+    "judul": "Tugas Informatika #14 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "7AY",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0015",
+    "judul": "Tugas Informatika #15 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "12 IPA AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0016",
+    "judul": "Tugas Informatika #16 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "11 RPL AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0017",
+    "judul": "Tugas Ekonomi #17 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "11 IPS AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0018",
+    "judul": "Tugas Bahasa Inggris #18 — Laporan Praktikum",
+    "mapel": "Bahasa Inggris",
+    "kelas": "12 DKV AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": "https://drive.google.com/file/d/TGS0018/view"
+  },
+  {
+    "id": "T0019",
+    "judul": "Tugas Seni Budaya #19 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "3AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0020",
+    "judul": "Tugas Bahasa Indonesia #20 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "10 IPA AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0021",
+    "judul": "Tugas Informatika #21 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "8AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0021/view"
+  },
+  {
+    "id": "T0022",
+    "judul": "Tugas Informatika #22 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "4AY",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-03",
+    "lampiran": ""
+  },
+  {
+    "id": "T0023",
+    "judul": "Tugas Pendidikan Pancasila #23 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "7AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0024",
+    "judul": "Tugas IPA #24 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "4AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0025",
+    "judul": "Tugas Seni Budaya #25 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "10 RPL AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": "https://drive.google.com/file/d/TGS0025/view"
+  },
+  {
+    "id": "T0026",
+    "judul": "Tugas PJOK #26 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "10 RPL AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0027",
+    "judul": "Tugas Matematika #27 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "5AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-07",
+    "lampiran": "https://drive.google.com/file/d/TGS0027/view"
+  },
+  {
+    "id": "T0028",
+    "judul": "Tugas Matematika #28 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "10 TKJ AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": "https://drive.google.com/file/d/TGS0028/view"
+  },
+  {
+    "id": "T0029",
+    "judul": "Tugas Ekonomi #29 — Laporan Praktikum",
+    "mapel": "Ekonomi",
+    "kelas": "9BE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-17",
+    "lampiran": ""
+  },
+  {
+    "id": "T0030",
+    "judul": "Tugas Pendidikan Pancasila #30 — Video Presentasi",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 RPL AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0031",
+    "judul": "Tugas IPA #31 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "10 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0032",
+    "judul": "Tugas IPS #32 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "9BE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-30",
+    "lampiran": "https://drive.google.com/file/d/TGS0032/view"
+  },
+  {
+    "id": "T0033",
+    "judul": "Tugas Prakarya #33 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "12 TKR AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0034",
+    "judul": "Tugas Matematika #34 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "11 IPA AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": "https://drive.google.com/file/d/TGS0034/view"
+  },
+  {
+    "id": "T0035",
+    "judul": "Tugas Pendidikan Pancasila #35 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "10 TKJ AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0036",
+    "judul": "Tugas PJOK #36 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "2AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0037",
+    "judul": "Tugas Bahasa Inggris #37 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "7BA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0037/view"
+  },
+  {
+    "id": "T0038",
+    "judul": "Tugas Bahasa Indonesia #38 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 RPL AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0038/view"
+  },
+  {
+    "id": "T0039",
+    "judul": "Tugas Pendidikan Pancasila #39 — Video Presentasi",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "12 TKR AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-04",
+    "lampiran": "https://drive.google.com/file/d/TGS0039/view"
+  },
+  {
+    "id": "T0040",
+    "judul": "Tugas IPA #40 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "8BE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0041",
+    "judul": "Tugas Informatika #41 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "8BI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0042",
+    "judul": "Tugas IPA #42 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "10 IPA AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-10",
+    "lampiran": "https://drive.google.com/file/d/TGS0042/view"
+  },
+  {
+    "id": "T0043",
+    "judul": "Tugas Informatika #43 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "3AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0044",
+    "judul": "Tugas Matematika #44 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "9AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0045",
+    "judul": "Tugas IPA #45 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "11 IPS AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": "https://drive.google.com/file/d/TGS0045/view"
+  },
+  {
+    "id": "T0046",
+    "judul": "Tugas Matematika #46 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "10 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0046/view"
+  },
+  {
+    "id": "T0047",
+    "judul": "Tugas Bahasa Inggris #47 — Laporan Praktikum",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 TKR AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0048",
+    "judul": "Tugas PJOK #48 — Laporan Praktikum",
+    "mapel": "PJOK",
+    "kelas": "4AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0049",
+    "judul": "Tugas IPS #49 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "7AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0049/view"
+  },
+  {
+    "id": "T0050",
+    "judul": "Tugas Bahasa Inggris #50 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "12 IPA AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0051",
+    "judul": "Tugas Bahasa Inggris #51 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "2AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0052",
+    "judul": "Tugas IPS #52 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "3AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0053",
+    "judul": "Tugas PJOK #53 — Laporan Praktikum",
+    "mapel": "PJOK",
+    "kelas": "4AU",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0054",
+    "judul": "Tugas Ekonomi #54 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "12 TKR AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0055",
+    "judul": "Tugas Matematika #55 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "9BB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0056",
+    "judul": "Tugas Pendidikan Pancasila #56 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "10 IPS AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": "https://drive.google.com/file/d/TGS0056/view"
+  },
+  {
+    "id": "T0057",
+    "judul": "Tugas Pendidikan Pancasila #57 — Analisis Teks",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "9AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-08",
+    "lampiran": "https://drive.google.com/file/d/TGS0057/view"
+  },
+  {
+    "id": "T0058",
+    "judul": "Tugas Seni Budaya #58 — Analisis Teks",
+    "mapel": "Seni Budaya",
+    "kelas": "11 DKV AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0059",
+    "judul": "Tugas IPA #59 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "5AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-03",
+    "lampiran": ""
+  },
+  {
+    "id": "T0060",
+    "judul": "Tugas Seni Budaya #60 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "11 DKV AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": ""
+  },
+  {
+    "id": "T0061",
+    "judul": "Tugas Bahasa Indonesia #61 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "9BC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-18",
+    "lampiran": ""
+  },
+  {
+    "id": "T0062",
+    "judul": "Tugas PJOK #62 — Laporan Praktikum",
+    "mapel": "PJOK",
+    "kelas": "12 Pemasaran AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0062/view"
+  },
+  {
+    "id": "T0063",
+    "judul": "Tugas Prakarya #63 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "12 TKJ AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0064",
+    "judul": "Tugas Seni Budaya #64 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "7BD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0065",
+    "judul": "Tugas PAI #65 — Analisis Teks",
+    "mapel": "PAI",
+    "kelas": "12 Pemasaran AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0066",
+    "judul": "Tugas Informatika #66 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "12 IPS AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0067",
+    "judul": "Tugas Informatika #67 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "12 TKJ AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0067/view"
+  },
+  {
+    "id": "T0068",
+    "judul": "Tugas Pendidikan Pancasila #68 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 Akuntansi AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": "https://drive.google.com/file/d/TGS0068/view"
+  },
+  {
+    "id": "T0069",
+    "judul": "Tugas Informatika #69 — Latihan Halaman",
+    "mapel": "Informatika",
+    "kelas": "5AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0070",
+    "judul": "Tugas Seni Budaya #70 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "11 Pemasaran AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0071",
+    "judul": "Tugas PJOK #71 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "8BG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0072",
+    "judul": "Tugas IPS #72 — Laporan Praktikum",
+    "mapel": "IPS",
+    "kelas": "1AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0073",
+    "judul": "Tugas Informatika #73 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "6AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-13",
+    "lampiran": "https://drive.google.com/file/d/TGS0073/view"
+  },
+  {
+    "id": "T0074",
+    "judul": "Tugas Prakarya #74 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "7AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0074/view"
+  },
+  {
+    "id": "T0075",
+    "judul": "Tugas PJOK #75 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "8BP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": ""
+  },
+  {
+    "id": "T0076",
+    "judul": "Tugas Informatika #76 — Latihan Halaman",
+    "mapel": "Informatika",
+    "kelas": "12 Akuntansi AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0076/view"
+  },
+  {
+    "id": "T0077",
+    "judul": "Tugas Bahasa Inggris #77 — Analisis Teks",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 IPS AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0077/view"
+  },
+  {
+    "id": "T0078",
+    "judul": "Tugas IPS #78 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "12 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0079",
+    "judul": "Tugas Ekonomi #79 — Poster Digital",
+    "mapel": "Ekonomi",
+    "kelas": "11 IPS AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0079/view"
+  },
+  {
+    "id": "T0080",
+    "judul": "Tugas Bahasa Indonesia #80 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "4AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0081",
+    "judul": "Tugas Matematika #81 — Video Presentasi",
+    "mapel": "Matematika",
+    "kelas": "9AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0082",
+    "judul": "Tugas Seni Budaya #82 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "8BS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0083",
+    "judul": "Tugas Bahasa Inggris #83 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "7AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0083/view"
+  },
+  {
+    "id": "T0084",
+    "judul": "Tugas Ekonomi #84 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "9AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0085",
+    "judul": "Tugas Matematika #85 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "11 Akuntansi AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0086",
+    "judul": "Tugas IPA #86 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "1AX",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0087",
+    "judul": "Tugas Prakarya #87 — Laporan Praktikum",
+    "mapel": "Prakarya",
+    "kelas": "1AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0088",
+    "judul": "Tugas Informatika #88 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "10 DKV AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0089",
+    "judul": "Tugas PJOK #89 — Video Presentasi",
+    "mapel": "PJOK",
+    "kelas": "11 IPS AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0090",
+    "judul": "Tugas PAI #90 — Analisis Teks",
+    "mapel": "PAI",
+    "kelas": "10 IPS AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0090/view"
+  },
+  {
+    "id": "T0091",
+    "judul": "Tugas IPA #91 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "3AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0092",
+    "judul": "Tugas Bahasa Inggris #92 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 DKV AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-26",
+    "lampiran": "https://drive.google.com/file/d/TGS0092/view"
+  },
+  {
+    "id": "T0093",
+    "judul": "Tugas Bahasa Indonesia #93 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 Pemasaran AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0094",
+    "judul": "Tugas IPA #94 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "12 IPS AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0095",
+    "judul": "Tugas IPS #95 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "1AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0096",
+    "judul": "Tugas PJOK #96 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "12 DKV AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": "https://drive.google.com/file/d/TGS0096/view"
+  },
+  {
+    "id": "T0097",
+    "judul": "Tugas IPA #97 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "11 IPA AY",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0098",
+    "judul": "Tugas PJOK #98 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "11 IPA AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0098/view"
+  },
+  {
+    "id": "T0099",
+    "judul": "Tugas IPS #99 — Laporan Praktikum",
+    "mapel": "IPS",
+    "kelas": "11 Akuntansi AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": "https://drive.google.com/file/d/TGS0099/view"
+  },
+  {
+    "id": "T0100",
+    "judul": "Tugas PAI #100 — Analisis Teks",
+    "mapel": "PAI",
+    "kelas": "11 Akuntansi AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0101",
+    "judul": "Tugas PAI #101 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "12 TKR AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0102",
+    "judul": "Tugas Seni Budaya #102 — Laporan Praktikum",
+    "mapel": "Seni Budaya",
+    "kelas": "12 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0103",
+    "judul": "Tugas Pendidikan Pancasila #103 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "4AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0104",
+    "judul": "Tugas Prakarya #104 — Latihan Halaman",
+    "mapel": "Prakarya",
+    "kelas": "11 IPS AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-12",
+    "lampiran": "https://drive.google.com/file/d/TGS0104/view"
+  },
+  {
+    "id": "T0105",
+    "judul": "Tugas PAI #105 — Analisis Teks",
+    "mapel": "PAI",
+    "kelas": "9AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0106",
+    "judul": "Tugas Seni Budaya #106 — Analisis Teks",
+    "mapel": "Seni Budaya",
+    "kelas": "10 IPS AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0107",
+    "judul": "Tugas Prakarya #107 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "8AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0108",
+    "judul": "Tugas IPS #108 — Analisis Teks",
+    "mapel": "IPS",
+    "kelas": "11 TKJ AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0109",
+    "judul": "Tugas PJOK #109 — Video Presentasi",
+    "mapel": "PJOK",
+    "kelas": "4AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": "https://drive.google.com/file/d/TGS0109/view"
+  },
+  {
+    "id": "T0110",
+    "judul": "Tugas Bahasa Indonesia #110 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPA AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0111",
+    "judul": "Tugas Bahasa Indonesia #111 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "10 IPA AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": ""
+  },
+  {
+    "id": "T0112",
+    "judul": "Tugas Bahasa Indonesia #112 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "2AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0113",
+    "judul": "Tugas PAI #113 — Latihan Halaman",
+    "mapel": "PAI",
+    "kelas": "12 RPL AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-09",
+    "lampiran": "https://drive.google.com/file/d/TGS0113/view"
+  },
+  {
+    "id": "T0114",
+    "judul": "Tugas IPA #114 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "1AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": ""
+  },
+  {
+    "id": "T0115",
+    "judul": "Tugas Bahasa Indonesia #115 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "10 Akuntansi AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0116",
+    "judul": "Tugas Prakarya #116 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "12 IPA AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0117",
+    "judul": "Tugas Bahasa Indonesia #117 — Analisis Teks",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "6AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0118",
+    "judul": "Tugas Bahasa Indonesia #118 — Analisis Teks",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "7BB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0119",
+    "judul": "Tugas Informatika #119 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "8AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0120",
+    "judul": "Tugas PAI #120 — Poster Digital",
+    "mapel": "PAI",
+    "kelas": "6AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0121",
+    "judul": "Tugas Informatika #121 — Latihan Halaman",
+    "mapel": "Informatika",
+    "kelas": "8BA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0121/view"
+  },
+  {
+    "id": "T0122",
+    "judul": "Tugas Seni Budaya #122 — Laporan Praktikum",
+    "mapel": "Seni Budaya",
+    "kelas": "1AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0122/view"
+  },
+  {
+    "id": "T0123",
+    "judul": "Tugas Bahasa Indonesia #123 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "9AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0124",
+    "judul": "Tugas Ekonomi #124 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "12 IPA AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-14",
+    "lampiran": "https://drive.google.com/file/d/TGS0124/view"
+  },
+  {
+    "id": "T0125",
+    "judul": "Tugas IPS #125 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "11 IPS AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0126",
+    "judul": "Tugas Ekonomi #126 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "11 IPA AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0126/view"
+  },
+  {
+    "id": "T0127",
+    "judul": "Tugas Bahasa Indonesia #127 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "2AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0128",
+    "judul": "Tugas Prakarya #128 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "10 Pemasaran AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0129",
+    "judul": "Tugas Prakarya #129 — Laporan Praktikum",
+    "mapel": "Prakarya",
+    "kelas": "8AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0130",
+    "judul": "Tugas Matematika #130 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "12 RPL AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0130/view"
+  },
+  {
+    "id": "T0131",
+    "judul": "Tugas IPA #131 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "11 IPS AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-17",
+    "lampiran": ""
+  },
+  {
+    "id": "T0132",
+    "judul": "Tugas Ekonomi #132 — Laporan Praktikum",
+    "mapel": "Ekonomi",
+    "kelas": "6AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0133",
+    "judul": "Tugas Matematika #133 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "3AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0134",
+    "judul": "Tugas Matematika #134 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "12 Akuntansi AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0135",
+    "judul": "Tugas Ekonomi #135 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "8AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0136",
+    "judul": "Tugas Matematika #136 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "11 RPL AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0136/view"
+  },
+  {
+    "id": "T0137",
+    "judul": "Tugas Informatika #137 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "7BI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0138",
+    "judul": "Tugas PJOK #138 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "10 IPS AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0139",
+    "judul": "Tugas Informatika #139 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "6AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-17",
+    "lampiran": ""
+  },
+  {
+    "id": "T0140",
+    "judul": "Tugas IPS #140 — Analisis Teks",
+    "mapel": "IPS",
+    "kelas": "9AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0141",
+    "judul": "Tugas Prakarya #141 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "8BT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0141/view"
+  },
+  {
+    "id": "T0142",
+    "judul": "Tugas PJOK #142 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "1AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0143",
+    "judul": "Tugas Prakarya #143 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "4AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0144",
+    "judul": "Tugas Pendidikan Pancasila #144 — Analisis Teks",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "12 DKV AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0145",
+    "judul": "Tugas Ekonomi #145 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "8AZ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0146",
+    "judul": "Tugas Matematika #146 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "7AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-11",
+    "lampiran": "https://drive.google.com/file/d/TGS0146/view"
+  },
+  {
+    "id": "T0147",
+    "judul": "Tugas IPA #147 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "10 IPS AW",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0148",
+    "judul": "Tugas Bahasa Inggris #148 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "8BC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-13",
+    "lampiran": "https://drive.google.com/file/d/TGS0148/view"
+  },
+  {
+    "id": "T0149",
+    "judul": "Tugas PJOK #149 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "12 DKV AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0150",
+    "judul": "Tugas Bahasa Indonesia #150 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "9BI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0151",
+    "judul": "Tugas Seni Budaya #151 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "10 IPS AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0152",
+    "judul": "Tugas PAI #152 — Analisis Teks",
+    "mapel": "PAI",
+    "kelas": "9AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-03",
+    "lampiran": "https://drive.google.com/file/d/TGS0152/view"
+  },
+  {
+    "id": "T0153",
+    "judul": "Tugas Bahasa Inggris #153 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "4AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": "https://drive.google.com/file/d/TGS0153/view"
+  },
+  {
+    "id": "T0154",
+    "judul": "Tugas Bahasa Indonesia #154 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "8AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": "https://drive.google.com/file/d/TGS0154/view"
+  },
+  {
+    "id": "T0155",
+    "judul": "Tugas IPA #155 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "4AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0156",
+    "judul": "Tugas Ekonomi #156 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "12 TKR AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0157",
+    "judul": "Tugas Bahasa Indonesia #157 — Analisis Teks",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 IPS AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": "https://drive.google.com/file/d/TGS0157/view"
+  },
+  {
+    "id": "T0158",
+    "judul": "Tugas IPA #158 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "9AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0159",
+    "judul": "Tugas PJOK #159 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "12 Pemasaran AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0160",
+    "judul": "Tugas IPS #160 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "12 Akuntansi AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0161",
+    "judul": "Tugas IPS #161 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "9BB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-30",
+    "lampiran": "https://drive.google.com/file/d/TGS0161/view"
+  },
+  {
+    "id": "T0162",
+    "judul": "Tugas IPS #162 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "10 Akuntansi AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": "https://drive.google.com/file/d/TGS0162/view"
+  },
+  {
+    "id": "T0163",
+    "judul": "Tugas Prakarya #163 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "8AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0164",
+    "judul": "Tugas Seni Budaya #164 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "8BI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0164/view"
+  },
+  {
+    "id": "T0165",
+    "judul": "Tugas Prakarya #165 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "11 TKR AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0166",
+    "judul": "Tugas IPS #166 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "2AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0167",
+    "judul": "Tugas Pendidikan Pancasila #167 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "10 IPA AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-17",
+    "lampiran": "https://drive.google.com/file/d/TGS0167/view"
+  },
+  {
+    "id": "T0168",
+    "judul": "Tugas Pendidikan Pancasila #168 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "10 IPA AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0169",
+    "judul": "Tugas PAI #169 — Latihan Halaman",
+    "mapel": "PAI",
+    "kelas": "7AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0170",
+    "judul": "Tugas Prakarya #170 — Latihan Halaman",
+    "mapel": "Prakarya",
+    "kelas": "11 IPS AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0171",
+    "judul": "Tugas Matematika #171 — Latihan Halaman",
+    "mapel": "Matematika",
+    "kelas": "12 IPS AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-03",
+    "lampiran": ""
+  },
+  {
+    "id": "T0172",
+    "judul": "Tugas Pendidikan Pancasila #172 — Poster Digital",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 RPL AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0172/view"
+  },
+  {
+    "id": "T0173",
+    "judul": "Tugas IPA #173 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "7BF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-26",
+    "lampiran": ""
+  },
+  {
+    "id": "T0174",
+    "judul": "Tugas Informatika #174 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "11 IPA AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0175",
+    "judul": "Tugas Ekonomi #175 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "11 IPA AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0175/view"
+  },
+  {
+    "id": "T0176",
+    "judul": "Tugas Seni Budaya #176 — Poster Digital",
+    "mapel": "Seni Budaya",
+    "kelas": "12 TKR AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-04",
+    "lampiran": "https://drive.google.com/file/d/TGS0176/view"
+  },
+  {
+    "id": "T0177",
+    "judul": "Tugas Bahasa Indonesia #177 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "8AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0178",
+    "judul": "Tugas Informatika #178 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "10 IPA AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": "https://drive.google.com/file/d/TGS0178/view"
+  },
+  {
+    "id": "T0179",
+    "judul": "Tugas PJOK #179 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "4AW",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0180",
+    "judul": "Tugas Informatika #180 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "2AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0181",
+    "judul": "Tugas Ekonomi #181 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "7AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": "https://drive.google.com/file/d/TGS0181/view"
+  },
+  {
+    "id": "T0182",
+    "judul": "Tugas PAI #182 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "3AU",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-29",
+    "lampiran": "https://drive.google.com/file/d/TGS0182/view"
+  },
+  {
+    "id": "T0183",
+    "judul": "Tugas PAI #183 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "9BI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0184",
+    "judul": "Tugas PAI #184 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "10 IPA AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0185",
+    "judul": "Tugas Bahasa Indonesia #185 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0186",
+    "judul": "Tugas Seni Budaya #186 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "8AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0187",
+    "judul": "Tugas Bahasa Indonesia #187 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "9AZ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0187/view"
+  },
+  {
+    "id": "T0188",
+    "judul": "Tugas Matematika #188 — Video Presentasi",
+    "mapel": "Matematika",
+    "kelas": "7AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0189",
+    "judul": "Tugas IPA #189 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "3AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": "https://drive.google.com/file/d/TGS0189/view"
+  },
+  {
+    "id": "T0190",
+    "judul": "Tugas Ekonomi #190 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "1AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-09",
+    "lampiran": "https://drive.google.com/file/d/TGS0190/view"
+  },
+  {
+    "id": "T0191",
+    "judul": "Tugas PAI #191 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "11 DKV AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0192",
+    "judul": "Tugas Informatika #192 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "8AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0193",
+    "judul": "Tugas Bahasa Indonesia #193 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "7AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0194",
+    "judul": "Tugas IPS #194 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "12 TKR AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": "https://drive.google.com/file/d/TGS0194/view"
+  },
+  {
+    "id": "T0195",
+    "judul": "Tugas Prakarya #195 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "8AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-28",
+    "lampiran": "https://drive.google.com/file/d/TGS0195/view"
+  },
+  {
+    "id": "T0196",
+    "judul": "Tugas PJOK #196 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "10 IPS AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0197",
+    "judul": "Tugas PJOK #197 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "4AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0198",
+    "judul": "Tugas IPA #198 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "4AY",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0199",
+    "judul": "Tugas Prakarya #199 — Laporan Praktikum",
+    "mapel": "Prakarya",
+    "kelas": "11 IPA AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0200",
+    "judul": "Tugas Prakarya #200 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "7AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-24",
+    "lampiran": "https://drive.google.com/file/d/TGS0200/view"
+  },
+  {
+    "id": "T0201",
+    "judul": "Tugas PAI #201 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "7BH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0202",
+    "judul": "Tugas PAI #202 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "7AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0203",
+    "judul": "Tugas Matematika #203 — Latihan Halaman",
+    "mapel": "Matematika",
+    "kelas": "8AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-24",
+    "lampiran": "https://drive.google.com/file/d/TGS0203/view"
+  },
+  {
+    "id": "T0204",
+    "judul": "Tugas PAI #204 — Analisis Teks",
+    "mapel": "PAI",
+    "kelas": "1AX",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0205",
+    "judul": "Tugas Bahasa Inggris #205 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "12 IPA AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0205/view"
+  },
+  {
+    "id": "T0206",
+    "judul": "Tugas IPS #206 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "10 Pemasaran AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0207",
+    "judul": "Tugas Seni Budaya #207 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "12 DKV AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0207/view"
+  },
+  {
+    "id": "T0208",
+    "judul": "Tugas Bahasa Indonesia #208 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 IPS AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0208/view"
+  },
+  {
+    "id": "T0209",
+    "judul": "Tugas Ekonomi #209 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "12 DKV AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": "https://drive.google.com/file/d/TGS0209/view"
+  },
+  {
+    "id": "T0210",
+    "judul": "Tugas Matematika #210 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "12 IPS AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0210/view"
+  },
+  {
+    "id": "T0211",
+    "judul": "Tugas IPA #211 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "7AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": "https://drive.google.com/file/d/TGS0211/view"
+  },
+  {
+    "id": "T0212",
+    "judul": "Tugas IPA #212 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "9AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0212/view"
+  },
+  {
+    "id": "T0213",
+    "judul": "Tugas IPS #213 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "10 IPA AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": "https://drive.google.com/file/d/TGS0213/view"
+  },
+  {
+    "id": "T0214",
+    "judul": "Tugas PJOK #214 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "12 RPL AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-07",
+    "lampiran": "https://drive.google.com/file/d/TGS0214/view"
+  },
+  {
+    "id": "T0215",
+    "judul": "Tugas Ekonomi #215 — Poster Digital",
+    "mapel": "Ekonomi",
+    "kelas": "3AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0216",
+    "judul": "Tugas IPA #216 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "4AW",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0217",
+    "judul": "Tugas Bahasa Inggris #217 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "3AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-17",
+    "lampiran": ""
+  },
+  {
+    "id": "T0218",
+    "judul": "Tugas Bahasa Indonesia #218 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "6AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0219",
+    "judul": "Tugas Bahasa Indonesia #219 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "4AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0220",
+    "judul": "Tugas PAI #220 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "9AW",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": ""
+  },
+  {
+    "id": "T0221",
+    "judul": "Tugas Matematika #221 — Latihan Halaman",
+    "mapel": "Matematika",
+    "kelas": "11 IPS AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0221/view"
+  },
+  {
+    "id": "T0222",
+    "judul": "Tugas Pendidikan Pancasila #222 — Latihan Halaman",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "7AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-24",
+    "lampiran": "https://drive.google.com/file/d/TGS0222/view"
+  },
+  {
+    "id": "T0223",
+    "judul": "Tugas Seni Budaya #223 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "11 IPS AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-03",
+    "lampiran": ""
+  },
+  {
+    "id": "T0224",
+    "judul": "Tugas Bahasa Inggris #224 — Laporan Praktikum",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 IPA AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0225",
+    "judul": "Tugas PAI #225 — Poster Digital",
+    "mapel": "PAI",
+    "kelas": "10 TKR AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0226",
+    "judul": "Tugas PJOK #226 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "7BC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0227",
+    "judul": "Tugas PJOK #227 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "7AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0228",
+    "judul": "Tugas Informatika #228 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "11 RPL AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0229",
+    "judul": "Tugas Seni Budaya #229 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "8AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0230",
+    "judul": "Tugas Bahasa Indonesia #230 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 Akuntansi AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0230/view"
+  },
+  {
+    "id": "T0231",
+    "judul": "Tugas IPA #231 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "11 IPA AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0232",
+    "judul": "Tugas Prakarya #232 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "1AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-24",
+    "lampiran": "https://drive.google.com/file/d/TGS0232/view"
+  },
+  {
+    "id": "T0233",
+    "judul": "Tugas Informatika #233 — Latihan Halaman",
+    "mapel": "Informatika",
+    "kelas": "8AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0234",
+    "judul": "Tugas Informatika #234 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "7AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0234/view"
+  },
+  {
+    "id": "T0235",
+    "judul": "Tugas IPA #235 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "8AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0236",
+    "judul": "Tugas Prakarya #236 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "3AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0237",
+    "judul": "Tugas IPS #237 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "12 IPS AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0238",
+    "judul": "Tugas Seni Budaya #238 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "10 RPL AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0239",
+    "judul": "Tugas PJOK #239 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "9BL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": "https://drive.google.com/file/d/TGS0239/view"
+  },
+  {
+    "id": "T0240",
+    "judul": "Tugas PJOK #240 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "12 IPA AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": "https://drive.google.com/file/d/TGS0240/view"
+  },
+  {
+    "id": "T0241",
+    "judul": "Tugas Bahasa Indonesia #241 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 TKJ AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-11",
+    "lampiran": "https://drive.google.com/file/d/TGS0241/view"
+  },
+  {
+    "id": "T0242",
+    "judul": "Tugas Pendidikan Pancasila #242 — Video Presentasi",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 IPS AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-13",
+    "lampiran": "https://drive.google.com/file/d/TGS0242/view"
+  },
+  {
+    "id": "T0243",
+    "judul": "Tugas Seni Budaya #243 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "11 IPS AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0244",
+    "judul": "Tugas Bahasa Inggris #244 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 IPS AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0245",
+    "judul": "Tugas Bahasa Indonesia #245 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 Pemasaran AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0245/view"
+  },
+  {
+    "id": "T0246",
+    "judul": "Tugas Informatika #246 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "8AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0247",
+    "judul": "Tugas Bahasa Inggris #247 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 IPS AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0248",
+    "judul": "Tugas IPS #248 — Laporan Praktikum",
+    "mapel": "IPS",
+    "kelas": "6AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0248/view"
+  },
+  {
+    "id": "T0249",
+    "judul": "Tugas Ekonomi #249 — Poster Digital",
+    "mapel": "Ekonomi",
+    "kelas": "6AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": "https://drive.google.com/file/d/TGS0249/view"
+  },
+  {
+    "id": "T0250",
+    "judul": "Tugas Pendidikan Pancasila #250 — Laporan Praktikum",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "7BA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0250/view"
+  },
+  {
+    "id": "T0251",
+    "judul": "Tugas Bahasa Indonesia #251 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPS AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0252",
+    "judul": "Tugas IPA #252 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "11 TKJ AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0253",
+    "judul": "Tugas PJOK #253 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "5AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0254",
+    "judul": "Tugas PJOK #254 — Laporan Praktikum",
+    "mapel": "PJOK",
+    "kelas": "11 IPS AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0255",
+    "judul": "Tugas IPS #255 — Laporan Praktikum",
+    "mapel": "IPS",
+    "kelas": "3AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0256",
+    "judul": "Tugas Bahasa Inggris #256 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "9AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0257",
+    "judul": "Tugas IPA #257 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "2AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0257/view"
+  },
+  {
+    "id": "T0258",
+    "judul": "Tugas Prakarya #258 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "11 IPA AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0259",
+    "judul": "Tugas Prakarya #259 — Latihan Halaman",
+    "mapel": "Prakarya",
+    "kelas": "12 DKV AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0260",
+    "judul": "Tugas IPA #260 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "8AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": "https://drive.google.com/file/d/TGS0260/view"
+  },
+  {
+    "id": "T0261",
+    "judul": "Tugas Prakarya #261 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "7AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0262",
+    "judul": "Tugas PJOK #262 — Video Presentasi",
+    "mapel": "PJOK",
+    "kelas": "10 IPS AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0263",
+    "judul": "Tugas Bahasa Indonesia #263 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "4AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0264",
+    "judul": "Tugas IPA #264 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "1AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0264/view"
+  },
+  {
+    "id": "T0265",
+    "judul": "Tugas Seni Budaya #265 — Poster Digital",
+    "mapel": "Seni Budaya",
+    "kelas": "5AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-04",
+    "lampiran": "https://drive.google.com/file/d/TGS0265/view"
+  },
+  {
+    "id": "T0266",
+    "judul": "Tugas PAI #266 — Latihan Halaman",
+    "mapel": "PAI",
+    "kelas": "4AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": ""
+  },
+  {
+    "id": "T0267",
+    "judul": "Tugas Matematika #267 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "9BJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-24",
+    "lampiran": "https://drive.google.com/file/d/TGS0267/view"
+  },
+  {
+    "id": "T0268",
+    "judul": "Tugas Bahasa Indonesia #268 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPA AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": ""
+  },
+  {
+    "id": "T0269",
+    "judul": "Tugas Bahasa Inggris #269 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 IPA AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0270",
+    "judul": "Tugas Bahasa Indonesia #270 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPA AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0271",
+    "judul": "Tugas Matematika #271 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "1AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0272",
+    "judul": "Tugas PJOK #272 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "9AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": ""
+  },
+  {
+    "id": "T0273",
+    "judul": "Tugas IPA #273 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "9BB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": "https://drive.google.com/file/d/TGS0273/view"
+  },
+  {
+    "id": "T0274",
+    "judul": "Tugas IPA #274 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "12 Akuntansi AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0275",
+    "judul": "Tugas Prakarya #275 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "12 DKV AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0276",
+    "judul": "Tugas PAI #276 — Latihan Halaman",
+    "mapel": "PAI",
+    "kelas": "11 IPA AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0277",
+    "judul": "Tugas Bahasa Inggris #277 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 IPA AZ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0278",
+    "judul": "Tugas Prakarya #278 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "8AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0279",
+    "judul": "Tugas PJOK #279 — Video Presentasi",
+    "mapel": "PJOK",
+    "kelas": "4AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0279/view"
+  },
+  {
+    "id": "T0280",
+    "judul": "Tugas Bahasa Inggris #280 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "12 RPL AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0281",
+    "judul": "Tugas PAI #281 — Latihan Halaman",
+    "mapel": "PAI",
+    "kelas": "1AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0282",
+    "judul": "Tugas IPS #282 — Analisis Teks",
+    "mapel": "IPS",
+    "kelas": "11 IPA AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0283",
+    "judul": "Tugas Matematika #283 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "7AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0284",
+    "judul": "Tugas IPA #284 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "12 IPA AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0285",
+    "judul": "Tugas Informatika #285 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "1AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0285/view"
+  },
+  {
+    "id": "T0286",
+    "judul": "Tugas Prakarya #286 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "12 DKV AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0287",
+    "judul": "Tugas IPS #287 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "11 IPS AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-05",
+    "lampiran": "https://drive.google.com/file/d/TGS0287/view"
+  },
+  {
+    "id": "T0288",
+    "judul": "Tugas Prakarya #288 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "12 TKR AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0288/view"
+  },
+  {
+    "id": "T0289",
+    "judul": "Tugas Prakarya #289 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "10 IPS AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0289/view"
+  },
+  {
+    "id": "T0290",
+    "judul": "Tugas PJOK #290 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "8BE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": ""
+  },
+  {
+    "id": "T0291",
+    "judul": "Tugas Bahasa Inggris #291 — Laporan Praktikum",
+    "mapel": "Bahasa Inggris",
+    "kelas": "8AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0291/view"
+  },
+  {
+    "id": "T0292",
+    "judul": "Tugas Matematika #292 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "8AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0293",
+    "judul": "Tugas Bahasa Indonesia #293 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "1AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0294",
+    "judul": "Tugas Ekonomi #294 — Laporan Praktikum",
+    "mapel": "Ekonomi",
+    "kelas": "9AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0294/view"
+  },
+  {
+    "id": "T0295",
+    "judul": "Tugas Prakarya #295 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "11 IPS AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0296",
+    "judul": "Tugas PAI #296 — Poster Digital",
+    "mapel": "PAI",
+    "kelas": "8AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0297",
+    "judul": "Tugas Pendidikan Pancasila #297 — Poster Digital",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 DKV AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0298",
+    "judul": "Tugas Bahasa Inggris #298 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "4AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0299",
+    "judul": "Tugas Ekonomi #299 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "9AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-29",
+    "lampiran": "https://drive.google.com/file/d/TGS0299/view"
+  },
+  {
+    "id": "T0300",
+    "judul": "Tugas Bahasa Indonesia #300 — Analisis Teks",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "6AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0300/view"
+  },
+  {
+    "id": "T0301",
+    "judul": "Tugas Informatika #301 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "12 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0302",
+    "judul": "Tugas Bahasa Indonesia #302 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "9AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0302/view"
+  },
+  {
+    "id": "T0303",
+    "judul": "Tugas Seni Budaya #303 — Poster Digital",
+    "mapel": "Seni Budaya",
+    "kelas": "11 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0304",
+    "judul": "Tugas Prakarya #304 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "7AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0305",
+    "judul": "Tugas Bahasa Indonesia #305 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "6AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0306",
+    "judul": "Tugas Bahasa Indonesia #306 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 IPA AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0307",
+    "judul": "Tugas IPA #307 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "10 IPS AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0308",
+    "judul": "Tugas Seni Budaya #308 — Poster Digital",
+    "mapel": "Seni Budaya",
+    "kelas": "2AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0309",
+    "judul": "Tugas Bahasa Indonesia #309 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "5AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0310",
+    "judul": "Tugas PJOK #310 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "1AW",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0311",
+    "judul": "Tugas Informatika #311 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "12 RPL AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0312",
+    "judul": "Tugas PJOK #312 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "11 IPA AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0313",
+    "judul": "Tugas Bahasa Inggris #313 — Laporan Praktikum",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 IPA AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0314",
+    "judul": "Tugas IPA #314 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "12 RPL AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0315",
+    "judul": "Tugas Informatika #315 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "3AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0316",
+    "judul": "Tugas IPA #316 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "11 IPS AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": "https://drive.google.com/file/d/TGS0316/view"
+  },
+  {
+    "id": "T0317",
+    "judul": "Tugas Prakarya #317 — Laporan Praktikum",
+    "mapel": "Prakarya",
+    "kelas": "8AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-03",
+    "lampiran": ""
+  },
+  {
+    "id": "T0318",
+    "judul": "Tugas Bahasa Indonesia #318 — Analisis Teks",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 TKR AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0319",
+    "judul": "Tugas IPS #319 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "12 IPA AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0320",
+    "judul": "Tugas Matematika #320 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "12 Akuntansi AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0321",
+    "judul": "Tugas IPA #321 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "6AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0322",
+    "judul": "Tugas Ekonomi #322 — Poster Digital",
+    "mapel": "Ekonomi",
+    "kelas": "12 Pemasaran AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": "https://drive.google.com/file/d/TGS0322/view"
+  },
+  {
+    "id": "T0323",
+    "judul": "Tugas PAI #323 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "3AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0324",
+    "judul": "Tugas Seni Budaya #324 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "10 Pemasaran AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0325",
+    "judul": "Tugas IPS #325 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "3AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0326",
+    "judul": "Tugas Prakarya #326 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "11 IPS AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-22",
+    "lampiran": "https://drive.google.com/file/d/TGS0326/view"
+  },
+  {
+    "id": "T0327",
+    "judul": "Tugas Informatika #327 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "9BG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": "https://drive.google.com/file/d/TGS0327/view"
+  },
+  {
+    "id": "T0328",
+    "judul": "Tugas IPS #328 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "1AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0329",
+    "judul": "Tugas PAI #329 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "10 TKR AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0330",
+    "judul": "Tugas Informatika #330 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "1AX",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0330/view"
+  },
+  {
+    "id": "T0331",
+    "judul": "Tugas PJOK #331 — Video Presentasi",
+    "mapel": "PJOK",
+    "kelas": "12 IPA AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0332",
+    "judul": "Tugas IPS #332 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "11 DKV AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0333",
+    "judul": "Tugas PJOK #333 — Video Presentasi",
+    "mapel": "PJOK",
+    "kelas": "5AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-05",
+    "lampiran": "https://drive.google.com/file/d/TGS0333/view"
+  },
+  {
+    "id": "T0334",
+    "judul": "Tugas IPS #334 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "1AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-09",
+    "lampiran": "https://drive.google.com/file/d/TGS0334/view"
+  },
+  {
+    "id": "T0335",
+    "judul": "Tugas Matematika #335 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "4AU",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-10",
+    "lampiran": ""
+  },
+  {
+    "id": "T0336",
+    "judul": "Tugas Prakarya #336 — Laporan Praktikum",
+    "mapel": "Prakarya",
+    "kelas": "10 TKJ AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0336/view"
+  },
+  {
+    "id": "T0337",
+    "judul": "Tugas Pendidikan Pancasila #337 — Laporan Praktikum",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "10 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0338",
+    "judul": "Tugas Ekonomi #338 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "11 IPA AU",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0339",
+    "judul": "Tugas Bahasa Inggris #339 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 DKV AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0340",
+    "judul": "Tugas IPS #340 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "3AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0341",
+    "judul": "Tugas Informatika #341 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "4AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-16",
+    "lampiran": ""
+  },
+  {
+    "id": "T0342",
+    "judul": "Tugas Bahasa Inggris #342 — Video Presentasi",
+    "mapel": "Bahasa Inggris",
+    "kelas": "3AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0342/view"
+  },
+  {
+    "id": "T0343",
+    "judul": "Tugas Bahasa Inggris #343 — Laporan Praktikum",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 IPA AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": "https://drive.google.com/file/d/TGS0343/view"
+  },
+  {
+    "id": "T0344",
+    "judul": "Tugas Pendidikan Pancasila #344 — Analisis Teks",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "12 IPS AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0345",
+    "judul": "Tugas Seni Budaya #345 — Latihan Halaman",
+    "mapel": "Seni Budaya",
+    "kelas": "8AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0346",
+    "judul": "Tugas Seni Budaya #346 — Analisis Teks",
+    "mapel": "Seni Budaya",
+    "kelas": "8BB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0347",
+    "judul": "Tugas Bahasa Indonesia #347 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 RPL AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0348",
+    "judul": "Tugas Ekonomi #348 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "3AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0349",
+    "judul": "Tugas IPS #349 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "1AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0350",
+    "judul": "Tugas Matematika #350 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "10 IPA AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0351",
+    "judul": "Tugas Pendidikan Pancasila #351 — Laporan Praktikum",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "10 RPL AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0352",
+    "judul": "Tugas Ekonomi #352 — Latihan Halaman",
+    "mapel": "Ekonomi",
+    "kelas": "7AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0353",
+    "judul": "Tugas IPS #353 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "5AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0354",
+    "judul": "Tugas Matematika #354 — Video Presentasi",
+    "mapel": "Matematika",
+    "kelas": "1AY",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0355",
+    "judul": "Tugas Bahasa Indonesia #355 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 Akuntansi AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-26",
+    "lampiran": "https://drive.google.com/file/d/TGS0355/view"
+  },
+  {
+    "id": "T0356",
+    "judul": "Tugas Informatika #356 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "5AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-07",
+    "lampiran": ""
+  },
+  {
+    "id": "T0357",
+    "judul": "Tugas Ekonomi #357 — Laporan Praktikum",
+    "mapel": "Ekonomi",
+    "kelas": "11 TKJ AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-26",
+    "lampiran": ""
+  },
+  {
+    "id": "T0358",
+    "judul": "Tugas IPS #358 — Analisis Teks",
+    "mapel": "IPS",
+    "kelas": "10 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0359",
+    "judul": "Tugas PJOK #359 — Laporan Praktikum",
+    "mapel": "PJOK",
+    "kelas": "12 TKJ AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0360",
+    "judul": "Tugas PJOK #360 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "12 DKV AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-26",
+    "lampiran": "https://drive.google.com/file/d/TGS0360/view"
+  },
+  {
+    "id": "T0361",
+    "judul": "Tugas PAI #361 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "12 TKR AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0362",
+    "judul": "Tugas Ekonomi #362 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "10 RPL AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-20",
+    "lampiran": "https://drive.google.com/file/d/TGS0362/view"
+  },
+  {
+    "id": "T0363",
+    "judul": "Tugas Bahasa Inggris #363 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "9BE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0364",
+    "judul": "Tugas Bahasa Indonesia #364 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "7BD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0365",
+    "judul": "Tugas Bahasa Indonesia #365 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "1AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-03",
+    "lampiran": "https://drive.google.com/file/d/TGS0365/view"
+  },
+  {
+    "id": "T0366",
+    "judul": "Tugas Bahasa Inggris #366 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "10 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0367",
+    "judul": "Tugas Ekonomi #367 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "6AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0367/view"
+  },
+  {
+    "id": "T0368",
+    "judul": "Tugas Ekonomi #368 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "10 TKR AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0369",
+    "judul": "Tugas Pendidikan Pancasila #369 — Analisis Teks",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "10 TKJ AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0369/view"
+  },
+  {
+    "id": "T0370",
+    "judul": "Tugas Bahasa Inggris #370 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "12 Pemasaran AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-15",
+    "lampiran": "https://drive.google.com/file/d/TGS0370/view"
+  },
+  {
+    "id": "T0371",
+    "judul": "Tugas Seni Budaya #371 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "11 RPL AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-26",
+    "lampiran": ""
+  },
+  {
+    "id": "T0372",
+    "judul": "Tugas IPS #372 — Laporan Praktikum",
+    "mapel": "IPS",
+    "kelas": "12 IPS AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0373",
+    "judul": "Tugas Prakarya #373 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "11 IPS AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-09",
+    "lampiran": "https://drive.google.com/file/d/TGS0373/view"
+  },
+  {
+    "id": "T0374",
+    "judul": "Tugas Pendidikan Pancasila #374 — Poster Digital",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "5AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0375",
+    "judul": "Tugas Prakarya #375 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "10 Akuntansi AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0375/view"
+  },
+  {
+    "id": "T0376",
+    "judul": "Tugas Pendidikan Pancasila #376 — Video Presentasi",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "6AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-03",
+    "lampiran": ""
+  },
+  {
+    "id": "T0377",
+    "judul": "Tugas Bahasa Indonesia #377 — Laporan Praktikum",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 Pemasaran AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-17",
+    "lampiran": ""
+  },
+  {
+    "id": "T0378",
+    "judul": "Tugas Bahasa Inggris #378 — Laporan Praktikum",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 IPA AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0379",
+    "judul": "Tugas Ekonomi #379 — Poster Digital",
+    "mapel": "Ekonomi",
+    "kelas": "10 IPA AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-31",
+    "lampiran": ""
+  },
+  {
+    "id": "T0380",
+    "judul": "Tugas Prakarya #380 — Laporan Praktikum",
+    "mapel": "Prakarya",
+    "kelas": "6AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0381",
+    "judul": "Tugas Matematika #381 — Video Presentasi",
+    "mapel": "Matematika",
+    "kelas": "11 IPS AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0382",
+    "judul": "Tugas Matematika #382 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "4AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-03",
+    "lampiran": "https://drive.google.com/file/d/TGS0382/view"
+  },
+  {
+    "id": "T0383",
+    "judul": "Tugas Bahasa Indonesia #383 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPA AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0384",
+    "judul": "Tugas PAI #384 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "10 RPL AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0385",
+    "judul": "Tugas IPA #385 — Video Presentasi",
+    "mapel": "IPA",
+    "kelas": "10 Pemasaran AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0386",
+    "judul": "Tugas Informatika #386 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "10 DKV AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-26",
+    "lampiran": ""
+  },
+  {
+    "id": "T0387",
+    "judul": "Tugas PAI #387 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "11 IPS AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-21",
+    "lampiran": ""
+  },
+  {
+    "id": "T0388",
+    "judul": "Tugas Prakarya #388 — Latihan Halaman",
+    "mapel": "Prakarya",
+    "kelas": "3AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": "https://drive.google.com/file/d/TGS0388/view"
+  },
+  {
+    "id": "T0389",
+    "judul": "Tugas IPA #389 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "9BM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0390",
+    "judul": "Tugas IPS #390 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "10 DKV AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-09",
+    "lampiran": "https://drive.google.com/file/d/TGS0390/view"
+  },
+  {
+    "id": "T0391",
+    "judul": "Tugas Matematika #391 — Latihan Halaman",
+    "mapel": "Matematika",
+    "kelas": "1AY",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0392",
+    "judul": "Tugas Pendidikan Pancasila #392 — Laporan Praktikum",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 IPS AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0393",
+    "judul": "Tugas Seni Budaya #393 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "4AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0394",
+    "judul": "Tugas Seni Budaya #394 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "10 TKR AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-05",
+    "lampiran": ""
+  },
+  {
+    "id": "T0395",
+    "judul": "Tugas Bahasa Inggris #395 — Analisis Teks",
+    "mapel": "Bahasa Inggris",
+    "kelas": "6AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0396",
+    "judul": "Tugas Bahasa Indonesia #396 — Latihan Halaman",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPA AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0397",
+    "judul": "Tugas Bahasa Indonesia #397 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "12 DKV AJ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-11",
+    "lampiran": "https://drive.google.com/file/d/TGS0397/view"
+  },
+  {
+    "id": "T0398",
+    "judul": "Tugas IPA #398 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "11 RPL AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": "https://drive.google.com/file/d/TGS0398/view"
+  },
+  {
+    "id": "T0399",
+    "judul": "Tugas Pendidikan Pancasila #399 — Video Presentasi",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 IPA AU",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": "https://drive.google.com/file/d/TGS0399/view"
+  },
+  {
+    "id": "T0400",
+    "judul": "Tugas Matematika #400 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "11 IPA AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0401",
+    "judul": "Tugas Prakarya #401 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "10 Akuntansi AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0402",
+    "judul": "Tugas IPS #402 — Laporan Praktikum",
+    "mapel": "IPS",
+    "kelas": "12 TKR AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0403",
+    "judul": "Tugas PJOK #403 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "9BH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0404",
+    "judul": "Tugas IPA #404 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "10 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0405",
+    "judul": "Tugas PAI #405 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "12 IPS AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0406",
+    "judul": "Tugas Bahasa Indonesia #406 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "7AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-11",
+    "lampiran": "https://drive.google.com/file/d/TGS0406/view"
+  },
+  {
+    "id": "T0407",
+    "judul": "Tugas Ekonomi #407 — Poster Digital",
+    "mapel": "Ekonomi",
+    "kelas": "5AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0408",
+    "judul": "Tugas Informatika #408 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "9AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0408/view"
+  },
+  {
+    "id": "T0409",
+    "judul": "Tugas IPS #409 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "8BT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": "https://drive.google.com/file/d/TGS0409/view"
+  },
+  {
+    "id": "T0410",
+    "judul": "Tugas PJOK #410 — Laporan Praktikum",
+    "mapel": "PJOK",
+    "kelas": "12 IPA AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0411",
+    "judul": "Tugas PAI #411 — Latihan Halaman",
+    "mapel": "PAI",
+    "kelas": "1AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0412",
+    "judul": "Tugas Prakarya #412 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "12 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0413",
+    "judul": "Tugas IPS #413 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "11 IPA AY",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": "https://drive.google.com/file/d/TGS0413/view"
+  },
+  {
+    "id": "T0414",
+    "judul": "Tugas IPA #414 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "9BQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0415",
+    "judul": "Tugas Matematika #415 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "12 Pemasaran AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-06",
+    "lampiran": "https://drive.google.com/file/d/TGS0415/view"
+  },
+  {
+    "id": "T0416",
+    "judul": "Tugas Ekonomi #416 — Poster Digital",
+    "mapel": "Ekonomi",
+    "kelas": "10 TKJ AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0416/view"
+  },
+  {
+    "id": "T0417",
+    "judul": "Tugas Ekonomi #417 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "12 IPA AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0418",
+    "judul": "Tugas IPA #418 — Laporan Praktikum",
+    "mapel": "IPA",
+    "kelas": "12 DKV AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0419",
+    "judul": "Tugas Bahasa Indonesia #419 — Poster Digital",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "10 IPA AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0419/view"
+  },
+  {
+    "id": "T0420",
+    "judul": "Tugas IPS #420 — Video Presentasi",
+    "mapel": "IPS",
+    "kelas": "1AT",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-14",
+    "lampiran": "https://drive.google.com/file/d/TGS0420/view"
+  },
+  {
+    "id": "T0421",
+    "judul": "Tugas Pendidikan Pancasila #421 — Poster Digital",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "7AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-20",
+    "lampiran": ""
+  },
+  {
+    "id": "T0422",
+    "judul": "Tugas IPS #422 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "11 IPA AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-03",
+    "lampiran": "https://drive.google.com/file/d/TGS0422/view"
+  },
+  {
+    "id": "T0423",
+    "judul": "Tugas Ekonomi #423 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "8AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0424",
+    "judul": "Tugas IPA #424 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "12 DKV AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": "https://drive.google.com/file/d/TGS0424/view"
+  },
+  {
+    "id": "T0425",
+    "judul": "Tugas Prakarya #425 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "10 TKR AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0425/view"
+  },
+  {
+    "id": "T0426",
+    "judul": "Tugas Bahasa Indonesia #426 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "11 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": "https://drive.google.com/file/d/TGS0426/view"
+  },
+  {
+    "id": "T0427",
+    "judul": "Tugas Bahasa Inggris #427 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "11 IPS AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0428",
+    "judul": "Tugas Prakarya #428 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "9BP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": "https://drive.google.com/file/d/TGS0428/view"
+  },
+  {
+    "id": "T0429",
+    "judul": "Tugas IPS #429 — Poster Digital",
+    "mapel": "IPS",
+    "kelas": "12 TKR AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-04",
+    "lampiran": "https://drive.google.com/file/d/TGS0429/view"
+  },
+  {
+    "id": "T0430",
+    "judul": "Tugas PJOK #430 — Laporan Praktikum",
+    "mapel": "PJOK",
+    "kelas": "5AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0430/view"
+  },
+  {
+    "id": "T0431",
+    "judul": "Tugas Pendidikan Pancasila #431 — Poster Digital",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "7AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0432",
+    "judul": "Tugas Seni Budaya #432 — Analisis Teks",
+    "mapel": "Seni Budaya",
+    "kelas": "7BI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0433",
+    "judul": "Tugas Prakarya #433 — Latihan Halaman",
+    "mapel": "Prakarya",
+    "kelas": "4AU",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0434",
+    "judul": "Tugas IPA #434 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "11 IPS AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0435",
+    "judul": "Tugas Pendidikan Pancasila #435 — Analisis Teks",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "12 TKJ AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-07",
+    "lampiran": "https://drive.google.com/file/d/TGS0435/view"
+  },
+  {
+    "id": "T0436",
+    "judul": "Tugas Prakarya #436 — Latihan Halaman",
+    "mapel": "Prakarya",
+    "kelas": "10 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0437",
+    "judul": "Tugas Informatika #437 — Latihan Halaman",
+    "mapel": "Informatika",
+    "kelas": "11 IPS AM",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-26",
+    "lampiran": ""
+  },
+  {
+    "id": "T0438",
+    "judul": "Tugas IPA #438 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "11 RPL AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0439",
+    "judul": "Tugas IPA #439 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "11 IPA AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-01",
+    "lampiran": ""
+  },
+  {
+    "id": "T0440",
+    "judul": "Tugas Ekonomi #440 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "9AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-10",
+    "lampiran": "https://drive.google.com/file/d/TGS0440/view"
+  },
+  {
+    "id": "T0441",
+    "judul": "Tugas IPS #441 — Analisis Teks",
+    "mapel": "IPS",
+    "kelas": "10 Akuntansi AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": "https://drive.google.com/file/d/TGS0441/view"
+  },
+  {
+    "id": "T0442",
+    "judul": "Tugas Informatika #442 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "2AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-14",
+    "lampiran": ""
+  },
+  {
+    "id": "T0443",
+    "judul": "Tugas Informatika #443 — Latihan Halaman",
+    "mapel": "Informatika",
+    "kelas": "6AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-19",
+    "lampiran": ""
+  },
+  {
+    "id": "T0444",
+    "judul": "Tugas PJOK #444 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "10 TKR AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-03",
+    "lampiran": ""
+  },
+  {
+    "id": "T0445",
+    "judul": "Tugas Prakarya #445 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "10 DKV AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-22",
+    "lampiran": "https://drive.google.com/file/d/TGS0445/view"
+  },
+  {
+    "id": "T0446",
+    "judul": "Tugas Matematika #446 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "11 IPA AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-17",
+    "lampiran": ""
+  },
+  {
+    "id": "T0447",
+    "judul": "Tugas Seni Budaya #447 — Poster Digital",
+    "mapel": "Seni Budaya",
+    "kelas": "7BH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-30",
+    "lampiran": "https://drive.google.com/file/d/TGS0447/view"
+  },
+  {
+    "id": "T0448",
+    "judul": "Tugas Bahasa Inggris #448 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "8BL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-13",
+    "lampiran": "https://drive.google.com/file/d/TGS0448/view"
+  },
+  {
+    "id": "T0449",
+    "judul": "Tugas Seni Budaya #449 — Video Presentasi",
+    "mapel": "Seni Budaya",
+    "kelas": "7AO",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-24",
+    "lampiran": ""
+  },
+  {
+    "id": "T0450",
+    "judul": "Tugas PJOK #450 — Latihan Halaman",
+    "mapel": "PJOK",
+    "kelas": "10 TKJ AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": "https://drive.google.com/file/d/TGS0450/view"
+  },
+  {
+    "id": "T0451",
+    "judul": "Tugas Pendidikan Pancasila #451 — Video Presentasi",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 RPL AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-20",
+    "lampiran": ""
+  },
+  {
+    "id": "T0452",
+    "judul": "Tugas IPS #452 — Analisis Teks",
+    "mapel": "IPS",
+    "kelas": "9AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": "https://drive.google.com/file/d/TGS0452/view"
+  },
+  {
+    "id": "T0453",
+    "judul": "Tugas Pendidikan Pancasila #453 — Analisis Teks",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "12 IPS AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-06",
+    "lampiran": ""
+  },
+  {
+    "id": "T0454",
+    "judul": "Tugas PJOK #454 — Analisis Teks",
+    "mapel": "PJOK",
+    "kelas": "10 IPA AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0455",
+    "judul": "Tugas PAI #455 — Poster Digital",
+    "mapel": "PAI",
+    "kelas": "4AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-03",
+    "lampiran": "https://drive.google.com/file/d/TGS0455/view"
+  },
+  {
+    "id": "T0456",
+    "judul": "Tugas PAI #456 — Video Presentasi",
+    "mapel": "PAI",
+    "kelas": "12 IPS AA",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-07",
+    "lampiran": "https://drive.google.com/file/d/TGS0456/view"
+  },
+  {
+    "id": "T0457",
+    "judul": "Tugas Matematika #457 — Latihan Halaman",
+    "mapel": "Matematika",
+    "kelas": "10 IPS AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0458",
+    "judul": "Tugas IPA #458 — Poster Digital",
+    "mapel": "IPA",
+    "kelas": "7AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0459",
+    "judul": "Tugas Prakarya #459 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "11 DKV AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0460",
+    "judul": "Tugas Prakarya #460 — Poster Digital",
+    "mapel": "Prakarya",
+    "kelas": "8BP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": "https://drive.google.com/file/d/TGS0460/view"
+  },
+  {
+    "id": "T0461",
+    "judul": "Tugas Matematika #461 — Analisis Teks",
+    "mapel": "Matematika",
+    "kelas": "11 IPS AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0462",
+    "judul": "Tugas Matematika #462 — Video Presentasi",
+    "mapel": "Matematika",
+    "kelas": "12 IPS AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0463",
+    "judul": "Tugas Ekonomi #463 — Laporan Praktikum",
+    "mapel": "Ekonomi",
+    "kelas": "12 DKV AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-22",
+    "lampiran": ""
+  },
+  {
+    "id": "T0464",
+    "judul": "Tugas IPA #464 — Latihan Halaman",
+    "mapel": "IPA",
+    "kelas": "12 Akuntansi AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-17",
+    "lampiran": "https://drive.google.com/file/d/TGS0464/view"
+  },
+  {
+    "id": "T0465",
+    "judul": "Tugas IPS #465 — Latihan Halaman",
+    "mapel": "IPS",
+    "kelas": "11 IPA AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-15",
+    "lampiran": ""
+  },
+  {
+    "id": "T0466",
+    "judul": "Tugas Ekonomi #466 — Laporan Praktikum",
+    "mapel": "Ekonomi",
+    "kelas": "12 TKJ AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-08",
+    "lampiran": ""
+  },
+  {
+    "id": "T0467",
+    "judul": "Tugas Informatika #467 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "1AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-27",
+    "lampiran": ""
+  },
+  {
+    "id": "T0468",
+    "judul": "Tugas IPS #468 — Analisis Teks",
+    "mapel": "IPS",
+    "kelas": "9BI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-04",
+    "lampiran": "https://drive.google.com/file/d/TGS0468/view"
+  },
+  {
+    "id": "T0469",
+    "judul": "Tugas IPA #469 — Analisis Teks",
+    "mapel": "IPA",
+    "kelas": "12 IPS AL",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-26",
+    "lampiran": "https://drive.google.com/file/d/TGS0469/view"
+  },
+  {
+    "id": "T0470",
+    "judul": "Tugas Ekonomi #470 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "7AX",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0471",
+    "judul": "Tugas Ekonomi #471 — Analisis Teks",
+    "mapel": "Ekonomi",
+    "kelas": "11 IPA AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-11",
+    "lampiran": "https://drive.google.com/file/d/TGS0471/view"
+  },
+  {
+    "id": "T0472",
+    "judul": "Tugas Ekonomi #472 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "10 IPS AV",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-18",
+    "lampiran": ""
+  },
+  {
+    "id": "T0473",
+    "judul": "Tugas Bahasa Indonesia #473 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "1AP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0474",
+    "judul": "Tugas Pendidikan Pancasila #474 — Laporan Praktikum",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 Akuntansi AC",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-13",
+    "lampiran": "https://drive.google.com/file/d/TGS0474/view"
+  },
+  {
+    "id": "T0475",
+    "judul": "Tugas Prakarya #475 — Latihan Halaman",
+    "mapel": "Prakarya",
+    "kelas": "11 Pemasaran AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": "https://drive.google.com/file/d/TGS0475/view"
+  },
+  {
+    "id": "T0476",
+    "judul": "Tugas Bahasa Inggris #476 — Latihan Halaman",
+    "mapel": "Bahasa Inggris",
+    "kelas": "3AB",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-13",
+    "lampiran": ""
+  },
+  {
+    "id": "T0477",
+    "judul": "Tugas Pendidikan Pancasila #477 — Poster Digital",
+    "mapel": "Pendidikan Pancasila",
+    "kelas": "11 IPS AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-02",
+    "lampiran": ""
+  },
+  {
+    "id": "T0478",
+    "judul": "Tugas Bahasa Inggris #478 — Poster Digital",
+    "mapel": "Bahasa Inggris",
+    "kelas": "7AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0479",
+    "judul": "Tugas Seni Budaya #479 — Poster Digital",
+    "mapel": "Seni Budaya",
+    "kelas": "12 Pemasaran AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0479/view"
+  },
+  {
+    "id": "T0480",
+    "judul": "Tugas Matematika #480 — Latihan Halaman",
+    "mapel": "Matematika",
+    "kelas": "8AN",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-04",
+    "lampiran": ""
+  },
+  {
+    "id": "T0481",
+    "judul": "Tugas Seni Budaya #481 — Analisis Teks",
+    "mapel": "Seni Budaya",
+    "kelas": "10 TKJ AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0481/view"
+  },
+  {
+    "id": "T0482",
+    "judul": "Tugas Informatika #482 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "11 Akuntansi AE",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0483",
+    "judul": "Tugas Informatika #483 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "4AS",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-19",
+    "lampiran": "https://drive.google.com/file/d/TGS0483/view"
+  },
+  {
+    "id": "T0484",
+    "judul": "Tugas Matematika #484 — Poster Digital",
+    "mapel": "Matematika",
+    "kelas": "9BP",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-09",
+    "lampiran": ""
+  },
+  {
+    "id": "T0485",
+    "judul": "Tugas Seni Budaya #485 — Analisis Teks",
+    "mapel": "Seni Budaya",
+    "kelas": "12 DKV AH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-11",
+    "lampiran": ""
+  },
+  {
+    "id": "T0486",
+    "judul": "Tugas PJOK #486 — Poster Digital",
+    "mapel": "PJOK",
+    "kelas": "11 Akuntansi AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2027-01-01",
+    "lampiran": "https://drive.google.com/file/d/TGS0486/view"
+  },
+  {
+    "id": "T0487",
+    "judul": "Tugas Informatika #487 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "12 IPA AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-31",
+    "lampiran": ""
+  },
+  {
+    "id": "T0488",
+    "judul": "Tugas Informatika #488 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "12 TKJ AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-28",
+    "lampiran": ""
+  },
+  {
+    "id": "T0489",
+    "judul": "Tugas Bahasa Indonesia #489 — Video Presentasi",
+    "mapel": "Bahasa Indonesia",
+    "kelas": "1AQ",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0490",
+    "judul": "Tugas Seni Budaya #490 — Poster Digital",
+    "mapel": "Seni Budaya",
+    "kelas": "6AK",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-30",
+    "lampiran": ""
+  },
+  {
+    "id": "T0491",
+    "judul": "Tugas Informatika #491 — Video Presentasi",
+    "mapel": "Informatika",
+    "kelas": "3AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-29",
+    "lampiran": ""
+  },
+  {
+    "id": "T0492",
+    "judul": "Tugas Informatika #492 — Analisis Teks",
+    "mapel": "Informatika",
+    "kelas": "12 Pemasaran AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-23",
+    "lampiran": ""
+  },
+  {
+    "id": "T0493",
+    "judul": "Tugas Informatika #493 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "7AW",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": ""
+  },
+  {
+    "id": "T0494",
+    "judul": "Tugas Ekonomi #494 — Video Presentasi",
+    "mapel": "Ekonomi",
+    "kelas": "12 IPS AR",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-12",
+    "lampiran": ""
+  },
+  {
+    "id": "T0495",
+    "judul": "Tugas Informatika #495 — Laporan Praktikum",
+    "mapel": "Informatika",
+    "kelas": "11 Akuntansi AG",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-27",
+    "lampiran": "https://drive.google.com/file/d/TGS0495/view"
+  },
+  {
+    "id": "T0496",
+    "judul": "Tugas Prakarya #496 — Analisis Teks",
+    "mapel": "Prakarya",
+    "kelas": "8BH",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-07",
+    "lampiran": "https://drive.google.com/file/d/TGS0496/view"
+  },
+  {
+    "id": "T0497",
+    "judul": "Tugas Prakarya #497 — Video Presentasi",
+    "mapel": "Prakarya",
+    "kelas": "1AW",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-29",
+    "lampiran": "https://drive.google.com/file/d/TGS0497/view"
+  },
+  {
+    "id": "T0498",
+    "judul": "Tugas Informatika #498 — Poster Digital",
+    "mapel": "Informatika",
+    "kelas": "1AI",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-12-18",
+    "lampiran": "https://drive.google.com/file/d/TGS0498/view"
+  },
+  {
+    "id": "T0499",
+    "judul": "Tugas PAI #499 — Laporan Praktikum",
+    "mapel": "PAI",
+    "kelas": "2AF",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-11-25",
+    "lampiran": "https://drive.google.com/file/d/TGS0499/view"
+  },
+  {
+    "id": "T0500",
+    "judul": "Tugas Matematika #500 — Laporan Praktikum",
+    "mapel": "Matematika",
+    "kelas": "6AD",
+    "deskripsi": "Kerjakan sesuai instruksi, dokumentasikan hasil, dan kumpulkan sebelum tenggat melalui kanal yang ditentukan guru.",
+    "deadline": "2026-10-21",
+    "lampiran": "https://drive.google.com/file/d/TGS0500/view"
+  }
+]

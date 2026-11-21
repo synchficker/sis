@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "A0001",
+    "tanggal": "2026-11-11",
+    "nis": "20260001",
+    "nama": "Nadia Cahyadi Y.",
+    "kelas": "5AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:38"
+  },
+  {
+    "id": "A0002",
+    "tanggal": "2026-10-23",
+    "nis": "20260002",
+    "nama": "Ayu Kurniawan",
+    "kelas": "7AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:54"
+  },
+  {
+    "id": "A0003",
+    "tanggal": "2026-10-29",
+    "nis": "20260003",
+    "nama": "Aditya Iskandar",
+    "kelas": "11 IPS AA",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0004",
+    "tanggal": "2026-11-10",
+    "nis": "20260004",
+    "nama": "Vicky Gunawan",
+    "kelas": "10 Pemasaran AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:49"
+  },
+  {
+    "id": "A0005",
+    "tanggal": "2026-10-21",
+    "nis": "20260005",
+    "nama": "Nanda Hidayat J.",
+    "kelas": "3AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:56"
+  },
+  {
+    "id": "A0006",
+    "tanggal": "2026-11-04",
+    "nis": "20260006",
+    "nama": "Salsabila Hartono V.",
+    "kelas": "7AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:35"
+  },
+  {
+    "id": "A0007",
+    "tanggal": "2026-11-13",
+    "nis": "20260007",
+    "nama": "Nanda Nugroho",
+    "kelas": "11 IPA AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:19"
+  },
+  {
+    "id": "A0008",
+    "tanggal": "2026-11-12",
+    "nis": "20260008",
+    "nama": "Citra Cahyadi U.",
+    "kelas": "10 RPL AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0009",
+    "tanggal": "2026-11-03",
+    "nis": "20260009",
+    "nama": "Dimas Cahyadi N.",
+    "kelas": "1AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:33"
+  },
+  {
+    "id": "A0010",
+    "tanggal": "2026-11-16",
+    "nis": "20260010",
+    "nama": "Wulan Susanto",
+    "kelas": "8AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:20"
+  },
+  {
+    "id": "A0011",
+    "tanggal": "2026-10-22",
+    "nis": "20260011",
+    "nama": "Rahma Setiawan",
+    "kelas": "10 IPS AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:17"
+  },
+  {
+    "id": "A0012",
+    "tanggal": "2026-11-12",
+    "nis": "20260012",
+    "nama": "Aditya Nurdin",
+    "kelas": "10 TKR AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0013",
+    "tanggal": "2026-10-24",
+    "nis": "20260013",
+    "nama": "Oscar Mahendra D.",
+    "kelas": "5AB",
+    "status": "Alfa",
+    "metode": "Manual",
+    "jam": "07:13"
+  },
+  {
+    "id": "A0014",
+    "tanggal": "2026-11-01",
+    "nis": "20260014",
+    "nama": "Rangga Hidayat",
+    "kelas": "7AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:15"
+  },
+  {
+    "id": "A0015",
+    "tanggal": "2026-11-14",
+    "nis": "20260015",
+    "nama": "Zulfikar Pratama",
+    "kelas": "12 IPS AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:43"
+  },
+  {
+    "id": "A0016",
+    "tanggal": "2026-11-09",
+    "nis": "20260016",
+    "nama": "Ulfa Laksana",
+    "kelas": "12 DKV AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:47"
+  },
+  {
+    "id": "A0017",
+    "tanggal": "2026-10-27",
+    "nis": "20260017",
+    "nama": "Qonita Ramadhan Z.",
+    "kelas": "5AC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:15"
+  },
+  {
+    "id": "A0018",
+    "tanggal": "2026-11-09",
+    "nis": "20260018",
+    "nama": "Ahmad Susanto P.",
+    "kelas": "9AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:27"
+  },
+  {
+    "id": "A0019",
+    "tanggal": "2026-11-07",
+    "nis": "20260019",
+    "nama": "Satria Effendi",
+    "kelas": "12 IPS AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:53"
+  },
+  {
+    "id": "A0020",
+    "tanggal": "2026-10-30",
+    "nis": "20260020",
+    "nama": "Ulfa Cahyadi",
+    "kelas": "12 TKR AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:19"
+  },
+  {
+    "id": "A0021",
+    "tanggal": "2026-10-30",
+    "nis": "20260021",
+    "nama": "Bima Darmawan",
+    "kelas": "3AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:01"
+  },
+  {
+    "id": "A0022",
+    "tanggal": "2026-11-06",
+    "nis": "20260022",
+    "nama": "Dimas Santoso",
+    "kelas": "9AB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:11"
+  },
+  {
+    "id": "A0023",
+    "tanggal": "2026-11-08",
+    "nis": "20260023",
+    "nama": "Umi Maulana W.",
+    "kelas": "10 IPS AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:48"
+  },
+  {
+    "id": "A0024",
+    "tanggal": "2026-11-07",
+    "nis": "20260024",
+    "nama": "Dedi Halim",
+    "kelas": "11 RPL AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0025",
+    "tanggal": "2026-11-17",
+    "nis": "20260025",
+    "nama": "Fikri Wicaksono",
+    "kelas": "4AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:17"
+  },
+  {
+    "id": "A0026",
+    "tanggal": "2026-11-12",
+    "nis": "20260026",
+    "nama": "Yusuf Nugroho",
+    "kelas": "8AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:08"
+  },
+  {
+    "id": "A0027",
+    "tanggal": "2026-10-23",
+    "nis": "20260027",
+    "nama": "Putra Yudhoyono",
+    "kelas": "12 IPA AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:35"
+  },
+  {
+    "id": "A0028",
+    "tanggal": "2026-10-23",
+    "nis": "20260028",
+    "nama": "Bayu Tirtayasa",
+    "kelas": "12 TKR AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:04"
+  },
+  {
+    "id": "A0029",
+    "tanggal": "2026-11-02",
+    "nis": "20260029",
+    "nama": "Galih Pratama",
+    "kelas": "1AB",
+    "status": "Alfa",
+    "metode": "QR",
+    "jam": "06:04"
+  },
+  {
+    "id": "A0030",
+    "tanggal": "2026-11-13",
+    "nis": "20260030",
+    "nama": "Irfan Zamroni A.",
+    "kelas": "9AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:56"
+  },
+  {
+    "id": "A0031",
+    "tanggal": "2026-10-30",
+    "nis": "20260031",
+    "nama": "Krisna Octaviano O.",
+    "kelas": "10 IPS AC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:39"
+  },
+  {
+    "id": "A0032",
+    "tanggal": "2026-10-23",
+    "nis": "20260032",
+    "nama": "Eka Baskoro",
+    "kelas": "11 Akuntansi AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:30"
+  },
+  {
+    "id": "A0033",
+    "tanggal": "2026-10-28",
+    "nis": "20260033",
+    "nama": "Fitri Halim",
+    "kelas": "1AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:42"
+  },
+  {
+    "id": "A0034",
+    "tanggal": "2026-11-16",
+    "nis": "20260034",
+    "nama": "Naufal Purnama",
+    "kelas": "8AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:57"
+  },
+  {
+    "id": "A0035",
+    "tanggal": "2026-11-05",
+    "nis": "20260035",
+    "nama": "Hafiz Darmawan",
+    "kelas": "10 IPA AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:42"
+  },
+  {
+    "id": "A0036",
+    "tanggal": "2026-11-01",
+    "nis": "20260036",
+    "nama": "Aditya Abdillah",
+    "kelas": "11 RPL AB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:55"
+  },
+  {
+    "id": "A0037",
+    "tanggal": "2026-10-24",
+    "nis": "20260037",
+    "nama": "Zulfikar Nugroho",
+    "kelas": "5AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:45"
+  },
+  {
+    "id": "A0038",
+    "tanggal": "2026-10-25",
+    "nis": "20260038",
+    "nama": "Rahma Anggara Y.",
+    "kelas": "9AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:01"
+  },
+  {
+    "id": "A0039",
+    "tanggal": "2026-11-07",
+    "nis": "20260039",
+    "nama": "Rahma Tirtayasa",
+    "kelas": "12 IPS AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:12"
+  },
+  {
+    "id": "A0040",
+    "tanggal": "2026-11-16",
+    "nis": "20260040",
+    "nama": "Irfan Ramadhan",
+    "kelas": "12 Akuntansi AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:38"
+  },
+  {
+    "id": "A0041",
+    "tanggal": "2026-10-31",
+    "nis": "20260041",
+    "nama": "Fajar Darmawan",
+    "kelas": "5AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:39"
+  },
+  {
+    "id": "A0042",
+    "tanggal": "2026-11-04",
+    "nis": "20260042",
+    "nama": "Taufik Cahyadi",
+    "kelas": "9AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:23"
+  },
+  {
+    "id": "A0043",
+    "tanggal": "2026-10-29",
+    "nis": "20260043",
+    "nama": "Gadis Gunawan",
+    "kelas": "11 IPS AB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:08"
+  },
+  {
+    "id": "A0044",
+    "tanggal": "2026-11-08",
+    "nis": "20260044",
+    "nama": "Hafiz Hidayat",
+    "kelas": "11 TKJ AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:29"
+  },
+  {
+    "id": "A0045",
+    "tanggal": "2026-10-26",
+    "nis": "20260045",
+    "nama": "Salsabila Tirtayasa",
+    "kelas": "1AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0046",
+    "tanggal": "2026-11-18",
+    "nis": "20260046",
+    "nama": "Maulana Effendi",
+    "kelas": "7AD",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:00"
+  },
+  {
+    "id": "A0047",
+    "tanggal": "2026-11-11",
+    "nis": "20260047",
+    "nama": "Elsa Kusuma",
+    "kelas": "12 IPS AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:26"
+  },
+  {
+    "id": "A0048",
+    "tanggal": "2026-10-30",
+    "nis": "20260048",
+    "nama": "Krisna Darmawan",
+    "kelas": "12 RPL AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:41"
+  },
+  {
+    "id": "A0049",
+    "tanggal": "2026-10-23",
+    "nis": "20260049",
+    "nama": "Yolanda Nugroho D.",
+    "kelas": "6AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:20"
+  },
+  {
+    "id": "A0050",
+    "tanggal": "2026-11-06",
+    "nis": "20260050",
+    "nama": "Hendra Hidayat",
+    "kelas": "9AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:32"
+  },
+  {
+    "id": "A0051",
+    "tanggal": "2026-10-24",
+    "nis": "20260051",
+    "nama": "Galih Rahardian Z.",
+    "kelas": "12 IPS AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0052",
+    "tanggal": "2026-10-29",
+    "nis": "20260052",
+    "nama": "Dimas Purnama",
+    "kelas": "10 Akuntansi AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0053",
+    "tanggal": "2026-11-10",
+    "nis": "20260053",
+    "nama": "Yusuf Laksana",
+    "kelas": "4AB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:49"
+  },
+  {
+    "id": "A0054",
+    "tanggal": "2026-11-08",
+    "nis": "20260054",
+    "nama": "Surya Virgiawan B.",
+    "kelas": "7AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:53"
+  },
+  {
+    "id": "A0055",
+    "tanggal": "2026-10-23",
+    "nis": "20260055",
+    "nama": "Hendra Tirtayasa D.",
+    "kelas": "10 IPS AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:02"
+  },
+  {
+    "id": "A0056",
+    "tanggal": "2026-10-26",
+    "nis": "20260056",
+    "nama": "Citra Nurdin R.",
+    "kelas": "12 Akuntansi AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:30"
+  },
+  {
+    "id": "A0057",
+    "tanggal": "2026-11-13",
+    "nis": "20260057",
+    "nama": "Tiara Mahendra",
+    "kelas": "4AC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:09"
+  },
+  {
+    "id": "A0058",
+    "tanggal": "2026-10-28",
+    "nis": "20260058",
+    "nama": "Muhammad Junaidi Y.",
+    "kelas": "9AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:56"
+  },
+  {
+    "id": "A0059",
+    "tanggal": "2026-10-23",
+    "nis": "20260059",
+    "nama": "Anisa Firmansyah",
+    "kelas": "10 IPS AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:45"
+  },
+  {
+    "id": "A0060",
+    "tanggal": "2026-11-18",
+    "nis": "20260060",
+    "nama": "Jamal Rahardian",
+    "kelas": "10 Akuntansi AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:05"
+  },
+  {
+    "id": "A0061",
+    "tanggal": "2026-10-31",
+    "nis": "20260061",
+    "nama": "Oscar Kusuma",
+    "kelas": "5AF",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "06:14"
+  },
+  {
+    "id": "A0062",
+    "tanggal": "2026-11-04",
+    "nis": "20260062",
+    "nama": "Krisna Virgiawan",
+    "kelas": "9AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:37"
+  },
+  {
+    "id": "A0063",
+    "tanggal": "2026-11-07",
+    "nis": "20260063",
+    "nama": "Fajar Virgiawan",
+    "kelas": "12 IPA AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:05"
+  },
+  {
+    "id": "A0064",
+    "tanggal": "2026-11-01",
+    "nis": "20260064",
+    "nama": "Bayu Junaidi",
+    "kelas": "12 TKR AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:31"
+  },
+  {
+    "id": "A0065",
+    "tanggal": "2026-11-05",
+    "nis": "20260065",
+    "nama": "Gita Iskandar N.",
+    "kelas": "2AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0066",
+    "tanggal": "2026-11-18",
+    "nis": "20260066",
+    "nama": "Bayu Purnama",
+    "kelas": "8AD",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:36"
+  },
+  {
+    "id": "A0067",
+    "tanggal": "2026-10-30",
+    "nis": "20260067",
+    "nama": "Zulfikar Hidayat",
+    "kelas": "10 IPS AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0068",
+    "tanggal": "2026-10-23",
+    "nis": "20260068",
+    "nama": "Naufal Mahendra",
+    "kelas": "12 TKR AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:38"
+  },
+  {
+    "id": "A0069",
+    "tanggal": "2026-11-14",
+    "nis": "20260069",
+    "nama": "Tasya Laksana",
+    "kelas": "1AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:33"
+  },
+  {
+    "id": "A0070",
+    "tanggal": "2026-11-17",
+    "nis": "20260070",
+    "nama": "Octavia Permana N.",
+    "kelas": "8AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:22"
+  },
+  {
+    "id": "A0071",
+    "tanggal": "2026-11-05",
+    "nis": "20260071",
+    "nama": "Hana Junaidi",
+    "kelas": "12 IPS AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:12"
+  },
+  {
+    "id": "A0072",
+    "tanggal": "2026-11-02",
+    "nis": "20260072",
+    "nama": "Taufik Saputra",
+    "kelas": "11 DKV AA",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "07:46"
+  },
+  {
+    "id": "A0073",
+    "tanggal": "2026-10-21",
+    "nis": "20260073",
+    "nama": "Surya Junaidi",
+    "kelas": "4AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0074",
+    "tanggal": "2026-11-04",
+    "nis": "20260074",
+    "nama": "Usman Kusuma",
+    "kelas": "7AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:49"
+  },
+  {
+    "id": "A0075",
+    "tanggal": "2026-11-13",
+    "nis": "20260075",
+    "nama": "Bima Kusuma T.",
+    "kelas": "11 IPA AB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:28"
+  },
+  {
+    "id": "A0076",
+    "tanggal": "2026-10-29",
+    "nis": "20260076",
+    "nama": "Ayu Darmawan",
+    "kelas": "11 RPL AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:31"
+  },
+  {
+    "id": "A0077",
+    "tanggal": "2026-10-23",
+    "nis": "20260077",
+    "nama": "Hendra Nugroho D.",
+    "kelas": "5AG",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:13"
+  },
+  {
+    "id": "A0078",
+    "tanggal": "2026-11-17",
+    "nis": "20260078",
+    "nama": "Zahra Utomo",
+    "kelas": "8AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:16"
+  },
+  {
+    "id": "A0079",
+    "tanggal": "2026-10-25",
+    "nis": "20260079",
+    "nama": "Naufal Gunawan D.",
+    "kelas": "12 IPA AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:59"
+  },
+  {
+    "id": "A0080",
+    "tanggal": "2026-11-03",
+    "nis": "20260080",
+    "nama": "Dinda Ramadhan",
+    "kelas": "11 TKJ AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0081",
+    "tanggal": "2026-11-08",
+    "nis": "20260081",
+    "nama": "Fitri Junaidi",
+    "kelas": "3AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:12"
+  },
+  {
+    "id": "A0082",
+    "tanggal": "2026-10-24",
+    "nis": "20260082",
+    "nama": "Naufal Nurdin R.",
+    "kelas": "8AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:22"
+  },
+  {
+    "id": "A0083",
+    "tanggal": "2026-10-26",
+    "nis": "20260083",
+    "nama": "Vania Gunawan K.",
+    "kelas": "11 IPS AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:59"
+  },
+  {
+    "id": "A0084",
+    "tanggal": "2026-11-16",
+    "nis": "20260084",
+    "nama": "Dewi Wibowo",
+    "kelas": "12 TKJ AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:18"
+  },
+  {
+    "id": "A0085",
+    "tanggal": "2026-11-05",
+    "nis": "20260085",
+    "nama": "Jasmine Fauzi",
+    "kelas": "3AD",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:01"
+  },
+  {
+    "id": "A0086",
+    "tanggal": "2026-10-25",
+    "nis": "20260086",
+    "nama": "Dinda Maulana",
+    "kelas": "7AG",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:04"
+  },
+  {
+    "id": "A0087",
+    "tanggal": "2026-10-30",
+    "nis": "20260087",
+    "nama": "Bima Rahardian",
+    "kelas": "12 IPA AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:49"
+  },
+  {
+    "id": "A0088",
+    "tanggal": "2026-11-16",
+    "nis": "20260088",
+    "nama": "Wahyu Baskoro",
+    "kelas": "11 DKV AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:23"
+  },
+  {
+    "id": "A0089",
+    "tanggal": "2026-11-20",
+    "nis": "20260089",
+    "nama": "Galih Santoso",
+    "kelas": "3AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:45"
+  },
+  {
+    "id": "A0090",
+    "tanggal": "2026-11-18",
+    "nis": "20260090",
+    "nama": "Sinta Halim",
+    "kelas": "8AH",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:47"
+  },
+  {
+    "id": "A0091",
+    "tanggal": "2026-10-21",
+    "nis": "20260091",
+    "nama": "Ahmad Purnama",
+    "kelas": "10 IPA AB",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "06:56"
+  },
+  {
+    "id": "A0092",
+    "tanggal": "2026-11-01",
+    "nis": "20260092",
+    "nama": "Kirana Hartono D.",
+    "kelas": "12 Akuntansi AC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:41"
+  },
+  {
+    "id": "A0093",
+    "tanggal": "2026-11-17",
+    "nis": "20260093",
+    "nama": "Eka Wijaya",
+    "kelas": "6AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:32"
+  },
+  {
+    "id": "A0094",
+    "tanggal": "2026-11-18",
+    "nis": "20260094",
+    "nama": "Wira Iskandar S.",
+    "kelas": "8AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:57"
+  },
+  {
+    "id": "A0095",
+    "tanggal": "2026-11-14",
+    "nis": "20260095",
+    "nama": "Vicky Santoso",
+    "kelas": "10 IPS AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:34"
+  },
+  {
+    "id": "A0096",
+    "tanggal": "2026-10-27",
+    "nis": "20260096",
+    "nama": "Lutfi Zamroni A.",
+    "kelas": "10 TKJ AA",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0097",
+    "tanggal": "2026-10-21",
+    "nis": "20260097",
+    "nama": "Elsa Maulana",
+    "kelas": "4AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:38"
+  },
+  {
+    "id": "A0098",
+    "tanggal": "2026-11-07",
+    "nis": "20260098",
+    "nama": "Aulia Hartono",
+    "kelas": "8AJ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:21"
+  },
+  {
+    "id": "A0099",
+    "tanggal": "2026-11-06",
+    "nis": "20260099",
+    "nama": "Umi Maulana D.",
+    "kelas": "10 IPS AH",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:53"
+  },
+  {
+    "id": "A0100",
+    "tanggal": "2026-11-16",
+    "nis": "20260100",
+    "nama": "Bima Laksana",
+    "kelas": "10 TKJ AB",
+    "status": "Sakit",
+    "metode": "Manual",
+    "jam": "07:41"
+  },
+  {
+    "id": "A0101",
+    "tanggal": "2026-11-01",
+    "nis": "20260101",
+    "nama": "Ulfa Nurdin",
+    "kelas": "4AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:24"
+  },
+  {
+    "id": "A0102",
+    "tanggal": "2026-11-04",
+    "nis": "20260102",
+    "nama": "Bella Virgiawan",
+    "kelas": "9AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:52"
+  },
+  {
+    "id": "A0103",
+    "tanggal": "2026-10-22",
+    "nis": "20260103",
+    "nama": "Jasmine Zamroni",
+    "kelas": "10 IPS AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:16"
+  },
+  {
+    "id": "A0104",
+    "tanggal": "2026-10-26",
+    "nis": "20260104",
+    "nama": "Fajar Anggara",
+    "kelas": "10 RPL AB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:06"
+  },
+  {
+    "id": "A0105",
+    "tanggal": "2026-10-24",
+    "nis": "20260105",
+    "nama": "Ayu Utomo",
+    "kelas": "2AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:48"
+  },
+  {
+    "id": "A0106",
+    "tanggal": "2026-11-06",
+    "nis": "20260106",
+    "nama": "Jasmine Maulana R.",
+    "kelas": "7AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:31"
+  },
+  {
+    "id": "A0107",
+    "tanggal": "2026-11-02",
+    "nis": "20260107",
+    "nama": "Vania Virgiawan",
+    "kelas": "11 IPA AC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:24"
+  },
+  {
+    "id": "A0108",
+    "tanggal": "2026-10-27",
+    "nis": "20260108",
+    "nama": "Qori Firmansyah",
+    "kelas": "10 RPL AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:07"
+  },
+  {
+    "id": "A0109",
+    "tanggal": "2026-10-24",
+    "nis": "20260109",
+    "nama": "Eko Yudhoyono U.",
+    "kelas": "1AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:15"
+  },
+  {
+    "id": "A0110",
+    "tanggal": "2026-11-17",
+    "nis": "20260110",
+    "nama": "Farah Baskoro",
+    "kelas": "8AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:15"
+  },
+  {
+    "id": "A0111",
+    "tanggal": "2026-10-31",
+    "nis": "20260111",
+    "nama": "Bima Purnama L.",
+    "kelas": "11 IPA AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:17"
+  },
+  {
+    "id": "A0112",
+    "tanggal": "2026-11-17",
+    "nis": "20260112",
+    "nama": "Gilang Kurniawan",
+    "kelas": "11 RPL AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:53"
+  },
+  {
+    "id": "A0113",
+    "tanggal": "2026-11-14",
+    "nis": "20260113",
+    "nama": "Candra Iskandar T.",
+    "kelas": "4AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:35"
+  },
+  {
+    "id": "A0114",
+    "tanggal": "2026-11-19",
+    "nis": "20260114",
+    "nama": "Zaskia Saputra",
+    "kelas": "8AL",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:44"
+  },
+  {
+    "id": "A0115",
+    "tanggal": "2026-11-15",
+    "nis": "20260115",
+    "nama": "Rangga Pratama",
+    "kelas": "11 IPA AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:08"
+  },
+  {
+    "id": "A0116",
+    "tanggal": "2026-11-09",
+    "nis": "20260116",
+    "nama": "Daffa Cahyadi K.",
+    "kelas": "12 TKR AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:45"
+  },
+  {
+    "id": "A0117",
+    "tanggal": "2026-10-28",
+    "nis": "20260117",
+    "nama": "Gita Tirtayasa",
+    "kelas": "3AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:46"
+  },
+  {
+    "id": "A0118",
+    "tanggal": "2026-10-27",
+    "nis": "20260118",
+    "nama": "Melati Cahyadi O.",
+    "kelas": "8AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:51"
+  },
+  {
+    "id": "A0119",
+    "tanggal": "2026-11-15",
+    "nis": "20260119",
+    "nama": "Bunga Laksana R.",
+    "kelas": "12 IPA AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:49"
+  },
+  {
+    "id": "A0120",
+    "tanggal": "2026-11-18",
+    "nis": "20260120",
+    "nama": "Hendra Halim",
+    "kelas": "12 RPL AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0121",
+    "tanggal": "2026-11-03",
+    "nis": "20260121",
+    "nama": "Zulfikar Iskandar",
+    "kelas": "6AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:33"
+  },
+  {
+    "id": "A0122",
+    "tanggal": "2026-11-13",
+    "nis": "20260122",
+    "nama": "Sinta Abdillah",
+    "kelas": "8AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:35"
+  },
+  {
+    "id": "A0123",
+    "tanggal": "2026-10-27",
+    "nis": "20260123",
+    "nama": "Indah Octaviano",
+    "kelas": "10 IPS AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:34"
+  },
+  {
+    "id": "A0124",
+    "tanggal": "2026-10-21",
+    "nis": "20260124",
+    "nama": "Fikri Setiawan",
+    "kelas": "12 TKR AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:05"
+  },
+  {
+    "id": "A0125",
+    "tanggal": "2026-10-29",
+    "nis": "20260125",
+    "nama": "Tasya Mahendra",
+    "kelas": "4AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:30"
+  },
+  {
+    "id": "A0126",
+    "tanggal": "2026-11-11",
+    "nis": "20260126",
+    "nama": "Kirana Kusuma",
+    "kelas": "7AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0127",
+    "tanggal": "2026-11-02",
+    "nis": "20260127",
+    "nama": "Jamal Nugroho",
+    "kelas": "11 IPA AF",
+    "status": "Sakit",
+    "metode": "Manual",
+    "jam": "07:20"
+  },
+  {
+    "id": "A0128",
+    "tanggal": "2026-11-15",
+    "nis": "20260128",
+    "nama": "Kirana Fauzi",
+    "kelas": "10 RPL AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0129",
+    "tanggal": "2026-11-11",
+    "nis": "20260129",
+    "nama": "Dewi Wijaya",
+    "kelas": "1AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:26"
+  },
+  {
+    "id": "A0130",
+    "tanggal": "2026-10-29",
+    "nis": "20260130",
+    "nama": "Wira Hartono O.",
+    "kelas": "8AO",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "06:13"
+  },
+  {
+    "id": "A0131",
+    "tanggal": "2026-11-11",
+    "nis": "20260131",
+    "nama": "Umar Iskandar",
+    "kelas": "11 IPA AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:55"
+  },
+  {
+    "id": "A0132",
+    "tanggal": "2026-11-20",
+    "nis": "20260132",
+    "nama": "Eko Darmawan W.",
+    "kelas": "10 TKR AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0133",
+    "tanggal": "2026-11-14",
+    "nis": "20260133",
+    "nama": "Vania Effendi",
+    "kelas": "4AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0134",
+    "tanggal": "2026-11-18",
+    "nis": "20260134",
+    "nama": "Daffa Saputra",
+    "kelas": "9AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:20"
+  },
+  {
+    "id": "A0135",
+    "tanggal": "2026-10-25",
+    "nis": "20260135",
+    "nama": "Ulfa Anggara",
+    "kelas": "12 IPA AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:03"
+  },
+  {
+    "id": "A0136",
+    "tanggal": "2026-11-04",
+    "nis": "20260136",
+    "nama": "Ulfa Permana M.",
+    "kelas": "12 Akuntansi AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:23"
+  },
+  {
+    "id": "A0137",
+    "tanggal": "2026-11-09",
+    "nis": "20260137",
+    "nama": "Kayla Wicaksono",
+    "kelas": "6AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:59"
+  },
+  {
+    "id": "A0138",
+    "tanggal": "2026-11-09",
+    "nis": "20260138",
+    "nama": "Qonita Permana",
+    "kelas": "7AJ",
+    "status": "Alfa",
+    "metode": "QR",
+    "jam": "07:36"
+  },
+  {
+    "id": "A0139",
+    "tanggal": "2026-10-27",
+    "nis": "20260139",
+    "nama": "Citra Gunawan K.",
+    "kelas": "10 IPA AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:30"
+  },
+  {
+    "id": "A0140",
+    "tanggal": "2026-11-14",
+    "nis": "20260140",
+    "nama": "Bayu Pratama",
+    "kelas": "11 TKJ AC",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0141",
+    "tanggal": "2026-10-30",
+    "nis": "20260141",
+    "nama": "Octavia Junaidi",
+    "kelas": "2AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0142",
+    "tanggal": "2026-11-09",
+    "nis": "20260142",
+    "nama": "Yolanda Cahyadi",
+    "kelas": "7AK",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:19"
+  },
+  {
+    "id": "A0143",
+    "tanggal": "2026-10-22",
+    "nis": "20260143",
+    "nama": "Tasya Permana",
+    "kelas": "11 IPS AD",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:25"
+  },
+  {
+    "id": "A0144",
+    "tanggal": "2026-10-21",
+    "nis": "20260144",
+    "nama": "Tiara Susanto",
+    "kelas": "11 TKJ AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0145",
+    "tanggal": "2026-11-06",
+    "nis": "20260145",
+    "nama": "Putri Octaviano D.",
+    "kelas": "6AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:04"
+  },
+  {
+    "id": "A0146",
+    "tanggal": "2026-10-27",
+    "nis": "20260146",
+    "nama": "Aulia Wijaya",
+    "kelas": "8AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:10"
+  },
+  {
+    "id": "A0147",
+    "tanggal": "2026-11-10",
+    "nis": "20260147",
+    "nama": "Krisna Salim",
+    "kelas": "11 IPA AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:27"
+  },
+  {
+    "id": "A0148",
+    "tanggal": "2026-10-30",
+    "nis": "20260148",
+    "nama": "Satria Halim K.",
+    "kelas": "12 DKV AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:39"
+  },
+  {
+    "id": "A0149",
+    "tanggal": "2026-11-03",
+    "nis": "20260149",
+    "nama": "Budi Wijaya",
+    "kelas": "6AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:02"
+  },
+  {
+    "id": "A0150",
+    "tanggal": "2026-11-14",
+    "nis": "20260150",
+    "nama": "Olivia Mahendra",
+    "kelas": "8AQ",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "06:40"
+  },
+  {
+    "id": "A0151",
+    "tanggal": "2026-11-09",
+    "nis": "20260151",
+    "nama": "Vicky Baskoro",
+    "kelas": "11 IPA AI",
+    "status": "Alfa",
+    "metode": "QR",
+    "jam": "06:08"
+  },
+  {
+    "id": "A0152",
+    "tanggal": "2026-10-28",
+    "nis": "20260152",
+    "nama": "Wahyu Iskandar",
+    "kelas": "12 Pemasaran AA",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "07:42"
+  },
+  {
+    "id": "A0153",
+    "tanggal": "2026-10-21",
+    "nis": "20260153",
+    "nama": "Zahra Effendi",
+    "kelas": "3AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:21"
+  },
+  {
+    "id": "A0154",
+    "tanggal": "2026-11-08",
+    "nis": "20260154",
+    "nama": "Tasya Pratama",
+    "kelas": "9AK",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:08"
+  },
+  {
+    "id": "A0155",
+    "tanggal": "2026-11-02",
+    "nis": "20260155",
+    "nama": "Eko Darmawan",
+    "kelas": "10 IPA AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:58"
+  },
+  {
+    "id": "A0156",
+    "tanggal": "2026-11-18",
+    "nis": "20260156",
+    "nama": "Joko Santoso",
+    "kelas": "11 RPL AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:03"
+  },
+  {
+    "id": "A0157",
+    "tanggal": "2026-10-24",
+    "nis": "20260157",
+    "nama": "Usman Mahendra I.",
+    "kelas": "6AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:45"
+  },
+  {
+    "id": "A0158",
+    "tanggal": "2026-10-23",
+    "nis": "20260158",
+    "nama": "Okta Laksana N.",
+    "kelas": "8AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:28"
+  },
+  {
+    "id": "A0159",
+    "tanggal": "2026-10-23",
+    "nis": "20260159",
+    "nama": "Tiara Yudhoyono",
+    "kelas": "11 IPS AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:07"
+  },
+  {
+    "id": "A0160",
+    "tanggal": "2026-11-12",
+    "nis": "20260160",
+    "nama": "Eka Baskoro F.",
+    "kelas": "11 RPL AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:28"
+  },
+  {
+    "id": "A0161",
+    "tanggal": "2026-11-01",
+    "nis": "20260161",
+    "nama": "Lutfi Darmawan",
+    "kelas": "4AJ",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "06:16"
+  },
+  {
+    "id": "A0162",
+    "tanggal": "2026-10-26",
+    "nis": "20260162",
+    "nama": "Yuni Tirtayasa P.",
+    "kelas": "9AL",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:27"
+  },
+  {
+    "id": "A0163",
+    "tanggal": "2026-11-19",
+    "nis": "20260163",
+    "nama": "Taufik Laksana W.",
+    "kelas": "12 IPS AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:39"
+  },
+  {
+    "id": "A0164",
+    "tanggal": "2026-10-30",
+    "nis": "20260164",
+    "nama": "Kurnia Firmansyah",
+    "kelas": "10 Pemasaran AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:30"
+  },
+  {
+    "id": "A0165",
+    "tanggal": "2026-11-09",
+    "nis": "20260165",
+    "nama": "Bima Purnama",
+    "kelas": "5AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:45"
+  },
+  {
+    "id": "A0166",
+    "tanggal": "2026-11-02",
+    "nis": "20260166",
+    "nama": "Oscar Santoso",
+    "kelas": "7AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:57"
+  },
+  {
+    "id": "A0167",
+    "tanggal": "2026-10-26",
+    "nis": "20260167",
+    "nama": "Satria Utomo P.",
+    "kelas": "10 IPA AE",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "07:32"
+  },
+  {
+    "id": "A0168",
+    "tanggal": "2026-10-26",
+    "nis": "20260168",
+    "nama": "Bima Iskandar R.",
+    "kelas": "12 Akuntansi AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:38"
+  },
+  {
+    "id": "A0169",
+    "tanggal": "2026-10-26",
+    "nis": "20260169",
+    "nama": "Putra Tirtayasa",
+    "kelas": "2AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:27"
+  },
+  {
+    "id": "A0170",
+    "tanggal": "2026-10-26",
+    "nis": "20260170",
+    "nama": "Gita Firmansyah",
+    "kelas": "8AS",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0171",
+    "tanggal": "2026-11-20",
+    "nis": "20260171",
+    "nama": "Laras Zamroni",
+    "kelas": "11 IPS AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:50"
+  },
+  {
+    "id": "A0172",
+    "tanggal": "2026-10-30",
+    "nis": "20260172",
+    "nama": "Zaskia Octaviano J.",
+    "kelas": "10 DKV AA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:14"
+  },
+  {
+    "id": "A0173",
+    "tanggal": "2026-11-12",
+    "nis": "20260173",
+    "nama": "Oscar Nurdin",
+    "kelas": "2AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:45"
+  },
+  {
+    "id": "A0174",
+    "tanggal": "2026-10-22",
+    "nis": "20260174",
+    "nama": "Surya Nugroho",
+    "kelas": "8AT",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:26"
+  },
+  {
+    "id": "A0175",
+    "tanggal": "2026-11-03",
+    "nis": "20260175",
+    "nama": "Naufal Setiawan",
+    "kelas": "11 IPA AJ",
+    "status": "Alfa",
+    "metode": "Manual",
+    "jam": "06:24"
+  },
+  {
+    "id": "A0176",
+    "tanggal": "2026-10-23",
+    "nis": "20260176",
+    "nama": "Wahyu Halim",
+    "kelas": "10 Pemasaran AC",
+    "status": "Alfa",
+    "metode": "QR",
+    "jam": "06:58"
+  },
+  {
+    "id": "A0177",
+    "tanggal": "2026-10-23",
+    "nis": "20260177",
+    "nama": "Wahyu Saputra F.",
+    "kelas": "4AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0178",
+    "tanggal": "2026-10-26",
+    "nis": "20260178",
+    "nama": "Rahma Nurdin T.",
+    "kelas": "9AM",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "06:32"
+  },
+  {
+    "id": "A0179",
+    "tanggal": "2026-10-25",
+    "nis": "20260179",
+    "nama": "Wulan Permana",
+    "kelas": "12 IPS AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0180",
+    "tanggal": "2026-11-03",
+    "nis": "20260180",
+    "nama": "Daffa Zamroni",
+    "kelas": "11 Akuntansi AB",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "07:24"
+  },
+  {
+    "id": "A0181",
+    "tanggal": "2026-10-22",
+    "nis": "20260181",
+    "nama": "Daffa Effendi U.",
+    "kelas": "6AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:19"
+  },
+  {
+    "id": "A0182",
+    "tanggal": "2026-11-11",
+    "nis": "20260182",
+    "nama": "Octavia Hartono D.",
+    "kelas": "7AM",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:18"
+  },
+  {
+    "id": "A0183",
+    "tanggal": "2026-11-03",
+    "nis": "20260183",
+    "nama": "Elsa Fauzi",
+    "kelas": "12 IPA AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:49"
+  },
+  {
+    "id": "A0184",
+    "tanggal": "2026-11-18",
+    "nis": "20260184",
+    "nama": "Wira Maulana",
+    "kelas": "10 TKR AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:36"
+  },
+  {
+    "id": "A0185",
+    "tanggal": "2026-10-21",
+    "nis": "20260185",
+    "nama": "Daffa Halim",
+    "kelas": "4AL",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:00"
+  },
+  {
+    "id": "A0186",
+    "tanggal": "2026-10-24",
+    "nis": "20260186",
+    "nama": "Krisna Kusuma",
+    "kelas": "7AN",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:27"
+  },
+  {
+    "id": "A0187",
+    "tanggal": "2026-11-18",
+    "nis": "20260187",
+    "nama": "Elsa Octaviano",
+    "kelas": "11 IPS AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0188",
+    "tanggal": "2026-10-27",
+    "nis": "20260188",
+    "nama": "Ulfa Gunawan N.",
+    "kelas": "11 Pemasaran AA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:37"
+  },
+  {
+    "id": "A0189",
+    "tanggal": "2026-10-31",
+    "nis": "20260189",
+    "nama": "Sinta Pratama T.",
+    "kelas": "4AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:14"
+  },
+  {
+    "id": "A0190",
+    "tanggal": "2026-11-07",
+    "nis": "20260190",
+    "nama": "Wahyu Cahyadi O.",
+    "kelas": "7AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0191",
+    "tanggal": "2026-11-19",
+    "nis": "20260191",
+    "nama": "Olivia Kusuma",
+    "kelas": "11 IPA AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:16"
+  },
+  {
+    "id": "A0192",
+    "tanggal": "2026-11-04",
+    "nis": "20260192",
+    "nama": "Daffa Utomo",
+    "kelas": "10 DKV AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:49"
+  },
+  {
+    "id": "A0193",
+    "tanggal": "2026-10-24",
+    "nis": "20260193",
+    "nama": "Putri Santoso",
+    "kelas": "4AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:18"
+  },
+  {
+    "id": "A0194",
+    "tanggal": "2026-10-31",
+    "nis": "20260194",
+    "nama": "Naufal Darmawan",
+    "kelas": "7AP",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:35"
+  },
+  {
+    "id": "A0195",
+    "tanggal": "2026-11-10",
+    "nis": "20260195",
+    "nama": "Galih Permana",
+    "kelas": "11 IPS AH",
+    "status": "Alfa",
+    "metode": "Manual",
+    "jam": "07:55"
+  },
+  {
+    "id": "A0196",
+    "tanggal": "2026-11-13",
+    "nis": "20260196",
+    "nama": "Rahma Cahyadi",
+    "kelas": "12 DKV AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:56"
+  },
+  {
+    "id": "A0197",
+    "tanggal": "2026-11-12",
+    "nis": "20260197",
+    "nama": "Elsa Wicaksono",
+    "kelas": "3AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:42"
+  },
+  {
+    "id": "A0198",
+    "tanggal": "2026-10-25",
+    "nis": "20260198",
+    "nama": "Gilang Cahyadi I.",
+    "kelas": "9AN",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:42"
+  },
+  {
+    "id": "A0199",
+    "tanggal": "2026-10-30",
+    "nis": "20260199",
+    "nama": "Fikri Kusuma",
+    "kelas": "12 IPA AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:44"
+  },
+  {
+    "id": "A0200",
+    "tanggal": "2026-11-17",
+    "nis": "20260200",
+    "nama": "Surya Pratama I.",
+    "kelas": "10 RPL AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:44"
+  },
+  {
+    "id": "A0201",
+    "tanggal": "2026-11-11",
+    "nis": "20260201",
+    "nama": "Laras Maulana R.",
+    "kelas": "3AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:12"
+  },
+  {
+    "id": "A0202",
+    "tanggal": "2026-11-19",
+    "nis": "20260202",
+    "nama": "Laras Gunawan",
+    "kelas": "8AU",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:12"
+  },
+  {
+    "id": "A0203",
+    "tanggal": "2026-11-04",
+    "nis": "20260203",
+    "nama": "Candra Zamroni",
+    "kelas": "10 IPA AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:15"
+  },
+  {
+    "id": "A0204",
+    "tanggal": "2026-11-02",
+    "nis": "20260204",
+    "nama": "Nanda Setiawan",
+    "kelas": "12 Akuntansi AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:10"
+  },
+  {
+    "id": "A0205",
+    "tanggal": "2026-11-04",
+    "nis": "20260205",
+    "nama": "Arif Nugroho",
+    "kelas": "2AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:56"
+  },
+  {
+    "id": "A0206",
+    "tanggal": "2026-11-14",
+    "nis": "20260206",
+    "nama": "Hafiz Kurniawan",
+    "kelas": "9AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:43"
+  },
+  {
+    "id": "A0207",
+    "tanggal": "2026-10-31",
+    "nis": "20260207",
+    "nama": "Nabila Setiawan T.",
+    "kelas": "10 IPS AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0208",
+    "tanggal": "2026-11-06",
+    "nis": "20260208",
+    "nama": "Putri Susanto",
+    "kelas": "12 Akuntansi AG",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "06:38"
+  },
+  {
+    "id": "A0209",
+    "tanggal": "2026-11-09",
+    "nis": "20260209",
+    "nama": "Fikri Halim B.",
+    "kelas": "1AH",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:52"
+  },
+  {
+    "id": "A0210",
+    "tanggal": "2026-11-20",
+    "nis": "20260210",
+    "nama": "Usman Santoso W.",
+    "kelas": "7AQ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:53"
+  },
+  {
+    "id": "A0211",
+    "tanggal": "2026-10-22",
+    "nis": "20260211",
+    "nama": "Yusuf Saputra R.",
+    "kelas": "10 IPS AL",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:21"
+  },
+  {
+    "id": "A0212",
+    "tanggal": "2026-10-30",
+    "nis": "20260212",
+    "nama": "Putri Tirtayasa",
+    "kelas": "12 TKR AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:42"
+  },
+  {
+    "id": "A0213",
+    "tanggal": "2026-11-07",
+    "nis": "20260213",
+    "nama": "Eko Mahendra",
+    "kelas": "2AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:38"
+  },
+  {
+    "id": "A0214",
+    "tanggal": "2026-11-06",
+    "nis": "20260214",
+    "nama": "Widya Rahardian",
+    "kelas": "8AV",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:37"
+  },
+  {
+    "id": "A0215",
+    "tanggal": "2026-11-09",
+    "nis": "20260215",
+    "nama": "Nanda Baskoro",
+    "kelas": "10 IPS AM",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0216",
+    "tanggal": "2026-10-25",
+    "nis": "20260216",
+    "nama": "Lutfi Permana",
+    "kelas": "10 Akuntansi AC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:58"
+  },
+  {
+    "id": "A0217",
+    "tanggal": "2026-11-05",
+    "nis": "20260217",
+    "nama": "Zaki Hidayat",
+    "kelas": "5AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:24"
+  },
+  {
+    "id": "A0218",
+    "tanggal": "2026-10-23",
+    "nis": "20260218",
+    "nama": "Qori Santoso U.",
+    "kelas": "9AP",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:58"
+  },
+  {
+    "id": "A0219",
+    "tanggal": "2026-11-18",
+    "nis": "20260219",
+    "nama": "Dewi Salim B.",
+    "kelas": "11 IPS AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0220",
+    "tanggal": "2026-11-17",
+    "nis": "20260220",
+    "nama": "Gilang Setiawan",
+    "kelas": "11 Akuntansi AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:45"
+  },
+  {
+    "id": "A0221",
+    "tanggal": "2026-10-23",
+    "nis": "20260221",
+    "nama": "Puspita Utomo U.",
+    "kelas": "6AI",
+    "status": "Alfa",
+    "metode": "QR",
+    "jam": "06:41"
+  },
+  {
+    "id": "A0222",
+    "tanggal": "2026-10-30",
+    "nis": "20260222",
+    "nama": "Yolanda Laksana",
+    "kelas": "8AW",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:50"
+  },
+  {
+    "id": "A0223",
+    "tanggal": "2026-11-15",
+    "nis": "20260223",
+    "nama": "Surya Kusuma S.",
+    "kelas": "12 IPS AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:42"
+  },
+  {
+    "id": "A0224",
+    "tanggal": "2026-11-03",
+    "nis": "20260224",
+    "nama": "Daffa Junaidi",
+    "kelas": "12 DKV AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:48"
+  },
+  {
+    "id": "A0225",
+    "tanggal": "2026-10-31",
+    "nis": "20260225",
+    "nama": "Wira Setiawan",
+    "kelas": "1AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:02"
+  },
+  {
+    "id": "A0226",
+    "tanggal": "2026-10-22",
+    "nis": "20260226",
+    "nama": "Fajar Anggara",
+    "kelas": "7AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:00"
+  },
+  {
+    "id": "A0227",
+    "tanggal": "2026-11-12",
+    "nis": "20260227",
+    "nama": "Gadis Susanto I.",
+    "kelas": "11 IPS AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:06"
+  },
+  {
+    "id": "A0228",
+    "tanggal": "2026-11-12",
+    "nis": "20260228",
+    "nama": "Fikri Yudhoyono",
+    "kelas": "12 DKV AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0229",
+    "tanggal": "2026-11-02",
+    "nis": "20260229",
+    "nama": "Indah Wibowo",
+    "kelas": "6AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:16"
+  },
+  {
+    "id": "A0230",
+    "tanggal": "2026-11-09",
+    "nis": "20260230",
+    "nama": "Dinda Salim",
+    "kelas": "9AQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:39"
+  },
+  {
+    "id": "A0231",
+    "tanggal": "2026-11-14",
+    "nis": "20260231",
+    "nama": "Dedi Rahardian I.",
+    "kelas": "12 IPS AJ",
+    "status": "Sakit",
+    "metode": "Manual",
+    "jam": "07:46"
+  },
+  {
+    "id": "A0232",
+    "tanggal": "2026-11-09",
+    "nis": "20260232",
+    "nama": "Laras Darmawan",
+    "kelas": "10 DKV AC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:23"
+  },
+  {
+    "id": "A0233",
+    "tanggal": "2026-11-01",
+    "nis": "20260233",
+    "nama": "Prasetyo Gunawan",
+    "kelas": "6AK",
+    "status": "Sakit",
+    "metode": "Manual",
+    "jam": "06:03"
+  },
+  {
+    "id": "A0234",
+    "tanggal": "2026-11-07",
+    "nis": "20260234",
+    "nama": "Dewi Pratama",
+    "kelas": "9AR",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0235",
+    "tanggal": "2026-11-03",
+    "nis": "20260235",
+    "nama": "Bunga Santoso",
+    "kelas": "12 IPS AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:02"
+  },
+  {
+    "id": "A0236",
+    "tanggal": "2026-11-06",
+    "nis": "20260236",
+    "nama": "Krisna Nugroho",
+    "kelas": "12 TKJ AB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0237",
+    "tanggal": "2026-10-26",
+    "nis": "20260237",
+    "nama": "Elsa Zamroni",
+    "kelas": "3AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:45"
+  },
+  {
+    "id": "A0238",
+    "tanggal": "2026-11-06",
+    "nis": "20260238",
+    "nama": "Eka Permana",
+    "kelas": "8AX",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:28"
+  },
+  {
+    "id": "A0239",
+    "tanggal": "2026-11-02",
+    "nis": "20260239",
+    "nama": "Qonita Utomo S.",
+    "kelas": "11 IPS AK",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:14"
+  },
+  {
+    "id": "A0240",
+    "tanggal": "2026-11-03",
+    "nis": "20260240",
+    "nama": "Jasmine Yudhoyono",
+    "kelas": "12 RPL AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0241",
+    "tanggal": "2026-11-17",
+    "nis": "20260241",
+    "nama": "Hasna Mahendra I.",
+    "kelas": "2AH",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "07:19"
+  },
+  {
+    "id": "A0242",
+    "tanggal": "2026-11-07",
+    "nis": "20260242",
+    "nama": "Daffa Fauzi K.",
+    "kelas": "8AY",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:55"
+  },
+  {
+    "id": "A0243",
+    "tanggal": "2026-11-13",
+    "nis": "20260243",
+    "nama": "Mawar Mahendra",
+    "kelas": "11 IPA AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:39"
+  },
+  {
+    "id": "A0244",
+    "tanggal": "2026-10-24",
+    "nis": "20260244",
+    "nama": "Wira Permana",
+    "kelas": "11 TKR AA",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0245",
+    "tanggal": "2026-11-01",
+    "nis": "20260245",
+    "nama": "Vino Hidayat N.",
+    "kelas": "4AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:46"
+  },
+  {
+    "id": "A0246",
+    "tanggal": "2026-11-18",
+    "nis": "20260246",
+    "nama": "Eko Salim",
+    "kelas": "8AZ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:29"
+  },
+  {
+    "id": "A0247",
+    "tanggal": "2026-11-10",
+    "nis": "20260247",
+    "nama": "Tiara Hidayat",
+    "kelas": "12 IPS AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:07"
+  },
+  {
+    "id": "A0248",
+    "tanggal": "2026-10-30",
+    "nis": "20260248",
+    "nama": "Daffa Permana D.",
+    "kelas": "10 TKR AD",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:04"
+  },
+  {
+    "id": "A0249",
+    "tanggal": "2026-11-03",
+    "nis": "20260249",
+    "nama": "Fikri Junaidi",
+    "kelas": "2AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0250",
+    "tanggal": "2026-10-24",
+    "nis": "20260250",
+    "nama": "Umi Mahendra",
+    "kelas": "7AS",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0251",
+    "tanggal": "2026-11-11",
+    "nis": "20260251",
+    "nama": "Irfan Hidayat",
+    "kelas": "11 IPS AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:10"
+  },
+  {
+    "id": "A0252",
+    "tanggal": "2026-11-20",
+    "nis": "20260252",
+    "nama": "Widya Kusuma",
+    "kelas": "11 DKV AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:29"
+  },
+  {
+    "id": "A0253",
+    "tanggal": "2026-10-29",
+    "nis": "20260253",
+    "nama": "Maulana Iskandar",
+    "kelas": "6AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:17"
+  },
+  {
+    "id": "A0254",
+    "tanggal": "2026-10-25",
+    "nis": "20260254",
+    "nama": "Kurnia Permana T.",
+    "kelas": "7AT",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:22"
+  },
+  {
+    "id": "A0255",
+    "tanggal": "2026-10-27",
+    "nis": "20260255",
+    "nama": "Usman Octaviano Y.",
+    "kelas": "10 IPA AG",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:39"
+  },
+  {
+    "id": "A0256",
+    "tanggal": "2026-11-19",
+    "nis": "20260256",
+    "nama": "Jamal Salim",
+    "kelas": "10 RPL AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:11"
+  },
+  {
+    "id": "A0257",
+    "tanggal": "2026-10-23",
+    "nis": "20260257",
+    "nama": "Sinta Junaidi",
+    "kelas": "2AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:32"
+  },
+  {
+    "id": "A0258",
+    "tanggal": "2026-10-25",
+    "nis": "20260258",
+    "nama": "Umi Maulana",
+    "kelas": "9AS",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:19"
+  },
+  {
+    "id": "A0259",
+    "tanggal": "2026-11-12",
+    "nis": "20260259",
+    "nama": "Laras Abdillah",
+    "kelas": "10 IPA AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0260",
+    "tanggal": "2026-11-15",
+    "nis": "20260260",
+    "nama": "Laras Effendi",
+    "kelas": "11 Pemasaran AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:52"
+  },
+  {
+    "id": "A0261",
+    "tanggal": "2026-11-09",
+    "nis": "20260261",
+    "nama": "Kirana Saputra T.",
+    "kelas": "1AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:48"
+  },
+  {
+    "id": "A0262",
+    "tanggal": "2026-10-30",
+    "nis": "20260262",
+    "nama": "Rahma Wibowo I.",
+    "kelas": "8BA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:50"
+  },
+  {
+    "id": "A0263",
+    "tanggal": "2026-11-16",
+    "nis": "20260263",
+    "nama": "Octavia Mahendra",
+    "kelas": "11 IPA AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0264",
+    "tanggal": "2026-11-10",
+    "nis": "20260264",
+    "nama": "Usman Darmawan",
+    "kelas": "11 RPL AG",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "07:32"
+  },
+  {
+    "id": "A0265",
+    "tanggal": "2026-11-07",
+    "nis": "20260265",
+    "nama": "Zulfikar Purnama",
+    "kelas": "5AJ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0266",
+    "tanggal": "2026-11-19",
+    "nis": "20260266",
+    "nama": "Vania Virgiawan",
+    "kelas": "7AU",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:48"
+  },
+  {
+    "id": "A0267",
+    "tanggal": "2026-11-16",
+    "nis": "20260267",
+    "nama": "Zaskia Laksana",
+    "kelas": "11 IPS AM",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:52"
+  },
+  {
+    "id": "A0268",
+    "tanggal": "2026-11-08",
+    "nis": "20260268",
+    "nama": "Putri Hartono",
+    "kelas": "12 DKV AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:54"
+  },
+  {
+    "id": "A0269",
+    "tanggal": "2026-10-21",
+    "nis": "20260269",
+    "nama": "Surya Susanto",
+    "kelas": "4AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0270",
+    "tanggal": "2026-11-01",
+    "nis": "20260270",
+    "nama": "Joko Kusuma O.",
+    "kelas": "9AT",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:32"
+  },
+  {
+    "id": "A0271",
+    "tanggal": "2026-10-21",
+    "nis": "20260271",
+    "nama": "Anisa Kurniawan K.",
+    "kelas": "11 IPA AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:40"
+  },
+  {
+    "id": "A0272",
+    "tanggal": "2026-10-25",
+    "nis": "20260272",
+    "nama": "Eko Maulana",
+    "kelas": "11 Akuntansi AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:15"
+  },
+  {
+    "id": "A0273",
+    "tanggal": "2026-10-29",
+    "nis": "20260273",
+    "nama": "Tiara Nurdin",
+    "kelas": "1AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:53"
+  },
+  {
+    "id": "A0274",
+    "tanggal": "2026-10-23",
+    "nis": "20260274",
+    "nama": "Rizki Darmawan",
+    "kelas": "8BB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:37"
+  },
+  {
+    "id": "A0275",
+    "tanggal": "2026-11-10",
+    "nis": "20260275",
+    "nama": "Qonita Kusuma",
+    "kelas": "11 IPS AN",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:35"
+  },
+  {
+    "id": "A0276",
+    "tanggal": "2026-10-26",
+    "nis": "20260276",
+    "nama": "Daffa Octaviano",
+    "kelas": "10 Pemasaran AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:54"
+  },
+  {
+    "id": "A0277",
+    "tanggal": "2026-10-29",
+    "nis": "20260277",
+    "nama": "Yolanda Darmawan K.",
+    "kelas": "4AQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:53"
+  },
+  {
+    "id": "A0278",
+    "tanggal": "2026-10-26",
+    "nis": "20260278",
+    "nama": "Yolanda Mahendra",
+    "kelas": "8BC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:56"
+  },
+  {
+    "id": "A0279",
+    "tanggal": "2026-11-09",
+    "nis": "20260279",
+    "nama": "Gilang Wijaya",
+    "kelas": "11 IPA AO",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:22"
+  },
+  {
+    "id": "A0280",
+    "tanggal": "2026-11-14",
+    "nis": "20260280",
+    "nama": "Eka Susanto Q.",
+    "kelas": "10 TKJ AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:58"
+  },
+  {
+    "id": "A0281",
+    "tanggal": "2026-10-28",
+    "nis": "20260281",
+    "nama": "Yoga Pratama M.",
+    "kelas": "3AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:46"
+  },
+  {
+    "id": "A0282",
+    "tanggal": "2026-11-10",
+    "nis": "20260282",
+    "nama": "Yuni Effendi",
+    "kelas": "8BD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:59"
+  },
+  {
+    "id": "A0283",
+    "tanggal": "2026-11-08",
+    "nis": "20260283",
+    "nama": "Naufal Permana R.",
+    "kelas": "11 IPS AO",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:02"
+  },
+  {
+    "id": "A0284",
+    "tanggal": "2026-11-05",
+    "nis": "20260284",
+    "nama": "Yuni Anggara",
+    "kelas": "10 DKV AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:16"
+  },
+  {
+    "id": "A0285",
+    "tanggal": "2026-11-13",
+    "nis": "20260285",
+    "nama": "Qonita Kusuma R.",
+    "kelas": "1AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:53"
+  },
+  {
+    "id": "A0286",
+    "tanggal": "2026-11-06",
+    "nis": "20260286",
+    "nama": "Ilham Wijaya",
+    "kelas": "7AV",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:26"
+  },
+  {
+    "id": "A0287",
+    "tanggal": "2026-10-27",
+    "nis": "20260287",
+    "nama": "Taufik Junaidi",
+    "kelas": "10 IPS AN",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0288",
+    "tanggal": "2026-10-31",
+    "nis": "20260288",
+    "nama": "Gadis Tirtayasa",
+    "kelas": "12 TKJ AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0289",
+    "tanggal": "2026-10-28",
+    "nis": "20260289",
+    "nama": "Zulfikar Permana",
+    "kelas": "2AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:29"
+  },
+  {
+    "id": "A0290",
+    "tanggal": "2026-11-14",
+    "nis": "20260290",
+    "nama": "Kayla Saputra",
+    "kelas": "9AU",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "06:00"
+  },
+  {
+    "id": "A0291",
+    "tanggal": "2026-11-07",
+    "nis": "20260291",
+    "nama": "Nanda Halim",
+    "kelas": "12 IPA AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:22"
+  },
+  {
+    "id": "A0292",
+    "tanggal": "2026-11-14",
+    "nis": "20260292",
+    "nama": "Teguh Tirtayasa",
+    "kelas": "10 RPL AG",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:28"
+  },
+  {
+    "id": "A0293",
+    "tanggal": "2026-11-15",
+    "nis": "20260293",
+    "nama": "Dewi Firmansyah",
+    "kelas": "3AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:32"
+  },
+  {
+    "id": "A0294",
+    "tanggal": "2026-10-31",
+    "nis": "20260294",
+    "nama": "Yusuf Hidayat",
+    "kelas": "9AV",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:52"
+  },
+  {
+    "id": "A0295",
+    "tanggal": "2026-11-07",
+    "nis": "20260295",
+    "nama": "Gadis Virgiawan",
+    "kelas": "11 IPA AP",
+    "status": "Alfa",
+    "metode": "Manual",
+    "jam": "07:41"
+  },
+  {
+    "id": "A0296",
+    "tanggal": "2026-10-29",
+    "nis": "20260296",
+    "nama": "Wira Abdillah",
+    "kelas": "11 RPL AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:19"
+  },
+  {
+    "id": "A0297",
+    "tanggal": "2026-11-19",
+    "nis": "20260297",
+    "nama": "Joko Pratama",
+    "kelas": "6AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:09"
+  },
+  {
+    "id": "A0298",
+    "tanggal": "2026-11-09",
+    "nis": "20260298",
+    "nama": "Hafiz Setiawan",
+    "kelas": "8BE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:07"
+  },
+  {
+    "id": "A0299",
+    "tanggal": "2026-11-03",
+    "nis": "20260299",
+    "nama": "Kayla Octaviano",
+    "kelas": "11 IPS AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:49"
+  },
+  {
+    "id": "A0300",
+    "tanggal": "2026-10-31",
+    "nis": "20260300",
+    "nama": "Nabila Yudhoyono P.",
+    "kelas": "11 Akuntansi AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:52"
+  },
+  {
+    "id": "A0301",
+    "tanggal": "2026-11-09",
+    "nis": "20260301",
+    "nama": "Bayu Octaviano K.",
+    "kelas": "5AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:19"
+  },
+  {
+    "id": "A0302",
+    "tanggal": "2026-10-26",
+    "nis": "20260302",
+    "nama": "Krisna Effendi",
+    "kelas": "9AW",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:20"
+  },
+  {
+    "id": "A0303",
+    "tanggal": "2026-11-19",
+    "nis": "20260303",
+    "nama": "Vicky Susanto M.",
+    "kelas": "10 IPA AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:36"
+  },
+  {
+    "id": "A0304",
+    "tanggal": "2026-10-27",
+    "nis": "20260304",
+    "nama": "Zulfikar Setiawan",
+    "kelas": "11 TKR AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:18"
+  },
+  {
+    "id": "A0305",
+    "tanggal": "2026-10-21",
+    "nis": "20260305",
+    "nama": "Intan Kusuma",
+    "kelas": "1AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:13"
+  },
+  {
+    "id": "A0306",
+    "tanggal": "2026-11-04",
+    "nis": "20260306",
+    "nama": "Kurnia Anggara",
+    "kelas": "8BF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:31"
+  },
+  {
+    "id": "A0307",
+    "tanggal": "2026-11-02",
+    "nis": "20260307",
+    "nama": "Muhammad Iskandar",
+    "kelas": "10 IPA AJ",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:45"
+  },
+  {
+    "id": "A0308",
+    "tanggal": "2026-10-24",
+    "nis": "20260308",
+    "nama": "Octavia Tirtayasa",
+    "kelas": "12 TKJ AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:11"
+  },
+  {
+    "id": "A0309",
+    "tanggal": "2026-11-07",
+    "nis": "20260309",
+    "nama": "Umar Permana",
+    "kelas": "3AM",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0310",
+    "tanggal": "2026-10-27",
+    "nis": "20260310",
+    "nama": "Maulana Wibowo",
+    "kelas": "9AX",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:23"
+  },
+  {
+    "id": "A0311",
+    "tanggal": "2026-11-02",
+    "nis": "20260311",
+    "nama": "Zahra Gunawan",
+    "kelas": "10 IPA AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:22"
+  },
+  {
+    "id": "A0312",
+    "tanggal": "2026-11-15",
+    "nis": "20260312",
+    "nama": "Cantika Virgiawan B.",
+    "kelas": "12 RPL AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:32"
+  },
+  {
+    "id": "A0313",
+    "tanggal": "2026-10-21",
+    "nis": "20260313",
+    "nama": "Fitri Tirtayasa",
+    "kelas": "4AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0314",
+    "tanggal": "2026-10-25",
+    "nis": "20260314",
+    "nama": "Taufik Junaidi",
+    "kelas": "9AY",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:49"
+  },
+  {
+    "id": "A0315",
+    "tanggal": "2026-11-20",
+    "nis": "20260315",
+    "nama": "Mawar Cahyadi J.",
+    "kelas": "10 IPS AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:51"
+  },
+  {
+    "id": "A0316",
+    "tanggal": "2026-10-24",
+    "nis": "20260316",
+    "nama": "Gilang Laksana L.",
+    "kelas": "12 DKV AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:38"
+  },
+  {
+    "id": "A0317",
+    "tanggal": "2026-10-28",
+    "nis": "20260317",
+    "nama": "Laras Anggara",
+    "kelas": "4AS",
+    "status": "Alfa",
+    "metode": "QR",
+    "jam": "06:55"
+  },
+  {
+    "id": "A0318",
+    "tanggal": "2026-11-16",
+    "nis": "20260318",
+    "nama": "Tiara Susanto T.",
+    "kelas": "8BG",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "06:29"
+  },
+  {
+    "id": "A0319",
+    "tanggal": "2026-11-08",
+    "nis": "20260319",
+    "nama": "Candra Virgiawan",
+    "kelas": "12 IPA AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0320",
+    "tanggal": "2026-10-31",
+    "nis": "20260320",
+    "nama": "Kurnia Darmawan N.",
+    "kelas": "12 Akuntansi AH",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0321",
+    "tanggal": "2026-11-03",
+    "nis": "20260321",
+    "nama": "Jamal Fauzi",
+    "kelas": "1AN",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:53"
+  },
+  {
+    "id": "A0322",
+    "tanggal": "2026-11-13",
+    "nis": "20260322",
+    "nama": "Indah Tirtayasa P.",
+    "kelas": "9AZ",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "06:25"
+  },
+  {
+    "id": "A0323",
+    "tanggal": "2026-10-24",
+    "nis": "20260323",
+    "nama": "Taufik Rahardian E.",
+    "kelas": "10 IPA AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:27"
+  },
+  {
+    "id": "A0324",
+    "tanggal": "2026-10-30",
+    "nis": "20260324",
+    "nama": "Kayla Maulana",
+    "kelas": "11 TKR AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:44"
+  },
+  {
+    "id": "A0325",
+    "tanggal": "2026-10-23",
+    "nis": "20260325",
+    "nama": "Citra Halim",
+    "kelas": "4AT",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:00"
+  },
+  {
+    "id": "A0326",
+    "tanggal": "2026-11-16",
+    "nis": "20260326",
+    "nama": "Rani Salim L.",
+    "kelas": "9BA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:29"
+  },
+  {
+    "id": "A0327",
+    "tanggal": "2026-10-23",
+    "nis": "20260327",
+    "nama": "Hasna Hidayat B.",
+    "kelas": "12 IPA AK",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:38"
+  },
+  {
+    "id": "A0328",
+    "tanggal": "2026-10-24",
+    "nis": "20260328",
+    "nama": "Yolanda Wicaksono",
+    "kelas": "12 TKR AH",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "06:39"
+  },
+  {
+    "id": "A0329",
+    "tanggal": "2026-10-31",
+    "nis": "20260329",
+    "nama": "Rani Kusuma A.",
+    "kelas": "3AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:50"
+  },
+  {
+    "id": "A0330",
+    "tanggal": "2026-11-20",
+    "nis": "20260330",
+    "nama": "Gilang Gunawan",
+    "kelas": "9BB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:55"
+  },
+  {
+    "id": "A0331",
+    "tanggal": "2026-10-26",
+    "nis": "20260331",
+    "nama": "Gilang Maulana B.",
+    "kelas": "12 IPA AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:22"
+  },
+  {
+    "id": "A0332",
+    "tanggal": "2026-11-16",
+    "nis": "20260332",
+    "nama": "Putri Nurdin D.",
+    "kelas": "11 DKV AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:19"
+  },
+  {
+    "id": "A0333",
+    "tanggal": "2026-10-29",
+    "nis": "20260333",
+    "nama": "Surya Wicaksono",
+    "kelas": "3AO",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:58"
+  },
+  {
+    "id": "A0334",
+    "tanggal": "2026-11-02",
+    "nis": "20260334",
+    "nama": "Intan Laksana",
+    "kelas": "7AW",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0335",
+    "tanggal": "2026-11-19",
+    "nis": "20260335",
+    "nama": "Qori Ramadhan M.",
+    "kelas": "10 IPA AM",
+    "status": "Alfa",
+    "metode": "Manual",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0336",
+    "tanggal": "2026-11-08",
+    "nis": "20260336",
+    "nama": "Muhammad Tirtayasa B.",
+    "kelas": "12 Pemasaran AB",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:51"
+  },
+  {
+    "id": "A0337",
+    "tanggal": "2026-10-31",
+    "nis": "20260337",
+    "nama": "Qori Laksana",
+    "kelas": "2AL",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:05"
+  },
+  {
+    "id": "A0338",
+    "tanggal": "2026-10-29",
+    "nis": "20260338",
+    "nama": "Yuni Laksana",
+    "kelas": "7AX",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:07"
+  },
+  {
+    "id": "A0339",
+    "tanggal": "2026-11-19",
+    "nis": "20260339",
+    "nama": "Zaki Anggara M.",
+    "kelas": "12 IPS AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:48"
+  },
+  {
+    "id": "A0340",
+    "tanggal": "2026-10-21",
+    "nis": "20260340",
+    "nama": "Jihan Laksana",
+    "kelas": "10 TKR AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:48"
+  },
+  {
+    "id": "A0341",
+    "tanggal": "2026-11-01",
+    "nis": "20260341",
+    "nama": "Naufal Maulana",
+    "kelas": "3AP",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "06:18"
+  },
+  {
+    "id": "A0342",
+    "tanggal": "2026-11-02",
+    "nis": "20260342",
+    "nama": "Dimas Maulana I.",
+    "kelas": "9BC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:10"
+  },
+  {
+    "id": "A0343",
+    "tanggal": "2026-11-12",
+    "nis": "20260343",
+    "nama": "Gita Firmansyah A.",
+    "kelas": "10 IPS AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:50"
+  },
+  {
+    "id": "A0344",
+    "tanggal": "2026-10-25",
+    "nis": "20260344",
+    "nama": "Eka Tirtayasa",
+    "kelas": "12 TKJ AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:14"
+  },
+  {
+    "id": "A0345",
+    "tanggal": "2026-11-07",
+    "nis": "20260345",
+    "nama": "Indah Junaidi",
+    "kelas": "5AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:45"
+  },
+  {
+    "id": "A0346",
+    "tanggal": "2026-11-12",
+    "nis": "20260346",
+    "nama": "Dinda Rahardian",
+    "kelas": "8BH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:30"
+  },
+  {
+    "id": "A0347",
+    "tanggal": "2026-10-26",
+    "nis": "20260347",
+    "nama": "Joko Rahardian S.",
+    "kelas": "12 IPS AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:04"
+  },
+  {
+    "id": "A0348",
+    "tanggal": "2026-11-02",
+    "nis": "20260348",
+    "nama": "Bima Zamroni",
+    "kelas": "12 RPL AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:21"
+  },
+  {
+    "id": "A0349",
+    "tanggal": "2026-10-23",
+    "nis": "20260349",
+    "nama": "Rahma Purnama",
+    "kelas": "2AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0350",
+    "tanggal": "2026-11-19",
+    "nis": "20260350",
+    "nama": "Ahmad Wicaksono",
+    "kelas": "7AY",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:27"
+  },
+  {
+    "id": "A0351",
+    "tanggal": "2026-11-15",
+    "nis": "20260351",
+    "nama": "Tiara Rahardian K.",
+    "kelas": "11 IPA AQ",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "06:41"
+  },
+  {
+    "id": "A0352",
+    "tanggal": "2026-10-28",
+    "nis": "20260352",
+    "nama": "Candra Octaviano H.",
+    "kelas": "11 TKJ AE",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0353",
+    "tanggal": "2026-11-18",
+    "nis": "20260353",
+    "nama": "Dimas Hartono",
+    "kelas": "2AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:55"
+  },
+  {
+    "id": "A0354",
+    "tanggal": "2026-11-13",
+    "nis": "20260354",
+    "nama": "Ulfa Effendi",
+    "kelas": "9BD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:29"
+  },
+  {
+    "id": "A0355",
+    "tanggal": "2026-10-28",
+    "nis": "20260355",
+    "nama": "Umar Baskoro A.",
+    "kelas": "12 IPA AM",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:17"
+  },
+  {
+    "id": "A0356",
+    "tanggal": "2026-10-25",
+    "nis": "20260356",
+    "nama": "Satria Santoso",
+    "kelas": "12 DKV AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:07"
+  },
+  {
+    "id": "A0357",
+    "tanggal": "2026-11-01",
+    "nis": "20260357",
+    "nama": "Olivia Iskandar U.",
+    "kelas": "1AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:54"
+  },
+  {
+    "id": "A0358",
+    "tanggal": "2026-11-06",
+    "nis": "20260358",
+    "nama": "Gita Setiawan",
+    "kelas": "8BI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0359",
+    "tanggal": "2026-11-18",
+    "nis": "20260359",
+    "nama": "Qonita Hidayat",
+    "kelas": "10 IPA AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:29"
+  },
+  {
+    "id": "A0360",
+    "tanggal": "2026-10-29",
+    "nis": "20260360",
+    "nama": "Vino Salim",
+    "kelas": "12 TKJ AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:02"
+  },
+  {
+    "id": "A0361",
+    "tanggal": "2026-11-12",
+    "nis": "20260361",
+    "nama": "Okta Darmawan",
+    "kelas": "1AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:20"
+  },
+  {
+    "id": "A0362",
+    "tanggal": "2026-10-29",
+    "nis": "20260362",
+    "nama": "Salsabila Firmansyah",
+    "kelas": "7AZ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:00"
+  },
+  {
+    "id": "A0363",
+    "tanggal": "2026-10-28",
+    "nis": "20260363",
+    "nama": "Ayu Virgiawan R.",
+    "kelas": "11 IPA AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:59"
+  },
+  {
+    "id": "A0364",
+    "tanggal": "2026-11-01",
+    "nis": "20260364",
+    "nama": "Sinta Darmawan",
+    "kelas": "10 RPL AH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:23"
+  },
+  {
+    "id": "A0365",
+    "tanggal": "2026-11-14",
+    "nis": "20260365",
+    "nama": "Fajar Wijaya",
+    "kelas": "6AN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:41"
+  },
+  {
+    "id": "A0366",
+    "tanggal": "2026-11-20",
+    "nis": "20260366",
+    "nama": "Dinda Kurniawan G.",
+    "kelas": "7BA",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:16"
+  },
+  {
+    "id": "A0367",
+    "tanggal": "2026-11-20",
+    "nis": "20260367",
+    "nama": "Surya Nugroho B.",
+    "kelas": "11 IPS AQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:44"
+  },
+  {
+    "id": "A0368",
+    "tanggal": "2026-11-03",
+    "nis": "20260368",
+    "nama": "Candra Baskoro H.",
+    "kelas": "12 TKR AI",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:12"
+  },
+  {
+    "id": "A0369",
+    "tanggal": "2026-10-30",
+    "nis": "20260369",
+    "nama": "Jihan Virgiawan",
+    "kelas": "1AQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0370",
+    "tanggal": "2026-11-12",
+    "nis": "20260370",
+    "nama": "Intan Fauzi W.",
+    "kelas": "9BE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0371",
+    "tanggal": "2026-11-10",
+    "nis": "20260371",
+    "nama": "Puspita Permana A.",
+    "kelas": "11 IPA AS",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:37"
+  },
+  {
+    "id": "A0372",
+    "tanggal": "2026-10-23",
+    "nis": "20260372",
+    "nama": "Bima Nurdin",
+    "kelas": "11 TKR AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:09"
+  },
+  {
+    "id": "A0373",
+    "tanggal": "2026-11-03",
+    "nis": "20260373",
+    "nama": "Anisa Zamroni",
+    "kelas": "2AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0374",
+    "tanggal": "2026-11-12",
+    "nis": "20260374",
+    "nama": "Kirana Purnama P.",
+    "kelas": "8BJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:37"
+  },
+  {
+    "id": "A0375",
+    "tanggal": "2026-11-19",
+    "nis": "20260375",
+    "nama": "Zaskia Santoso",
+    "kelas": "11 IPA AT",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:23"
+  },
+  {
+    "id": "A0376",
+    "tanggal": "2026-11-02",
+    "nis": "20260376",
+    "nama": "Eka Firmansyah",
+    "kelas": "10 TKR AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:27"
+  },
+  {
+    "id": "A0377",
+    "tanggal": "2026-10-23",
+    "nis": "20260377",
+    "nama": "Hafiz Santoso A.",
+    "kelas": "2AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:33"
+  },
+  {
+    "id": "A0378",
+    "tanggal": "2026-11-09",
+    "nis": "20260378",
+    "nama": "Ilham Fauzi O.",
+    "kelas": "7BB",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:00"
+  },
+  {
+    "id": "A0379",
+    "tanggal": "2026-11-14",
+    "nis": "20260379",
+    "nama": "Rizki Susanto",
+    "kelas": "10 IPS AQ",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:36"
+  },
+  {
+    "id": "A0380",
+    "tanggal": "2026-11-10",
+    "nis": "20260380",
+    "nama": "Umar Nurdin O.",
+    "kelas": "11 DKV AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:50"
+  },
+  {
+    "id": "A0381",
+    "tanggal": "2026-11-19",
+    "nis": "20260381",
+    "nama": "Irfan Ramadhan",
+    "kelas": "1AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:23"
+  },
+  {
+    "id": "A0382",
+    "tanggal": "2026-10-29",
+    "nis": "20260382",
+    "nama": "Teguh Gunawan A.",
+    "kelas": "7BC",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0383",
+    "tanggal": "2026-11-10",
+    "nis": "20260383",
+    "nama": "Laras Wibowo Z.",
+    "kelas": "11 IPA AU",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0384",
+    "tanggal": "2026-10-21",
+    "nis": "20260384",
+    "nama": "Rahma Wicaksono",
+    "kelas": "10 TKR AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:51"
+  },
+  {
+    "id": "A0385",
+    "tanggal": "2026-11-09",
+    "nis": "20260385",
+    "nama": "Laras Permana",
+    "kelas": "1AS",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:33"
+  },
+  {
+    "id": "A0386",
+    "tanggal": "2026-11-03",
+    "nis": "20260386",
+    "nama": "Bayu Cahyadi",
+    "kelas": "9BF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:08"
+  },
+  {
+    "id": "A0387",
+    "tanggal": "2026-11-08",
+    "nis": "20260387",
+    "nama": "Dewi Kusuma",
+    "kelas": "11 IPS AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0388",
+    "tanggal": "2026-10-28",
+    "nis": "20260388",
+    "nama": "Gilang Wijaya",
+    "kelas": "10 Akuntansi AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:34"
+  },
+  {
+    "id": "A0389",
+    "tanggal": "2026-11-10",
+    "nis": "20260389",
+    "nama": "Wahyu Firmansyah K.",
+    "kelas": "3AQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:58"
+  },
+  {
+    "id": "A0390",
+    "tanggal": "2026-11-02",
+    "nis": "20260390",
+    "nama": "Ilham Octaviano",
+    "kelas": "8BK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:24"
+  },
+  {
+    "id": "A0391",
+    "tanggal": "2026-10-28",
+    "nis": "20260391",
+    "nama": "Lukman Kurniawan",
+    "kelas": "12 IPA AN",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "07:57"
+  },
+  {
+    "id": "A0392",
+    "tanggal": "2026-11-15",
+    "nis": "20260392",
+    "nama": "Ilham Susanto",
+    "kelas": "12 Pemasaran AC",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:02"
+  },
+  {
+    "id": "A0393",
+    "tanggal": "2026-11-02",
+    "nis": "20260393",
+    "nama": "Yusuf Octaviano",
+    "kelas": "2AQ",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "06:37"
+  },
+  {
+    "id": "A0394",
+    "tanggal": "2026-11-05",
+    "nis": "20260394",
+    "nama": "Fikri Wijaya",
+    "kelas": "9BG",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "06:56"
+  },
+  {
+    "id": "A0395",
+    "tanggal": "2026-11-17",
+    "nis": "20260395",
+    "nama": "Ilham Zamroni",
+    "kelas": "10 IPS AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:10"
+  },
+  {
+    "id": "A0396",
+    "tanggal": "2026-11-15",
+    "nis": "20260396",
+    "nama": "Ulfa Darmawan",
+    "kelas": "12 DKV AI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:44"
+  },
+  {
+    "id": "A0397",
+    "tanggal": "2026-11-05",
+    "nis": "20260397",
+    "nama": "Lestari Setiawan",
+    "kelas": "6AO",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:00"
+  },
+  {
+    "id": "A0398",
+    "tanggal": "2026-11-15",
+    "nis": "20260398",
+    "nama": "Cantika Ramadhan",
+    "kelas": "8BL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:32"
+  },
+  {
+    "id": "A0399",
+    "tanggal": "2026-10-29",
+    "nis": "20260399",
+    "nama": "Usman Saputra",
+    "kelas": "12 IPA AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:05"
+  },
+  {
+    "id": "A0400",
+    "tanggal": "2026-10-24",
+    "nis": "20260400",
+    "nama": "Hendra Fauzi S.",
+    "kelas": "11 DKV AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0401",
+    "tanggal": "2026-11-17",
+    "nis": "20260401",
+    "nama": "Gadis Utomo",
+    "kelas": "1AT",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:11"
+  },
+  {
+    "id": "A0402",
+    "tanggal": "2026-11-05",
+    "nis": "20260402",
+    "nama": "Oscar Mahendra",
+    "kelas": "9BH",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0403",
+    "tanggal": "2026-11-12",
+    "nis": "20260403",
+    "nama": "Jihan Effendi",
+    "kelas": "11 IPA AV",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:58"
+  },
+  {
+    "id": "A0404",
+    "tanggal": "2026-11-08",
+    "nis": "20260404",
+    "nama": "Rahma Purnama",
+    "kelas": "10 DKV AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:38"
+  },
+  {
+    "id": "A0405",
+    "tanggal": "2026-11-06",
+    "nis": "20260405",
+    "nama": "Ahmad Nugroho",
+    "kelas": "3AR",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:18"
+  },
+  {
+    "id": "A0406",
+    "tanggal": "2026-11-03",
+    "nis": "20260406",
+    "nama": "Vania Hartono",
+    "kelas": "8BM",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0407",
+    "tanggal": "2026-10-27",
+    "nis": "20260407",
+    "nama": "Fitri Pratama",
+    "kelas": "11 IPA AW",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:06"
+  },
+  {
+    "id": "A0408",
+    "tanggal": "2026-11-10",
+    "nis": "20260408",
+    "nama": "Dedi Virgiawan K.",
+    "kelas": "12 Pemasaran AD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:45"
+  },
+  {
+    "id": "A0409",
+    "tanggal": "2026-10-29",
+    "nis": "20260409",
+    "nama": "Usman Hidayat G.",
+    "kelas": "4AU",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:35"
+  },
+  {
+    "id": "A0410",
+    "tanggal": "2026-11-08",
+    "nis": "20260410",
+    "nama": "Rani Halim",
+    "kelas": "9BI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:04"
+  },
+  {
+    "id": "A0411",
+    "tanggal": "2026-11-13",
+    "nis": "20260411",
+    "nama": "Fitri Virgiawan",
+    "kelas": "12 IPS AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:17"
+  },
+  {
+    "id": "A0412",
+    "tanggal": "2026-11-11",
+    "nis": "20260412",
+    "nama": "Zulfikar Virgiawan",
+    "kelas": "10 Pemasaran AE",
+    "status": "Sakit",
+    "metode": "Manual",
+    "jam": "06:23"
+  },
+  {
+    "id": "A0413",
+    "tanggal": "2026-10-31",
+    "nis": "20260413",
+    "nama": "Umar Anggara S.",
+    "kelas": "3AS",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:04"
+  },
+  {
+    "id": "A0414",
+    "tanggal": "2026-11-05",
+    "nis": "20260414",
+    "nama": "Umar Kusuma",
+    "kelas": "7BD",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:41"
+  },
+  {
+    "id": "A0415",
+    "tanggal": "2026-11-03",
+    "nis": "20260415",
+    "nama": "Dimas Halim",
+    "kelas": "11 IPA AX",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:29"
+  },
+  {
+    "id": "A0416",
+    "tanggal": "2026-11-16",
+    "nis": "20260416",
+    "nama": "Kayla Zamroni",
+    "kelas": "10 Akuntansi AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:17"
+  },
+  {
+    "id": "A0417",
+    "tanggal": "2026-10-29",
+    "nis": "20260417",
+    "nama": "Teguh Utomo",
+    "kelas": "2AR",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0418",
+    "tanggal": "2026-11-08",
+    "nis": "20260418",
+    "nama": "Wira Baskoro",
+    "kelas": "7BE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:02"
+  },
+  {
+    "id": "A0419",
+    "tanggal": "2026-11-13",
+    "nis": "20260419",
+    "nama": "Gita Zamroni",
+    "kelas": "11 IPA AY",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:53"
+  },
+  {
+    "id": "A0420",
+    "tanggal": "2026-11-07",
+    "nis": "20260420",
+    "nama": "Irfan Baskoro",
+    "kelas": "12 RPL AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:48"
+  },
+  {
+    "id": "A0421",
+    "tanggal": "2026-11-20",
+    "nis": "20260421",
+    "nama": "Wulan Zamroni",
+    "kelas": "1AU",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:01"
+  },
+  {
+    "id": "A0422",
+    "tanggal": "2026-11-03",
+    "nis": "20260422",
+    "nama": "Ilham Wibowo",
+    "kelas": "8BN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:23"
+  },
+  {
+    "id": "A0423",
+    "tanggal": "2026-10-24",
+    "nis": "20260423",
+    "nama": "Bima Santoso",
+    "kelas": "12 IPS AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:19"
+  },
+  {
+    "id": "A0424",
+    "tanggal": "2026-11-06",
+    "nis": "20260424",
+    "nama": "Usman Purnama",
+    "kelas": "11 RPL AI",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0425",
+    "tanggal": "2026-11-01",
+    "nis": "20260425",
+    "nama": "Putri Gunawan",
+    "kelas": "5AM",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:35"
+  },
+  {
+    "id": "A0426",
+    "tanggal": "2026-11-15",
+    "nis": "20260426",
+    "nama": "Taufik Cahyadi",
+    "kelas": "7BF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:40"
+  },
+  {
+    "id": "A0427",
+    "tanggal": "2026-11-05",
+    "nis": "20260427",
+    "nama": "Indah Salim",
+    "kelas": "10 IPS AS",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:40"
+  },
+  {
+    "id": "A0428",
+    "tanggal": "2026-11-15",
+    "nis": "20260428",
+    "nama": "Tasya Saputra",
+    "kelas": "12 Pemasaran AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:05"
+  },
+  {
+    "id": "A0429",
+    "tanggal": "2026-11-17",
+    "nis": "20260429",
+    "nama": "Ulfa Mahendra",
+    "kelas": "5AN",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:33"
+  },
+  {
+    "id": "A0430",
+    "tanggal": "2026-11-20",
+    "nis": "20260430",
+    "nama": "Nadia Yudhoyono",
+    "kelas": "8BO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:54"
+  },
+  {
+    "id": "A0431",
+    "tanggal": "2026-11-01",
+    "nis": "20260431",
+    "nama": "Krisna Nugroho Q.",
+    "kelas": "12 IPA AP",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "06:52"
+  },
+  {
+    "id": "A0432",
+    "tanggal": "2026-11-15",
+    "nis": "20260432",
+    "nama": "Nadia Wibowo B.",
+    "kelas": "12 RPL AG",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:53"
+  },
+  {
+    "id": "A0433",
+    "tanggal": "2026-11-03",
+    "nis": "20260433",
+    "nama": "Dedi Baskoro",
+    "kelas": "2AS",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:27"
+  },
+  {
+    "id": "A0434",
+    "tanggal": "2026-10-26",
+    "nis": "20260434",
+    "nama": "Ayu Laksana O.",
+    "kelas": "8BP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:56"
+  },
+  {
+    "id": "A0435",
+    "tanggal": "2026-11-05",
+    "nis": "20260435",
+    "nama": "Sinta Octaviano",
+    "kelas": "10 IPS AT",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:12"
+  },
+  {
+    "id": "A0436",
+    "tanggal": "2026-11-01",
+    "nis": "20260436",
+    "nama": "Laras Tirtayasa",
+    "kelas": "11 DKV AG",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:17"
+  },
+  {
+    "id": "A0437",
+    "tanggal": "2026-10-24",
+    "nis": "20260437",
+    "nama": "Nanda Hartono H.",
+    "kelas": "1AV",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:10"
+  },
+  {
+    "id": "A0438",
+    "tanggal": "2026-11-02",
+    "nis": "20260438",
+    "nama": "Gilang Ramadhan",
+    "kelas": "7BG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:33"
+  },
+  {
+    "id": "A0439",
+    "tanggal": "2026-10-28",
+    "nis": "20260439",
+    "nama": "Tasya Junaidi",
+    "kelas": "10 IPA AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:38"
+  },
+  {
+    "id": "A0440",
+    "tanggal": "2026-11-06",
+    "nis": "20260440",
+    "nama": "Fajar Utomo",
+    "kelas": "10 TKJ AD",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:55"
+  },
+  {
+    "id": "A0441",
+    "tanggal": "2026-11-02",
+    "nis": "20260441",
+    "nama": "Wira Fauzi",
+    "kelas": "4AV",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:43"
+  },
+  {
+    "id": "A0442",
+    "tanggal": "2026-10-28",
+    "nis": "20260442",
+    "nama": "Eka Firmansyah J.",
+    "kelas": "9BJ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:32"
+  },
+  {
+    "id": "A0443",
+    "tanggal": "2026-11-16",
+    "nis": "20260443",
+    "nama": "Taufik Hartono U.",
+    "kelas": "11 IPS AS",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:44"
+  },
+  {
+    "id": "A0444",
+    "tanggal": "2026-11-04",
+    "nis": "20260444",
+    "nama": "Hafiz Cahyadi",
+    "kelas": "11 TKJ AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0445",
+    "tanggal": "2026-11-01",
+    "nis": "20260445",
+    "nama": "Octavia Halim",
+    "kelas": "6AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0446",
+    "tanggal": "2026-10-25",
+    "nis": "20260446",
+    "nama": "Dedi Pratama",
+    "kelas": "9BK",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:33"
+  },
+  {
+    "id": "A0447",
+    "tanggal": "2026-10-25",
+    "nis": "20260447",
+    "nama": "Qonita Setiawan",
+    "kelas": "10 IPA AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:21"
+  },
+  {
+    "id": "A0448",
+    "tanggal": "2026-10-30",
+    "nis": "20260448",
+    "nama": "Aditya Kurniawan R.",
+    "kelas": "12 DKV AJ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:09"
+  },
+  {
+    "id": "A0449",
+    "tanggal": "2026-11-10",
+    "nis": "20260449",
+    "nama": "Joko Permana",
+    "kelas": "5AO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:41"
+  },
+  {
+    "id": "A0450",
+    "tanggal": "2026-11-15",
+    "nis": "20260450",
+    "nama": "Wahyu Salim",
+    "kelas": "9BL",
+    "status": "Alfa",
+    "metode": "Manual",
+    "jam": "06:18"
+  },
+  {
+    "id": "A0451",
+    "tanggal": "2026-11-04",
+    "nis": "20260451",
+    "nama": "Jasmine Gunawan",
+    "kelas": "12 IPS AQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:53"
+  },
+  {
+    "id": "A0452",
+    "tanggal": "2026-10-21",
+    "nis": "20260452",
+    "nama": "Putra Ramadhan",
+    "kelas": "10 Pemasaran AF",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "06:41"
+  },
+  {
+    "id": "A0453",
+    "tanggal": "2026-10-25",
+    "nis": "20260453",
+    "nama": "Octavia Rahardian",
+    "kelas": "4AW",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:28"
+  },
+  {
+    "id": "A0454",
+    "tanggal": "2026-10-23",
+    "nis": "20260454",
+    "nama": "Budi Setiawan H.",
+    "kelas": "9BM",
+    "status": "Alfa",
+    "metode": "QR",
+    "jam": "07:27"
+  },
+  {
+    "id": "A0455",
+    "tanggal": "2026-10-31",
+    "nis": "20260455",
+    "nama": "Lestari Iskandar",
+    "kelas": "10 IPS AU",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:41"
+  },
+  {
+    "id": "A0456",
+    "tanggal": "2026-11-11",
+    "nis": "20260456",
+    "nama": "Putri Wijaya",
+    "kelas": "10 Akuntansi AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:45"
+  },
+  {
+    "id": "A0457",
+    "tanggal": "2026-10-30",
+    "nis": "20260457",
+    "nama": "Tiara Junaidi",
+    "kelas": "2AT",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:07"
+  },
+  {
+    "id": "A0458",
+    "tanggal": "2026-11-01",
+    "nis": "20260458",
+    "nama": "Salsabila Wicaksono U.",
+    "kelas": "9BN",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:17"
+  },
+  {
+    "id": "A0459",
+    "tanggal": "2026-11-16",
+    "nis": "20260459",
+    "nama": "Wulan Rahardian A.",
+    "kelas": "10 IPS AV",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:34"
+  },
+  {
+    "id": "A0460",
+    "tanggal": "2026-10-26",
+    "nis": "20260460",
+    "nama": "Putra Santoso O.",
+    "kelas": "11 Akuntansi AF",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:29"
+  },
+  {
+    "id": "A0461",
+    "tanggal": "2026-10-24",
+    "nis": "20260461",
+    "nama": "Jasmine Junaidi",
+    "kelas": "1AW",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:34"
+  },
+  {
+    "id": "A0462",
+    "tanggal": "2026-11-11",
+    "nis": "20260462",
+    "nama": "Hafiz Baskoro",
+    "kelas": "7BH",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:49"
+  },
+  {
+    "id": "A0463",
+    "tanggal": "2026-11-01",
+    "nis": "20260463",
+    "nama": "Putri Baskoro",
+    "kelas": "10 IPA AQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:31"
+  },
+  {
+    "id": "A0464",
+    "tanggal": "2026-10-29",
+    "nis": "20260464",
+    "nama": "Indah Kusuma A.",
+    "kelas": "12 TKR AJ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0465",
+    "tanggal": "2026-10-28",
+    "nis": "20260465",
+    "nama": "Ilham Zamroni",
+    "kelas": "1AX",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:01"
+  },
+  {
+    "id": "A0466",
+    "tanggal": "2026-10-28",
+    "nis": "20260466",
+    "nama": "Teguh Utomo",
+    "kelas": "7BI",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:49"
+  },
+  {
+    "id": "A0467",
+    "tanggal": "2026-11-19",
+    "nis": "20260467",
+    "nama": "Zulfikar Maulana",
+    "kelas": "11 IPS AT",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:23"
+  },
+  {
+    "id": "A0468",
+    "tanggal": "2026-11-17",
+    "nis": "20260468",
+    "nama": "Laras Setiawan Y.",
+    "kelas": "12 Akuntansi AI",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:32"
+  },
+  {
+    "id": "A0469",
+    "tanggal": "2026-10-27",
+    "nis": "20260469",
+    "nama": "Putra Ramadhan V.",
+    "kelas": "5AP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:48"
+  },
+  {
+    "id": "A0470",
+    "tanggal": "2026-10-23",
+    "nis": "20260470",
+    "nama": "Gilang Hidayat",
+    "kelas": "8BQ",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:55"
+  },
+  {
+    "id": "A0471",
+    "tanggal": "2026-11-09",
+    "nis": "20260471",
+    "nama": "Fajar Anggara I.",
+    "kelas": "12 IPA AQ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:55"
+  },
+  {
+    "id": "A0472",
+    "tanggal": "2026-11-13",
+    "nis": "20260472",
+    "nama": "Farah Yudhoyono",
+    "kelas": "12 DKV AK",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:54"
+  },
+  {
+    "id": "A0473",
+    "tanggal": "2026-10-25",
+    "nis": "20260473",
+    "nama": "Yusuf Junaidi",
+    "kelas": "4AX",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:57"
+  },
+  {
+    "id": "A0474",
+    "tanggal": "2026-10-21",
+    "nis": "20260474",
+    "nama": "Mawar Hartono",
+    "kelas": "8BR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0475",
+    "tanggal": "2026-11-18",
+    "nis": "20260475",
+    "nama": "Irfan Iskandar",
+    "kelas": "12 IPS AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:27"
+  },
+  {
+    "id": "A0476",
+    "tanggal": "2026-11-19",
+    "nis": "20260476",
+    "nama": "Zahra Junaidi",
+    "kelas": "12 TKJ AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:49"
+  },
+  {
+    "id": "A0477",
+    "tanggal": "2026-11-06",
+    "nis": "20260477",
+    "nama": "Putri Nugroho",
+    "kelas": "6AQ",
+    "status": "Sakit",
+    "metode": "Manual",
+    "jam": "06:14"
+  },
+  {
+    "id": "A0478",
+    "tanggal": "2026-11-02",
+    "nis": "20260478",
+    "nama": "Okta Maulana",
+    "kelas": "8BS",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:23"
+  },
+  {
+    "id": "A0479",
+    "tanggal": "2026-10-23",
+    "nis": "20260479",
+    "nama": "Naufal Gunawan",
+    "kelas": "12 IPA AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:31"
+  },
+  {
+    "id": "A0480",
+    "tanggal": "2026-11-17",
+    "nis": "20260480",
+    "nama": "Fajar Tirtayasa",
+    "kelas": "12 Akuntansi AJ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:45"
+  },
+  {
+    "id": "A0481",
+    "tanggal": "2026-10-23",
+    "nis": "20260481",
+    "nama": "Nadia Fauzi",
+    "kelas": "1AY",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:22"
+  },
+  {
+    "id": "A0482",
+    "tanggal": "2026-11-10",
+    "nis": "20260482",
+    "nama": "Fajar Kusuma Z.",
+    "kelas": "9BO",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:37"
+  },
+  {
+    "id": "A0483",
+    "tanggal": "2026-11-03",
+    "nis": "20260483",
+    "nama": "Bunga Rahardian",
+    "kelas": "10 IPS AW",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:03"
+  },
+  {
+    "id": "A0484",
+    "tanggal": "2026-11-06",
+    "nis": "20260484",
+    "nama": "Zaskia Susanto D.",
+    "kelas": "12 DKV AL",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:29"
+  },
+  {
+    "id": "A0485",
+    "tanggal": "2026-11-10",
+    "nis": "20260485",
+    "nama": "Vina Halim",
+    "kelas": "3AT",
+    "status": "Izin",
+    "metode": "QR",
+    "jam": "07:50"
+  },
+  {
+    "id": "A0486",
+    "tanggal": "2026-10-31",
+    "nis": "20260486",
+    "nama": "Aulia Anggara",
+    "kelas": "8BT",
+    "status": "Sakit",
+    "metode": "QR",
+    "jam": "07:38"
+  },
+  {
+    "id": "A0487",
+    "tanggal": "2026-11-17",
+    "nis": "20260487",
+    "nama": "Nabila Fauzi",
+    "kelas": "12 IPA AS",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:08"
+  },
+  {
+    "id": "A0488",
+    "tanggal": "2026-11-04",
+    "nis": "20260488",
+    "nama": "Ilham Fauzi",
+    "kelas": "12 Pemasaran AF",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:10"
+  },
+  {
+    "id": "A0489",
+    "tanggal": "2026-11-03",
+    "nis": "20260489",
+    "nama": "Nanda Darmawan",
+    "kelas": "3AU",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:05"
+  },
+  {
+    "id": "A0490",
+    "tanggal": "2026-11-13",
+    "nis": "20260490",
+    "nama": "Intan Mahendra",
+    "kelas": "9BP",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:26"
+  },
+  {
+    "id": "A0491",
+    "tanggal": "2026-11-15",
+    "nis": "20260491",
+    "nama": "Tasya Hidayat",
+    "kelas": "11 IPA AZ",
+    "status": "Sakit",
+    "metode": "Manual",
+    "jam": "07:20"
+  },
+  {
+    "id": "A0492",
+    "tanggal": "2026-11-09",
+    "nis": "20260492",
+    "nama": "Budi Salim",
+    "kelas": "10 Pemasaran AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:25"
+  },
+  {
+    "id": "A0493",
+    "tanggal": "2026-11-07",
+    "nis": "20260493",
+    "nama": "Bima Santoso Z.",
+    "kelas": "4AY",
+    "status": "Izin",
+    "metode": "Manual",
+    "jam": "06:31"
+  },
+  {
+    "id": "A0494",
+    "tanggal": "2026-10-24",
+    "nis": "20260494",
+    "nama": "Zaskia Effendi",
+    "kelas": "8BU",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:27"
+  },
+  {
+    "id": "A0495",
+    "tanggal": "2026-11-04",
+    "nis": "20260495",
+    "nama": "Tiara Maulana G.",
+    "kelas": "11 IPA BA",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "07:07"
+  },
+  {
+    "id": "A0496",
+    "tanggal": "2026-11-09",
+    "nis": "20260496",
+    "nama": "Wira Darmawan O.",
+    "kelas": "11 Akuntansi AG",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:37"
+  },
+  {
+    "id": "A0497",
+    "tanggal": "2026-10-23",
+    "nis": "20260497",
+    "nama": "Aulia Mahendra",
+    "kelas": "6AR",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "07:28"
+  },
+  {
+    "id": "A0498",
+    "tanggal": "2026-10-23",
+    "nis": "20260498",
+    "nama": "Farah Utomo",
+    "kelas": "9BQ",
+    "status": "Hadir",
+    "metode": "Manual",
+    "jam": "06:18"
+  },
+  {
+    "id": "A0499",
+    "tanggal": "2026-10-27",
+    "nis": "20260499",
+    "nama": "Puspita Saputra K.",
+    "kelas": "12 IPA AT",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:41"
+  },
+  {
+    "id": "A0500",
+    "tanggal": "2026-11-19",
+    "nis": "20260500",
+    "nama": "Bayu Darmawan",
+    "kelas": "10 TKJ AE",
+    "status": "Hadir",
+    "metode": "QR",
+    "jam": "06:45"
+  }
+]
