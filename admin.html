@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin — Sistem Informasi Sekolah</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,[STRIPPED]">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }, colors: { brand: { 50:"#f0fdf4",100:"#dcfce7",400:"#4ade80",600:"#16a34a",700:"#15803d",800:"#166534" } } } } };</script>
@@ -18,6 +18,8 @@
     ::-webkit-scrollbar-thumb:hover{background:#15803d}
     #sidebar ::-webkit-scrollbar-track{background:#0f172a}
     #sidebar ::-webkit-scrollbar-thumb{border-color:#0f172a}
+    .navlink.active{background:#1e293b;color:#fff;font-weight:700}
+    .navlink.active i{color:#4ade80}
   </style>
 </head>
 <body class="font-sans bg-slate-100 text-slate-800">
@@ -93,7 +95,12 @@
           </div>
         </div>
       </header>
-      <main id="app" class="flex-1 p-4 md:p-6 max-w-[1700px] w-full mx-auto"></main>
+      <main id="app" class="flex-1 p-4 md:p-6 max-w-[1700px] w-full mx-auto">
+        <div class="flex items-center gap-3 p-6 bg-white rounded-2xl border border-slate-200">
+          <div class="animate-spin w-5 h-5 border-2 border-emerald-600 border-t-transparent rounded-full"></div>
+          <span class="text-sm font-medium text-slate-600">Memuat modul administrator...</span>
+        </div>
+      </main>
     </div>
   </div>
   <div id="modal" class="hidden fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm overflow-y-auto">
@@ -114,19 +121,192 @@
     </div>
   </div>
 
-  <script src="config.js?v=20261123"></script>
-  <script src="app.js?v=20261123"></script>
-  <script src="login-view.js?v=20261123"></script>
-  <script src="admin.js?v=20261123"></script>
-  <script src="admin-mods.js?v=20261123"></script>
-  <script src="admin-mods2.js?v=20261123"></script>
-  <script src="admin-mods3.js?v=20261123"></script>
-  <script src="admin-mods4.js?v=20261123"></script>
-  <script src="admin-kegiatan.js?v=20261123"></script>
-  <script src="admin-konten.js?v=20261123"></script>
-  <script src="admin-slider.js?v=20261123"></script>
-  <script src="admin-galeri.js?v=20261123"></script>
-  <script src="admin-login.js?v=20261123"></script>
-  <script src="admin-ui.js?v=20261123"></script>
+  <div id="toast" class="hidden fixed bottom-4 right-4 z-[60] bg-slate-900 text-white text-sm font-medium px-4 py-3 rounded-xl shadow-xl max-w-xs"></div>
+
+  <!-- FIXED: Deteksi file JS yang gagal load -->
+  <script>
+    window.__missing = [];
+    window.__loaded = [];
+    window.addEventListener('error', function(e){
+      if(e.target && e.target.tagName === 'SCRIPT' && e.target.src){
+        window.__missing.push(e.target.src);
+        console.error('GAGAL LOAD:', e.target.src);
+      }
+    }, true);
+    function markLoaded(n){ window.__loaded.push(n); }
+  </script>
+
+  <script src="config.js?v=20261123" onload="markLoaded('config.js')" onerror="window.__missing.push('config.js')"></script>
+  <script src="app.js?v=20261123" onload="markLoaded('app.js')" onerror="window.__missing.push('app.js')"></script>
+  <script src="login-view.js?v=20261123" onload="markLoaded('login-view.js')" onerror="window.__missing.push('login-view.js')"></script>
+  <script src="admin.js?v=20261123" onload="markLoaded('admin.js')" onerror="window.__missing.push('admin.js')"></script>
+  <script src="admin-mods.js?v=20261123" onload="markLoaded('admin-mods.js')" onerror="window.__missing.push('admin-mods.js')"></script>
+  <script src="admin-mods2.js?v=20261123" onload="markLoaded('admin-mods2.js')" onerror="window.__missing.push('admin-mods2.js')"></script>
+  <script src="admin-mods3.js?v=20261123" onload="markLoaded('admin-mods3.js')" onerror="window.__missing.push('admin-mods3.js')"></script>
+  <script src="admin-mods4.js?v=20261123" onload="markLoaded('admin-mods4.js')" onerror="window.__missing.push('admin-mods4.js')"></script>
+  <script src="admin-kegiatan.js?v=20261123" onload="markLoaded('admin-kegiatan.js')" onerror="window.__missing.push('admin-kegiatan.js')"></script>
+  <script src="admin-konten.js?v=20261123" onload="markLoaded('admin-konten.js')" onerror="window.__missing.push('admin-konten.js')"></script>
+  <script src="admin-slider.js?v=20261123" onload="markLoaded('admin-slider.js')" onerror="window.__missing.push('admin-slider.js')"></script>
+  <script src="admin-galeri.js?v=20261123" onload="markLoaded('admin-galeri.js')" onerror="window.__missing.push('admin-galeri.js')"></script>
+  <script src="admin-login.js?v=20261123" onload="markLoaded('admin-login.js')" onerror="window.__missing.push('admin-login.js')"></script>
+  <script src="admin-ui.js?v=20261123" onload="markLoaded('admin-ui.js')" onerror="window.__missing.push('admin-ui.js')"></script>
+
+  <!-- FIXED: BOOTLOADER - Ini yang bikin semua modul jalan -->
+  <script>
+    function showToast(msg, ms){
+      const t = document.getElementById('toast');
+      if(!t) return;
+      t.textContent = msg; t.classList.remove('hidden');
+      setTimeout(()=> t.classList.add('hidden'), ms || 3000);
+    }
+    function refreshIcons(){ if(window.lucide) lucide.createIcons(); }
+
+    // Helper global agar modul lama yang manggil fungsi ini tidak error
+    window.refreshIcons = refreshIcons;
+    window.showToast = showToast;
+    window.closeModal = function(){ document.getElementById('modal')?.classList.add('hidden'); };
+    window.openModal = function(title, html){
+      const m = document.getElementById('modal');
+      if(!m) return;
+      document.getElementById('modalTitle').textContent = title || '';
+      document.getElementById('modalBody').innerHTML = html || '';
+      m.classList.remove('hidden');
+      refreshIcons();
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Jika ada file JS yang gagal load, tampilkan error jelas, jangan blank
+      if(window.__missing.length > 0){
+        document.getElementById('app').innerHTML = `
+          <div class="bg-red-50 border border-red-200 rounded-2xl p-5">
+            <h2 class="font-extrabold text-red-700">File JS Gagal Di-load!</h2>
+            <p class="text-sm text-red-600 mt-1">File ini tidak ada di repo / namanya salah / huruf besar-kecil beda:</p>
+            <ul class="list-disc ml-5 mt-2 text-sm font-mono text-red-700">${window.__missing.map(f=>`<li>${f}</li>`).join('')}</ul>
+            <p class="text-sm mt-3 text-slate-600">Cek di Github: <b>synchficker/sis</b> - file harus ada di root repo, bukan di folder /js/ atau /assets/.</p>
+            <p class="text-sm mt-1 text-slate-600">Yang berhasil ke-load: ${window.__loaded.join(', ') || '(tidak ada)'}</p>
+          </div>`;
+        refreshIcons();
+        return;
+      }
+
+      // 2. Render icons awal
+      refreshIcons();
+
+      // 3. Label repo
+      const cfg = window.CONFIG || window.SIS_CONFIG || {};
+      const repoLabel = document.getElementById('repoLabel');
+      if(repoLabel) repoLabel.textContent = (cfg.OWNER || 'synchficker') + '/' + (cfg.REPO || 'sis');
+
+      // 4. Cek token - jangan redirect buta, beri info
+      const token = sessionStorage.getItem('gh_token') || localStorage.getItem('gh_token') || sessionStorage.getItem('github_token');
+      if(!token){
+        document.getElementById('app').innerHTML = `
+          <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5">
+            <h2 class="font-extrabold text-amber-800">Belum Login</h2>
+            <p class="text-sm text-amber-700 mt-1">Token Github tidak ditemukan di sessionStorage. Silakan login dulu.</p>
+            <a href="login.html" class="inline-block mt-4 px-5 py-2.5 bg-emerald-600 text-white text-sm font-bold rounded-lg">Ke Halaman Login</a>
+          </div>`;
+        return;
+      }
+
+      // 5. Jalankan router admin - coba semua nama fungsi yang umum dipakai
+      let started = false;
+      const candidates = ['initAdmin','renderAdmin','startAdmin','bootAdmin','init','router','render','handleRoute','showDashboard'];
+      try {
+        for(const name of candidates){
+          if(typeof window[name] === 'function'){
+            window[name]();
+            started = true;
+            console.log('Admin started via:', name);
+            break;
+          }
+        }
+        // Jika tidak ada fungsi init, tapi ada hash router manual di admin.js, trigger hashchange
+        if(!started){
+          if(location.hash === '') location.hash = '#/dashboard';
+          window.dispatchEvent(new HashChangeEvent('hashchange'));
+          // Tunggu 500ms, kalau #app masih loading, tampilkan pesan diagnosa
+          setTimeout(()=>{
+            const app = document.getElementById('app');
+            if(app && app.innerHTML.includes('Memuat modul')){
+              app.innerHTML = `<div class="p-5 bg-amber-50 border border-amber-200 rounded-2xl">
+                <b>Fungsi initAdmin() / router() tidak ditemukan.</b><br>
+                <span class="text-sm text-slate-600">File admin.js ter-load tapi tidak mengekspor fungsi init. Cek apakah di dalam admin.js ada <code>function initAdmin()</code> atau <code>window.addEventListener('hashchange')</code>.</span><br>
+                <span class="text-sm text-slate-600">File yang ter-load: ${window.__loaded.join(', ')}</span>
+              </div>`;
+              refreshIcons();
+            }
+          }, 800);
+        }
+      } catch(err){
+        document.getElementById('app').innerHTML = `<div class="p-5 bg-red-50 border border-red-200 rounded-2xl"><b>Error di admin.js:</b><pre class="text-xs mt-2 whitespace-pre-wrap bg-white p-3 rounded-lg border">${err.message}\n${err.stack || ''}</pre></div>`;
+        console.error(err);
+      }
+
+      // 6. Setiap ganti hash, refresh icons + update menu aktif
+      function onRoute(){
+        document.querySelectorAll('.navlink').forEach(a=>{
+          const target = a.getAttribute('href');
+          if(target === location.hash) a.classList.add('active');
+          else a.classList.remove('active');
+        });
+        setTimeout(refreshIcons, 50);
+        // Tutup sidebar di HP setelah klik
+        if(window.innerWidth < 1024){
+          document.getElementById('sidebar')?.classList.add('-translate-x-full');
+          document.getElementById('backdrop')?.classList.add('hidden');
+        }
+      }
+      window.addEventListener('hashchange', onRoute);
+      onRoute();
+
+      // 7. Sidebar mobile
+      const sidebar = document.getElementById('sidebar');
+      const backdrop = document.getElementById('backdrop');
+      document.getElementById('btnMenu')?.addEventListener('click', ()=>{
+        sidebar.classList.toggle('-translate-x-full');
+        backdrop.classList.toggle('hidden');
+      });
+      backdrop?.addEventListener('click', ()=>{
+        sidebar.classList.add('-translate-x-full');
+        backdrop.classList.add('hidden');
+      });
+
+      // 8. Modal close
+      document.getElementById('modalX')?.addEventListener('click', ()=> window.closeModal());
+      document.getElementById('modalCancel')?.addEventListener('click', ()=> window.closeModal());
+      document.getElementById('modal')?.addEventListener('click', (e)=>{ if(e.target.id === 'modal') window.closeModal(); });
+
+      // 9. Logout
+      document.getElementById('btnLogout')?.addEventListener('click', ()=>{
+        sessionStorage.removeItem('gh_token');
+        localStorage.removeItem('gh_token');
+        sessionStorage.removeItem('github_token');
+        location.href = 'login.html';
+      });
+
+      // 10. Tombol Sinkron
+      document.getElementById('btnSync')?.addEventListener('click', ()=>{
+        showToast('Menyinkronkan data...');
+        if(typeof window.syncData === 'function') window.syncData();
+        else location.reload();
+      });
+
+      // 11. Info user Github (jika ada token, coba fetch profil)
+      if(token && typeof fetch === 'function'){
+        fetch('https://api.github.com/user', { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } })
+          .then(r => r.ok ? r.json() : null)
+          .then(u => {
+            if(!u) return;
+            const av = document.getElementById('ghAvatar');
+            const un = document.getElementById('ghUser');
+            if(av && u.avatar_url) av.src = u.avatar_url;
+            if(un) un.textContent = u.login || '';
+            const sn = document.getElementById('schoolName');
+            if(sn && window.CONFIG && window.CONFIG.SCHOOL_NAME) sn.textContent = window.CONFIG.SCHOOL_NAME;
+          }).catch(()=>{});
+      }
+    });
+  </script>
 </body>
 </html>
