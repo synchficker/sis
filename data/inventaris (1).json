@@ -1,5 +1,0 @@
-[
-  { "id": "iv1", "kode_barang": "BRG-001", "nama": "Laptop Chromebook", "kategori": "Elektronik", "jumlah": 10, "kondisi": "Baik", "lokasi": "Lab Komputer", "sumber_dana": "BOS", "tanggal_perolehan": "2025-08-20" },
-  { "id": "iv2", "kode_barang": "BRG-002", "nama": "Meja Siswa Kayu", "kategori": "Mebel", "jumlah": 120, "kondisi": "Baik", "lokasi": "Ruang 7A–9A", "sumber_dana": "APBD", "tanggal_perolehan": "2023-07-10" },
-  { "id": "iv3", "kode_barang": "BRG-003", "nama": "Proyektor LCD", "kategori": "Elektronik", "jumlah": 3, "kondisi": "Rusak Ringan", "lokasi": "Ruang 8A", "sumber_dana": "BOS", "tanggal_perolehan": "2022-02-15" }
-]
