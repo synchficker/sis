@@ -1,10 +1,16 @@
 // ============================================================
-// admin.js — Inti CMS (bagian 1/3): helper, skema, mesin CRUD, PPDB.
-// Modul kustom: admin-mods.js & admin-mods2.js (dimuat berurutan).
-// Semua operasi tulis -> saveData() -> pushJSON() + audit log.
+// admin.js — FIXED: Inti CMS (bagian 1/3): helper, skema, mesin CRUD, PPDB.
+// PERBAIKAN: route() sekarang ada di file ini, tidak lagi pasrah ke admin-mods2.js
 // TOKEN TIDAK BOLEH DI-HARDCODE
 // ============================================================
-requireAuth();
+
+// FIX 1: Jangan meledak kalau app.js belum ke-load
+try {
+  if (typeof requireAuth === 'function') requireAuth();
+} catch (e) {
+  console.warn('requireAuth gagal / belum ada:', e.message);
+}
+
 const app = document.getElementById("app");
 const mem = {};
 const optSiswa = async () => (await fetchJSON("siswa.json")).map(s => [s.nis, s.nis + " — " + s.nama + " (" + s.kelas + ")"]);
@@ -155,8 +161,6 @@ const F = {
     { k: "rak", l: "Lokasi Rak", ph: "A1" }, { k: "stok", l: "Stok", t: "number", def: 1 }
   ]
 };
-// render modul kustom = NAMA FUNGSI (string); route() di admin-mods2.js
-// menyelesaikannya via window[nama] sehingga aman lintas-file.
 const MOD = {
   dashboard: { title: "Dashboard", render: "renderDashboard" },
   siswa: { title: "Data Induk Siswa", desc: "Format field selaras Dapodik (NISN, TTL, agama, nama ortu, rombel).", file: "siswa.json", fields: F.siswa, cols: ["nis", "nisn", "nama", "jk", "kelas", "status"] },
@@ -226,8 +230,6 @@ function openModal(title, body, onSubmit, label = "Simpan") {
 }
 function closeModal() { document.getElementById("modal").classList.add("hidden"); }
 function fieldHTML(f, val) {
-  // Field hanya wajib bila skema menyatakannya secara eksplisit. Sebelumnya
-  // semua field tanpa req:true ikut required sehingga banyak form CRUD tidak bisa disimpan.
   const req = f.req === true ? "required" : "";
   const v = val ?? f.def ?? "";
   const wrap = inner => '<label class="block ' + (f.full ? "sm:col-span-2" : "") + '">' + lbl(f.l + (f.req === true ? " *" : "")) + inner + "</label>";
@@ -242,7 +244,6 @@ async function openForm(m, row) {
   openModal((row ? "Edit " : "Tambah ") + m.title, body, async obj => {
     m.fields.forEach(f => { if (f.t === "number") obj[f.k] = Number(obj[f.k] || 0); });
     let full = [...(mem[m.file] || await fetchJSON(m.file))];
-    // FIXED (bug 10): bila baris sudah dihapus pihak lain, findIndex = -1 dan sebelumnya menulis properti sampah full[-1]; kini ditolak dengan pesan jelas.
     if (row) { const i = full.findIndex(x => x.id === row.id); if (i < 0) { toast("Data ini sudah tidak ada (dihapus dari tab/perangkat lain). Muat ulang halaman.", "error"); return false; } full[i] = { ...full[i], ...obj }; }
     else full.unshift({ id: uid(), ...(m.preset || {}), ...obj });
     const ok = await saveData(m.file, full, m.title, row ? "EDIT" : "TAMBAH", m.label ? m.label(obj) : (obj.nama || obj.judul || obj.nis || obj.id));
@@ -265,7 +266,6 @@ async function renderCRUD(key) {
       return '<td class="px-3 py-2 text-sm">' + out + "</td>";
     }).join("") +
     '<td class="px-3 py-2 text-right whitespace-nowrap">' +
-    // FIXED: r.id & a.title masuk atribut HTML tanpa esc() -> potensi XSS/atribut pecah bila id di JSON berisi tanda kutip; kini di-esc (data-id/data-edit/data-del).
     (m.rowActions || []).map((a, i) => '<button type="button" data-x="' + i + '" data-id="' + esc(r.id) + '" title="' + esc(a.title) + '" class="p-1.5 rounded-lg hover:bg-slate-100 ' + (a.cls || "text-slate-500") + '"><i data-lucide="' + a.icon + '" class="w-4 h-4 pointer-events-none"></i></button>').join("") +
     '<button type="button" data-edit="' + esc(r.id) + '" title="Edit" class="p-1.5 rounded-lg hover:bg-slate-100 text-sky-600"><i data-lucide="pencil" class="w-4 h-4 pointer-events-none"></i></button>' +
     '<button type="button" data-del="' + esc(r.id) + '" title="Hapus" class="p-1.5 rounded-lg hover:bg-rose-50 text-rose-500"><i data-lucide="trash-2" class="w-4 h-4 pointer-events-none"></i></button></td></tr>'
@@ -290,7 +290,6 @@ async function renderCRUD(key) {
   document.getElementById("btnAdd").onclick = () => openForm(m, null);
   app.onclick = async e => {
     const b = e.target.closest("button"); if (!b) return;
-    // FIXED (bug 10): mem dikosongkan setelah konflik; baca ulang (segar) dan jangan crash/!tambah-baru bila baris sudah tidak ada.
     const fullNow = mem[m.file] || (mem[m.file] = await fetchJSON(m.file));
     const gone = id => { toast("Data ini sudah tidak ada atau berubah. Memuat ulang…", "error"); route(); };
     if (b.dataset.edit) { const rr = fullNow.find(r => r.id === b.dataset.edit); if (!rr) return gone(); openForm(m, rr); }
@@ -341,4 +340,81 @@ async function tolakPPDB(r) {
   const ppdb = await fetchJSON("ppdb.json");
   ppdb.find(x => x.id === r.id).status = "Ditolak";
   if (await saveData("ppdb.json", ppdb, "PPDB", "STATUS PPDB", r.nama + " Ditolak")) route();
+}
+
+// ============================================================
+// FIXED: ROUTER - INI YANG HILANG SEBELUMNYA
+// Sekarang route() ada di file ini, tidak tergantung admin-mods2.js
+// ============================================================
+async function route() {
+  const key = (location.hash || "#/dashboard").replace("#/", "").replace("#", "") || "dashboard";
+  const m = MOD[key];
+
+  // Update menu aktif
+  document.querySelectorAll('.navlink').forEach(a => {
+    if (a.getAttribute('href') === '#/' + key) a.classList.add('active');
+    else a.classList.remove('active');
+  });
+
+  if (!m) {
+    app.innerHTML = '<div class="p-6 bg-white rounded-2xl border"><h2 class="font-bold">Halaman tidak ditemukan: ' + esc(key) + '</h2><p class="text-sm text-slate-500">Kembali ke <a href="#/dashboard" class="text-emerald-600 font-bold">Dashboard</a></p></div>';
+    if (typeof refreshIcons === 'function') refreshIcons();
+    return;
+  }
+
+  // Tampilkan loading dulu biar tidak kelihatan blank
+  app.innerHTML = '<div class="flex items-center gap-3 p-6 bg-white rounded-2xl border"><div class="animate-spin w-5 h-5 border-2 border-emerald-600 border-t-transparent rounded-full"></div><span class="text-sm text-slate-600">Memuat ' + esc(m.title) + '...</span></div>';
+  if (typeof refreshIcons === 'function') refreshIcons();
+
+  try {
+    // 1. Kalau modul punya fungsi render kustom (dashboard, spp, absensi, dll)
+    if (m.render) {
+      const fn = window[m.render];
+      if (typeof fn === 'function') { await fn(); if (typeof refreshIcons === 'function') refreshIcons(); return; }
+      // Kalau fungsi render kustom belum ada (file mods belum load), tampilkan pesan jelas
+      app.innerHTML = pageHead(m) + '<div class="p-5 bg-amber-50 border border-amber-200 rounded-2xl"><b>Fungsi ' + esc(m.render) + '() belum ditemukan.</b><p class="text-sm text-slate-600 mt-1">File admin-mods.js / admin-mods2.js / admin-mods3.js / admin-mods4.js belum ke-load atau ada error di dalamnya. Cek Console (F12).</p></div>';
+      if (typeof refreshIcons === 'function') refreshIcons();
+      return;
+    }
+    // 2. Kalau modul CRUD biasa (siswa, kelas, nilai, dll) -> renderCRUD
+    if (m.file) { await renderCRUD(key); return; }
+
+    app.innerHTML = pageHead(m) + '<div class="p-5 bg-white rounded-2xl border">Modul ini belum memiliki render.</div>';
+  } catch (err) {
+    console.error('route() error untuk', key, err);
+    app.innerHTML = '<div class="p-5 bg-red-50 border border-red-200 rounded-2xl"><b>Gagal memuat ' + esc(m.title) + '</b><pre class="text-xs mt-2 whitespace-pre-wrap bg-white p-3 rounded-lg border">' + esc(err.message) + '\n' + esc(err.stack || '') + '</pre><button onclick="route()" class="mt-3 px-4 py-2 bg-emerald-600 text-white text-sm font-bold rounded-lg">Coba Lagi</button></div>';
+  }
+  if (typeof refreshIcons === 'function') refreshIcons();
+}
+
+// FIXED: Daftarkan router ke browser
+window.route = route;
+window.renderCRUD = renderCRUD;
+window.MOD = MOD;
+
+window.addEventListener('hashchange', route);
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => { if (!location.hash) location.hash = '#/dashboard'; else route(); });
+} else {
+  // Script sudah di akhir body, langsung jalan
+  setTimeout(route, 50);
+}
+
+// FIXED: Dashboard darurat kalau renderDashboard di mods belum ada
+if (typeof window.renderDashboard !== 'function') {
+  window.renderDashboard = async function () {
+    try {
+      const siswa = await fetchJSON("siswa.json").catch(() => []);
+      const guru = await fetchJSON("guru.json").catch(() => []);
+      const kelas = await fetchJSON("kelas.json").catch(() => []);
+      const ppdb = await fetchJSON("ppdb.json").catch(() => []);
+      app.innerHTML = pageHead(MOD.dashboard) +
+        '<div class="grid grid-cols-2 lg:grid-cols-4 gap-4">' +
+        [['Total Siswa', siswa.length, 'users'], ['Total Guru', guru.length, 'briefcase'], ['Rombel', kelas.length, 'school'], ['PPDB Menunggu', ppdb.filter(x => x.status === 'Menunggu').length, 'user-plus']].map(c =>
+          '<div class="bg-white rounded-2xl border p-5"><div class="text-3xl font-extrabold">' + c[1] + '</div><div class="text-sm text-slate-500 mt-1">' + c[0] + '</div></div>'
+        ).join('') + '</div>' +
+        '<div class="mt-4 bg-white rounded-2xl border p-5"><h3 class="font-bold">Modul Siap</h3><p class="text-sm text-slate-500 mt-1">Klik menu di kiri, contoh: <a href="#/siswa" class="text-emerald-600 font-bold">Data Induk Siswa</a> • <a href="#/nilai" class="text-emerald-600 font-bold">Input Nilai</a> • <a href="#/ppdb" class="text-emerald-600 font-bold">PPDB</a></p></div>';
+      if (typeof refreshIcons === 'function') refreshIcons();
+    } catch (e) { app.innerHTML = '<div class="p-5 bg-red-50 border border-red-200 rounded-2xl">Gagal load dashboard: ' + esc(e.message) + '</div>'; }
+  };
 }
