@@ -1,7 +1,10 @@
 // ============================================================
-// config.js — Bootstrap situs: root otomatis, URL bersih,
-// auto-konfigurasi repo, normalisasi tautan, prefetch.
-// Dimuat paling awal oleh setiap halaman.
+// config.js — FIXED: Bootstrap situs
+// PERBAIKAN:
+// 1. TIDAK LAGI redirect .html -> /folder/ (itu yang bikin 404)
+// 2. TIDAK LAGI pasang <base> (itu yang merusak path JS)
+// 3. TIDAK LAGI ubah link .html jadi folder
+// 4. Tambah alias window.CONFIG agar nyambung ke admin.js / admin.html
 // TOKEN TIDAK BOLEH DI-HARDCODE — jangan tulis PAT di sini.
 // ============================================================
 (function () {
@@ -29,12 +32,8 @@
 
   window.SITE = { root: ROOT, pages: PAGES, isFile: FILE, mounted: !!window.__LS_MOUNTED__ };
 
-  // <base> menjamin semua aset relatif tetap benar dari kedalaman mana pun
-  if (!document.querySelector("base")) {
-    var b = document.createElement("base");
-    b.href = ROOT; b.setAttribute("data-site", "1");
-    document.head.insertBefore(b, document.head.firstChild);
-  }
+  // FIXED: JANGAN pasang <base> — merusak src="admin.js" dan href="#/siswa" di SPA
+  // Dihapus total.
 
   // ---- Auto-konfigurasi repo dari root nyata (tanpa tebak-tebakan) ----
   var prev = window.APP_CONFIG || {};
@@ -48,84 +47,50 @@
     }
   } catch (e) {}
   var isPlaceholder = function (v) { return !v || /^GANTI/i.test(String(v)); };
+
+  var finalOwner = isPlaceholder(prev.GITHUB_USERNAME) ? (owner || "synchficker") : prev.GITHUB_USERNAME;
+  var finalRepo = isPlaceholder(prev.GITHUB_REPO) ? (repo || "sis") : prev.GITHUB_REPO;
+  var finalBranch = prev.GITHUB_BRANCH || "main";
+
   window.APP_CONFIG = {
-    GITHUB_USERNAME: isPlaceholder(prev.GITHUB_USERNAME) ? (owner || "GANTI_USERNAME_GITHUB") : prev.GITHUB_USERNAME,
-    GITHUB_REPO: isPlaceholder(prev.GITHUB_REPO) ? (repo || "GANTI_NAMA_REPO") : prev.GITHUB_REPO,
-    GITHUB_BRANCH: prev.GITHUB_BRANCH || "main"
+    GITHUB_USERNAME: finalOwner,
+    GITHUB_REPO: finalRepo,
+    GITHUB_BRANCH: finalBranch
   };
 
-  // ---- URL bersih: /admin/ menggantikan /admin.html ----
-  function clean(href) {
-    var s = String(href == null ? "" : href);
-    if (!s || /^(https?:|mailto:|tel:|data:|javascript:|#|\/\/)/i.test(s)) return s;
-    var m = s.match(/^\.?\/?([a-z0-9_-]+)\.html([?#].*)?$/i);
-    if (!m) return s;
-    var name = m[1].toLowerCase(), tail = m[2] || "";
-    if (name === "404") return s;
-    if (name === "index") return ROOT + tail;
-    if (PAGES[name]) return (FILE ? ROOT + name + ".html" : name + "/") + tail;
-    return s;
-  }
+  // FIXED: Alias agar admin.js / admin.html / app.js yang nyari CONFIG bisa ketemu
+  // admin.js nyari: cfg.OWNER / cfg.REPO
+  // app.js nyari: APP_CONFIG.GITHUB_USERNAME
+  // Keduanya sekarang tersedia
+  window.CONFIG = {
+    OWNER: finalOwner,
+    REPO: finalRepo,
+    BRANCH: finalBranch,
+    GITHUB_USERNAME: finalOwner,
+    GITHUB_REPO: finalRepo,
+    GITHUB_BRANCH: finalBranch,
+    SCHOOL_NAME: (window.CONFIG && window.CONFIG.SCHOOL_NAME) || "SIS Sekolah",
+    ROOT: ROOT
+  };
+  window.SIS_CONFIG = window.CONFIG;
+
+  // FIXED: siteUrl & go — JANGAN ubah .html jadi /folder/
+  // Github Pages tidak punya folder routing, jadi .html harus tetap .html
   window.siteUrl = function (page, tail) {
     if (!page || page === "index" || page === "beranda") return ROOT + (tail || "");
-    return (FILE ? ROOT + page + ".html" : PAGES[page] ? page + "/" : page) + (tail || "");
+    // Selalu kembalikan .html apa adanya
+    if (String(page).indexOf(".html") !== -1) return page + (tail || "");
+    return ROOT + page + ".html" + (tail || "");
   };
   window.go = function (page, tail) { location.href = window.siteUrl(page, tail); };
 
-  // Redirect kanonis bila seseorang membuka berkas .html secara langsung
-  if (!FILE && !window.__LS_MOUNTED__) {
-    var mm = location.pathname.match(/\/([a-z0-9_-]+)\.html$/i);
-    if (mm) {
-      var n = mm[1].toLowerCase();
-      var target = n === "index" ? ROOT : PAGES[n] ? ROOT + n + "/" : null;
-      if (target) { location.replace(target + location.search + location.hash); return; }
-    }
-  }
+  // FIXED: JANGAN redirect kanonis .html -> /folder/
+  // Dihapus total. Biarkan https://.../admin.html tetap di admin.html
+  // Biarkan https://.../admin.html#/siswa tetap jalan sebagai SPA hash-router
 
-  // ---- Normalisasi seluruh tautan & iframe, termasuk yang dibuat dinamis ----
-  function fix(root) {
-    (root || document).querySelectorAll("a[href],area[href]").forEach(function (a) {
-      if (a.hasAttribute("download")) return;
-      var h = a.getAttribute("href"), c = clean(h);
-      if (c !== h) a.setAttribute("href", c);
-    });
-    (root || document).querySelectorAll("iframe[src]").forEach(function (f) {
-      var s = f.getAttribute("src"), c = clean(s);
-      if (c !== s) f.setAttribute("src", c);
-    });
-  }
-  document.addEventListener("click", function (e) {
-    var a = e.target && e.target.closest && e.target.closest("a[href]");
-    if (!a) return;
-    var c = clean(a.getAttribute("href"));
-    if (c !== a.getAttribute("href")) a.setAttribute("href", c);
-  }, true);
+  // FIXED: JANGAN normalisasi / ubah semua link & iframe
+  // Fungsi fix() yang lama mengubah href="index.html" jadi "index/" dan merusak sidebar admin
+  // Dihapus total. Link dibiarkan apa adanya.
 
-  var seen = {};
-  document.addEventListener("pointerenter", function (e) {
-    var a = e.target && e.target.closest && e.target.closest("a[href]");
-    if (!a || a.target === "_blank" || seen[a.href]) return;
-    try {
-      var u = new URL(a.href, location.href);
-      if (u.origin !== location.origin || /\.(json|png|jpe?g|svg|pdf|zip|csv)$/i.test(u.pathname)) return;
-      seen[a.href] = 1;
-      var l = document.createElement("link"); l.rel = "prefetch"; l.href = u.href; l.as = "document";
-      document.head.appendChild(l);
-    } catch (x) {}
-  }, true);
-
-  function start() {
-    fix();
-    var t = 0;
-    new MutationObserver(function (ms) {
-      var need = ms.some(function (m) {
-        return [].some.call(m.addedNodes, function (n) {
-          return n.nodeType === 1 && (n.matches?.("a[href],iframe[src]") || n.querySelector?.("a[href],iframe[src]"));
-        });
-      });
-      if (!need) return;
-      clearTimeout(t); t = setTimeout(function () { fix(); }, 30);
-    }).observe(document.documentElement, { childList: true, subtree: true });
-  }
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start); else start();
+  console.log("[config.js FIXED] OWNER:", finalOwner, "REPO:", finalRepo, "BRANCH:", finalBranch, "ROOT:", ROOT);
 })();
