@@ -421,7 +421,9 @@ function footerHTML(){
 
 /* ---------- chrome tambahan ---------- */
 function chrome(){
+  if(APP || AUTH) return; // FIXED: Jangan buat lsBg / FAB WA di admin
   const t=CFG.tema;
+  // ... sisanya sama seperti punyamu
   if(!document.getElementById("lsBg")){
     const d=document.createElement("div"); d.id="lsBg";
     d.innerHTML='<div class="ls-mesh"></div><div class="ls-grid"></div><div class="ls-aurora"><i></i><i></i><i></i></div><div class="ls-grain"></div>';
@@ -691,6 +693,20 @@ function styleTag(){
   if(l.href!==href) l.href=href;
 }
 function render(){
+  // FIXED: Kalau halaman admin / seed / login, JANGAN suntik header/footer beranda
+  // Admin sudah punya header & sidebar sendiri di admin.html
+  if(APP || AUTH){
+    // Hanya apply CSS tema saja, tanpa suntik header/footer
+    styleTag();
+    document.documentElement.classList.toggle("ls-app",APP);
+    document.documentElement.classList.toggle("ls-auth",AUTH);
+    // Hapus sisa lsHeader/lsFooter kalau terlanjur ada dari render sebelumnya
+    document.getElementById("lsHeader")?.remove();
+    document.getElementById("lsFooter")?.remove();
+    // Jangan panggil chrome() / wire() / bodyApply() di admin
+    refreshIcons();
+    return;
+  }
   styleTag();
   document.documentElement.classList.toggle("ls-app",APP);
   document.documentElement.classList.toggle("ls-auth",AUTH);
@@ -706,6 +722,13 @@ async function apply(next){
   if(!hydrated){ await hydrate(); render(); }
 }
 function boot(){
+  // FIXED: Untuk admin/seed/login, jangan jalankan MutationObserver penghapus header
+  // dan jangan fetch ui.json yang akan me-render ulang
+  if(APP || AUTH){
+    // Hanya hydrate settings saja, tanpa render header beranda
+    hydrate().catch(()=>{});
+    return;
+  }
   document.querySelectorAll("header:not(#lsHeader)").forEach(h=>{ if(APP) h.dataset.lsKeep="1"; else h.remove(); });
   document.querySelectorAll("footer:not(#lsFooter)").forEach(f=>f.remove());
   if(!document.getElementById("lsMain")){ const t=document.querySelector("main")||document.querySelector("#root")||document.querySelector("section"); if(t&&!t.id) t.id="lsMain"; }
