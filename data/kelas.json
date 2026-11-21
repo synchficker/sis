@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "K0001",
+    "nama": "5AA",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0012",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0002",
+    "nama": "7AA",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0013",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0003",
+    "nama": "11 IPS AA",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0014",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0004",
+    "nama": "10 Pemasaran AA",
+    "tingkat": "10",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0015",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0005",
+    "nama": "3AA",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0016",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0006",
+    "nama": "7AB",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0017",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0007",
+    "nama": "11 IPA AA",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0018",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0008",
+    "nama": "10 RPL AA",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0019",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0009",
+    "nama": "1AA",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0020",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0010",
+    "nama": "8AA",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0021",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0011",
+    "nama": "10 IPS AA",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0022",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0012",
+    "nama": "10 TKR AA",
+    "tingkat": "10",
+    "jurusan": "TKR",
+    "wali_kelas": "G0023",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0013",
+    "nama": "5AB",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0024",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0014",
+    "nama": "7AC",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0025",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0015",
+    "nama": "12 IPS AA",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0026",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0016",
+    "nama": "12 DKV AA",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0027",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0017",
+    "nama": "5AC",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0028",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0018",
+    "nama": "9AA",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0029",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0019",
+    "nama": "12 IPS AB",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0030",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0020",
+    "nama": "12 TKR AA",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0031",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0021",
+    "nama": "3AB",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0032",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0022",
+    "nama": "9AB",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0033",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0023",
+    "nama": "10 IPS AB",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0034",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0024",
+    "nama": "11 RPL AA",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0035",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0025",
+    "nama": "4AA",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0036",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0026",
+    "nama": "8AB",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0037",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0027",
+    "nama": "12 IPA AA",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0038",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0028",
+    "nama": "12 TKR AB",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0039",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0029",
+    "nama": "1AB",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0040",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0030",
+    "nama": "9AC",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0041",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0031",
+    "nama": "10 IPS AC",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0042",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0032",
+    "nama": "11 Akuntansi AA",
+    "tingkat": "11",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0043",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0033",
+    "nama": "1AC",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0044",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0034",
+    "nama": "8AC",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0045",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0035",
+    "nama": "10 IPA AA",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0046",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0036",
+    "nama": "11 RPL AB",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0047",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0037",
+    "nama": "5AD",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0048",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0038",
+    "nama": "9AD",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0049",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0039",
+    "nama": "12 IPS AC",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0050",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0040",
+    "nama": "12 Akuntansi AA",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0051",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0041",
+    "nama": "5AE",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0052",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0042",
+    "nama": "9AE",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0053",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0043",
+    "nama": "11 IPS AB",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0054",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0044",
+    "nama": "11 TKJ AA",
+    "tingkat": "11",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0055",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0045",
+    "nama": "1AD",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0056",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0046",
+    "nama": "7AD",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0057",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0047",
+    "nama": "12 IPS AD",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0058",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0048",
+    "nama": "12 RPL AA",
+    "tingkat": "12",
+    "jurusan": "RPL",
+    "wali_kelas": "G0059",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0049",
+    "nama": "6AA",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0060",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0050",
+    "nama": "9AF",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0061",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0051",
+    "nama": "12 IPS AE",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0062",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0052",
+    "nama": "10 Akuntansi AA",
+    "tingkat": "10",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0063",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0053",
+    "nama": "4AB",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0064",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0054",
+    "nama": "7AE",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0065",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0055",
+    "nama": "10 IPS AD",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0066",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0056",
+    "nama": "12 Akuntansi AB",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0067",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0057",
+    "nama": "4AC",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0068",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0058",
+    "nama": "9AG",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0069",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0059",
+    "nama": "10 IPS AE",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0070",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0060",
+    "nama": "10 Akuntansi AB",
+    "tingkat": "10",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0071",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0061",
+    "nama": "5AF",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0072",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0062",
+    "nama": "9AH",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0073",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0063",
+    "nama": "12 IPA AB",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0074",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0064",
+    "nama": "12 TKR AC",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0075",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0065",
+    "nama": "2AA",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0076",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0066",
+    "nama": "8AD",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0077",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0067",
+    "nama": "10 IPS AF",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0078",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0068",
+    "nama": "12 TKR AD",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0079",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0069",
+    "nama": "1AE",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0080",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0070",
+    "nama": "8AE",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0081",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0071",
+    "nama": "12 IPS AF",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0082",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0072",
+    "nama": "11 DKV AA",
+    "tingkat": "11",
+    "jurusan": "DKV",
+    "wali_kelas": "G0083",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0073",
+    "nama": "4AD",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0084",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0074",
+    "nama": "7AF",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0085",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0075",
+    "nama": "11 IPA AB",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0086",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0076",
+    "nama": "11 RPL AC",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0087",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0077",
+    "nama": "5AG",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0088",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0078",
+    "nama": "8AF",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0089",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0079",
+    "nama": "12 IPA AC",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0090",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0080",
+    "nama": "11 TKJ AB",
+    "tingkat": "11",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0091",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0081",
+    "nama": "3AC",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0092",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0082",
+    "nama": "8AG",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0093",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0083",
+    "nama": "11 IPS AC",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0094",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0084",
+    "nama": "12 TKJ AA",
+    "tingkat": "12",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0095",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0085",
+    "nama": "3AD",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0096",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0086",
+    "nama": "7AG",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0097",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0087",
+    "nama": "12 IPA AD",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0098",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0088",
+    "nama": "11 DKV AB",
+    "tingkat": "11",
+    "jurusan": "DKV",
+    "wali_kelas": "G0099",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0089",
+    "nama": "3AE",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0100",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0090",
+    "nama": "8AH",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0101",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0091",
+    "nama": "10 IPA AB",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0102",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0092",
+    "nama": "12 Akuntansi AC",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0103",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0093",
+    "nama": "6AB",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0104",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0094",
+    "nama": "8AI",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0105",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0095",
+    "nama": "10 IPS AG",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0106",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0096",
+    "nama": "10 TKJ AA",
+    "tingkat": "10",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0107",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0097",
+    "nama": "4AE",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0108",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0098",
+    "nama": "8AJ",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0109",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0099",
+    "nama": "10 IPS AH",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0110",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0100",
+    "nama": "10 TKJ AB",
+    "tingkat": "10",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0111",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0101",
+    "nama": "4AF",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0112",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0102",
+    "nama": "9AI",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0113",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0103",
+    "nama": "10 IPS AI",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0114",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0104",
+    "nama": "10 RPL AB",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0115",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0105",
+    "nama": "2AB",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0116",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0106",
+    "nama": "7AH",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0117",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0107",
+    "nama": "11 IPA AC",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0118",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0108",
+    "nama": "10 RPL AC",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0119",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0109",
+    "nama": "1AF",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0120",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0110",
+    "nama": "8AK",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0121",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0111",
+    "nama": "11 IPA AD",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0122",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0112",
+    "nama": "11 RPL AD",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0123",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0113",
+    "nama": "4AG",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0124",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0114",
+    "nama": "8AL",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0125",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0115",
+    "nama": "11 IPA AE",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0126",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0116",
+    "nama": "12 TKR AE",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0127",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0117",
+    "nama": "3AF",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0128",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0118",
+    "nama": "8AM",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0129",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0119",
+    "nama": "12 IPA AE",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0130",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0120",
+    "nama": "12 RPL AB",
+    "tingkat": "12",
+    "jurusan": "RPL",
+    "wali_kelas": "G0131",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0121",
+    "nama": "6AC",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0132",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0122",
+    "nama": "8AN",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0133",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0123",
+    "nama": "10 IPS AJ",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0134",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0124",
+    "nama": "12 TKR AF",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0135",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0125",
+    "nama": "4AH",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0136",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0126",
+    "nama": "7AI",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0137",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0127",
+    "nama": "11 IPA AF",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0138",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0128",
+    "nama": "10 RPL AD",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0139",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0129",
+    "nama": "1AG",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0140",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0130",
+    "nama": "8AO",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0141",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0131",
+    "nama": "11 IPA AG",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0142",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0132",
+    "nama": "10 TKR AB",
+    "tingkat": "10",
+    "jurusan": "TKR",
+    "wali_kelas": "G0143",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0133",
+    "nama": "4AI",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0144",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0134",
+    "nama": "9AJ",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0145",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0135",
+    "nama": "12 IPA AF",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0146",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0136",
+    "nama": "12 Akuntansi AD",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0147",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0137",
+    "nama": "6AD",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0148",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0138",
+    "nama": "7AJ",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0149",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0139",
+    "nama": "10 IPA AC",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0150",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0140",
+    "nama": "11 TKJ AC",
+    "tingkat": "11",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0151",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0141",
+    "nama": "2AC",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0152",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0142",
+    "nama": "7AK",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0153",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0143",
+    "nama": "11 IPS AD",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0154",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0144",
+    "nama": "11 TKJ AD",
+    "tingkat": "11",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0155",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0145",
+    "nama": "6AE",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0156",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0146",
+    "nama": "8AP",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0157",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0147",
+    "nama": "11 IPA AH",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0158",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0148",
+    "nama": "12 DKV AB",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0159",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0149",
+    "nama": "6AF",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0160",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0150",
+    "nama": "8AQ",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0161",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0151",
+    "nama": "11 IPA AI",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0162",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0152",
+    "nama": "12 Pemasaran AA",
+    "tingkat": "12",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0163",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0153",
+    "nama": "3AG",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0164",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0154",
+    "nama": "9AK",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0165",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0155",
+    "nama": "10 IPA AD",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0166",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0156",
+    "nama": "11 RPL AE",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0167",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0157",
+    "nama": "6AG",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0168",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0158",
+    "nama": "8AR",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0169",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0159",
+    "nama": "11 IPS AE",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0170",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0160",
+    "nama": "11 RPL AF",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0171",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0161",
+    "nama": "4AJ",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0172",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0162",
+    "nama": "9AL",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0173",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0163",
+    "nama": "12 IPS AG",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0174",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0164",
+    "nama": "10 Pemasaran AB",
+    "tingkat": "10",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0175",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0165",
+    "nama": "5AH",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0176",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0166",
+    "nama": "7AL",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0177",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0167",
+    "nama": "10 IPA AE",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0178",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0168",
+    "nama": "12 Akuntansi AE",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0179",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0169",
+    "nama": "2AD",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0180",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0170",
+    "nama": "8AS",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0181",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0171",
+    "nama": "11 IPS AF",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0182",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0172",
+    "nama": "10 DKV AA",
+    "tingkat": "10",
+    "jurusan": "DKV",
+    "wali_kelas": "G0183",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0173",
+    "nama": "2AE",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0184",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0174",
+    "nama": "8AT",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0185",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0175",
+    "nama": "11 IPA AJ",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0186",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0176",
+    "nama": "10 Pemasaran AC",
+    "tingkat": "10",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0187",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0177",
+    "nama": "4AK",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0188",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0178",
+    "nama": "9AM",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0189",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0179",
+    "nama": "12 IPS AH",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0190",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0180",
+    "nama": "11 Akuntansi AB",
+    "tingkat": "11",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0191",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0181",
+    "nama": "6AH",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0192",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0182",
+    "nama": "7AM",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0193",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0183",
+    "nama": "12 IPA AG",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0194",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0184",
+    "nama": "10 TKR AC",
+    "tingkat": "10",
+    "jurusan": "TKR",
+    "wali_kelas": "G0195",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0185",
+    "nama": "4AL",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0196",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0186",
+    "nama": "7AN",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0197",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0187",
+    "nama": "11 IPS AG",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0198",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0188",
+    "nama": "11 Pemasaran AA",
+    "tingkat": "11",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0199",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0189",
+    "nama": "4AM",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0200",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0190",
+    "nama": "7AO",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0201",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0191",
+    "nama": "11 IPA AK",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0202",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0192",
+    "nama": "10 DKV AB",
+    "tingkat": "10",
+    "jurusan": "DKV",
+    "wali_kelas": "G0203",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0193",
+    "nama": "4AN",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0204",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0194",
+    "nama": "7AP",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0205",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0195",
+    "nama": "11 IPS AH",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0206",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0196",
+    "nama": "12 DKV AC",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0207",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0197",
+    "nama": "3AH",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0208",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0198",
+    "nama": "9AN",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0209",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0199",
+    "nama": "12 IPA AH",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0210",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0200",
+    "nama": "10 RPL AE",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0211",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0201",
+    "nama": "3AI",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0212",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0202",
+    "nama": "8AU",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0213",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0203",
+    "nama": "10 IPA AF",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0214",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0204",
+    "nama": "12 Akuntansi AF",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0215",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0205",
+    "nama": "2AF",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0216",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0206",
+    "nama": "9AO",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0217",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0207",
+    "nama": "10 IPS AK",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0218",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0208",
+    "nama": "12 Akuntansi AG",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0219",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0209",
+    "nama": "1AH",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0220",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0210",
+    "nama": "7AQ",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0221",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0211",
+    "nama": "10 IPS AL",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0222",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0212",
+    "nama": "12 TKR AG",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0223",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0213",
+    "nama": "2AG",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0224",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0214",
+    "nama": "8AV",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0225",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0215",
+    "nama": "10 IPS AM",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0226",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0216",
+    "nama": "10 Akuntansi AC",
+    "tingkat": "10",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0227",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0217",
+    "nama": "5AI",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0228",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0218",
+    "nama": "9AP",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0229",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0219",
+    "nama": "11 IPS AI",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0230",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0220",
+    "nama": "11 Akuntansi AC",
+    "tingkat": "11",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0231",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0221",
+    "nama": "6AI",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0232",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0222",
+    "nama": "8AW",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0233",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0223",
+    "nama": "12 IPS AI",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0234",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0224",
+    "nama": "12 DKV AD",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0235",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0225",
+    "nama": "1AI",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0236",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0226",
+    "nama": "7AR",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0237",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0227",
+    "nama": "11 IPS AJ",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0238",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0228",
+    "nama": "12 DKV AE",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0239",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0229",
+    "nama": "6AJ",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0240",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0230",
+    "nama": "9AQ",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0241",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0231",
+    "nama": "12 IPS AJ",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0242",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0232",
+    "nama": "10 DKV AC",
+    "tingkat": "10",
+    "jurusan": "DKV",
+    "wali_kelas": "G0243",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0233",
+    "nama": "6AK",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0244",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0234",
+    "nama": "9AR",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0245",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0235",
+    "nama": "12 IPS AK",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0246",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0236",
+    "nama": "12 TKJ AB",
+    "tingkat": "12",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0247",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0237",
+    "nama": "3AJ",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0248",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0238",
+    "nama": "8AX",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0249",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0239",
+    "nama": "11 IPS AK",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0250",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0240",
+    "nama": "12 RPL AC",
+    "tingkat": "12",
+    "jurusan": "RPL",
+    "wali_kelas": "G0251",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0241",
+    "nama": "2AH",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0252",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0242",
+    "nama": "8AY",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0253",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0243",
+    "nama": "11 IPA AL",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0254",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0244",
+    "nama": "11 TKR AA",
+    "tingkat": "11",
+    "jurusan": "TKR",
+    "wali_kelas": "G0255",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0245",
+    "nama": "4AO",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0256",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0246",
+    "nama": "8AZ",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0257",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0247",
+    "nama": "12 IPS AL",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0258",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0248",
+    "nama": "10 TKR AD",
+    "tingkat": "10",
+    "jurusan": "TKR",
+    "wali_kelas": "G0259",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0249",
+    "nama": "2AI",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0260",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0250",
+    "nama": "7AS",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0261",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0251",
+    "nama": "11 IPS AL",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0262",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0252",
+    "nama": "11 DKV AC",
+    "tingkat": "11",
+    "jurusan": "DKV",
+    "wali_kelas": "G0263",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0253",
+    "nama": "6AL",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0264",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0254",
+    "nama": "7AT",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0265",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0255",
+    "nama": "10 IPA AG",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0266",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0256",
+    "nama": "10 RPL AF",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0267",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0257",
+    "nama": "2AJ",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0268",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0258",
+    "nama": "9AS",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0269",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0259",
+    "nama": "10 IPA AH",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0270",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0260",
+    "nama": "11 Pemasaran AB",
+    "tingkat": "11",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0271",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0261",
+    "nama": "1AJ",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0272",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0262",
+    "nama": "8BA",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0273",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0263",
+    "nama": "11 IPA AM",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0274",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0264",
+    "nama": "11 RPL AG",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0275",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0265",
+    "nama": "5AJ",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0276",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0266",
+    "nama": "7AU",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0277",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0267",
+    "nama": "11 IPS AM",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0278",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0268",
+    "nama": "12 DKV AF",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0279",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0269",
+    "nama": "4AP",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0280",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0270",
+    "nama": "9AT",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0281",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0271",
+    "nama": "11 IPA AN",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0282",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0272",
+    "nama": "11 Akuntansi AD",
+    "tingkat": "11",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0283",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0273",
+    "nama": "1AK",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0284",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0274",
+    "nama": "8BB",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0285",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0275",
+    "nama": "11 IPS AN",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0286",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0276",
+    "nama": "10 Pemasaran AD",
+    "tingkat": "10",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0287",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0277",
+    "nama": "4AQ",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0288",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0278",
+    "nama": "8BC",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0289",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0279",
+    "nama": "11 IPA AO",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0290",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0280",
+    "nama": "10 TKJ AC",
+    "tingkat": "10",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0291",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0281",
+    "nama": "3AK",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0292",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0282",
+    "nama": "8BD",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0293",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0283",
+    "nama": "11 IPS AO",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0294",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0284",
+    "nama": "10 DKV AD",
+    "tingkat": "10",
+    "jurusan": "DKV",
+    "wali_kelas": "G0295",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0285",
+    "nama": "1AL",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0296",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0286",
+    "nama": "7AV",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0297",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0287",
+    "nama": "10 IPS AN",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0298",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0288",
+    "nama": "12 TKJ AC",
+    "tingkat": "12",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0299",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0289",
+    "nama": "2AK",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0300",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0290",
+    "nama": "9AU",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0301",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0291",
+    "nama": "12 IPA AI",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0302",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0292",
+    "nama": "10 RPL AG",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0303",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0293",
+    "nama": "3AL",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0304",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0294",
+    "nama": "9AV",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0305",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0295",
+    "nama": "11 IPA AP",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0306",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0296",
+    "nama": "11 RPL AH",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0307",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0297",
+    "nama": "6AM",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0308",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0298",
+    "nama": "8BE",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0309",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0299",
+    "nama": "11 IPS AP",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0310",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0300",
+    "nama": "11 Akuntansi AE",
+    "tingkat": "11",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0311",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0301",
+    "nama": "5AK",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0312",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0302",
+    "nama": "9AW",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0313",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0303",
+    "nama": "10 IPA AI",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0314",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0304",
+    "nama": "11 TKR AB",
+    "tingkat": "11",
+    "jurusan": "TKR",
+    "wali_kelas": "G0315",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0305",
+    "nama": "1AM",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0316",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0306",
+    "nama": "8BF",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0317",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0307",
+    "nama": "10 IPA AJ",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0318",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0308",
+    "nama": "12 TKJ AD",
+    "tingkat": "12",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0319",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0309",
+    "nama": "3AM",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0320",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0310",
+    "nama": "9AX",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0321",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0311",
+    "nama": "10 IPA AK",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0322",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0312",
+    "nama": "12 RPL AD",
+    "tingkat": "12",
+    "jurusan": "RPL",
+    "wali_kelas": "G0323",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0313",
+    "nama": "4AR",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0324",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0314",
+    "nama": "9AY",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0325",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0315",
+    "nama": "10 IPS AO",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0326",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0316",
+    "nama": "12 DKV AG",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0327",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0317",
+    "nama": "4AS",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0328",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0318",
+    "nama": "8BG",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0329",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0319",
+    "nama": "12 IPA AJ",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0330",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0320",
+    "nama": "12 Akuntansi AH",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0331",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0321",
+    "nama": "1AN",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0332",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0322",
+    "nama": "9AZ",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0333",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0323",
+    "nama": "10 IPA AL",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0334",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0324",
+    "nama": "11 TKR AC",
+    "tingkat": "11",
+    "jurusan": "TKR",
+    "wali_kelas": "G0335",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0325",
+    "nama": "4AT",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0336",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0326",
+    "nama": "9BA",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0337",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0327",
+    "nama": "12 IPA AK",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0338",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0328",
+    "nama": "12 TKR AH",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0339",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0329",
+    "nama": "3AN",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0340",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0330",
+    "nama": "9BB",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0341",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0331",
+    "nama": "12 IPA AL",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0342",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0332",
+    "nama": "11 DKV AD",
+    "tingkat": "11",
+    "jurusan": "DKV",
+    "wali_kelas": "G0343",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0333",
+    "nama": "3AO",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0344",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0334",
+    "nama": "7AW",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0345",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0335",
+    "nama": "10 IPA AM",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0346",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0336",
+    "nama": "12 Pemasaran AB",
+    "tingkat": "12",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0347",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0337",
+    "nama": "2AL",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0348",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0338",
+    "nama": "7AX",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0349",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0339",
+    "nama": "12 IPS AM",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0350",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0340",
+    "nama": "10 TKR AE",
+    "tingkat": "10",
+    "jurusan": "TKR",
+    "wali_kelas": "G0351",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0341",
+    "nama": "3AP",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0352",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0342",
+    "nama": "9BC",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0353",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0343",
+    "nama": "10 IPS AP",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0354",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0344",
+    "nama": "12 TKJ AE",
+    "tingkat": "12",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0355",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0345",
+    "nama": "5AL",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0356",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0346",
+    "nama": "8BH",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0357",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0347",
+    "nama": "12 IPS AN",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0358",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0348",
+    "nama": "12 RPL AE",
+    "tingkat": "12",
+    "jurusan": "RPL",
+    "wali_kelas": "G0359",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0349",
+    "nama": "2AM",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0360",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0350",
+    "nama": "7AY",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0361",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0351",
+    "nama": "11 IPA AQ",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0362",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0352",
+    "nama": "11 TKJ AE",
+    "tingkat": "11",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0363",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0353",
+    "nama": "2AN",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0364",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0354",
+    "nama": "9BD",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0365",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0355",
+    "nama": "12 IPA AM",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0366",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0356",
+    "nama": "12 DKV AH",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0367",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0357",
+    "nama": "1AO",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0368",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0358",
+    "nama": "8BI",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0369",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0359",
+    "nama": "10 IPA AN",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0370",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0360",
+    "nama": "12 TKJ AF",
+    "tingkat": "12",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0371",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0361",
+    "nama": "1AP",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0372",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0362",
+    "nama": "7AZ",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0373",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0363",
+    "nama": "11 IPA AR",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0374",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0364",
+    "nama": "10 RPL AH",
+    "tingkat": "10",
+    "jurusan": "RPL",
+    "wali_kelas": "G0375",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0365",
+    "nama": "6AN",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0376",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0366",
+    "nama": "7BA",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0377",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0367",
+    "nama": "11 IPS AQ",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0378",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0368",
+    "nama": "12 TKR AI",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0379",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0369",
+    "nama": "1AQ",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0380",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0370",
+    "nama": "9BE",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0381",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0371",
+    "nama": "11 IPA AS",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0382",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0372",
+    "nama": "11 TKR AD",
+    "tingkat": "11",
+    "jurusan": "TKR",
+    "wali_kelas": "G0383",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0373",
+    "nama": "2AO",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0384",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0374",
+    "nama": "8BJ",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0385",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0375",
+    "nama": "11 IPA AT",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0386",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0376",
+    "nama": "10 TKR AF",
+    "tingkat": "10",
+    "jurusan": "TKR",
+    "wali_kelas": "G0387",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0377",
+    "nama": "2AP",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0388",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0378",
+    "nama": "7BB",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0389",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0379",
+    "nama": "10 IPS AQ",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0390",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0380",
+    "nama": "11 DKV AE",
+    "tingkat": "11",
+    "jurusan": "DKV",
+    "wali_kelas": "G0391",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0381",
+    "nama": "1AR",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0392",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0382",
+    "nama": "7BC",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0393",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0383",
+    "nama": "11 IPA AU",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0394",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0384",
+    "nama": "10 TKR AG",
+    "tingkat": "10",
+    "jurusan": "TKR",
+    "wali_kelas": "G0395",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0385",
+    "nama": "1AS",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0396",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0386",
+    "nama": "9BF",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0397",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0387",
+    "nama": "11 IPS AR",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0398",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0388",
+    "nama": "10 Akuntansi AD",
+    "tingkat": "10",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0399",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0389",
+    "nama": "3AQ",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0400",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0390",
+    "nama": "8BK",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0401",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0391",
+    "nama": "12 IPA AN",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0402",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0392",
+    "nama": "12 Pemasaran AC",
+    "tingkat": "12",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0403",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0393",
+    "nama": "2AQ",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0404",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0394",
+    "nama": "9BG",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0405",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0395",
+    "nama": "10 IPS AR",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0406",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0396",
+    "nama": "12 DKV AI",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0407",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0397",
+    "nama": "6AO",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0408",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0398",
+    "nama": "8BL",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0409",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0399",
+    "nama": "12 IPA AO",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0410",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0400",
+    "nama": "11 DKV AF",
+    "tingkat": "11",
+    "jurusan": "DKV",
+    "wali_kelas": "G0411",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0401",
+    "nama": "1AT",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0412",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0402",
+    "nama": "9BH",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0413",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0403",
+    "nama": "11 IPA AV",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0414",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0404",
+    "nama": "10 DKV AE",
+    "tingkat": "10",
+    "jurusan": "DKV",
+    "wali_kelas": "G0415",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0405",
+    "nama": "3AR",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0416",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0406",
+    "nama": "8BM",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0417",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0407",
+    "nama": "11 IPA AW",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0418",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0408",
+    "nama": "12 Pemasaran AD",
+    "tingkat": "12",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0419",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0409",
+    "nama": "4AU",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0420",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0410",
+    "nama": "9BI",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0421",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0411",
+    "nama": "12 IPS AO",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0422",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0412",
+    "nama": "10 Pemasaran AE",
+    "tingkat": "10",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0423",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0413",
+    "nama": "3AS",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0424",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0414",
+    "nama": "7BD",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0425",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0415",
+    "nama": "11 IPA AX",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0426",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0416",
+    "nama": "10 Akuntansi AE",
+    "tingkat": "10",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0427",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0417",
+    "nama": "2AR",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0428",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0418",
+    "nama": "7BE",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0429",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0419",
+    "nama": "11 IPA AY",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0430",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0420",
+    "nama": "12 RPL AF",
+    "tingkat": "12",
+    "jurusan": "RPL",
+    "wali_kelas": "G0431",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0421",
+    "nama": "1AU",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0432",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0422",
+    "nama": "8BN",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0433",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0423",
+    "nama": "12 IPS AP",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0434",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0424",
+    "nama": "11 RPL AI",
+    "tingkat": "11",
+    "jurusan": "RPL",
+    "wali_kelas": "G0435",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0425",
+    "nama": "5AM",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0436",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0426",
+    "nama": "7BF",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0437",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0427",
+    "nama": "10 IPS AS",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0438",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0428",
+    "nama": "12 Pemasaran AE",
+    "tingkat": "12",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0439",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0429",
+    "nama": "5AN",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0440",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0430",
+    "nama": "8BO",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0441",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0431",
+    "nama": "12 IPA AP",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0442",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0432",
+    "nama": "12 RPL AG",
+    "tingkat": "12",
+    "jurusan": "RPL",
+    "wali_kelas": "G0443",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0433",
+    "nama": "2AS",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0444",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0434",
+    "nama": "8BP",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0445",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0435",
+    "nama": "10 IPS AT",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0446",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0436",
+    "nama": "11 DKV AG",
+    "tingkat": "11",
+    "jurusan": "DKV",
+    "wali_kelas": "G0447",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0437",
+    "nama": "1AV",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0448",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0438",
+    "nama": "7BG",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0449",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0439",
+    "nama": "10 IPA AO",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0450",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0440",
+    "nama": "10 TKJ AD",
+    "tingkat": "10",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0451",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0441",
+    "nama": "4AV",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0452",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0442",
+    "nama": "9BJ",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0453",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0443",
+    "nama": "11 IPS AS",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0454",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0444",
+    "nama": "11 TKJ AF",
+    "tingkat": "11",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0455",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0445",
+    "nama": "6AP",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0456",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0446",
+    "nama": "9BK",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0457",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0447",
+    "nama": "10 IPA AP",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0458",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0448",
+    "nama": "12 DKV AJ",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0459",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0449",
+    "nama": "5AO",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0460",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0450",
+    "nama": "9BL",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0461",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0451",
+    "nama": "12 IPS AQ",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0462",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0452",
+    "nama": "10 Pemasaran AF",
+    "tingkat": "10",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0463",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0453",
+    "nama": "4AW",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0464",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0454",
+    "nama": "9BM",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0465",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0455",
+    "nama": "10 IPS AU",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0466",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0456",
+    "nama": "10 Akuntansi AF",
+    "tingkat": "10",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0467",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0457",
+    "nama": "2AT",
+    "tingkat": "2",
+    "jurusan": "-",
+    "wali_kelas": "G0468",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0458",
+    "nama": "9BN",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0469",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0459",
+    "nama": "10 IPS AV",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0470",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0460",
+    "nama": "11 Akuntansi AF",
+    "tingkat": "11",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0471",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0461",
+    "nama": "1AW",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0472",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0462",
+    "nama": "7BH",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0473",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0463",
+    "nama": "10 IPA AQ",
+    "tingkat": "10",
+    "jurusan": "IPA",
+    "wali_kelas": "G0474",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0464",
+    "nama": "12 TKR AJ",
+    "tingkat": "12",
+    "jurusan": "TKR",
+    "wali_kelas": "G0475",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0465",
+    "nama": "1AX",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0476",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0466",
+    "nama": "7BI",
+    "tingkat": "7",
+    "jurusan": "-",
+    "wali_kelas": "G0477",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0467",
+    "nama": "11 IPS AT",
+    "tingkat": "11",
+    "jurusan": "IPS",
+    "wali_kelas": "G0478",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0468",
+    "nama": "12 Akuntansi AI",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0479",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0469",
+    "nama": "5AP",
+    "tingkat": "5",
+    "jurusan": "-",
+    "wali_kelas": "G0480",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0470",
+    "nama": "8BQ",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0481",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0471",
+    "nama": "12 IPA AQ",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0482",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0472",
+    "nama": "12 DKV AK",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0483",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0473",
+    "nama": "4AX",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0484",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0474",
+    "nama": "8BR",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0485",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0475",
+    "nama": "12 IPS AR",
+    "tingkat": "12",
+    "jurusan": "IPS",
+    "wali_kelas": "G0486",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0476",
+    "nama": "12 TKJ AG",
+    "tingkat": "12",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0487",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0477",
+    "nama": "6AQ",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0488",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0478",
+    "nama": "8BS",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0489",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0479",
+    "nama": "12 IPA AR",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0490",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0480",
+    "nama": "12 Akuntansi AJ",
+    "tingkat": "12",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0491",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0481",
+    "nama": "1AY",
+    "tingkat": "1",
+    "jurusan": "-",
+    "wali_kelas": "G0492",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0482",
+    "nama": "9BO",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0493",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0483",
+    "nama": "10 IPS AW",
+    "tingkat": "10",
+    "jurusan": "IPS",
+    "wali_kelas": "G0494",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0484",
+    "nama": "12 DKV AL",
+    "tingkat": "12",
+    "jurusan": "DKV",
+    "wali_kelas": "G0495",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0485",
+    "nama": "3AT",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0496",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0486",
+    "nama": "8BT",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0497",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0487",
+    "nama": "12 IPA AS",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0498",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0488",
+    "nama": "12 Pemasaran AF",
+    "tingkat": "12",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0499",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0489",
+    "nama": "3AU",
+    "tingkat": "3",
+    "jurusan": "-",
+    "wali_kelas": "G0500",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0490",
+    "nama": "9BP",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0012",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0491",
+    "nama": "11 IPA AZ",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0013",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0492",
+    "nama": "10 Pemasaran AG",
+    "tingkat": "10",
+    "jurusan": "Pemasaran",
+    "wali_kelas": "G0014",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0493",
+    "nama": "4AY",
+    "tingkat": "4",
+    "jurusan": "-",
+    "wali_kelas": "G0015",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0494",
+    "nama": "8BU",
+    "tingkat": "8",
+    "jurusan": "-",
+    "wali_kelas": "G0016",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0495",
+    "nama": "11 IPA BA",
+    "tingkat": "11",
+    "jurusan": "IPA",
+    "wali_kelas": "G0017",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0496",
+    "nama": "11 Akuntansi AG",
+    "tingkat": "11",
+    "jurusan": "Akuntansi",
+    "wali_kelas": "G0018",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  },
+  {
+    "id": "K0497",
+    "nama": "6AR",
+    "tingkat": "6",
+    "jurusan": "-",
+    "wali_kelas": "G0019",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SD"
+  },
+  {
+    "id": "K0498",
+    "nama": "9BQ",
+    "tingkat": "9",
+    "jurusan": "-",
+    "wali_kelas": "G0020",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMP"
+  },
+  {
+    "id": "K0499",
+    "nama": "12 IPA AT",
+    "tingkat": "12",
+    "jurusan": "IPA",
+    "wali_kelas": "G0021",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMA"
+  },
+  {
+    "id": "K0500",
+    "nama": "10 TKJ AE",
+    "tingkat": "10",
+    "jurusan": "TKJ",
+    "wali_kelas": "G0022",
+    "kapasitas": 32,
+    "tahun_ajaran": "2026/2027",
+    "jenjang": "SMK"
+  }
+]
