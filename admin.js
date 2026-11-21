@@ -226,9 +226,11 @@ function openModal(title, body, onSubmit, label = "Simpan") {
 }
 function closeModal() { document.getElementById("modal").classList.add("hidden"); }
 function fieldHTML(f, val) {
-  const req = f.req === false ? "" : "required";
+  // Field hanya wajib bila skema menyatakannya secara eksplisit. Sebelumnya
+  // semua field tanpa req:true ikut required sehingga banyak form CRUD tidak bisa disimpan.
+  const req = f.req === true ? "required" : "";
   const v = val ?? f.def ?? "";
-  const wrap = inner => '<label class="block ' + (f.full ? "sm:col-span-2" : "") + '">' + lbl(f.l + (f.req === false ? "" : " *")) + inner + "</label>";
+  const wrap = inner => '<label class="block ' + (f.full ? "sm:col-span-2" : "") + '">' + lbl(f.l + (f.req === true ? " *" : "")) + inner + "</label>";
   if (f.t === "select") return wrap('<select name="' + f.k + '" ' + inp + " " + req + '><option value="">— pilih —</option>' + (f.opts || []).map(o => { const [vv, ll] = Array.isArray(o) ? o : [o, o]; return '<option value="' + esc(vv) + '" ' + (String(v) === String(vv) ? "selected" : "") + ">" + esc(ll) + "</option>"; }).join("") + "</select>");
   if (f.t === "textarea") return wrap('<textarea name="' + f.k + '" rows="3" ' + inp + " " + req + ">" + esc(v) + "</textarea>");
   return wrap('<input type="' + (f.t || "text") + '" name="' + f.k + '" value="' + esc(v) + '" ' + inp + " " + req + (f.t === "number" ? ' step="any" min="0"' : "") + ' placeholder="' + esc(f.ph || "") + '">');
