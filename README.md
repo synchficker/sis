@@ -60,3 +60,17 @@ G. Pelaporan Dinas: Export CSV/JSON Dapodik, Peserta ANBK (kls 5/8/11), BKU BOS 
 - Konflik SHA (dua admin menulis bersamaan) otomatis di-retry 1× oleh pushJSON().
 - Setiap tulis = 2 commit (Update {file} + Update audit.json). Rate limit API 5.000 req/jam — aman.
 - Audit log dipangkas otomatis ke 500 entri terakhir. Kamera (scan QR) hanya aktif di HTTPS/localhost.
+
+## Catatan Optimasi Performa (Hero Slider & Beranda)
+- **Hero Slider**: hanya 2 slide yang dianimasikan (keluar + masuk); progres memakai `transform` (bukan `width`);
+  efek `grain` (mix-blend-mode) & `backdrop-blur` di atas hero dihapus; Ken Burns tidak lagi "melompat" saat slide keluar;
+  loop slide terakhir → pertama tidak lagi melintasi seluruh slide; gambar slide 2..n dimuat & di-decode saat idle;
+  loop animasi berhenti ketika hero tidak terlihat; klik mouse pada panah tidak lagi menghentikan autoplay.
+- **Data beranda** (±2 MB: siswa, guru, kegiatan, dst.) kini dimuat SETELAH hero tampil (idle / saat mulai menggulir);
+  galeri kegiatan dimuat saat bagian itu mendekati layar. Permintaan yang sama tidak lagi diunduh ganda.
+- **Render ganda dihapus**: statistik/program/fasilitas/berita/agenda hanya dirender oleh `app.js` (data/ui.json).
+- `data/slider.json`: 500 slide (495 Draft duplikat "#N") dipangkas menjadi 8 (5 tampil + 3 draft unik).
+- `data/ui.json`: `aurora` & `grain` dimatikan (lapisan layar-penuh). Bisa dinyalakan lagi dari Admin → Tampilan.
+- `app.js`: deteksi halaman memakai `window.__LS_PAGE__` sehingga `/admin/`, `/login/`, dst. tidak lagi dianggap beranda.
+- Saran lanjutan: ganti `cdn.tailwindcss.com` (JIT di browser, tidak untuk produksi) dengan CSS hasil build Tailwind CLI,
+  dan sematkan versi `lucide` (hindari `@latest`).
