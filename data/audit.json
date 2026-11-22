@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwrapamfnfgq4",
+    "waktu": "2026-11-22T03:46:47.943Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Belajar Aktif & Berkarya Berpikir Kritis"
+  },
+  {
     "id": "mwraoe3blwcn9",
     "waktu": "2026-11-22T03:46:05.783Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "IMPOR",
     "detail": "Buku Matematika Dasar Jilid 2"
-  },
-  {
-    "id": "AU0482",
-    "waktu": "2026-11-16T14:47:37.553Z",
-    "aktor": "admin",
-    "modul": "Konten Website",
-    "aksi": "URUTKAN",
-    "detail": "Tagihan SPP Maret"
   }
 ]
