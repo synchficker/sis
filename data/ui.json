@@ -2,9 +2,9 @@
   "versi": 1,
   "tema": {
     "preset": "zamrud",
-    "primary": "",
-    "accent": "",
-    "accent2": "",
+    "primary": "#16a34a",
+    "accent": "#fbbf24",
+    "accent2": "#0d9488",
     "success": "#16a34a",
     "warning": "#f59e0b",
     "danger": "#e11d48",
@@ -467,7 +467,7 @@
       }
     ],
     "copyright": "© 2026 {sekolah}. Sistem Informasi Sekolah statis (GitHub Pages).",
-    "catatan": "Slider & konten dikelola dari Panel Admin • data/*.json",
+    "catatan": "Powered by ☕",
     "gateAktif": true,
     "gateOpasitas": 20,
     "gatePosisi": "tengah",
