@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwrabdcjebjph",
+    "waktu": "2026-11-22T03:35:58.291Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE ANTARMUKA BERANDA",
+    "detail": "zamrud · 8 nav · 3 grup footer"
+  },
+  {
     "id": "mwr9xkv1apa8l",
     "waktu": "2026-11-22T03:25:14.845Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "TAMBAH",
     "detail": "Buku Pendidikan Pancasila"
-  },
-  {
-    "id": "AU0487",
-    "waktu": "2026-11-17T13:33:53.553Z",
-    "aktor": "admin",
-    "modul": "Keuangan",
-    "aksi": "IMPOR",
-    "detail": "Kelas 12 IPA AS"
   }
 ]
