@@ -359,6 +359,9 @@
     let ST = {}, KEGIATAN = [], kgFilter = "Semua", kgIdx = -1, kgIO = null, kgAutoIO = null;
     let kgShown = 0, kgAuto = false, kgBusy = false;
     const $ = id => document.getElementById(id);
+    /* FIXED: reduceMotion dulunya global di index.html, lalu ikut hilang saat slider dipindah ke slider.js (di sana hanya lokal).
+       Akibatnya kgCardHTML() melempar ReferenceError -> blok catch menampilkan "Dokumentasi kegiatan sedang disiapkan" & tak ada gambar. */
+    const reduceMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
     const img = (url, alt) => '<div class="card-img w-full h-full"><img src="' + esc(url || "") + '" alt="' + esc(alt) + '" loading="lazy" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>';
 
     const GAL_DEF = { aktif:true, judul:"Aktivitas & Kegiatan Sekolah", subjudul:"Dokumentasi kegiatan siswa sepanjang tahun ajaran. Klik kartu untuk melihat detail kegiatan.",
@@ -538,7 +541,7 @@
       const kgOpenNow=!$("kgModal").classList.contains("hidden"), tourOpen=!$("tourModal").classList.contains("hidden");
       if(kgOpenNow){ if(e.key==="Escape")kgClose(); if(e.key==="ArrowLeft")kgOpen(kgIdx-1); if(e.key==="ArrowRight")kgOpen(kgIdx+1); return; }
       if(tourOpen){ if(e.key==="Escape")$("tourClose").click(); return; }
-      if(!SL.list.length) return;
+      if(typeof SL==="undefined"||!SL.list||!SL.list.length) return; // FIXED: SL/slPrev/slNext/slToggle kini privat di slider.js; cegah ReferenceError di tiap tombol
       const r=$("slider").getBoundingClientRect();
       if(r.bottom<80||r.top>window.innerHeight-80) return;
       if(e.key==="ArrowLeft"){slPrev(true);e.preventDefault();}
