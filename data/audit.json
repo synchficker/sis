@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwrao34elp2b7",
+    "waktu": "2026-11-22T03:45:51.566Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Penerimaan Peserta Didik Baru Telah Dibuka"
+  },
+  {
     "id": "mwranj1r2hvrr",
     "waktu": "2026-11-22T03:45:25.552Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "LMS/CBT",
     "aksi": "PUBLIKASI",
     "detail": "Tagihan SPP Agustus"
-  },
-  {
-    "id": "AU0484",
-    "waktu": "2026-11-19T17:23:50.553Z",
-    "aktor": "bendahara",
-    "modul": "Keuangan",
-    "aksi": "SCAN QR",
-    "detail": "Buku Ceros & Batozar Jilid 5"
   }
 ]
