@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwr9xcp25nfpt",
+    "waktu": "2026-11-22T03:25:04.262Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Kurikulum Merdeka Projek Nyata"
+  },
+  {
     "id": "mwr9x2bnahk86",
     "waktu": "2026-11-22T03:24:50.819Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Perpustakaan",
     "aksi": "URUTKAN",
     "detail": "Tagihan SPP Februari"
-  },
-  {
-    "id": "AU0489",
-    "waktu": "2026-11-19T20:18:09.553Z",
-    "aktor": "bendahara",
-    "modul": "Komunikasi",
-    "aksi": "URUTKAN",
-    "detail": "Buku Geografi Regional"
   }
 ]
