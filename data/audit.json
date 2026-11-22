@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwrkux1o62ix4",
+    "waktu": "2026-11-22T08:31:06.444Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE ANTARMUKA BERANDA",
+    "detail": "zamrud · 8 nav · 3 grup footer"
+  },
+  {
     "id": "mwrkraqxc4n50",
     "waktu": "2026-11-22T08:28:17.577Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Keuangan",
     "aksi": "IMPOR",
     "detail": "Kelas 12 IPA AS"
-  },
-  {
-    "id": "AU0488",
-    "waktu": "2026-11-19T13:02:01.553Z",
-    "aktor": "admin",
-    "modul": "Perpustakaan",
-    "aksi": "URUTKAN",
-    "detail": "Tagihan SPP Februari"
   }
 ]
