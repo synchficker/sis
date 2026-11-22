@@ -49,7 +49,7 @@
       "cta1_label": "Register Now",
       "cta1_href": "portal.html",
       "cta2_label": "Program Jenjang",
-      "cta2_href": "tuition.html",
+      "cta2_href": "#program",
       "meta": [
         "SD/SMP/SMA/SMK",
         "Kurikulum Merdeka",
