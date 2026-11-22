@@ -344,23 +344,23 @@
     "brandLogo": true,
     "sosial": [
       {
-        "ikon": "letter-f",
-        "href": "Facebook",
+        "ikon": "Facebook",
+        "href": "letter-f",
         "aktif": true
       },
       {
-        "ikon": "x",
-        "href": "X-Twitter",
+        "ikon": "X-Twitter",
+        "href": "x",
         "aktif": true
       },
       {
-        "ikon": "camera",
-        "href": "Instagram",
+        "ikon": "Instagram",
+        "href": "camera",
         "aktif": true
       },
       {
-        "ikon": "circle-fading-play",
-        "href": "Youtube",
+        "ikon": "Youtube",
+        "href": "circle-fading-play",
         "aktif": true
       }
     ],
