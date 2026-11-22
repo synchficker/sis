@@ -73,7 +73,7 @@
       "cta1_label": "Mulai Belajar",
       "cta1_href": "tuition.html",
       "cta2_label": "Virtual Tour",
-      "cta2_href": "tuition.html",
+      "cta2_href": "#tour",
       "meta": [
         "SD/SMP/SMA/SMK",
         "Kurikulum Merdeka",
