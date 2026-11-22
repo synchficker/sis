@@ -30,9 +30,15 @@
       ekskul: ["Pramuka", "Futsal", "Mini Soccer", "Badminton", "Basket", "Math Club", "Science Club", "Menjahit", "Bimbel Kelas 6", "Teater", "Paduan Suara", "Iqro / BTQ"],
       afternoon: ["Gitar", "Keyboard", "Tari Tradisional", "Tari Modern", "Paduan Suara", "Karate", "Pencak Silat", "Renang", "Robotik", "Panahan", "Seni & Kriya", "Menggambar", "Melukis", "Junior Chef", "English Club"],
       gallery: [
-        ["Workshop Display Kelas SD", "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=700&q=60"],
-        ["Upacara Hari Besar Nasional", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=700&q=60"],
-        ["Pramuka & Outbound", "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=700&q=60"]
+        ["Workshop Display Kelas SD", "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=60", "Akademik", "Siswa menata dan mempresentasikan karya kelas dalam workshop display."],
+        ["Upacara Hari Besar Nasional", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=60", "Karakter", "Upacara dan peringatan hari besar menumbuhkan cinta tanah air sejak dini."],
+        ["Pramuka & Outbound", "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=60", "Kepramukaan", "Kegiatan alam terbuka melatih kemandirian, kerja sama, dan keberanian."],
+        ["Pekan Literasi & Mendongeng", "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=60", "Literasi", "Membaca, mendongeng, dan berbagi cerita untuk menumbuhkan minat baca."],
+        ["Praktik Sains Sederhana", "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=60", "Sains", "Eksperimen sederhana yang membuat siswa belajar sambil mengamati dan mencoba."],
+        ["Kelas Seni & Kreasi", "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=800&q=60", "Seni", "Menggambar, melukis, dan berkreasi untuk mengasah imajinasi siswa."],
+        ["Fun Sport Day", "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=60", "Olahraga", "Perlombaan olahraga yang menyenangkan dan menanamkan sportivitas."],
+        ["Market Day Wirausaha Cilik", "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=60", "Kewirausahaan", "Siswa belajar berjualan, menghitung, dan berkomunikasi lewat pasar mini."],
+        ["Pentas Seni Akhir Semester", "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=60", "Seni", "Panggung apresiasi bagi bakat siswa dalam tari, musik, dan teater."]
       ]
     },
     SMP: {
@@ -54,9 +60,15 @@
       ekskul: ["Futsal", "Badminton", "Band", "Science Club", "Catur", "Basket", "Tenis Meja", "Paskibra", "BTQ", "Pramuka", "PMR"],
       afternoon: ["Gitar", "Karate", "Pencak Silat", "Science Club", "Digital Music", "Sinematografi", "Panahan", "Desain Seni", "Robotik", "Coding", "Animasi 2D", "E-Sport"],
       gallery: [
-        ["Manasik Haji SMP", "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=60"],
-        ["Edutrip SMP", "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=60"],
-        ["Praktikum IPA di Laboratorium", "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=60"]
+        ["Manasik Haji SMP", "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=60", "Keagamaan", "Simulasi manasik haji sebagai pembelajaran praktik ibadah."],
+        ["Edutrip SMP", "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=60", "Edutrip", "Kunjungan edukatif ke tempat belajar di luar kelas."],
+        ["Praktikum IPA di Laboratorium", "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=60", "Sains", "Praktik langsung di laboratorium untuk memahami konsep IPA."],
+        ["Lomba Sains & Olimpiade", "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=60", "Akademik", "Pembinaan dan kompetisi sains untuk siswa berprestasi."],
+        ["Latihan Pramuka & Kepemimpinan", "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=60", "Kepramukaan", "Latihan kepemimpinan dan kerja sama tim di alam terbuka."],
+        ["Class Meeting Antar Kelas", "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=60", "Olahraga", "Pertandingan persahabatan antar kelas yang penuh semangat."],
+        ["Pentas Seni & Budaya", "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=800&q=60", "Seni", "Pertunjukan seni dan budaya hasil kreativitas siswa."],
+        ["Workshop Coding Dasar", "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=60", "Teknologi", "Mengenal logika pemrograman lewat praktik langsung."],
+        ["Bakti Sosial & Kunjungan Sosial", "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=60", "Sosial", "Berbagi dan peduli sesama melalui kegiatan sosial sekolah."]
       ]
     },
     SMA: {
@@ -78,9 +90,15 @@
       ekskul: ["Futsal", "Band", "Tenis Meja", "Badminton", "Paskibra", "Science Club", "BTQ", "PMR", "Tari", "Pramuka"],
       afternoon: ["Karate", "Pencak Silat", "Panahan", "Digital Music", "Sinematografi", "Basket Putra & Putri"],
       gallery: [
-        ["Manasik Haji SMA", "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=60"],
-        ["Edutrip & Studi Banding", "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=700&q=60"],
-        ["Presentasi Projek Profil Pelajar", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=60"]
+        ["Manasik Haji SMA", "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=60", "Keagamaan", "Pembelajaran praktik ibadah haji bagi siswa SMA."],
+        ["Edutrip & Studi Banding", "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=60", "Edutrip", "Studi banding ke institusi pendidikan dan industri."],
+        ["Presentasi Projek Profil Pelajar", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=60", "Akademik", "Siswa mempresentasikan hasil projek penguatan profil pelajar."],
+        ["Seminar Karier & Kampus", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=60", "Akademik", "Pengenalan jurusan, kampus, dan jalur masuk perguruan tinggi."],
+        ["Turnamen Futsal Antar Kelas", "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=60", "Olahraga", "Kompetisi futsal yang mempererat solidaritas antar angkatan."],
+        ["Riset & Karya Ilmiah Remaja", "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=60", "Sains", "Pembimbingan riset dan penulisan karya ilmiah siswa."],
+        ["Entrepreneur Day", "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=60", "Kewirausahaan", "Siswa merancang produk dan memasarkannya dalam bazar wirausaha."],
+        ["Pentas Seni & Festival Band", "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=60", "Seni", "Panggung musik dan seni yang menampilkan bakat siswa."],
+        ["Pelantikan Pengurus OSIS", "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=60", "Organisasi", "Pelantikan pengurus OSIS dan pembinaan kepemimpinan siswa."]
       ]
     },
     SMK: {
@@ -103,9 +121,15 @@
       ekskul: ["Futsal", "Basket", "Band", "Robotik", "Coding", "E-Sport", "Paskibra", "PMR", "Pramuka", "Science Club"],
       afternoon: ["Coding", "Robotik", "Desain Grafis", "Sinematografi", "Animasi 2D", "Digital Music", "Karate", "Pencak Silat", "Panahan", "E-Sport"],
       gallery: [
-        ["Praktik di Teaching Factory", "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=700&q=60"],
-        ["PKL di Industri", "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=60"],
-        ["Uji Kompetensi Keahlian", "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=700&q=60"]
+        ["Praktik di Teaching Factory", "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=60", "Praktik", "Siswa mengerjakan produk dan jasa nyata dalam lingkungan industri sekolah."],
+        ["PKL di Industri", "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=60", "Industri", "Praktik kerja lapangan membangun etos dan kompetensi kerja."],
+        ["Uji Kompetensi Keahlian", "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=60", "Sertifikasi", "Asesmen kompetensi bersertifikat untuk kesiapan kerja."],
+        ["Kunjungan Industri", "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=60", "Industri", "Mengenal proses produksi dan budaya kerja di dunia usaha."],
+        ["Workshop Coding & Jaringan", "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=60", "Teknologi", "Pelatihan pemrograman dan jaringan bersama praktisi."],
+        ["Job Fair & Rekrutmen Alumni", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=60", "Karier", "Pertemuan siswa dan alumni dengan mitra industri."],
+        ["Pameran Karya Siswa", "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=60", "Pameran", "Produk dan karya kompetensi keahlian dipamerkan kepada publik."],
+        ["Lomba Kompetensi Siswa", "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=60", "Kompetisi", "Pembinaan dan kompetisi keahlian tingkat sekolah hingga daerah."],
+        ["Pelatihan Kewirausahaan", "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=60", "Kewirausahaan", "Membekali siswa merintis usaha dari ide hingga pemasaran."]
       ]
     }
   };
@@ -113,6 +137,34 @@
   const L = LEVELS[LEVEL] || LEVELS.SD;
   const img = (url, alt) => '<div class="w-full h-full" style="background:linear-gradient(135deg,#16a34a,#0d9488)"><img src="' + url + '" alt="' + esc(alt) + '" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>';
   const chips = arr => arr.map(x => '<span class="px-3 py-1.5 rounded-full text-sm font-semibold ' + L.chip + '">' + esc(x) + "</span>").join("");
+  // ----- Galeri Bento: pola & gaya identik dengan galeri beranda (4 kolom, 9 kartu: 2x2, 1, 1, 2, 1, 1, 2, 2, 2) -----
+  const GAL_SPAN = ["col-span-2 row-span-2", "", "", "col-span-2", "", "", "col-span-2", "col-span-2", "col-span-2"];
+  const galCard = (g, i) => {
+    const big = i % 9 === 0;
+    return '<button type="button" data-gal="' + i + '" data-d="' + (i % 9) + '" class="pbento group ring-1 ring-brand-900/10 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-400 ' + GAL_SPAN[i % 9] + '">' +
+      '<div class="absolute inset-0" style="background:linear-gradient(135deg,#16a34a,#0d9488)"><img src="' + esc(g[1]) + '" alt="' + esc(g[0]) + '" loading="lazy" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>' +
+      '<div class="absolute inset-0" style="background:linear-gradient(to top, rgba(2,6,23,.78), rgba(2,6,23,.33) 55%, rgba(2,6,23,.06))"></div>' +
+      '<div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-full bg-white/90 text-brand-800 text-[10px] font-bold uppercase tracking-wide">' + esc(g[2] || "Kegiatan") + '</span></div>' +
+      '<span class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/15 border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i></span>' +
+      '<div class="absolute inset-x-0 bottom-0 p-3.5 ' + (big ? "md:p-6" : "") + ' text-white">' +
+        '<h3 class="font-display font-bold leading-snug ' + (big ? "text-lg md:text-2xl" : "text-sm md:text-base line-clamp-2") + '">' + esc(g[0]) + '</h3>' +
+        '<p class="pexcerpt text-[11px] md:text-xs text-white/80 mt-1.5 overflow-hidden ' + (big ? "line-clamp-3" : "line-clamp-2") + '">' + esc(g[3] || "") + '</p>' +
+        (big ? '<span class="inline-flex items-center gap-1 text-xs font-bold text-amber-300 mt-2">Lihat detail <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span>' : "") +
+      '</div></button>';
+  };
+  if (!document.getElementById("progGalCss")) {
+    const st = document.createElement("style"); st.id = "progGalCss";
+    st.textContent = '#progGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;grid-auto-rows:150px;grid-auto-flow:dense}' +
+      '@media (min-width:1024px){#progGrid{grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:190px}}' +
+      '.pbento{position:relative;overflow:hidden;text-align:left;border-radius:24px;opacity:0;transform:translateY(20px) scale(.985);transition:opacity .6s cubic-bezier(.2,.7,.3,1),transform .6s cubic-bezier(.2,.7,.3,1),box-shadow .35s}' +
+      '.pbento.in{opacity:1;transform:none}' +
+      '.pbento img{transition:transform .9s cubic-bezier(.2,.7,.3,1)}.pbento:hover img{transform:scale(1.09)}' +
+      '.pbento:hover{box-shadow:0 24px 50px -18px rgba(22,101,52,.55)}' +
+      '.pbento .pexcerpt{max-height:0;opacity:0;transition:max-height .45s ease,opacity .35s ease}' +
+      '.pbento:hover .pexcerpt,.pbento:focus-visible .pexcerpt{max-height:6rem;opacity:1}' +
+      '@media (prefers-reduced-motion:reduce){.pbento{opacity:1;transform:none;transition:none}}';
+    document.head.appendChild(st);
+  }
   const navlink = (h, t) => '<a href="' + h + '" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">' + t + "</a>";
 
   (async () => {
@@ -148,9 +200,26 @@
       if (ppdb.length) news.push(["Open Admission PPDB Dibuka", "Penerimaan Peserta Didik Baru resmi dibuka. Daftarkan putra-putri Anda melalui PPDB Online.", "ppdb.html", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=60"]);
       materi.slice(0, 2).forEach(m => news.push([m.judul, m.deskripsi || "Materi pembelajaran terbaru.", "belajar.html", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=60"]));
 
+      // FIXED: dulu #progHero memakai pt-[72px] yang dibuat program.js SETELAH app.js membersihkan kelas itu saat boot, padahal <body> sudah
+      // memberi padding-top setinggi header -> terbentuk celah kosong ±72px antara menu navigasi dan Hero Slider saat render pertama.
+      // Celah dihapus; sebagai gantinya dipasang breadcrumb ramping (Beranda / Program / jenjang) di antara header dan slider.
+      const CRUMB_H = 44;
+      if (!document.getElementById("progCrumbCss")) {
+        const st = document.createElement("style"); st.id = "progCrumbCss";
+        // slider mode "penuh" dikurangi tinggi header + breadcrumb agar semuanya pas satu layar
+        st.textContent = '#progHero{--sl-off:' + (72 + CRUMB_H + 1) + 'px}';   // dipakai slider.js: calc(100vh - var(--sl-off,72px))
+        document.head.appendChild(st);
+      }
+      const crumb = '<nav id="progCrumb" aria-label="Breadcrumb" class="bg-white border-b border-slate-100"><ol class="max-w-7xl mx-auto px-4 flex items-center gap-1.5 text-xs font-semibold text-slate-500 whitespace-nowrap overflow-x-auto" style="height:' + CRUMB_H + 'px">' +
+        '<li class="flex items-center gap-1.5"><a href="index.html" class="inline-flex items-center gap-1 hover:text-brand-700"><i data-lucide="house" class="w-3.5 h-3.5"></i>Beranda</a></li>' +
+        '<li class="flex items-center gap-1.5" aria-hidden="true"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-300"></i></li>' +
+        '<li class="flex items-center gap-1.5"><a href="index.html#program" class="hover:text-brand-700">Program</a></li>' +
+        '<li class="flex items-center gap-1.5" aria-hidden="true"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-300"></i></li>' +
+        '<li class="flex items-center gap-1.5"><span aria-current="page" class="font-bold ' + L.text + '">' + esc(L.full) + ' (' + esc(LEVEL) + ')</span></li></ol></nav>';
+
       // Hero statis lama — hanya dipakai bila tidak ada slide aktif untuk jenjang ini (atur di Admin → Hero Slider)
       const heroStatic = `
-      <section class="relative overflow-hidden bg-gradient-to-br ${L.grad} text-white pt-[72px]">
+      <section class="relative overflow-hidden bg-gradient-to-br ${L.grad} text-white">
         <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20 grid lg:grid-cols-2 gap-10 items-center">
           <div>
             <nav class="text-xs text-white/70 font-semibold mb-3"><a href="index.html" class="hover:underline">Beranda</a> <span class="mx-1">/</span> <a href="index.html#program" class="hover:underline">Program</a> <span class="mx-1">/</span> <span class="text-white">${esc(LEVEL)}</span></nav>
@@ -175,7 +244,7 @@
       root().innerHTML = `
       <!-- Header & footer situs dipasang oleh app.js (LiveSite) agar sama persis dengan beranda -->
 
-      ${slPrep ? '<section id="progHero" class="pt-[72px]"><div id="slHost"></div></section>' : heroStatic}
+      ${slPrep ? crumb + '<section id="progHero"><div id="slHost"></div></section>' : heroStatic}
 
       <section id="konten" class="max-w-7xl mx-auto px-4 -mt-8 relative z-10">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -241,11 +310,17 @@
         </div>
       </section>
 
-      <section class="max-w-7xl mx-auto px-4 py-14">
-        <h2 class="font-display font-extrabold text-3xl text-slate-800 text-center">Galeri</h2>
-        <p class="text-slate-500 text-center mt-2">Aktivitas, dokumentasi, dan kegiatan para siswa ${esc(LEVEL)}.</p>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-          ${L.gallery.map(g => '<button data-gal="' + esc(g[1]) + '" class="text-left rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition group"><div class="h-48">' + img(g[1], g[0]) + '</div><div class="p-4 flex items-center justify-between"><b class="text-sm text-slate-700">' + esc(g[0]) + '</b><span class="text-xs font-bold ' + L.text + ' inline-flex items-center gap-1">View More <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span></div></button>').join("")}
+      <section id="progGaleri" class="relative bg-gradient-to-b from-brand-50/70 via-white to-brand-50/40 border-y border-brand-100">
+        <div class="max-w-7xl mx-auto px-4 py-14">
+          <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+            <div class="min-w-0">
+              <span class="text-xs font-bold uppercase tracking-wider ${L.text}">School Activities</span>
+              <h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-800 mt-2">Galeri ${esc(LEVEL)}</h2>
+              <p class="text-slate-500 mt-2 max-w-2xl">Aktivitas, dokumentasi, dan kegiatan para siswa ${esc(LEVEL)}. Klik kartu untuk melihat foto lebih besar.</p>
+            </div>
+            <span class="px-3 py-1.5 rounded-full bg-brand-600 text-white font-bold text-sm whitespace-nowrap">${L.gallery.length} foto</span>
+          </div>
+          <div id="progGrid">${L.gallery.map(galCard).join("")}</div>
         </div>
       </section>
 
@@ -262,13 +337,46 @@
 
 
 
-      <div id="galModal" class="hidden fixed inset-0 z-[60] bg-slate-900/80 flex items-center justify-center p-4">
-        <div class="max-w-3xl w-full"><div class="flex justify-end mb-2"><button id="galClose" class="text-white p-2 rounded-lg hover:bg-white/10"><i data-lucide="x" class="w-6 h-6"></i></button></div><img id="galImg" class="w-full rounded-2xl shadow-2xl" alt="Galeri"></div>
+      <div id="galModal" class="hidden fixed inset-0 z-[60] bg-slate-900/85 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Foto galeri">
+        <div class="max-w-3xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl relative">
+          <button id="galClose" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-black/40 text-white flex items-center justify-center hover:bg-black/60" aria-label="Tutup"><i data-lucide="x" class="w-5 h-5"></i></button>
+          <div class="aspect-[16/10] bg-slate-100"><img id="galImg" class="w-full h-full object-cover" alt=""></div>
+          <div class="p-5">
+            <span id="galKat" class="inline-block px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wide ${L.chip}"></span>
+            <h3 id="galJudul" class="font-display font-bold text-xl text-slate-800 mt-2"></h3>
+            <p id="galDesk" class="text-slate-600 text-sm mt-1.5 leading-relaxed"></p>
+            <div class="mt-4 flex items-center justify-between gap-3 border-t border-slate-100 pt-4">
+              <button id="galPrev" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50"><i data-lucide="arrow-left" class="w-4 h-4"></i>Sebelumnya</button>
+              <span id="galPos" class="text-xs text-slate-400 font-semibold"></span>
+              <button id="galNext" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl text-white ${L.btn}">Berikutnya<i data-lucide="arrow-right" class="w-4 h-4"></i></button>
+            </div>
+          </div>
+        </div>
       </div>`;
 
-      document.querySelectorAll("[data-gal]").forEach(b => b.onclick = () => { $("galImg").src = b.dataset.gal; $("galModal").classList.remove("hidden"); });
-      $("galClose").onclick = () => $("galModal").classList.add("hidden");
-      $("galModal").onclick = e => { if (e.target === $("galModal")) $("galModal").classList.add("hidden"); };
+      // ===== Galeri Bento (9 foto, 4 kolom — sama dengan galeri beranda) + lightbox =====
+      const galList = L.gallery; let galI = -1;
+      const galOpen = i => {
+        galI = (i + galList.length) % galList.length; const g = galList[galI];
+        $("galImg").src = g[1]; $("galImg").alt = g[0];
+        $("galKat").textContent = g[2] || "Kegiatan"; $("galJudul").textContent = g[0]; $("galDesk").textContent = g[3] || "";
+        $("galPos").textContent = (galI + 1) + " / " + galList.length;
+        $("galModal").classList.remove("hidden"); document.body.style.overflow = "hidden"; refreshIcons();
+      };
+      const galClose = () => { $("galModal").classList.add("hidden"); document.body.style.overflow = ""; galI = -1; };
+      document.querySelectorAll("#progGrid [data-gal]").forEach(b => b.onclick = () => galOpen(Number(b.dataset.gal)));
+      $("galClose").onclick = galClose;
+      $("galPrev").onclick = () => galOpen(galI - 1);
+      $("galNext").onclick = () => galOpen(galI + 1);
+      $("galModal").onclick = e => { if (e.target === $("galModal")) galClose(); };
+      document.addEventListener("keydown", e => { if (galI < 0) return; if (e.key === "Escape") galClose(); if (e.key === "ArrowLeft") galOpen(galI - 1); if (e.key === "ArrowRight") galOpen(galI + 1); });
+      // animasi muncul bertahap saat kartu masuk layar (menghormati "kurangi animasi")
+      (() => {
+        const cards = document.querySelectorAll("#progGrid .pbento"), rm = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+        if (rm || !("IntersectionObserver" in window)) { cards.forEach(c => c.classList.add("in")); return; }
+        const io = new IntersectionObserver(en => en.forEach(x => { if (x.isIntersecting) { setTimeout(() => x.target.classList.add("in"), Number(x.target.dataset.d || 0) * 55); io.unobserve(x.target); } }), { threshold: .08, rootMargin: "0px 0px -30px 0px" });
+        cards.forEach(c => io.observe(c));
+      })();
       document.title = "Program " + LEVEL + " — " + nama;
       if (slPrep) LSSlider.mount($("slHost"), slPrep, { down: "#konten" });
       refreshIcons();

@@ -83,6 +83,9 @@ async function fetchViaAPI(file){
     return { d: JSON.parse(b64dec(j.content)), sha: j.sha };
   }catch(e){ return null; }
 }
+// FIXED: pengaturan identitas sekolah & tampilan (settings/ui) memakai cache sesi singkat (1 menit, bukan 10 menit)
+// dan cache-buster per menit, agar perubahan dari Panel Admin cepat terlihat di halaman publik.
+const SHORT_TTL = /^(settings|ui)\.json$/;
 const _INFLIGHT = {};
 const _idle = (fn) => (window.requestIdleCallback ? requestIdleCallback(fn, { timeout: 3000 }) : setTimeout(fn, 200));
 function fetchJSON(file, force=false){
@@ -95,10 +98,10 @@ function fetchJSON(file, force=false){
 }
 async function _fetchJSON(file, force=false){
   const k="sicache:"+file;
-  if(!force){ try{ const c=JSON.parse(sessionStorage.getItem(k)); if(c&&Date.now()-c.t<600000){ if(c.s) SHA_MEM[file]=c.s; else delete SHA_MEM[file]; return c.d; } }catch(e){} }
+  if(!force){ try{ const c=JSON.parse(sessionStorage.getItem(k)); if(c&&Date.now()-c.t<(SHORT_TTL.test(file)?60000:600000)){ if(c.s) SHA_MEM[file]=c.s; else delete SHA_MEM[file]; return c.d; } }catch(e){} }
   let d=null, sha=null;
   // PERF: ?t= per 5 menit (bukan per milidetik) -> cache HTTP browser bisa dipakai, tetap cukup segar
-  const bust = force ? Date.now() : Math.floor(Date.now()/300000);
+  const bust = force ? Date.now() : Math.floor(Date.now()/(SHORT_TTL.test(file)?60000:300000));
   const api = await fetchViaAPI(file);          // FIXED: sumber otoritatif untuk admin (+ SHA)
   if(api){ d=api.d; sha=api.sha; }
   if(d===null){ try{ const r=await fetch("data/"+file+"?t="+bust); if(r.ok) d=await r.json(); }catch(e){} }
@@ -312,6 +315,9 @@ pre,code{overflow-wrap:anywhere;word-break:break-word}
 #lsHeader .ls-link{position:relative}
 #lsHeader .ls-link::after{content:"";position:absolute;left:12px;right:12px;bottom:4px;height:2px;border-radius:99px;background:linear-gradient(90deg,var(--p),var(--a2));transform:scaleX(0);transform-origin:left;transition:transform .28s cubic-bezier(.2,.7,.3,1);opacity:${h.navGaya==="garis"?1:0}}
 #lsHeader .ls-link:hover::after,#lsHeader .ls-link[aria-current="page"]::after,#lsHeader .ls-link.ls-on::after{transform:scaleX(1)}
+#lsHeader .ls-link.ls-btn,#lsHeader .ls-link.ls-btn[aria-current="page"],#lsHeader .ls-link.ls-btn.ls-on{background:var(--p);color:${lum(t.primary)};white-space:nowrap}
+#lsHeader .ls-link.ls-btn:hover,#lsHeader .ls-link.ls-btn:focus-visible{background:var(--pd);color:${lum(t.primary)}}
+#lsHeader .ls-link.ls-btn::after{display:none}
 #lsHeader .ls-link[aria-current="page"],#lsHeader .ls-link.ls-on{color:var(--pd);background:${h.navGaya==="pil"?"var(--p050)":"transparent"}}
 #lsMenu{display:grid;grid-template-rows:${h.menuAnimasi&&!reduce?"0fr":"1fr"};transition:grid-template-rows .34s cubic-bezier(.2,.7,.3,1)}
 #lsMenu.ls-open{grid-template-rows:1fr}#lsMenu>div{overflow:hidden}
@@ -368,6 +374,8 @@ const resolve = (href, ctx) => {
   if (h.startsWith("#")) return HOME ? h : (window.siteUrl ? siteUrl("index", h) : "./" + h);
   return window.cleanUrl ? cleanUrl(h) : h;
 };
+// Menu "Tuition" tampil sebagai tombol hijau (gaya sama dengan tombol CTA "Daftar Sekarang": px-4 py-2.5 rounded-xl font-bold shadow-sm)
+const isTuition = h => /(^|\/)tuition(\.html)?\/?(#.*)?$/i.test(String(h || ""));
 const navActive = h => h === "tuition.html" ? PAGE === "tuition.html" : h === "kalender.html" ? PAGE === "kalender.html" : h === "#program" ? /^(sd|smp|sma|smk)\.html$/.test(PAGE) : false;
 
 function headerHTML(){
@@ -376,8 +384,8 @@ function headerHTML(){
   const logo=h.logoGambar
     ? '<img src="'+esc(h.logoGambar)+'" alt="" style="width:'+h.logoUkuran+'px;height:'+h.logoUkuran+'px;object-fit:cover;border-radius:'+(h.logoBentuk==="bulat"?"99px":h.logoBentuk==="bebas"?"0":"12px")+'">'
     : '<div style="width:'+h.logoUkuran+'px;height:'+h.logoUkuran+'px;border-radius:'+(h.logoBentuk==="bulat"?"99px":h.logoBentuk==="bebas"?"0":"12px")+';background:linear-gradient(140deg,var(--p),var(--a2));color:'+lum(t.primary)+'" class="flex items-center justify-center shrink-0 shadow-lg"><i data-lucide="'+esc(h.logoIkon)+'" style="width:'+(h.logoUkuran*.5)+'px;height:'+(h.logoUkuran*.5)+'px"></i></div>';
-  const links=h.nav.filter(n=>n.aktif!==false).map(n=>'<a href="'+esc(resolve(n.href))+'" data-ls-nav="'+esc(n.href)+'"'+(navActive(n.href)?' aria-current="page"':"")+' class="ls-link px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700 transition">'+esc(n.label)+"</a>").join("");
-  const mob=h.nav.filter(n=>n.aktif!==false).map(n=>'<a href="'+esc(resolve(n.href))+'" class="ls-link block px-3 py-2.5 rounded-lg hover:bg-brand-50">'+esc(n.label)+"</a>").join("");
+  const links=h.nav.filter(n=>n.aktif!==false).map(n=>'<a href="'+esc(resolve(n.href))+'" data-ls-nav="'+esc(n.href)+'"'+(navActive(n.href)?' aria-current="page"':"")+(isTuition(n.href)?' class="ls-link ls-btn px-4 py-2.5 rounded-xl font-bold shadow-sm transition mx-1">':' class="ls-link px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700 transition">')+esc(n.label)+"</a>").join("");
+  const mob=h.nav.filter(n=>n.aktif!==false).map(n=>'<a href="'+esc(resolve(n.href))+'" class="'+(isTuition(n.href)?'ls-link ls-btn block text-center px-3 py-2.5 rounded-xl font-bold shadow-sm':'ls-link block px-3 py-2.5 rounded-lg hover:bg-brand-50')+'">'+esc(n.label)+"</a>").join("");
   const top=h.topbarAktif?'<div style="height:'+h.topbarTinggi+'px;background:'+(h.topbarWarna==="amber"?"var(--a)":h.topbarWarna==="gelap"?"var(--ink)":"var(--p)")+';color:'+(h.topbarWarna==="amber"?lum(t.accent):h.topbarWarna==="gelap"?"#fff":lum(t.primary))+'" class="flex items-center"><div class="max-w-7xl mx-auto px-4 w-full flex items-center gap-3 text-[11.5px] font-semibold"><i data-lucide="megaphone" class="w-3.5 h-3.5 shrink-0"></i><span class="truncate flex-1">'+esc(h.topbarTeks)+'</span>'+(h.topbarLabel?'<a href="'+esc(resolve(h.topbarHref))+'" class="shrink-0 underline underline-offset-2 font-bold">'+esc(h.topbarLabel)+"</a>":"")+"</div></div>":"";
   const cta2=h.cta2Aktif?'<a href="'+esc(resolve(h.cta2Href))+'" class="text-sm font-bold px-3 py-2 rounded-lg text-brand-700 hover:bg-brand-50 transition">'+esc(h.cta2Label)+"</a>":"";
   const cta=h.ctaAktif?'<a href="'+esc(resolve(h.ctaHref))+'" class="text-sm font-bold px-4 py-2.5 rounded-xl shadow-sm inline-flex items-center gap-1.5 transition" style="background:'+(h.ctaWarna==="amber"?"var(--a)":h.ctaWarna==="gelap"?"var(--ink)":"var(--p)")+';color:'+(h.ctaWarna==="amber"?lum(t.accent):h.ctaWarna==="gelap"?"#fff":lum(t.primary))+'"><i data-lucide="'+esc(h.ctaIkon)+'" class="w-4 h-4"></i>'+esc(h.ctaLabel)+"</a>":"";
@@ -668,8 +676,11 @@ function scheduleHomeData(){
 }
 let hydrateP = null;
 function hydrate(){ return hydrateP || (hydrateP = hydrateNow()); }
-async function hydrateNow(){
-  try{ ST=await fetchJSON("settings.json"); }catch(e){ ST={}; }
+// FIXED: identitas sekolah (Nama, NPSN, alamat, telepon) di header/footer dulu hanya diisi SEKALI oleh hydrateNow().
+// Setelah itu render() membuang header/footer lama dan memasang yang baru berisi teks bawaan ("Nama Sekolah", "NPSN —"),
+// sehingga perubahan di Panel Admin → Pengaturan tak pernah terlihat di beranda, SD/SMP/SMA/SMK, PPDB, dll.
+// Kini diisi ulang setiap render() selama data settings sudah dimuat.
+function fillIdentity(){
   const nama=CFG.header.namaOverride||ST.nama_sekolah||"Nama Sekolah";
   const set=(id,v)=>{ const e=document.getElementById(id); if(e) e.textContent=v; };
   ["navNama","footNama","footCopy","ppdbSchool","bSchool","pSchool"].forEach(id=>set(id,nama));
@@ -677,6 +688,11 @@ async function hydrateNow(){
   set("footAlamat",ST.alamat||""); set("footTelp",ST.telepon||"");
   const fw=document.getElementById("footWa"); if(fw) fw.href=resolve("wa");
   const fm=document.getElementById("footMail"); if(fm) fm.href=resolve("mail");
+}
+async function hydrateNow(){
+  try{ ST=await fetchJSON("settings.json"); }catch(e){ ST={}; }
+  fillIdentity();
+  const nama=CFG.header.namaOverride||ST.nama_sekolah||"Nama Sekolah";
   if(HOME){
     const cn=document.getElementById("kontakNama"); if(cn) cn.textContent=nama;
     const ca=document.getElementById("kontakAlamat"); if(ca){ const s=ca.querySelector("span"); if(s) s.textContent=ST.alamat||"—"; }
@@ -710,7 +726,7 @@ function render(){
     document.body.insertAdjacentHTML("afterbegin",headerHTML());
     document.body.insertAdjacentHTML("beforeend",footerHTML());
   }
-  chrome(); wire(); bodyApply(); refreshIcons();
+  chrome(); wire(); bodyApply(); if(hydrated) fillIdentity(); refreshIcons();
 }
 async function apply(next){
   CFG=norm(next||CFG);

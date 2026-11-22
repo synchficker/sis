@@ -30,7 +30,7 @@
   if (!document.getElementById("lsSliderCss")) { var st = document.createElement("style"); st.id = "lsSliderCss"; st.textContent = CSS + "@media (prefers-reduced-motion:reduce){.sld{transition:opacity .2s linear!important}#slider .sld .sld-img{animation:none!important}.sld-anim{opacity:1;transform:none;transition:none}}"; document.head.appendChild(st); }
   var MARKUP = `<div id="slider" role="region" aria-roledescription="carousel" aria-label="Sorotan sekolah" tabindex="0"
          class="relative w-full overflow-hidden bg-slate-950 outline-none focus-visible:ring-4 focus-visible:ring-brand-400"
-         style="height:calc(100vh - 72px);min-height:540px;max-height:920px">
+         style="height:calc(100vh - var(--sl-off,72px));min-height:540px;max-height:920px">
       <div id="slTrack" class="absolute inset-0"></div>
       <div class="absolute top-0 inset-x-0 h-[3px] bg-white/15 z-30"><div id="slProg" class="h-full w-full bg-gradient-to-r from-amber-400 via-white to-brand-400"></div></div>
       <button id="slPrev" aria-label="Slide sebelumnya" class="sl-arrow hidden md:flex absolute left-4 lg:left-7 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full bg-black/30 border border-white/30 text-white items-center justify-center hover:bg-white/25"><i data-lucide="chevron-left" class="w-6 h-6"></i></button>
@@ -67,7 +67,7 @@
     function slHeight(){ const t=SL.cfg.tinggi, el=$("slider");
       if(t==="compact") el.style.cssText="height:520px;min-height:420px";
       else if(t==="medium") el.style.cssText="height:70vh;min-height:480px;max-height:760px";
-      else el.style.cssText="height:calc(100vh - 72px);min-height:540px;max-height:920px"; }
+      else el.style.cssText="height:calc(100vh - var(--sl-off,72px));min-height:540px;max-height:920px"; }
 
     const slIdle = fn => window.requestIdleCallback ? requestIdleCallback(fn,{timeout:2500}) : setTimeout(fn,300);
 
