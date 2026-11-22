@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwrk4jidoa7lz",
+    "waktu": "2026-11-22T08:10:35.845Z",
+    "aktor": "synchficker",
+    "modul": "Sistem",
+    "aksi": "UPDATE PENGATURAN",
+    "detail": "SIN Intercultural School"
+  },
+  {
     "id": "mwpda4sd29301",
     "waktu": "2026-11-20T19:23:27.037Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Kepegawaian",
     "aksi": "PUBLIKASI",
     "detail": "Siswa Budi Salim (20260492)"
-  },
-  {
-    "id": "AU0493",
-    "waktu": "2026-11-18T11:05:05.553Z",
-    "aktor": "bendahara",
-    "modul": "Konten Website",
-    "aksi": "PUBLIKASI",
-    "detail": "Tagihan SPP Februari"
   }
 ]
