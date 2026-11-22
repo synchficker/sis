@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwreomb0s3tb0",
+    "waktu": "2026-11-22T05:38:14.892Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE PENGATURAN GALERI",
+    "detail": "9 awal · +9/klik · bento 4 kolom"
+  },
+  {
     "id": "mwrejcinppmb8",
     "waktu": "2026-11-22T05:34:08.927Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Akademik",
     "aksi": "BAYAR SPP",
     "detail": "Pegawai Salsabila Wicaksono, S.Pd (G0491)"
-  },
-  {
-    "id": "AU0492",
-    "waktu": "2026-11-16T17:10:49.553Z",
-    "aktor": "admin",
-    "modul": "Kepegawaian",
-    "aksi": "PUBLIKASI",
-    "detail": "Siswa Budi Salim (20260492)"
   }
 ]
