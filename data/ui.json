@@ -184,23 +184,23 @@
         "sosialLabel": "Stay Connected:",
         "sosial": [
           {
-            "ikon": "message-circle",
-            "href": "wa",
+            "ikon": "letter-f",
+            "href": "Facebook",
             "aktif": true
           },
           {
-            "ikon": "mail",
-            "href": "mail",
+            "ikon": "x",
+            "href": "X / Twitter",
             "aktif": true
           },
           {
-            "ikon": "instagram",
-            "href": "#kontak",
+            "ikon": "camera",
+            "href": "instagram",
             "aktif": true
           },
           {
-            "ikon": "youtube",
-            "href": "#kontak",
+            "ikon": "circle-fading-play",
+            "href": "Youtube",
             "aktif": true
           }
         ]
@@ -344,23 +344,23 @@
     "brandLogo": true,
     "sosial": [
       {
-        "ikon": "Facebook",
-        "href": "letter-f",
+        "ikon": "letter-f",
+        "href": "",
         "aktif": true
       },
       {
-        "ikon": "X-Twitter",
-        "href": "x",
+        "ikon": "x",
+        "href": "",
         "aktif": true
       },
       {
-        "ikon": "Instagram",
-        "href": "camera",
+        "ikon": "camera",
+        "href": "",
         "aktif": true
       },
       {
-        "ikon": "Youtube",
-        "href": "circle-fading-play",
+        "ikon": "circle-fading-play",
+        "href": "",
         "aktif": true
       }
     ],
