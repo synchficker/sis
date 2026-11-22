@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "N0001",
+    "nis": "20260001",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Prakarya",
+    "nilai": 97,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0002",
+    "nis": "20260002",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Seni Budaya",
+    "nilai": 96,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0003",
+    "nis": "20260003",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 PJOK",
+    "nilai": 80,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0004",
+    "nis": "20260004",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 2.5 Bahasa Inggris",
+    "nilai": 65,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0005",
+    "nis": "20260005",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.6 Prakarya",
+    "nilai": 84,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0006",
+    "nis": "20260006",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 2.1 IPS",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0007",
+    "nis": "20260007",
+    "mapel": "Matematika",
+    "jenis": "Sumatif",
+    "tp": "TP 3.6 Matematika",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0008",
+    "nis": "20260008",
+    "mapel": "Informatika",
+    "jenis": "PTS",
+    "tp": "TP 2.2 Informatika",
+    "nilai": 76,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0009",
+    "nis": "20260009",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 1.3 IPA",
+    "nilai": 64,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0010",
+    "nis": "20260010",
+    "mapel": "PJOK",
+    "jenis": "Sumatif",
+    "tp": "TP 2.5 PJOK",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0011",
+    "nis": "20260011",
+    "mapel": "Ekonomi",
+    "jenis": "Sumatif",
+    "tp": "TP 2.5 Ekonomi",
+    "nilai": 99,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0012",
+    "nis": "20260012",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 4.1 PAI",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0013",
+    "nis": "20260013",
+    "mapel": "Prakarya",
+    "jenis": "UH",
+    "tp": "TP 2.6 Prakarya",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0014",
+    "nis": "20260014",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 3.4 IPA",
+    "nilai": 96,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0015",
+    "nis": "20260015",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 4.3 Pendidikan Pancasila",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0016",
+    "nis": "20260016",
+    "mapel": "Matematika",
+    "jenis": "Sumatif",
+    "tp": "TP 3.3 Matematika",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0017",
+    "nis": "20260017",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PAS",
+    "tp": "TP 2.1 Pendidikan Pancasila",
+    "nilai": 94,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0018",
+    "nis": "20260018",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 2.6 Pendidikan Pancasila",
+    "nilai": 73,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0019",
+    "nis": "20260019",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 4.4 Matematika",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0020",
+    "nis": "20260020",
+    "mapel": "Seni Budaya",
+    "jenis": "CBT",
+    "tp": "TP 4.2 Seni Budaya",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0021",
+    "nis": "20260021",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 2.2 Ekonomi",
+    "nilai": 87,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0022",
+    "nis": "20260022",
+    "mapel": "Seni Budaya",
+    "jenis": "Sumatif",
+    "tp": "TP 4.2 Seni Budaya",
+    "nilai": 73,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0023",
+    "nis": "20260023",
+    "mapel": "Matematika",
+    "jenis": "PAS",
+    "tp": "TP 1.4 Matematika",
+    "nilai": 63,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0024",
+    "nis": "20260024",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 4.4 PJOK",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0025",
+    "nis": "20260025",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PAS",
+    "tp": "TP 1.2 Bahasa Indonesia",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0026",
+    "nis": "20260026",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Sumatif",
+    "tp": "TP 2.2 Bahasa Inggris",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0027",
+    "nis": "20260027",
+    "mapel": "Informatika",
+    "jenis": "CBT",
+    "tp": "TP 3.6 Informatika",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0028",
+    "nis": "20260028",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 Pendidikan Pancasila",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0029",
+    "nis": "20260029",
+    "mapel": "IPA",
+    "jenis": "Sumatif",
+    "tp": "TP 2.4 IPA",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0030",
+    "nis": "20260030",
+    "mapel": "Ekonomi",
+    "jenis": "UH",
+    "tp": "TP 4.4 Ekonomi",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0031",
+    "nis": "20260031",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 2.4 Bahasa Inggris",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0032",
+    "nis": "20260032",
+    "mapel": "Prakarya",
+    "jenis": "UH",
+    "tp": "TP 4.4 Prakarya",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0033",
+    "nis": "20260033",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 Prakarya",
+    "nilai": 82,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0034",
+    "nis": "20260034",
+    "mapel": "IPA",
+    "jenis": "PAS",
+    "tp": "TP 3.1 IPA",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0035",
+    "nis": "20260035",
+    "mapel": "PJOK",
+    "jenis": "PTS",
+    "tp": "TP 3.6 PJOK",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0036",
+    "nis": "20260036",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PAS",
+    "tp": "TP 2.6 Bahasa Indonesia",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0037",
+    "nis": "20260037",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 3.2 PAI",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0038",
+    "nis": "20260038",
+    "mapel": "Seni Budaya",
+    "jenis": "CBT",
+    "tp": "TP 4.1 Seni Budaya",
+    "nilai": 87,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0039",
+    "nis": "20260039",
+    "mapel": "Seni Budaya",
+    "jenis": "PAS",
+    "tp": "TP 2.4 Seni Budaya",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0040",
+    "nis": "20260040",
+    "mapel": "IPA",
+    "jenis": "PTS",
+    "tp": "TP 4.3 IPA",
+    "nilai": 67,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0041",
+    "nis": "20260041",
+    "mapel": "PJOK",
+    "jenis": "Sumatif",
+    "tp": "TP 3.1 PJOK",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0042",
+    "nis": "20260042",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "CBT",
+    "tp": "TP 2.3 Pendidikan Pancasila",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0043",
+    "nis": "20260043",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Prakarya",
+    "nilai": 80,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0044",
+    "nis": "20260044",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 PAI",
+    "nilai": 96,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0045",
+    "nis": "20260045",
+    "mapel": "IPS",
+    "jenis": "CBT",
+    "tp": "TP 2.4 IPS",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0046",
+    "nis": "20260046",
+    "mapel": "Prakarya",
+    "jenis": "CBT",
+    "tp": "TP 2.5 Prakarya",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0047",
+    "nis": "20260047",
+    "mapel": "IPS",
+    "jenis": "UH",
+    "tp": "TP 4.1 IPS",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0048",
+    "nis": "20260048",
+    "mapel": "Matematika",
+    "jenis": "Sumatif",
+    "tp": "TP 4.5 Matematika",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0049",
+    "nis": "20260049",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PAS",
+    "tp": "TP 4.1 Pendidikan Pancasila",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0050",
+    "nis": "20260050",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 1.2 PAI",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0051",
+    "nis": "20260051",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 PJOK",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0052",
+    "nis": "20260052",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Sumatif",
+    "tp": "TP 3.2 Bahasa Inggris",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0053",
+    "nis": "20260053",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 Bahasa Inggris",
+    "nilai": 67,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0054",
+    "nis": "20260054",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 2.6 Ekonomi",
+    "nilai": 68,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0055",
+    "nis": "20260055",
+    "mapel": "PAI",
+    "jenis": "PAS",
+    "tp": "TP 1.5 PAI",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0056",
+    "nis": "20260056",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 3.6 PAI",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0057",
+    "nis": "20260057",
+    "mapel": "PAI",
+    "jenis": "PAS",
+    "tp": "TP 3.3 PAI",
+    "nilai": 73,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0058",
+    "nis": "20260058",
+    "mapel": "IPA",
+    "jenis": "Sumatif",
+    "tp": "TP 3.4 IPA",
+    "nilai": 76,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0059",
+    "nis": "20260059",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 2.3 IPS",
+    "nilai": 61,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0060",
+    "nis": "20260060",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PAS",
+    "tp": "TP 1.3 Bahasa Indonesia",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0061",
+    "nis": "20260061",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 Prakarya",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0062",
+    "nis": "20260062",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 1.6 IPS",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0063",
+    "nis": "20260063",
+    "mapel": "PJOK",
+    "jenis": "PTS",
+    "tp": "TP 3.2 PJOK",
+    "nilai": 89,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0064",
+    "nis": "20260064",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 2.6 IPS",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0065",
+    "nis": "20260065",
+    "mapel": "PJOK",
+    "jenis": "UH",
+    "tp": "TP 2.6 PJOK",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0066",
+    "nis": "20260066",
+    "mapel": "PJOK",
+    "jenis": "Sumatif",
+    "tp": "TP 4.2 PJOK",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0067",
+    "nis": "20260067",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 4.1 Prakarya",
+    "nilai": 98,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0068",
+    "nis": "20260068",
+    "mapel": "Prakarya",
+    "jenis": "UH",
+    "tp": "TP 2.5 Prakarya",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0069",
+    "nis": "20260069",
+    "mapel": "Matematika",
+    "jenis": "PTS",
+    "tp": "TP 2.5 Matematika",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0070",
+    "nis": "20260070",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 4.5 Informatika",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0071",
+    "nis": "20260071",
+    "mapel": "Seni Budaya",
+    "jenis": "PAS",
+    "tp": "TP 4.5 Seni Budaya",
+    "nilai": 72,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0072",
+    "nis": "20260072",
+    "mapel": "IPA",
+    "jenis": "PAS",
+    "tp": "TP 1.1 IPA",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0073",
+    "nis": "20260073",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 1.6 Ekonomi",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0074",
+    "nis": "20260074",
+    "mapel": "Informatika",
+    "jenis": "PAS",
+    "tp": "TP 1.5 Informatika",
+    "nilai": 64,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0075",
+    "nis": "20260075",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 3.6 Ekonomi",
+    "nilai": 92,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0076",
+    "nis": "20260076",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 3.1 IPA",
+    "nilai": 94,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0077",
+    "nis": "20260077",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 4.1 Prakarya",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0078",
+    "nis": "20260078",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Sumatif",
+    "tp": "TP 2.2 Bahasa Indonesia",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0079",
+    "nis": "20260079",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 1.5 IPS",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0080",
+    "nis": "20260080",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 4.4 Informatika",
+    "nilai": 96,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0081",
+    "nis": "20260081",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 3.1 Prakarya",
+    "nilai": 93,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0082",
+    "nis": "20260082",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 Pendidikan Pancasila",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0083",
+    "nis": "20260083",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 Informatika",
+    "nilai": 96,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0084",
+    "nis": "20260084",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 3.3 IPS",
+    "nilai": 97,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0085",
+    "nis": "20260085",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 2.6 Informatika",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0086",
+    "nis": "20260086",
+    "mapel": "PJOK",
+    "jenis": "UH",
+    "tp": "TP 4.5 PJOK",
+    "nilai": 86,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0087",
+    "nis": "20260087",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 3.4 Matematika",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0088",
+    "nis": "20260088",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 3.2 IPA",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0089",
+    "nis": "20260089",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 2.5 Prakarya",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0090",
+    "nis": "20260090",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PAS",
+    "tp": "TP 2.1 Bahasa Indonesia",
+    "nilai": 64,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0091",
+    "nis": "20260091",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 IPS",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0092",
+    "nis": "20260092",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 3.4 IPS",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0093",
+    "nis": "20260093",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Informatika",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0094",
+    "nis": "20260094",
+    "mapel": "Seni Budaya",
+    "jenis": "PTS",
+    "tp": "TP 2.4 Seni Budaya",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0095",
+    "nis": "20260095",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 4.4 IPS",
+    "nilai": 74,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0096",
+    "nis": "20260096",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 Prakarya",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0097",
+    "nis": "20260097",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 2.5 Matematika",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0098",
+    "nis": "20260098",
+    "mapel": "Ekonomi",
+    "jenis": "UH",
+    "tp": "TP 4.3 Ekonomi",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0099",
+    "nis": "20260099",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 3.1 PJOK",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0100",
+    "nis": "20260100",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 PAI",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0101",
+    "nis": "20260101",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 Prakarya",
+    "nilai": 64,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0102",
+    "nis": "20260102",
+    "mapel": "IPA",
+    "jenis": "PTS",
+    "tp": "TP 2.2 IPA",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0103",
+    "nis": "20260103",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "CBT",
+    "tp": "TP 4.2 Bahasa Indonesia",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0104",
+    "nis": "20260104",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 PJOK",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0105",
+    "nis": "20260105",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 1.5 PAI",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0106",
+    "nis": "20260106",
+    "mapel": "PJOK",
+    "jenis": "PTS",
+    "tp": "TP 2.6 PJOK",
+    "nilai": 94,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0107",
+    "nis": "20260107",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 2.3 IPA",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0108",
+    "nis": "20260108",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 4.1 PAI",
+    "nilai": 79,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0109",
+    "nis": "20260109",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 4.3 Bahasa Inggris",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0110",
+    "nis": "20260110",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PTS",
+    "tp": "TP 4.5 Bahasa Inggris",
+    "nilai": 74,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0111",
+    "nis": "20260111",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 4.1 PAI",
+    "nilai": 66,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0112",
+    "nis": "20260112",
+    "mapel": "PAI",
+    "jenis": "CBT",
+    "tp": "TP 1.5 PAI",
+    "nilai": 67,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0113",
+    "nis": "20260113",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "CBT",
+    "tp": "TP 1.5 Bahasa Indonesia",
+    "nilai": 75,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0114",
+    "nis": "20260114",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PTS",
+    "tp": "TP 1.3 Bahasa Indonesia",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0115",
+    "nis": "20260115",
+    "mapel": "Matematika",
+    "jenis": "UH",
+    "tp": "TP 2.6 Matematika",
+    "nilai": 83,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0116",
+    "nis": "20260116",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 3.6 Matematika",
+    "nilai": 58,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0117",
+    "nis": "20260117",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 3.1 IPA",
+    "nilai": 94,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0118",
+    "nis": "20260118",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "UH",
+    "tp": "TP 1.1 Bahasa Indonesia",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0119",
+    "nis": "20260119",
+    "mapel": "PJOK",
+    "jenis": "Sumatif",
+    "tp": "TP 1.3 PJOK",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0120",
+    "nis": "20260120",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 3.6 Matematika",
+    "nilai": 64,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0121",
+    "nis": "20260121",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PTS",
+    "tp": "TP 4.4 Bahasa Inggris",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0122",
+    "nis": "20260122",
+    "mapel": "PAI",
+    "jenis": "PTS",
+    "tp": "TP 3.5 PAI",
+    "nilai": 91,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0123",
+    "nis": "20260123",
+    "mapel": "Matematika",
+    "jenis": "PTS",
+    "tp": "TP 2.5 Matematika",
+    "nilai": 66,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0124",
+    "nis": "20260124",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 2.3 IPS",
+    "nilai": 66,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0125",
+    "nis": "20260125",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 2.5 Prakarya",
+    "nilai": 87,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0126",
+    "nis": "20260126",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 2.5 PAI",
+    "nilai": 80,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0127",
+    "nis": "20260127",
+    "mapel": "IPA",
+    "jenis": "CBT",
+    "tp": "TP 4.2 IPA",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0128",
+    "nis": "20260128",
+    "mapel": "IPS",
+    "jenis": "UH",
+    "tp": "TP 2.3 IPS",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0129",
+    "nis": "20260129",
+    "mapel": "PJOK",
+    "jenis": "CBT",
+    "tp": "TP 2.2 PJOK",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0130",
+    "nis": "20260130",
+    "mapel": "Seni Budaya",
+    "jenis": "PAS",
+    "tp": "TP 3.4 Seni Budaya",
+    "nilai": 66,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0131",
+    "nis": "20260131",
+    "mapel": "IPS",
+    "jenis": "CBT",
+    "tp": "TP 3.5 IPS",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0132",
+    "nis": "20260132",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 Seni Budaya",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0133",
+    "nis": "20260133",
+    "mapel": "Informatika",
+    "jenis": "PAS",
+    "tp": "TP 1.2 Informatika",
+    "nilai": 73,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0134",
+    "nis": "20260134",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 4.3 PAI",
+    "nilai": 62,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0135",
+    "nis": "20260135",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PAS",
+    "tp": "TP 3.2 Bahasa Inggris",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0136",
+    "nis": "20260136",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Sumatif",
+    "tp": "TP 1.6 Pendidikan Pancasila",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0137",
+    "nis": "20260137",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "UH",
+    "tp": "TP 4.2 Bahasa Indonesia",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0138",
+    "nis": "20260138",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Bahasa Indonesia",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0139",
+    "nis": "20260139",
+    "mapel": "IPS",
+    "jenis": "CBT",
+    "tp": "TP 2.3 IPS",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0140",
+    "nis": "20260140",
+    "mapel": "Ekonomi",
+    "jenis": "Formatif",
+    "tp": "TP 4.1 Ekonomi",
+    "nilai": 78,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0141",
+    "nis": "20260141",
+    "mapel": "IPS",
+    "jenis": "Sumatif",
+    "tp": "TP 2.4 IPS",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0142",
+    "nis": "20260142",
+    "mapel": "IPS",
+    "jenis": "UH",
+    "tp": "TP 4.6 IPS",
+    "nilai": 98,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0143",
+    "nis": "20260143",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Sumatif",
+    "tp": "TP 2.2 Bahasa Indonesia",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0144",
+    "nis": "20260144",
+    "mapel": "IPA",
+    "jenis": "PTS",
+    "tp": "TP 3.1 IPA",
+    "nilai": 94,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0145",
+    "nis": "20260145",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PTS",
+    "tp": "TP 4.4 Bahasa Indonesia",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0146",
+    "nis": "20260146",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PTS",
+    "tp": "TP 1.5 Bahasa Indonesia",
+    "nilai": 75,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0147",
+    "nis": "20260147",
+    "mapel": "PJOK",
+    "jenis": "Sumatif",
+    "tp": "TP 4.5 PJOK",
+    "nilai": 88,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0148",
+    "nis": "20260148",
+    "mapel": "Seni Budaya",
+    "jenis": "PTS",
+    "tp": "TP 4.2 Seni Budaya",
+    "nilai": 94,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0149",
+    "nis": "20260149",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 1.1 PAI",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0150",
+    "nis": "20260150",
+    "mapel": "Matematika",
+    "jenis": "Sumatif",
+    "tp": "TP 3.5 Matematika",
+    "nilai": 87,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0151",
+    "nis": "20260151",
+    "mapel": "IPS",
+    "jenis": "CBT",
+    "tp": "TP 3.1 IPS",
+    "nilai": 89,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0152",
+    "nis": "20260152",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "CBT",
+    "tp": "TP 1.5 Pendidikan Pancasila",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0153",
+    "nis": "20260153",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 PAI",
+    "nilai": 68,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0154",
+    "nis": "20260154",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 IPA",
+    "nilai": 64,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0155",
+    "nis": "20260155",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 Seni Budaya",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0156",
+    "nis": "20260156",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 4.6 Matematika",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0157",
+    "nis": "20260157",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 2.3 Pendidikan Pancasila",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0158",
+    "nis": "20260158",
+    "mapel": "Seni Budaya",
+    "jenis": "Sumatif",
+    "tp": "TP 2.6 Seni Budaya",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0159",
+    "nis": "20260159",
+    "mapel": "Bahasa Inggris",
+    "jenis": "CBT",
+    "tp": "TP 4.6 Bahasa Inggris",
+    "nilai": 82,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0160",
+    "nis": "20260160",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Matematika",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0161",
+    "nis": "20260161",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 Bahasa Inggris",
+    "nilai": 77,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0162",
+    "nis": "20260162",
+    "mapel": "Ekonomi",
+    "jenis": "Sumatif",
+    "tp": "TP 1.1 Ekonomi",
+    "nilai": 97,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0163",
+    "nis": "20260163",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 PAI",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0164",
+    "nis": "20260164",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 IPA",
+    "nilai": 67,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0165",
+    "nis": "20260165",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 2.6 Pendidikan Pancasila",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0166",
+    "nis": "20260166",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 3.5 IPA",
+    "nilai": 79,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0167",
+    "nis": "20260167",
+    "mapel": "Seni Budaya",
+    "jenis": "PTS",
+    "tp": "TP 3.6 Seni Budaya",
+    "nilai": 99,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0168",
+    "nis": "20260168",
+    "mapel": "Matematika",
+    "jenis": "PTS",
+    "tp": "TP 3.3 Matematika",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0169",
+    "nis": "20260169",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 4.4 Prakarya",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0170",
+    "nis": "20260170",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.2 Prakarya",
+    "nilai": 92,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0171",
+    "nis": "20260171",
+    "mapel": "Matematika",
+    "jenis": "PAS",
+    "tp": "TP 1.1 Matematika",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0172",
+    "nis": "20260172",
+    "mapel": "PJOK",
+    "jenis": "UH",
+    "tp": "TP 3.5 PJOK",
+    "nilai": 86,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0173",
+    "nis": "20260173",
+    "mapel": "Prakarya",
+    "jenis": "CBT",
+    "tp": "TP 3.6 Prakarya",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0174",
+    "nis": "20260174",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 2.5 Bahasa Inggris",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0175",
+    "nis": "20260175",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 1.2 Informatika",
+    "nilai": 93,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0176",
+    "nis": "20260176",
+    "mapel": "PJOK",
+    "jenis": "Sumatif",
+    "tp": "TP 2.5 PJOK",
+    "nilai": 61,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0177",
+    "nis": "20260177",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Pendidikan Pancasila",
+    "nilai": 86,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0178",
+    "nis": "20260178",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 4.5 IPS",
+    "nilai": 83,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0179",
+    "nis": "20260179",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PAS",
+    "tp": "TP 2.6 Bahasa Inggris",
+    "nilai": 77,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0180",
+    "nis": "20260180",
+    "mapel": "Prakarya",
+    "jenis": "PTS",
+    "tp": "TP 4.5 Prakarya",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0181",
+    "nis": "20260181",
+    "mapel": "Matematika",
+    "jenis": "UH",
+    "tp": "TP 4.5 Matematika",
+    "nilai": 87,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0182",
+    "nis": "20260182",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PTS",
+    "tp": "TP 3.3 Bahasa Inggris",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0183",
+    "nis": "20260183",
+    "mapel": "Matematika",
+    "jenis": "Sumatif",
+    "tp": "TP 2.4 Matematika",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0184",
+    "nis": "20260184",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 4.5 PAI",
+    "nilai": 67,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0185",
+    "nis": "20260185",
+    "mapel": "Bahasa Inggris",
+    "jenis": "CBT",
+    "tp": "TP 4.4 Bahasa Inggris",
+    "nilai": 62,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0186",
+    "nis": "20260186",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 4.5 Ekonomi",
+    "nilai": 80,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0187",
+    "nis": "20260187",
+    "mapel": "Matematika",
+    "jenis": "UH",
+    "tp": "TP 1.1 Matematika",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0188",
+    "nis": "20260188",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 1.4 Ekonomi",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0189",
+    "nis": "20260189",
+    "mapel": "Ekonomi",
+    "jenis": "Sumatif",
+    "tp": "TP 4.4 Ekonomi",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0190",
+    "nis": "20260190",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 3.6 Seni Budaya",
+    "nilai": 79,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0191",
+    "nis": "20260191",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 1.3 IPA",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0192",
+    "nis": "20260192",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 Bahasa Indonesia",
+    "nilai": 76,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0193",
+    "nis": "20260193",
+    "mapel": "Informatika",
+    "jenis": "PTS",
+    "tp": "TP 4.4 Informatika",
+    "nilai": 96,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0194",
+    "nis": "20260194",
+    "mapel": "IPS",
+    "jenis": "Sumatif",
+    "tp": "TP 1.3 IPS",
+    "nilai": 97,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0195",
+    "nis": "20260195",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PAS",
+    "tp": "TP 2.2 Pendidikan Pancasila",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0196",
+    "nis": "20260196",
+    "mapel": "IPA",
+    "jenis": "PTS",
+    "tp": "TP 4.3 IPA",
+    "nilai": 76,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0197",
+    "nis": "20260197",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 2.2 IPA",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0198",
+    "nis": "20260198",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 Pendidikan Pancasila",
+    "nilai": 84,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0199",
+    "nis": "20260199",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.6 Prakarya",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0200",
+    "nis": "20260200",
+    "mapel": "Ekonomi",
+    "jenis": "PAS",
+    "tp": "TP 4.6 Ekonomi",
+    "nilai": 92,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0201",
+    "nis": "20260201",
+    "mapel": "Matematika",
+    "jenis": "UH",
+    "tp": "TP 3.1 Matematika",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0202",
+    "nis": "20260202",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 3.4 Bahasa Inggris",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0203",
+    "nis": "20260203",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Bahasa Inggris",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0204",
+    "nis": "20260204",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 2.4 Matematika",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0205",
+    "nis": "20260205",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PAS",
+    "tp": "TP 4.6 Bahasa Inggris",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0206",
+    "nis": "20260206",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Matematika",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0207",
+    "nis": "20260207",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 2.2 IPS",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0208",
+    "nis": "20260208",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Prakarya",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0209",
+    "nis": "20260209",
+    "mapel": "PJOK",
+    "jenis": "PAS",
+    "tp": "TP 3.2 PJOK",
+    "nilai": 92,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0210",
+    "nis": "20260210",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 3.2 Informatika",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0211",
+    "nis": "20260211",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 3.4 IPS",
+    "nilai": 99,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0212",
+    "nis": "20260212",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 Seni Budaya",
+    "nilai": 66,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0213",
+    "nis": "20260213",
+    "mapel": "Matematika",
+    "jenis": "UH",
+    "tp": "TP 2.4 Matematika",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0214",
+    "nis": "20260214",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PTS",
+    "tp": "TP 1.4 Pendidikan Pancasila",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0215",
+    "nis": "20260215",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Informatika",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0216",
+    "nis": "20260216",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Sumatif",
+    "tp": "TP 3.3 Pendidikan Pancasila",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0217",
+    "nis": "20260217",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "UH",
+    "tp": "TP 2.3 Bahasa Indonesia",
+    "nilai": 96,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0218",
+    "nis": "20260218",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 2.5 Pendidikan Pancasila",
+    "nilai": 95,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0219",
+    "nis": "20260219",
+    "mapel": "IPS",
+    "jenis": "UH",
+    "tp": "TP 1.4 IPS",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0220",
+    "nis": "20260220",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 3.1 IPS",
+    "nilai": 84,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0221",
+    "nis": "20260221",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "UH",
+    "tp": "TP 3.1 Bahasa Indonesia",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0222",
+    "nis": "20260222",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PAS",
+    "tp": "TP 2.1 Bahasa Indonesia",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0223",
+    "nis": "20260223",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 3.2 Bahasa Inggris",
+    "nilai": 76,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0224",
+    "nis": "20260224",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PTS",
+    "tp": "TP 2.3 Bahasa Inggris",
+    "nilai": 94,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0225",
+    "nis": "20260225",
+    "mapel": "IPS",
+    "jenis": "UH",
+    "tp": "TP 3.2 IPS",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0226",
+    "nis": "20260226",
+    "mapel": "IPA",
+    "jenis": "CBT",
+    "tp": "TP 1.6 IPA",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0227",
+    "nis": "20260227",
+    "mapel": "Ekonomi",
+    "jenis": "PAS",
+    "tp": "TP 4.2 Ekonomi",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0228",
+    "nis": "20260228",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 2.2 Matematika",
+    "nilai": 96,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0229",
+    "nis": "20260229",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 2.1 IPS",
+    "nilai": 97,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0230",
+    "nis": "20260230",
+    "mapel": "Ekonomi",
+    "jenis": "UH",
+    "tp": "TP 2.1 Ekonomi",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0231",
+    "nis": "20260231",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 1.3 IPS",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0232",
+    "nis": "20260232",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Sumatif",
+    "tp": "TP 2.3 Pendidikan Pancasila",
+    "nilai": 97,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0233",
+    "nis": "20260233",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PTS",
+    "tp": "TP 2.5 Pendidikan Pancasila",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0234",
+    "nis": "20260234",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 2.2 IPA",
+    "nilai": 89,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0235",
+    "nis": "20260235",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 2.2 Ekonomi",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0236",
+    "nis": "20260236",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 2.2 Seni Budaya",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0237",
+    "nis": "20260237",
+    "mapel": "Ekonomi",
+    "jenis": "UH",
+    "tp": "TP 4.2 Ekonomi",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0238",
+    "nis": "20260238",
+    "mapel": "Bahasa Inggris",
+    "jenis": "CBT",
+    "tp": "TP 2.5 Bahasa Inggris",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0239",
+    "nis": "20260239",
+    "mapel": "Seni Budaya",
+    "jenis": "UH",
+    "tp": "TP 1.4 Seni Budaya",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0240",
+    "nis": "20260240",
+    "mapel": "Informatika",
+    "jenis": "CBT",
+    "tp": "TP 1.4 Informatika",
+    "nilai": 76,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0241",
+    "nis": "20260241",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 4.3 Informatika",
+    "nilai": 99,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0242",
+    "nis": "20260242",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 2.2 Bahasa Inggris",
+    "nilai": 83,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0243",
+    "nis": "20260243",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 4.5 IPS",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0244",
+    "nis": "20260244",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 4.1 Prakarya",
+    "nilai": 61,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0245",
+    "nis": "20260245",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "UH",
+    "tp": "TP 2.4 Pendidikan Pancasila",
+    "nilai": 97,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0246",
+    "nis": "20260246",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 Bahasa Indonesia",
+    "nilai": 91,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0247",
+    "nis": "20260247",
+    "mapel": "Matematika",
+    "jenis": "Sumatif",
+    "tp": "TP 2.4 Matematika",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0248",
+    "nis": "20260248",
+    "mapel": "Ekonomi",
+    "jenis": "UH",
+    "tp": "TP 4.5 Ekonomi",
+    "nilai": 78,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0249",
+    "nis": "20260249",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 3.6 Bahasa Inggris",
+    "nilai": 62,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0250",
+    "nis": "20260250",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 1.5 IPA",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0251",
+    "nis": "20260251",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "CBT",
+    "tp": "TP 3.3 Pendidikan Pancasila",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0252",
+    "nis": "20260252",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Sumatif",
+    "tp": "TP 4.2 Bahasa Indonesia",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0253",
+    "nis": "20260253",
+    "mapel": "Matematika",
+    "jenis": "PTS",
+    "tp": "TP 1.3 Matematika",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0254",
+    "nis": "20260254",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 2.1 Matematika",
+    "nilai": 82,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0255",
+    "nis": "20260255",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PAS",
+    "tp": "TP 2.2 Bahasa Indonesia",
+    "nilai": 83,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0256",
+    "nis": "20260256",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PAS",
+    "tp": "TP 4.1 Pendidikan Pancasila",
+    "nilai": 65,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0257",
+    "nis": "20260257",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 4.3 PAI",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0258",
+    "nis": "20260258",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 2.1 Pendidikan Pancasila",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0259",
+    "nis": "20260259",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 IPS",
+    "nilai": 61,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0260",
+    "nis": "20260260",
+    "mapel": "Seni Budaya",
+    "jenis": "CBT",
+    "tp": "TP 4.1 Seni Budaya",
+    "nilai": 76,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0261",
+    "nis": "20260261",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 Seni Budaya",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0262",
+    "nis": "20260262",
+    "mapel": "PAI",
+    "jenis": "PTS",
+    "tp": "TP 2.3 PAI",
+    "nilai": 58,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0263",
+    "nis": "20260263",
+    "mapel": "Ekonomi",
+    "jenis": "Sumatif",
+    "tp": "TP 4.1 Ekonomi",
+    "nilai": 76,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0264",
+    "nis": "20260264",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.4 Prakarya",
+    "nilai": 70,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0265",
+    "nis": "20260265",
+    "mapel": "IPS",
+    "jenis": "Sumatif",
+    "tp": "TP 3.4 IPS",
+    "nilai": 93,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0266",
+    "nis": "20260266",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 2.5 Informatika",
+    "nilai": 98,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0267",
+    "nis": "20260267",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 4.2 Informatika",
+    "nilai": 96,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0268",
+    "nis": "20260268",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 4.3 Informatika",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0269",
+    "nis": "20260269",
+    "mapel": "Ekonomi",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Ekonomi",
+    "nilai": 91,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0270",
+    "nis": "20260270",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 3.1 IPS",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0271",
+    "nis": "20260271",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 2.1 PAI",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0272",
+    "nis": "20260272",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 3.1 PAI",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0273",
+    "nis": "20260273",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 Seni Budaya",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0274",
+    "nis": "20260274",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Sumatif",
+    "tp": "TP 4.2 Bahasa Inggris",
+    "nilai": 72,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0275",
+    "nis": "20260275",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 4.1 Matematika",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0276",
+    "nis": "20260276",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "CBT",
+    "tp": "TP 3.4 Bahasa Indonesia",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0277",
+    "nis": "20260277",
+    "mapel": "IPA",
+    "jenis": "PAS",
+    "tp": "TP 1.6 IPA",
+    "nilai": 66,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0278",
+    "nis": "20260278",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 IPA",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0279",
+    "nis": "20260279",
+    "mapel": "PJOK",
+    "jenis": "CBT",
+    "tp": "TP 2.6 PJOK",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0280",
+    "nis": "20260280",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PAS",
+    "tp": "TP 4.6 Pendidikan Pancasila",
+    "nilai": 66,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0281",
+    "nis": "20260281",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Pendidikan Pancasila",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0282",
+    "nis": "20260282",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.6 Prakarya",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0283",
+    "nis": "20260283",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Prakarya",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0284",
+    "nis": "20260284",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.3 Prakarya",
+    "nilai": 82,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0285",
+    "nis": "20260285",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Sumatif",
+    "tp": "TP 1.3 Bahasa Indonesia",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0286",
+    "nis": "20260286",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 1.2 IPS",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0287",
+    "nis": "20260287",
+    "mapel": "IPA",
+    "jenis": "PTS",
+    "tp": "TP 1.5 IPA",
+    "nilai": 68,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0288",
+    "nis": "20260288",
+    "mapel": "Seni Budaya",
+    "jenis": "CBT",
+    "tp": "TP 2.2 Seni Budaya",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0289",
+    "nis": "20260289",
+    "mapel": "PAI",
+    "jenis": "CBT",
+    "tp": "TP 3.1 PAI",
+    "nilai": 64,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0290",
+    "nis": "20260290",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 IPA",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0291",
+    "nis": "20260291",
+    "mapel": "PAI",
+    "jenis": "PTS",
+    "tp": "TP 4.6 PAI",
+    "nilai": 67,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0292",
+    "nis": "20260292",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "UH",
+    "tp": "TP 1.1 Bahasa Indonesia",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0293",
+    "nis": "20260293",
+    "mapel": "PAI",
+    "jenis": "CBT",
+    "tp": "TP 2.2 PAI",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0294",
+    "nis": "20260294",
+    "mapel": "Prakarya",
+    "jenis": "CBT",
+    "tp": "TP 1.2 Prakarya",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0295",
+    "nis": "20260295",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 1.3 PJOK",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0296",
+    "nis": "20260296",
+    "mapel": "IPS",
+    "jenis": "CBT",
+    "tp": "TP 1.3 IPS",
+    "nilai": 58,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0297",
+    "nis": "20260297",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "UH",
+    "tp": "TP 3.2 Pendidikan Pancasila",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0298",
+    "nis": "20260298",
+    "mapel": "PJOK",
+    "jenis": "CBT",
+    "tp": "TP 3.5 PJOK",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0299",
+    "nis": "20260299",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 4.2 Ekonomi",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0300",
+    "nis": "20260300",
+    "mapel": "Prakarya",
+    "jenis": "PTS",
+    "tp": "TP 3.2 Prakarya",
+    "nilai": 71,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0301",
+    "nis": "20260301",
+    "mapel": "Ekonomi",
+    "jenis": "PAS",
+    "tp": "TP 3.1 Ekonomi",
+    "nilai": 73,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0302",
+    "nis": "20260302",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 2.5 Informatika",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0303",
+    "nis": "20260303",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 1.6 PJOK",
+    "nilai": 97,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0304",
+    "nis": "20260304",
+    "mapel": "PAI",
+    "jenis": "PTS",
+    "tp": "TP 1.5 PAI",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0305",
+    "nis": "20260305",
+    "mapel": "Ekonomi",
+    "jenis": "Sumatif",
+    "tp": "TP 2.2 Ekonomi",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0306",
+    "nis": "20260306",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 PAI",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0307",
+    "nis": "20260307",
+    "mapel": "Bahasa Inggris",
+    "jenis": "CBT",
+    "tp": "TP 3.4 Bahasa Inggris",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0308",
+    "nis": "20260308",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 2.3 PAI",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0309",
+    "nis": "20260309",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PAS",
+    "tp": "TP 3.1 Bahasa Inggris",
+    "nilai": 81,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0310",
+    "nis": "20260310",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 3.1 PAI",
+    "nilai": 61,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0311",
+    "nis": "20260311",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 2.3 Pendidikan Pancasila",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0312",
+    "nis": "20260312",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Sumatif",
+    "tp": "TP 3.3 Bahasa Indonesia",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0313",
+    "nis": "20260313",
+    "mapel": "Matematika",
+    "jenis": "PTS",
+    "tp": "TP 3.1 Matematika",
+    "nilai": 76,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0314",
+    "nis": "20260314",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 3.6 Matematika",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0315",
+    "nis": "20260315",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Seni Budaya",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0316",
+    "nis": "20260316",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 3.4 Bahasa Inggris",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0317",
+    "nis": "20260317",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 4.4 Informatika",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0318",
+    "nis": "20260318",
+    "mapel": "IPS",
+    "jenis": "CBT",
+    "tp": "TP 1.6 IPS",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0319",
+    "nis": "20260319",
+    "mapel": "IPA",
+    "jenis": "PAS",
+    "tp": "TP 1.2 IPA",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0320",
+    "nis": "20260320",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 3.2 Informatika",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0321",
+    "nis": "20260321",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 4.3 Ekonomi",
+    "nilai": 58,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0322",
+    "nis": "20260322",
+    "mapel": "PAI",
+    "jenis": "PAS",
+    "tp": "TP 1.1 PAI",
+    "nilai": 86,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0323",
+    "nis": "20260323",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.3 Prakarya",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0324",
+    "nis": "20260324",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 4.3 Seni Budaya",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0325",
+    "nis": "20260325",
+    "mapel": "PAI",
+    "jenis": "PAS",
+    "tp": "TP 4.5 PAI",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0326",
+    "nis": "20260326",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 4.4 Matematika",
+    "nilai": 67,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0327",
+    "nis": "20260327",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 2.1 Matematika",
+    "nilai": 72,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0328",
+    "nis": "20260328",
+    "mapel": "IPA",
+    "jenis": "PAS",
+    "tp": "TP 4.5 IPA",
+    "nilai": 82,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0329",
+    "nis": "20260329",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "CBT",
+    "tp": "TP 1.1 Bahasa Indonesia",
+    "nilai": 80,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0330",
+    "nis": "20260330",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 1.4 IPA",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0331",
+    "nis": "20260331",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 PJOK",
+    "nilai": 66,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0332",
+    "nis": "20260332",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 2.5 Informatika",
+    "nilai": 81,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0333",
+    "nis": "20260333",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 2.1 Matematika",
+    "nilai": 67,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0334",
+    "nis": "20260334",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "UH",
+    "tp": "TP 4.1 Pendidikan Pancasila",
+    "nilai": 80,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0335",
+    "nis": "20260335",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "UH",
+    "tp": "TP 1.1 Pendidikan Pancasila",
+    "nilai": 85,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0336",
+    "nis": "20260336",
+    "mapel": "Bahasa Inggris",
+    "jenis": "CBT",
+    "tp": "TP 4.4 Bahasa Inggris",
+    "nilai": 94,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0337",
+    "nis": "20260337",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 3.6 PAI",
+    "nilai": 64,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0338",
+    "nis": "20260338",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 3.4 PAI",
+    "nilai": 65,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0339",
+    "nis": "20260339",
+    "mapel": "Ekonomi",
+    "jenis": "Sumatif",
+    "tp": "TP 2.2 Ekonomi",
+    "nilai": 61,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0340",
+    "nis": "20260340",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 2.4 Seni Budaya",
+    "nilai": 66,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0341",
+    "nis": "20260341",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Prakarya",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0342",
+    "nis": "20260342",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PAS",
+    "tp": "TP 4.4 Bahasa Indonesia",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0343",
+    "nis": "20260343",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 1.3 Bahasa Indonesia",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0344",
+    "nis": "20260344",
+    "mapel": "Informatika",
+    "jenis": "PAS",
+    "tp": "TP 2.2 Informatika",
+    "nilai": 78,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0345",
+    "nis": "20260345",
+    "mapel": "IPS",
+    "jenis": "Sumatif",
+    "tp": "TP 4.4 IPS",
+    "nilai": 94,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0346",
+    "nis": "20260346",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 4.4 Prakarya",
+    "nilai": 90,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0347",
+    "nis": "20260347",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 3.1 PAI",
+    "nilai": 67,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0348",
+    "nis": "20260348",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 IPS",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0349",
+    "nis": "20260349",
+    "mapel": "Prakarya",
+    "jenis": "UH",
+    "tp": "TP 4.2 Prakarya",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0350",
+    "nis": "20260350",
+    "mapel": "PJOK",
+    "jenis": "CBT",
+    "tp": "TP 2.5 PJOK",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0351",
+    "nis": "20260351",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Matematika",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0352",
+    "nis": "20260352",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "UH",
+    "tp": "TP 4.6 Pendidikan Pancasila",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0353",
+    "nis": "20260353",
+    "mapel": "IPS",
+    "jenis": "UH",
+    "tp": "TP 4.2 IPS",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0354",
+    "nis": "20260354",
+    "mapel": "PJOK",
+    "jenis": "PTS",
+    "tp": "TP 2.5 PJOK",
+    "nilai": 93,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0355",
+    "nis": "20260355",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 4.6 Prakarya",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0356",
+    "nis": "20260356",
+    "mapel": "Ekonomi",
+    "jenis": "Sumatif",
+    "tp": "TP 1.2 Ekonomi",
+    "nilai": 77,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0357",
+    "nis": "20260357",
+    "mapel": "Matematika",
+    "jenis": "PAS",
+    "tp": "TP 2.6 Matematika",
+    "nilai": 74,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0358",
+    "nis": "20260358",
+    "mapel": "Informatika",
+    "jenis": "CBT",
+    "tp": "TP 4.5 Informatika",
+    "nilai": 86,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0359",
+    "nis": "20260359",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 1.4 Prakarya",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0360",
+    "nis": "20260360",
+    "mapel": "Bahasa Inggris",
+    "jenis": "CBT",
+    "tp": "TP 4.2 Bahasa Inggris",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0361",
+    "nis": "20260361",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 4.3 Informatika",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0362",
+    "nis": "20260362",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 3.6 PAI",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0363",
+    "nis": "20260363",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 2.4 Bahasa Indonesia",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0364",
+    "nis": "20260364",
+    "mapel": "Informatika",
+    "jenis": "PTS",
+    "tp": "TP 3.2 Informatika",
+    "nilai": 59,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0365",
+    "nis": "20260365",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "UH",
+    "tp": "TP 3.6 Bahasa Indonesia",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0366",
+    "nis": "20260366",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 PAI",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0367",
+    "nis": "20260367",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 IPS",
+    "nilai": 81,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0368",
+    "nis": "20260368",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 1.5 IPS",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0369",
+    "nis": "20260369",
+    "mapel": "PJOK",
+    "jenis": "PAS",
+    "tp": "TP 4.1 PJOK",
+    "nilai": 88,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0370",
+    "nis": "20260370",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 2.5 IPS",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0371",
+    "nis": "20260371",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 Seni Budaya",
+    "nilai": 86,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0372",
+    "nis": "20260372",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 IPS",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0373",
+    "nis": "20260373",
+    "mapel": "Informatika",
+    "jenis": "PAS",
+    "tp": "TP 2.3 Informatika",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0374",
+    "nis": "20260374",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 3.6 Ekonomi",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0375",
+    "nis": "20260375",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 1.6 Bahasa Inggris",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0376",
+    "nis": "20260376",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 3.1 PJOK",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0377",
+    "nis": "20260377",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 4.3 PAI",
+    "nilai": 97,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0378",
+    "nis": "20260378",
+    "mapel": "Prakarya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.6 Prakarya",
+    "nilai": 67,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0379",
+    "nis": "20260379",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 3.1 Ekonomi",
+    "nilai": 76,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0380",
+    "nis": "20260380",
+    "mapel": "Prakarya",
+    "jenis": "CBT",
+    "tp": "TP 2.3 Prakarya",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0381",
+    "nis": "20260381",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Pendidikan Pancasila",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0382",
+    "nis": "20260382",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 3.2 Prakarya",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0383",
+    "nis": "20260383",
+    "mapel": "PJOK",
+    "jenis": "Sumatif",
+    "tp": "TP 4.1 PJOK",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0384",
+    "nis": "20260384",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PAS",
+    "tp": "TP 2.4 Bahasa Inggris",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0385",
+    "nis": "20260385",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "CBT",
+    "tp": "TP 3.4 Pendidikan Pancasila",
+    "nilai": 82,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0386",
+    "nis": "20260386",
+    "mapel": "Matematika",
+    "jenis": "PAS",
+    "tp": "TP 2.4 Matematika",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0387",
+    "nis": "20260387",
+    "mapel": "IPA",
+    "jenis": "CBT",
+    "tp": "TP 4.6 IPA",
+    "nilai": 99,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0388",
+    "nis": "20260388",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 3.2 Informatika",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0389",
+    "nis": "20260389",
+    "mapel": "Seni Budaya",
+    "jenis": "UH",
+    "tp": "TP 4.4 Seni Budaya",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0390",
+    "nis": "20260390",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 1.5 Ekonomi",
+    "nilai": 65,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0391",
+    "nis": "20260391",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 2.5 Bahasa Indonesia",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0392",
+    "nis": "20260392",
+    "mapel": "IPA",
+    "jenis": "UH",
+    "tp": "TP 3.2 IPA",
+    "nilai": 76,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0393",
+    "nis": "20260393",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 2.1 IPS",
+    "nilai": 89,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0394",
+    "nis": "20260394",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Bahasa Inggris",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0395",
+    "nis": "20260395",
+    "mapel": "Ekonomi",
+    "jenis": "Formatif",
+    "tp": "TP 1.6 Ekonomi",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0396",
+    "nis": "20260396",
+    "mapel": "PJOK",
+    "jenis": "UH",
+    "tp": "TP 4.1 PJOK",
+    "nilai": 58,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0397",
+    "nis": "20260397",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 1.3 Bahasa Indonesia",
+    "nilai": 87,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0398",
+    "nis": "20260398",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PTS",
+    "tp": "TP 4.2 Bahasa Inggris",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0399",
+    "nis": "20260399",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 4.4 PAI",
+    "nilai": 67,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0400",
+    "nis": "20260400",
+    "mapel": "Seni Budaya",
+    "jenis": "PAS",
+    "tp": "TP 4.3 Seni Budaya",
+    "nilai": 72,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0401",
+    "nis": "20260401",
+    "mapel": "Seni Budaya",
+    "jenis": "Sumatif",
+    "tp": "TP 4.6 Seni Budaya",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0402",
+    "nis": "20260402",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 4.5 Ekonomi",
+    "nilai": 65,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0403",
+    "nis": "20260403",
+    "mapel": "IPA",
+    "jenis": "Sumatif",
+    "tp": "TP 3.5 IPA",
+    "nilai": 94,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0404",
+    "nis": "20260404",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 2.5 Ekonomi",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0405",
+    "nis": "20260405",
+    "mapel": "Prakarya",
+    "jenis": "PTS",
+    "tp": "TP 2.5 Prakarya",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0406",
+    "nis": "20260406",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 2.5 Bahasa Inggris",
+    "nilai": 96,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0407",
+    "nis": "20260407",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PAS",
+    "tp": "TP 1.1 Pendidikan Pancasila",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0408",
+    "nis": "20260408",
+    "mapel": "IPA",
+    "jenis": "Sumatif",
+    "tp": "TP 2.3 IPA",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0409",
+    "nis": "20260409",
+    "mapel": "Prakarya",
+    "jenis": "CBT",
+    "tp": "TP 1.4 Prakarya",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0410",
+    "nis": "20260410",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 4.5 IPS",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0411",
+    "nis": "20260411",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 2.2 IPA",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0412",
+    "nis": "20260412",
+    "mapel": "PAI",
+    "jenis": "Sumatif",
+    "tp": "TP 3.5 PAI",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0413",
+    "nis": "20260413",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Sumatif",
+    "tp": "TP 4.3 Bahasa Inggris",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0414",
+    "nis": "20260414",
+    "mapel": "Prakarya",
+    "jenis": "PTS",
+    "tp": "TP 2.6 Prakarya",
+    "nilai": 91,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0415",
+    "nis": "20260415",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 3.4 Informatika",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0416",
+    "nis": "20260416",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 4.4 Bahasa Inggris",
+    "nilai": 91,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0417",
+    "nis": "20260417",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "CBT",
+    "tp": "TP 1.3 Bahasa Indonesia",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0418",
+    "nis": "20260418",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 1.1 IPS",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0419",
+    "nis": "20260419",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 4.6 IPA",
+    "nilai": 59,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0420",
+    "nis": "20260420",
+    "mapel": "Ekonomi",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 Ekonomi",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0421",
+    "nis": "20260421",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 1.1 Seni Budaya",
+    "nilai": 66,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0422",
+    "nis": "20260422",
+    "mapel": "PAI",
+    "jenis": "CBT",
+    "tp": "TP 4.1 PAI",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0423",
+    "nis": "20260423",
+    "mapel": "Bahasa Inggris",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 Bahasa Inggris",
+    "nilai": 71,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0424",
+    "nis": "20260424",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 3.3 PAI",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0425",
+    "nis": "20260425",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 1.1 Informatika",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0426",
+    "nis": "20260426",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 4.5 Prakarya",
+    "nilai": 94,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0427",
+    "nis": "20260427",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 4.3 Bahasa Indonesia",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0428",
+    "nis": "20260428",
+    "mapel": "Matematika",
+    "jenis": "Sumatif",
+    "tp": "TP 1.5 Matematika",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0429",
+    "nis": "20260429",
+    "mapel": "Ekonomi",
+    "jenis": "CBT",
+    "tp": "TP 4.5 Ekonomi",
+    "nilai": 84,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0430",
+    "nis": "20260430",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 2.3 Informatika",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0431",
+    "nis": "20260431",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 4.3 Informatika",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0432",
+    "nis": "20260432",
+    "mapel": "Seni Budaya",
+    "jenis": "Sumatif",
+    "tp": "TP 2.4 Seni Budaya",
+    "nilai": 77,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0433",
+    "nis": "20260433",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "UH",
+    "tp": "TP 1.4 Pendidikan Pancasila",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0434",
+    "nis": "20260434",
+    "mapel": "Seni Budaya",
+    "jenis": "Sumatif",
+    "tp": "TP 4.1 Seni Budaya",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0435",
+    "nis": "20260435",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 2.5 IPA",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0436",
+    "nis": "20260436",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 2.3 PAI",
+    "nilai": 63,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0437",
+    "nis": "20260437",
+    "mapel": "PAI",
+    "jenis": "UH",
+    "tp": "TP 3.4 PAI",
+    "nilai": 76,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0438",
+    "nis": "20260438",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "PTS",
+    "tp": "TP 3.5 Pendidikan Pancasila",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0439",
+    "nis": "20260439",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 2.6 Seni Budaya",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0440",
+    "nis": "20260440",
+    "mapel": "IPA",
+    "jenis": "PTS",
+    "tp": "TP 3.2 IPA",
+    "nilai": 83,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0441",
+    "nis": "20260441",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 1.3 Bahasa Inggris",
+    "nilai": 87,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0442",
+    "nis": "20260442",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 3.4 IPA",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0443",
+    "nis": "20260443",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Informatika",
+    "nilai": 95,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0444",
+    "nis": "20260444",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Seni Budaya",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0445",
+    "nis": "20260445",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 3.5 IPS",
+    "nilai": 86,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0446",
+    "nis": "20260446",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "PTS",
+    "tp": "TP 1.5 Bahasa Indonesia",
+    "nilai": 99,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0447",
+    "nis": "20260447",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PAS",
+    "tp": "TP 2.5 Bahasa Inggris",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0448",
+    "nis": "20260448",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 1.4 Seni Budaya",
+    "nilai": 85,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0449",
+    "nis": "20260449",
+    "mapel": "Ekonomi",
+    "jenis": "PAS",
+    "tp": "TP 4.3 Ekonomi",
+    "nilai": 69,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0450",
+    "nis": "20260450",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 1.6 Informatika",
+    "nilai": 70,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0451",
+    "nis": "20260451",
+    "mapel": "PJOK",
+    "jenis": "UH",
+    "tp": "TP 2.5 PJOK",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0452",
+    "nis": "20260452",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 4.4 Prakarya",
+    "nilai": 67,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0453",
+    "nis": "20260453",
+    "mapel": "Prakarya",
+    "jenis": "CBT",
+    "tp": "TP 4.1 Prakarya",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0454",
+    "nis": "20260454",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 3.1 Informatika",
+    "nilai": 79,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0455",
+    "nis": "20260455",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Sumatif",
+    "tp": "TP 2.5 Bahasa Indonesia",
+    "nilai": 75,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0456",
+    "nis": "20260456",
+    "mapel": "Informatika",
+    "jenis": "Formatif",
+    "tp": "TP 4.2 Informatika",
+    "nilai": 88,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0457",
+    "nis": "20260457",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 3.3 Informatika",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0458",
+    "nis": "20260458",
+    "mapel": "Seni Budaya",
+    "jenis": "Sumatif",
+    "tp": "TP 3.5 Seni Budaya",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0459",
+    "nis": "20260459",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 3.3 Matematika",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0460",
+    "nis": "20260460",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 2.6 Prakarya",
+    "nilai": 89,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0461",
+    "nis": "20260461",
+    "mapel": "Bahasa Inggris",
+    "jenis": "PAS",
+    "tp": "TP 4.6 Bahasa Inggris",
+    "nilai": 64,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0462",
+    "nis": "20260462",
+    "mapel": "IPA",
+    "jenis": "Sumatif",
+    "tp": "TP 4.3 IPA",
+    "nilai": 87,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0463",
+    "nis": "20260463",
+    "mapel": "Matematika",
+    "jenis": "CBT",
+    "tp": "TP 1.3 Matematika",
+    "nilai": 98,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0464",
+    "nis": "20260464",
+    "mapel": "Matematika",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Matematika",
+    "nilai": 66,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0465",
+    "nis": "20260465",
+    "mapel": "Ekonomi",
+    "jenis": "PTS",
+    "tp": "TP 4.4 Ekonomi",
+    "nilai": 97,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0466",
+    "nis": "20260466",
+    "mapel": "Matematika",
+    "jenis": "UH",
+    "tp": "TP 2.5 Matematika",
+    "nilai": 95,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0467",
+    "nis": "20260467",
+    "mapel": "PJOK",
+    "jenis": "Formatif",
+    "tp": "TP 3.6 PJOK",
+    "nilai": 85,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0468",
+    "nis": "20260468",
+    "mapel": "Bahasa Inggris",
+    "jenis": "CBT",
+    "tp": "TP 2.1 Bahasa Inggris",
+    "nilai": 80,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0469",
+    "nis": "20260469",
+    "mapel": "IPS",
+    "jenis": "Formatif",
+    "tp": "TP 3.4 IPS",
+    "nilai": 68,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0470",
+    "nis": "20260470",
+    "mapel": "PAI",
+    "jenis": "CBT",
+    "tp": "TP 4.3 PAI",
+    "nilai": 60,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0471",
+    "nis": "20260471",
+    "mapel": "PJOK",
+    "jenis": "UH",
+    "tp": "TP 2.4 PJOK",
+    "nilai": 86,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0472",
+    "nis": "20260472",
+    "mapel": "IPS",
+    "jenis": "Sumatif",
+    "tp": "TP 1.3 IPS",
+    "nilai": 82,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0473",
+    "nis": "20260473",
+    "mapel": "IPS",
+    "jenis": "PTS",
+    "tp": "TP 1.4 IPS",
+    "nilai": 95,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0474",
+    "nis": "20260474",
+    "mapel": "Prakarya",
+    "jenis": "PTS",
+    "tp": "TP 4.4 Prakarya",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0475",
+    "nis": "20260475",
+    "mapel": "IPS",
+    "jenis": "PAS",
+    "tp": "TP 4.2 IPS",
+    "nilai": 62,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0476",
+    "nis": "20260476",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 2.1 Bahasa Inggris",
+    "nilai": 75,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0477",
+    "nis": "20260477",
+    "mapel": "Prakarya",
+    "jenis": "Formatif",
+    "tp": "TP 1.2 Prakarya",
+    "nilai": 64,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0478",
+    "nis": "20260478",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Formatif",
+    "tp": "TP 3.5 Pendidikan Pancasila",
+    "nilai": 92,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0479",
+    "nis": "20260479",
+    "mapel": "Pendidikan Pancasila",
+    "jenis": "Sumatif",
+    "tp": "TP 2.2 Pendidikan Pancasila",
+    "nilai": 60,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0480",
+    "nis": "20260480",
+    "mapel": "Seni Budaya",
+    "jenis": "PTS",
+    "tp": "TP 2.1 Seni Budaya",
+    "nilai": 83,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0481",
+    "nis": "20260481",
+    "mapel": "Informatika",
+    "jenis": "PTS",
+    "tp": "TP 2.1 Informatika",
+    "nilai": 96,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0482",
+    "nis": "20260482",
+    "mapel": "IPA",
+    "jenis": "PAS",
+    "tp": "TP 2.1 IPA",
+    "nilai": 96,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0483",
+    "nis": "20260483",
+    "mapel": "Ekonomi",
+    "jenis": "Formatif",
+    "tp": "TP 4.1 Ekonomi",
+    "nilai": 71,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0484",
+    "nis": "20260484",
+    "mapel": "Seni Budaya",
+    "jenis": "PAS",
+    "tp": "TP 1.2 Seni Budaya",
+    "nilai": 93,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0485",
+    "nis": "20260485",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 1.5 PAI",
+    "nilai": 72,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0486",
+    "nis": "20260486",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 1.6 Prakarya",
+    "nilai": 74,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0487",
+    "nis": "20260487",
+    "mapel": "Prakarya",
+    "jenis": "PAS",
+    "tp": "TP 4.1 Prakarya",
+    "nilai": 73,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0488",
+    "nis": "20260488",
+    "mapel": "PAI",
+    "jenis": "Formatif",
+    "tp": "TP 1.6 PAI",
+    "nilai": 59,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0489",
+    "nis": "20260489",
+    "mapel": "IPA",
+    "jenis": "PTS",
+    "tp": "TP 1.2 IPA",
+    "nilai": 80,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0490",
+    "nis": "20260490",
+    "mapel": "Informatika",
+    "jenis": "UH",
+    "tp": "TP 4.4 Informatika",
+    "nilai": 66,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0491",
+    "nis": "20260491",
+    "mapel": "Seni Budaya",
+    "jenis": "Formatif",
+    "tp": "TP 3.6 Seni Budaya",
+    "nilai": 78,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0492",
+    "nis": "20260492",
+    "mapel": "Ekonomi",
+    "jenis": "Formatif",
+    "tp": "TP 4.5 Ekonomi",
+    "nilai": 69,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0493",
+    "nis": "20260493",
+    "mapel": "PJOK",
+    "jenis": "CBT",
+    "tp": "TP 3.6 PJOK",
+    "nilai": 86,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0494",
+    "nis": "20260494",
+    "mapel": "Ekonomi",
+    "jenis": "Formatif",
+    "tp": "TP 1.6 Ekonomi",
+    "nilai": 64,
+    "semester": "Genap",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0495",
+    "nis": "20260495",
+    "mapel": "Ekonomi",
+    "jenis": "UH",
+    "tp": "TP 2.2 Ekonomi",
+    "nilai": 63,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0496",
+    "nis": "20260496",
+    "mapel": "Informatika",
+    "jenis": "Sumatif",
+    "tp": "TP 2.6 Informatika",
+    "nilai": 78,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0497",
+    "nis": "20260497",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "Formatif",
+    "tp": "TP 4.1 Bahasa Indonesia",
+    "nilai": 61,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0498",
+    "nis": "20260498",
+    "mapel": "IPA",
+    "jenis": "Formatif",
+    "tp": "TP 1.3 IPA",
+    "nilai": 90,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0499",
+    "nis": "20260499",
+    "mapel": "Bahasa Indonesia",
+    "jenis": "CBT",
+    "tp": "TP 3.5 Bahasa Indonesia",
+    "nilai": 79,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  },
+  {
+    "id": "N0500",
+    "nis": "20260500",
+    "mapel": "Bahasa Inggris",
+    "jenis": "UH",
+    "tp": "TP 3.3 Bahasa Inggris",
+    "nilai": 77,
+    "semester": "Ganjil",
+    "tahun_ajaran": "2026/2027"
+  }
+]

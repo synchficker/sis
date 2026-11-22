@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuition Fee — Biaya Pendidikan</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:["Inter","ui-sans-serif","system-ui"],display:["Poppins","Inter","sans-serif"]},colors:{brand:{50:"#f0fdf4",100:"#dcfce7",200:"#bbf7d0",400:"#4ade80",500:"#22c55e",600:"#16a34a",700:"#15803d",800:"#166534",900:"#14532d"}}}}};</script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    html{scroll-padding-top:92px;scrollbar-color:#16a34a #f0fdf4;scrollbar-width:thin}
+    ::-webkit-scrollbar{width:11px;height:11px}
+    ::-webkit-scrollbar-track{background:#f0fdf4}
+    ::-webkit-scrollbar-thumb{background:linear-gradient(#16a34a,#0d9488);border-radius:99px;border:2px solid #f0fdf4}
+    ::-webkit-scrollbar-thumb:hover{background:#15803d}
+    .grain{position:absolute;inset:0;opacity:.16;pointer-events:none;background-image:radial-gradient(circle at 20% 30%,rgba(251,191,36,.55),transparent 42%),radial-gradient(circle at 78% 18%,rgba(45,212,191,.5),transparent 40%),radial-gradient(circle at 60% 88%,rgba(74,222,128,.45),transparent 45%);filter:blur(46px);animation:drift 18s ease-in-out infinite alternate}
+    @keyframes drift{to{transform:translate3d(-3%,2%,0) scale(1.08)}}
+    .rv{opacity:0;transform:translateY(18px);transition:opacity .6s cubic-bezier(.2,.7,.3,1),transform .6s cubic-bezier(.2,.7,.3,1)}
+    .rv.in{opacity:1;transform:none}
+    input[type=range]{-webkit-appearance:none;height:6px;border-radius:99px;background:linear-gradient(90deg,#16a34a,#0d9488);outline:none}
+    input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:99px;background:#fff;border:3px solid #16a34a;cursor:pointer;box-shadow:0 2px 8px rgba(22,101,52,.4)}
+    input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:99px;background:#fff;border:3px solid #16a34a;cursor:pointer}
+    @media (prefers-reduced-motion:reduce){.grain{animation:none}.rv{opacity:1;transform:none;transition:none}}
+  </style>
+</head>
+<body class="font-sans bg-white text-slate-800 antialiased">
+
+  <header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 h-[72px] flex items-center gap-3">
+      <a href="index.html" class="flex items-center gap-2.5 min-w-0">
+        <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center shrink-0"><i data-lucide="school" class="w-5 h-5"></i></div>
+        <div class="min-w-0 leading-tight"><div id="navNama" class="font-display font-bold text-brand-800 truncate">Nama Sekolah</div><div id="navNpsn" class="text-[11px] text-slate-400">NPSN —</div></div>
+      </a>
+      <nav class="hidden lg:flex items-center gap-1 ml-6 text-sm font-semibold text-slate-600">
+        <a href="index.html#profil" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Profil</a>
+        <a href="index.html#program" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Program</a>
+        <a href="tuition.html" class="px-3 py-2 rounded-lg bg-brand-600 text-white">Tuition Fee</a>
+        <a href="kalender.html" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kalender</a>
+        <a href="index.html#kegiatan" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kegiatan</a>
+        <a href="index.html#kontak" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kontak</a>
+      </nav>
+      <div class="flex-1"></div>
+      <div class="hidden md:flex items-center gap-2">
+        <a href="portal.html" class="text-sm font-bold px-3 py-2 rounded-lg text-brand-700 hover:bg-brand-50">Portal Ortu</a>
+        <a href="ppdb.html" class="text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300 shadow-sm">Register Now</a>
+        <a href="login.html" class="text-sm font-bold px-3 py-2 rounded-lg border border-slate-200 hover:bg-slate-50 inline-flex items-center gap-1.5"><i data-lucide="key-round" class="w-4 h-4"></i>Login</a>
+      </div>
+      <button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100"><i data-lucide="menu" class="w-6 h-6"></i></button>
+    </div>
+    <div id="mMenu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1 text-sm font-semibold">
+      <a href="index.html#profil" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Profil</a>
+      <a href="index.html#program" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Program</a>
+      <a href="tuition.html" class="block px-3 py-2 rounded-lg bg-brand-50 text-brand-700">Tuition Fee</a>
+      <a href="kalender.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kalender Akademik</a>
+      <a href="index.html#kegiatan" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kegiatan</a>
+      <a href="portal.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Portal Ortu</a>
+      <div class="flex gap-2 pt-2"><a href="ppdb.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Daftar</a><a href="login.html" class="flex-1 text-center px-3 py-2.5 rounded-xl border border-slate-200 font-bold">Login</a></div>
+    </div>
+  </header>
+
+  <section class="relative overflow-hidden bg-gradient-to-br from-brand-800 via-brand-600 to-teal-600 text-white pt-[72px]">
+    <div class="grain"></div>
+    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20">
+      <nav class="text-xs text-white/70 font-semibold mb-3"><a href="index.html" class="hover:underline">Beranda</a> <span class="mx-1">/</span> <span class="text-white">Tuition Fee</span></nav>
+      <span class="text-xs font-bold uppercase tracking-wider bg-white/15 border border-white/25 px-3 py-1 rounded-full">Biaya Pendidikan</span>
+      <h1 class="font-display font-extrabold text-4xl md:text-5xl mt-3">Tuition Fee <span class="text-amber-300" id="heroTA">2026/2027</span></h1>
+      <p class="mt-4 text-white/90 text-lg max-w-2xl">Rincian biaya pendidikan tiap jenjang — uang pangkal, biaya bulanan, dan biaya tahunan — beserta simulasi cicilan, keringanan, dan status pembayaran SPP secara transparan.</p>
+      <div class="mt-7 flex flex-wrap gap-3">
+        <a href="#simulasi" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-400 text-amber-950 font-bold hover:bg-amber-300 shadow"><i data-lucide="calculator" class="w-5 h-5"></i>Simulasi Biaya</a>
+        <button id="btnPrint" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white/15 border border-white/30 font-bold hover:bg-white/25"><i data-lucide="printer" class="w-5 h-5"></i>Unduh Rincian</button>
+      </div>
+      <div id="heroStats" class="mt-9 grid grid-cols-2 md:grid-cols-4 gap-3"></div>
+    </div>
+    <svg class="block w-full text-white" viewBox="0 0 1440 60" fill="currentColor" preserveAspectRatio="none"><path d="M0,30 C260,64 520,2 760,18 C1010,34 1220,62 1440,28 L1440,60 L0,60 Z"></path></svg>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 py-12">
+    <div id="tabs" class="flex flex-wrap gap-2 mb-6"></div>
+    <div id="feePanel"></div>
+  </section>
+
+  <section class="bg-brand-50/70 border-y border-brand-100">
+    <div class="max-w-7xl mx-auto px-4 py-14 rv">
+      <h2 class="font-display font-extrabold text-3xl text-slate-800 text-center">Perbandingan Antar Jenjang</h2>
+      <p class="text-slate-500 text-center mt-2">Estimasi tahun pertama = uang pangkal + 12 × biaya bulanan + biaya tahunan.</p>
+      <div class="overflow-x-auto mt-8 bg-white rounded-2xl border border-slate-200 shadow-sm">
+        <table class="w-full text-sm text-left min-w-[720px]">
+          <thead class="bg-slate-50"><tr>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500">Jenjang</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500 text-right">Uang Pangkal</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500 text-right">Bulanan</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500 text-right">Tahunan</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500 text-right">Total Tahun ke-1</th>
+            <th class="px-4 py-3 text-xs font-bold uppercase text-slate-500 text-right">Tahun ke-2 dst.</th>
+          </tr></thead>
+          <tbody id="cmpBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="simulasi" class="max-w-7xl mx-auto px-4 py-14">
+    <div class="text-center mb-8">
+      <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Simulator</span>
+      <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Simulasi Biaya &amp; Cicilan</h2>
+      <p class="text-slate-500 mt-2">Geser dan ubah pengaturan di bawah — hasil dihitung seketika.</p>
+    </div>
+    <div class="grid lg:grid-cols-5 gap-6">
+      <div class="lg:col-span-2 bg-white rounded-3xl border border-slate-200 shadow-sm p-5 space-y-4">
+        <div class="flex items-center gap-2 pb-2 border-b border-slate-100"><i data-lucide="sliders-horizontal" class="w-4 h-4 text-brand-600"></i><b class="text-sm">Panel Pengaturan</b><button id="simReset" class="ml-auto text-xs font-bold text-brand-700 hover:underline">Reset</button></div>
+        <label class="block"><span class="text-xs font-semibold text-slate-600">Jenjang</span><select id="sJen" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm"></select></label>
+        <div><div class="flex justify-between text-xs font-semibold text-slate-600"><span>Bulan Berjalan</span><span id="sBulanV" class="text-brand-700 font-bold">12</span></div><input id="sBulan" type="range" min="1" max="12" value="12" class="w-full mt-2"></div>
+        <label class="block"><span class="text-xs font-semibold text-slate-600">Cicilan Uang Pangkal</span><select id="sCicil" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm"></select></label>
+        <div><div class="flex justify-between text-xs font-semibold text-slate-600"><span>Beasiswa / Prestasi</span><span id="sBeaV" class="text-brand-700 font-bold">0%</span></div><input id="sBea" type="range" min="0" max="50" step="5" value="0" class="w-full mt-2"></div>
+        <label class="flex items-center justify-between gap-3 text-sm font-semibold text-slate-600"><span>Diskon saudara kandung</span><input id="sSaudara" type="checkbox" class="w-5 h-5 accent-emerald-600"></label>
+        <label class="flex items-center justify-between gap-3 text-sm font-semibold text-slate-600"><span>Sertakan seragam</span><input id="sSeragam" type="checkbox" checked class="w-5 h-5 accent-emerald-600"></label>
+        <label class="flex items-center justify-between gap-3 text-sm font-semibold text-slate-600"><span>Sertakan buku tahunan</span><input id="sBuku" type="checkbox" checked class="w-5 h-5 accent-emerald-600"></label>
+        <label class="flex items-center justify-between gap-3 text-sm font-semibold text-slate-600"><span>Sertakan praktikum / PKL</span><input id="sPrak" type="checkbox" checked class="w-5 h-5 accent-emerald-600"></label>
+        <label class="block"><span class="text-xs font-semibold text-slate-600">Mode Tampilan</span><select id="sMode" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm"><option value="tahun">Total Tahun Pertama</option><option value="bulan">Beban per Bulan</option></select></label>
+      </div>
+      <div class="lg:col-span-3 space-y-4">
+        <div class="bg-gradient-to-br from-brand-700 to-teal-600 text-white rounded-3xl p-6 shadow-lg">
+          <div class="text-xs font-bold uppercase tracking-wider text-amber-300" id="simLabel">Estimasi Tahun Pertama</div>
+          <div id="simTotal" class="font-display font-extrabold text-4xl md:text-5xl mt-1">Rp0</div>
+          <div id="simSub" class="text-sm text-white/85 mt-2"></div>
+          <div class="mt-5 h-3 rounded-full bg-white/20 overflow-hidden flex" id="simBar"></div>
+          <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px]" id="simLegend"></div>
+        </div>
+        <div class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+          <div class="px-5 py-3 border-b border-slate-100 font-display font-bold text-sm">Rincian Perhitungan</div>
+          <div class="overflow-x-auto"><table class="w-full text-sm text-left"><tbody id="simRows"></tbody></table></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-50 border-y border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 py-14">
+      <div class="flex flex-wrap items-end justify-between gap-3 mb-6">
+        <div><span class="text-xs font-bold uppercase tracking-wider text-brand-600">Transparansi</span><h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Status Pembayaran SPP</h2><p class="text-slate-500 mt-1 text-sm">Rekap agregat per jenjang dari data tagihan sekolah — tanpa menampilkan identitas siswa.</p></div>
+        <a href="portal.html" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700"><i data-lucide="wallet" class="w-4 h-4"></i>Cek Tagihan Anak Saya</a>
+      </div>
+      <div id="sppGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 py-14">
+    <div class="text-center mb-8"><span class="text-xs font-bold uppercase tracking-wider text-brand-600">Payment</span><h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Metode &amp; Cara Pembayaran</h2></div>
+    <div class="grid lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6">
+        <div class="w-11 h-11 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4"><i data-lucide="landmark" class="w-5 h-5"></i></div>
+        <b class="font-display text-lg">Virtual Account</b>
+        <p class="text-sm text-slate-500 mt-1" id="vaBank">—</p>
+        <div class="mt-4 text-[11px] font-bold text-slate-400 uppercase">Format Nomor VA</div>
+        <div id="vaFormat" class="font-mono font-bold text-sm bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 mt-1">—</div>
+        <p class="text-xs text-slate-500 mt-3">Prefix + NIS + bulan (2 digit) + tahun (2 digit). Contoh: <span id="vaContoh" class="font-mono"></span></p>
+        <div class="text-[11px] text-slate-400 mt-2">a.n. <span id="vaName"></span></div>
+      </div>
+      <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 text-center">
+        <div class="w-11 h-11 mx-auto rounded-xl bg-violet-100 text-violet-700 flex items-center justify-center mb-4"><i data-lucide="qr-code" class="w-5 h-5"></i></div>
+        <b class="font-display text-lg">QRIS</b>
+        <p class="text-sm text-slate-500 mt-1" id="qrisName">—</p>
+        <div id="qrisBox" class="inline-block bg-white p-2 border border-slate-200 rounded-xl mt-4"></div>
+        <p class="text-[11px] text-amber-600 mt-2">QR demonstrasi. Produksi: hubungkan payment gateway resmi.</p>
+      </div>
+      <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6">
+        <div class="w-11 h-11 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center mb-4"><i data-lucide="list-ordered" class="w-5 h-5"></i></div>
+        <b class="font-display text-lg">Alur Pembayaran</b>
+        <ol class="mt-4 space-y-3 text-sm">
+          <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-bold flex items-center justify-center shrink-0">1</span><span>Buka <a href="portal.html" class="font-bold text-brand-700 underline">Portal Orang Tua</a>, lihat tagihan bulan berjalan.</span></li>
+          <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-bold flex items-center justify-center shrink-0">2</span><span>Bayar via VA, QRIS, atau tunai di loket bendahara.</span></li>
+          <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-bold flex items-center justify-center shrink-0">3</span><span>Kirim bukti pembayaran melalui WhatsApp bendahara.</span></li>
+          <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-bold flex items-center justify-center shrink-0">4</span><span>Bendahara memverifikasi; status berubah <b>Lunas</b> dan tercatat pada audit log.</span></li>
+        </ol>
+        <a id="waBayar" target="_blank" class="mt-5 inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700"><i data-lucide="message-circle" class="w-4 h-4"></i>Konfirmasi Pembayaran</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-brand-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-14 grid lg:grid-cols-2 gap-10">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-amber-300">Kebijakan</span>
+        <h2 class="font-display font-extrabold text-3xl mt-2">Keringanan &amp; Ketentuan</h2>
+        <div id="policyGrid" class="grid sm:grid-cols-2 gap-3 mt-6"></div>
+      </div>
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-amber-300">FAQ</span>
+        <h2 class="font-display font-extrabold text-3xl mt-2">Pertanyaan Umum</h2>
+        <div id="faqBox" class="mt-6 space-y-2"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 py-14 text-center">
+    <h2 class="font-display font-extrabold text-3xl text-slate-800">Siap Bergabung?</h2>
+    <p class="text-slate-500 mt-2 max-w-2xl mx-auto">Tim kami siap membantu rincian biaya, skema cicilan, dan pengajuan keringanan sesuai kondisi keluarga Anda.</p>
+    <div class="mt-6 flex flex-wrap justify-center gap-3">
+      <a href="ppdb.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-400 text-amber-950 font-bold hover:bg-amber-300 shadow"><i data-lucide="user-plus" class="w-5 h-5"></i>Daftar PPDB Online</a>
+      <a href="kalender.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-brand-600 text-white font-bold hover:bg-brand-700"><i data-lucide="calendar-days" class="w-5 h-5"></i>Lihat Kalender Akademik</a>
+      <a id="ctaWa" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border border-slate-300 font-bold hover:bg-slate-50"><i data-lucide="message-circle" class="w-5 h-5"></i>Tanya Biaya via WA</a>
+    </div>
+  </section>
+
+  <footer class="bg-slate-900 text-slate-300">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+      <div><b id="footNama" class="font-display text-white text-lg">Nama Sekolah</b><p id="footAlamat" class="text-sm text-slate-400 mt-3"></p><p id="footTelp" class="text-sm text-slate-400 mt-1"></p></div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Informasi</b><ul class="mt-3 space-y-2 text-sm"><li><a href="tuition.html" class="hover:text-brand-400">Tuition Fee</a></li><li><a href="kalender.html" class="hover:text-brand-400">Kalender Akademik</a></li><li><a href="index.html#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li><li><a href="index.html#fasilitas" class="hover:text-brand-400">Fasilitas</a></li></ul></div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Layanan</b><ul class="mt-3 space-y-2 text-sm"><li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li><li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li><li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li><li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li></ul></div>
+    </div>
+    <div class="border-t border-slate-800"><div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500">© 2026 <span id="footCopy"></span>. Sumber data: settings.json &amp; spp.json.</div></div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const $ = id => document.getElementById(id);
+    const JEN = ["SD", "SMP", "SMA", "SMK"];
+    const AC = { SD: ["brand", "baby"], SMP: ["sky", "book-open"], SMA: ["violet", "graduation-cap"], SMK: ["amber", "wrench"] };
+    const FULL = { SD: "Sekolah Dasar", SMP: "Sekolah Menengah Pertama", SMA: "Sekolah Menengah Atas", SMK: "Sekolah Menengah Kejuruan" };
+    const DEF = { uang_pangkal: 0, spp: 0, uang_media: 0, uang_kegiatan: 0, seragam: 0, buku: 0, kegiatan_tahunan: 0, daftar_ulang: 0, praktikum: 0, pkl: 0 };
+    let ST = {}, SPP = [], SISWA = [], KELAS = [], cur = "SMP";
+
+    const fee = j => ({ ...DEF, ...((ST.biaya || {})[j] || {}) });
+    const monthly = f => f.spp + f.uang_media + f.uang_kegiatan;
+    const yearly = f => f.seragam + f.buku + f.kegiatan_tahunan + f.daftar_ulang + f.praktikum + f.pkl;
+    const year1 = f => f.uang_pangkal + monthly(f) * 12 + yearly(f);
+    const yearN = f => monthly(f) * 12 + f.daftar_ulang + f.kegiatan_tahunan + f.praktikum + f.pkl;
+    const pol = () => ({ diskon_saudara_persen: 10, cicilan_pangkal_opsi: [1, 3, 6, 12], denda_terlambat_persen: 2, jatuh_tempo_tanggal: 10, beasiswa_maks_persen: 50, ...(ST.kebijakan || {}) });
+    const levelOf = k => { const t = String(k.tingkat || ""); if (["1","2","3","4","5","6"].includes(t)) return "SD"; if (["7","8","9"].includes(t)) return "SMP"; if (["10","11","12","13"].includes(t)) return String(k.jurusan || "-") !== "-" && /tkj|rpl|dkv|tkr|akuntansi|pemasaran|kejuruan/i.test(String(k.jurusan||"")) ? "SMK" : "SMA"; return null; };
+
+    function reveal() {
+      const els = document.querySelectorAll(".rv");
+      if (!("IntersectionObserver" in window)) { els.forEach(e => e.classList.add("in")); return; }
+      const io = new IntersectionObserver(en => en.forEach(x => { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }), { threshold: .12 });
+      els.forEach(e => io.observe(e));
+    }
+
+    function tabs() {
+      $("tabs").innerHTML = JEN.map(j => {
+        const on = j === cur, a = AC[j][0];
+        return '<button data-j="' + j + '" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-display font-bold text-sm border transition ' + (on ? "bg-" + a + "-600 text-white border-" + a + "-600 shadow-lg" : "bg-white text-slate-600 border-slate-200 hover:border-" + a + "-400") + '"><i data-lucide="' + AC[j][1] + '" class="w-4 h-4"></i>' + j + (ST.jenjang === j ? ' <span class="text-[10px] px-1.5 py-0.5 rounded-full ' + (on ? "bg-white/25" : "bg-brand-100 text-brand-700") + '">Kami</span>' : "") + "</button>";
+      }).join("");
+      $("tabs").querySelectorAll("[data-j]").forEach(b => b.onclick = () => { cur = b.dataset.j; tabs(); panel(); refreshIcons(); });
+    }
+
+    function row(l, v, note) {
+      return '<tr class="border-t border-slate-100"><td class="px-4 py-2.5"><b class="text-sm text-slate-700">' + l + '</b>' + (note ? '<div class="text-[11px] text-slate-400">' + note + "</div>" : "") + '</td><td class="px-4 py-2.5 text-right font-bold text-sm whitespace-nowrap">' + fmtRp(v) + "</td></tr>";
+    }
+
+    function panel() {
+      const f = fee(cur), a = AC[cur][0];
+      const rowsB = [["SPP Bulanan", f.spp, "Wajib, dibayar tiap bulan"], ["Uang Media & Digital", f.uang_media, "Platform belajar, CBT, dan e-rapor"], ["Uang Kegiatan Bulanan", f.uang_kegiatan, "Ekstrakurikuler & pembinaan"]].filter(r => r[1] > 0);
+      const rowsY = [["Seragam (4 stel)", f.seragam, "Sekali di awal jenjang"], ["Buku & Modul Tahunan", f.buku, ""], ["Kegiatan Tahunan", f.kegiatan_tahunan, "Pentas seni, edutrip, projek P5"], ["Daftar Ulang / Administrasi", f.daftar_ulang, "Setiap awal tahun ajaran"], ["Praktikum Laboratorium", f.praktikum, ""], ["Praktik Kerja Lapangan", f.pkl, "Khusus SMK di mitra industri"]].filter(r => r[1] > 0);
+      $("feePanel").innerHTML =
+        '<div class="grid lg:grid-cols-3 gap-6">' +
+          '<div class="rounded-3xl p-6 text-white shadow-lg bg-gradient-to-br from-' + a + '-600 to-' + a + '-800">' +
+            '<div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/80"><i data-lucide="' + AC[cur][1] + '" class="w-4 h-4"></i>' + FULL[cur] + "</div>" +
+            '<div class="mt-4 text-xs font-semibold text-white/75">Uang Pangkal (satu kali)</div>' +
+            '<div class="font-display font-extrabold text-4xl mt-1">' + fmtRp(f.uang_pangkal) + "</div>" +
+            '<p class="text-xs text-white/80 mt-3">Dapat diangsur hingga ' + Math.max.apply(null, pol().cicilan_pangkal_opsi) + '× tanpa bunga. Sudah termasuk pembangunan sarana dan orientasi siswa.</p>' +
+            '<div class="mt-5 pt-4 border-t border-white/20 grid grid-cols-2 gap-3 text-sm">' +
+              '<div><div class="text-[11px] text-white/70">Total Bulanan</div><b>' + fmtRp(monthly(f)) + "</b></div>" +
+              '<div><div class="text-[11px] text-white/70">Total Tahunan</div><b>' + fmtRp(yearly(f)) + "</b></div>" +
+            "</div>" +
+            '<a href="#simulasi" class="mt-5 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2.5 rounded-xl bg-white text-' + a + '-700"><i data-lucide="calculator" class="w-4 h-4"></i>Simulasikan ' + cur + "</a>" +
+          "</div>" +
+          '<div class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden"><div class="px-5 py-3 border-b border-slate-100 flex items-center gap-2"><i data-lucide="calendar-clock" class="w-4 h-4 text-' + a + '-600"></i><b class="font-display text-sm">Biaya Bulanan</b></div><table class="w-full text-left"><tbody>' + rowsB.map(r => row(r[0], r[1], r[2])).join("") + '<tr class="border-t-2 border-slate-200 bg-slate-50"><td class="px-4 py-3 font-bold text-sm">Jumlah / bulan</td><td class="px-4 py-3 text-right font-extrabold text-' + a + '-700">' + fmtRp(monthly(f)) + "</td></tr></tbody></table></div>" +
+          '<div class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden"><div class="px-5 py-3 border-b border-slate-100 flex items-center gap-2"><i data-lucide="calendar-range" class="w-4 h-4 text-' + a + '-600"></i><b class="font-display text-sm">Biaya Tahunan</b></div><table class="w-full text-left"><tbody>' + rowsY.map(r => row(r[0], r[1], r[2])).join("") + '<tr class="border-t-2 border-slate-200 bg-slate-50"><td class="px-4 py-3 font-bold text-sm">Jumlah / tahun</td><td class="px-4 py-3 text-right font-extrabold text-' + a + '-700">' + fmtRp(yearly(f)) + "</td></tr></tbody></table></div>" +
+        "</div>" +
+        '<div class="mt-6 grid sm:grid-cols-2 gap-4">' +
+          '<div class="bg-brand-50 border border-brand-200 rounded-2xl p-5 flex items-center gap-4"><div class="w-11 h-11 rounded-xl bg-brand-600 text-white flex items-center justify-center shrink-0"><i data-lucide="sparkles" class="w-5 h-5"></i></div><div><div class="text-xs font-bold text-slate-500 uppercase">Estimasi Tahun Pertama</div><div class="font-display font-extrabold text-2xl text-brand-800">' + fmtRp(year1(f)) + "</div></div></div>" +
+          '<div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 flex items-center gap-4"><div class="w-11 h-11 rounded-xl bg-slate-700 text-white flex items-center justify-center shrink-0"><i data-lucide="repeat" class="w-5 h-5"></i></div><div><div class="text-xs font-bold text-slate-500 uppercase">Tahun Kedua &amp; Seterusnya</div><div class="font-display font-extrabold text-2xl text-slate-700">' + fmtRp(yearN(f)) + "</div></div></div>" +
+        "</div>";
+      refreshIcons();
+    }
+
+    function compare() {
+      $("cmpBody").innerHTML = JEN.map(j => {
+        const f = fee(j), a = AC[j][0];
+        return '<tr class="border-t border-slate-100 hover:bg-slate-50"><td class="px-4 py-3"><span class="inline-flex items-center gap-2 font-bold text-' + a + '-700"><i data-lucide="' + AC[j][1] + '" class="w-4 h-4"></i>' + j + "</span></td>" +
+          '<td class="px-4 py-3 text-right">' + fmtRp(f.uang_pangkal) + '</td><td class="px-4 py-3 text-right">' + fmtRp(monthly(f)) + '</td><td class="px-4 py-3 text-right">' + fmtRp(yearly(f)) + '</td>' +
+          '<td class="px-4 py-3 text-right font-extrabold text-brand-700">' + fmtRp(year1(f)) + '</td><td class="px-4 py-3 text-right">' + fmtRp(yearN(f)) + "</td></tr>";
+      }).join("");
+      refreshIcons();
+    }
+
+    function simInit() {
+      $("sJen").innerHTML = JEN.map(j => '<option ' + (j === cur ? "selected" : "") + ">" + j + "</option>").join("");
+      $("sCicil").innerHTML = pol().cicilan_pangkal_opsi.map(n => '<option value="' + n + '">' + (n === 1 ? "Tunai (1×)" : n + "× angsuran") + "</option>").join("");
+      $("sBea").max = pol().beasiswa_maks_persen;
+      ["sJen","sBulan","sCicil","sBea","sSaudara","sSeragam","sBuku","sPrak","sMode"].forEach(id => { $(id).oninput = sim; $(id).onchange = sim; });
+      $("simReset").onclick = () => { $("sJen").value = cur; $("sBulan").value = 12; $("sCicil").value = 1; $("sBea").value = 0; $("sSaudara").checked = false; $("sSeragam").checked = true; $("sBuku").checked = true; $("sPrak").checked = true; $("sMode").value = "tahun"; sim(); };
+      sim();
+    }
+
+    function sim() {
+      const j = $("sJen").value, f = fee(j), p = pol();
+      const bln = +$("sBulan").value, cic = +$("sCicil").value, bea = +$("sBea").value;
+      $("sBulanV").textContent = bln + " bulan"; $("sBeaV").textContent = bea + "%";
+      const seragam = $("sSeragam").checked ? f.seragam : 0;
+      const buku = $("sBuku").checked ? f.buku : 0;
+      const prak = $("sPrak").checked ? f.praktikum + f.pkl : 0;
+      const bulanan = monthly(f) * bln;
+      const tahunan = seragam + buku + f.kegiatan_tahunan + f.daftar_ulang + prak;
+      const pangkal = f.uang_pangkal;
+      const gross = pangkal + bulanan + tahunan;
+      const potBea = Math.round((pangkal + bulanan) * bea / 100);
+      const potSaud = $("sSaudara").checked ? Math.round(pangkal * p.diskon_saudara_persen / 100) : 0;
+      const net = Math.max(0, gross - potBea - potSaud);
+      const perBln = Math.round(net / bln);
+      const cicPangkal = Math.round((pangkal - potSaud) / cic);
+      const mode = $("sMode").value;
+
+      $("simLabel").textContent = mode === "tahun" ? "Estimasi Tahun Pertama" : "Rata-rata Beban per Bulan";
+      $("simTotal").textContent = fmtRp(mode === "tahun" ? net : perBln);
+      $("simSub").textContent = j + " • " + bln + " bulan • cicilan pangkal " + cic + "× (" + fmtRp(cicPangkal) + "/angsuran)" + (potBea + potSaud ? " • hemat " + fmtRp(potBea + potSaud) : "");
+
+      const parts = [["Pangkal", pangkal - potSaud, "#fbbf24"], ["Bulanan", bulanan, "#4ade80"], ["Tahunan", tahunan, "#38bdf8"], ["Potongan", -(potBea), "#f472b6"]].filter(x => x[1] !== 0);
+      const totAbs = parts.reduce((a, b) => a + Math.abs(b[1]), 0) || 1;
+      $("simBar").innerHTML = parts.map(x => '<span style="width:' + (Math.abs(x[1]) / totAbs * 100) + '%;background:' + x[2] + '" title="' + x[0] + '"></span>').join("");
+      $("simLegend").innerHTML = parts.map(x => '<span class="inline-flex items-center gap-1.5"><i style="width:10px;height:10px;border-radius:99px;background:' + x[2] + ';display:inline-block"></i>' + x[0] + " " + fmtRp(Math.abs(x[1])) + "</span>").join("");
+
+      const R = (l, v, b) => '<tr class="border-t border-slate-100"><td class="px-5 py-2.5 text-sm ' + (b ? "font-bold" : "") + '">' + l + '</td><td class="px-5 py-2.5 text-right text-sm ' + (b ? "font-extrabold" : "") + ' ' + (v < 0 ? "text-rose-600" : "") + '">' + (v < 0 ? "−" : "") + fmtRp(Math.abs(v)) + "</td></tr>";
+      $("simRows").innerHTML =
+        R("Uang pangkal", pangkal) +
+        (potSaud ? R("Diskon saudara " + p.diskon_saudara_persen + "%", -potSaud) : "") +
+        R("Biaya bulanan × " + bln, bulanan) +
+        (seragam ? R("Seragam", seragam) : "") + (buku ? R("Buku tahunan", buku) : "") +
+        R("Kegiatan tahunan", f.kegiatan_tahunan) + R("Daftar ulang", f.daftar_ulang) +
+        (prak ? R("Praktikum / PKL", prak) : "") +
+        (potBea ? R("Beasiswa " + bea + "% (pangkal + bulanan)", -potBea) : "") +
+        '<tr class="border-t-2 border-slate-200 bg-brand-50">' + R("TOTAL", net, true).replace(/^<tr[^>]*>/, "").replace(/<\/tr>$/, "") + "</tr>" +
+        R("Rata-rata per bulan", perBln) + R("Angsuran pangkal per periode", cicPangkal);
+      refreshIcons();
+    }
+
+    function sppRekap() {
+      const map = {};
+      SISWA.forEach(s => { const k = KELAS.find(x => x.nama === s.kelas); const lv = k ? levelOf(k) : null; if (lv) map[s.nis] = lv; });
+      const agg = {}; JEN.forEach(j => agg[j] = { lunas: 0, belum: 0, nominal: 0, tunggakan: 0 });
+      SPP.forEach(t => { const lv = map[t.nis] || (ST.jenjang || "SMP"); if (!agg[lv]) return; if (t.status === "Lunas") { agg[lv].lunas++; agg[lv].nominal += t.nominal || 0; } else { agg[lv].belum++; agg[lv].tunggakan += t.nominal || 0; } });
+      $("sppGrid").innerHTML = JEN.map(j => {
+        const g = agg[j], tot = g.lunas + g.belum, pct = tot ? Math.round(g.lunas / tot * 100) : 0, a = AC[j][0];
+        return '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">' +
+          '<div class="flex items-center gap-2 font-display font-bold text-' + a + '-700"><i data-lucide="' + AC[j][1] + '" class="w-4 h-4"></i>' + j + "</div>" +
+          '<div class="mt-3 text-3xl font-extrabold">' + pct + '%</div><div class="text-xs text-slate-500">tagihan lunas</div>' +
+          '<div class="mt-3 h-2 rounded-full bg-slate-100 overflow-hidden"><span class="block h-full rounded-full bg-' + a + '-500" style="width:' + pct + '%"></span></div>' +
+          '<div class="mt-4 grid grid-cols-2 gap-2 text-xs"><div class="bg-emerald-50 rounded-lg p-2"><div class="text-slate-500">Lunas</div><b class="text-emerald-700">' + g.lunas + "</b></div><div class=\"bg-amber-50 rounded-lg p-2\"><div class=\"text-slate-500\">Belum</div><b class=\"text-amber-700\">" + g.belum + "</b></div></div>" +
+          '<div class="mt-3 text-[11px] text-slate-500">Diterima <b class="text-emerald-700">' + fmtRp(g.nominal) + '</b><br>Tunggakan <b class="text-rose-600">' + fmtRp(g.tunggakan) + "</b></div></div>";
+      }).join("");
+      const totL = JEN.reduce((a, j) => a + agg[j].lunas, 0), totB = JEN.reduce((a, j) => a + agg[j].belum, 0);
+      const totT = JEN.reduce((a, j) => a + agg[j].tunggakan, 0), totN = JEN.reduce((a, j) => a + agg[j].nominal, 0);
+      $("heroStats").innerHTML = [["receipt", "Tagihan Tercatat", (totL + totB)], ["circle-check", "Sudah Lunas", totL], ["clock", "Belum Dibayar", totB], ["wallet", "Dana Diterima", fmtRp(totN)]].map(s =>
+        '<div class="bg-white/12 border border-white/20 rounded-2xl p-4"><div class="flex items-center gap-2 text-[11px] font-bold text-white/80"><i data-lucide="' + s[0] + '" class="w-3.5 h-3.5 text-amber-300"></i>' + s[1] + '</div><div class="font-display font-extrabold text-xl mt-1">' + s[2] + "</div></div>").join("");
+      refreshIcons();
+    }
+
+    function policyFaq() {
+      const p = pol();
+      const items = [["percent", "Diskon Saudara", p.diskon_saudara_persen + "% potongan uang pangkal untuk anak kedua dan seterusnya."], ["award", "Beasiswa Prestasi", "Hingga " + p.beasiswa_maks_persen + "% komponen pangkal & bulanan bagi siswa berprestasi."], ["calendar-clock", "Jatuh Tempo", "Tanggal " + p.jatuh_tempo_tanggal + " setiap bulan berjalan."], ["triangle-alert", "Keterlambatan", "Denda administratif " + p.denda_terlambat_persen + "% dari nominal tertunggak."], ["hand-coins", "Cicilan Pangkal", "Tersedia " + p.cicilan_pangkal_opsi.join(", ") + "× angsuran tanpa bunga."], ["shield-check", "Transparansi", "Seluruh transaksi tercatat pada audit log dan dapat dipantau di Portal Orang Tua."]];
+      $("policyGrid").innerHTML = items.map(i => '<div class="bg-white/10 border border-white/15 rounded-2xl p-4"><div class="flex items-center gap-2 font-bold text-sm"><i data-lucide="' + i[0] + '" class="w-4 h-4 text-amber-300"></i>' + i[1] + '</div><p class="text-xs text-brand-100/85 mt-1.5">' + i[2] + "</p></div>").join("");
+      const faq = [
+        ["Apakah uang pangkal dibayar setiap tahun?", "Tidak. Uang pangkal dibayarkan satu kali selama menempuh jenjang tersebut. Tahun berikutnya hanya biaya bulanan, daftar ulang, kegiatan tahunan, dan praktikum/PKL bila ada."],
+        ["Bisakah uang pangkal diangsur?", "Bisa. Pilih skema " + p.cicilan_pangkal_opsi.join(", ") + "× angsuran tanpa bunga. Gunakan simulator di halaman ini untuk melihat beban per periode."],
+        ["Bagaimana cara mengetahui tagihan anak saya?", "Masuk ke Portal Orang Tua menggunakan NIS dan tanggal lahir siswa, lalu buka tab Tagihan SPP. Nomor Virtual Account dan QRIS tersedia di sana."],
+        ["Apakah ada keringanan bagi keluarga kurang mampu?", "Ada. Ajukan berkas pendukung ke panitia atau bendahara sekolah; sekolah menyalurkan beasiswa dan keringanan sesuai kuota dan hasil verifikasi."],
+        ["Apa yang terjadi bila terlambat membayar?", "Dikenakan denda administratif " + p.denda_terlambat_persen + "% dari nominal tertunggak. Hubungi bendahara bila memerlukan penjadwalan ulang pembayaran."],
+        ["Apakah biaya sudah termasuk seragam dan buku?", "Seragam dan buku tercantum sebagai komponen biaya tahunan pada tahun pertama. Pada simulator Anda dapat mengecualikannya bila sudah memiliki."]
+      ];
+      $("faqBox").innerHTML = faq.map((f, i) => '<details class="bg-white/10 border border-white/15 rounded-2xl overflow-hidden group"><summary class="px-4 py-3 cursor-pointer text-sm font-bold flex items-center gap-2 list-none"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-300 transition group-open:rotate-90"></i>' + f[0] + '</summary><p class="px-4 pb-4 text-xs text-brand-100/85 leading-relaxed">' + f[1] + "</p></details>").join("");
+      refreshIcons();
+    }
+
+    (async () => {
+      try { ST = await fetchJSON("settings.json"); } catch (e) { ST = {}; }
+      [SPP, SISWA, KELAS] = await Promise.all([fetchJSON("spp.json").catch(() => []), fetchJSON("siswa.json").catch(() => []), fetchJSON("kelas.json").catch(() => [])]);
+      if (!ST.biaya) ST.biaya = { SD: { ...DEF, spp: ST.spp_nominal || 150000 }, SMP: { ...DEF, spp: ST.spp_nominal || 150000 }, SMA: { ...DEF, spp: ST.spp_nominal || 150000 }, SMK: { ...DEF, spp: ST.spp_nominal || 150000 } };
+      cur = JEN.includes(ST.jenjang) ? ST.jenjang : "SMP";
+      const nama = ST.nama_sekolah || "Nama Sekolah";
+      ["navNama", "footNama", "footCopy"].forEach(id => $(id).textContent = nama);
+      $("navNpsn").textContent = "NPSN " + (ST.npsn || "—");
+      $("heroTA").textContent = ST.tahun_ajaran || "";
+      $("footAlamat").textContent = ST.alamat || ""; $("footTelp").textContent = ST.telepon || "";
+      document.title = "Tuition Fee — " + nama;
+      const wa = "https://wa.me/" + (ST.wa_admin || "").replace(/^0/, "62");
+      $("ctaWa").href = wa + "?text=" + encodeURIComponent("Assalamualaikum, saya ingin menanyakan rincian biaya pendidikan di " + nama + ".");
+      $("waBayar").href = wa + "?text=" + encodeURIComponent("Konfirmasi pembayaran SPP. Nama siswa: … NIS: … Bulan: … Nominal: … (bukti terlampir)");
+      const b = ST.bank || {};
+      $("vaBank").textContent = b.nama || "Bank Mitra";
+      $("vaFormat").textContent = (b.va_prefix || "") + " + NIS + BB + TT";
+      $("vaContoh").textContent = (b.va_prefix || "") + "20260011126";
+      $("vaName").textContent = b.atas_nama || nama;
+      $("qrisName").textContent = (ST.qris || {}).merchant || nama;
+      try { new QRCode($("qrisBox"), { text: "QRIS-DEMO:" + (ST.npsn || "") + ":" + ((ST.qris || {}).nmid || "") + ":" + nama, width: 132, height: 132 }); } catch (e) {}
+      tabs(); panel(); compare(); simInit(); sppRekap(); policyFaq(); reveal(); refreshIcons();
+    })();
+
+    $("btnPrint").onclick = () => {
+      const head = "<div class='center'><h2>RINCIAN BIAYA PENDIDIKAN</h2><div class='muted'>" + esc(ST.nama_sekolah || "") + " • NPSN " + esc(ST.npsn || "") + " • TA " + esc(ST.tahun_ajaran || "") + "</div></div><hr>";
+      const tbl = JEN.map(j => {
+        const f = fee(j);
+        return "<h3>" + j + " — " + FULL[j] + "</h3><table><tr><th>Uang Pangkal</th><td class='right'>" + fmtRp(f.uang_pangkal) + "</td></tr>" +
+          "<tr><th>SPP / bulan</th><td class='right'>" + fmtRp(f.spp) + "</td></tr><tr><th>Uang Media / bulan</th><td class='right'>" + fmtRp(f.uang_media) + "</td></tr><tr><th>Uang Kegiatan / bulan</th><td class='right'>" + fmtRp(f.uang_kegiatan) + "</td></tr>" +
+          "<tr><th>Total Bulanan</th><td class='right'>" + fmtRp(monthly(f)) + "</td></tr><tr><th>Seragam</th><td class='right'>" + fmtRp(f.seragam) + "</td></tr><tr><th>Buku Tahunan</th><td class='right'>" + fmtRp(f.buku) + "</td></tr>" +
+          "<tr><th>Kegiatan Tahunan</th><td class='right'>" + fmtRp(f.kegiatan_tahunan) + "</td></tr><tr><th>Daftar Ulang</th><td class='right'>" + fmtRp(f.daftar_ulang) + "</td></tr><tr><th>Praktikum / PKL</th><td class='right'>" + fmtRp(f.praktikum + f.pkl) + "</td></tr>" +
+          "<tr><th>TOTAL TAHUN PERTAMA</th><td class='right'><b>" + fmtRp(year1(f)) + "</b></td></tr><tr><th>Tahun berikutnya</th><td class='right'>" + fmtRp(yearN(f)) + "</td></tr></table>";
+      }).join("");
+      const p = pol();
+      printHTML("Tuition Fee " + (ST.nama_sekolah || ""), head + tbl + "<h3>Ketentuan</h3><p>Diskon saudara " + p.diskon_saudara_persen + "% • Beasiswa maks " + p.beasiswa_maks_persen + "% • Cicilan pangkal " + p.cicilan_pangkal_opsi.join("/") + "× • Jatuh tempo tanggal " + p.jatuh_tempo_tanggal + " • Denda keterlambatan " + p.denda_terlambat_persen + "%.</p><p class='muted'>Dokumen ini bersifat estimasi resmi sekolah; konfirmasi akhir ke bendahara.</p>");
+    };
+    $("mBtn").onclick = () => $("mMenu").classList.toggle("hidden");
+    document.querySelectorAll("#mMenu a").forEach(a => a.onclick = () => $("mMenu").classList.add("hidden"));
+  </script>
+</body>
+</html>
