@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwranj1r2hvrr",
+    "waktu": "2026-11-22T03:45:25.552Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Selamat Datang di Sekolah Kami Bahagia Belajar"
+  },
+  {
     "id": "mwrac637w5mlf",
     "waktu": "2026-11-22T03:36:35.539Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Keuangan",
     "aksi": "SCAN QR",
     "detail": "Buku Ceros & Batozar Jilid 5"
-  },
-  {
-    "id": "AU0485",
-    "waktu": "2026-11-17T17:13:25.553Z",
-    "aktor": "bendahara",
-    "modul": "Sistem",
-    "aksi": "PUBLIKASI",
-    "detail": "Kelas 3AT"
   }
 ]
