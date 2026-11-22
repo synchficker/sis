@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwraoe3blwcn9",
+    "waktu": "2026-11-22T03:46:05.783Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "EDIT SLIDE",
+    "detail": "Selamat Datang di Sekolah Kami Bahagia Belajar"
+  },
+  {
     "id": "mwrao34elp2b7",
     "waktu": "2026-11-22T03:45:51.566Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Konten Website",
     "aksi": "URUTKAN",
     "detail": "Tagihan SPP Maret"
-  },
-  {
-    "id": "AU0483",
-    "waktu": "2026-11-16T06:01:37.553Z",
-    "aktor": "kurikulum",
-    "modul": "LMS/CBT",
-    "aksi": "PUBLIKASI",
-    "detail": "Tagihan SPP Agustus"
   }
 ]
