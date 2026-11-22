@@ -95,11 +95,67 @@ async function renderDashboard() {
       '</ul><a href="#/audit" class="inline-block mt-3 text-xs font-bold text-emerald-700">Lihat semua audit →</a>') + "</div>";
   refreshIcons();
 }
+// ---------- Pembatas 50 baris (konsisten di SEMUA modul, sama seperti "Data Induk Siswa") ----------
+// Modul CRUD (#tb) sudah memakai paginasi sendiri di renderCRUD. Untuk modul khusus (Ujian, SPP, Gaji, Audit, Chat,
+// Notifikasi, Peminjaman, Kegiatan, Kalender, dst.) setiap tabel / daftar berulang yang berisi > 50 item hanya menampilkan
+// 50 pertama + tombol "Muat 50 baris lagi". Aman terhadap render ulang modul (filter/cari) lewat MutationObserver.
+const _lsPg = new WeakMap();
+let _lsPgBusy = false, _lsPgT = 0, _lsPgMO = null;
+function _lsPgAttach(host, items, after) {
+  let st = _lsPg.get(host);
+  if (!st) { st = { shown: PAGE_N, count: -1, pager: null }; _lsPg.set(host, st); }
+  if (items.length !== st.count) { st.count = items.length; st.shown = PAGE_N; }   // data berubah (filter/cari) -> kembali ke 50 pertama
+  if (items.length <= PAGE_N) {
+    items.forEach(el => el.removeAttribute("data-pg"));
+    if (st.pager) { st.pager.remove(); st.pager = null; }
+    return;
+  }
+  items.forEach((el, i) => { if (i < st.shown) el.removeAttribute("data-pg"); else el.setAttribute("data-pg", "1"); });
+  if (!st.pager || !st.pager.isConnected) {
+    const p = document.createElement("div");
+    p.className = "lspager px-4 py-2 text-xs text-slate-500 border-t border-slate-100 flex flex-wrap items-center gap-x-3 gap-y-1";
+    p.innerHTML = '<span class="pgInfo"></span><button type="button" class="pgMore px-3 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 font-bold text-slate-700">Muat 50 baris lagi</button>';
+    p.querySelector(".pgMore").onclick = () => { st.shown += PAGE_N; _lsPgRun(); };
+    after.after(p); st.pager = p;
+  }
+  st.pager.querySelector(".pgInfo").textContent = Math.min(st.shown, items.length) + " dari " + items.length + " baris";
+  st.pager.querySelector(".pgMore").classList.toggle("hidden", st.shown >= items.length);
+}
+function _lsPgRun() {
+  const root = document.getElementById("app"); if (!root) return;
+  _lsPgBusy = true;
+  try {
+    root.querySelectorAll("tbody").forEach(tb => {
+      if (tb.id === "tb") return;                                   // CRUD: sudah dipaginasi
+      const table = tb.closest("table"); if (!table) return;
+      _lsPgAttach(tb, [...tb.children].filter(r => r.tagName === "TR"), table.closest(".overflow-x-auto") || table);
+    });
+    root.querySelectorAll("*").forEach(p => {                       // daftar berulang non-tabel (mis. gelembung Chat)
+      if (["TBODY", "TABLE", "THEAD", "SELECT", "TR"].includes(p.tagName) || p.classList.contains("lspager") || p.children.length <= PAGE_N) return;
+      const c = [...p.children].filter(x => !x.classList.contains("lspager"));
+      const tag = {}; c.forEach(x => { tag[x.tagName] = (tag[x.tagName] || 0) + 1; });
+      const top = Object.keys(tag).sort((a, b) => tag[b] - tag[a])[0];
+      if (tag[top] > PAGE_N) _lsPgAttach(p, c.filter(x => x.tagName === top), p);
+    });
+  } finally { _lsPgBusy = false; }
+}
+function lsPaginate() {
+  const root = document.getElementById("app"); if (!root) return;
+  if (!_lsPgMO) {
+    _lsPgMO = new MutationObserver(() => { if (_lsPgBusy) return; clearTimeout(_lsPgT); _lsPgT = setTimeout(_lsPgRun, 40); });
+    _lsPgMO.observe(root, { childList: true, subtree: true });
+  }
+  _lsPgRun();
+}
 // ---------- Router & inisialisasi ----------
 async function route() {
   stopScanner();
-  const key = location.hash.replace("#/", "") || "siswa";
-  const m = MOD[key] || MOD.siswa;
+  // Default = Dashboard (dulu "siswa"). Hash kosong/tidak dikenal -> Dashboard.
+  let key = location.hash.replace("#/", "") || "dashboard";
+  if (!MOD[key]) key = "dashboard";
+  if (!location.hash) history.replaceState(null, "", location.pathname + location.search + "#/dashboard");
+  const m = MOD[key];
+  const sa = document.getElementById("scrollArea"); if (sa) sa.scrollTop = 0;
   document.querySelectorAll("[data-nav]").forEach(a => {
     const on = a.dataset.nav === key;
     a.classList.toggle("bg-emerald-600", on); a.classList.toggle("text-white", on);
@@ -116,6 +172,7 @@ async function route() {
     toast(e.message, "error");
   }
   refreshIcons();
+  lsPaginate();
 }
 document.getElementById("ghUser").textContent = sessionStorage.getItem("gh_user") || "admin";
 const av = sessionStorage.getItem("gh_avatar"); if (av) document.getElementById("ghAvatar").src = av;
@@ -128,4 +185,6 @@ document.getElementById("backdrop").onclick = () => { document.getElementById("s
 document.getElementById("modalX").onclick = closeModal;
 document.getElementById("modalCancel").onclick = closeModal;
 window.addEventListener("hashchange", route);
-route();
+// FIXED: route awal dijalankan SETELAH semua skrip modul (slider, galeri, kegiatan, kalender, biaya, login, tampilan) terpasang.
+// Dulu dipanggil di sini, sebelum MOD.slider dst. terdaftar -> membuka/refresh #/slider memuat modul yang salah.
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", route); else route();
