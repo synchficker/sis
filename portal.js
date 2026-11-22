@@ -60,7 +60,8 @@ async function tabRingkasan() {
 async function tabNilai() {
   const nilai = (await fetchJSON("nilai.json")).filter(n => n.nis === P.siswa.nis);
   pBody().innerHTML = pc('<b class="text-sm">Rekap Nilai — Semester ' + esc(P.st.semester) + " " + esc(P.st.tahun_ajaran) + '</b><div class="overflow-x-auto mt-3"><table class="w-full text-left"><thead class="bg-slate-50"><tr>' + ["Mapel", "Jenis", "TP / KD", "Nilai", "Predikat"].map(h => '<th class="px-3 py-2 text-xs font-bold uppercase text-slate-500">' + h + "</th>").join("") + "</tr></thead><tbody>" +
-    (nilai.map(n => '<tr class="border-b border-slate-100"><td class="px-3 py-2 text-sm font-semibold">' + esc(n.mapel) + '</td><td class="px-3 py-2 text-sm">' + esc(n.jenis) + '</td><td class="px-3 py-2 text-sm">' + esc(n.tp) + '</td><td class="px-3 py-2 text-sm font-bold">' + n.nilai + '</td><td class="px-3 py-2 text-sm">' + predikat(n.nilai) + "</td></tr>").join("") || '<tr><td colspan="5" class="px-3 py-8 text-center text-sm text-slate-400">Belum ada nilai.</td></tr>') +
+    // FIXED: n.nilai dicetak mentah ke HTML; kini di-esc() (nilai dari JSON publik, bisa berisi markup).
+    (nilai.map(n => '<tr class="border-b border-slate-100"><td class="px-3 py-2 text-sm font-semibold">' + esc(n.mapel) + '</td><td class="px-3 py-2 text-sm">' + esc(n.jenis) + '</td><td class="px-3 py-2 text-sm">' + esc(n.tp) + '</td><td class="px-3 py-2 text-sm font-bold">' + esc(n.nilai) + '</td><td class="px-3 py-2 text-sm">' + predikat(n.nilai) + "</td></tr>").join("") || '<tr><td colspan="5" class="px-3 py-8 text-center text-sm text-slate-400">Belum ada nilai.</td></tr>') +
     "</tbody></table></div>");
 }
 async function tabAbsensi() {

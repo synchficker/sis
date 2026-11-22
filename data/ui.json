@@ -1,0 +1,486 @@
+{
+  "versi": 1,
+  "tema": {
+    "preset": "zamrud",
+    "primary": "",
+    "accent": "",
+    "accent2": "",
+    "success": "#16a34a",
+    "warning": "#f59e0b",
+    "danger": "#e11d48",
+    "info": "#0ea5e9",
+    "ink": "#0f172a",
+    "surface": "#ffffff",
+    "muted": "#64748b",
+    "line": "#e2e8f0",
+    "track": "#f0fdf4",
+    "fontDisplay": "Poppins",
+    "fontBody": "Inter",
+    "radius": 24,
+    "skala": 1,
+    "lebar": 1280,
+    "ritme": 64,
+    "animasi": true,
+    "reveal": true,
+    "latar": "mesh",
+    "grain": false,
+    "grainInt": 6,
+    "aurora": false,
+    "auroraSpeed": 26,
+    "blur": 30,
+    "scrollbar": "palet"
+  },
+  "header": {
+    "aktif": true,
+    "sticky": true,
+    "tinggi": 72,
+    "blur": 12,
+    "transparan": 92,
+    "border": true,
+    "bayangan": true,
+    "lebar": 1280,
+    "logoIkon": "school",
+    "logoGambar": "",
+    "logoBentuk": "kotak",
+    "logoUkuran": 40,
+    "tampilkanNama": true,
+    "tampilkanNpsn": true,
+    "namaOverride": "",
+    "subOverride": "",
+    "topbarAktif": false,
+    "topbarTeks": "Penerimaan Peserta Didik Baru telah dibuka — kuota terbatas.",
+    "topbarLabel": "Daftar",
+    "topbarHref": "ppdb.html",
+    "topbarWarna": "amber",
+    "topbarTinggi": 34,
+    "nav": [
+      {
+        "label": "Profil",
+        "href": "#profil",
+        "aktif": true
+      },
+      {
+        "label": "Program",
+        "href": "#program",
+        "aktif": true
+      },
+      {
+        "label": "Tuition Fee",
+        "href": "tuition.html",
+        "aktif": true
+      },
+      {
+        "label": "Kalender",
+        "href": "kalender.html",
+        "aktif": true
+      },
+      {
+        "label": "Kegiatan",
+        "href": "#kegiatan",
+        "aktif": true
+      },
+      {
+        "label": "Akademik",
+        "href": "#akademik",
+        "aktif": true
+      },
+      {
+        "label": "Fasilitas",
+        "href": "#fasilitas",
+        "aktif": true
+      },
+      {
+        "label": "Kontak",
+        "href": "#kontak",
+        "aktif": true
+      }
+    ],
+    "navGaya": "garis",
+    "scrollspy": true,
+    "sembunyiSaatTurun": false,
+    "ctaAktif": true,
+    "ctaLabel": "Daftar Sekarang",
+    "ctaHref": "ppdb.html",
+    "ctaIkon": "user-plus",
+    "ctaWarna": "amber",
+    "cta2Aktif": true,
+    "cta2Label": "Portal Ortu",
+    "cta2Href": "portal.html",
+    "menuAnimasi": true
+  },
+  "body": {
+    "urutan": [
+      "beranda",
+      "statistik",
+      "berita",
+      "profil",
+      "program",
+      "kegiatan",
+      "akademik",
+      "fasilitas",
+      "kontak"
+    ],
+    "progresBaca": true,
+    "keAtas": true,
+    "seksi": {
+      "beranda": {
+        "aktif": true,
+        "latar": "transparan"
+      },
+      "statistik": {
+        "aktif": true,
+        "latar": "transparan",
+        "overlap": true,
+        "animasiAngka": true,
+        "kolom": 4,
+        "items": [
+          {
+            "ikon": "users",
+            "label": "Siswa Aktif",
+            "sumber": "siswa",
+            "warna": "brand"
+          },
+          {
+            "ikon": "briefcase",
+            "label": "Guru & Tendik",
+            "sumber": "guru",
+            "warna": "sky"
+          },
+          {
+            "ikon": "school",
+            "label": "Rombel / Kelas",
+            "sumber": "kelas",
+            "warna": "violet"
+          },
+          {
+            "ikon": "library",
+            "label": "Koleksi Buku",
+            "sumber": "buku",
+            "warna": "amber"
+          }
+        ]
+      },
+      "berita": {
+        "aktif": true,
+        "latar": "putih",
+        "eyebrow": "",
+        "judul": "What's going on?",
+        "sub": "Kabar terbaru seputar kegiatan belajar, pengumuman, dan agenda sekolah. Tetap terinformasi dan terinspirasi!",
+        "jumlah": 6,
+        "tautanLabel": "More Articles",
+        "tautanHref": "belajar.html",
+        "kolom": 3
+      },
+      "profil": {
+        "aktif": true,
+        "latar": "mint",
+        "eyebrow": "About Us",
+        "judul": "Tentang",
+        "teksOverride": "",
+        "foto": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=60",
+        "kepsekKartu": true,
+        "brosurAktif": true,
+        "brosurLabel": "Download E-Brochure",
+        "sosialLabel": "Stay Connected:",
+        "sosial": [
+          {
+            "ikon": "message-circle",
+            "href": "wa",
+            "aktif": true
+          },
+          {
+            "ikon": "mail",
+            "href": "mail",
+            "aktif": true
+          },
+          {
+            "ikon": "instagram",
+            "href": "#kontak",
+            "aktif": true
+          },
+          {
+            "ikon": "youtube",
+            "href": "#kontak",
+            "aktif": true
+          }
+        ]
+      },
+      "program": {
+        "aktif": true,
+        "latar": "putih",
+        "eyebrow": "What We Have",
+        "judul": "Program Sekolah",
+        "sub": "Jenjang pendidikan yang kami layani dalam satu ekosistem digital terpadu.",
+        "kolom": 4,
+        "tandaiJenjang": true,
+        "detailLabel": "Detail",
+        "kartu": [
+          {
+            "kode": "SD",
+            "nama": "Sekolah Dasar",
+            "desk": "Fondasi literasi, numerasi, dan karakter melalui pembelajaran tematik yang menyenangkan.",
+            "ikon": "baby",
+            "href": "sd.html",
+            "warna": "brand"
+          },
+          {
+            "kode": "SMP",
+            "nama": "Sekolah Menengah Pertama",
+            "desk": "Penguatan akademik, minat bakat, dan berpikir kritis berbasis projek.",
+            "ikon": "book-open",
+            "href": "smp.html",
+            "warna": "sky"
+          },
+          {
+            "kode": "SMA",
+            "nama": "Sekolah Menengah Atas",
+            "desk": "Persiapan perguruan tinggi & karier dengan peminatan MIPA/IPS.",
+            "ikon": "graduation-cap",
+            "href": "sma.html",
+            "warna": "violet"
+          },
+          {
+            "kode": "SMK",
+            "nama": "Sekolah Menengah Kejuruan",
+            "desk": "Kompetensi keahlian siap kerja melalui Teaching Factory & PKL industri.",
+            "ikon": "wrench",
+            "href": "smk.html",
+            "warna": "amber"
+          }
+        ]
+      },
+      "kegiatan": {
+        "aktif": true,
+        "latar": "mint",
+        "eyebrow": "School Activities"
+      },
+      "akademik": {
+        "aktif": true,
+        "latar": "abu",
+        "eyebrow": "Kalender Akademik",
+        "judul": "Agenda Terdekat",
+        "jumlah": 6,
+        "tautanLabel": "Lihat E-Learning",
+        "tautanHref": "belajar.html",
+        "kalenderTautan": true
+      },
+      "fasilitas": {
+        "aktif": true,
+        "latar": "gelap",
+        "eyebrow": "Facilities",
+        "judul": "Fasilitas Sekolah",
+        "kolom": 4,
+        "turAktif": true,
+        "turLabel": "Virtual Tour",
+        "turVideo": "https://www.youtube.com/embed/aqz-KE-bpKQ",
+        "items": [
+          {
+            "nama": "Perpustakaan",
+            "ikon": "library",
+            "ket": "{buku} koleksi buku",
+            "foto": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=60"
+          },
+          {
+            "nama": "Lab Komputer",
+            "ikon": "monitor",
+            "ket": "{laptop} unit perangkat",
+            "foto": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=60"
+          },
+          {
+            "nama": "Ruang Kelas",
+            "ikon": "school",
+            "ket": "{kelas} rombongan belajar",
+            "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=60"
+          },
+          {
+            "nama": "Sarana Olahraga",
+            "ikon": "trophy",
+            "ket": "Aktivitas & ekstrakurikuler",
+            "foto": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=600&q=60"
+          }
+        ]
+      },
+      "kontak": {
+        "aktif": true,
+        "latar": "putih",
+        "eyebrow": "Find Us Here",
+        "judul": "Kunjungi Sekolah Kami",
+        "petaAktif": true,
+        "petaZoom": 15,
+        "petaTinggi": 340,
+        "jamJudul": "Jam Layanan Administrasi",
+        "jamTeks": "Senin–Jumat, 07.00–15.00 WIB. Untuk informasi PPDB, SPP, dan akademik, hubungi kami melalui WhatsApp atau Portal Orang Tua.",
+        "tombol": [
+          {
+            "label": "Google Maps",
+            "href": "maps",
+            "ikon": "map",
+            "gaya": "primary"
+          },
+          {
+            "label": "WhatsApp",
+            "href": "wa",
+            "ikon": "message-circle",
+            "gaya": "outline"
+          },
+          {
+            "label": "Daftar",
+            "href": "ppdb.html",
+            "ikon": "user-plus",
+            "gaya": "amber"
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "aktif": true,
+    "latar": "#0f172a",
+    "teks": "#cbd5e1",
+    "garis": "#1e293b",
+    "kolom": 5,
+    "brandAktif": true,
+    "brandTeks": "",
+    "brandLogo": true,
+    "sosial": [
+      {
+        "ikon": "message-circle",
+        "href": "wa",
+        "aktif": true
+      },
+      {
+        "ikon": "mail",
+        "href": "mail",
+        "aktif": true
+      },
+      {
+        "ikon": "instagram",
+        "href": "#kontak",
+        "aktif": true
+      },
+      {
+        "ikon": "youtube",
+        "href": "#kontak",
+        "aktif": true
+      }
+    ],
+    "grup": [
+      {
+        "judul": "About Us",
+        "tautan": [
+          {
+            "label": "Profil Sekolah",
+            "href": "#profil",
+            "aktif": true
+          },
+          {
+            "label": "Program",
+            "href": "#program",
+            "aktif": true
+          },
+          {
+            "label": "Fasilitas",
+            "href": "#fasilitas",
+            "aktif": true
+          },
+          {
+            "label": "Kontak",
+            "href": "#kontak",
+            "aktif": true
+          }
+        ]
+      },
+      {
+        "judul": "Layanan",
+        "tautan": [
+          {
+            "label": "Tuition Fee",
+            "href": "tuition.html",
+            "aktif": true
+          },
+          {
+            "label": "Kalender Akademik",
+            "href": "kalender.html",
+            "aktif": true
+          },
+          {
+            "label": "PPDB Online",
+            "href": "ppdb.html",
+            "aktif": true
+          },
+          {
+            "label": "Portal Orang Tua",
+            "href": "portal.html",
+            "aktif": true
+          },
+          {
+            "label": "E-Learning",
+            "href": "belajar.html",
+            "aktif": true
+          },
+          {
+            "label": "Ujian CBT",
+            "href": "cbt.html",
+            "aktif": true
+          }
+        ]
+      },
+      {
+        "judul": "Jelajahi",
+        "tautan": [
+          {
+            "label": "Kegiatan Sekolah",
+            "href": "#kegiatan",
+            "aktif": true
+          },
+          {
+            "label": "Agenda Akademik",
+            "href": "#akademik",
+            "aktif": true
+          },
+          {
+            "label": "Berita",
+            "href": "#berita",
+            "aktif": true
+          },
+          {
+            "label": "Program SD",
+            "href": "sd.html",
+            "aktif": true
+          },
+          {
+            "label": "Program SMP",
+            "href": "smp.html",
+            "aktif": true
+          },
+          {
+            "label": "Program SMA",
+            "href": "sma.html",
+            "aktif": true
+          },
+          {
+            "label": "Program SMK",
+            "href": "smk.html",
+            "aktif": true
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 {sekolah}. Sistem Informasi Sekolah statis (GitHub Pages).",
+    "catatan": "Slider & konten dikelola dari Panel Admin • data/*.json",
+    "gateAktif": true,
+    "gateOpasitas": 20,
+    "gatePosisi": "tengah",
+    "gateHref": "login.html",
+    "gateLabel": "Area Administrator"
+  },
+  "fab": {
+    "waAktif": true,
+    "waPosisi": "kanan-bawah",
+    "waUkuran": 56,
+    "waWarna": "primary",
+    "waPulse": true,
+    "waTooltip": "Chat WhatsApp",
+    "waPesan": "Assalamualaikum, saya ingin bertanya tentang sekolah."
+  }
+}

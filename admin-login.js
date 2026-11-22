@@ -12,7 +12,7 @@ const el = id => document.getElementById(id);
   const exp = Number(sessionStorage.getItem("gh_token_exp") || 0);
   if (exp && Date.now() > exp) {
     ["gh_token","gh_user","gh_avatar","gh_token_exp"].forEach(k => sessionStorage.removeItem(k));
-    location.replace("login.html"); return;
+    location.replace(window.siteUrl ? siteUrl("login") : "login/"); return;
   }
   let cfg = { sesi_menit: 120, sesi_geser: true };
   fetchJSON("login.json").then(c => { cfg = { ...cfg, ...(c||{}) }; }).catch(()=>{});

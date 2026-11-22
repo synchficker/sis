@@ -29,11 +29,12 @@
     { "q": "Di mana membuat PAT?", "a": "GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token." },
     { "q": "Izin apa yang diperlukan?", "a": "Repository access: pilih repo ini. Permissions → Repository permissions → Contents: Read and write." },
     { "q": "Apakah token disimpan di repo?", "a": "Tidak. Token tidak pernah ditulis ke file mana pun; hanya berada di sessionStorage peramban." },
-    { "q": "Token ditolak, kenapa?", "a": "Periksa masa berlaku token, izin Contents, dan bahwa nama repo pada config.js sudah benar." }
+    { "q": "Token ditolak, kenapa?", "a": "Periksa masa berlaku token, izin Contents, dan bahwa nama repo pada config.js sudah benar." },
+    { "q": "Kenapa alamatnya tanpa .html?", "a": "Situs memakai URL bersih berbasis folder, misalnya /admin/ dan /login/, agar tautan rapi dan mudah dibagikan." }
   ],
   "back_label": "Kembali ke halaman publik",
-  "back_href": "index.html",
-  "redirect": "admin.html",
+  "back_href": "./",
+  "redirect": "admin/",
   "min_panjang": 20,
   "prefiks_wajib": true,
   "izinkan_classic": true,

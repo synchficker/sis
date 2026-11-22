@@ -14,7 +14,8 @@ const show = id => { ["scrPick", "scrExam", "scrHasil"].forEach(s => $(s).classL
     ]);
     const aktif = UJIAN.filter(u => u.status === "Aktif");
     $("uList").innerHTML = aktif.map(u =>
-      '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5"><div class="text-xs font-bold text-emerald-700">' + esc(u.mapel) + " • Kelas " + esc(u.kelas) + '</div><b class="block mt-1">' + esc(u.judul) + '</b><div class="text-xs text-slate-500 mt-1">' + (u.soal_ids || []).length + " soal • " + u.durasi + " menit • " + fmtTgl(u.tanggal) + '</div><button data-join="' + u.id + '" class="mt-4 w-full py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-sm hover:bg-emerald-700">Ikuti Ujian</button></div>'
+      // FIXED: u.durasi & u.id (dari ujian.json publik) masuk HTML/atribut tanpa esc(); kini di-esc().
+      '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5"><div class="text-xs font-bold text-emerald-700">' + esc(u.mapel) + " • Kelas " + esc(u.kelas) + '</div><b class="block mt-1">' + esc(u.judul) + '</b><div class="text-xs text-slate-500 mt-1">' + (u.soal_ids || []).length + " soal • " + esc(u.durasi) + " menit • " + fmtTgl(u.tanggal) + '</div><button data-join="' + esc(u.id) + '" class="mt-4 w-full py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-sm hover:bg-emerald-700">Ikuti Ujian</button></div>'
     ).join("") || '<p class="text-sm text-slate-400">Belum ada ujian berstatus Aktif.</p>';
     document.querySelectorAll("[data-join]").forEach(b => b.onclick = () => {
       const u = UJIAN.find(x => x.id === b.dataset.join);

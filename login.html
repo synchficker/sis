@@ -121,7 +121,7 @@ async function doLogin(token, api){
     api.attempts(0); api.busy(false);
 
     let left = 3;
-    const target = CFG.redirect || "admin.html";
+    const target = (window.cleanUrl ? cleanUrl(CFG.redirect || "admin.html") : (CFG.redirect || "admin/"));
     const go = () => { location.href = target; };
     api.veil("ok", "Selamat datang, " + user.login,
       "Izin tulis terverifikasi. Mengalihkan ke " + target + " dalam " + left + " detik…", "Masuk sekarang");

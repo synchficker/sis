@@ -145,35 +145,7 @@
       materi.slice(0, 2).forEach(m => news.push([m.judul, m.deskripsi || "Materi pembelajaran terbaru.", "belajar.html", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=60"]));
 
       root().innerHTML = `
-      <header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-4 h-[72px] flex items-center gap-3">
-          <a href="index.html" class="flex items-center gap-2.5 min-w-0">
-            <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center shrink-0"><i data-lucide="school" class="w-5 h-5"></i></div>
-            <div class="min-w-0 leading-tight"><div class="font-display font-bold text-brand-800 truncate">${esc(nama)}</div><div class="text-[11px] text-slate-400">NPSN ${esc(ST.npsn || "—")}</div></div>
-          </a>
-          <nav class="hidden lg:flex items-center gap-1 ml-6 text-sm font-semibold text-slate-600">
-            ${navlink("index.html#profil", "Profil")}${navlink("index.html#program", "Program")}${navlink("index.html#fasilitas", "Fasilitas")}${navlink("index.html#berita", "Berita")}${navlink("index.html#kontak", "Kontak")}
-          </nav>
-          <div class="flex-1"></div>
-          <div class="hidden md:flex items-center gap-2">
-            <a href="portal.html" class="text-sm font-bold px-3 py-2 rounded-lg text-brand-700 hover:bg-brand-50">Portal Ortu</a>
-            <a href="ppdb.html" class="text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300 shadow-sm">Register Now</a>
-            <a href="login.html" class="text-sm font-bold px-3 py-2 rounded-lg border border-slate-200 hover:bg-slate-50 inline-flex items-center gap-1.5"><i data-lucide="key-round" class="w-4 h-4"></i>Login</a>
-          </div>
-          <button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100"><i data-lucide="menu" class="w-6 h-6"></i></button>
-        </div>
-        <div id="mMenu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1 text-sm font-semibold">
-          <a href="index.html#profil" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Profil</a>
-          <a href="index.html#program" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Program</a>
-          <a href="index.html#fasilitas" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Fasilitas</a>
-          <a href="belajar.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">E-Learning</a>
-          <a href="cbt.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Ujian CBT</a>
-          <div class="flex gap-2 pt-2">
-            <a href="ppdb.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Daftar</a>
-            <a href="portal.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-brand-600 text-white font-bold">Portal Ortu</a>
-          </div>
-        </div>
-      </header>
+      <!-- Header & footer situs dipasang oleh app.js (LiveSite) agar sama persis dengan beranda -->
 
       <section class="relative overflow-hidden bg-gradient-to-br ${L.grad} text-white pt-[72px]">
         <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20 grid lg:grid-cols-2 gap-10 items-center">
@@ -279,21 +251,12 @@
         </div>
       </section>
 
-      <footer class="bg-slate-900 text-slate-300">
-        <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
-          <div><b class="font-display text-white text-lg">${esc(nama)}</b><p class="text-sm text-slate-400 mt-3">${esc(ST.alamat || "")}</p><p class="text-sm text-slate-400 mt-1">${esc(ST.telepon || "")}</p></div>
-          <div><b class="text-white text-sm uppercase tracking-wider">Program</b><ul class="mt-3 space-y-2 text-sm"><li><a href="sd.html" class="hover:text-brand-400">SD</a></li><li><a href="smp.html" class="hover:text-brand-400">SMP</a></li><li><a href="sma.html" class="hover:text-brand-400">SMA</a></li><li><a href="smk.html" class="hover:text-brand-400">SMK</a></li></ul></div>
-          <div><b class="text-white text-sm uppercase tracking-wider">Layanan</b><ul class="mt-3 space-y-2 text-sm"><li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li><li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li><li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li><li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li></ul></div>
-        </div>
-        <div class="border-t border-slate-800"><div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500">© 2026 ${esc(nama)}. Sistem Informasi Sekolah statis (GitHub Pages).</div></div>
-      </footer>
+
 
       <div id="galModal" class="hidden fixed inset-0 z-[60] bg-slate-900/80 flex items-center justify-center p-4">
         <div class="max-w-3xl w-full"><div class="flex justify-end mb-2"><button id="galClose" class="text-white p-2 rounded-lg hover:bg-white/10"><i data-lucide="x" class="w-6 h-6"></i></button></div><img id="galImg" class="w-full rounded-2xl shadow-2xl" alt="Galeri"></div>
       </div>`;
 
-      $("mBtn").onclick = () => $("mMenu").classList.toggle("hidden");
-      document.querySelectorAll("#mMenu a").forEach(a => a.onclick = () => $("mMenu").classList.add("hidden"));
       document.querySelectorAll("[data-gal]").forEach(b => b.onclick = () => { $("galImg").src = b.dataset.gal; $("galModal").classList.remove("hidden"); });
       $("galClose").onclick = () => $("galModal").classList.add("hidden");
       $("galModal").onclick = e => { if (e.target === $("galModal")) $("galModal").classList.add("hidden"); };

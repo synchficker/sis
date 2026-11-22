@@ -60,3 +60,35 @@ G. Pelaporan Dinas: Export CSV/JSON Dapodik, Peserta ANBK (kls 5/8/11), BKU BOS 
 - Konflik SHA (dua admin menulis bersamaan) otomatis di-retry 1× oleh pushJSON().
 - Setiap tulis = 2 commit (Update {file} + Update audit.json). Rate limit API 5.000 req/jam — aman.
 - Audit log dipangkas otomatis ke 500 entri terakhir. Kamera (scan QR) hanya aktif di HTTPS/localhost.
+
+## Catatan Optimasi Performa (Hero Slider & Beranda)
+- **Hero Slider**: hanya 2 slide yang dianimasikan (keluar + masuk); progres memakai `transform` (bukan `width`);
+  efek `grain` (mix-blend-mode) & `backdrop-blur` di atas hero dihapus; Ken Burns tidak lagi "melompat" saat slide keluar;
+  loop slide terakhir → pertama tidak lagi melintasi seluruh slide; gambar slide 2..n dimuat & di-decode saat idle;
+  loop animasi berhenti ketika hero tidak terlihat; klik mouse pada panah tidak lagi menghentikan autoplay.
+- **Data beranda** (±2 MB: siswa, guru, kegiatan, dst.) kini dimuat SETELAH hero tampil (idle / saat mulai menggulir);
+  galeri kegiatan dimuat saat bagian itu mendekati layar. Permintaan yang sama tidak lagi diunduh ganda.
+- **Render ganda dihapus**: statistik/program/fasilitas/berita/agenda hanya dirender oleh `app.js` (data/ui.json).
+- `data/slider.json`: 500 slide (495 Draft duplikat "#N") dipangkas menjadi 8 (5 tampil + 3 draft unik).
+- `data/ui.json`: `aurora` & `grain` dimatikan (lapisan layar-penuh). Bisa dinyalakan lagi dari Admin → Tampilan.
+- `app.js`: deteksi halaman memakai `window.__LS_PAGE__` sehingga `/admin/`, `/login/`, dst. tidak lagi dianggap beranda.
+- Saran lanjutan: ganti `cdn.tailwindcss.com` (JIT di browser, tidak untuk produksi) dengan CSS hasil build Tailwind CLI,
+  dan sematkan versi `lucide` (hindari `@latest`).
+
+## Perbaikan Panel Admin
+- `config.js`: ada blok `MANUAL` untuk mengisi `GITHUB_USERNAME`/`GITHUB_REPO` bila situs TIDAK dibuka dari `*.github.io`
+  (domain kustom, Netlify, Vercel, localhost). Tanpa ini semua Simpan/Hapus gagal ("Konfigurasi repo belum diisi").
+- Rapor, Laporan, dan Biaya tidak lagi error bila pop-up cetak diblokir browser (`openPrintWindow`).
+- Tabel modul CRUD (16 modul) tampil bertahap 50 baris + tombol "Muat 50 baris lagi"; pencarian di-debounce 200 ms.
+- Parameter cache `?v=` pada skrip dinaikkan ke `20261124` agar browser memuat JS terbaru.
+- **Navigasi admin**: klik menu sidebar (`#/siswa`, dst.) sebelumnya membuka BERANDA PUBLIK karena `<base href>` di `config.js`
+  meresolusi tautan `#...` ke root situs. Kini tautan hash ditangani di halaman yang sedang dibuka (35/35 modul diuji).
+- Header & footer situs publik tidak lagi dipasang di Panel Admin/Seeder (admin punya bilah atas sendiri).
+
+## URL bersih & konsistensi header/footer
+- Semua tautan dirender tanpa `.html` (`ppdb.html` → `ppdb/`, `index.html#x` → `/#x`); redirect JavaScript (login/admin/pratinjau)
+  memakai `siteUrl()`; mengetik `/ppdb.html` langsung dialihkan ke `/ppdb/`. Diuji dengan 82 klik tautan: tidak ada `.html` yang muncul.
+- Footer: tautan "Galeri SD–SMK" (hanya ke SD) diganti 4 tautan: Program SD, SMP, SMA, SMK (sebelumnya SMP/SMA/SMK tidak
+  tertaut dari header/footer).
+- Halaman SD/SMP/SMA/SMK tidak lagi membuat header/footer sendiri (`program.js`); semua halaman publik memakai header & footer
+  dari `app.js` (sumber: data/ui.json) sehingga identik dengan beranda. Header/footer statis lama disembunyikan sejak awal (`config.js`).

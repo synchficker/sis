@@ -148,8 +148,7 @@ async function renderRapor() {
   };
   document.getElementById("rPrint").onclick = () => {
     if (!lastDoc) return toast("Klik Tampilkan dahulu.", "info");
-    const w = window.open("", "_blank"); w.document.write(lastDoc); w.document.close();
-    setTimeout(() => { w.focus(); w.print(); }, 400);
+    openPrintWindow(lastDoc);
   };
 }
 async function renderUjian() {
