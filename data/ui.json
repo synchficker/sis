@@ -344,23 +344,23 @@
     "brandLogo": true,
     "sosial": [
       {
-        "ikon": "message-circle",
-        "href": "wa",
+        "ikon": "letter-f",
+        "href": "Facebook",
         "aktif": true
       },
       {
-        "ikon": "mail",
-        "href": "mail",
+        "ikon": "x",
+        "href": "X-Twitter",
         "aktif": true
       },
       {
-        "ikon": "instagram",
-        "href": "#kontak",
+        "ikon": "camera",
+        "href": "Instagram",
         "aktif": true
       },
       {
-        "ikon": "youtube",
-        "href": "#kontak",
+        "ikon": "circle-fading-play",
+        "href": "Youtube",
         "aktif": true
       }
     ],
