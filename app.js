@@ -39,7 +39,6 @@ const refreshIcons = () => {
   if (_riT) return;
   _riT = setTimeout(() => { _riT = 0; try { lucide.createIcons(); } catch (e) {} }, 16);
 };
-window.__lsRefreshIcons = refreshIcons;
 function b64enc(str){ const b=new TextEncoder().encode(str); let s=""; for(let i=0;i<b.length;i++) s+=String.fromCharCode(b[i]); return btoa(s); }
 function download(name, text, mime="application/json"){ const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([text],{type:mime+";charset=utf-8"})); a.download=name; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),2000); }
 function toCSV(rows, cols){ const q=v=>'"'+String(v??"").replace(/"/g,'""')+'"'; return [cols.map(c=>q(c.l)).join(","),...rows.map(r=>cols.map(c=>q(r[c.k])).join(","))].join("\r\n"); }

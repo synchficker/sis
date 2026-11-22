@@ -119,11 +119,7 @@
     root().innerHTML = '<div class="min-h-screen flex items-center justify-center text-slate-400 gap-3"><div class="w-5 h-5 border-2 border-brand-500 border-t-transparent rounded-full animate-spin"></div>Memuat program…</div>';
     try {
       let ST = {}, siswa = [], kelas = [], guru = [], materi = [], ppdb = [];
-      // Hero Slider jenjang (data/slider.json, slide ber-"halaman" = jenjang ini) — diambil paralel dengan settings
-      const sliderP = fetchJSON("slider.json").catch(() => null);
       try { ST = await fetchJSON("settings.json"); } catch (e) {}
-      let slPrep = null;
-      try { const sd = await sliderP; if (window.LSSlider && sd) { const pr = LSSlider.prepare(sd, LEVEL.toLowerCase()); if (pr.list.length) slPrep = pr; } } catch (e) {}
       try {
         [siswa, kelas, guru, materi, ppdb] = await Promise.all([
           fetchJSON("siswa.json").catch(() => []),
@@ -148,8 +144,9 @@
       if (ppdb.length) news.push(["Open Admission PPDB Dibuka", "Penerimaan Peserta Didik Baru resmi dibuka. Daftarkan putra-putri Anda melalui PPDB Online.", "ppdb.html", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=60"]);
       materi.slice(0, 2).forEach(m => news.push([m.judul, m.deskripsi || "Materi pembelajaran terbaru.", "belajar.html", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=60"]));
 
-      // Hero statis lama — hanya dipakai bila tidak ada slide aktif untuk jenjang ini (atur di Admin → Hero Slider)
-      const heroStatic = `
+      root().innerHTML = `
+      <!-- Header & footer situs dipasang oleh app.js (LiveSite) agar sama persis dengan beranda -->
+
       <section class="relative overflow-hidden bg-gradient-to-br ${L.grad} text-white pt-[72px]">
         <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20 grid lg:grid-cols-2 gap-10 items-center">
           <div>
@@ -170,14 +167,8 @@
           <div class="rounded-3xl overflow-hidden shadow-2xl ring-4 ring-white/20 aspect-[4/3]">${img(L.hero, "Program " + LEVEL)}</div>
         </div>
       </section>
-      `;
 
-      root().innerHTML = `
-      <!-- Header & footer situs dipasang oleh app.js (LiveSite) agar sama persis dengan beranda -->
-
-      ${slPrep ? '<section id="progHero" class="pt-[72px]"><div id="slHost"></div></section>' : heroStatic}
-
-      <section id="konten" class="max-w-7xl mx-auto px-4 -mt-8 relative z-10">
+      <section class="max-w-7xl mx-auto px-4 -mt-8 relative z-10">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
           ${[["users", "Siswa " + LEVEL, siswaLevel.length], ["school", "Rombel", kLevel.length], ["briefcase", "Wali Kelas", waliGuru.length], ["book-open", "Mata Pelajaran", L.subjects.length]].map(s =>
             '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-center"><div class="w-10 h-10 mx-auto rounded-xl ' + L.chip + ' flex items-center justify-center mb-2"><i data-lucide="' + s[0] + '" class="w-5 h-5"></i></div><div class="text-2xl font-extrabold font-display">' + s[2] + '</div><div class="text-xs text-slate-500 font-semibold">' + s[1] + '</div></div>').join("")}
@@ -270,7 +261,6 @@
       $("galClose").onclick = () => $("galModal").classList.add("hidden");
       $("galModal").onclick = e => { if (e.target === $("galModal")) $("galModal").classList.add("hidden"); };
       document.title = "Program " + LEVEL + " — " + nama;
-      if (slPrep) LSSlider.mount($("slHost"), slPrep, { down: "#konten" });
       refreshIcons();
     } catch (err) {
       console.error(err);

@@ -92,14 +92,3 @@ G. Pelaporan Dinas: Export CSV/JSON Dapodik, Peserta ANBK (kls 5/8/11), BKU BOS 
   tertaut dari header/footer).
 - Halaman SD/SMP/SMA/SMK tidak lagi membuat header/footer sendiri (`program.js`); semua halaman publik memakai header & footer
   dari `app.js` (sumber: data/ui.json) sehingga identik dengan beranda. Header/footer statis lama disembunyikan sejak awal (`config.js`).
-
-## Hero Slider per halaman, Dashboard default, layout admin, batas 50 baris
-- **`slider.js`** (baru): mesin Hero Slider bersama untuk Beranda dan halaman SD/SMP/SMA/SMK. `data/slider.json` kini berisi
-  `slides[].halaman` (`beranda|sd|smp|sma|smk`) dan `configs{<halaman>}` (pengaturan putar per halaman; `config` = Beranda).
-  Slide lama tanpa `halaman` dianggap Beranda. Jenjang tanpa slide aktif otomatis memakai hero statis lama.
-- **Admin → Hero Slider**: tab Beranda / SD / SMP / SMA / SMK; tiap halaman punya daftar slide, urutan, pratinjau, dan konfigurasi sendiri.
-- **Dashboard** kini modul pertama setelah masuk Panel Admin (`#/dashboard`); route awal dijalankan setelah semua modul terdaftar
-  (membuka/refresh `#/slider`, `#/galeri`, dst. tidak lagi memuat modul yang salah).
-- **Layout admin terkunci satu layar** (`admin.html`): sidebar punya scrollbar sendiri, konten bergulir di `#scrollArea`.
-- **Batas 50 baris di semua modul**: modul CRUD (`renderCRUD`) dan semua tabel/daftar modul khusus (`lsPaginate` di `admin-mods4.js`)
-  menampilkan 50 baris pertama + "Muat 50 baris lagi". Catatan: menjalankan Seeder akan membuat ulang `slider.json` tanpa slide jenjang.

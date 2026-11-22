@@ -225,7 +225,7 @@ function glRender() {
     '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">' + st("Total Kegiatan", total, "slate", "images") + st("Tampil", tampil, "emerald", "eye") + st("Unggulan", ung, "amber", "star") + st("Kategori", cats.length, "violet", "tags") + "</div>" +
     (!GL.aktif ? '<div class="mb-4 text-xs bg-amber-50 border border-amber-200 text-amber-800 rounded-xl px-4 py-3 flex gap-2"><i data-lucide="eye-off" class="w-4 h-4 shrink-0 mt-0.5"></i><span>Seksi galeri sedang <b>disembunyikan</b> dari beranda. Aktifkan pada grup Umum agar tampil kembali.</span></div>' : "") +
     '<div class="grid lg:grid-cols-[340px_minmax(0,1fr)] gap-4 items-start">' +
-      '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden lg:sticky lg:top-4">' +
+      '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden lg:sticky lg:top-[76px]">' +
         '<div class="px-4 py-3 border-b border-slate-100 flex items-center gap-2"><i data-lucide="sliders-horizontal" class="w-4 h-4 text-emerald-600"></i><b class="text-sm flex-1">Panel Kontrol Galeri</b><span class="text-[10px] font-bold text-emerald-600">LIVE</span></div>' +
         '<div class="p-4 max-h-[calc(100vh-250px)] overflow-y-auto">' +
           '<label class="block mb-3"><span class="text-[11px] font-bold text-slate-600">Judul seksi</span><input id="gl_judul" value="' + esc(GL.judul) + '" ' + INP + "></label>" +

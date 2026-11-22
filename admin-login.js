@@ -162,7 +162,7 @@ function render(){
       .map(s=>'<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-4"><div class="flex items-center gap-2 text-xs font-bold text-slate-500"><i data-lucide="'+s[0]+'" class="w-4 h-4 text-'+s[3]+'-600"></i>'+s[1]+'</div><div class="text-lg font-extrabold text-'+s[3]+'-600 mt-1 truncate">'+esc(s[2])+'</div></div>').join("") +
   '</div>' +
   '<div class="grid lg:grid-cols-[350px_minmax(0,1fr)] gap-4 items-start">' +
-    '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden lg:sticky lg:top-4">' +
+    '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden lg:sticky lg:top-[76px]">' +
       '<div class="px-4 py-3 border-b border-slate-100 flex items-center gap-2"><i data-lucide="sliders-horizontal" class="w-4 h-4 text-emerald-600"></i><b class="text-sm flex-1">Panel Kontrol Login</b><span class="text-[10px] font-bold text-emerald-600">LIVE</span></div>' +
       '<div id="lgCtrls" class="p-4 max-h-[calc(100vh-260px)] overflow-y-auto">'+groupsHTML+'</div>' +
       '<div class="p-3 border-t border-slate-100 grid grid-cols-2 gap-2">' +

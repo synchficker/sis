@@ -15,23 +15,7 @@ const SL_DEF_CFG = { autoplay: true, durasi: 7000, efek: "slide", tinggi: "full"
 const SL_VKEY = "sl_saved_views";
 const slAcc = a => SL_ACC[a] || SL_ACC.emerald;
 
-// Halaman tujuan slider: beranda + 4 halaman jenjang. Tiap slide punya field "halaman"; konfigurasi per halaman di "configs".
-const SL_PAGES = [["beranda", "Beranda", "index"], ["sd", "SD", "sd"], ["smp", "SMP", "smp"], ["sma", "SMA", "sma"], ["smk", "SMK", "smk"]];
-const slPageLabel = h => (SL_PAGES.find(p => p[0] === h) || SL_PAGES[0])[1];
-let slCfg = { ...SL_DEF_CFG }, slRows = [], slView = { q: "", acc: "", status: "", sort: "urutan", hal: "beranda" };
-let slAll = [], slOther = [], slCfgs = {};   // slRows = slide milik halaman terpilih; slOther = slide halaman lain
-function slSplit(hal) {
-  slView.hal = SL_PAGES.some(p => p[0] === hal) ? hal : "beranda";
-  slRows = slAll.filter(r => (r.halaman || "beranda") === slView.hal);
-  slOther = slAll.filter(r => (r.halaman || "beranda") !== slView.hal);
-  slCfg = { ...SL_DEF_CFG, ...(slCfgs.beranda || {}), ...(slCfgs[slView.hal] || {}) };
-}
-function slJoin() {
-  slRows.forEach(r => { r.halaman = slView.hal; });
-  slAll = [...slOther, ...slRows];
-  slCfgs[slView.hal] = { ...slCfg };
-}
-const slPayload = () => { slJoin(); return { config: slCfgs.beranda || { ...SL_DEF_CFG }, configs: slCfgs, slides: slAll }; };
+let slCfg = { ...SL_DEF_CFG }, slRows = [], slView = { q: "", acc: "", status: "", sort: "urutan" };
 let slSel = new Set(), slUndo = null, slUndoT = null, slDragId = null, slOrderDirty = false, slPvI = 0, slPvT = null;
 
 const slNorm = () => slRows.forEach((r, i) => r.urutan = i + 1);
@@ -80,17 +64,15 @@ async function renderSlider() {
   slStopPv();
   const raw = await fetchJSON("slider.json").catch(() => ({}));
   const obj = Array.isArray(raw) ? { config: {}, slides: raw } : (raw || {});
-  slAll = (Array.isArray(obj.slides) ? obj.slides.slice() : []).map(r => ({ ...r, halaman: r.halaman || "beranda" }));
-  slCfgs = { ...(obj.configs || {}) };
-  slCfgs.beranda = { ...SL_DEF_CFG, ...(obj.config || {}), ...(slCfgs.beranda || {}) };
-  slSplit(slView.hal || "beranda");
+  slCfg = { ...SL_DEF_CFG, ...(obj.config || {}) };
+  slRows = Array.isArray(obj.slides) ? obj.slides.slice() : [];
   slNorm(); slSel.clear(); slOrderDirty = false; slPvI = 0;
-  mem["slider.json"] = slPayload();
+  mem["slider.json"] = { config: slCfg, slides: slRows };
   slRender();
 }
 
 async function slPersist(aksi, detail, snapCfg, snapRows) {
-  const ok = await saveData("slider.json", slPayload(), "Konten Website", aksi + " [" + slPageLabel(slView.hal) + "]", detail);
+  const ok = await saveData("slider.json", { config: slCfg, slides: slRows }, "Konten Website", aksi, detail);
   if (!ok) { if (snapCfg) slCfg = snapCfg; if (snapRows) slRows = snapRows; slRender(); }
   return ok;
 }
@@ -103,10 +85,7 @@ function slRender() {
   const st = (l, v, c, i) => '<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-4"><div class="flex items-center gap-2 text-xs font-bold text-slate-500"><i data-lucide="' + i + '" class="w-4 h-4 text-' + c + '-600"></i>' + l + '</div><div class="text-2xl font-extrabold text-' + c + '-600 mt-1">' + v + "</div></div>";
   const tog = (id, label, on, icon) => '<label class="flex items-center justify-between gap-3 px-3 py-2.5 rounded-xl border border-slate-200 bg-white cursor-pointer hover:border-emerald-300"><span class="flex items-center gap-2 text-xs font-bold text-slate-600"><i data-lucide="' + icon + '" class="w-4 h-4 text-slate-400"></i>' + label + '</span><input type="checkbox" id="' + id + '" ' + (on ? "checked" : "") + ' class="w-5 h-5 accent-emerald-600"></label>';
 
-  const tabs = '<div class="flex flex-wrap items-center gap-2 mb-4" role="tablist" aria-label="Halaman tujuan slider"><span class="text-xs font-bold text-slate-400 uppercase mr-1">Halaman:</span>' +
-    SL_PAGES.map(p => { const n = slAll.filter(r => (r.halaman || "beranda") === p[0]).length, on = p[0] === slView.hal;
-      return '<button type="button" role="tab" aria-selected="' + on + '" data-slhal="' + p[0] + '" class="px-4 py-2 rounded-xl text-sm font-bold border transition ' + (on ? "bg-emerald-600 text-white border-emerald-600 shadow" : "bg-white text-slate-600 border-slate-200 hover:border-emerald-300") + '">' + p[1] + ' <span class="ml-1 text-[11px] ' + (on ? "text-emerald-100" : "text-slate-400") + '">' + n + '</span></button>'; }).join("") + "</div>";
-  app.innerHTML = pageHead({ title: "Hero Slider — Halaman " + slPageLabel(slView.hal), desc: "Slider layar penuh pada halaman " + (slView.hal === "beranda" ? "Beranda (index)" : slPageLabel(slView.hal)) + ". Pilih halaman pada tab di bawah, lalu atur perilaku putar dan kelola slide-nya — setiap halaman punya slide & konfigurasi sendiri. Perubahan langsung ter-commit ke data/slider.json beserta audit log." }) + tabs +
+  app.innerHTML = pageHead({ title: "Hero Slider", desc: "Slider layar penuh pada index.html. Atur perilaku putar dan kelola slide — semua perubahan langsung ter-commit ke data/slider.json beserta audit log." }) +
     '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">' + st("Total Slide", slRows.length, "slate", "images") + st("Tampil", pub.length, "emerald", "eye") + st("Draft", slRows.length - pub.length, "amber", "eye-off") + st("Durasi Total", Math.round(pub.reduce((a, b) => a + (+b.durasi || slCfg.durasi), 0) / 1000) + "s", "violet", "timer") + "</div>" +
 
     '<div class="grid lg:grid-cols-5 gap-4 mb-4">' +
@@ -245,7 +224,7 @@ function slWire(rows) {
   document.getElementById("slCsv").onclick = () => download("hero-slider.csv", toCSV(slSorted(), [{ k: "urutan", l: "urutan" }, { k: "eyebrow", l: "eyebrow" }, { k: "judul", l: "judul" }, { k: "highlight", l: "highlight" }, { k: "subjudul", l: "subjudul" }, { k: "accent", l: "accent" }, { k: "cta1_label", l: "cta1_label" }, { k: "cta1_href", l: "cta1_href" }, { k: "durasi", l: "durasi_ms" }, { k: "status", l: "status" }]), "text/csv");
   const sv = document.getElementById("slSaveView");
   if (sv) sv.onclick = () => { const n = prompt("Nama saved view:", "Slide " + (slView.acc || slView.status || "Semua")); if (!n) return; const v = slViews(); v.push({ name: n.slice(0, 28), view: { ...slView } }); slSetViews(v); slRender(); toast("Saved view tersimpan di perangkat ini.", "success"); };
-  app.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => { slView = { ...slViews()[+b.dataset.sv].view, hal: slView.hal }; slRender(); });
+  app.querySelectorAll("[data-sv]").forEach(b => b.onclick = () => { slView = { ...slViews()[+b.dataset.sv].view }; slRender(); });
   app.querySelectorAll("[data-svd]").forEach(b => b.onclick = () => { const v = slViews(); v.splice(+b.dataset.svd, 1); slSetViews(v); slRender(); });
 
   const all = document.getElementById("slAll");
@@ -262,10 +241,6 @@ function slWire(rows) {
     slRows = slRows.filter(r => !slSel.has(r.id)); slNorm(); slSel.clear(); slRender(); slUndoShow(rm);
     slPersist("HAPUS MASSAL SLIDE", rm.length + " slide dihapus", null, null);
   };
-  app.querySelectorAll("[data-slhal]").forEach(b => b.onclick = () => {
-    if (b.dataset.slhal === slView.hal) return;
-    slJoin(); slStopPv(); slSplit(b.dataset.slhal); slNorm(); slSel.clear(); slOrderDirty = false; slPvI = 0; slRender();
-  });
   app.querySelectorAll("[data-sedit]").forEach(b => b.onclick = () => slDrawer(slRows.find(r => r.id === b.dataset.sedit)));
   app.querySelectorAll("[data-sdupe]").forEach(b => b.onclick = async () => {
     const s = slRows.find(r => r.id === b.dataset.sdupe); if (!s) return;
@@ -367,7 +342,7 @@ function slDrawer(row) {
   f.onsubmit = async e => {
     e.preventDefault();
     const o = read();
-    const rec = { id: row ? row.id : uid(), halaman: slView.hal, urutan: +o.urutan || 1, eyebrow: o.eyebrow.trim(), judul: o.judul.trim(), highlight: o.highlight.trim(), subjudul: o.subjudul.trim(), deskripsi: o.deskripsi.trim(), gambar: o.gambar.trim(), accent: o.accent, overlay: o.overlay, align: o.align, cta1_label: o.cta1_label.trim(), cta1_href: o.cta1_href.trim(), cta2_label: o.cta2_label.trim(), cta2_href: o.cta2_href.trim(), meta: o.meta, durasi: Math.max(2500, o.durasi || slCfg.durasi), status: o.status };
+    const rec = { id: row ? row.id : uid(), urutan: +o.urutan || 1, eyebrow: o.eyebrow.trim(), judul: o.judul.trim(), highlight: o.highlight.trim(), subjudul: o.subjudul.trim(), deskripsi: o.deskripsi.trim(), gambar: o.gambar.trim(), accent: o.accent, overlay: o.overlay, align: o.align, cta1_label: o.cta1_label.trim(), cta1_href: o.cta1_href.trim(), cta2_label: o.cta2_label.trim(), cta2_href: o.cta2_href.trim(), meta: o.meta, durasi: Math.max(2500, o.durasi || slCfg.durasi), status: o.status };
     const snap = slRows.map(r => ({ ...r }));
     const ordered = slSorted().filter(r => r.id !== rec.id);
     ordered.splice(Math.max(0, Math.min(ordered.length, rec.urutan - 1)), 0, rec);

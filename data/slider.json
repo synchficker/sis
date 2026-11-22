@@ -32,8 +32,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Tampil",
-      "halaman": "beranda"
+      "status": "Tampil"
     },
     {
       "id": "SL0002",
@@ -57,8 +56,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Tampil",
-      "halaman": "beranda"
+      "status": "Tampil"
     },
     {
       "id": "SL0003",
@@ -82,8 +80,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Tampil",
-      "halaman": "beranda"
+      "status": "Tampil"
     },
     {
       "id": "SL0004",
@@ -107,8 +104,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft",
-      "halaman": "beranda"
+      "status": "Draft"
     },
     {
       "id": "SL0005",
@@ -132,8 +128,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Draft",
-      "halaman": "beranda"
+      "status": "Draft"
     },
     {
       "id": "SL0006",
@@ -157,8 +152,7 @@
         "TA 2026/2027"
       ],
       "durasi": 9000,
-      "status": "Tampil",
-      "halaman": "beranda"
+      "status": "Tampil"
     },
     {
       "id": "SL0007",
@@ -182,8 +176,7 @@
         "TA 2026/2027"
       ],
       "durasi": 7000,
-      "status": "Tampil",
-      "halaman": "beranda"
+      "status": "Tampil"
     },
     {
       "id": "SL0008",
@@ -207,256 +200,7 @@
         "TA 2026/2027"
       ],
       "durasi": 5000,
-      "status": "Draft",
-      "halaman": "beranda"
-    },
-    {
-      "id": "SL101",
-      "urutan": 1,
-      "halaman": "sd",
-      "eyebrow": "Jenjang SD",
-      "judul": "Sekolah Dasar",
-      "highlight": "Ceria & Berkarakter",
-      "subjudul": "Active Learning • Dwibahasa • Karakter",
-      "deskripsi": "Menumbuhkan literasi, numerasi, dan karakter anak sejak dini melalui pembelajaran tematik yang menyenangkan.",
-      "gambar": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=60",
-      "accent": "emerald",
-      "overlay": 72,
-      "align": "left",
-      "cta1_label": "Daftar Sekarang",
-      "cta1_href": "ppdb.html",
-      "cta2_label": "Lihat Selengkapnya",
-      "cta2_href": "#konten",
-      "meta": [
-        "Kelas 1–6",
-        "Usia 6–12 tahun",
-        "Masa studi 6 Tahun"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
-    },
-    {
-      "id": "SL102",
-      "urutan": 2,
-      "halaman": "sd",
-      "eyebrow": "Kegiatan SD",
-      "judul": "Belajar, Bermain,",
-      "highlight": "Berkarya",
-      "subjudul": "Ekstrakurikuler & Afternoon Class",
-      "deskripsi": "Pramuka, futsal, robotik, seni, hingga renang — setiap anak punya ruang untuk menemukan bakatnya.",
-      "gambar": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=60",
-      "accent": "amber",
-      "overlay": 70,
-      "align": "left",
-      "cta1_label": "Hubungi Kami",
-      "cta1_href": "index.html#kontak",
-      "cta2_label": "Lihat Kegiatan",
-      "cta2_href": "index.html#kegiatan",
-      "meta": [
-        "SD",
-        "Kurikulum Merdeka"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
-    },
-    {
-      "id": "SL201",
-      "urutan": 1,
-      "halaman": "smp",
-      "eyebrow": "Jenjang SMP",
-      "judul": "Sekolah Menengah Pertama",
-      "highlight": "Tumbuh & Berprestasi",
-      "subjudul": "Kurikulum Merdeka • Literasi Digital • Karakter",
-      "deskripsi": "Mendampingi remaja membangun kemandirian, kemampuan berpikir kritis, dan percaya diri di masa transisi yang penting.",
-      "gambar": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=60",
-      "accent": "sky",
-      "overlay": 72,
-      "align": "left",
-      "cta1_label": "Daftar Sekarang",
-      "cta1_href": "ppdb.html",
-      "cta2_label": "Lihat Selengkapnya",
-      "cta2_href": "#konten",
-      "meta": [
-        "Kelas 7–9",
-        "Usia 12–15 tahun",
-        "Masa studi 3 Tahun"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
-    },
-    {
-      "id": "SL202",
-      "urutan": 2,
-      "halaman": "smp",
-      "eyebrow": "Kegiatan SMP",
-      "judul": "Temukan Minat,",
-      "highlight": "Berprestasi",
-      "subjudul": "Ekstrakurikuler & Pengembangan Diri",
-      "deskripsi": "Klub sains, olahraga, seni, dan kepemimpinan siswa untuk mengasah bakat di luar kelas.",
-      "gambar": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=60",
-      "accent": "amber",
-      "overlay": 70,
-      "align": "left",
-      "cta1_label": "Hubungi Kami",
-      "cta1_href": "index.html#kontak",
-      "cta2_label": "Lihat Kegiatan",
-      "cta2_href": "index.html#kegiatan",
-      "meta": [
-        "SMP",
-        "Kurikulum Merdeka"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
-    },
-    {
-      "id": "SL301",
-      "urutan": 1,
-      "halaman": "sma",
-      "eyebrow": "Jenjang SMA",
-      "judul": "Sekolah Menengah Atas",
-      "highlight": "Siap Kuliah & Berkarier",
-      "subjudul": "Peminatan • Persiapan PTN • Kepemimpinan",
-      "deskripsi": "Peminatan yang terarah, pendampingan persiapan perguruan tinggi, dan budaya riset untuk lulusan yang siap bersaing.",
-      "gambar": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=60",
-      "accent": "violet",
-      "overlay": 72,
-      "align": "left",
-      "cta1_label": "Daftar Sekarang",
-      "cta1_href": "ppdb.html",
-      "cta2_label": "Lihat Selengkapnya",
-      "cta2_href": "#konten",
-      "meta": [
-        "Kelas 10–12",
-        "Usia 15–18 tahun",
-        "Masa studi 3 Tahun"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
-    },
-    {
-      "id": "SL302",
-      "urutan": 2,
-      "halaman": "sma",
-      "eyebrow": "Kegiatan SMA",
-      "judul": "Bangun",
-      "highlight": "Masa Depan",
-      "subjudul": "Pendampingan Akademik & Karier",
-      "deskripsi": "OSIS, olimpiade, jurnalistik, dan konseling karier untuk membentuk pemimpin muda yang matang.",
-      "gambar": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=60",
-      "accent": "rose",
-      "overlay": 70,
-      "align": "left",
-      "cta1_label": "Hubungi Kami",
-      "cta1_href": "index.html#kontak",
-      "cta2_label": "Lihat Kegiatan",
-      "cta2_href": "index.html#kegiatan",
-      "meta": [
-        "SMA",
-        "Kurikulum Merdeka"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
-    },
-    {
-      "id": "SL401",
-      "urutan": 1,
-      "halaman": "smk",
-      "eyebrow": "Jenjang SMK",
-      "judul": "Sekolah Menengah Kejuruan",
-      "highlight": "Siap Kerja & Berwirausaha",
-      "subjudul": "Praktik Industri • Sertifikasi • Teaching Factory",
-      "deskripsi": "Kurikulum berbasis industri, praktik di dunia kerja, dan sertifikasi kompetensi untuk lulusan yang langsung siap berkarya.",
-      "gambar": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=60",
-      "accent": "teal",
-      "overlay": 72,
-      "align": "left",
-      "cta1_label": "Daftar Sekarang",
-      "cta1_href": "ppdb.html",
-      "cta2_label": "Lihat Selengkapnya",
-      "cta2_href": "#konten",
-      "meta": [
-        "Kelas 10–12",
-        "Usia 15–18 tahun",
-        "Masa studi 3–4 Tahun"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
-    },
-    {
-      "id": "SL402",
-      "urutan": 2,
-      "halaman": "smk",
-      "eyebrow": "Praktik Industri",
-      "judul": "Uji",
-      "highlight": "Kompetensi",
-      "subjudul": "Uji Kompetensi Keahlian",
-      "deskripsi": "Teaching factory, magang industri, dan uji kompetensi keahlian menyiapkan lulusan yang diakui dunia kerja.",
-      "gambar": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=60",
-      "accent": "amber",
-      "overlay": 70,
-      "align": "left",
-      "cta1_label": "Hubungi Kami",
-      "cta1_href": "index.html#kontak",
-      "cta2_label": "Lihat Kegiatan",
-      "cta2_href": "index.html#kegiatan",
-      "meta": [
-        "SMK",
-        "Kurikulum Merdeka"
-      ],
-      "durasi": 8000,
-      "status": "Tampil"
+      "status": "Draft"
     }
-  ],
-  "configs": {
-    "beranda": {
-      "autoplay": true,
-      "durasi": 7000,
-      "efek": "slide",
-      "tinggi": "full",
-      "dots": false,
-      "panah": true,
-      "pause_on_hover": true,
-      "kenburns": true
-    },
-    "sd": {
-      "autoplay": true,
-      "durasi": 7000,
-      "efek": "slide",
-      "tinggi": "full",
-      "dots": true,
-      "panah": true,
-      "pause_on_hover": true,
-      "kenburns": true
-    },
-    "smp": {
-      "autoplay": true,
-      "durasi": 7000,
-      "efek": "slide",
-      "tinggi": "full",
-      "dots": true,
-      "panah": true,
-      "pause_on_hover": true,
-      "kenburns": true
-    },
-    "sma": {
-      "autoplay": true,
-      "durasi": 7000,
-      "efek": "slide",
-      "tinggi": "full",
-      "dots": true,
-      "panah": true,
-      "pause_on_hover": true,
-      "kenburns": true
-    },
-    "smk": {
-      "autoplay": true,
-      "durasi": 7000,
-      "efek": "slide",
-      "tinggi": "full",
-      "dots": true,
-      "panah": true,
-      "pause_on_hover": true,
-      "kenburns": true
-    }
-  }
+  ]
 }
