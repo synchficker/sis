@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwupesrfbsswj",
+    "waktu": "2026-11-24T13:01:51.003Z",
+    "aktor": "synchficker",
+    "modul": "Data Guru / TU",
+    "aksi": "TAMBAH",
+    "detail": "Dr. H. Bambang Prasetyo, M.Si"
+  },
+  {
     "id": "mwupbjo6gyuq4",
     "waktu": "2026-11-24T12:59:19.254Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Perpustakaan",
     "aksi": "URUTKAN",
     "detail": "Pegawai Kurnia Anggara (G0476)"
-  },
-  {
-    "id": "AU0477",
-    "waktu": "2026-11-18T12:28:25.553Z",
-    "aktor": "seeder",
-    "modul": "Komunikasi",
-    "aksi": "PUBLIKASI",
-    "detail": "Buku Sosiologi Modern Jilid 5"
   }
 ]
