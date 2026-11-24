@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwuohrhvrjfrv",
+    "waktu": "2026-11-24T12:36:09.715Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE ANTARMUKA BERANDA",
+    "detail": "zamrud · 8 nav · 3 grup footer"
+  },
+  {
     "id": "mwuobvb6m13e9",
     "waktu": "2026-11-24T12:31:34.722Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "IMPOR",
     "detail": "Buku Matematika Dasar Jilid 2"
-  },
-  {
-    "id": "AU0482",
-    "waktu": "2026-11-16T14:47:37.553Z",
-    "aktor": "admin",
-    "modul": "Konten Website",
-    "aksi": "URUTKAN",
-    "detail": "Tagihan SPP Maret"
   }
 ]
