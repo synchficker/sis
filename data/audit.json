@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwuqttcasmppq",
+    "waktu": "2026-11-24T13:41:31.210Z",
+    "aktor": "synchficker",
+    "modul": "PPDB",
+    "aksi": "IMPOR PENDAFTAR",
+    "detail": "1 berkas dari PPDB-2026-3081.json"
+  },
+  {
     "id": "mwuqtg4uwzfag",
     "waktu": "2026-11-24T13:41:14.094Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Perpustakaan",
     "aksi": "TAMBAH",
     "detail": "Buku Pendidikan Pancasila"
-  },
-  {
-    "id": "AU0472",
-    "waktu": "2026-11-17T12:08:05.553Z",
-    "aktor": "bendahara",
-    "modul": "Komunikasi",
-    "aksi": "URUTKAN",
-    "detail": "Kelas 12 DKV AK"
   }
 ]
