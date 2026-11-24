@@ -186,22 +186,22 @@
         "sosial": [
           {
             "ikon": "letter-f",
-            "href": "Facebook",
+            "href": "https://www.facebook.com/#",
             "aktif": true
           },
           {
             "ikon": "x",
-            "href": "X / Twitter",
+            "href": "https://x.com/#",
             "aktif": true
           },
           {
             "ikon": "camera",
-            "href": "Instagram",
+            "href": "https://www.instagram.com/#",
             "aktif": true
           },
           {
             "ikon": "circle-fading-play",
-            "href": "Youtube",
+            "href": "https://www.youtube.com/#",
             "aktif": true
           }
         ]
@@ -346,22 +346,22 @@
     "sosial": [
       {
         "ikon": "letter-f",
-        "href": "Facebook",
+        "href": "https://www.facebook.com/#",
         "aktif": true
       },
       {
         "ikon": "x",
-        "href": "X / Twitter",
+        "href": "https://x.com/#",
         "aktif": true
       },
       {
         "ikon": "camera",
-        "href": "Instagram",
+        "href": "https://www.instagram.com/#",
         "aktif": true
       },
       {
         "ikon": "circle-fading-play",
-        "href": "Youtube",
+        "href": "https://www.youtube.com/#",
         "aktif": true
       }
     ],
