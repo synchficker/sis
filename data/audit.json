@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwupbjo6gyuq4",
+    "waktu": "2026-11-24T12:59:19.254Z",
+    "aktor": "synchficker",
+    "modul": "Data Guru / TU",
+    "aksi": "EDIT",
+    "detail": "Hj. Rina Kusumawati, S.Pd., M.Pd"
+  },
+  {
     "id": "mwup8wugknvnt",
     "waktu": "2026-11-24T12:57:16.360Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "PUBLIKASI",
     "detail": "Buku Sosiologi Modern Jilid 5"
-  },
-  {
-    "id": "AU0478",
-    "waktu": "2026-11-19T19:30:26.553Z",
-    "aktor": "seeder",
-    "modul": "Komunikasi",
-    "aksi": "BAYAR SPP",
-    "detail": "Pegawai Lukman Salim (G0478)"
   }
 ]
