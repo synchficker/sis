@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwumogsdszsw5",
+    "waktu": "2026-11-24T11:45:23.197Z",
+    "aktor": "synchficker",
+    "modul": "Sistem",
+    "aksi": "UPDATE PENGATURAN",
+    "detail": "SIN School"
+  },
+  {
     "id": "mwrl61bzvzyjc",
     "waktu": "2026-11-22T08:39:45.215Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Sistem",
     "aksi": "PUBLIKASI",
     "detail": "Kelas 3AT"
-  },
-  {
-    "id": "AU0486",
-    "waktu": "2026-11-19T22:50:09.553Z",
-    "aktor": "operator",
-    "modul": "Komunikasi",
-    "aksi": "TAMBAH",
-    "detail": "Buku Pendidikan Pancasila"
   }
 ]
