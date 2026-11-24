@@ -1,10 +1,10 @@
 {
-  "nama_sekolah": "SIN School",
-  "jenjang": "SD",
+  "nama_sekolah": "SIN Intercultural School",
+  "jenjang": "SD/SMP/SMA/SMK",
   "npsn": "20667096",
-  "alamat": "Jl. Cendana No. 25, Kec. Cerdas, Kota Sumedang, Jawa Barat",
+  "alamat": "Jl. Herman Tajir No. 100, Curug, Bojongsari Sawangan Kota Depok",
   "telepon": "022-966629",
-  "email": "info@sinschool.sch.id",
+  "email": "info@sis.sch.id",
   "kepala_sekolah": "Drs. H. Wira Hartono, M.Pd",
   "nip_kepsek": "196807231994031007",
   "tahun_ajaran": "2026/2027",
@@ -12,15 +12,15 @@
   "kurikulum": "Merdeka",
   "kkm": 75,
   "spp_nominal": 150000,
-  "denda_per_hari": 500,
-  "wa_admin": "6281234567890",
+  "denda_per_hari": 15000,
+  "wa_admin": "628989921788",
   "bank": {
     "nama": "Bank BJB",
     "va_prefix": "88088",
-    "atas_nama": "SIN School Nusantara"
+    "atas_nama": "SIN Intercultural School"
   },
   "qris": {
-    "merchant": "SIN SCHOOL NUSANTARA",
+    "merchant": "SIN INTERCULTURAL SCHOOL",
     "nmid": "ID102667953"
   },
   "mapel": [
