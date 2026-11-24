@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwuni4rn63thx",
+    "waktu": "2026-11-24T12:08:27.299Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE ANTARMUKA BERANDA",
+    "detail": "zamrud · 8 nav · 3 grup footer"
+  },
+  {
     "id": "mwumy55ewixgs",
     "waktu": "2026-11-24T11:52:54.674Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "LMS/CBT",
     "aksi": "PUBLIKASI",
     "detail": "Tagihan SPP Agustus"
-  },
-  {
-    "id": "AU0484",
-    "waktu": "2026-11-19T17:23:50.553Z",
-    "aktor": "bendahara",
-    "modul": "Keuangan",
-    "aksi": "SCAN QR",
-    "detail": "Buku Ceros & Batozar Jilid 5"
   }
 ]
