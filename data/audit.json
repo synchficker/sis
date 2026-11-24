@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwuphsxws0ii8",
+    "waktu": "2026-11-24T13:04:11.204Z",
+    "aktor": "synchficker",
+    "modul": "Data Guru / TU",
+    "aksi": "TAMBAH",
+    "detail": "Ir. Dedi Supriyadi, M.T"
+  },
+  {
     "id": "mwupesrfbsswj",
     "waktu": "2026-11-24T13:01:51.003Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "BAYAR SPP",
     "detail": "Pegawai Galih Pratama, S.Pd (G0475)"
-  },
-  {
-    "id": "AU0476",
-    "waktu": "2026-11-17T12:25:54.553Z",
-    "aktor": "admin",
-    "modul": "Perpustakaan",
-    "aksi": "URUTKAN",
-    "detail": "Pegawai Kurnia Anggara (G0476)"
   }
 ]
