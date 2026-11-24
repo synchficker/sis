@@ -247,7 +247,7 @@ const DEF = {
       {ikon:"users",label:"Siswa Aktif",sumber:"siswa",warna:"brand"},{ikon:"briefcase",label:"Guru & Tendik",sumber:"guru",warna:"sky"},
       {ikon:"school",label:"Rombel / Kelas",sumber:"kelas",warna:"violet"},{ikon:"library",label:"Koleksi Buku",sumber:"buku",warna:"amber"}]},
     berita:{aktif:true,latar:"putih",eyebrow:"",judul:"What's going on?",sub:"Kabar terbaru seputar kegiatan belajar, pengumuman, dan agenda sekolah.",jumlah:6,tautanLabel:"More Articles",tautanHref:"belajar.html",kolom:3},
-    profil:{aktif:true,latar:"mint",eyebrow:"About Us",judul:"Tentang",teksOverride:"",foto:"",kepsekKartu:true,brosurAktif:true,brosurLabel:"Download E-Brochure",sosialLabel:"Stay Connected:",
+    profil:{aktif:true,latar:"mint",eyebrow:"About Us",judul:"Tentang",teksOverride:"",foto:"",kepsekKartu:true,brosurAktif:true,brosurLabel:"Download E-Brochure",brosurIkon:"download",sosialLabel:"Stay Connected:",
       sosial:[{ikon:"message-circle",href:"wa",aktif:true},{ikon:"mail",href:"mail",aktif:true},{ikon:"instagram",href:"#kontak",aktif:true},{ikon:"youtube",href:"#kontak",aktif:true}]},
     program:{aktif:true,latar:"putih",eyebrow:"What We Have",judul:"Program Sekolah",sub:"Jenjang pendidikan yang kami layani dalam satu ekosistem digital terpadu.",kolom:4,tandaiJenjang:true,detailLabel:"Detail",kartu:[]},
     kegiatan:{aktif:true,latar:"mint",eyebrow:"School Activities"},
@@ -609,8 +609,9 @@ function renderProfil(){
   const card=document.getElementById("aboutCard");   // kartu Founder/Ketua Yayasan
   if(card) card.style.display=c.kepsekKartu?"":"none";
   const br=document.getElementById("brochureBtn");
-  if(br){ br.style.display=c.brosurAktif?"":"none"; br.innerHTML='<i data-lucide="download" class="w-4 h-4"></i>'+esc(c.brosurLabel); }
-  const soc=document.getElementById("socWa")&&document.getElementById("socWa").parentElement;
+  if(br){ br.style.display=c.brosurAktif?"":"none"; br.innerHTML='<i data-lucide="'+esc(c.brosurIkon||"download")+'" class="w-4 h-4"></i>'+esc(c.brosurLabel); }
+  // FIXED: wadah dicari lewat #aboutSocial (ID tetap). Dulu lewat #socWa yang terhapus pada render pertama, sehingga ikon dari Admin tak pernah diterapkan di beranda.
+  const soc=document.getElementById("aboutSocial")||(document.getElementById("socWa")&&document.getElementById("socWa").parentElement);
   if(soc){ const lab=soc.querySelector("span"); if(lab) lab.textContent=c.sosialLabel;
     soc.querySelectorAll("a").forEach(a=>a.remove());
     soc.insertAdjacentHTML("beforeend",c.sosial.filter(s=>s.aktif!==false).map(s=>'<a href="'+esc(resolve(s.href))+'" target="'+(s.href==="wa"||s.href==="mail"?"_blank":"_self")+'" rel="noopener" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="'+esc(s.ikon)+'"><i data-lucide="'+esc(s.ikon)+'" class="w-4 h-4"></i></a>').join("")); }

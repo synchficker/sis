@@ -137,7 +137,7 @@
         <div id="aboutText" class="text-slate-600 mt-4 leading-relaxed space-y-3"></div>
         <div class="mt-7 flex flex-wrap items-center gap-3">
           <button id="brochureBtn" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-600 text-white font-bold hover:bg-brand-700 shadow"><i data-lucide="download" class="w-4 h-4"></i>Download E-Brochure</button>
-          <div class="flex items-center gap-2">
+          <div id="aboutSocial" class="flex items-center gap-2">
             <span class="text-sm font-semibold text-slate-500 mr-1">Stay Connected:</span>
             <a id="socWa" target="_blank" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="WhatsApp"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
             <a id="socMail" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Email"><i data-lucide="mail" class="w-4 h-4"></i></a>
@@ -276,10 +276,10 @@
         <p id="footAlamat" class="text-sm mt-4 text-slate-400 max-w-sm"></p>
         <p id="footTelp" class="text-sm mt-2 text-slate-400"></p>
         <div class="flex gap-2 mt-4">
-          <a id="footWa" target="_blank" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Facebook"><i data-lucide="letter-f" class="w-4 h-4"></i></a>
-          <a id="footMail" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="X"><i data-lucide="x" class="w-4 h-4"></i></a>
-          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Instagram"><i data-lucide="camera" class="w-4 h-4"></i></a>
-          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="YouTube"><i data-lucide="circle-fading-play" class="w-4 h-4"></i></a>
+          <a id="footWa" target="_blank" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="WhatsApp"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
+          <a id="footMail" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Email"><i data-lucide="mail" class="w-4 h-4"></i></a>
+          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Instagram"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="YouTube"><i data-lucide="youtube" class="w-4 h-4"></i></a>
         </div>
       </div>
       <div><b class="text-white text-sm uppercase tracking-wider">About Us</b>
@@ -610,8 +610,9 @@
         $("footAlamat").textContent=ST.alamat||"—";
         $("footTelp").textContent=ST.telepon||"—";
         const wa="https://wa.me/"+(ST.wa_admin||"").replace(/^0/,"62");
-        ["socWa","kontakWa","footWa","fabWa"].forEach(id=>$(id).href=wa);
-        $("socMail").href="mailto:"+(ST.email||""); $("footMail").href="mailto:"+(ST.email||"");
+        // FIXED: ikon sosial About Us dirender ulang oleh app.js (anchor #socWa/#socMail bisa sudah tidak ada) -> beri pengaman null agar baris berikutnya tetap jalan
+        ["socWa","kontakWa","footWa","fabWa"].forEach(id=>{ const e=$(id); if(e) e.href=wa; });
+        [["socMail"],["footMail"]].forEach(([id])=>{ const e=$(id); if(e) e.href="mailto:"+(ST.email||""); });
         // Iframe peta diatur oleh app.js (renderKontak) - tidak diatur dua kali agar peta tidak dimuat ulang.
         $("kontakMap").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(ST.alamat||"Indonesia");
       } catch(e){}

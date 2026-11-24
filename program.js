@@ -243,7 +243,12 @@
 
       // ===== About Us (Kepala Sekolah jenjang) — konten & gaya disamakan dengan About Us di beranda =====
       // Data: Panel Admin -> Pengaturan Sekolah (settings.json: kepsek_jenjang). Foto, label tombol & tautan sosial mengikuti pengaturan beranda (ui.json).
-      const prof = (window.LSUI && LSUI.get && LSUI.get().body && LSUI.get().body.seksi && LSUI.get().body.seksi.profil) || {};
+      // Konfigurasi About Us (ikon Lucide sosial, ikon & label e-brochure, foto) dibaca langsung dari data/ui.json agar SELALU mengikuti Panel Admin
+      // (dulu memakai LSUI.get() yang bisa masih berisi nilai bawaan karena ui.json dimuat paralel). fetchJSON berbagi permintaan yang sama dengan app.js.
+      let prof = {};
+      try { const ui = await fetchJSON("ui.json"); prof = (window.LSUI && LSUI.norm ? LSUI.norm(ui || {}) : (ui || {})).body.seksi.profil || {}; } catch (e) {
+        prof = (window.LSUI && LSUI.get && LSUI.get().body && LSUI.get().body.seksi && LSUI.get().body.seksi.profil) || {};
+      }
       const aboutFoto = prof.foto || "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=60";
       const socList = (prof.sosial && prof.sosial.length ? prof.sosial : [{ ikon: "message-circle", href: "wa" }, { ikon: "mail", href: "mail" }, { ikon: "instagram", href: "#kontak" }, { ikon: "youtube", href: "#kontak" }]).filter(x => x.aktif !== false);
       const socHref = h => h === "wa" ? wa : h === "mail" ? "mailto:" + (ST.email || "") : (window.LSUI ? LSUI.resolve(h) : h);
@@ -264,7 +269,7 @@
             <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">${esc(prof.judul || "Tentang")} <span id="aboutNama">${esc(nama)}</span></h2>
             <div id="aboutText" class="text-slate-600 mt-4 leading-relaxed space-y-3"></div>
             <div class="mt-7 flex flex-wrap items-center gap-3">
-              ${prof.brosurAktif === false ? "" : '<button id="progBrochure" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl ' + L.btn + ' ' + (LEVEL === "SMK" ? "text-amber-950" : "text-white") + ' font-bold shadow"><i data-lucide="download" class="w-4 h-4"></i>' + esc(prof.brosurLabel || "Download E-Brochure") + '</button>'}
+              ${prof.brosurAktif === false ? "" : '<button id="progBrochure" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl ' + L.btn + ' ' + (LEVEL === "SMK" ? "text-amber-950" : "text-white") + ' font-bold shadow"><i data-lucide="' + esc(prof.brosurIkon || "download") + '" class="w-4 h-4"></i>' + esc(prof.brosurLabel || "Download E-Brochure") + '</button>'}
               <div class="flex items-center gap-2">
                 <span class="text-sm font-semibold text-slate-500 mr-1">${esc(prof.sosialLabel || "Stay Connected:")}</span>${socHtml}
               </div>

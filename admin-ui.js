@@ -107,6 +107,7 @@ const S = [
   ["Body","body.seksi.profil.kepsekKartu","tog","Kartu Founder / Kepala Sekolah","id-card"],
   ["Body","body.seksi.profil.brosurAktif","tog","Tombol e-brochure","download"],
   ["Body","body.seksi.profil.brosurLabel","txt","Label e-brochure","tag"],
+  ["Body","body.seksi.profil.brosurIkon","sel","Ikon Lucide tombol e-brochure","shapes",opt(["download","file-down","file-text","book-open","arrow-down-to-line","send","sparkles","mail"])],
   ["Body","body.seksi.profil.sosialLabel","txt","Label sosial","users"],
   ["Body","body.seksi.program.aktif","tog","Seksi Program","layout-grid"],
   ["Body","body.seksi.program.latar","sel","Latar program","paintbrush",opt(U.BGVAR)],
@@ -198,7 +199,7 @@ function pushScroll(id){
 
 function ctrlHTML(){
   return GROUPS.map(g => {
-    const rows = S.filter(s => s[0] === g).map(s => {
+    const rowHTML = s => {
       const [, p, t, l, i, a, b, c, fmt] = s, v = get(p);
       if (t === "tog") return '<label class="flex items-center justify-between gap-3 px-3 py-2.5 rounded-xl border border-slate-200 bg-white cursor-pointer hover:border-emerald-400 mb-2"><span class="flex items-center gap-2 text-[11px] font-bold text-slate-600"><i data-lucide="'+i+'" class="w-3.5 h-3.5 text-slate-400"></i>'+l+'</span><input data-ui="'+p+'" type="checkbox" '+(v?"checked":"")+' class="w-5 h-5 accent-emerald-600 shrink-0"></label>';
       const head = '<div class="flex items-center justify-between gap-2 mb-1"><span class="flex items-center gap-1.5 text-[11px] font-bold text-slate-600"><i data-lucide="'+i+'" class="w-3.5 h-3.5 text-slate-400"></i>'+l+'</span>'+(t==="range"?'<span data-lbl="'+p+'" class="text-[11px] font-mono font-bold text-emerald-700">'+(fmt?fmt(v):v)+'</span>':"")+'</div>';
@@ -207,16 +208,17 @@ function ctrlHTML(){
       if (t === "color") return '<div class="mb-3">'+head+'<div class="flex gap-2"><input data-ui="'+p+'" type="color" value="'+esc(v||"#000000")+'" class="h-9 w-14 rounded-lg border border-slate-300 cursor-pointer"><input data-uit="'+p+'" value="'+esc(v||"")+'" class="flex-1 rounded-lg border border-slate-300 px-2 py-1.5 text-[11px] font-mono"></div></div>';
       if (t === "area") return '<div class="mb-3">'+head+'<textarea data-ui="'+p+'" rows="3" '+INP+'>'+esc(v)+'</textarea></div>';
       return '<div class="mb-3">'+head+'<input data-ui="'+p+'" value="'+esc(v)+'" '+INP+'></div>';
-    }).join("");
+    };
+    // Editor ikon Lucide "About Us" (Stay Connected) diletakkan LANGSUNG di bawah pengaturan About Us — komponen yang sama dengan "Ikon sosial footer".
+    const rows = S.filter(s => s[0] === g).map(s => rowHTML(s) + (s[1] === "body.seksi.profil.sosialLabel" ? socialEd("body.seksi.profil.sosial", "Ikon Lucide About Us (Stay Connected)", true) : "")).join("");
     let extra = "";
     if (g === "Header") extra = listEd("header.nav", [["label","Label"],["href","Tujuan"]], "Item navigasi");
     if (g === "Body") extra = orderEd() +
       listEd("body.seksi.statistik.items", [["ikon","Ikon"],["label","Label"],["sumber","Sumber"],["warna","Warna"]], "Kartu statistik") +
       listEd("body.seksi.program.kartu", [["kode","Kode"],["nama","Nama"],["desk","Deskripsi"],["ikon","Ikon"],["href","Tautan"],["warna","Warna"]], "Kartu program") +
       listEd("body.seksi.fasilitas.items", [["nama","Nama"],["ikon","Ikon"],["ket","Keterangan"],["foto","URL foto"]], "Kartu fasilitas") +
-      listEd("body.seksi.kontak.tombol", [["label","Label"],["href","Tujuan"],["ikon","Ikon"],["gaya","Gaya"]], "Tombol kontak") +
-      listEd("body.seksi.profil.sosial", [["ikon","Ikon"],["href","Tujuan"]], "Sosial profil");
-    if (g === "Footer") extra = socialEd() + groupEd();
+      listEd("body.seksi.kontak.tombol", [["label","Label"],["href","Tujuan"],["ikon","Ikon"],["gaya","Gaya"]], "Tombol kontak");
+    if (g === "Footer") extra = socialEd("footer.sosial", "Ikon sosial footer") + groupEd();
     const secBtn = g === "Body" ? '<div class="flex flex-wrap gap-1.5 mb-3">'+U.SECTIONS.map(s=>'<button type="button" data-sec="'+s[0]+'" class="ui-sec px-2.5 py-1 rounded-lg border border-slate-200 text-[10.5px] font-bold" data-on="'+(focusSec===s[0]?1:0)+'">'+s[1]+'</button>').join("")+'</div>' : "";
     return '<div class="mb-1"><div class="text-[10px] font-bold uppercase tracking-wider text-slate-400 mt-3 mb-2">'+g+'</div>'+secBtn+rows+extra+'</div>';
   }).join("");
@@ -233,10 +235,11 @@ function listEd(path, fields, title){
     '</div></div>').join("");
   return '<div class="mb-3"><div class="flex items-center justify-between mb-1.5"><span class="text-[11px] font-bold text-slate-600">'+title+'</span><button type="button" data-ladd="'+path+'" data-lf="'+esc(JSON.stringify(fields.map(f=>f[0])))+'" class="text-[10px] font-bold px-2 py-1 rounded-lg border border-slate-200 hover:border-emerald-400">+ Tambah</button></div>'+(rows||'<p class="text-[11px] text-slate-400 mb-2">Belum ada butir.</p>')+'</div>';
 }
-function socialEd(){
-  const arr = C.footer.sosial || [];
-  return '<div class="mb-3"><div class="flex items-center justify-between mb-1.5"><span class="text-[11px] font-bold text-slate-600">Ikon sosial footer</span><button type="button" data-ladd="footer.sosial" data-lf="'+esc(JSON.stringify(["ikon","href"]))+'" class="text-[10px] font-bold px-2 py-1 rounded-lg border border-slate-200 hover:border-emerald-400">+ Tambah</button></div>'+
-    arr.map((s,i)=>'<div class="flex gap-1.5 mb-1.5"><input data-lp="footer.sosial" data-li="'+i+'" data-lk="ikon" value="'+esc(s.ikon)+'" class="w-28 rounded-lg border border-slate-300 px-2 py-1.5 text-[11px]"><input data-lp="footer.sosial" data-li="'+i+'" data-lk="href" value="'+esc(s.href)+'" class="flex-1 rounded-lg border border-slate-300 px-2 py-1.5 text-[11px]"><button type="button" data-ltg="footer.sosial" data-li="'+i+'" class="px-2 rounded-lg border border-slate-200 text-[10px] font-bold">'+(s.aktif===false?"Off":"On")+'</button><button type="button" data-lrm="footer.sosial" data-li="'+i+'" class="w-7 rounded-lg border border-rose-200 text-rose-500 text-[11px]">×</button></div>').join("")+'</div>';
+function socialEd(path, title, both){
+  const arr = get(path) || [];
+  const hint = '<p class="text-[10.5px] text-slate-400 mb-2 leading-snug">Isi <b>nama ikon Lucide</b> (mis. <code>instagram</code>, <code>youtube</code>, <code>facebook</code>, <code>message-circle</code>, <code>mail</code>). Tujuan: <code>wa</code>, <code>mail</code>, <code>#kontak</code>, atau URL lengkap.'+(both ? " Berlaku di <b>Beranda</b> dan halaman <b>SD, SMP, SMA, SMK</b>." : "")+' Daftar ikon: lucide.dev/icons</p>';
+  return '<div class="mb-3"><div class="flex items-center justify-between mb-1.5"><span class="flex items-center gap-1.5 text-[11px] font-bold text-slate-600"><i data-lucide="shapes" class="w-3.5 h-3.5 text-slate-400"></i>'+title+'</span><button type="button" data-ladd="'+path+'" data-lf="'+esc(JSON.stringify(["ikon","href"]))+'" class="text-[10px] font-bold px-2 py-1 rounded-lg border border-slate-200 hover:border-emerald-400">+ Tambah</button></div>'+hint+
+    arr.map((s,i)=>'<div class="flex gap-1.5 mb-1.5"><input data-lp="'+path+'" data-li="'+i+'" data-lk="ikon" value="'+esc(s.ikon)+'" placeholder="ikon" class="w-28 rounded-lg border border-slate-300 px-2 py-1.5 text-[11px]"><input data-lp="'+path+'" data-li="'+i+'" data-lk="href" value="'+esc(s.href)+'" placeholder="tujuan" class="flex-1 rounded-lg border border-slate-300 px-2 py-1.5 text-[11px]"><button type="button" data-ltg="'+path+'" data-li="'+i+'" class="px-2 rounded-lg border border-slate-200 text-[10px] font-bold">'+(s.aktif===false?"Off":"On")+'</button><button type="button" data-lrm="'+path+'" data-li="'+i+'" class="w-7 rounded-lg border border-rose-200 text-rose-500 text-[11px]">×</button></div>').join("")+'</div>';
 }
 function groupEd(){
   return '<div class="mb-3"><div class="flex items-center justify-between mb-1.5"><span class="text-[11px] font-bold text-slate-600">Grup tautan footer</span><button type="button" id="uiGrpAdd" class="text-[10px] font-bold px-2 py-1 rounded-lg border border-slate-200 hover:border-emerald-400">+ Grup</button></div>'+
