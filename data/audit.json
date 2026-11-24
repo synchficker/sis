@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwup4jtbggh6t",
+    "waktu": "2026-11-24T12:53:52.847Z",
+    "aktor": "synchficker",
+    "modul": "Data Guru / TU",
+    "aksi": "TAMBAH",
+    "detail": "Hj. Rina Kusumawati, S.Pd., M.Pd"
+  },
+  {
     "id": "mwuosbh26tmy3",
     "waktu": "2026-11-24T12:44:22.167Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "LMS/CBT",
     "aksi": "HAPUS",
     "detail": "Kelas 12 IPA AR"
-  },
-  {
-    "id": "AU0480",
-    "waktu": "2026-11-16T14:15:28.553Z",
-    "aktor": "bendahara",
-    "modul": "Sistem",
-    "aksi": "HAPUS",
-    "detail": "Kelas 12 Akuntansi AJ"
   }
 ]
