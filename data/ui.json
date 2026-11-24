@@ -185,23 +185,23 @@
         "sosialLabel": "Stay Connected:",
         "sosial": [
           {
-            "ikon": "Facebook",
-            "href": "letter-f",
+            "ikon": "letter-f",
+            "href": "Facebook",
             "aktif": true
           },
           {
-            "ikon": "X / Twitter",
-            "href": "x",
+            "ikon": "x",
+            "href": "X / Twitter",
             "aktif": true
           },
           {
-            "ikon": "Instagram",
-            "href": "camera",
+            "ikon": "camera",
+            "href": "Instagram",
             "aktif": true
           },
           {
-            "ikon": "Youtube",
-            "href": "circle-fading-play",
+            "ikon": "circle-fading-play",
+            "href": "Youtube",
             "aktif": true
           }
         ]
@@ -346,22 +346,22 @@
     "sosial": [
       {
         "ikon": "letter-f",
-        "href": "",
+        "href": "Facebook",
         "aktif": true
       },
       {
         "ikon": "x",
-        "href": "",
+        "href": "X / Twitter",
         "aktif": true
       },
       {
         "ikon": "camera",
-        "href": "",
+        "href": "Instagram",
         "aktif": true
       },
       {
         "ikon": "circle-fading-play",
-        "href": "",
+        "href": "Youtube",
         "aktif": true
       }
     ],
