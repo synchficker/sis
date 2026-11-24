@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwuqlszrwyb6n",
+    "waktu": "2026-11-24T13:35:17.511Z",
+    "aktor": "synchficker",
+    "modul": "PPDB Online",
+    "aksi": "TAMBAH",
+    "detail": "Rahma Sabila"
+  },
+  {
     "id": "mwupmge1uo2yl",
     "waktu": "2026-11-24T13:07:48.217Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Akademik",
     "aksi": "SCAN QR",
     "detail": "Siswa Yusuf Junaidi (20260473)"
-  },
-  {
-    "id": "AU0474",
-    "waktu": "2026-11-18T20:00:42.553Z",
-    "aktor": "operator",
-    "modul": "Kepegawaian",
-    "aksi": "URUTKAN",
-    "detail": "Tagihan SPP April"
   }
 ]
