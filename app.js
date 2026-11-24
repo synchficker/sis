@@ -174,6 +174,35 @@ function requireAuth(){
 function logout(){ Object.keys(SHA_MEM).forEach(k=>delete SHA_MEM[k]); /* FIXED: bersihkan SHA saat logout */ Object.keys(sessionStorage).filter(k=>["gh_token","gh_user","gh_avatar","wa_key","gh_token_exp"].includes(k)||k.startsWith("sicache:")).forEach(k=>sessionStorage.removeItem(k)); location.replace("login.html"); }
 
 // ============================================================
+// ABOUT US — Founder/Ketua Yayasan (beranda) & Kepala Sekolah per jenjang (SD/SMP/SMA/SMK)
+// Sumber data TUNGGAL: data/settings.json (founder, kepsek_jenjang) <- Panel Admin -> Pengaturan Sekolah.
+// aboutData() dipakai bersama oleh index.html dan program.js agar isi About Us selalu sama.
+// ============================================================
+function aboutData(st, level){
+  st=st||{}; const nm=st.nama_sekolah||"sekolah kami", L=level?String(level).toUpperCase():"";
+  const fill=t=>String(t||"").replace(/\{sekolah\}/gi,nm).trim();
+  let o;
+  if(!L){
+    const f=st.founder||{};
+    o={ peran:f.jabatan||"Founder & Ketua Yayasan", nama:f.nama||"—", nip:"",
+        sambutan:fill(f.sambutan)||"Selamat datang di "+nm+". Kami berkomitmen menghadirkan lingkungan belajar yang aman, hangat, dan menginspirasi agar setiap anak tumbuh menjadi pribadi yang berilmu, berakhlak mulia, dan kreatif." };
+  } else {
+    const k=(st.kepsek_jenjang||{})[L]||{};
+    o={ peran:"Kepala Sekolah "+L, nama:k.nama||st.kepala_sekolah||"—", nip:k.nip||(k.nama?"":st.nip_kepsek)||"",
+        sambutan:fill(k.sambutan)||"Selamat datang di jenjang "+L+" "+nm+". Kami berkomitmen memberikan pembelajaran yang bermakna dan pendampingan terbaik bagi setiap siswa." };
+  }
+  o.paragraf=o.sambutan.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+  return o;
+}
+function fillAbout(st, level){
+  const a=aboutData(st,level), set=(id,v)=>{ const e=document.getElementById(id); if(e) e.textContent=v; };
+  const t=document.getElementById("aboutText");
+  if(t) t.innerHTML=a.paragraf.map(x=>"<p>"+esc(x)+"</p>").join("");
+  set("aboutRole",a.peran); set("aboutPerson",a.nama);
+  const n=document.getElementById("aboutNip"); if(n){ n.textContent=a.nip?"NIP. "+a.nip:""; n.style.display=a.nip?"":"none"; }
+}
+
+// ============================================================
 // LSUI — mesin antarmuka terkonfigurasi
 // ============================================================
 const LSUI = (() => {
@@ -577,7 +606,7 @@ function renderKontak(){
 function renderProfil(){
   const c=CFG.body.seksi.profil, sec=secEl("profil"); if(!sec) return;
   const img=sec.querySelector("img"); if(img&&c.foto) img.src=c.foto;
-  const card=document.getElementById("kepsekNama")&&document.getElementById("kepsekNama").closest("div");
+  const card=document.getElementById("aboutCard");   // kartu Founder/Ketua Yayasan
   if(card) card.style.display=c.kepsekKartu?"":"none";
   const br=document.getElementById("brochureBtn");
   if(br){ br.style.display=c.brosurAktif?"":"none"; br.innerHTML='<i data-lucide="download" class="w-4 h-4"></i>'+esc(c.brosurLabel); }
@@ -585,7 +614,7 @@ function renderProfil(){
   if(soc){ const lab=soc.querySelector("span"); if(lab) lab.textContent=c.sosialLabel;
     soc.querySelectorAll("a").forEach(a=>a.remove());
     soc.insertAdjacentHTML("beforeend",c.sosial.filter(s=>s.aktif!==false).map(s=>'<a href="'+esc(resolve(s.href))+'" target="'+(s.href==="wa"||s.href==="mail"?"_blank":"_self")+'" rel="noopener" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="'+esc(s.ikon)+'"><i data-lucide="'+esc(s.ikon)+'" class="w-4 h-4"></i></a>').join("")); }
-  if(c.teksOverride){ const t=document.getElementById("aboutText"); if(t) t.textContent=c.teksOverride; }
+  // Teks About Us kini bersumber dari Pengaturan Sekolah (Founder/Ketua Yayasan) — teksOverride tidak lagi dipakai.
 }
 function bodyApply(){
   if(!HOME) return;
@@ -698,8 +727,7 @@ async function hydrateNow(){
     const ca=document.getElementById("kontakAlamat"); if(ca){ const s=ca.querySelector("span"); if(s) s.textContent=ST.alamat||"—"; }
     const ct=document.getElementById("kontakTelp"); if(ct) ct.textContent=ST.telepon||"—";
     const ce=document.getElementById("kontakEmail"); if(ce) ce.textContent=ST.email||"—";
-    const kn=document.getElementById("kepsekNama"); if(kn) kn.textContent=ST.kepala_sekolah||"—";
-    const kp=document.getElementById("kepsekNip"); if(kp) kp.textContent="NIP. "+(ST.nip_kepsek||"—");
+    fillAbout(ST);
   }
   hydrated=true;
 }

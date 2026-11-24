@@ -241,6 +241,39 @@
       </section>
       `;
 
+      // ===== About Us (Kepala Sekolah jenjang) — konten & gaya disamakan dengan About Us di beranda =====
+      // Data: Panel Admin -> Pengaturan Sekolah (settings.json: kepsek_jenjang). Foto, label tombol & tautan sosial mengikuti pengaturan beranda (ui.json).
+      const prof = (window.LSUI && LSUI.get && LSUI.get().body && LSUI.get().body.seksi && LSUI.get().body.seksi.profil) || {};
+      const aboutFoto = prof.foto || "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=60";
+      const socList = (prof.sosial && prof.sosial.length ? prof.sosial : [{ ikon: "message-circle", href: "wa" }, { ikon: "mail", href: "mail" }, { ikon: "instagram", href: "#kontak" }, { ikon: "youtube", href: "#kontak" }]).filter(x => x.aktif !== false);
+      const socHref = h => h === "wa" ? wa : h === "mail" ? "mailto:" + (ST.email || "") : (window.LSUI ? LSUI.resolve(h) : h);
+      const socHtml = socList.map(x => '<a href="' + esc(socHref(x.href)) + '"' + (x.href === "wa" || x.href === "mail" ? ' target="_blank" rel="noopener"' : "") + ' class="w-9 h-9 rounded-full ' + L.chip + ' flex items-center justify-center hover:opacity-80" title="' + esc(x.ikon) + '"><i data-lucide="' + esc(x.ikon) + '" class="w-4 h-4"></i></a>').join("");
+      const aboutSec = `
+      <section id="progAbout" class="bg-slate-50 border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12 items-center">
+          <div class="relative">
+            <div class="rounded-3xl overflow-hidden shadow-xl aspect-[4/3]">${img(aboutFoto, "Lingkungan sekolah")}</div>
+            <div id="aboutCard" class="absolute -bottom-6 right-6 bg-white rounded-2xl shadow-xl p-5 max-w-[240px]">
+              <div id="aboutRole" class="text-xs font-bold text-slate-400 uppercase">Kepala Sekolah ${esc(LEVEL)}</div>
+              <div id="aboutPerson" class="font-display font-bold ${L.text} mt-1">—</div>
+              <div id="aboutNip" class="text-xs text-slate-500"></div>
+            </div>
+          </div>
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider ${L.text}">${esc(prof.eyebrow || "About Us")}</span>
+            <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">${esc(prof.judul || "Tentang")} <span id="aboutNama">${esc(nama)}</span></h2>
+            <div id="aboutText" class="text-slate-600 mt-4 leading-relaxed space-y-3"></div>
+            <div class="mt-7 flex flex-wrap items-center gap-3">
+              ${prof.brosurAktif === false ? "" : '<button id="progBrochure" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl ' + L.btn + ' ' + (LEVEL === "SMK" ? "text-amber-950" : "text-white") + ' font-bold shadow"><i data-lucide="download" class="w-4 h-4"></i>' + esc(prof.brosurLabel || "Download E-Brochure") + '</button>'}
+              <div class="flex items-center gap-2">
+                <span class="text-sm font-semibold text-slate-500 mr-1">${esc(prof.sosialLabel || "Stay Connected:")}</span>${socHtml}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+`;
+
       root().innerHTML = `
       <!-- Header & footer situs dipasang oleh app.js (LiveSite) agar sama persis dengan beranda -->
 
@@ -267,6 +300,8 @@
           </div>
         </div>
       </section>
+
+      ${aboutSec}
 
       <section class="${L.soft} border-y border-slate-100">
         <div class="max-w-7xl mx-auto px-4 py-14">
@@ -353,6 +388,19 @@
           </div>
         </div>
       </div>`;
+
+      // ===== About Us: isi dari Pengaturan Sekolah + E-Brochure =====
+      fillAbout(ST, LEVEL);
+      const broBtn = $("progBrochure");
+      if (broBtn) broBtn.onclick = () => {
+        const ab = aboutData(ST, LEVEL);
+        printHTML("E-Brochure " + nama + " " + LEVEL,
+          "<div class='center'><h1>" + esc(nama) + "</h1><div class='muted'>NPSN " + esc(ST.npsn || "") + " • " + esc(L.full) + " (" + esc(LEVEL) + ") • Kurikulum " + esc(ST.kurikulum || "") + "</div></div><hr>" +
+          "<h3>Profil Singkat</h3><p>" + esc(nama) + " menyelenggarakan pendidikan " + esc(L.full) + " dengan Kurikulum " + esc(ST.kurikulum || "") + " tahun ajaran " + esc(ST.tahun_ajaran || "") + ". " + esc(ab.peran) + ": " + esc(ab.nama) + (ab.nip ? " (NIP. " + esc(ab.nip) + ")" : "") + ".</p>" +
+          ab.paragraf.map(x => "<p>" + esc(x) + "</p>").join("") +
+          "<h3>Data Ringkas</h3><table><tr><th>Siswa Aktif</th><td>" + siswaLevel.length + "</td><th>Wali Kelas</th><td>" + waliGuru.length + "</td><th>Rombel</th><td>" + kLevel.length + "</td></tr></table>" +
+          "<h3>Kontak</h3><p>" + esc(ST.alamat || "") + "<br>Telp. " + esc(ST.telepon || "") + " • Email " + esc(ST.email || "") + "</p>");
+      };
 
       // ===== Galeri Bento (9 foto, 4 kolom — sama dengan galeri beranda) + lightbox =====
       const galList = L.gallery; let galI = -1;
