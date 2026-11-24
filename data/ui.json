@@ -185,22 +185,22 @@
         "sosial": [
           {
             "ikon": "letter-f",
-            "href": "Facebook",
+            "href": "letter-f",
             "aktif": true
           },
           {
             "ikon": "x",
-            "href": "X / Twitter",
+            "href": "x",
             "aktif": true
           },
           {
             "ikon": "camera",
-            "href": "instagram",
+            "href": "camera",
             "aktif": true
           },
           {
             "ikon": "circle-fading-play",
-            "href": "Youtube",
+            "href": "circle-fading-play",
             "aktif": true
           }
         ]
