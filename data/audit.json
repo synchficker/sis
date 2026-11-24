@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwuosbh26tmy3",
+    "waktu": "2026-11-24T12:44:22.167Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE ANTARMUKA BERANDA",
+    "detail": "zamrud · 8 nav · 3 grup footer"
+  },
+  {
     "id": "mwuohrhvrjfrv",
     "waktu": "2026-11-24T12:36:09.715Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Sistem",
     "aksi": "HAPUS",
     "detail": "Kelas 12 Akuntansi AJ"
-  },
-  {
-    "id": "AU0481",
-    "waktu": "2026-11-15T17:23:29.553Z",
-    "aktor": "admin",
-    "modul": "Komunikasi",
-    "aksi": "IMPOR",
-    "detail": "Buku Matematika Dasar Jilid 2"
   }
 ]
