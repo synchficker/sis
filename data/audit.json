@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwupmge1uo2yl",
+    "waktu": "2026-11-24T13:07:48.217Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE ANTARMUKA BERANDA",
+    "detail": "zamrud · 8 nav · 3 grup footer"
+  },
+  {
     "id": "mwuphsxws0ii8",
     "waktu": "2026-11-24T13:04:11.204Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Kepegawaian",
     "aksi": "URUTKAN",
     "detail": "Tagihan SPP April"
-  },
-  {
-    "id": "AU0475",
-    "waktu": "2026-11-17T12:43:05.553Z",
-    "aktor": "seeder",
-    "modul": "Komunikasi",
-    "aksi": "BAYAR SPP",
-    "detail": "Pegawai Galih Pratama, S.Pd (G0475)"
   }
 ]
