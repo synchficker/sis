@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwup8wugknvnt",
+    "waktu": "2026-11-24T12:57:16.360Z",
+    "aktor": "synchficker",
+    "modul": "Data Guru / TU",
+    "aksi": "EDIT",
+    "detail": "Drs. H. Wira Hartono, M.Pd"
+  },
+  {
     "id": "mwup4jtbggh6t",
     "waktu": "2026-11-24T12:53:52.847Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "BAYAR SPP",
     "detail": "Pegawai Lukman Salim (G0478)"
-  },
-  {
-    "id": "AU0479",
-    "waktu": "2026-11-17T04:23:57.553Z",
-    "aktor": "seeder",
-    "modul": "LMS/CBT",
-    "aksi": "HAPUS",
-    "detail": "Kelas 12 IPA AR"
   }
 ]
