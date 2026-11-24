@@ -1,5 +1,13 @@
 [
   {
+    "id": "mwumy55ewixgs",
+    "waktu": "2026-11-24T11:52:54.674Z",
+    "aktor": "synchficker",
+    "modul": "Sistem",
+    "aksi": "UPDATE PENGATURAN",
+    "detail": "SIN Intercultural School"
+  },
+  {
     "id": "mwumogsdszsw5",
     "waktu": "2026-11-24T11:45:23.197Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Keuangan",
     "aksi": "SCAN QR",
     "detail": "Buku Ceros & Batozar Jilid 5"
-  },
-  {
-    "id": "AU0485",
-    "waktu": "2026-11-17T17:13:25.553Z",
-    "aktor": "bendahara",
-    "modul": "Sistem",
-    "aksi": "PUBLIKASI",
-    "detail": "Kelas 3AT"
   }
 ]
