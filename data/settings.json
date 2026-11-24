@@ -1,26 +1,26 @@
 {
-  "nama_sekolah": "SIN Intercultural School",
+  "nama_sekolah": "SIN School",
   "jenjang": "SD",
   "npsn": "20667096",
-  "alamat": "Jl. Herman Tajir No. 100, Curug, Bojongsari Sawangan Kota Depok",
-  "telepon": "0251-6218989",
-  "email": "mail@sis.sch.id",
+  "alamat": "Jl. Cendana No. 25, Kec. Cerdas, Kota Sumedang, Jawa Barat",
+  "telepon": "022-966629",
+  "email": "info@sinschool.sch.id",
   "kepala_sekolah": "Drs. H. Wira Hartono, M.Pd",
   "nip_kepsek": "196807231994031007",
   "tahun_ajaran": "2026/2027",
   "semester": "Ganjil",
   "kurikulum": "Merdeka",
   "kkm": 75,
-  "spp_nominal": 1500000,
-  "denda_per_hari": 25000,
-  "wa_admin": "628989921788",
+  "spp_nominal": 150000,
+  "denda_per_hari": 500,
+  "wa_admin": "6281234567890",
   "bank": {
-    "nama": "Citibank",
+    "nama": "Bank BJB",
     "va_prefix": "88088",
-    "atas_nama": "SIN Intercultural School"
+    "atas_nama": "SIN School Nusantara"
   },
   "qris": {
-    "merchant": "SIN Intercultural School",
+    "merchant": "SIN SCHOOL NUSANTARA",
     "nmid": "ID102667953"
   },
   "mapel": [
@@ -104,6 +104,33 @@
       "daftar_ulang": 400000,
       "praktikum": 750000,
       "pkl": 1200000
+    }
+  },
+  "founder": {
+    "nama": "H. Ahmad Fauzi, S.E., M.M.",
+    "jabatan": "Founder & Ketua Yayasan",
+    "sambutan": "Selamat datang di {sekolah}. Kami mendirikan sekolah ini dengan keyakinan bahwa setiap anak adalah pribadi istimewa yang layak tumbuh dalam lingkungan belajar yang aman, hangat, dan menginspirasi.\nBersama para guru dan orang tua, kami berkomitmen menyiapkan generasi yang berilmu, berakhlak mulia, kreatif, dan siap menghadapi masa depan. Terima kasih atas kepercayaan Bapak/Ibu, mari tumbuh dan berkarya bersama kami."
+  },
+  "kepsek_jenjang": {
+    "SD": {
+      "nama": "Drs. H. Wira Hartono, M.Pd",
+      "nip": "196807231994031007",
+      "sambutan": "Selamat datang di jenjang SD {sekolah}. Di usia emas ini, kami menanamkan fondasi literasi, numerasi, dan karakter melalui pembelajaran yang menyenangkan dan penuh keteladanan.\nKami bekerja sama erat dengan orang tua agar setiap anak tumbuh percaya diri, mandiri, dan gemar belajar. Kami menanti Bapak/Ibu bergabung dalam keluarga besar {sekolah}."
+    },
+    "SMP": {
+      "nama": "Hj. Rina Kusumawati, S.Pd., M.Pd",
+      "nip": "197205141998032004",
+      "sambutan": "Selamat datang di jenjang SMP {sekolah}. Masa remaja awal adalah saat terbaik untuk menemukan minat, bakat, dan jati diri; kami mendampinginya dengan pembelajaran berbasis projek, praktikum, dan pembinaan karakter.\nMelalui bimbingan guru yang peduli dan beragam kegiatan pengembangan diri, kami menyiapkan siswa agar mandiri, berpikir kritis, dan siap melangkah ke jenjang berikutnya."
+    },
+    "SMA": {
+      "nama": "Dr. H. Bambang Prasetyo, M.Si",
+      "nip": "196911201995031002",
+      "sambutan": "Selamat datang di jenjang SMA {sekolah}. Kami menyiapkan siswa menuju perguruan tinggi dan dunia kerja melalui pendalaman akademik, riset, kepemimpinan, dan literasi digital.\nDengan bimbingan karier serta lingkungan belajar yang suportif, kami ingin setiap lulusan tumbuh menjadi pribadi tangguh, berintegritas, dan berdaya saing."
+    },
+    "SMK": {
+      "nama": "Ir. Dedi Supriyadi, M.T",
+      "nip": "197008171996031005",
+      "sambutan": "Selamat datang di jenjang SMK {sekolah}. Kami membekali siswa dengan kompetensi keahlian yang relevan dengan kebutuhan industri melalui Teaching Factory, praktik kerja lapangan, dan uji kompetensi bersertifikat.\nLulusan kami disiapkan untuk siap kerja, melanjutkan studi, maupun berwirausaha dengan etos kerja dan karakter yang kuat."
     }
   }
 }
