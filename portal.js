@@ -17,19 +17,39 @@ document.getElementById("fPortal").onsubmit = async e => {
     if (!s) throw new Error("NIS / tanggal lahir tidak cocok dengan data sekolah.");
     sessionStorage.setItem("portal_nis", s.nis);
     await masukPortal(s.nis);
-  } catch (err) { toast(err.message, "error"); }
+  } catch (err) { try { sessionStorage.removeItem("portal_nis"); } catch (_) {} pTampil(false); toast(err.message, "error"); }
   finally { hideLoading(); }
 };
-document.getElementById("pLogout").onclick = () => { sessionStorage.removeItem("portal_nis"); location.reload(); };
+// ===== Sesi Portal: Masuk / Keluar =====
+// FIXED: tombol "Keluar" ada di header seragam (app.js) yang dirender ulang beberapa kali saat halaman dimuat. Handler lama (.onclick pada satu elemen)
+// hilang bersama elemen yang diganti, sehingga klik "Keluar" tidak melakukan apa pun. Kini memakai event delegation (tahan render ulang),
+// dan keluar langsung mengembalikan tampilan ke halaman Login Portal.
+const pEl = id => document.getElementById(id);
+function pTampil(masuk) {   // sinkronkan tampilan dengan status sesi
+  pEl("pLogin").classList.toggle("hidden", !!masuk);
+  pEl("pApp").classList.toggle("hidden", !masuk);
+  const lo = pEl("pLogout"); if (lo) lo.classList.toggle("hidden", !masuk);
+}
+function keluarPortal(diam) {
+  try { sessionStorage.removeItem("portal_nis"); } catch (e) {}
+  P = { siswa: null, st: P.st || {}, wali: null, tab: "ringkasan" };
+  ["pHero", "pTabs", "pBody"].forEach(id => { const e = pEl(id); if (e) e.innerHTML = ""; });
+  const f = pEl("fPortal"); if (f) f.reset();
+  pTampil(false);
+  window.scrollTo(0, 0);
+  const n = f && f.querySelector("[name=nis]"); if (n) n.focus({ preventScroll: true });
+  if (!diam && typeof toast === "function") toast("Anda telah keluar dari Portal Orang Tua.", "success");
+}
+document.addEventListener("click", e => { const b = e.target.closest && e.target.closest("#pLogout"); if (b) { e.preventDefault(); keluarPortal(); } });
+// Tombol Kembali/maju browser (bfcache) tidak boleh menampilkan portal setelah keluar
+window.addEventListener("pageshow", () => { let n = null; try { n = sessionStorage.getItem("portal_nis"); } catch (e) {} if (!n && P.siswa) keluarPortal(true); else if (!n) pTampil(false); });
 async function masukPortal(nis) {
   const [siswa, st, kelas, guru] = await Promise.all([fetchJSON("siswa.json"), fetchJSON("settings.json"), fetchJSON("kelas.json"), fetchJSON("guru.json")]);
   P.siswa = siswa.find(x => x.nis === nis); P.st = st;
   const k = kelas.find(x => x.nama === P.siswa.kelas);
   P.wali = k ? guru.find(g => g.id === k.wali_kelas) : null;
   document.getElementById("pSchool").textContent = st.nama_sekolah;
-  document.getElementById("pLogin").classList.add("hidden");
-  document.getElementById("pApp").classList.remove("hidden");
-  document.getElementById("pLogout").classList.remove("hidden");
+  pTampil(true);
   document.getElementById("pHero").innerHTML = '<div class="flex items-center gap-4"><div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-xl font-extrabold">' + esc(P.siswa.nama.charAt(0)) + '</div><div class="flex-1"><b class="text-lg">' + esc(P.siswa.nama) + '</b><div class="text-sm text-slate-500">NIS ' + esc(P.siswa.nis) + " • Kelas " + esc(P.siswa.kelas) + " • Wali Kelas: <b>" + esc(P.wali ? P.wali.nama : "-") + '</b></div></div><a href="belajar.html" class="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200"><i data-lucide="book-open" class="w-4 h-4"></i>E-Learning</a></div>';
   const tabs = { ringkasan: "Ringkasan", nilai: "Nilai", absensi: "Absensi", spp: "Tagihan SPP", chat: "Chat Wali Kelas", info: "Notifikasi" };
   document.getElementById("pTabs").innerHTML = Object.entries(tabs).map(([k2, v]) =>
@@ -118,6 +138,6 @@ async function tabInfo() {
 }
 (async () => {
   const nis = sessionStorage.getItem("portal_nis");
-  if (nis) { try { await masukPortal(nis); } catch (e) { sessionStorage.removeItem("portal_nis"); } }
+  if (nis) { try { await masukPortal(nis); } catch (e) { keluarPortal(true); } }
   refreshIcons();
 })();

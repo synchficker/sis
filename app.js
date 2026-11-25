@@ -173,6 +173,10 @@ function requireAuth(){
 }
 function logout(){ Object.keys(SHA_MEM).forEach(k=>delete SHA_MEM[k]); /* FIXED: bersihkan SHA saat logout */ Object.keys(sessionStorage).filter(k=>["gh_token","gh_user","gh_avatar","wa_key","gh_token_exp"].includes(k)||k.startsWith("sicache:")).forEach(k=>sessionStorage.removeItem(k)); location.replace("login.html"); }
 
+// Portal Orang Tua: tombol "Keluar" di header seragam hanya tampil di halaman portal DAN saat ada sesi login.
+// FIXED: header dirender ulang beberapa kali saat halaman dimuat; status tombol kini dihitung dari sesi setiap render (bukan diubah sekali oleh portal.js).
+function portalKeluarTampil(){ try{ return !!document.getElementById("pApp") && !!sessionStorage.getItem("portal_nis"); }catch(e){ return false; } }
+
 // ============================================================
 // ABOUT US — Founder/Ketua Yayasan (beranda) & Kepala Sekolah per jenjang (SD/SMP/SMA/SMK)
 // Sumber data TUNGGAL: data/settings.json (founder, kepsek_jenjang) <- Panel Admin -> Pengaturan Sekolah.
@@ -431,7 +435,7 @@ function headerHTML(){
       '<div class="flex-1"></div>'+
       '<span id="cbtTimer" class="hidden font-mono font-extrabold text-base bg-rose-600 text-white px-3 py-1 rounded-lg shrink-0"></span>'+
       '<div class="hidden md:flex items-center gap-2 shrink-0">'+cta2+cta+"</div>"+
-      '<button id="pLogout" class="hidden text-xs font-bold px-3 py-2 rounded-lg bg-brand-50 text-brand-700 hover:bg-brand-100 shrink-0">Keluar</button>'+
+      '<button id="pLogout" type="button" class="'+(portalKeluarTampil()?"":"hidden ")+'text-xs font-bold px-3 py-2 rounded-lg bg-brand-50 text-brand-700 hover:bg-brand-100 shrink-0">Keluar</button>'+
       '<button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100 shrink-0" aria-label="Buka menu" aria-expanded="false" aria-controls="lsMenu"><i data-lucide="menu" class="w-6 h-6"></i></button>'+
       '<span id="ppdbSchool" class="sr-only"></span><span id="bSchool" class="sr-only"></span><span id="pSchool" class="sr-only"></span>'+
     "</div>"+
