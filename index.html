@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem Informasi Sekolah — Halaman Publik</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin><link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: {
+      fontFamily: { sans: ["Inter","ui-sans-serif","system-ui"], display: ["Poppins","Inter","sans-serif"] },
+      colors: { brand: { 50:"#f0fdf4",100:"#dcfce7",200:"#bbf7d0",400:"#4ade80",500:"#22c55e",600:"#16a34a",700:"#15803d",800:"#166534",900:"#14532d" } }
+    } } };
+  </script>
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <style>
+    html{scroll-padding-top:90px;scrollbar-color:#16a34a #f0fdf4;scrollbar-width:thin}
+    ::-webkit-scrollbar{width:11px;height:11px}
+    ::-webkit-scrollbar-track{background:#f0fdf4}
+    ::-webkit-scrollbar-thumb{background:linear-gradient(#16a34a,#0d9488);border-radius:99px;border:2px solid #f0fdf4}
+    ::-webkit-scrollbar-thumb:hover{background:#15803d}
+    .card-img{background:linear-gradient(135deg,#16a34a,#0d9488)}
+
+    /* ===== GALERI BENTO BERTAHAP ===== */
+    #kgGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--kg-gap,16px);grid-auto-rows:var(--kg-rowm,150px);grid-auto-flow:dense}
+    @media (min-width:1024px){#kgGrid{grid-template-columns:repeat(var(--kg-cols,4),minmax(0,1fr));grid-auto-rows:var(--kg-row,190px)}}
+    .bento{position:relative;overflow:hidden;text-align:left;border-radius:var(--kg-radius,24px);opacity:0;transform:translateY(20px) scale(.985);
+      transition:opacity .6s cubic-bezier(.2,.7,.3,1),transform .6s cubic-bezier(.2,.7,.3,1),box-shadow .35s}
+    .bento.in{opacity:1;transform:none}
+    .bento.na{opacity:1;transform:none;transition:box-shadow .35s}
+    .bento img{transition:transform .9s cubic-bezier(.2,.7,.3,1),filter .5s}
+    .bento.hv-zoom:hover img{transform:scale(1.09)}
+    .bento.hv-bright:hover img{filter:brightness(1.14) saturate(1.15)}
+    .bento.hv-lift:hover{transform:translateY(-6px)}
+    .bento:hover{box-shadow:0 24px 50px -18px rgba(22,101,52,.55)}
+    .bento .excerpt{max-height:0;opacity:0;transition:max-height .45s ease,opacity .35s ease}
+    .bento:hover .excerpt,.bento:focus-visible .excerpt{max-height:6rem;opacity:1}
+    .kg-skel{border-radius:var(--kg-radius,24px);background:linear-gradient(100deg,#e8f2ec 30%,#f6fbf8 50%,#e8f2ec 70%);background-size:220% 100%;animation:shim 1.3s linear infinite}
+    @keyframes shim{to{background-position:-220% 0}}
+    #kgBar{transition:width .5s cubic-bezier(.2,.7,.3,1)}
+
+    /* ===== GERBANG ADMIN TERSEMBUNYI ===== */
+    #adminGate{opacity:.2}
+    #adminGate:hover,#adminGate:focus-visible{opacity:1}
+    #adminGate .gate-tip{opacity:0;transform:translate(-50%,4px)}
+    #adminGate:hover .gate-tip,#adminGate:focus-visible .gate-tip{opacity:1;transform:translate(-50%,0)}
+
+    @media (prefers-reduced-motion:reduce){
+      .bento{opacity:1;transform:none;transition:none}
+      .kg-skel{animation:none}
+    }
+  </style>
+</head>
+<body class="font-sans bg-white text-slate-800 antialiased">
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 h-[72px] flex items-center gap-3">
+      <a href="#beranda" class="flex items-center gap-2.5 min-w-0">
+        <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center shrink-0"><i data-lucide="school" class="w-5 h-5"></i></div>
+        <div class="min-w-0 leading-tight">
+          <div id="navNama" class="font-display font-bold text-brand-800 truncate">Nama Sekolah</div>
+          <div id="navNpsn" class="text-[11px] text-slate-400">NPSN —</div>
+        </div>
+      </a>
+      <nav class="hidden lg:flex items-center gap-1 ml-6 text-sm font-semibold text-slate-600">
+        <a href="#profil" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Profil</a>
+        <a href="#program" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Program</a>
+        <a href="#kegiatan" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kegiatan</a>
+        <a href="#akademik" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Akademik</a>
+        <a href="#fasilitas" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Fasilitas</a>
+        <a href="#kontak" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kontak</a>
+      </nav>
+      <div class="flex-1"></div>
+      <div class="hidden md:flex items-center gap-2">
+        <a href="portal.html" class="text-sm font-bold px-3 py-2 rounded-lg text-brand-700 hover:bg-brand-50">Portal Ortu</a>
+        <a href="ppdb.html" class="text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300 shadow-sm inline-flex items-center gap-1.5"><i data-lucide="user-plus" class="w-4 h-4"></i>Daftar Sekarang</a>
+      </div>
+      <button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100" aria-label="Menu"><i data-lucide="menu" class="w-6 h-6"></i></button>
+    </div>
+    <div id="mMenu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1 text-sm font-semibold">
+      <a href="#profil" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Profil</a>
+      <a href="#program" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Program</a>
+      <a href="#kegiatan" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kegiatan</a>
+      <a href="#akademik" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Akademik</a>
+      <a href="#fasilitas" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Fasilitas</a>
+      <a href="#kontak" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kontak</a>
+      <a href="belajar.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">E-Learning</a>
+      <a href="cbt.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Ujian CBT</a>
+      <div class="flex gap-2 pt-2">
+        <a href="ppdb.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Daftar</a>
+        <a href="portal.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-brand-600 text-white font-bold">Portal Ortu</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO FULL SLIDER ===================== -->
+  <section id="beranda" class="pt-[72px]">
+    <div id="slHost"></div>
+  </section>
+
+  <!-- ===================== STATISTIK ===================== -->
+  <section class="max-w-7xl mx-auto px-4 -mt-8 relative z-20">
+    <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+  </section>
+
+  <!-- ===================== BERITA ===================== -->
+  <section id="berita" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div>
+        <h2 class="font-display font-extrabold text-3xl text-brand-800">What's going on?</h2>
+        <p class="text-slate-500 mt-1 max-w-2xl">Kabar terbaru seputar kegiatan belajar, pengumuman, dan agenda sekolah. Tetap terinformasi dan terinspirasi!</p>
+      </div>
+      <a href="belajar.html" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-bold text-brand-700 hover:text-brand-800">More Articles <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+    </div>
+    <div id="newsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- ===================== PROFIL ===================== -->
+  <section id="profil" class="bg-brand-50/60 border-y border-brand-100">
+    <div class="max-w-7xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="relative">
+        <div class="card-img rounded-3xl overflow-hidden shadow-xl aspect-[4/3]">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=60" alt="Lingkungan sekolah" class="w-full h-full object-cover" onerror="this.style.display='none'">
+        </div>
+        <!-- Founder / Ketua Yayasan (tanpa NIP) — diatur di Panel Admin -> Pengaturan Sekolah -->
+        <div id="aboutCard" class="absolute -bottom-6 right-6 bg-white rounded-2xl shadow-xl p-5 max-w-[240px]">
+          <div id="aboutRole" class="text-xs font-bold text-slate-400 uppercase">Founder &amp; Ketua Yayasan</div>
+          <div id="aboutPerson" class="font-display font-bold text-brand-800 mt-1">—</div>
+        </div>
+      </div>
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-600">About Us</span>
+        <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Tentang <span id="aboutNama">Sekolah Kami</span></h2>
+        <div id="aboutText" class="text-slate-600 mt-4 leading-relaxed space-y-3"></div>
+        <div class="mt-7 flex flex-wrap items-center gap-3">
+          <button id="brochureBtn" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-600 text-white font-bold hover:bg-brand-700 shadow"><i data-lucide="download" class="w-4 h-4"></i>Download E-Brochure</button>
+          <div id="aboutSocial" class="flex items-center gap-2">
+            <span class="text-sm font-semibold text-slate-500 mr-1">Stay Connected:</span>
+            <a id="socWa" target="_blank" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="WhatsApp"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
+            <a id="socMail" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Email"><i data-lucide="mail" class="w-4 h-4"></i></a>
+            <a href="#kontak" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="Instagram"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+            <a href="#kontak" class="w-9 h-9 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center hover:bg-brand-200" title="YouTube"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROGRAM ===================== -->
+  <section id="program" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="text-center mb-10">
+      <span class="text-xs font-bold uppercase tracking-wider text-brand-600">What We Have</span>
+      <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Program Sekolah</h2>
+      <p class="text-slate-500 mt-2 max-w-2xl mx-auto">Jenjang pendidikan yang kami layani dalam satu ekosistem digital terpadu.</p>
+    </div>
+    <div id="programGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </section>
+
+  <!-- ===================== GALERI KEGIATAN BERTAHAP ===================== -->
+  <section id="kegiatan" class="relative bg-gradient-to-b from-brand-50/70 via-white to-brand-50/40 border-y border-brand-100">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="flex flex-wrap items-end justify-between gap-4 mb-6">
+        <div class="min-w-0">
+          <span class="text-xs font-bold uppercase tracking-wider text-brand-600">School Activities</span>
+          <h2 id="kgJudul" class="font-display font-extrabold text-3xl md:text-4xl text-slate-800 mt-2">Aktivitas &amp; Kegiatan Sekolah</h2>
+          <p id="kgSub" class="text-slate-500 mt-2 max-w-2xl"></p>
+        </div>
+        <div class="flex items-center gap-2">
+          <span id="kgCount" class="px-3 py-1.5 rounded-full bg-brand-600 text-white font-bold text-sm whitespace-nowrap">0 kegiatan</span>
+          <span id="kgBatchInfo" class="hidden sm:inline px-3 py-1.5 rounded-full bg-white border border-brand-200 text-brand-700 font-bold text-xs whitespace-nowrap"></span>
+        </div>
+      </div>
+
+      <div id="kgFilters" class="flex flex-wrap gap-2 mb-6"></div>
+
+      <div id="kgGrid" aria-live="polite" aria-busy="true"></div>
+      <div id="kgSentinel" class="h-2"></div>
+
+      <!-- panel kendali galeri -->
+      <div id="kgPanel" class="mt-8">
+        <div class="bg-white/80 backdrop-blur rounded-3xl border border-brand-200 shadow-sm p-4 md:p-5">
+          <div class="flex flex-wrap items-center gap-3">
+            <div class="min-w-[190px] flex-1">
+              <div class="flex items-center justify-between text-xs font-bold text-slate-500">
+                <span id="kgProgressTxt">Menampilkan 0 dari 0</span>
+                <span id="kgPct" class="text-brand-700 font-mono">0%</span>
+              </div>
+              <div class="mt-2 h-2 rounded-full bg-brand-100 overflow-hidden">
+                <div id="kgBar" class="h-full w-0 rounded-full bg-gradient-to-r from-brand-600 to-teal-500"></div>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center gap-2">
+              <button id="kgMore" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand-600 text-white font-bold text-sm hover:bg-brand-700 shadow-lg shadow-brand-600/20 transition">
+                <i data-lucide="layout-grid" class="w-4 h-4"></i><span id="kgMoreTxt">Lihat</span>
+              </button>
+              <button id="kgAuto" class="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-brand-300 text-brand-700 font-bold text-sm hover:bg-brand-50 transition" title="Muat otomatis saat menggulir">
+                <i data-lucide="play" class="w-4 h-4"></i><span id="kgAutoTxt">Muat otomatis</span>
+              </button>
+              <button id="kgCollapse" class="hidden inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-slate-300 text-slate-600 font-bold text-sm hover:bg-slate-50 transition">
+                <i data-lucide="chevrons-up" class="w-4 h-4"></i>Ringkas
+              </button>
+            </div>
+          </div>
+          <p id="kgDone" class="hidden mt-3 text-xs font-semibold text-brand-700 flex items-center gap-1.5"><i data-lucide="circle-check" class="w-3.5 h-3.5"></i><span></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AKADEMIK ===================== -->
+  <section id="akademik" class="bg-slate-50 border-y border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="flex items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Kalender Akademik</span>
+          <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Agenda Terdekat</h2>
+        </div>
+        <a href="belajar.html" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-bold text-brand-700">Lihat E-Learning <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+      </div>
+      <div id="agendaList" class="grid md:grid-cols-2 gap-4"></div>
+    </div>
+  </section>
+
+  <!-- ===================== FASILITAS ===================== -->
+  <section id="fasilitas" class="bg-brand-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="flex items-end justify-between gap-4 mb-10">
+        <div><span class="text-xs font-bold uppercase tracking-wider text-amber-300">Facilities</span><h2 class="font-display font-extrabold text-3xl mt-2">Fasilitas Sekolah</h2></div>
+        <button id="tourBtn2" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-400 text-amber-950 font-bold hover:bg-amber-300"><i data-lucide="play-circle" class="w-4 h-4"></i>Virtual Tour</button>
+      </div>
+      <div id="facilityGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+    </div>
+  </section>
+
+  <!-- ===================== KONTAK ===================== -->
+  <section id="kontak" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="text-center mb-10">
+      <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Find Us Here</span>
+      <h2 class="font-display font-extrabold text-3xl text-slate-800 mt-2">Kunjungi Sekolah Kami</h2>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-8 items-stretch">
+      <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm min-h-[320px]">
+        <iframe id="mapFrame" class="w-full h-full min-h-[320px]" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="about:blank" title="Peta lokasi sekolah"></iframe>
+      </div>
+      <div class="space-y-4">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+          <b id="kontakNama" class="font-display text-lg text-brand-800">Nama Sekolah</b>
+          <p id="kontakAlamat" class="text-slate-600 text-sm mt-2 flex gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span></span></p>
+          <p class="text-slate-600 text-sm mt-2 flex gap-2"><i data-lucide="phone" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span id="kontakTelp"></span></p>
+          <p class="text-slate-600 text-sm mt-2 flex gap-2"><i data-lucide="mail" class="w-4 h-4 text-brand-600 mt-0.5 shrink-0"></i><span id="kontakEmail"></span></p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <a id="kontakMap" target="_blank" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700"><i data-lucide="map" class="w-4 h-4"></i>Google Maps</a>
+            <a id="kontakWa" target="_blank" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50"><i data-lucide="message-circle" class="w-4 h-4"></i>WhatsApp</a>
+            <a href="ppdb.html" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300"><i data-lucide="user-plus" class="w-4 h-4"></i>Daftar</a>
+          </div>
+        </div>
+        <div class="bg-brand-50 border border-brand-100 rounded-2xl p-6 text-sm text-slate-600">
+          <b class="text-brand-800">Jam Layanan Administrasi</b>
+          <p class="mt-1">Senin–Jumat, 07.00–15.00 WIB. Untuk informasi PPDB, SPP, dan akademik, hubungi kami melalui WhatsApp atau Portal Orang Tua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-slate-900 text-slate-300">
+    <div class="max-w-7xl mx-auto px-4 py-14 grid md:grid-cols-2 lg:grid-cols-5 gap-10">
+      <div class="lg:col-span-2">
+        <div class="flex items-center gap-2.5">
+          <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center"><i data-lucide="school" class="w-5 h-5"></i></div>
+          <b id="footNama" class="font-display text-white text-lg">Nama Sekolah</b>
+        </div>
+        <p id="footAlamat" class="text-sm mt-4 text-slate-400 max-w-sm"></p>
+        <p id="footTelp" class="text-sm mt-2 text-slate-400"></p>
+        <div class="flex gap-2 mt-4">
+          <a id="footWa" target="_blank" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="WhatsApp"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
+          <a id="footMail" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Email"><i data-lucide="mail" class="w-4 h-4"></i></a>
+          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="Instagram"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+          <a href="#kontak" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-600" title="YouTube"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+        </div>
+      </div>
+      <div><b class="text-white text-sm uppercase tracking-wider">About Us</b>
+        <ul class="mt-4 space-y-2 text-sm"><li><a href="#profil" class="hover:text-brand-400">Profil Sekolah</a></li><li><a href="#program" class="hover:text-brand-400">Program</a></li><li><a href="#fasilitas" class="hover:text-brand-400">Fasilitas</a></li><li><a href="#kontak" class="hover:text-brand-400">Kontak</a></li></ul>
+      </div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Layanan</b>
+        <ul class="mt-4 space-y-2 text-sm"><li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li><li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li><li><a href="belajar.html" class="hover:text-brand-400">E-Learning</a></li><li><a href="cbt.html" class="hover:text-brand-400">Ujian CBT</a></li></ul>
+      </div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Jelajahi</b>
+        <ul class="mt-4 space-y-2 text-sm"><li><a href="#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li><li><a href="kalender.html" class="hover:text-brand-400">Kalender Akademik</a></li><li><a href="tuition.html" class="hover:text-brand-400">Biaya Pendidikan</a></li><li><a href="#berita" class="hover:text-brand-400">Berita</a></li></ul>
+      </div>
+    </div>
+    <div class="border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500 flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
+        <span class="sm:flex-1 text-center sm:text-left">© 2026 <span id="footCopy">Nama Sekolah</span>. Sistem Informasi Sekolah statis (GitHub Pages).</span>
+        <a href="login.html" id="adminGate" rel="nofollow" aria-label="Login Administrator" title="Login Administrator"
+           class="relative shrink-0 inline-flex items-center justify-center w-8 h-8 rounded-full text-slate-300 hover:text-amber-300 transition-all duration-300 outline-none focus-visible:ring-2 focus-visible:ring-amber-300/60">
+          <i data-lucide="lock" class="w-3.5 h-3.5"></i>
+          <span class="gate-tip pointer-events-none absolute bottom-full left-1/2 mb-2 whitespace-nowrap rounded-md bg-slate-800 border border-slate-700 px-2 py-1 text-[10px] font-semibold text-slate-300 transition-all duration-200">Area Administrator</span>
+        </a>
+        <span class="sm:flex-1 text-center sm:text-right">Slider &amp; konten dikelola dari Panel Admin • <code>data/*.json</code></span>
+      </div>
+    </div>
+  </footer>
+
+  <a id="fabWa" target="_blank" class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-full bg-brand-600 text-white shadow-xl flex items-center justify-center hover:bg-brand-700" title="Chat WhatsApp"><i data-lucide="message-circle" class="w-6 h-6"></i></a>
+
+  <div id="tourModal" class="hidden fixed inset-0 z-[60] bg-slate-900/70 flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl w-full max-w-3xl overflow-hidden">
+      <div class="flex items-center justify-between px-4 py-3 border-b"><b class="text-sm">Virtual Tour (demo)</b><button id="tourClose" class="p-1.5 rounded-lg hover:bg-slate-100"><i data-lucide="x" class="w-5 h-5"></i></button></div>
+      <div class="aspect-video bg-black"><iframe id="tourFrame" class="w-full h-full" allowfullscreen src="about:blank"></iframe></div>
+      <p class="text-xs text-slate-500 px-4 py-3">Ganti URL video pada tombol Virtual Tour dengan video tur sekolah Anda.</p>
+    </div>
+  </div>
+
+  <div id="kgModal" class="hidden fixed inset-0 z-[70] bg-slate-950/80 backdrop-blur-sm p-4 overflow-y-auto">
+    <div class="min-h-full flex items-center justify-center py-6">
+      <div class="bg-white rounded-3xl w-full max-w-4xl overflow-hidden shadow-2xl">
+        <div class="relative h-64 md:h-80 card-img">
+          <img id="kgMImg" class="w-full h-full object-cover" alt="">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent"></div>
+          <button id="kgMClose" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 text-slate-700 flex items-center justify-center hover:bg-white" aria-label="Tutup"><i data-lucide="x" class="w-5 h-5"></i></button>
+          <div class="absolute top-4 left-4 flex gap-2">
+            <span id="kgMKat" class="px-3 py-1 rounded-full bg-amber-400 text-amber-950 text-xs font-bold"></span>
+            <span id="kgMStar" class="hidden px-3 py-1 rounded-full bg-white/90 text-brand-700 text-xs font-bold">★ Unggulan</span>
+          </div>
+          <div class="absolute bottom-0 inset-x-0 p-6 text-white">
+            <div id="kgMTgl" class="text-xs font-semibold text-amber-300"></div>
+            <h3 id="kgMJudul" class="font-display font-extrabold text-2xl md:text-3xl mt-1 leading-tight"></h3>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="grid sm:grid-cols-3 gap-3 mb-5">
+            <div class="bg-brand-50 border border-brand-100 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Lokasi</div><div id="kgMLokasi" class="text-sm font-semibold text-slate-700 mt-0.5"></div></div>
+            <div class="bg-brand-50 border border-brand-100 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Peserta</div><div id="kgMPeserta" class="text-sm font-semibold text-slate-700 mt-0.5"></div></div>
+            <div class="bg-brand-50 border border-brand-100 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Penyelenggara</div><div id="kgMPenyelenggara" class="text-sm font-semibold text-slate-700 mt-0.5"></div></div>
+          </div>
+          <p id="kgMDesk" class="text-slate-600 leading-relaxed whitespace-pre-line"></p>
+          <div class="mt-6 flex items-center justify-between gap-3 border-t border-slate-100 pt-4">
+            <button id="kgMPrev" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50"><i data-lucide="arrow-left" class="w-4 h-4"></i>Sebelumnya</button>
+            <span id="kgMPos" class="text-xs text-slate-400 font-semibold"></span>
+            <button id="kgMNext" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700">Berikutnya<i data-lucide="arrow-right" class="w-4 h-4"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js?v=20261127"></script>
+  <script src="assets/js/app.js?v=20261127"></script>
+  <script src="assets/js/slider.js?v=20261127"></script>
+  <script>
+    let ST = {}, KEGIATAN = [], kgFilter = "Semua", kgIdx = -1, kgIO = null, kgAutoIO = null;
+    let kgShown = 0, kgAuto = false, kgBusy = false;
+    const $ = id => document.getElementById(id);
+    /* FIXED: reduceMotion dulunya global di index.html, lalu ikut hilang saat slider dipindah ke slider.js (di sana hanya lokal).
+       Akibatnya kgCardHTML() melempar ReferenceError -> blok catch menampilkan "Dokumentasi kegiatan sedang disiapkan" & tak ada gambar. */
+    const reduceMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const img = (url, alt) => '<div class="card-img w-full h-full"><img src="' + esc(url || "") + '" alt="' + esc(alt) + '" loading="lazy" class="w-full h-full object-cover" onerror="this.style.display=\'none\'"></div>';
+
+    const GAL_DEF = { aktif:true, judul:"Aktivitas & Kegiatan Sekolah", subjudul:"Dokumentasi kegiatan siswa sepanjang tahun ajaran. Klik kartu untuk melihat detail kegiatan.",
+      awal:9, batch:9, maks:0, tombolLabel:"Lihat", tombolSisa:true, mode:"bento", kolom:4, tinggiBaris:190, gap:16, radius:24, overlay:78,
+      efekHover:"zoom", urut:"urutan", filter:true, kategoriBatas:0, hanyaUnggulan:false, autoMuat:false, animasi:true,
+      tampilInfo:true, tampilTanggal:true, tampilKategori:true, tampilRingkasan:true, lightbox:true };
+    let GAL = { ...GAL_DEF };
+
+    /* ================= FULL SLIDER → dipindahkan ke slider.js (dipakai bersama halaman SD/SMP/SMA/SMK) ================= */
+    const slIdle = fn => window.requestIdleCallback ? requestIdleCallback(fn,{timeout:2500}) : setTimeout(fn,300);
+
+    /* ================= GALERI BENTO BERTAHAP ================= */
+    function kgSpan(i){
+      if(GAL.mode!=="bento") return "";
+      const c=GAL.kolom, j=i%9;
+      if(c>=4) return ["col-span-2 row-span-2","","","col-span-2","","","col-span-2","col-span-2","col-span-2"][j];
+      if(c===3) return j===0?"col-span-2 row-span-2":j===4?"col-span-2":"";
+      return j===0?"col-span-2 row-span-2":(j===3||j===6)?"col-span-2":"";
+    }
+    function kgApplyStyle(){
+      const g=$("kgGrid");
+      g.style.setProperty("--kg-cols",GAL.kolom);
+      g.style.setProperty("--kg-row",GAL.tinggiBaris+"px");
+      g.style.setProperty("--kg-rowm",Math.round(GAL.tinggiBaris*.79)+"px");
+      g.style.setProperty("--kg-gap",GAL.gap+"px");
+      g.style.setProperty("--kg-radius",GAL.radius+"px");
+    }
+    const kgSorted=()=>{
+      let a=KEGIATAN.filter(k=>k.status!=="Draft");
+      if(GAL.hanyaUnggulan) a=a.filter(k=>k.unggulan);
+      a=a.slice();
+      if(GAL.urut==="terbaru") a.sort((x,y)=>String(y.tanggal||"").localeCompare(String(x.tanggal||"")));
+      else if(GAL.urut==="terlama") a.sort((x,y)=>String(x.tanggal||"").localeCompare(String(y.tanggal||"")));
+      else if(GAL.urut==="judul") a.sort((x,y)=>String(x.judul||"").localeCompare(String(y.judul||"")));
+      else a.sort((x,y)=>(x.urutan||99)-(y.urutan||99));
+      return a;
+    };
+    const kgFiltered=()=>kgSorted().filter(k=>kgFilter==="Semua"||k.kategori===kgFilter);
+    const kgCap=()=>{ const n=kgFiltered().length; return GAL.maks>0?Math.min(GAL.maks,n):n; };
+    const kgRevealed=()=>kgFiltered().slice(0,kgShown);
+
+    function kgCardHTML(k,i){
+      const big=i%9===0, ov=Math.max(20,Math.min(95,GAL.overlay))/100;
+      const tag=GAL.lightbox?"button":"article";
+      const attrs=GAL.lightbox?'type="button" data-kg="'+i+'"':'role="group"';
+      const anim=GAL.animasi&&!reduceMotion?"":" na";
+      return "<"+tag+" "+attrs+' data-d="'+(i%9)+'" class="bento group hv-'+esc(GAL.efekHover)+anim+" ring-1 ring-brand-900/10 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-400 "+kgSpan(i)+'">'+
+        img(k.foto,k.judul)+
+        '<div class="absolute inset-0" style="background:linear-gradient(to top, rgba(2,6,23,'+ov+'), rgba(2,6,23,'+(ov*.42).toFixed(2)+') 55%, rgba(2,6,23,'+(ov*.08).toFixed(2)+'))"></div>'+
+        (GAL.tampilKategori?'<div class="absolute top-3 left-3 flex flex-wrap gap-1.5"><span class="px-2.5 py-1 rounded-full bg-white/90 text-brand-800 text-[10px] font-bold uppercase tracking-wide">'+esc(k.kategori||"Kegiatan")+"</span>"+(k.unggulan?'<span class="px-2.5 py-1 rounded-full bg-amber-400 text-amber-950 text-[10px] font-bold">★ Unggulan</span>':"")+"</div>":"")+
+        (GAL.lightbox?'<span class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/15 border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition"><i data-lucide="maximize-2" class="w-3.5 h-3.5"></i></span>':"")+
+        (GAL.tampilInfo?'<div class="absolute inset-x-0 bottom-0 p-3.5 '+(big?"md:p-6":"")+' text-white">'+
+          (GAL.tampilTanggal?'<div class="text-[11px] font-semibold text-amber-300 flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3"></i>'+esc(fmtTgl(k.tanggal))+"</div>":"")+
+          '<h3 class="font-display font-bold leading-snug mt-1 '+(big?"text-lg md:text-2xl":"text-sm md:text-base line-clamp-2")+'">'+esc(k.judul)+"</h3>"+
+          (GAL.tampilRingkasan?'<p class="excerpt text-[11px] md:text-xs text-white/80 mt-1.5 overflow-hidden '+(big?"line-clamp-3":"line-clamp-2")+'">'+esc(k.ringkasan||"")+"</p>":"")+
+          (big&&GAL.lightbox?'<span class="inline-flex items-center gap-1 text-xs font-bold text-amber-300 mt-2">Lihat detail <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span>':"")+
+        "</div>":"")+
+      "</"+tag+">";
+    }
+    function kgObserve(scope){
+      const cards=(scope||$("kgGrid")).querySelectorAll(".bento:not(.in)");
+      if(!GAL.animasi||reduceMotion||!("IntersectionObserver" in window)){cards.forEach(c=>c.classList.add("in"));return;}
+      if(!kgIO) kgIO=new IntersectionObserver(en=>en.forEach(x=>{ if(x.isIntersecting){ setTimeout(()=>x.target.classList.add("in"),Number(x.target.dataset.d||0)*55); kgIO.unobserve(x.target); } }),{threshold:.08,rootMargin:"0px 0px -30px 0px"});
+      cards.forEach(c=>kgIO.observe(c));
+    }
+    function kgFilters(){
+      const host=$("kgFilters");
+      if(!GAL.filter){host.innerHTML="";host.classList.add("hidden");return;}
+      host.classList.remove("hidden");
+      const all=kgSorted();
+      let cats=[...new Set(all.map(k=>k.kategori).filter(Boolean))];
+      if(GAL.kategoriBatas>0) cats=cats.slice(0,GAL.kategoriBatas);
+      const list=["Semua",...cats];
+      if(!list.includes(kgFilter)) kgFilter="Semua";
+      host.innerHTML=list.map(c=>{
+        const on=c===kgFilter, n=c==="Semua"?all.length:all.filter(k=>k.kategori===c).length;
+        return '<button data-cat="'+esc(c)+'" class="px-4 py-2 rounded-full text-sm font-bold border transition '+(on?"bg-brand-600 text-white border-brand-600 shadow":"bg-white text-slate-600 border-slate-200 hover:border-brand-300 hover:text-brand-700")+'">'+esc(c)+' <span class="'+(on?"text-brand-100":"text-slate-400")+'">'+n+"</span></button>";
+      }).join("");
+      host.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{ kgFilter=b.dataset.cat; kgFilters(); kgPaint(true); });
+    }
+    function kgControls(){
+      const total=kgFiltered().length, cap=kgCap(), left=Math.max(0,cap-kgShown);
+      const pct=cap?Math.round(kgShown/cap*100):100;
+      $("kgCount").textContent=total.toLocaleString("id-ID")+" kegiatan";
+      $("kgBatchInfo").textContent=GAL.awal+" awal · +"+GAL.batch+" per klik";
+      $("kgProgressTxt").textContent="Menampilkan "+kgShown.toLocaleString("id-ID")+" dari "+cap.toLocaleString("id-ID")+(GAL.maks>0&&total>cap?" (batas "+GAL.maks+")":"");
+      $("kgPct").textContent=pct+"%";
+      $("kgBar").style.width=pct+"%";
+      const more=$("kgMore");
+      if(left>0){
+        more.classList.remove("hidden"); more.disabled=false;
+        const n=Math.min(GAL.batch,left);
+        $("kgMoreTxt").textContent=(GAL.tombolLabel||"Lihat")+(GAL.tombolSisa?" "+n+" kegiatan"+(left<=GAL.batch?" terakhir":" lagi"):"");
+      } else more.classList.add("hidden");
+      $("kgCollapse").classList.toggle("hidden",kgShown<=Math.min(GAL.awal,cap));
+      const done=$("kgDone");
+      if(left===0&&cap>0){ done.classList.remove("hidden"); done.querySelector("span").textContent="Seluruh "+cap.toLocaleString("id-ID")+" kegiatan pada kategori ini telah ditampilkan."; }
+      else done.classList.add("hidden");
+      $("kgAuto").classList.toggle("hidden",left===0);
+      $("kgGrid").setAttribute("aria-busy","false");
+      refreshIcons();
+    }
+    function kgPaint(reset){
+      const grid=$("kgGrid"), list=kgFiltered(), cap=kgCap();
+      kgApplyStyle();
+      if(reset){ grid.innerHTML=""; kgShown=0; if(kgIO){kgIO.disconnect();kgIO=null;} }
+      if(!list.length){
+        grid.innerHTML='<div class="col-span-2 lg:col-span-4 row-span-2 bg-white rounded-3xl border border-dashed border-brand-200 flex flex-col items-center justify-center text-center p-8"><i data-lucide="image-off" class="w-8 h-8 text-brand-300"></i><b class="mt-3 text-slate-600">Belum ada kegiatan pada kategori ini</b><p class="text-sm text-slate-400 mt-1">Pilih kategori lain untuk melihat dokumentasi kegiatan.</p></div>';
+        kgControls(); return;
+      }
+      const target=Math.min(reset?Math.min(GAL.awal,cap):kgShown+GAL.batch,cap);
+      if(target>kgShown){
+        const html=list.slice(kgShown,target).map((k,i)=>kgCardHTML(k,kgShown+i)).join("");
+        grid.insertAdjacentHTML("beforeend",html);
+        const added=[...grid.children].slice(kgShown);
+        added.forEach(el=>{ if(GAL.lightbox) el.onclick=()=>kgOpen(Number(el.dataset.kg)); });
+        kgShown=target;
+        kgObserve(grid);
+      }
+      kgControls();
+    }
+    function kgMore(){
+      if(kgBusy) return;
+      const cap=kgCap(); if(kgShown>=cap) return;
+      kgBusy=true;
+      const btn=$("kgMore"); btn.disabled=true; btn.classList.add("opacity-70");
+      requestAnimationFrame(()=>{
+        kgPaint(false);
+        btn.disabled=false; btn.classList.remove("opacity-70");
+        kgBusy=false;
+      });
+    }
+    function kgCollapse(){
+      kgPaint(true);
+      const y=$("kegiatan").getBoundingClientRect().top+window.scrollY-84;
+      window.scrollTo({top:y,behavior:reduceMotion?"auto":"smooth"});
+    }
+    function kgAutoToggle(){
+      kgAuto=!kgAuto;
+      $("kgAuto").innerHTML='<i data-lucide="'+(kgAuto?"pause":"play")+'" class="w-4 h-4"></i><span id="kgAutoTxt">'+(kgAuto?"Jeda":"Muat otomatis")+"</span>";
+      $("kgAuto").classList.toggle("bg-brand-600",kgAuto);
+      $("kgAuto").classList.toggle("text-white",kgAuto);
+      $("kgAuto").classList.toggle("border-brand-600",kgAuto);
+      refreshIcons();
+      if(kgAuto) kgAutoCheck();
+    }
+    function kgAutoCheck(){
+      if(!kgAuto||kgBusy) return;
+      const s=$("kgSentinel").getBoundingClientRect();
+      if(s.top<window.innerHeight+240&&s.bottom>0) kgMore();
+    }
+    function kgOpen(i){
+      const list=kgRevealed(); if(!list.length||i>=list.length) return;
+      kgIdx=(i+list.length)%list.length; const k=list[kgIdx];
+      $("kgMImg").src=k.foto||""; $("kgMImg").alt=k.judul||"";
+      $("kgMKat").textContent=k.kategori||"Kegiatan";
+      $("kgMStar").classList.toggle("hidden",!k.unggulan);
+      $("kgMTgl").textContent=fmtTgl(k.tanggal);
+      $("kgMJudul").textContent=k.judul||"";
+      $("kgMLokasi").textContent=k.lokasi||"-";
+      $("kgMPeserta").textContent=k.peserta||"-";
+      $("kgMPenyelenggara").textContent=k.penyelenggara||"-";
+      $("kgMDesk").textContent=k.deskripsi||k.ringkasan||"";
+      $("kgMPos").textContent=(kgIdx+1)+" / "+list.length;
+      $("kgModal").classList.remove("hidden"); document.body.style.overflow="hidden"; refreshIcons();
+    }
+    const kgClose=()=>{ $("kgModal").classList.add("hidden"); document.body.style.overflow=""; };
+    $("kgMClose").onclick=kgClose;
+    $("kgMPrev").onclick=()=>kgOpen(kgIdx-1);
+    $("kgMNext").onclick=()=>kgOpen(kgIdx+1);
+    $("kgModal").onclick=e=>{ if(e.target===$("kgModal")) kgClose(); };
+    $("kgMore").onclick=kgMore;
+    $("kgCollapse").onclick=kgCollapse;
+    $("kgAuto").onclick=kgAutoToggle;
+
+    document.addEventListener("keydown",e=>{
+      const kgOpenNow=!$("kgModal").classList.contains("hidden"), tourOpen=!$("tourModal").classList.contains("hidden");
+      if(kgOpenNow){ if(e.key==="Escape")kgClose(); if(e.key==="ArrowLeft")kgOpen(kgIdx-1); if(e.key==="ArrowRight")kgOpen(kgIdx+1); return; }
+      if(tourOpen){ if(e.key==="Escape")$("tourClose").click(); return; }
+      if(typeof SL==="undefined"||!SL.list||!SL.list.length) return; // FIXED: SL/slPrev/slNext/slToggle kini privat di slider.js; cegah ReferenceError di tiap tombol
+      const r=$("slider").getBoundingClientRect();
+      if(r.bottom<80||r.top>window.innerHeight-80) return;
+      if(e.key==="ArrowLeft"){slPrev(true);e.preventDefault();}
+      if(e.key==="ArrowRight"){slNext(true);e.preventDefault();}
+      if(e.key===" "&&document.activeElement===$("slider")){slToggle();e.preventDefault();}
+    });
+
+    function kgSkeleton(){
+      $("kgGrid").innerHTML=Array.from({length:Math.min(GAL.awal,9)}).map((_,i)=>'<div class="kg-skel '+kgSpan(i)+'"></div>').join("");
+    }
+    let kgStarted=false;
+    function kgStart(){ if(kgStarted) return; kgStarted=true; initGallery(); }
+    function kgLazy(){
+      kgApplyStyle(); kgSkeleton();               // ruang galeri dipesan lebih dulu (mencegah layout shift)
+      const host=$("kegiatan");
+      if("IntersectionObserver" in window && host){
+        const io=new IntersectionObserver(en=>{ if(en.some(x=>x.isIntersecting)){ io.disconnect(); kgStart(); } },{rootMargin:"900px 0px"});
+        io.observe(host);
+      }
+      const later=()=>slIdle(kgStart);
+      if(document.readyState==="complete") setTimeout(later,4000); else addEventListener("load",()=>setTimeout(later,4000),{once:true});
+    }
+    /* ================= GALERI (dimuat malas: saat bagian kegiatan mendekati layar) ================= */
+    async function initGallery(){
+      try { GAL={...GAL_DEF,...(await fetchJSON("galeri.json"))}; } catch(e){ GAL={...GAL_DEF}; }
+      $("kgJudul").textContent=GAL.judul||GAL_DEF.judul;
+      $("kgSub").textContent=GAL.subjudul||"";
+      $("kgSub").classList.toggle("hidden",!GAL.subjudul);
+      if(!GAL.aktif){ $("kegiatan").classList.add("hidden"); }
+      kgSkeleton();
+      try {
+        KEGIATAN=await fetchJSON("kegiatan.json");
+        if(!Array.isArray(KEGIATAN)) KEGIATAN=[];
+        if(GAL.aktif){
+          kgFilters(); kgPaint(true);
+          if(GAL.autoMuat&&!reduceMotion){ kgAutoToggle(); }
+          if("IntersectionObserver" in window){
+            kgAutoIO=new IntersectionObserver(en=>en.forEach(x=>{ if(x.isIntersecting) kgAutoCheck(); }),{rootMargin:"240px"});
+            kgAutoIO.observe($("kgSentinel"));
+          }
+          window.addEventListener("scroll",()=>{ if(kgAuto) kgAutoCheck(); },{passive:true});
+        }
+      } catch(e){
+        $("kgGrid").innerHTML='<div class="col-span-2 lg:col-span-4 row-span-2 bg-white border border-dashed border-brand-200 rounded-3xl flex items-center justify-center text-slate-500 text-sm p-8">Dokumentasi kegiatan sedang disiapkan.</div>';
+        $("kgPanel").classList.add("hidden");
+      }
+    }
+
+    /* ================= BOOT ================= */
+    (async () => {
+      // Hero adalah prioritas: unduh slider.json PARALEL dengan settings.json (dulu berurutan) dan tampilkan segera.
+      const sliderP = fetchJSON("slider.json");
+      const settingsP = fetchJSON("settings.json");
+      const slEmpty=(t,d,link)=>{ $("slHost").innerHTML='<div class="flex flex-col items-center justify-center text-center text-white bg-gradient-to-br from-brand-700 to-teal-600 px-6" style="height:calc(100vh - 72px);min-height:420px;max-height:640px"><b class="font-display text-2xl">'+t+'</b><p class="text-white/80 text-sm mt-2 max-w-md">'+d+'</p>'+(link?'<a href="ppdb.html" class="mt-5 px-5 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Informasi PPDB</a>':'')+'</div>'; };
+      sliderP.then(data=>{ const prep=LSSlider.prepare(data,"beranda");
+        if(!prep.list.length) return slEmpty("Belum ada slide aktif","Konten sorotan sekolah sedang disiapkan. Silakan hubungi administrasi sekolah untuk informasi terbaru.",true);
+        LSSlider.mount($("slHost"),prep,{down:"#profil"});
+      }).catch(()=>slEmpty("Sorotan sekolah segera hadir","Konten sedang disiapkan oleh tim sekolah.",false));
+
+      try {
+        ST = await settingsP;
+        const nama=ST.nama_sekolah||"Nama Sekolah";
+        ["navNama","aboutNama","kontakNama","footNama","footCopy"].forEach(id=>$(id).textContent=nama);
+        document.title=nama+" — Sistem Informasi Sekolah";
+        $("navNpsn").textContent="NPSN "+(ST.npsn||"—");
+        fillAbout(ST);   // About Us: Founder/Ketua Yayasan dari Pengaturan Sekolah (app.js)
+        $("kontakAlamat").querySelector("span").textContent=ST.alamat||"—";
+        $("kontakTelp").textContent=ST.telepon||"—";
+        $("kontakEmail").textContent=ST.email||"—";
+        $("footAlamat").textContent=ST.alamat||"—";
+        $("footTelp").textContent=ST.telepon||"—";
+        const wa="https://wa.me/"+(ST.wa_admin||"").replace(/^0/,"62");
+        // FIXED: ikon sosial About Us dirender ulang oleh app.js (anchor #socWa/#socMail bisa sudah tidak ada) -> beri pengaman null agar baris berikutnya tetap jalan
+        ["socWa","kontakWa","footWa","fabWa"].forEach(id=>{ const e=$(id); if(e) e.href=wa; });
+        [["socMail"],["footMail"]].forEach(([id])=>{ const e=$(id); if(e) e.href="mailto:"+(ST.email||""); });
+        // Iframe peta diatur oleh app.js (renderKontak) - tidak diatur dua kali agar peta tidak dimuat ulang.
+        $("kontakMap").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(ST.alamat||"Indonesia");
+      } catch(e){}
+
+
+      // Statistik, program, fasilitas, berita & agenda dirender oleh app.js (LSUI) dari data/ui.json.
+      // Blok render ganda di sini (yang menimpa/ditimpa LSUI dan mengunduh ulang 10 berkas JSON) sudah dihapus.
+      kgLazy();
+    })();
+
+    $("brochureBtn").onclick=async()=>{
+      const [siswa,guru,kelas]=await Promise.all([fetchJSON("siswa.json").catch(()=>[]),fetchJSON("guru.json").catch(()=>[]),fetchJSON("kelas.json").catch(()=>[])]);
+      printHTML("E-Brochure "+(ST.nama_sekolah||""),
+        "<div class='center'><h1>"+esc(ST.nama_sekolah||"")+"</h1><div class='muted'>NPSN "+esc(ST.npsn||"")+" • "+esc(ST.jenjang||"")+" • Kurikulum "+esc(ST.kurikulum||"")+"</div></div><hr>"+
+        "<h3>Profil Singkat</h3><p>"+esc(ST.nama_sekolah||"")+" menyelenggarakan pendidikan "+esc(ST.jenjang||"")+" dengan Kurikulum "+esc(ST.kurikulum||"")+" tahun ajaran "+esc(ST.tahun_ajaran||"")+". Kepala Sekolah: "+esc(ST.kepala_sekolah||"")+".</p>"+
+        "<h3>Data Ringkas</h3><table><tr><th>Siswa Aktif</th><td>"+siswa.filter(s=>s.status==="Aktif").length+"</td><th>Guru & Tendik</th><td>"+guru.length+"</td><th>Rombel</th><td>"+kelas.length+"</td></tr></table>"+
+        "<h3>Kontak</h3><p>"+esc(ST.alamat||"")+"<br>Telp. "+esc(ST.telepon||"")+" • Email "+esc(ST.email||"")+"</p>");
+    };
+    const TOUR_VIDEO="https://www.youtube.com/embed/aqz-KE-bpKQ";
+    function openTour(){ $("tourFrame").src=TOUR_VIDEO; $("tourModal").classList.remove("hidden"); }
+    $("tourBtn2").onclick=openTour;
+    $("tourClose").onclick=()=>{ $("tourFrame").src="about:blank"; $("tourModal").classList.add("hidden"); };
+    $("tourModal").onclick=e=>{ if(e.target===$("tourModal")) $("tourClose").click(); };
+    $("mBtn").onclick=()=>$("mMenu").classList.toggle("hidden");
+    document.querySelectorAll("#mMenu a").forEach(a=>a.onclick=()=>$("mMenu").classList.add("hidden"));
+  </script>
+</body>
+</html>

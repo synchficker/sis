@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <base href="../">
+  <script>window.__LS_PAGE__="login";</script>
+  
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Administrator — Sistem Informasi Sekolah</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:["Inter","ui-sans-serif","system-ui"],display:["Space Grotesk","Inter","sans-serif"]},colors:{brand:{50:"#f0fdf4",100:"#dcfce7",400:"#4ade80",600:"#16a34a",700:"#15803d",800:"#166534"}}}}};</script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+  html,body{overflow-x:clip;max-width:100%}
+  #loginRoot{min-height:calc(100vh - var(--hdr-h,72px))}
+  #resume{display:none}
+  #resume.on{display:block}
+  body.lgv-preview #lsHeader,body.lgv-preview #lsFooter,body.lgv-preview #lsSkip{display:none!important}
+  body.lgv-preview{padding-top:0!important}
+  body.lgv-preview #loginRoot{min-height:100vh}
+</style>
+</head>
+<body class="font-sans bg-slate-950 text-slate-100 antialiased">
+<main id="lsMain">
+  <div id="resume" class="max-w-3xl mx-auto px-4 pt-5">
+    <div class="rounded-2xl border border-emerald-500/35 bg-emerald-500/10 px-4 py-3 flex flex-wrap items-center gap-3">
+      <i data-lucide="user-check" class="w-5 h-5 text-emerald-400 shrink-0"></i>
+      <span class="text-sm flex-1 min-w-0">Sesi aktif sebagai <b id="resumeUser">—</b> · berakhir <span id="resumeExp">—</span></span>
+      <a id="resumeGo" href="admin.html" class="px-4 py-2 rounded-xl bg-emerald-500 text-slate-950 text-sm font-bold">Lanjutkan</a>
+      <button id="resumeEnd" class="px-4 py-2 rounded-xl border border-emerald-500/40 text-sm font-bold text-emerald-300">Akhiri sesi</button>
+    </div>
+  </div>
+  <div id="loginRoot"></div>
+</main>
+
+<script src="config.js?v=20261127"></script>
+<script src="assets/js/app.js?v=20261127"></script>
+<script src="admin/login-view.js?v=20261127"></script>
+<script>
+(() => {
+"use strict";
+// TOKEN TIDAK BOLEH DI-HARDCODE
+const el = id => document.getElementById(id);
+const PREVIEW = new URLSearchParams(location.search).get("preview") === "1";
+if (PREVIEW) document.body.classList.add("lgv-preview");
+
+const FAILK = "ls_login_fail", LOCKK = "ls_login_lock";
+let CFG = { ...LoginView.DEF }, VIEW = null, lockTimer = null;
+
+const fails = () => Number(sessionStorage.getItem(FAILK) || 0);
+const setFails = n => sessionStorage.setItem(FAILK, String(n));
+const lockUntil = () => Number(sessionStorage.getItem(LOCKK) || 0);
+const setLock = t => sessionStorage.setItem(LOCKK, String(t));
+
+function expMs(){ return Number(sessionStorage.getItem("gh_token_exp") || 0); }
+function sessionAlive(){ return !!sessionStorage.getItem("gh_token") && (!expMs() || Date.now() < expMs()); }
+
+function paintResume(){
+  if (PREVIEW || !sessionAlive()) { el("resume").classList.remove("on"); return; }
+  el("resumeUser").textContent = sessionStorage.getItem("gh_user") || "admin";
+  el("resumeExp").textContent = expMs() ? new Date(expMs()).toLocaleTimeString("id-ID",{hour:"2-digit",minute:"2-digit"}) : "saat tab ditutup";
+  el("resumeGo").href = CFG.redirect || "admin.html";
+  el("resume").classList.add("on");
+  if (window.lucide) lucide.createIcons();
+}
+el("resumeEnd").onclick = () => {
+  ["gh_token","gh_user","gh_avatar","gh_token_exp",FAILK,LOCKK].forEach(k=>sessionStorage.removeItem(k));
+  paintResume(); if (VIEW) { VIEW.attempts(0); VIEW.closeVeil(); VIEW.focus(); }
+  toast("Sesi diakhiri.", "info");
+};
+
+function startLock(){
+  if (!VIEW) return;
+  clearInterval(lockTimer);
+  const tick = () => {
+    const left = Math.max(0, Math.ceil((lockUntil() - Date.now())/1000));
+    if (left <= 0) {
+      clearInterval(lockTimer); setFails(0); VIEW.attempts(0); VIEW.closeVeil(); VIEW.busy(false); VIEW.focus();
+      return;
+    }
+    VIEW.busy(true, "Terkunci " + left + "s");
+    VIEW.veil("bad", "Terlalu banyak percobaan",
+      "Demi keamanan, form dikunci sementara. Coba lagi dalam " + left + " detik.", "Mengerti");
+  };
+  tick(); lockTimer = setInterval(tick, 1000);
+}
+
+function registerFail(msg){
+  const n = fails() + 1; setFails(n);
+  VIEW.attempts(n); VIEW.error(msg);
+  if (CFG.batas_percobaan > 0 && n >= CFG.batas_percobaan) {
+    setLock(Date.now() + CFG.kunci_detik*1000); startLock();
+  }
+}
+
+async function doLogin(token, api){
+  if (lockUntil() > Date.now()) { startLock(); return; }
+  const rc = repoCfg();
+  if (!rc.owner || !rc.repo) { api.error("Isi config.js (GITHUB_USERNAME & GITHUB_REPO) atau buka dari GitHub Pages."); return; }
+  api.busy(true, "Memvalidasi token…");
+  try {
+    const H = { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" };
+    const u = await fetch("https://api.github.com/user", { headers: H });
+    if (u.status === 401) throw new Error("Token ditolak GitHub (401). Periksa nilai dan masa berlaku PAT.");
+    if (u.status === 403) throw new Error("Akses ditolak (403). Token lacks scope atau rate limit tercapai.");
+    if (!u.ok) throw new Error("GitHub membalas " + u.status + ". Coba beberapa saat lagi.");
+    const user = await u.json();
+
+    api.busy(true, "Memeriksa repositori…");
+    const r = await fetch("https://api.github.com/repos/" + rc.owner + "/" + rc.repo, { headers: H });
+    if (r.status === 404) throw new Error("Repo " + rc.owner + "/" + rc.repo + " tidak ditemukan atau token tidak punya akses.");
+    if (!r.ok) throw new Error("Pemeriksaan repo gagal (" + r.status + ").");
+    const repo = await r.json();
+    if (CFG.validasi_izin_tulis && repo.permissions && repo.permissions.push === false)
+      throw new Error("Token tidak punya izin TULIS. Aktifkan Contents: Read and write.");
+
+    // TOKEN TIDAK BOLEH DI-HARDCODE — hanya sessionStorage, tidak pernah ke file/repo
+    sessionStorage.setItem("gh_token", token);
+    sessionStorage.setItem("gh_user", user.login);
+    sessionStorage.setItem("gh_avatar", CFG.avatar ? (user.avatar_url || "") : "");
+    sessionStorage.setItem("gh_token_exp", String(Date.now() + CFG.sesi_menit*60000));
+    sessionStorage.removeItem(FAILK); sessionStorage.removeItem(LOCKK);
+    api.attempts(0); api.busy(false);
+
+    let left = 3;
+    const target = (window.cleanUrl ? cleanUrl(CFG.redirect || "admin.html") : (CFG.redirect || "admin/"));
+    const go = () => { location.href = target; };
+    api.veil("ok", "Selamat datang, " + user.login,
+      "Izin tulis terverifikasi. Mengalihkan ke " + target + " dalam " + left + " detik…", "Masuk sekarang");
+    api.refs.veilBtn.onclick = go;
+    const t = setInterval(() => {
+      left--;
+      if (left <= 0) { clearInterval(t); go(); return; }
+      api.refs.veilP.textContent = "Izin tulis terverifikasi. Mengalihkan ke " + target + " dalam " + left + " detik…";
+    }, 1000);
+  } catch (err) {
+    api.busy(false);
+    registerFail(err.message || "Verifikasi gagal.");
+  }
+}
+
+function demoLogin(token, api){
+  api.busy(true, "Memverifikasi…");
+  setTimeout(() => {
+    api.busy(false);
+    if (token.length < CFG.min_panjang + 6) { registerFail("Pratinjau: token dianggap tidak valid."); return; }
+    api.attempts(0); setFails(0);
+    api.veil("ok", "Pratinjau berhasil", "Ini simulasi tampilan sukses. Tidak ada token yang dikirim.", "Tutup");
+  }, 900);
+}
+
+(async () => {
+  let saved = {};
+  try { saved = await fetchJSON("login.json"); } catch (e) {}
+  let school = "";
+  try { const s = await fetchJSON("settings.json"); school = s.nama_sekolah || ""; } catch (e) {}
+  CFG = LoginView.norm(saved).cfg;
+  const rc = repoCfg();
+  VIEW = LoginView.mount(el("loginRoot"), CFG, { repo: rc, school });
+  VIEW.onSubmit(PREVIEW ? demoLogin : doLogin);
+  VIEW.attempts(fails());
+  if (!PREVIEW && lockUntil() > Date.now()) startLock();
+  paintResume();
+  if (!PREVIEW && !sessionAlive()) VIEW.focus();
+  if (window.lucide) lucide.createIcons();
+})();
+})();
+</script>
+</body>
+</html>

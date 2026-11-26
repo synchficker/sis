@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <base href="../">
+  <script>window.__LS_PAGE__="admin";</script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Sistem Informasi Sekolah</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }, colors: { brand: { 50:"#f0fdf4",100:"#dcfce7",400:"#4ade80",600:"#16a34a",700:"#15803d",800:"#166534" } } } } };</script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  <style>
+    html{scrollbar-color:#16a34a #f1f5f9;scrollbar-width:thin}
+    /* Layout terkunci satu layar: hanya sidebar (#nav) dan konten (#scrollArea) yang punya scrollbar */
+    html,body{margin:0;height:100%;overflow:hidden}
+    #adminShell{display:flex;height:100vh;height:100dvh;overflow:hidden}
+    #adminCol{display:flex;flex-direction:column;flex:1 1 0%;min-width:0;min-height:0;height:100%}
+    #scrollArea{flex:1 1 0%;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+    #sidebar{display:flex;flex-direction:column;min-height:0;height:100%}
+    #nav{flex:1 1 0%;min-height:0;overflow-y:scroll;overscroll-behavior:contain}
+    @media (min-width:1024px){#sidebar{position:static;transform:none}}
+    [data-pg]{display:none!important}
+    #nav{scrollbar-color:#16a34a #0f172a;scrollbar-width:thin}
+    ::-webkit-scrollbar{width:11px;height:11px}
+    ::-webkit-scrollbar-track{background:#f1f5f9}
+    ::-webkit-scrollbar-thumb{background:linear-gradient(#16a34a,#0f766e);border-radius:99px;border:2px solid #f1f5f9}
+    ::-webkit-scrollbar-thumb:hover{background:#15803d}
+    #sidebar ::-webkit-scrollbar-track{background:#0f172a}
+    #sidebar ::-webkit-scrollbar-thumb{border-color:#0f172a}
+  </style>
+</head>
+<body class="font-sans bg-slate-100 text-slate-800 overflow-hidden">
+  <!-- Layout terkunci satu layar: sidebar punya scrollbar sendiri, area konten (#scrollArea) juga; halaman tidak ikut bergeser -->
+  <div id="adminShell" class="flex overflow-hidden">
+    <aside id="sidebar" class="fixed lg:static z-40 inset-y-0 left-0 w-72 shrink-0 h-full min-h-0 bg-slate-900 text-slate-300 -translate-x-full lg:translate-x-0 transition-transform flex flex-col">
+      <div class="px-5 py-4 flex items-center gap-3 border-b border-slate-800 shrink-0">
+        <div class="w-9 h-9 rounded-lg bg-emerald-600 text-white flex items-center justify-center"><i data-lucide="school" class="w-5 h-5"></i></div>
+        <div class="min-w-0 flex-1"><div class="font-extrabold text-white text-sm truncate" id="schoolName">SIS Sekolah</div><div class="text-[11px] text-slate-400">Panel Administrator</div></div>
+        <button type="button" id="sidebarClose" class="lg:hidden p-1.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-white" aria-label="Tutup menu"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+      <div class="px-3 pt-3 shrink-0">
+        <div class="relative">
+          <i data-lucide="search" class="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+          <input id="menuSearch" type="search" autocomplete="off" placeholder="Cari menu…  (Ctrl+K)" aria-label="Cari menu" class="w-full rounded-lg bg-slate-800 border border-slate-700 text-slate-200 placeholder-slate-500 text-sm pl-9 pr-8 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+          <button type="button" id="menuSearchX" class="hidden absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-0.5" aria-label="Hapus pencarian"><i data-lucide="x" class="w-4 h-4"></i></button>
+        </div>
+      </div>
+      <nav class="flex-1 min-h-0 overflow-y-scroll overscroll-contain px-3 py-3 space-y-1 text-sm" id="nav" aria-label="Menu admin"></nav>
+    </aside>
+    <div id="backdrop" class="hidden fixed inset-0 bg-slate-900/50 z-30 lg:hidden"></div>
+    <div id="adminCol" class="flex-1 min-w-0 min-h-0 flex flex-col">
+      <header class="bg-white border-b border-slate-200 shrink-0 z-20">
+        <div class="px-4 py-3 flex items-center gap-3">
+          <button id="btnMenu" class="lg:hidden p-2 rounded-lg hover:bg-slate-100"><i data-lucide="menu" class="w-5 h-5"></i></button>
+          <div class="text-sm text-slate-500 hidden sm:block">Repo: <b id="repoLabel" class="text-slate-700"></b></div>
+          <div class="flex-1"></div>
+          <button id="btnSync" title="Muat ulang data dari repo" class="inline-flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg border border-slate-200 hover:bg-slate-50"><i data-lucide="refresh-cw" class="w-4 h-4"></i><span class="hidden sm:inline">Sinkron</span></button>
+          <div class="flex items-center gap-2 pl-2 border-l border-slate-200">
+            <img id="ghAvatar" class="w-8 h-8 rounded-full bg-slate-200" alt="">
+            <span id="ghUser" class="text-sm font-bold hidden sm:block"></span>
+            <button id="btnLogout" title="Keluar" class="p-2 rounded-lg text-rose-600 hover:bg-rose-50"><i data-lucide="log-out" class="w-4 h-4"></i></button>
+          </div>
+        </div>
+      </header>
+      <nav id="crumb" aria-label="Breadcrumb" class="shrink-0 bg-white border-b border-slate-200 px-4 py-2 text-xs text-slate-500 flex items-center gap-1.5 overflow-x-auto whitespace-nowrap"></nav>
+      <div id="scrollArea" class="flex-1 min-h-0 overflow-y-auto overscroll-contain">
+        <main id="app" class="p-4 md:p-6 max-w-[1700px] w-full mx-auto"></main>
+      </div>
+    </div>
+  </div>
+  <div id="modal" class="hidden fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm overflow-y-auto">
+    <div class="min-h-full flex items-start justify-center p-4">
+      <div class="bg-white rounded-2xl shadow-xl w-full max-w-2xl mt-6">
+        <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100">
+          <h3 id="modalTitle" class="font-extrabold text-slate-800"></h3>
+          <button type="button" id="modalX" class="p-1.5 rounded-lg hover:bg-slate-100"><i data-lucide="x" class="w-5 h-5"></i></button>
+        </div>
+        <form id="modalForm">
+          <div id="modalBody" class="p-5 max-h-[65vh] overflow-y-auto"></div>
+          <div class="px-5 py-4 border-t border-slate-100 flex justify-end gap-2">
+            <button type="button" id="modalCancel" class="px-4 py-2 text-sm font-bold rounded-lg border border-slate-200 hover:bg-slate-50">Tutup</button>
+            <button type="submit" id="modalSave" class="px-5 py-2 text-sm font-bold rounded-lg bg-emerald-600 text-white hover:bg-emerald-700">Simpan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js?v=20261127"></script>
+  <script src="assets/js/app.js?v=20261127"></script>
+  <script src="admin/login-view.js?v=20261127"></script>
+  <script src="admin/admin.js?v=20261127"></script>
+  <script src="admin/admin-dashboard.js?v=20261127"></script>
+  <script src="admin/admin-siswa.js?v=20261127"></script>
+  <script src="admin/admin-ppdb.js?v=20261127"></script>
+  <script src="admin/admin-absensi.js?v=20261127"></script>
+  <script src="admin/admin-nilai.js?v=20261127"></script>
+  <script src="admin/admin-rapor.js?v=20261127"></script>
+  <script src="admin/admin-cbt.js?v=20261127"></script>
+  <script src="admin/admin-soal.js?v=20261127"></script>
+  <script src="admin/admin-materi.js?v=20261127"></script>
+  <script src="admin/admin-tugas.js?v=20261127"></script>
+  <script src="admin/admin-spp.js?v=20261127"></script>
+  <script src="admin/admin-bos.js?v=20261127"></script>
+  <script src="admin/admin-gaji.js?v=20261127"></script>
+  <script src="admin/admin-guru.js?v=20261127"></script>
+  <script src="admin/admin-kinerja.js?v=20261127"></script>
+  <script src="admin/admin-jurnal.js?v=20261127"></script>
+  <script src="admin/admin-inventaris.js?v=20261127"></script>
+  <script src="admin/admin-perpus.js?v=20261127"></script>
+  <script src="admin/admin-laporan.js?v=20261127"></script>
+  <script src="admin/admin-slider.js?v=20261127"></script>
+  <script src="admin/admin-galeri.js?v=20261127"></script>
+  <script src="admin/admin-kegiatan.js?v=20261127"></script>
+  <script src="admin/admin-konten.js?v=20261127"></script>
+  <script src="admin/admin-ui.js?v=20261127"></script>
+  <script src="admin/admin-login.js?v=20261127"></script>
+  <script src="admin/admin-chat.js?v=20261127"></script>
+  <script src="admin/admin-wa.js?v=20261127"></script>
+  <script src="admin/admin-audit.js?v=20261127"></script>
+  <script src="admin/admin-pengaturan.js?v=20261127"></script>
+  <script src="admin/admin-router.js?v=20261127"></script>
+</body>
+</html>

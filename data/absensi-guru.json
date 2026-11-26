@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "AG0001",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0001",
+    "jam_masuk": "07:51",
+    "jam_pulang": "13:10",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0002",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0002",
+    "jam_masuk": "07:43",
+    "jam_pulang": "13:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0003",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0003",
+    "jam_masuk": "07:29",
+    "jam_pulang": "14:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0004",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0004",
+    "jam_masuk": "07:12",
+    "jam_pulang": "14:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0005",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0005",
+    "jam_masuk": "07:35",
+    "jam_pulang": "15:35",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0006",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0006",
+    "jam_masuk": "06:22",
+    "jam_pulang": "14:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0007",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0007",
+    "jam_masuk": "06:06",
+    "jam_pulang": "15:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0008",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0008",
+    "jam_masuk": "06:11",
+    "jam_pulang": "15:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0009",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0009",
+    "jam_masuk": "06:07",
+    "jam_pulang": "13:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0010",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0010",
+    "jam_masuk": "06:46",
+    "jam_pulang": "15:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0011",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0011",
+    "jam_masuk": "06:56",
+    "jam_pulang": "14:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0012",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0012",
+    "jam_masuk": "06:40",
+    "jam_pulang": "13:34",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0013",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0013",
+    "jam_masuk": "07:12",
+    "jam_pulang": "15:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0014",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0014",
+    "jam_masuk": "06:06",
+    "jam_pulang": "15:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0015",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0015",
+    "jam_masuk": "07:43",
+    "jam_pulang": "13:54",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0016",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0016",
+    "jam_masuk": "07:23",
+    "jam_pulang": "15:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0017",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0017",
+    "jam_masuk": "07:55",
+    "jam_pulang": "13:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0018",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0018",
+    "jam_masuk": "06:59",
+    "jam_pulang": "14:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0019",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0019",
+    "jam_masuk": "07:47",
+    "jam_pulang": "13:00",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0020",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0020",
+    "jam_masuk": "06:45",
+    "jam_pulang": "14:58",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0021",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0021",
+    "jam_masuk": "07:03",
+    "jam_pulang": "14:11",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0022",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0022",
+    "jam_masuk": "07:38",
+    "jam_pulang": "15:01",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0023",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0023",
+    "jam_masuk": "06:15",
+    "jam_pulang": "14:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0024",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0024",
+    "jam_masuk": "07:46",
+    "jam_pulang": "15:13",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0025",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0025",
+    "jam_masuk": "06:44",
+    "jam_pulang": "15:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0026",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0026",
+    "jam_masuk": "06:44",
+    "jam_pulang": "13:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0027",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0027",
+    "jam_masuk": "07:51",
+    "jam_pulang": "15:32",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0028",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0028",
+    "jam_masuk": "07:22",
+    "jam_pulang": "13:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0029",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0029",
+    "jam_masuk": "06:42",
+    "jam_pulang": "14:58",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0030",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0030",
+    "jam_masuk": "07:45",
+    "jam_pulang": "13:24",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0031",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0031",
+    "jam_masuk": "06:44",
+    "jam_pulang": "13:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0032",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0032",
+    "jam_masuk": "07:20",
+    "jam_pulang": "14:10",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0033",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0033",
+    "jam_masuk": "07:19",
+    "jam_pulang": "13:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0034",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0034",
+    "jam_masuk": "07:12",
+    "jam_pulang": "14:09",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0035",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0035",
+    "jam_masuk": "07:47",
+    "jam_pulang": "15:52",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0036",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0036",
+    "jam_masuk": "07:23",
+    "jam_pulang": "15:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0037",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0037",
+    "jam_masuk": "06:45",
+    "jam_pulang": "13:58",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0038",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0038",
+    "jam_masuk": "07:57",
+    "jam_pulang": "13:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0039",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0039",
+    "jam_masuk": "06:09",
+    "jam_pulang": "15:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0040",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0040",
+    "jam_masuk": "07:00",
+    "jam_pulang": "13:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0041",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0041",
+    "jam_masuk": "06:49",
+    "jam_pulang": "13:42",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0042",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0042",
+    "jam_masuk": "07:23",
+    "jam_pulang": "13:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0043",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0043",
+    "jam_masuk": "07:27",
+    "jam_pulang": "15:43",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0044",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0044",
+    "jam_masuk": "06:23",
+    "jam_pulang": "13:54",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0045",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0045",
+    "jam_masuk": "07:49",
+    "jam_pulang": "13:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0046",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0046",
+    "jam_masuk": "06:07",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0047",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0047",
+    "jam_masuk": "07:22",
+    "jam_pulang": "13:52",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0048",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0048",
+    "jam_masuk": "07:50",
+    "jam_pulang": "15:32",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0049",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0049",
+    "jam_masuk": "07:06",
+    "jam_pulang": "15:27",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0050",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0050",
+    "jam_masuk": "06:37",
+    "jam_pulang": "14:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0051",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0051",
+    "jam_masuk": "07:08",
+    "jam_pulang": "13:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0052",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0052",
+    "jam_masuk": "06:56",
+    "jam_pulang": "14:18",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0053",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0053",
+    "jam_masuk": "06:50",
+    "jam_pulang": "15:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0054",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0054",
+    "jam_masuk": "07:46",
+    "jam_pulang": "15:05",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0055",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0055",
+    "jam_masuk": "07:59",
+    "jam_pulang": "13:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0056",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0056",
+    "jam_masuk": "07:34",
+    "jam_pulang": "13:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0057",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0057",
+    "jam_masuk": "07:36",
+    "jam_pulang": "13:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0058",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0058",
+    "jam_masuk": "06:23",
+    "jam_pulang": "13:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0059",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0059",
+    "jam_masuk": "06:45",
+    "jam_pulang": "15:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0060",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0060",
+    "jam_masuk": "07:35",
+    "jam_pulang": "13:43",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0061",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0061",
+    "jam_masuk": "07:52",
+    "jam_pulang": "13:46",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0062",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0062",
+    "jam_masuk": "06:14",
+    "jam_pulang": "14:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0063",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0063",
+    "jam_masuk": "07:05",
+    "jam_pulang": "15:17",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0064",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0064",
+    "jam_masuk": "06:51",
+    "jam_pulang": "15:25",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0065",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0065",
+    "jam_masuk": "07:04",
+    "jam_pulang": "15:24",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0066",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0066",
+    "jam_masuk": "07:51",
+    "jam_pulang": "13:44",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0067",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0067",
+    "jam_masuk": "06:56",
+    "jam_pulang": "14:00",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0068",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0068",
+    "jam_masuk": "06:02",
+    "jam_pulang": "15:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0069",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0069",
+    "jam_masuk": "06:44",
+    "jam_pulang": "15:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0070",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0070",
+    "jam_masuk": "07:07",
+    "jam_pulang": "15:12",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0071",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0071",
+    "jam_masuk": "07:18",
+    "jam_pulang": "14:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0072",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0072",
+    "jam_masuk": "06:31",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0073",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0073",
+    "jam_masuk": "06:05",
+    "jam_pulang": "14:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0074",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0074",
+    "jam_masuk": "06:33",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0075",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0075",
+    "jam_masuk": "06:07",
+    "jam_pulang": "15:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0076",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0076",
+    "jam_masuk": "07:31",
+    "jam_pulang": "14:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0077",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0077",
+    "jam_masuk": "06:41",
+    "jam_pulang": "13:52",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0078",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0078",
+    "jam_masuk": "07:19",
+    "jam_pulang": "13:51",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0079",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0079",
+    "jam_masuk": "06:36",
+    "jam_pulang": "14:08",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0080",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0080",
+    "jam_masuk": "07:46",
+    "jam_pulang": "14:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0081",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0081",
+    "jam_masuk": "06:52",
+    "jam_pulang": "14:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0082",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0082",
+    "jam_masuk": "07:52",
+    "jam_pulang": "13:09",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0083",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0083",
+    "jam_masuk": "06:03",
+    "jam_pulang": "15:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0084",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0084",
+    "jam_masuk": "07:06",
+    "jam_pulang": "14:46",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0085",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0085",
+    "jam_masuk": "07:12",
+    "jam_pulang": "15:31",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0086",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0086",
+    "jam_masuk": "07:09",
+    "jam_pulang": "13:27",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0087",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0087",
+    "jam_masuk": "07:46",
+    "jam_pulang": "15:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0088",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0088",
+    "jam_masuk": "06:39",
+    "jam_pulang": "13:00",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0089",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0089",
+    "jam_masuk": "07:13",
+    "jam_pulang": "15:15",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0090",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0090",
+    "jam_masuk": "07:14",
+    "jam_pulang": "14:37",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0091",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0091",
+    "jam_masuk": "07:14",
+    "jam_pulang": "14:52",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0092",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0092",
+    "jam_masuk": "07:24",
+    "jam_pulang": "14:18",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0093",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0093",
+    "jam_masuk": "06:10",
+    "jam_pulang": "15:45",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0094",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0094",
+    "jam_masuk": "07:24",
+    "jam_pulang": "15:16",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0095",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0095",
+    "jam_masuk": "07:10",
+    "jam_pulang": "14:11",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0096",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0096",
+    "jam_masuk": "07:45",
+    "jam_pulang": "14:50",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0097",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0097",
+    "jam_masuk": "07:15",
+    "jam_pulang": "15:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0098",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0098",
+    "jam_masuk": "07:57",
+    "jam_pulang": "14:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0099",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0099",
+    "jam_masuk": "07:23",
+    "jam_pulang": "15:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0100",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0100",
+    "jam_masuk": "06:48",
+    "jam_pulang": "15:20",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0101",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0101",
+    "jam_masuk": "07:02",
+    "jam_pulang": "13:47",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0102",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0102",
+    "jam_masuk": "06:30",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0103",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0103",
+    "jam_masuk": "07:09",
+    "jam_pulang": "14:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0104",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0104",
+    "jam_masuk": "06:31",
+    "jam_pulang": "15:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0105",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0105",
+    "jam_masuk": "07:16",
+    "jam_pulang": "13:05",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0106",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0106",
+    "jam_masuk": "07:40",
+    "jam_pulang": "13:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0107",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0107",
+    "jam_masuk": "07:34",
+    "jam_pulang": "13:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0108",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0108",
+    "jam_masuk": "06:23",
+    "jam_pulang": "13:55",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0109",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0109",
+    "jam_masuk": "06:26",
+    "jam_pulang": "15:15",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0110",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0110",
+    "jam_masuk": "06:18",
+    "jam_pulang": "13:46",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0111",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0111",
+    "jam_masuk": "07:34",
+    "jam_pulang": "14:44",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0112",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0112",
+    "jam_masuk": "06:52",
+    "jam_pulang": "15:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0113",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0113",
+    "jam_masuk": "07:14",
+    "jam_pulang": "14:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0114",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0114",
+    "jam_masuk": "07:37",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0115",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0115",
+    "jam_masuk": "07:59",
+    "jam_pulang": "13:32",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0116",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0116",
+    "jam_masuk": "06:45",
+    "jam_pulang": "14:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0117",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0117",
+    "jam_masuk": "07:59",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0118",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0118",
+    "jam_masuk": "06:55",
+    "jam_pulang": "15:49",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0119",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0119",
+    "jam_masuk": "06:58",
+    "jam_pulang": "15:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0120",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0120",
+    "jam_masuk": "06:38",
+    "jam_pulang": "13:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0121",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0121",
+    "jam_masuk": "06:46",
+    "jam_pulang": "13:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0122",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0122",
+    "jam_masuk": "07:26",
+    "jam_pulang": "15:59",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0123",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0123",
+    "jam_masuk": "07:42",
+    "jam_pulang": "15:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0124",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0124",
+    "jam_masuk": "07:30",
+    "jam_pulang": "13:10",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0125",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0125",
+    "jam_masuk": "07:28",
+    "jam_pulang": "13:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0126",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0126",
+    "jam_masuk": "07:25",
+    "jam_pulang": "15:15",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0127",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0127",
+    "jam_masuk": "06:33",
+    "jam_pulang": "13:54",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0128",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0128",
+    "jam_masuk": "06:44",
+    "jam_pulang": "13:46",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0129",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0129",
+    "jam_masuk": "06:55",
+    "jam_pulang": "14:12",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0130",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0130",
+    "jam_masuk": "07:47",
+    "jam_pulang": "15:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0131",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0131",
+    "jam_masuk": "06:22",
+    "jam_pulang": "15:44",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0132",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0132",
+    "jam_masuk": "07:37",
+    "jam_pulang": "13:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0133",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0133",
+    "jam_masuk": "07:52",
+    "jam_pulang": "14:16",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0134",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0134",
+    "jam_masuk": "07:58",
+    "jam_pulang": "15:32",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0135",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0135",
+    "jam_masuk": "06:17",
+    "jam_pulang": "14:57",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0136",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0136",
+    "jam_masuk": "06:16",
+    "jam_pulang": "14:08",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0137",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0137",
+    "jam_masuk": "06:32",
+    "jam_pulang": "15:43",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0138",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0138",
+    "jam_masuk": "07:45",
+    "jam_pulang": "14:51",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0139",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0139",
+    "jam_masuk": "07:16",
+    "jam_pulang": "14:24",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0140",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0140",
+    "jam_masuk": "06:17",
+    "jam_pulang": "15:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0141",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0141",
+    "jam_masuk": "07:44",
+    "jam_pulang": "15:45",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0142",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0142",
+    "jam_masuk": "06:49",
+    "jam_pulang": "13:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0143",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0143",
+    "jam_masuk": "07:11",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0144",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0144",
+    "jam_masuk": "07:23",
+    "jam_pulang": "13:45",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0145",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0145",
+    "jam_masuk": "06:08",
+    "jam_pulang": "14:34",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0146",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0146",
+    "jam_masuk": "06:41",
+    "jam_pulang": "13:42",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0147",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0147",
+    "jam_masuk": "06:45",
+    "jam_pulang": "13:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0148",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0148",
+    "jam_masuk": "07:42",
+    "jam_pulang": "15:18",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0149",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0149",
+    "jam_masuk": "06:55",
+    "jam_pulang": "14:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0150",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0150",
+    "jam_masuk": "06:52",
+    "jam_pulang": "14:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0151",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0151",
+    "jam_masuk": "06:27",
+    "jam_pulang": "13:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0152",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0152",
+    "jam_masuk": "06:39",
+    "jam_pulang": "14:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0153",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0153",
+    "jam_masuk": "07:16",
+    "jam_pulang": "14:59",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0154",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0154",
+    "jam_masuk": "06:15",
+    "jam_pulang": "14:47",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0155",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0155",
+    "jam_masuk": "06:13",
+    "jam_pulang": "14:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0156",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0156",
+    "jam_masuk": "07:33",
+    "jam_pulang": "15:20",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0157",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0157",
+    "jam_masuk": "06:24",
+    "jam_pulang": "14:55",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0158",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0158",
+    "jam_masuk": "06:07",
+    "jam_pulang": "14:42",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0159",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0159",
+    "jam_masuk": "07:20",
+    "jam_pulang": "14:45",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0160",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0160",
+    "jam_masuk": "07:08",
+    "jam_pulang": "13:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0161",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0161",
+    "jam_masuk": "07:34",
+    "jam_pulang": "15:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0162",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0162",
+    "jam_masuk": "06:55",
+    "jam_pulang": "14:59",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0163",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0163",
+    "jam_masuk": "07:46",
+    "jam_pulang": "15:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0164",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0164",
+    "jam_masuk": "06:38",
+    "jam_pulang": "13:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0165",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0165",
+    "jam_masuk": "07:05",
+    "jam_pulang": "14:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0166",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0166",
+    "jam_masuk": "07:40",
+    "jam_pulang": "15:42",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0167",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0167",
+    "jam_masuk": "06:19",
+    "jam_pulang": "14:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0168",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0168",
+    "jam_masuk": "06:32",
+    "jam_pulang": "14:45",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0169",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0169",
+    "jam_masuk": "06:38",
+    "jam_pulang": "14:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0170",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0170",
+    "jam_masuk": "07:59",
+    "jam_pulang": "13:04",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0171",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0171",
+    "jam_masuk": "07:41",
+    "jam_pulang": "14:11",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0172",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0172",
+    "jam_masuk": "06:15",
+    "jam_pulang": "14:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0173",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0173",
+    "jam_masuk": "06:50",
+    "jam_pulang": "13:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0174",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0174",
+    "jam_masuk": "06:27",
+    "jam_pulang": "13:00",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0175",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0175",
+    "jam_masuk": "07:08",
+    "jam_pulang": "15:59",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0176",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0176",
+    "jam_masuk": "06:19",
+    "jam_pulang": "15:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0177",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0177",
+    "jam_masuk": "06:10",
+    "jam_pulang": "13:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0178",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0178",
+    "jam_masuk": "07:19",
+    "jam_pulang": "14:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0179",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0179",
+    "jam_masuk": "06:37",
+    "jam_pulang": "14:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0180",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0180",
+    "jam_masuk": "06:12",
+    "jam_pulang": "15:16",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0181",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0181",
+    "jam_masuk": "06:54",
+    "jam_pulang": "13:45",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0182",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0182",
+    "jam_masuk": "06:32",
+    "jam_pulang": "15:45",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0183",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0183",
+    "jam_masuk": "07:46",
+    "jam_pulang": "13:15",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0184",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0184",
+    "jam_masuk": "06:16",
+    "jam_pulang": "14:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0185",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0185",
+    "jam_masuk": "07:04",
+    "jam_pulang": "13:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0186",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0186",
+    "jam_masuk": "06:11",
+    "jam_pulang": "13:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0187",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0187",
+    "jam_masuk": "07:02",
+    "jam_pulang": "14:33",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0188",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0188",
+    "jam_masuk": "07:47",
+    "jam_pulang": "15:08",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0189",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0189",
+    "jam_masuk": "06:04",
+    "jam_pulang": "13:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0190",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0190",
+    "jam_masuk": "06:17",
+    "jam_pulang": "15:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0191",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0191",
+    "jam_masuk": "06:50",
+    "jam_pulang": "13:52",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0192",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0192",
+    "jam_masuk": "06:55",
+    "jam_pulang": "13:46",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0193",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0193",
+    "jam_masuk": "07:19",
+    "jam_pulang": "13:44",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0194",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0194",
+    "jam_masuk": "06:00",
+    "jam_pulang": "14:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0195",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0195",
+    "jam_masuk": "06:25",
+    "jam_pulang": "15:49",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0196",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0196",
+    "jam_masuk": "07:06",
+    "jam_pulang": "13:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0197",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0197",
+    "jam_masuk": "07:51",
+    "jam_pulang": "14:34",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0198",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0198",
+    "jam_masuk": "07:58",
+    "jam_pulang": "14:04",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0199",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0199",
+    "jam_masuk": "07:55",
+    "jam_pulang": "14:45",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0200",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0200",
+    "jam_masuk": "07:42",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0201",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0201",
+    "jam_masuk": "06:13",
+    "jam_pulang": "14:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0202",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0202",
+    "jam_masuk": "07:42",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0203",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0203",
+    "jam_masuk": "07:25",
+    "jam_pulang": "13:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0204",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0204",
+    "jam_masuk": "06:11",
+    "jam_pulang": "15:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0205",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0205",
+    "jam_masuk": "06:42",
+    "jam_pulang": "13:16",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0206",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0206",
+    "jam_masuk": "07:36",
+    "jam_pulang": "14:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0207",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0207",
+    "jam_masuk": "07:07",
+    "jam_pulang": "13:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0208",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0208",
+    "jam_masuk": "07:16",
+    "jam_pulang": "14:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0209",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0209",
+    "jam_masuk": "06:07",
+    "jam_pulang": "15:09",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0210",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0210",
+    "jam_masuk": "07:50",
+    "jam_pulang": "15:08",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0211",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0211",
+    "jam_masuk": "07:21",
+    "jam_pulang": "15:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0212",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0212",
+    "jam_masuk": "06:28",
+    "jam_pulang": "14:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0213",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0213",
+    "jam_masuk": "06:36",
+    "jam_pulang": "13:25",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0214",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0214",
+    "jam_masuk": "07:31",
+    "jam_pulang": "13:42",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0215",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0215",
+    "jam_masuk": "06:25",
+    "jam_pulang": "15:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0216",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0216",
+    "jam_masuk": "06:01",
+    "jam_pulang": "14:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0217",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0217",
+    "jam_masuk": "07:27",
+    "jam_pulang": "13:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0218",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0218",
+    "jam_masuk": "07:21",
+    "jam_pulang": "13:37",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0219",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0219",
+    "jam_masuk": "07:28",
+    "jam_pulang": "14:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0220",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0220",
+    "jam_masuk": "06:17",
+    "jam_pulang": "15:53",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0221",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0221",
+    "jam_masuk": "07:45",
+    "jam_pulang": "15:18",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0222",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0222",
+    "jam_masuk": "06:20",
+    "jam_pulang": "13:11",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0223",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0223",
+    "jam_masuk": "07:05",
+    "jam_pulang": "13:10",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0224",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0224",
+    "jam_masuk": "06:37",
+    "jam_pulang": "15:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0225",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0225",
+    "jam_masuk": "06:26",
+    "jam_pulang": "15:15",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0226",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0226",
+    "jam_masuk": "06:06",
+    "jam_pulang": "13:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0227",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0227",
+    "jam_masuk": "07:32",
+    "jam_pulang": "14:20",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0228",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0228",
+    "jam_masuk": "06:57",
+    "jam_pulang": "15:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0229",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0229",
+    "jam_masuk": "07:24",
+    "jam_pulang": "14:55",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0230",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0230",
+    "jam_masuk": "07:53",
+    "jam_pulang": "15:11",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0231",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0231",
+    "jam_masuk": "07:03",
+    "jam_pulang": "13:32",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0232",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0232",
+    "jam_masuk": "07:17",
+    "jam_pulang": "13:49",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0233",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0233",
+    "jam_masuk": "06:15",
+    "jam_pulang": "13:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0234",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0234",
+    "jam_masuk": "07:49",
+    "jam_pulang": "14:47",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0235",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0235",
+    "jam_masuk": "07:32",
+    "jam_pulang": "15:16",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0236",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0236",
+    "jam_masuk": "06:02",
+    "jam_pulang": "14:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0237",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0237",
+    "jam_masuk": "06:38",
+    "jam_pulang": "14:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0238",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0238",
+    "jam_masuk": "07:10",
+    "jam_pulang": "14:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0239",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0239",
+    "jam_masuk": "06:12",
+    "jam_pulang": "13:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0240",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0240",
+    "jam_masuk": "06:58",
+    "jam_pulang": "15:58",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0241",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0241",
+    "jam_masuk": "07:31",
+    "jam_pulang": "13:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0242",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0242",
+    "jam_masuk": "07:25",
+    "jam_pulang": "14:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0243",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0243",
+    "jam_masuk": "06:52",
+    "jam_pulang": "15:16",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0244",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0244",
+    "jam_masuk": "07:10",
+    "jam_pulang": "13:43",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0245",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0245",
+    "jam_masuk": "06:05",
+    "jam_pulang": "13:11",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0246",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0246",
+    "jam_masuk": "06:53",
+    "jam_pulang": "15:32",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0247",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0247",
+    "jam_masuk": "07:06",
+    "jam_pulang": "15:36",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0248",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0248",
+    "jam_masuk": "06:28",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0249",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0249",
+    "jam_masuk": "06:27",
+    "jam_pulang": "13:58",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0250",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0250",
+    "jam_masuk": "07:09",
+    "jam_pulang": "15:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0251",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0251",
+    "jam_masuk": "06:50",
+    "jam_pulang": "13:47",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0252",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0252",
+    "jam_masuk": "06:50",
+    "jam_pulang": "15:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0253",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0253",
+    "jam_masuk": "07:20",
+    "jam_pulang": "14:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0254",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0254",
+    "jam_masuk": "07:46",
+    "jam_pulang": "14:54",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0255",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0255",
+    "jam_masuk": "07:52",
+    "jam_pulang": "15:26",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0256",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0256",
+    "jam_masuk": "07:36",
+    "jam_pulang": "14:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0257",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0257",
+    "jam_masuk": "07:57",
+    "jam_pulang": "15:15",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0258",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0258",
+    "jam_masuk": "06:05",
+    "jam_pulang": "14:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0259",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0259",
+    "jam_masuk": "07:27",
+    "jam_pulang": "14:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0260",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0260",
+    "jam_masuk": "07:51",
+    "jam_pulang": "14:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0261",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0261",
+    "jam_masuk": "06:52",
+    "jam_pulang": "13:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0262",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0262",
+    "jam_masuk": "07:43",
+    "jam_pulang": "13:27",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0263",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0263",
+    "jam_masuk": "06:06",
+    "jam_pulang": "14:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0264",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0264",
+    "jam_masuk": "07:18",
+    "jam_pulang": "13:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0265",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0265",
+    "jam_masuk": "07:46",
+    "jam_pulang": "13:00",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0266",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0266",
+    "jam_masuk": "06:21",
+    "jam_pulang": "14:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0267",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0267",
+    "jam_masuk": "06:53",
+    "jam_pulang": "15:37",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0268",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0268",
+    "jam_masuk": "07:12",
+    "jam_pulang": "14:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0269",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0269",
+    "jam_masuk": "06:32",
+    "jam_pulang": "13:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0270",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0270",
+    "jam_masuk": "06:04",
+    "jam_pulang": "13:58",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0271",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0271",
+    "jam_masuk": "07:37",
+    "jam_pulang": "13:15",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0272",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0272",
+    "jam_masuk": "07:57",
+    "jam_pulang": "14:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0273",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0273",
+    "jam_masuk": "06:36",
+    "jam_pulang": "14:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0274",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0274",
+    "jam_masuk": "06:59",
+    "jam_pulang": "14:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0275",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0275",
+    "jam_masuk": "07:25",
+    "jam_pulang": "14:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0276",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0276",
+    "jam_masuk": "07:19",
+    "jam_pulang": "14:49",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0277",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0277",
+    "jam_masuk": "06:55",
+    "jam_pulang": "15:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0278",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0278",
+    "jam_masuk": "07:40",
+    "jam_pulang": "13:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0279",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0279",
+    "jam_masuk": "07:23",
+    "jam_pulang": "15:10",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0280",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0280",
+    "jam_masuk": "07:35",
+    "jam_pulang": "14:10",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0281",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0281",
+    "jam_masuk": "06:20",
+    "jam_pulang": "14:26",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0282",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0282",
+    "jam_masuk": "07:25",
+    "jam_pulang": "13:47",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0283",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0283",
+    "jam_masuk": "07:32",
+    "jam_pulang": "14:54",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0284",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0284",
+    "jam_masuk": "06:36",
+    "jam_pulang": "14:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0285",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0285",
+    "jam_masuk": "07:15",
+    "jam_pulang": "13:11",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0286",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0286",
+    "jam_masuk": "06:38",
+    "jam_pulang": "15:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0287",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0287",
+    "jam_masuk": "07:15",
+    "jam_pulang": "13:43",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0288",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0288",
+    "jam_masuk": "07:35",
+    "jam_pulang": "13:34",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0289",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0289",
+    "jam_masuk": "06:50",
+    "jam_pulang": "15:43",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0290",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0290",
+    "jam_masuk": "07:54",
+    "jam_pulang": "13:12",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0291",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0291",
+    "jam_masuk": "07:56",
+    "jam_pulang": "13:04",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0292",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0292",
+    "jam_masuk": "06:58",
+    "jam_pulang": "15:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0293",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0293",
+    "jam_masuk": "06:08",
+    "jam_pulang": "15:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0294",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0294",
+    "jam_masuk": "06:18",
+    "jam_pulang": "15:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0295",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0295",
+    "jam_masuk": "07:06",
+    "jam_pulang": "15:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0296",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0296",
+    "jam_masuk": "06:56",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0297",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0297",
+    "jam_masuk": "07:59",
+    "jam_pulang": "15:09",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0298",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0298",
+    "jam_masuk": "07:30",
+    "jam_pulang": "14:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0299",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0299",
+    "jam_masuk": "06:31",
+    "jam_pulang": "15:25",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0300",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0300",
+    "jam_masuk": "06:45",
+    "jam_pulang": "15:08",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0301",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0301",
+    "jam_masuk": "06:23",
+    "jam_pulang": "13:46",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0302",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0302",
+    "jam_masuk": "06:27",
+    "jam_pulang": "13:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0303",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0303",
+    "jam_masuk": "06:44",
+    "jam_pulang": "13:49",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0304",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0304",
+    "jam_masuk": "06:18",
+    "jam_pulang": "15:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0305",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0305",
+    "jam_masuk": "07:27",
+    "jam_pulang": "13:15",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0306",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0306",
+    "jam_masuk": "07:41",
+    "jam_pulang": "13:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0307",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0307",
+    "jam_masuk": "06:41",
+    "jam_pulang": "14:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0308",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0308",
+    "jam_masuk": "07:02",
+    "jam_pulang": "14:42",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0309",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0309",
+    "jam_masuk": "06:40",
+    "jam_pulang": "13:52",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0310",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0310",
+    "jam_masuk": "07:41",
+    "jam_pulang": "13:49",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0311",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0311",
+    "jam_masuk": "06:42",
+    "jam_pulang": "14:32",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0312",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0312",
+    "jam_masuk": "07:18",
+    "jam_pulang": "14:57",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0313",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0313",
+    "jam_masuk": "06:25",
+    "jam_pulang": "15:52",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0314",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0314",
+    "jam_masuk": "07:12",
+    "jam_pulang": "14:26",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0315",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0315",
+    "jam_masuk": "06:22",
+    "jam_pulang": "14:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0316",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0316",
+    "jam_masuk": "06:04",
+    "jam_pulang": "15:15",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0317",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0317",
+    "jam_masuk": "07:05",
+    "jam_pulang": "15:21",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0318",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0318",
+    "jam_masuk": "07:18",
+    "jam_pulang": "13:54",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0319",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0319",
+    "jam_masuk": "06:14",
+    "jam_pulang": "13:18",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0320",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0320",
+    "jam_masuk": "06:30",
+    "jam_pulang": "14:47",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0321",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0321",
+    "jam_masuk": "07:46",
+    "jam_pulang": "14:41",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0322",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0322",
+    "jam_masuk": "07:35",
+    "jam_pulang": "15:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0323",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0323",
+    "jam_masuk": "06:15",
+    "jam_pulang": "15:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0324",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0324",
+    "jam_masuk": "07:23",
+    "jam_pulang": "14:56",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0325",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0325",
+    "jam_masuk": "07:57",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0326",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0326",
+    "jam_masuk": "06:23",
+    "jam_pulang": "13:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0327",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0327",
+    "jam_masuk": "07:26",
+    "jam_pulang": "13:51",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0328",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0328",
+    "jam_masuk": "07:26",
+    "jam_pulang": "15:59",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0329",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0329",
+    "jam_masuk": "06:30",
+    "jam_pulang": "14:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0330",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0330",
+    "jam_masuk": "07:44",
+    "jam_pulang": "13:51",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0331",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0331",
+    "jam_masuk": "07:31",
+    "jam_pulang": "13:24",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0332",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0332",
+    "jam_masuk": "06:55",
+    "jam_pulang": "14:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0333",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0333",
+    "jam_masuk": "07:35",
+    "jam_pulang": "14:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0334",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0334",
+    "jam_masuk": "06:07",
+    "jam_pulang": "13:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0335",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0335",
+    "jam_masuk": "07:50",
+    "jam_pulang": "15:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0336",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0336",
+    "jam_masuk": "07:46",
+    "jam_pulang": "15:05",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0337",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0337",
+    "jam_masuk": "06:33",
+    "jam_pulang": "14:11",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0338",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0338",
+    "jam_masuk": "06:07",
+    "jam_pulang": "15:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0339",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0339",
+    "jam_masuk": "06:42",
+    "jam_pulang": "13:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0340",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0340",
+    "jam_masuk": "07:04",
+    "jam_pulang": "13:18",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0341",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0341",
+    "jam_masuk": "06:07",
+    "jam_pulang": "15:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0342",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0342",
+    "jam_masuk": "07:11",
+    "jam_pulang": "13:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0343",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0343",
+    "jam_masuk": "06:40",
+    "jam_pulang": "13:49",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0344",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0344",
+    "jam_masuk": "07:17",
+    "jam_pulang": "15:59",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0345",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0345",
+    "jam_masuk": "07:13",
+    "jam_pulang": "13:56",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0346",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0346",
+    "jam_masuk": "06:02",
+    "jam_pulang": "13:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0347",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0347",
+    "jam_masuk": "06:51",
+    "jam_pulang": "14:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0348",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0348",
+    "jam_masuk": "06:56",
+    "jam_pulang": "14:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0349",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0349",
+    "jam_masuk": "06:45",
+    "jam_pulang": "14:44",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0350",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0350",
+    "jam_masuk": "06:41",
+    "jam_pulang": "14:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0351",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0351",
+    "jam_masuk": "06:54",
+    "jam_pulang": "15:37",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0352",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0352",
+    "jam_masuk": "07:11",
+    "jam_pulang": "13:08",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0353",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0353",
+    "jam_masuk": "06:26",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0354",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0354",
+    "jam_masuk": "07:06",
+    "jam_pulang": "15:00",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0355",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0355",
+    "jam_masuk": "06:40",
+    "jam_pulang": "14:38",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0356",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0356",
+    "jam_masuk": "07:08",
+    "jam_pulang": "15:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0357",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0357",
+    "jam_masuk": "06:00",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0358",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0358",
+    "jam_masuk": "07:39",
+    "jam_pulang": "14:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0359",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0359",
+    "jam_masuk": "07:09",
+    "jam_pulang": "14:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0360",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0360",
+    "jam_masuk": "07:58",
+    "jam_pulang": "13:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0361",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0361",
+    "jam_masuk": "07:54",
+    "jam_pulang": "14:20",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0362",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0362",
+    "jam_masuk": "07:54",
+    "jam_pulang": "14:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0363",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0363",
+    "jam_masuk": "07:56",
+    "jam_pulang": "14:20",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0364",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0364",
+    "jam_masuk": "07:58",
+    "jam_pulang": "15:12",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0365",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0365",
+    "jam_masuk": "07:12",
+    "jam_pulang": "15:53",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0366",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0366",
+    "jam_masuk": "07:49",
+    "jam_pulang": "15:24",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0367",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0367",
+    "jam_masuk": "07:47",
+    "jam_pulang": "13:39",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0368",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0368",
+    "jam_masuk": "07:36",
+    "jam_pulang": "15:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0369",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0369",
+    "jam_masuk": "07:15",
+    "jam_pulang": "13:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0370",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0370",
+    "jam_masuk": "07:54",
+    "jam_pulang": "14:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0371",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0371",
+    "jam_masuk": "07:29",
+    "jam_pulang": "15:23",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0372",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0372",
+    "jam_masuk": "07:02",
+    "jam_pulang": "14:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0373",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0373",
+    "jam_masuk": "07:33",
+    "jam_pulang": "15:28",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0374",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0374",
+    "jam_masuk": "06:43",
+    "jam_pulang": "13:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0375",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0375",
+    "jam_masuk": "06:55",
+    "jam_pulang": "13:49",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0376",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0376",
+    "jam_masuk": "07:19",
+    "jam_pulang": "14:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0377",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0377",
+    "jam_masuk": "07:23",
+    "jam_pulang": "15:28",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0378",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0378",
+    "jam_masuk": "07:00",
+    "jam_pulang": "13:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0379",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0379",
+    "jam_masuk": "06:40",
+    "jam_pulang": "15:05",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0380",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0380",
+    "jam_masuk": "06:57",
+    "jam_pulang": "14:00",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0381",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0381",
+    "jam_masuk": "06:47",
+    "jam_pulang": "15:52",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0382",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0382",
+    "jam_masuk": "07:44",
+    "jam_pulang": "13:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0383",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0383",
+    "jam_masuk": "07:53",
+    "jam_pulang": "15:31",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0384",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0384",
+    "jam_masuk": "06:10",
+    "jam_pulang": "13:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0385",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0385",
+    "jam_masuk": "06:23",
+    "jam_pulang": "15:42",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0386",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0386",
+    "jam_masuk": "07:41",
+    "jam_pulang": "13:47",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0387",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0387",
+    "jam_masuk": "06:25",
+    "jam_pulang": "15:27",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0388",
+    "tanggal": "2026-11-19",
+    "guru_id": "G0388",
+    "jam_masuk": "06:42",
+    "jam_pulang": "15:18",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0389",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0389",
+    "jam_masuk": "07:49",
+    "jam_pulang": "15:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0390",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0390",
+    "jam_masuk": "07:38",
+    "jam_pulang": "13:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0391",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0391",
+    "jam_masuk": "06:17",
+    "jam_pulang": "13:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0392",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0392",
+    "jam_masuk": "06:40",
+    "jam_pulang": "15:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0393",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0393",
+    "jam_masuk": "06:43",
+    "jam_pulang": "15:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0394",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0394",
+    "jam_masuk": "07:09",
+    "jam_pulang": "13:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0395",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0395",
+    "jam_masuk": "06:53",
+    "jam_pulang": "13:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0396",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0396",
+    "jam_masuk": "07:39",
+    "jam_pulang": "15:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0397",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0397",
+    "jam_masuk": "06:57",
+    "jam_pulang": "13:37",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0398",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0398",
+    "jam_masuk": "07:55",
+    "jam_pulang": "13:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0399",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0399",
+    "jam_masuk": "07:15",
+    "jam_pulang": "14:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0400",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0400",
+    "jam_masuk": "07:48",
+    "jam_pulang": "13:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0401",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0401",
+    "jam_masuk": "06:38",
+    "jam_pulang": "13:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0402",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0402",
+    "jam_masuk": "06:50",
+    "jam_pulang": "13:51",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0403",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0403",
+    "jam_masuk": "07:29",
+    "jam_pulang": "14:22",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0404",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0404",
+    "jam_masuk": "06:15",
+    "jam_pulang": "15:35",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0405",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0405",
+    "jam_masuk": "06:34",
+    "jam_pulang": "13:41",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0406",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0406",
+    "jam_masuk": "07:23",
+    "jam_pulang": "14:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0407",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0407",
+    "jam_masuk": "07:44",
+    "jam_pulang": "13:12",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0408",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0408",
+    "jam_masuk": "07:50",
+    "jam_pulang": "15:48",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0409",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0409",
+    "jam_masuk": "06:13",
+    "jam_pulang": "14:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0410",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0410",
+    "jam_masuk": "06:08",
+    "jam_pulang": "15:19",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0411",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0411",
+    "jam_masuk": "07:28",
+    "jam_pulang": "14:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0412",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0412",
+    "jam_masuk": "06:43",
+    "jam_pulang": "15:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0413",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0413",
+    "jam_masuk": "06:48",
+    "jam_pulang": "14:59",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0414",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0414",
+    "jam_masuk": "07:59",
+    "jam_pulang": "14:26",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0415",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0415",
+    "jam_masuk": "07:57",
+    "jam_pulang": "13:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0416",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0416",
+    "jam_masuk": "07:07",
+    "jam_pulang": "14:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0417",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0417",
+    "jam_masuk": "07:15",
+    "jam_pulang": "14:28",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0418",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0418",
+    "jam_masuk": "07:15",
+    "jam_pulang": "15:08",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0419",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0419",
+    "jam_masuk": "06:40",
+    "jam_pulang": "13:01",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0420",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0420",
+    "jam_masuk": "06:18",
+    "jam_pulang": "13:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0421",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0421",
+    "jam_masuk": "06:41",
+    "jam_pulang": "13:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0422",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0422",
+    "jam_masuk": "07:02",
+    "jam_pulang": "13:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0423",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0423",
+    "jam_masuk": "06:20",
+    "jam_pulang": "14:32",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0424",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0424",
+    "jam_masuk": "06:06",
+    "jam_pulang": "15:51",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0425",
+    "tanggal": "2026-10-21",
+    "guru_id": "G0425",
+    "jam_masuk": "07:10",
+    "jam_pulang": "14:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0426",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0426",
+    "jam_masuk": "06:52",
+    "jam_pulang": "13:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0427",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0427",
+    "jam_masuk": "06:18",
+    "jam_pulang": "14:22",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0428",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0428",
+    "jam_masuk": "06:26",
+    "jam_pulang": "14:12",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0429",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0429",
+    "jam_masuk": "07:01",
+    "jam_pulang": "15:19",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0430",
+    "tanggal": "2026-11-17",
+    "guru_id": "G0430",
+    "jam_masuk": "06:59",
+    "jam_pulang": "13:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0431",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0431",
+    "jam_masuk": "07:00",
+    "jam_pulang": "13:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0432",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0432",
+    "jam_masuk": "06:27",
+    "jam_pulang": "13:58",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0433",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0433",
+    "jam_masuk": "06:38",
+    "jam_pulang": "14:20",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0434",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0434",
+    "jam_masuk": "06:35",
+    "jam_pulang": "14:26",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0435",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0435",
+    "jam_masuk": "06:40",
+    "jam_pulang": "14:26",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0436",
+    "tanggal": "2026-11-20",
+    "guru_id": "G0436",
+    "jam_masuk": "07:01",
+    "jam_pulang": "14:26",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0437",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0437",
+    "jam_masuk": "06:48",
+    "jam_pulang": "15:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0438",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0438",
+    "jam_masuk": "06:38",
+    "jam_pulang": "13:58",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0439",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0439",
+    "jam_masuk": "07:21",
+    "jam_pulang": "14:06",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0440",
+    "tanggal": "2026-11-14",
+    "guru_id": "G0440",
+    "jam_masuk": "06:34",
+    "jam_pulang": "13:39",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0441",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0441",
+    "jam_masuk": "07:28",
+    "jam_pulang": "15:09",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0442",
+    "tanggal": "2026-11-12",
+    "guru_id": "G0442",
+    "jam_masuk": "07:29",
+    "jam_pulang": "13:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0443",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0443",
+    "jam_masuk": "06:30",
+    "jam_pulang": "13:19",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0444",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0444",
+    "jam_masuk": "06:36",
+    "jam_pulang": "15:09",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0445",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0445",
+    "jam_masuk": "07:27",
+    "jam_pulang": "14:12",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0446",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0446",
+    "jam_masuk": "06:43",
+    "jam_pulang": "13:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0447",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0447",
+    "jam_masuk": "06:34",
+    "jam_pulang": "13:18",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0448",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0448",
+    "jam_masuk": "07:45",
+    "jam_pulang": "15:16",
+    "status": "Dinas Luar",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0449",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0449",
+    "jam_masuk": "06:27",
+    "jam_pulang": "14:43",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0450",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0450",
+    "jam_masuk": "06:23",
+    "jam_pulang": "15:59",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0451",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0451",
+    "jam_masuk": "06:11",
+    "jam_pulang": "13:29",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0452",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0452",
+    "jam_masuk": "06:04",
+    "jam_pulang": "13:43",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0453",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0453",
+    "jam_masuk": "07:06",
+    "jam_pulang": "14:13",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0454",
+    "tanggal": "2026-10-28",
+    "guru_id": "G0454",
+    "jam_masuk": "06:48",
+    "jam_pulang": "13:10",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0455",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0455",
+    "jam_masuk": "07:43",
+    "jam_pulang": "13:42",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0456",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0456",
+    "jam_masuk": "07:14",
+    "jam_pulang": "14:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0457",
+    "tanggal": "2026-10-25",
+    "guru_id": "G0457",
+    "jam_masuk": "07:13",
+    "jam_pulang": "15:30",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0458",
+    "tanggal": "2026-11-07",
+    "guru_id": "G0458",
+    "jam_masuk": "07:50",
+    "jam_pulang": "15:49",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0459",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0459",
+    "jam_masuk": "06:42",
+    "jam_pulang": "15:40",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0460",
+    "tanggal": "2026-10-27",
+    "guru_id": "G0460",
+    "jam_masuk": "06:32",
+    "jam_pulang": "14:41",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0461",
+    "tanggal": "2026-11-03",
+    "guru_id": "G0461",
+    "jam_masuk": "07:27",
+    "jam_pulang": "14:00",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0462",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0462",
+    "jam_masuk": "07:21",
+    "jam_pulang": "13:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0463",
+    "tanggal": "2026-11-06",
+    "guru_id": "G0463",
+    "jam_masuk": "07:38",
+    "jam_pulang": "14:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0464",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0464",
+    "jam_masuk": "06:42",
+    "jam_pulang": "13:06",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0465",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0465",
+    "jam_masuk": "06:08",
+    "jam_pulang": "13:26",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0466",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0466",
+    "jam_masuk": "06:32",
+    "jam_pulang": "15:05",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0467",
+    "tanggal": "2026-10-26",
+    "guru_id": "G0467",
+    "jam_masuk": "06:29",
+    "jam_pulang": "14:16",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0468",
+    "tanggal": "2026-11-16",
+    "guru_id": "G0468",
+    "jam_masuk": "06:22",
+    "jam_pulang": "13:52",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0469",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0469",
+    "jam_masuk": "07:38",
+    "jam_pulang": "13:21",
+    "status": "Izin",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0470",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0470",
+    "jam_masuk": "06:20",
+    "jam_pulang": "14:13",
+    "status": "Alfa",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0471",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0471",
+    "jam_masuk": "06:55",
+    "jam_pulang": "14:36",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0472",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0472",
+    "jam_masuk": "06:25",
+    "jam_pulang": "15:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0473",
+    "tanggal": "2026-11-18",
+    "guru_id": "G0473",
+    "jam_masuk": "06:38",
+    "jam_pulang": "13:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0474",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0474",
+    "jam_masuk": "07:58",
+    "jam_pulang": "14:37",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0475",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0475",
+    "jam_masuk": "07:39",
+    "jam_pulang": "15:17",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0476",
+    "tanggal": "2026-10-31",
+    "guru_id": "G0476",
+    "jam_masuk": "07:07",
+    "jam_pulang": "15:31",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0477",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0477",
+    "jam_masuk": "07:33",
+    "jam_pulang": "13:42",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0478",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0478",
+    "jam_masuk": "07:48",
+    "jam_pulang": "13:41",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0479",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0479",
+    "jam_masuk": "07:50",
+    "jam_pulang": "15:20",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0480",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0480",
+    "jam_masuk": "06:16",
+    "jam_pulang": "15:54",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0481",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0481",
+    "jam_masuk": "07:17",
+    "jam_pulang": "13:55",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0482",
+    "tanggal": "2026-10-24",
+    "guru_id": "G0482",
+    "jam_masuk": "07:49",
+    "jam_pulang": "14:33",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0483",
+    "tanggal": "2026-11-09",
+    "guru_id": "G0483",
+    "jam_masuk": "07:44",
+    "jam_pulang": "13:41",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0484",
+    "tanggal": "2026-11-08",
+    "guru_id": "G0484",
+    "jam_masuk": "06:23",
+    "jam_pulang": "15:31",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0485",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0485",
+    "jam_masuk": "07:49",
+    "jam_pulang": "13:03",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0486",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0486",
+    "jam_masuk": "06:03",
+    "jam_pulang": "14:23",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0487",
+    "tanggal": "2026-11-15",
+    "guru_id": "G0487",
+    "jam_masuk": "07:47",
+    "jam_pulang": "14:53",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0488",
+    "tanggal": "2026-11-01",
+    "guru_id": "G0488",
+    "jam_masuk": "06:41",
+    "jam_pulang": "13:02",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0489",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0489",
+    "jam_masuk": "06:54",
+    "jam_pulang": "13:45",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0490",
+    "tanggal": "2026-11-11",
+    "guru_id": "G0490",
+    "jam_masuk": "06:34",
+    "jam_pulang": "15:57",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0491",
+    "tanggal": "2026-10-30",
+    "guru_id": "G0491",
+    "jam_masuk": "06:45",
+    "jam_pulang": "15:34",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0492",
+    "tanggal": "2026-10-22",
+    "guru_id": "G0492",
+    "jam_masuk": "07:48",
+    "jam_pulang": "14:50",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0493",
+    "tanggal": "2026-10-29",
+    "guru_id": "G0493",
+    "jam_masuk": "06:47",
+    "jam_pulang": "13:09",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0494",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0494",
+    "jam_masuk": "06:30",
+    "jam_pulang": "14:14",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0495",
+    "tanggal": "2026-11-02",
+    "guru_id": "G0495",
+    "jam_masuk": "07:54",
+    "jam_pulang": "13:20",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0496",
+    "tanggal": "2026-11-04",
+    "guru_id": "G0496",
+    "jam_masuk": "07:03",
+    "jam_pulang": "15:43",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0497",
+    "tanggal": "2026-11-05",
+    "guru_id": "G0497",
+    "jam_masuk": "07:36",
+    "jam_pulang": "13:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0498",
+    "tanggal": "2026-10-23",
+    "guru_id": "G0498",
+    "jam_masuk": "06:15",
+    "jam_pulang": "13:38",
+    "status": "Sakit",
+    "catatan": "Terverifikasi oleh bagian kepegawaian."
+  },
+  {
+    "id": "AG0499",
+    "tanggal": "2026-11-10",
+    "guru_id": "G0499",
+    "jam_masuk": "07:56",
+    "jam_pulang": "13:07",
+    "status": "Hadir",
+    "catatan": ""
+  },
+  {
+    "id": "AG0500",
+    "tanggal": "2026-11-13",
+    "guru_id": "G0500",
+    "jam_masuk": "06:06",
+    "jam_pulang": "13:00",
+    "status": "Hadir",
+    "catatan": ""
+  }
+]
