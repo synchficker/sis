@@ -19,7 +19,7 @@
   "label_token": "Personal Access Token",
   "placeholder_token": "github_pat_… atau ghp_…",
   "tombol_label": "Masuk Sekarang",
-  "tombol_ikon": "arrow-right",
+  "tombol_ikon": "unlock",
   "mode_input": "password",
   "mata": true,
   "info_repo": false,
