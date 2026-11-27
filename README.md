@@ -11,9 +11,9 @@ Login admin memakai GitHub Personal Access Token (PAT).
 /404.html              404 pintar: URL lama -> lokasi baru (lewat assets/js/mount.js)
 /data/                 30 berkas JSON (database; struktur TIDAK berubah)
 /assets/js/            app.js program.js slider.js portal.js cbt.js seed.js mount.js
-/assets/css/           (disiapkan untuk CSS kustom)      /assets/uploads/   (hasil upload Media Library — Tahap 2)
+/assets/css/           (disiapkan untuk CSS kustom)      /assets/uploads/   (hasil upload Media Library; dikelola lewat admin → Media Library)
 /admin/                index.html (Panel Admin), login.html, login-view.js, admin.js (inti), admin-router.js (route+sidebar),
-                       admin-<modul>.js (satu berkas per modul: siswa, ppdb, absensi, nilai, rapor, cbt, soal, materi, tugas, spp, bos,
+                       admin-<modul>.js (satu berkas per modul: media, siswa, ppdb, absensi, nilai, rapor, cbt, soal, materi, tugas, spp, bos,
                        gaji, guru, kinerja, jurnal, inventaris, perpus, laporan, slider, galeri, kegiatan, konten, ui, login, chat, wa, audit, pengaturan, dashboard)
 /pages/<nama>/        ppdb portal cbt belajar kalender sd smp sma smk tuition seed  (masing-masing index.html)
 ```
@@ -23,6 +23,15 @@ Login admin memakai GitHub Personal Access Token (PAT).
 - Tiap halaman bersarang memakai `<base href="../../">` (admin: `../`) dan `window.__LS_PAGE__`; skrip lokal ditulis relatif terhadap ROOT.
 - Panel Admin: setiap modul mendaftar ke `F` (skema) dan `MOD` (registri); `admin-router.js` dimuat TERAKHIR dan menjalankan route awal.
   Sidebar 6 grup collapsible (default hanya Akademik terbuka), pencarian menu (Ctrl+K), breadcrumb. Nama route hash tidak berubah.
+
+## Template Modul & Media Library (Tahap 2)
+- **Template seragam** (admin.js → "UI KIT"): Header Modul → Toolbar (cari + filter + Tambah) → Tabel (maks 50 baris + "Muat 50 lagi") → Empty State → Modal Form.
+  Warna tombol: Tambah/Simpan emerald, Edit amber, Hapus merah. Tabel modul kustom otomatis mendapat kolom cari & empty state yang sama.
+- **Dialog:** `confirmBox()` menggantikan `confirm()`, `askBox()` menggantikan `prompt()`; pemberitahuan memakai `toast()`. Tidak ada dialog bawaan browser.
+- **Media Library** (`#/media`, admin/admin-media.js): upload JPG/PNG/WebP (maks 2 MB), drag & drop, pratinjau, kompres di browser (lebar maks 1600px, WebP/JPEG 0,8),
+  disimpan ke `assets/uploads/` lewat GitHub Contents API (`pushBinary` di app.js, token dari sessionStorage), metadata di `data/media.json`
+  `{id, nama, file, url, ukuran, dipakai_di, tanggal_upload}`. Form Slider & Kegiatan memakai widget **Upload/Pilih dari Library + Tempel Link URL**;
+  kolom `gambar`/`foto` tetap berupa string URL. Gambar baru tampil di situs publik setelah GitHub Pages selesai publish (±1 menit).
 
 ## Modul (7 wajib)
 A. Akademik: PPDB Online, Data Induk (Dapodik), Rombel, Mutasi, Absensi QR, e-Rapor Merdeka & K13

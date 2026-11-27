@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <base href="../../">
+  <script>window.__LS_PAGE__="kalender";</script>
+  
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalender Akademik</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:["Inter","ui-sans-serif","system-ui"],display:["Poppins","Inter","sans-serif"]},colors:{brand:{50:"#f0fdf4",100:"#dcfce7",200:"#bbf7d0",400:"#4ade80",500:"#22c55e",600:"#16a34a",700:"#15803d",800:"#166534",900:"#14532d"}}}}};</script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    html{scroll-padding-top:92px;scrollbar-color:#16a34a #f0fdf4;scrollbar-width:thin}
+    ::-webkit-scrollbar{width:11px;height:11px}
+    ::-webkit-scrollbar-track{background:#f0fdf4}
+    ::-webkit-scrollbar-thumb{background:linear-gradient(#16a34a,#0d9488);border-radius:99px;border:2px solid #f0fdf4}
+    ::-webkit-scrollbar-thumb:hover{background:#15803d}
+    .aurora{position:absolute;inset:0;pointer-events:none;opacity:.22;background-image:radial-gradient(circle at 15% 25%,rgba(251,191,36,.6),transparent 40%),radial-gradient(circle at 82% 12%,rgba(56,189,248,.55),transparent 42%),radial-gradient(circle at 55% 90%,rgba(74,222,128,.5),transparent 45%);filter:blur(48px);animation:au 20s ease-in-out infinite alternate}
+    @keyframes au{to{transform:translate3d(3%,-2%,0) scale(1.1)}}
+    .cell{transition:background .18s,box-shadow .18s,transform .18s}
+    .cell:hover{background:#f0fdf4;box-shadow:inset 0 0 0 2px #4ade80;transform:translateY(-1px)}
+    .ev{transition:transform .15s,filter .15s}
+    .ev:hover{transform:translateX(2px);filter:brightness(1.06)}
+    .rv{opacity:0;transform:translateY(16px);transition:opacity .55s cubic-bezier(.2,.7,.3,1),transform .55s cubic-bezier(.2,.7,.3,1)}
+    .rv.in{opacity:1;transform:none}
+    @media (prefers-reduced-motion:reduce){.aurora{animation:none}.rv{opacity:1;transform:none;transition:none}}
+  </style>
+</head>
+<body class="font-sans bg-white text-slate-800 antialiased">
+
+  <header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 h-[72px] flex items-center gap-3">
+      <a href="index.html" class="flex items-center gap-2.5 min-w-0">
+        <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center shrink-0"><i data-lucide="school" class="w-5 h-5"></i></div>
+        <div class="min-w-0 leading-tight"><div id="navNama" class="font-display font-bold text-brand-800 truncate">Nama Sekolah</div><div id="navNpsn" class="text-[11px] text-slate-400">NPSN —</div></div>
+      </a>
+      <nav class="hidden lg:flex items-center gap-1 ml-6 text-sm font-semibold text-slate-600">
+        <a href="index.html#profil" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Profil</a>
+        <a href="index.html#program" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Program</a>
+        <a href="tuition.html" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Tuition Fee</a>
+        <a href="kalender.html" class="px-3 py-2 rounded-lg bg-brand-600 text-white">Kalender</a>
+        <a href="index.html#kegiatan" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kegiatan</a>
+        <a href="index.html#kontak" class="px-3 py-2 rounded-lg hover:bg-brand-50 hover:text-brand-700">Kontak</a>
+      </nav>
+      <div class="flex-1"></div>
+      <div class="hidden md:flex items-center gap-2">
+        <a href="portal.html" class="text-sm font-bold px-3 py-2 rounded-lg text-brand-700 hover:bg-brand-50">Portal Ortu</a>
+        <a href="ppdb.html" class="text-sm font-bold px-4 py-2.5 rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300 shadow-sm">Register Now</a>
+        <a href="login.html" class="text-sm font-bold px-3 py-2 rounded-lg border border-slate-200 hover:bg-slate-50 inline-flex items-center gap-1.5"><i data-lucide="key-round" class="w-4 h-4"></i>Login</a>
+      </div>
+      <button id="mBtn" class="lg:hidden p-2 rounded-lg hover:bg-slate-100"><i data-lucide="menu" class="w-6 h-6"></i></button>
+    </div>
+    <div id="mMenu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1 text-sm font-semibold">
+      <a href="index.html#profil" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Profil</a>
+      <a href="index.html#program" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Program</a>
+      <a href="tuition.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Tuition Fee</a>
+      <a href="kalender.html" class="block px-3 py-2 rounded-lg bg-brand-50 text-brand-700">Kalender Akademik</a>
+      <a href="index.html#kegiatan" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Kegiatan</a>
+      <a href="portal.html" class="block px-3 py-2 rounded-lg hover:bg-brand-50">Portal Ortu</a>
+      <div class="flex gap-2 pt-2"><a href="ppdb.html" class="flex-1 text-center px-3 py-2.5 rounded-xl bg-amber-400 text-amber-950 font-bold">Daftar</a><a href="login.html" class="flex-1 text-center px-3 py-2.5 rounded-xl border border-slate-200 font-bold">Login</a></div>
+    </div>
+  </header>
+
+  <section class="relative overflow-hidden bg-gradient-to-br from-brand-800 via-brand-600 to-teal-600 text-white pt-[72px]">
+    <div class="aurora"></div>
+    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20">
+      <nav class="text-xs text-white/70 font-semibold mb-3"><a href="index.html" class="hover:underline">Beranda</a> <span class="mx-1">/</span> <span class="text-white">Kalender Akademik</span></nav>
+      <span class="text-xs font-bold uppercase tracking-wider bg-white/15 border border-white/25 px-3 py-1 rounded-full">Academic Calendar</span>
+      <h1 class="font-display font-extrabold text-4xl md:text-5xl mt-3">Kalender Akademik <span class="text-amber-300" id="heroTA"></span></h1>
+      <p class="mt-4 text-white/90 text-lg max-w-2xl">Jadwal lengkap satu tahun ajaran: awal dan akhir semester, asesmen, hari libur, kegiatan siswa, PPDB, hingga pembagian rapor.</p>
+      <div id="heroStats" class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3"></div>
+      <div id="semBar" class="mt-6 grid sm:grid-cols-2 gap-3"></div>
+    </div>
+    <svg class="block w-full text-white" viewBox="0 0 1440 60" fill="currentColor" preserveAspectRatio="none"><path d="M0,28 C240,62 500,4 740,20 C990,36 1210,60 1440,26 L1440,60 L0,60 Z"></path></svg>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-4 sticky top-[80px] z-30">
+      <div class="flex flex-wrap items-center gap-2">
+        <div class="inline-flex rounded-xl border border-slate-200 overflow-hidden">
+          <button id="vGrid" class="px-4 py-2 text-sm font-bold inline-flex items-center gap-1.5"><i data-lucide="calendar-days" class="w-4 h-4"></i>Kalender</button>
+          <button id="vList" class="px-4 py-2 text-sm font-bold inline-flex items-center gap-1.5 border-l border-slate-200"><i data-lucide="list" class="w-4 h-4"></i>Agenda</button>
+        </div>
+        <div class="relative flex-1 min-w-[180px]"><i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-400"></i><input id="fQ" placeholder="Cari agenda…" class="w-full pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-xl outline-none focus:ring-2 focus:ring-brand-500"></div>
+        <select id="fSem" class="px-3 py-2 text-sm border border-slate-300 rounded-xl"><option value="">Semua Semester</option><option>Ganjil</option><option>Genap</option></select>
+        <select id="fKat" class="px-3 py-2 text-sm border border-slate-300 rounded-xl"><option value="">Semua Kategori</option></select>
+        <select id="fSort" class="px-3 py-2 text-sm border border-slate-300 rounded-xl"><option value="asc">Tanggal ↑</option><option value="desc">Tanggal ↓</option><option value="judul">Judul A–Z</option></select>
+        <label class="inline-flex items-center gap-2 text-xs font-bold text-slate-600 px-3 py-2 rounded-xl border border-slate-200"><input id="fLms" type="checkbox" class="w-4 h-4 accent-emerald-600">Sertakan Ujian &amp; Tugas</label>
+        <label class="inline-flex items-center gap-2 text-xs font-bold text-slate-600 px-3 py-2 rounded-xl border border-slate-200"><input id="fPenting" type="checkbox" class="w-4 h-4 accent-amber-500">Hanya Penting</label>
+        <button id="fReset" class="px-3 py-2 text-xs font-bold rounded-xl border border-slate-200 hover:bg-slate-50 inline-flex items-center gap-1.5"><i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>Reset</button>
+        <button id="bIcs" class="px-3 py-2 text-xs font-bold rounded-xl bg-brand-600 text-white hover:bg-brand-700 inline-flex items-center gap-1.5"><i data-lucide="download" class="w-3.5 h-3.5"></i>Ekspor .ics</button>
+        <button id="bPrint" class="px-3 py-2 text-xs font-bold rounded-xl border border-slate-200 hover:bg-slate-50 inline-flex items-center gap-1.5"><i data-lucide="printer" class="w-3.5 h-3.5"></i>Cetak</button>
+      </div>
+      <div class="flex flex-wrap items-center gap-2 mt-3 pt-3 border-t border-slate-100">
+        <button id="mPrev" class="w-9 h-9 rounded-xl border border-slate-200 hover:bg-brand-50 flex items-center justify-center"><i data-lucide="chevron-left" class="w-4 h-4"></i></button>
+        <select id="mPick" class="px-3 py-2 text-sm font-bold border border-slate-300 rounded-xl"></select>
+        <button id="mNext" class="w-9 h-9 rounded-xl border border-slate-200 hover:bg-brand-50 flex items-center justify-center"><i data-lucide="chevron-right" class="w-4 h-4"></i></button>
+        <button id="mToday" class="px-3 py-2 text-xs font-bold rounded-xl bg-amber-400 text-amber-950 hover:bg-amber-300">Hari Ini</button>
+        <span id="mCount" class="text-xs text-slate-500 font-semibold ml-1"></span>
+        <div id="legend" class="flex flex-wrap gap-2 ml-auto"></div>
+      </div>
+    </div>
+
+    <div class="grid lg:grid-cols-4 gap-6 mt-6">
+      <div class="lg:col-span-3"><div id="mainView"></div></div>
+      <aside class="space-y-4">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+          <b class="font-display text-sm flex items-center gap-2"><i data-lucide="bell-ring" class="w-4 h-4 text-brand-600"></i>Agenda Terdekat</b>
+          <div id="upcoming" class="mt-3 space-y-2"></div>
+        </div>
+        <div class="bg-brand-50 border border-brand-200 rounded-2xl p-5">
+          <b class="font-display text-sm text-brand-800 flex items-center gap-2"><i data-lucide="info" class="w-4 h-4"></i>Catatan</b>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">Kalender dapat berubah menyesuaikan kebijakan dinas pendidikan dan penetapan hari libur nasional. Perubahan diumumkan melalui Portal Orang Tua dan WhatsApp sekolah.</p>
+          <a id="waKal" target="_blank" class="mt-3 inline-flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg bg-brand-600 text-white hover:bg-brand-700"><i data-lucide="message-circle" class="w-3.5 h-3.5"></i>Tanya Jadwal</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="bg-slate-900 text-slate-300 mt-10">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+      <div><b id="footNama" class="font-display text-white text-lg">Nama Sekolah</b><p id="footAlamat" class="text-sm text-slate-400 mt-3"></p><p id="footTelp" class="text-sm text-slate-400 mt-1"></p></div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Informasi</b><ul class="mt-3 space-y-2 text-sm"><li><a href="kalender.html" class="hover:text-brand-400">Kalender Akademik</a></li><li><a href="tuition.html" class="hover:text-brand-400">Tuition Fee</a></li><li><a href="index.html#kegiatan" class="hover:text-brand-400">Kegiatan Sekolah</a></li><li><a href="index.html#fasilitas" class="hover:text-brand-400">Fasilitas</a></li></ul></div>
+      <div><b class="text-white text-sm uppercase tracking-wider">Layanan</b><ul class="mt-3 space-y-2 text-sm"><li><a href="ppdb.html" class="hover:text-brand-400">PPDB Online</a></li><li><a href="portal.html" class="hover:text-brand-400">Portal Orang Tua</a></li><li><a href="cbt.html" class="hover:text-brand-400">Ujian CBT</a></li><li><a href="login.html" class="hover:text-brand-400">Login Admin</a></li></ul></div>
+    </div>
+    <div class="border-t border-slate-800"><div class="max-w-7xl mx-auto px-4 py-5 text-xs text-slate-500">© 2026 <span id="footCopy"></span>. Sumber data: kalender.json, ujian.json &amp; tugas.json.</div></div>
+  </footer>
+
+  <div id="evModal" class="hidden fixed inset-0 z-[70] bg-slate-950/75 backdrop-blur-sm p-4 overflow-y-auto">
+    <div class="min-h-full flex items-center justify-center py-6">
+      <div class="bg-white rounded-3xl w-full max-w-2xl overflow-hidden shadow-2xl">
+        <div id="evHead" class="p-6 text-white relative">
+          <button id="evClose" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center"><i data-lucide="x" class="w-5 h-5"></i></button>
+          <div id="evKat" class="text-[11px] font-bold uppercase tracking-wider"></div>
+          <h3 id="evJudul" class="font-display font-extrabold text-2xl mt-1 pr-10"></h3>
+          <div id="evTgl" class="text-sm text-white/85 mt-2"></div>
+        </div>
+        <div class="p-6">
+          <div class="grid sm:grid-cols-3 gap-3 mb-4">
+            <div class="bg-slate-50 border border-slate-200 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Semester</div><div id="evSem" class="text-sm font-semibold mt-0.5"></div></div>
+            <div class="bg-slate-50 border border-slate-200 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Lokasi</div><div id="evLok" class="text-sm font-semibold mt-0.5"></div></div>
+            <div class="bg-slate-50 border border-slate-200 rounded-xl p-3"><div class="text-[11px] font-bold text-slate-400 uppercase">Durasi</div><div id="evDur" class="text-sm font-semibold mt-0.5"></div></div>
+          </div>
+          <p id="evKet" class="text-slate-600 leading-relaxed"></p>
+          <div class="mt-6 flex items-center justify-between gap-3 border-t border-slate-100 pt-4">
+            <button id="evPrev" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50"><i data-lucide="arrow-left" class="w-4 h-4"></i>Sebelumnya</button>
+            <span id="evPos" class="text-xs text-slate-400 font-semibold"></span>
+            <button id="evNext" class="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700">Berikutnya<i data-lucide="arrow-right" class="w-4 h-4"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js?v=20261128"></script>
+  <script src="assets/js/app.js?v=20261128"></script>
+  <script>
+    const $ = id => document.getElementById(id);
+    const KAT = {
+      "Akademik": ["emerald", "#059669", "graduation-cap"],
+      "Asesmen": ["violet", "#7c3aed", "clipboard-check"],
+      "Kegiatan": ["sky", "#0284c7", "sparkles"],
+      "PPDB": ["amber", "#d97706", "user-plus"],
+      "Keagamaan": ["indigo", "#4f46e5", "moon-star"],
+      "Rapat Orang Tua": ["teal", "#0d9488", "users"],
+      "Libur Nasional": ["rose", "#e11d48", "flag"],
+      "Libur Semester": ["orange", "#ea580c", "palmtree"],
+      "LMS": ["fuchsia", "#c026d3", "laptop"]
+    };
+    const katOf = k => KAT[k] || ["slate", "#475569", "calendar"];
+    const BULAN_ID = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+    const HARI = ["Sen","Sel","Rab","Kam","Jum","Sab","Min"];
+    let ST = {}, RAW = [], LMS = [], view = "grid", vy = 2026, vm = 6, months = [], evIdx = -1;
+
+    const iso = d => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    const parse = s => { const p = String(s || "").split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); };
+    const endOf = e => e.selesai || e.mulai;
+    const days = e => Math.round((parse(endOf(e)) - parse(e.mulai)) / 864e5) + 1;
+    const rangeTxt = e => days(e) > 1 ? fmtTgl(e.mulai) + " – " + fmtTgl(endOf(e)) : fmtTgl(e.mulai);
+
+    function all() {
+      let list = RAW.filter(e => e.status !== "Draft").map(e => ({ ...e }));
+      if ($("fLms").checked) list = list.concat(LMS);
+      const q = $("fQ").value.trim().toLowerCase(), sem = $("fSem").value, kat = $("fKat").value;
+      if (sem) list = list.filter(e => e.semester === sem);
+      if (kat) list = list.filter(e => e.kategori === kat);
+      if ($("fPenting").checked) list = list.filter(e => e.penting);
+      if (q) list = list.filter(e => JSON.stringify(e).toLowerCase().includes(q));
+      const s = $("fSort").value;
+      list.sort((a, b) => s === "desc" ? String(b.mulai).localeCompare(String(a.mulai)) : s === "judul" ? String(a.judul).localeCompare(String(b.judul)) : String(a.mulai).localeCompare(String(b.mulai)));
+      return list;
+    }
+    const onDay = (list, d) => list.filter(e => e.mulai <= d && endOf(e) >= d);
+
+    function buildMonths() {
+      const k = ST.kalender || {};
+      const a = parse(k.awal_ganjil || "2026-07-01"), b = parse(k.akhir_genap || "2027-06-30");
+      months = []; const c = new Date(a.getFullYear(), a.getMonth(), 1);
+      while (c <= b) { months.push({ y: c.getFullYear(), m: c.getMonth() }); c.setMonth(c.getMonth() + 1); }
+      if (!months.length) months = [{ y: 2026, m: 6 }];
+      $("mPick").innerHTML = months.map((x, i) => '<option value="' + i + '">' + BULAN_ID[x.m] + " " + x.y + "</option>").join("");
+      const t = new Date(); const ti = months.findIndex(x => x.y === t.getFullYear() && x.m === t.getMonth());
+      const idx = ti >= 0 ? ti : 0; vy = months[idx].y; vm = months[idx].m; $("mPick").value = idx;
+    }
+
+    function legend() {
+      const list = all(); const cats = [...new Set(list.map(e => e.kategori))];
+      $("legend").innerHTML = cats.map(c => {
+        const k = katOf(c), n = list.filter(e => e.kategori === c).length;
+        return '<button data-lg="' + esc(c) + '" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-bold bg-' + k[0] + '-50 text-' + k[0] + '-700 border border-' + k[0] + '-200 hover:brightness-95"><i style="width:8px;height:8px;border-radius:99px;background:' + k[1] + ';display:inline-block"></i>' + esc(c) + " " + n + "</button>";
+      }).join("");
+      $("legend").querySelectorAll("[data-lg]").forEach(b => b.onclick = () => { $("fKat").value = b.dataset.lg; render(); });
+    }
+
+    function grid() {
+      const list = all();
+      const first = new Date(vy, vm, 1), off = (first.getDay() + 6) % 7, dim = new Date(vy, vm + 1, 0).getDate();
+      const rows = Math.ceil((off + dim) / 7), todayIso = iso(new Date());
+      let cells = "";
+      for (let i = 0; i < rows * 7; i++) {
+        const dn = i - off + 1;
+        if (dn < 1 || dn > dim) { cells += '<div class="bg-slate-50/60 border border-slate-100 rounded-xl"></div>'; continue; }
+        const d = iso(new Date(vy, vm, dn)), evs = onDay(list, d), isT = d === todayIso, wd = i % 7;
+        cells += '<div data-day="' + d + '" class="cell cursor-pointer bg-white border ' + (isT ? "border-brand-500 ring-2 ring-brand-200" : "border-slate-200") + ' rounded-xl p-1.5 min-h-[92px] md:min-h-[112px] flex flex-col">' +
+          '<div class="flex items-center justify-between"><span class="text-xs font-bold ' + (isT ? "w-6 h-6 rounded-full bg-brand-600 text-white flex items-center justify-center" : wd === 6 ? "text-rose-500" : "text-slate-500") + '">' + dn + "</span>" + (evs.length > 2 ? '<span class="text-[9px] text-slate-400 font-bold">' + evs.length + "</span>" : "") + "</div>" +
+          '<div class="mt-1 space-y-1 overflow-hidden">' + evs.slice(0, 2).map(e => { const k = katOf(e.kategori); return '<button data-ev="' + esc(e.id) + '" class="ev w-full text-left px-1.5 py-1 rounded-md text-[10px] font-bold truncate bg-' + k[0] + '-100 text-' + k[0] + '-800 border-l-2" style="border-color:' + k[1] + '">' + (e.penting ? "★ " : "") + esc(e.judul) + "</button>"; }).join("") +
+          (evs.length > 2 ? '<div class="text-[9px] text-slate-400 font-bold pl-1">+' + (evs.length - 2) + " lainnya</div>" : "") + "</div></div>";
+      }
+      const monthEvents = list.filter(e => e.mulai <= iso(new Date(vy, vm + 1, 0)) && endOf(e) >= iso(new Date(vy, vm, 1)));
+      $("mCount").textContent = monthEvents.length + " agenda pada " + BULAN_ID[vm] + " " + vy;
+      $("mainView").innerHTML = '<div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-4">' +
+        '<div class="flex items-center justify-between mb-3"><h2 class="font-display font-extrabold text-2xl text-slate-800">' + BULAN_ID[vm] + " " + vy + '</h2><span class="text-xs font-bold text-slate-400">Tahun Ajaran ' + esc(ST.tahun_ajaran || "") + "</span></div>" +
+        '<div class="grid grid-cols-7 gap-1.5 mb-1.5">' + HARI.map((h, i) => '<div class="text-center text-[11px] font-bold uppercase py-1.5 rounded-lg ' + (i === 6 ? "text-rose-600 bg-rose-50" : "text-slate-500 bg-slate-50") + '">' + h + "</div>").join("") + "</div>" +
+        '<div class="grid grid-cols-7 gap-1.5">' + cells + "</div></div>";
+      $("mainView").querySelectorAll("[data-ev]").forEach(b => b.onclick = ev => { ev.stopPropagation(); openEv(b.dataset.ev); });
+      $("mainView").querySelectorAll("[data-day]").forEach(c => c.onclick = () => {
+        const evs = onDay(all(), c.dataset.day);
+        if (!evs.length) { toast("Tidak ada agenda pada " + fmtTgl(c.dataset.day), "info"); return; }
+        openEv(evs[0].id);
+      });
+      refreshIcons();
+    }
+
+    function list() {
+      const data = all();
+      $("mCount").textContent = data.length + " agenda ditampilkan";
+      if (!data.length) { $("mainView").innerHTML = '<div class="bg-white rounded-3xl border border-dashed border-slate-300 p-12 text-center"><i data-lucide="calendar-x" class="w-9 h-9 text-slate-300 mx-auto"></i><b class="block mt-3 text-slate-600">Tidak ada agenda</b><p class="text-sm text-slate-400 mt-1">Ubah filter atau kata kunci pencarian.</p></div>'; refreshIcons(); return; }
+      const groups = {};
+      data.forEach(e => { const d = parse(e.mulai); const k = d.getFullYear() + "-" + d.getMonth(); (groups[k] = groups[k] || []).push(e); });
+      $("mainView").innerHTML = Object.keys(groups).sort().map(k => {
+        const p = k.split("-");
+        return '<div class="mb-6 rv"><div class="flex items-center gap-3 mb-3"><div class="w-11 h-11 rounded-2xl bg-brand-600 text-white flex flex-col items-center justify-center leading-none"><span class="text-[9px] font-bold uppercase">' + BULAN_ID[+p[1]].slice(0, 3) + '</span><span class="text-sm font-extrabold">' + String(p[0]).slice(2) + "</span></div><h3 class=\"font-display font-extrabold text-xl text-slate-800\">" + BULAN_ID[+p[1]] + " " + p[0] + '</h3><span class="text-xs font-bold text-slate-400">' + groups[k].length + " agenda</span></div>" +
+          '<div class="space-y-2">' + groups[k].map(e => {
+            const c = katOf(e.kategori);
+            return '<button data-ev="' + esc(e.id) + '" class="w-full text-left bg-white rounded-2xl border border-slate-200 shadow-sm p-4 flex items-start gap-4 hover:border-' + c[0] + '-400 hover:shadow-md transition">' +
+              '<div class="w-14 shrink-0 text-center"><div class="text-2xl font-extrabold font-display leading-none" style="color:' + c[1] + '">' + parse(e.mulai).getDate() + '</div><div class="text-[10px] uppercase text-slate-400 font-bold">' + HARI[(parse(e.mulai).getDay() + 6) % 7] + "</div></div>" +
+              '<div class="flex-1 min-w-0"><div class="flex flex-wrap items-center gap-2"><span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-' + c[0] + '-100 text-' + c[0] + '-700">' + esc(e.kategori) + "</span>" + (e.penting ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-700">★ Penting</span>' : "") + '<span class="text-[11px] text-slate-400 font-semibold">' + esc(rangeTxt(e)) + "</span></div>" +
+              '<b class="block mt-1 text-sm text-slate-800">' + esc(e.judul) + '</b><p class="text-xs text-slate-500 mt-0.5 line-clamp-2">' + esc(e.keterangan || "") + "</p>" +
+              '<div class="text-[11px] text-slate-400 mt-1 flex flex-wrap gap-x-3"><span>📍 ' + esc(e.lokasi || "-") + "</span><span>🎓 " + esc(e.semester || "-") + "</span><span>⏱ " + days(e) + " hari</span></div></div>" +
+              '<i data-lucide="chevron-right" class="w-4 h-4 text-slate-300 shrink-0 mt-1"></i></button>';
+          }).join("") + "</div></div>";
+      }).join("");
+      $("mainView").querySelectorAll("[data-ev]").forEach(b => b.onclick = () => openEv(b.dataset.ev));
+      refreshIcons(); reveal();
+    }
+
+    function upcoming() {
+      const t = iso(new Date());
+      const next = all().filter(e => endOf(e) >= t).sort((a, b) => a.mulai.localeCompare(b.mulai)).slice(0, 5);
+      $("upcoming").innerHTML = next.map(e => {
+        const c = katOf(e.kategori);
+        return '<button data-ev="' + esc(e.id) + '" class="w-full text-left flex items-center gap-3 p-2.5 rounded-xl border border-slate-100 hover:bg-slate-50"><span class="w-2 h-9 rounded-full shrink-0" style="background:' + c[1] + '"></span><span class="min-w-0"><b class="block text-xs truncate">' + esc(e.judul) + '</b><span class="text-[11px] text-slate-400">' + esc(rangeTxt(e)) + "</span></span></button>";
+      }).join("") || '<p class="text-xs text-slate-400">Tidak ada agenda mendatang.</p>';
+      $("upcoming").querySelectorAll("[data-ev]").forEach(b => b.onclick = () => openEv(b.dataset.ev));
+    }
+
+    function openEv(id) {
+      const data = all(); const i = data.findIndex(e => e.id === id); if (i < 0) return;
+      evIdx = i; const e = data[i], c = katOf(e.kategori);
+      $("evHead").style.background = "linear-gradient(135deg," + c[1] + ",#0f172a)";
+      $("evKat").textContent = e.kategori + (e.penting ? " • ★ Penting" : "");
+      $("evJudul").textContent = e.judul;
+      $("evTgl").textContent = rangeTxt(e);
+      $("evSem").textContent = e.semester || "-";
+      $("evLok").textContent = e.lokasi || "-";
+      $("evDur").textContent = days(e) + " hari";
+      $("evKet").textContent = e.keterangan || "Tidak ada keterangan tambahan.";
+      $("evPos").textContent = (i + 1) + " / " + data.length;
+      $("evModal").classList.remove("hidden"); document.body.style.overflow = "hidden"; refreshIcons();
+    }
+    const closeEv = () => { $("evModal").classList.add("hidden"); document.body.style.overflow = ""; };
+    $("evClose").onclick = closeEv;
+    $("evPrev").onclick = () => { const d = all(); openEv(d[(evIdx - 1 + d.length) % d.length].id); };
+    $("evNext").onclick = () => { const d = all(); openEv(d[(evIdx + 1) % d.length].id); };
+    $("evModal").onclick = e => { if (e.target === $("evModal")) closeEv(); };
+    document.addEventListener("keydown", e => { if ($("evModal").classList.contains("hidden")) return; if (e.key === "Escape") closeEv(); if (e.key === "ArrowLeft") $("evPrev").click(); if (e.key === "ArrowRight") $("evNext").click(); });
+
+    function reveal() {
+      const els = document.querySelectorAll(".rv:not(.in)");
+      if (!("IntersectionObserver" in window)) { els.forEach(e => e.classList.add("in")); return; }
+      const io = new IntersectionObserver(en => en.forEach(x => { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }), { threshold: .08 });
+      els.forEach(e => io.observe(e));
+    }
+
+    function render() {
+      $("vGrid").className = "px-4 py-2 text-sm font-bold inline-flex items-center gap-1.5 " + (view === "grid" ? "bg-brand-600 text-white" : "text-slate-600 hover:bg-slate-50");
+      $("vList").className = "px-4 py-2 text-sm font-bold inline-flex items-center gap-1.5 border-l border-slate-200 " + (view === "list" ? "bg-brand-600 text-white" : "text-slate-600 hover:bg-slate-50");
+      legend(); view === "grid" ? grid() : list(); upcoming(); refreshIcons();
+    }
+
+    function stats() {
+      const l = RAW.filter(e => e.status !== "Draft");
+      const cnt = k => l.filter(e => e.kategori === k).length;
+      $("heroStats").innerHTML = [["calendar-days", "Total Agenda", l.length], ["flag", "Hari Libur", cnt("Libur Nasional") + cnt("Libur Semester")], ["clipboard-check", "Asesmen", cnt("Asesmen")], ["sparkles", "Kegiatan Siswa", cnt("Kegiatan")]].map(s =>
+        '<div class="bg-white/12 border border-white/20 rounded-2xl p-4"><div class="flex items-center gap-2 text-[11px] font-bold text-white/80"><i data-lucide="' + s[0] + '" class="w-3.5 h-3.5 text-amber-300"></i>' + s[1] + '</div><div class="font-display font-extrabold text-2xl mt-1">' + s[2] + "</div></div>").join("");
+      const k = ST.kalender || {};
+      $("semBar").innerHTML = [["Ganjil", k.awal_ganjil, k.akhir_ganjil, "from-emerald-500/25"], ["Genap", k.awal_genap, k.akhir_genap, "from-sky-500/25"]].map(s =>
+        '<div class="bg-gradient-to-r ' + s[3] + ' to-transparent border border-white/20 rounded-2xl p-4"><div class="text-xs font-bold uppercase tracking-wider text-amber-300">Semester ' + s[0] + '</div><div class="font-display font-bold mt-1">' + fmtTgl(s[1]) + " — " + fmtTgl(s[2]) + '</div><div class="text-[11px] text-white/75 mt-1">' + (s[1] && s[2] ? Math.round((parse(s[2]) - parse(s[1])) / 864e5 / 7) + " pekan efektif kalender" : "") + "</div></div>").join("");
+      refreshIcons();
+    }
+
+    function ics() {
+      const pad = n => String(n).padStart(2, "0");
+      const fmt = s => s.replace(/-/g, "");
+      const escI = t => String(t || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+      const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//SIS Sekolah//Kalender Akademik//ID", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Kalender Akademik " + escI(ST.nama_sekolah || "")];
+      all().forEach(e => {
+        const d = parse(endOf(e)); d.setDate(d.getDate() + 1);
+        lines.push("BEGIN:VEVENT", "UID:" + e.id + "@sis-sekolah", "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").split(".")[0] + "Z",
+          "DTSTART;VALUE=DATE:" + fmt(e.mulai), "DTEND;VALUE=DATE:" + fmt(iso(d)),
+          "SUMMARY:" + escI(e.judul), "DESCRIPTION:" + escI(e.keterangan), "LOCATION:" + escI(e.lokasi), "CATEGORIES:" + escI(e.kategori), "END:VEVENT");
+      });
+      lines.push("END:VCALENDAR");
+      download("kalender-akademik-" + (ST.tahun_ajaran || "").replace("/", "-") + ".ics", lines.join("\r\n"), "text/calendar");
+      toast("Kalender diekspor (.ics) — dapat diimpor ke Google Calendar / Outlook.", "success");
+    }
+
+    function cetak() {
+      const data = all();
+      const rows = data.map(e => "<tr><td>" + esc(rangeTxt(e)) + "</td><td>" + esc(e.kategori) + "</td><td><b>" + esc(e.judul) + "</b><br><span class='muted'>" + esc(e.keterangan || "") + "</span></td><td>" + esc(e.lokasi || "-") + "</td><td>" + esc(e.semester || "-") + "</td></tr>").join("");
+      printHTML("Kalender Akademik " + (ST.tahun_ajaran || ""),
+        "<div class='center'><h2>KALENDER AKADEMIK " + esc(ST.tahun_ajaran || "") + "</h2><div class='muted'>" + esc(ST.nama_sekolah || "") + " • NPSN " + esc(ST.npsn || "") + "</div></div><hr>" +
+        "<table><tr><th>Tanggal</th><th>Kategori</th><th>Agenda</th><th>Lokasi</th><th>Semester</th></tr>" + rows + "</table>" +
+        "<div class='ttd'><div>Koordinator Kurikulum<br><br><br>(........................)</div><div>Kepala Sekolah<br><br><br><b>" + esc(ST.kepala_sekolah || "") + "</b></div></div>");
+    }
+
+    (async () => {
+      try { ST = await fetchJSON("settings.json"); } catch (e) { ST = {}; }
+      const [kal, uj, tg] = await Promise.all([fetchJSON("kalender.json").catch(() => []), fetchJSON("ujian.json").catch(() => []), fetchJSON("tugas.json").catch(() => [])]);
+      RAW = Array.isArray(kal) ? kal : [];
+      LMS = uj.filter(u => u.tanggal).map(u => ({ id: "lms-u-" + u.id, judul: u.judul, kategori: "LMS", mulai: u.tanggal, selesai: "", semester: ST.semester || "Ganjil", lokasi: "Lab CBT", keterangan: "Ujian berbasis komputer • " + u.mapel + " • " + u.kelas + " • durasi " + u.durasi + " menit.", penting: true, status: "Tampil" }))
+        .concat(tg.filter(t => t.deadline).map(t => ({ id: "lms-t-" + t.id, judul: "Deadline: " + t.judul, kategori: "LMS", mulai: t.deadline, selesai: "", semester: ST.semester || "Ganjil", lokasi: "E-Learning", keterangan: t.deskripsi || "", penting: false, status: "Tampil" })));
+      const nama = ST.nama_sekolah || "Nama Sekolah";
+      ["navNama", "footNama", "footCopy"].forEach(id => $(id).textContent = nama);
+      $("navNpsn").textContent = "NPSN " + (ST.npsn || "—");
+      $("heroTA").textContent = ST.tahun_ajaran || "";
+      $("footAlamat").textContent = ST.alamat || ""; $("footTelp").textContent = ST.telepon || "";
+      document.title = "Kalender Akademik — " + nama;
+      $("waKal").href = "https://wa.me/" + (ST.wa_admin || "").replace(/^0/, "62") + "?text=" + encodeURIComponent("Assalamualaikum, saya ingin menanyakan jadwal kalender akademik " + nama + ".");
+      const cats = [...new Set(RAW.map(e => e.kategori).concat(["LMS"]))];
+      $("fKat").innerHTML += cats.map(c => "<option>" + esc(c) + "</option>").join("");
+      buildMonths(); stats(); render();
+      ["fQ", "fSem", "fKat", "fSort", "fLms", "fPenting"].forEach(id => { $(id).oninput = render; $(id).onchange = render; });
+      $("vGrid").onclick = () => { view = "grid"; render(); };
+      $("vList").onclick = () => { view = "list"; render(); };
+      $("mPrev").onclick = () => { const i = Math.max(0, months.findIndex(x => x.y === vy && x.m === vm) - 1); vy = months[i].y; vm = months[i].m; $("mPick").value = i; view = "grid"; render(); };
+      $("mNext").onclick = () => { const i = Math.min(months.length - 1, months.findIndex(x => x.y === vy && x.m === vm) + 1); vy = months[i].y; vm = months[i].m; $("mPick").value = i; view = "grid"; render(); };
+      $("mPick").onchange = e => { const x = months[+e.target.value]; vy = x.y; vm = x.m; view = "grid"; render(); };
+      $("mToday").onclick = () => { const t = new Date(); const i = months.findIndex(x => x.y === t.getFullYear() && x.m === t.getMonth()); if (i >= 0) { vy = months[i].y; vm = months[i].m; $("mPick").value = i; } view = "grid"; render(); toast("Menampilkan bulan berjalan.", "info"); };
+      $("fReset").onclick = () => { $("fQ").value = ""; $("fSem").value = ""; $("fKat").value = ""; $("fSort").value = "asc"; $("fLms").checked = false; $("fPenting").checked = false; render(); };
+      $("bIcs").onclick = ics; $("bPrint").onclick = cetak;
+      $("mBtn").onclick = () => $("mMenu").classList.toggle("hidden");
+      document.querySelectorAll("#mMenu a").forEach(a => a.onclick = () => $("mMenu").classList.add("hidden"));
+      reveal(); refreshIcons();
+    })();
+  </script>
+</body>
+</html>
