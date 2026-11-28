@@ -443,7 +443,7 @@ section.ls-dark .text-slate-500,section.ls-dark .text-slate-400{color:${al("#fff
 section.ls-dark .bg-white{background:${al("#ffffff",.08)}!important;border-color:${al("#ffffff",.16)}!important}
 .ls-reveal{opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.2,.7,.3,1),transform .6s cubic-bezier(.2,.7,.3,1)}
 .ls-reveal.ls-in{opacity:1;transform:none}
-html.ls-app{--hdr-h:0px}html.ls-app body{padding-top:0}
+html.ls-app,html.ls-auth{--hdr-h:0px}html.ls-app body,html.ls-auth body{padding-top:0}
 html.ls-app #lsHeader{z-index:60}
 html.ls-app #sidebar{top:var(--hdr-h)!important;bottom:0;height:auto!important}
 html.ls-app header:not(#lsHeader){top:var(--hdr-h)!important}
@@ -533,10 +533,10 @@ function chrome(){
     document.body.prepend(d);
   }
   let pr=document.getElementById("lsProgress");
-  if(CFG.body.progresBaca&&!APP){ if(!pr){ pr=document.createElement("div"); pr.id="lsProgress"; document.body.appendChild(pr);} }
+  if(CFG.body.progresBaca&&!APP&&!AUTH){ if(!pr){ pr=document.createElement("div"); pr.id="lsProgress"; document.body.appendChild(pr);} }
   else if(pr) pr.remove();
   let top=document.getElementById("lsTop");
-  if(CFG.body.keAtas&&!APP){
+  if(CFG.body.keAtas&&!APP&&!AUTH){
     if(!top){ top=document.createElement("button"); top.id="lsTop"; top.type="button"; top.setAttribute("aria-label","Kembali ke atas");
       top.innerHTML='<i data-lucide="arrow-up" class="w-5 h-5"></i>'; top.style.right="20px"; top.style.bottom=(CFG.fab.waAktif?CFG.fab.waUkuran+30:20)+"px";
       top.onclick=()=>window.scrollTo({top:0,behavior:reduce?"auto":"smooth"}); document.body.appendChild(top); }
@@ -544,7 +544,7 @@ function chrome(){
 
   const fabCfg=CFG.fab;
   let fab=document.getElementById("lsFab")||document.getElementById("fabWa");
-  if(fabCfg.waAktif&&!APP){
+  if(fabCfg.waAktif&&!APP&&!AUTH){
     if(!fab){ fab=document.createElement("a"); fab.target="_blank"; fab.rel="noopener"; document.body.appendChild(fab); }
     fab.id="lsFab"; fab.removeAttribute("data-ls");
     const col=fabCfg.waWarna==="amber"?t.accent:fabCfg.waWarna==="gelap"?t.ink:t.primary;
@@ -811,7 +811,8 @@ function render(){
   const of=document.getElementById("lsFooter"); if(of) of.remove();
   // FIXED: Panel Admin/Seeder punya bilah atas sendiri. Header & footer SITUS PUBLIK tidak dipasang di sana
   // (dulu tampil di atas admin dan tautannya -Profil, Program, Kontak...- membuka beranda publik).
-  if(!APP){
+  // Halaman Login Administrator (AUTH) juga TANPA header & footer situs: hanya form login (permintaan pemilik situs).
+  if(!APP&&!AUTH){
     document.body.insertAdjacentHTML("afterbegin",headerHTML());
     document.body.insertAdjacentHTML("beforeend",footerHTML());
   }
