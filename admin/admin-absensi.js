@@ -120,4 +120,4 @@ async function absQR(B) {
 }
 
 MOD.absensi = { title: "Absensi Siswa (QR Code)", desc: "Scan kartu QR siswa via kamera, input manual, rekap harian, cetak kartu QR.", render: "renderAbsensi" };
-MOD["absensi-guru"] = { title: "Absensi Guru & TU", file: "absensi-guru.json", fields: F["absensi-guru"], cols: ["tanggal", "guru_id", "jam_masuk", "jam_pulang", "status"], preload: ["guru.json"], fmts: { tanggal: fmtTgl, guru_id: namaGuru } };
+MOD["absensi-guru"] = { title: "Absensi Guru & TU", desc: "Presensi harian guru dan tenaga kependidikan: jam masuk, jam pulang, dan status.", file: "absensi-guru.json", fields: F["absensi-guru"], cols: ["tanggal", "guru_id", "jam_masuk", "jam_pulang", "status"], preload: ["guru.json"], fmts: { tanggal: fmtTgl, guru_id: namaGuru } };

@@ -28,4 +28,4 @@ async function renderDashboard() {
   refreshIcons();
 }
 
-MOD.dashboard = { title: "Dashboard", render: "renderDashboard" };
+MOD.dashboard = { title: "Dashboard", desc: "Ringkasan data sekolah: siswa, keuangan, absensi, dan aktivitas terbaru.", render: "renderDashboard" };

@@ -31,7 +31,7 @@ Login admin memakai GitHub Personal Access Token (PAT).
 - **Media Library** (`#/media`, admin/admin-media.js): upload JPG/PNG/WebP (maks 2 MB), drag & drop, pratinjau, kompres di browser (lebar maks 1600px, WebP/JPEG 0,8),
   disimpan ke `assets/uploads/` lewat GitHub Contents API (`pushBinary` di app.js, token dari sessionStorage), metadata di `data/media.json`
   `{id, nama, file, url, ukuran, dipakai_di, tanggal_upload}`. Form Slider & Kegiatan memakai widget **Upload/Pilih dari Library + Tempel Link URL**;
-  kolom `gambar`/`foto` tetap berupa string URL. Gambar baru tampil di situs publik setelah GitHub Pages selesai publish (±1 menit).
+  kolom `gambar`/`foto` tetap berupa string URL. Widget yang sama juga dipakai di **UI/Tampilan** (logo header, foto profil About Us, foto kartu fasilitas) dan **Form Login** (foto latar). Gambar baru tampil di situs publik setelah GitHub Pages selesai publish (±1 menit).
 
 ## Modul (7 wajib)
 A. Akademik: PPDB Online, Data Induk (Dapodik), Rombel, Mutasi, Absensi QR, e-Rapor Merdeka & K13

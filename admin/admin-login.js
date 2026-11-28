@@ -77,7 +77,7 @@ const CTRL = [
   { g:"Tema", k:"aksen", t:"color", l:"Aksen utama (kosong = palet)", i:"pipette" },
   { g:"Tema", k:"aksen2", t:"color", l:"Aksen kedua", i:"pipette" },
   { g:"Tema", k:"latar", t:"sel", l:"Jenis latar", i:"image", opts:LATAR },
-  { g:"Tema", k:"gambar_latar", t:"txt", l:"URL foto latar", i:"link" },
+  { g:"Tema", k:"gambar_latar", t:"img", l:"Foto latar (untuk latar \"Foto + scrim\")", i:"link" },
   { g:"Tema", k:"overlay", t:"range", l:"Kegelapan scrim", i:"contrast", min:0, max:95, step:1, fmt:v=>v+"%" },
   { g:"Tema", k:"aurora", t:"tog", l:"Cahaya aurora", i:"sun" },
   { g:"Tema", k:"aurora_kecepatan", t:"range", l:"Kecepatan aurora", i:"gauge", min:6, max:80, step:1, fmt:v=>v+"s / siklus" },
@@ -149,6 +149,7 @@ function render(){
       if (c.t === "range") return '<div class="mb-3">'+head+'<input id="lg_'+c.k+'" type="range" min="'+c.min+'" max="'+c.max+'" step="'+(c.step||1)+'" value="'+v+'" class="w-full accent-emerald-600"></div>';
       if (c.t === "sel") return '<div class="mb-3">'+head+'<select id="lg_'+c.k+'" '+INP+'>'+c.opts.map(o=>'<option value="'+o[0]+'" '+(String(v)===String(o[0])?"selected":"")+'>'+o[1]+'</option>').join("")+'</select></div>';
       if (c.t === "color") return '<div class="mb-3">'+head+'<div class="flex gap-2"><input id="lg_'+c.k+'" type="color" value="'+(/^#[0-9a-f]{6}$/i.test(v||"")?v:"#10b981")+'" class="h-9 w-14 rounded-lg border border-slate-300 cursor-pointer"><input id="lgt_'+c.k+'" value="'+esc(v||"")+'" placeholder="kosong" class="flex-1 rounded-lg border border-slate-300 px-2 py-1.5 text-[11px] font-mono"></div></div>';
+      if (c.t === "img") return '<div class="mb-3">' + imageFieldHTML(null, v, c.l, { attrs: 'id="lg_' + c.k + '"', compact: true }) + "</div>";
       if (c.t === "area") return '<div class="mb-3">'+head+'<textarea id="lg_'+c.k+'" rows="3" '+INP+'>'+esc(v)+'</textarea></div>';
       return '<div class="mb-3">'+head+'<input id="lg_'+c.k+'" value="'+esc(v)+'" '+INP+'></div>';
     }).join("");
@@ -209,7 +210,7 @@ function paintPreview(){
   const rc = repoCfg();
   const w = device === "mobile" ? 390 : device === "tablet" ? 760 : 9999;
   host.style.maxWidth = w === 9999 ? "100%" : w + "px";
-  VIEW = LoginView.mount(host, C, { repo: rc, school: SCHOOL, force: device });
+  VIEW = LoginView.mount(host, typeof mediaPreviewCfg === "function" ? mediaPreviewCfg(C) : C, { repo: rc, school: SCHOOL, force: device });
   VIEW.onSubmit((tok, api) => {
     api.busy(true, "Memverifikasi…");
     setTimeout(() => { api.busy(false); api.veil("ok","Pratinjau berhasil","Simulasi tampilan sukses. Tidak ada permintaan jaringan.","Tutup"); }, 800);
@@ -240,6 +241,7 @@ function wire(rc){
     });
     paintPreview(); setState("normal");
   };
+  imageFieldBind(app);   // widget Upload/Library/URL (Media Library)
   CTRL.forEach(c => {
     const e = el("lg_" + c.k); if (!e) return;
     e.oninput = () => { if (c.t === "color") { const t = el("lgt_" + c.k); if (t) t.value = e.value; } live(); };

@@ -58,7 +58,7 @@ const S = [
   ["Header","header.border","tog","Garis bawah","minus"],
   ["Header","header.bayangan","tog","Bayangan saat digulir","cloud"],
   ["Header","header.logoIkon","sel","Ikon logo","shapes",opt(["school","graduation-cap","shield-check","book-open","building-2","sparkles","landmark","atom"])],
-  ["Header","header.logoGambar","txt","URL gambar logo (opsional)","link"],
+  ["Header","header.logoGambar","img","Gambar logo (opsional)","link"],
   ["Header","header.logoBentuk","sel","Bentuk logo","square",opt([["kotak","Kotak"],["bulat","Bulat"],["bebas","Tanpa bingkai"]])],
   ["Header","header.logoUkuran","range","Ukuran logo","scaling",28,56,1,v=>v+"px"],
   ["Header","header.tampilkanNama","tog","Tampilkan nama sekolah","type"],
@@ -103,7 +103,7 @@ const S = [
   ["Body","body.seksi.profil.latar","sel","Latar profil","paintbrush",opt(U.BGVAR)],
   ["Body","body.seksi.profil.eyebrow","txt","Eyebrow profil","badge"],
   ["Body","body.seksi.profil.judul","txt","Judul profil","heading"],
-  ["Body","body.seksi.profil.foto","txt","URL foto profil","image"],
+  ["Body","body.seksi.profil.foto","img","Foto profil (About Us)","image"],
   ["Body","body.seksi.profil.kepsekKartu","tog","Kartu Founder / Kepala Sekolah","id-card"],
   ["Body","body.seksi.profil.brosurAktif","tog","Tombol e-brochure","download"],
   ["Body","body.seksi.profil.brosurLabel","txt","Label e-brochure","tag"],
@@ -190,7 +190,7 @@ function styleOnce(){
 }
 function push(){
   const f = el("uiFrame"); if (!f || !f.contentWindow) return;
-  try { f.contentWindow.postMessage({ lsui:"cfg", cfg:C }, "*"); } catch (e) {}
+  try { f.contentWindow.postMessage({ lsui:"cfg", cfg: typeof mediaPreviewCfg === "function" ? mediaPreviewCfg(C) : C }, "*"); } catch (e) {}
 }
 function pushScroll(id){
   const f = el("uiFrame"); if (!f || !f.contentWindow) return;
@@ -206,6 +206,7 @@ function ctrlHTML(){
       if (t === "range") return '<div class="mb-3">'+head+'<input data-ui="'+p+'" type="range" min="'+a+'" max="'+b+'" step="'+c+'" value="'+v+'" class="w-full accent-emerald-600"></div>';
       if (t === "sel") return '<div class="mb-3">'+head+'<select data-ui="'+p+'" '+INP+'>'+a.map(o=>'<option value="'+esc(o[0])+'" '+(String(v)===String(o[0])?"selected":"")+'>'+esc(o[1])+'</option>').join("")+'</select></div>';
       if (t === "color") return '<div class="mb-3">'+head+'<div class="flex gap-2"><input data-ui="'+p+'" type="color" value="'+esc(v||"#000000")+'" class="h-9 w-14 rounded-lg border border-slate-300 cursor-pointer"><input data-uit="'+p+'" value="'+esc(v||"")+'" class="flex-1 rounded-lg border border-slate-300 px-2 py-1.5 text-[11px] font-mono"></div></div>';
+      if (t === "img") return '<div class="mb-3">' + imageFieldHTML(null, v, l, { attrs: 'data-ui="' + p + '"', compact: true }) + "</div>";
       if (t === "area") return '<div class="mb-3">'+head+'<textarea data-ui="'+p+'" rows="3" '+INP+'>'+esc(v)+'</textarea></div>';
       return '<div class="mb-3">'+head+'<input data-ui="'+p+'" value="'+esc(v)+'" '+INP+'></div>';
     };
@@ -216,7 +217,7 @@ function ctrlHTML(){
     if (g === "Body") extra = orderEd() +
       listEd("body.seksi.statistik.items", [["ikon","Ikon"],["label","Label"],["sumber","Sumber"],["warna","Warna"]], "Kartu statistik") +
       listEd("body.seksi.program.kartu", [["kode","Kode"],["nama","Nama"],["desk","Deskripsi"],["ikon","Ikon"],["href","Tautan"],["warna","Warna"]], "Kartu program") +
-      listEd("body.seksi.fasilitas.items", [["nama","Nama"],["ikon","Ikon"],["ket","Keterangan"],["foto","URL foto"]], "Kartu fasilitas") +
+      listEd("body.seksi.fasilitas.items", [["nama","Nama"],["ikon","Ikon"],["ket","Keterangan"],["foto","Foto fasilitas","img"]], "Kartu fasilitas") +
       listEd("body.seksi.kontak.tombol", [["label","Label"],["href","Tujuan"],["ikon","Ikon"],["gaya","Gaya"]], "Tombol kontak");
     if (g === "Footer") extra = socialEd("footer.sosial", "Ikon sosial footer") + groupEd();
     const secBtn = g === "Body" ? '<div class="flex flex-wrap gap-1.5 mb-3">'+U.SECTIONS.map(s=>'<button type="button" data-sec="'+s[0]+'" class="ui-sec px-2.5 py-1 rounded-lg border border-slate-200 text-[10.5px] font-bold" data-on="'+(focusSec===s[0]?1:0)+'">'+s[1]+'</button>').join("")+'</div>' : "";
@@ -226,7 +227,7 @@ function ctrlHTML(){
 function listEd(path, fields, title){
   const arr = get(path) || [];
   const rows = arr.map((it, i) => '<div class="rounded-xl border border-slate-200 p-2 mb-2 bg-white">'+
-    '<div class="flex flex-wrap gap-1.5 mb-1.5">'+fields.map(f=>'<input data-lp="'+path+'" data-li="'+i+'" data-lk="'+f[0]+'" value="'+esc(it[f[0]]??"")+'" placeholder="'+f[1]+'" class="flex-1 min-w-[90px] rounded-lg border border-slate-300 px-2 py-1.5 text-[11px]">').join("")+'</div>'+
+    '<div class="flex flex-wrap gap-1.5 mb-1.5">'+fields.map(f=>f[2]==="img" ? '<div class="w-full">'+imageFieldHTML(null, it[f[0]], f[1], { attrs: 'data-lp="'+path+'" data-li="'+i+'" data-lk="'+f[0]+'"', compact: true })+'</div>' : '<input data-lp="'+path+'" data-li="'+i+'" data-lk="'+f[0]+'" value="'+esc(it[f[0]]??"")+'" placeholder="'+f[1]+'" class="flex-1 min-w-[90px] rounded-lg border border-slate-300 px-2 py-1.5 text-[11px]">').join("")+'</div>'+
     '<div class="flex gap-1.5 justify-end">'+
       '<button type="button" data-lup="'+path+'" data-li="'+i+'" class="w-7 h-7 rounded-lg border border-slate-200 text-[11px]">↑</button>'+
       '<button type="button" data-ldn="'+path+'" data-li="'+i+'" class="w-7 h-7 rounded-lg border border-slate-200 text-[11px]">↓</button>'+
@@ -319,6 +320,7 @@ function live(){
   C = U.norm(C); push();
 }
 function wire(){
+  if (typeof imageFieldBind === "function") imageFieldBind(el("uiCtrls") || document);   // widget Upload/Library/URL (Media Library)
   document.querySelectorAll("[data-ui]").forEach(e => { e.oninput = live; e.onchange = live; });
   document.querySelectorAll("[data-uit]").forEach(e => { e.oninput = () => { const c = document.querySelector('[data-ui="' + e.dataset.uit + '"]'); if (c && /^#[0-9a-f]{6}$/i.test(e.value.trim())) c.value = e.value.trim(); live(); }; });
 

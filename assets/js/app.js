@@ -24,8 +24,9 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&l
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 const trunc = (v, n = 60) => { const s = String(v ?? ""); return s.length > n ? s.slice(0, n) + "…" : s; };
 const fmtRp = v => new Intl.NumberFormat("id-ID", { style:"currency", currency:"IDR", minimumFractionDigits:0 }).format(Number(v) || 0);
-const fmtTgl = v => { if (!v) return "-"; const d = new Date(v); return isNaN(d) ? v : d.toLocaleDateString("id-ID", { day:"2-digit", month:"short", year:"numeric" }); };
-const fmtWaktu = v => { if (!v) return "-"; const d = new Date(v); return isNaN(d) ? v : d.toLocaleString("id-ID", { dateStyle:"medium", timeStyle:"short" }); };
+const fmtTgl = v => { if (!v) return "-"; const d = new Date(v); return isNaN(d) ? esc(v) : d.toLocaleDateString("id-ID", { day:"2-digit", month:"short", year:"numeric" }); };
+// KEAMANAN: bila nilai bukan tanggal valid, kembalikan versi ter-escape (hasil fungsi ini dipakai langsung di innerHTML di banyak tempat).
+const fmtWaktu = v => { if (!v) return "-"; const d = new Date(v); return isNaN(d) ? esc(v) : d.toLocaleString("id-ID", { dateStyle:"medium", timeStyle:"short" }); };
 const today = () => { const d = new Date(); return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0"); };
 const nowTime = () => { const d = new Date(); return String(d.getHours()).padStart(2,"0") + ":" + String(d.getMinutes()).padStart(2,"0"); };
 const BULAN = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
@@ -111,7 +112,8 @@ async function _fetchJSON(file, force=false){
   if(sha) SHA_MEM[file]=sha; else delete SHA_MEM[file];
   const t=Date.now();
   // PERF: JSON.stringify + sessionStorage.setItem bersifat sinkron; tunda ke saat idle
-  _idle(()=>{ try{ sessionStorage.setItem(k,JSON.stringify({t,d,s:sha})); }catch(e){} });
+  // FIXED: jangan menimpa cache yang LEBIH BARU (mis. hasil pushJSON yang ditulis segera setelah bacaan ini) dengan data bacaan lama.
+  _idle(()=>{ try{ const cur=JSON.parse(sessionStorage.getItem(k)); if(cur&&cur.t>=t) return; }catch(e){} try{ sessionStorage.setItem(k,JSON.stringify({t,d,s:sha})); }catch(e){} });
   return d;
 }
 function clearDataCache(){ Object.keys(sessionStorage).filter(k=>k.startsWith("sicache:")).forEach(k=>sessionStorage.removeItem(k)); Object.keys(SHA_MEM).forEach(k=>delete SHA_MEM[k]); /* FIXED: SHA ikut dibersihkan */ }
@@ -320,8 +322,20 @@ function merge(base, add){
   return out;
 }
 const clamp = (v,a,b) => Math.max(a, Math.min(b, Number(v)||0));
+// KEAMANAN: nilai warna dari ui.json dimasukkan ke atribut style="...". Setiap kunci yang bawaannya (DEF) berupa warna #hex wajib
+// berformat warna yang aman (#hex, rgb()/rgba(), hsl()/hsla(), atau nama warna huruf); selain itu dikembalikan ke bawaan.
+const SAFE_COLOR = /^(#[0-9a-f]{3,8}|rgba?\(\s*[\d.\s,%]+\)|hsla?\(\s*[\d.\s,%a-z]+\)|[a-z]{3,20})$/i;
+function fixColors(node, def){
+  if(!node || typeof node!=="object" || Array.isArray(node) || !def || typeof def!=="object") return;
+  Object.keys(def).forEach(k=>{
+    const d=def[k], v=node[k];
+    if(typeof d==="string" && /^#[0-9a-f]{3,8}$/i.test(d)){ if(typeof v!=="string" || !SAFE_COLOR.test(v.trim())) node[k]=d; else node[k]=v.trim(); }
+    else if(d && typeof d==="object" && !Array.isArray(d)) fixColors(v,d);
+  });
+}
 function norm(c){
   const m = merge(DEF, c || {});
+  fixColors(m, DEF);
   const t = m.tema, th = THEMES[t.preset] || THEMES.zamrud;
   t.primary = /^#[0-9a-f]{6}$/i.test(t.primary||"") ? t.primary : th.p;
   t.accent = /^#[0-9a-f]{6}$/i.test(t.accent||"") ? t.accent : th.a;

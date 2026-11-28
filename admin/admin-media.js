@@ -51,6 +51,9 @@ const mediaSlug = n => (String(n).replace(/\.[^.]+$/, "").toLowerCase().normaliz
 const mediaUniqueName = (orig, ext) => mediaSlug(orig) + "-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5) + "." + ext;
 const blobToB64 = blob => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(String(r.result).split(",")[1]); r.onerror = () => rej(new Error("Gagal membaca berkas.")); r.readAsDataURL(blob); });
 
+// Salinan dalam dari obj dengan URL upload yang belum terpublish diganti blob: lokal — dipakai pratinjau langsung (UI/Tampilan, Form Login).
+function mediaPreviewCfg(obj) { return JSON.parse(JSON.stringify(obj, (k, v) => (typeof v === "string" && mediaLocal[v]) ? mediaLocal[v] : v)); }
+
 // ---------- Pemakaian gambar (untuk peringatan hapus & dipakai_di) ----------
 async function mediaUsageMap() {
   const map = {}; const add = (url, label) => { if (!url) return; (map[url] = map[url] || []).push(label); };
@@ -59,10 +62,22 @@ async function mediaUsageMap() {
   const kg = await fetchJSON("kegiatan.json").catch(() => []);
   const kgBy = {}; (Array.isArray(kg) ? kg : []).forEach(k => { if (k.foto) (kgBy[k.foto] = kgBy[k.foto] || []).push(k.judul || k.id); });
   Object.keys(kgBy).forEach(u => add(u, "Kegiatan: " + kgBy[u][0] + (kgBy[u].length > 1 ? " +" + (kgBy[u].length - 1) + " lainnya" : "")));
+  // Label pemakaian dibuat spesifik agar admin tahu persis di mana gambar dipakai.
+  const nice = (lab, path, parent) => {
+    if (path === "header.logoGambar") return lab + ": logo header";
+    if (path === "body.seksi.profil.foto") return lab + ": foto profil (About Us)";
+    if (/fasilitas\.items\[\d+\]\.foto$/.test(path)) return lab + ": foto fasilitas \u00ab" + ((parent && parent.nama) || "?") + "\u00bb";
+    if (path === "gambar_latar") return lab + ": foto latar";
+    return lab + ": " + path;
+  };
   for (const [f, lab] of [["ui.json", "Tampilan"], ["login.json", "Form Login"], ["settings.json", "Pengaturan"], ["galeri.json", "Galeri"]]) {
     const d = await fetchJSON(f).catch(() => null); if (!d) continue;
-    const walk = v => { if (typeof v === "string") { if (v.indexOf(UPLOAD_DIR) === 0) add(v, lab); } else if (v && typeof v === "object") Object.values(v).forEach(walk); };
-    walk(d);
+    const walk = (v, path, parent) => {
+      if (typeof v === "string") { if (v.indexOf(UPLOAD_DIR) === 0) add(v, nice(lab, path, parent)); }
+      else if (Array.isArray(v)) v.forEach((x, i) => walk(x, path + "[" + i + "]", v[i]));
+      else if (v && typeof v === "object") Object.keys(v).forEach(k => walk(v[k], path ? path + "." + k : k, v));
+    };
+    walk(d, "", null);
   }
   return map;
 }
@@ -133,20 +148,24 @@ async function openMediaPicker(onPick) {
 
 // ---------- Widget isian gambar (dipakai form Slider & Kegiatan) ----------
 // Menjaga SATU <input name="..."> berisi string URL (struktur data tidak berubah). Tab 1: Upload / Pilih dari Library; Tab 2: Tempel Link URL.
-function imageFieldHTML(name, value, label) {
-  const v = value || "", isUrl = /^https?:\/\//i.test(v);
+// opts.attrs  : atribut mentah untuk <input> URL (mis. 'data-ui="header.logoGambar"'); default name="<name>".
+// opts.compact: tampilan ringkas untuk panel kontrol sempit (UI/Tampilan, Form Login).
+function imageFieldHTML(name, value, label, opts) {
+  opts = opts || {};
+  const v = value || "", isUrl = /^https?:\/\//i.test(v), pad = opts.compact ? "p-2.5" : "p-4";
+  const attrs = opts.attrs || ('name="' + esc(name) + '"');
   return '<div data-imgf class="block"><div class="flex items-center justify-between gap-2">' + lbl(label) +
     '<div class="inline-flex p-0.5 rounded-lg bg-slate-100 text-[11px] font-bold"><button type="button" data-tab="lib" class="px-2.5 py-1 rounded-md ' + (isUrl ? "text-slate-500" : "bg-white shadow text-emerald-700") + '">Upload / Library</button><button type="button" data-tab="url" class="px-2.5 py-1 rounded-md ' + (isUrl ? "bg-white shadow text-emerald-700" : "text-slate-500") + '">Tempel Link URL</button></div></div>' +
-    '<div data-pane="lib" class="mt-2 ' + (isUrl ? "hidden" : "") + '"><div data-drop tabindex="0" role="button" class="border-2 border-dashed border-slate-300 hover:border-emerald-400 hover:bg-emerald-50/40 rounded-xl p-4 text-center cursor-pointer transition"><i data-lucide="upload-cloud" class="w-6 h-6 mx-auto text-slate-400"></i><div class="text-sm font-semibold text-slate-600 mt-1">Tarik gambar ke sini atau klik untuk upload</div><div class="text-[11px] text-slate-400">JPG, PNG, WebP · maks 2 MB · dikompres otomatis</div></div>' +
+    '<div data-pane="lib" class="mt-2 ' + (isUrl ? "hidden" : "") + '"><div data-drop tabindex="0" role="button" class="border-2 border-dashed border-slate-300 hover:border-emerald-400 hover:bg-emerald-50/40 rounded-xl ' + pad + ' text-center cursor-pointer transition"><i data-lucide="upload-cloud" class="' + (opts.compact ? "w-5 h-5" : "w-6 h-6") + ' mx-auto text-slate-400"></i><div class="' + (opts.compact ? "text-xs" : "text-sm") + ' font-semibold text-slate-600 mt-1">Tarik gambar ke sini atau klik untuk upload</div><div class="text-[11px] text-slate-400">JPG, PNG, WebP · maks 2 MB · dikompres otomatis</div></div>' +
     '<input type="file" accept="image/*" class="hidden" data-file>' +
     '<button type="button" data-pick class="mt-2 inline-flex items-center gap-1.5 text-sm font-bold px-3 py-2 rounded-lg border border-slate-300 hover:bg-slate-50"><i data-lucide="images" class="w-4 h-4"></i>Pilih dari Media Library</button></div>' +
-    '<div data-pane="url" class="mt-2 ' + (isUrl ? "" : "hidden") + '"><input name="' + esc(name) + '" value="' + esc(v) + '" placeholder="https://…" ' + inp + "></div>" +
+    '<div data-pane="url" class="mt-2 ' + (isUrl ? "" : "hidden") + '"><input ' + attrs + ' data-imgin value="' + esc(v) + '" placeholder="https://…" ' + inp + "></div>" +
     '<div data-prev class="mt-2 flex items-center gap-3 ' + (v ? "" : "hidden") + '"><div class="w-16 h-12 rounded-lg overflow-hidden bg-slate-100 border border-slate-200 shrink-0 relative"><img data-thumb alt="" class="w-full h-full object-cover" onerror="this.style.visibility=\'hidden\'"></div><div class="min-w-0 text-[11px] text-slate-500"><div data-curname class="font-semibold text-slate-700 truncate"></div><button type="button" data-clear class="text-red-600 hover:underline font-bold">Hapus gambar</button></div></div></div>';
 }
 function imageFieldBind(root, name) {
   (root || document).querySelectorAll("[data-imgf]").forEach(w => {
     if (w.dataset.bound) return; w.dataset.bound = "1";
-    const input = w.querySelector('input[name]'), file = w.querySelector("[data-file]"), thumb = w.querySelector("[data-thumb]"), prev = w.querySelector("[data-prev]"), curname = w.querySelector("[data-curname]");
+    const input = w.querySelector("[data-imgin]"), file = w.querySelector("[data-file]"), thumb = w.querySelector("[data-thumb]"), prev = w.querySelector("[data-prev]"), curname = w.querySelector("[data-curname]");
     const refresh = () => {
       const v = input.value.trim(); prev.classList.toggle("hidden", !v);
       if (v) { thumb.style.visibility = ""; thumb.src = mediaSrc(v); curname.textContent = v.replace(/^.*\//, "").slice(0, 60); }

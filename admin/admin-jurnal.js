@@ -13,4 +13,4 @@ F.jurnal = [
     { k: "catatan", l: "Catatan Kelas", t: "textarea", full: true, req: false }
   ];
 
-MOD.jurnal = { title: "Jurnal Mengajar", file: "jurnal.json", fields: F.jurnal, cols: ["tanggal", "guru_id", "kelas", "mapel", "jam_ke", "materi"], preload: ["guru.json"], fmts: { tanggal: fmtTgl, guru_id: namaGuru } };
+MOD.jurnal = { title: "Jurnal Mengajar", desc: "Catatan kegiatan mengajar guru per kelas dan mata pelajaran.", file: "jurnal.json", fields: F.jurnal, cols: ["tanggal", "guru_id", "kelas", "mapel", "jam_ke", "materi"], preload: ["guru.json"], fmts: { tanggal: fmtTgl, guru_id: namaGuru } };
