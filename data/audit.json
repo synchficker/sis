@@ -1,5 +1,13 @@
 [
   {
+    "id": "mx0gchinr5hj6",
+    "waktu": "2026-11-28T13:34:43.631Z",
+    "aktor": "synchficker",
+    "modul": "LMS/CBT",
+    "aksi": "IMPOR HASIL CBT",
+    "detail": "1 hasil dari hasil-cbt-U0002-20260001.json"
+  },
+  {
     "id": "mx0a79ha4iy4y",
     "waktu": "2026-11-28T10:42:42.238Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Komunikasi",
     "aksi": "TAMBAH",
     "detail": "Buku Pendidikan Pancasila"
-  },
-  {
-    "id": "AU0487",
-    "waktu": "2026-11-17T13:33:53.553Z",
-    "aktor": "admin",
-    "modul": "Keuangan",
-    "aksi": "IMPOR",
-    "detail": "Kelas 12 IPA AS"
   }
 ]
