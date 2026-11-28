@@ -1,5 +1,13 @@
 [
   {
+    "id": "mx0gh9oy70kyc",
+    "waktu": "2026-11-28T13:38:26.770Z",
+    "aktor": "synchficker",
+    "modul": "LMS/CBT",
+    "aksi": "EDIT UJIAN",
+    "detail": "Formatif Bahasa Inggris — 9BD #2"
+  },
+  {
     "id": "mx0gchinr5hj6",
     "waktu": "2026-11-28T13:34:43.631Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Sistem",
     "aksi": "PUBLIKASI",
     "detail": "Kelas 3AT"
-  },
-  {
-    "id": "AU0486",
-    "waktu": "2026-11-19T22:50:09.553Z",
-    "aktor": "operator",
-    "modul": "Komunikasi",
-    "aksi": "TAMBAH",
-    "detail": "Buku Pendidikan Pancasila"
   }
 ]
