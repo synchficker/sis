@@ -1,5 +1,13 @@
 [
   {
+    "id": "mx0a4r3plbq6x",
+    "waktu": "2026-11-28T10:40:45.109Z",
+    "aktor": "synchficker",
+    "modul": "Sistem",
+    "aksi": "UPDATE PENGATURAN",
+    "detail": "SIN School"
+  },
+  {
     "id": "mx0a0mmpipnfa",
     "waktu": "2026-11-28T10:37:32.689Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "Perpustakaan",
     "aksi": "URUTKAN",
     "detail": "Tagihan SPP Februari"
-  },
-  {
-    "id": "AU0489",
-    "waktu": "2026-11-19T20:18:09.553Z",
-    "aktor": "bendahara",
-    "modul": "Komunikasi",
-    "aksi": "URUTKAN",
-    "detail": "Buku Geografi Regional"
   }
 ]
