@@ -1,5 +1,13 @@
 [
   {
+    "id": "mx0grjv0b08yi",
+    "waktu": "2026-11-28T13:46:26.508Z",
+    "aktor": "synchficker",
+    "modul": "Konten Website",
+    "aksi": "UPDATE FORM LOGIN",
+    "detail": "zamrud · split · sesi 120m"
+  },
+  {
     "id": "mx0gn6uq7q22m",
     "waktu": "2026-11-28T13:43:03.026Z",
     "aktor": "synchficker",
@@ -3990,13 +3998,5 @@
     "modul": "LMS/CBT",
     "aksi": "PUBLIKASI",
     "detail": "Tagihan SPP Agustus"
-  },
-  {
-    "id": "AU0484",
-    "waktu": "2026-11-19T17:23:50.553Z",
-    "aktor": "bendahara",
-    "modul": "Keuangan",
-    "aksi": "SCAN QR",
-    "detail": "Buku Ceros & Batozar Jilid 5"
   }
 ]
